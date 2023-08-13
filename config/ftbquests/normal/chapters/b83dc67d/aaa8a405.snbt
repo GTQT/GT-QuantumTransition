@@ -1,0 +1,25 @@
+{
+	x: 3.5d,
+	y: 1.5d,
+	dependencies: [
+		"218ce5c8"
+	],
+	tasks: [{
+		uid: "57d797ea",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:oxygen_mask"
+		}]
+	}],
+	rewards: [{
+		uid: "a0aaaf27",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	},
+	{
+		uid: "0736621c",
+		type: "item",
+		item: "gregtech:transparent_casing",
+		count: 32
+	}]
+}

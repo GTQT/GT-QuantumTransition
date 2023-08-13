@@ -1,0 +1,23 @@
+{
+	x: -2.0d,
+	y: 14.0d,
+	text: [
+		"可以提供2700K的炉温，让你的高炉可以熔炼更多物品"
+	],
+	dependencies: [
+		"bafb7ab1"
+	],
+	tasks: [{
+		uid: "216a059e",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil 1 1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "39e0f9c7",
+		type: "random",
+		table: 9
+	}]
+}

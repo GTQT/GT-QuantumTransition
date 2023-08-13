@@ -1,0 +1,24 @@
+{
+	title: "蒸馏水",
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"5c9f2399"
+	],
+	tasks: [{
+		uid: "45eb2f48",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "distilled_water",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

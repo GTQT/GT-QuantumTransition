@@ -1,0 +1,20 @@
+{
+	x: 11.5d,
+	y: 4.0d,
+	dependencies: [
+		"245e01e5"
+	],
+	tasks: [{
+		uid: "bbb55833",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "liquid_helium",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

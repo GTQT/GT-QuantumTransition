@@ -1,0 +1,12 @@
+{
+	x: 8.0d,
+	y: 4.0d,
+	size: 4.0d,
+	tasks: [{
+		uid: "f382a7de",
+		type: "item",
+		items: [{
+			item: "contenttweaker:keqing1_item"
+		}]
+	}]
+}

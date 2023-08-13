@@ -1,0 +1,19 @@
+{
+	x: 9.0d,
+	y: -1.0d,
+	dependencies: [
+		"edfe5ae7"
+	],
+	tasks: [{
+		uid: "d0571249",
+		type: "item",
+		items: [{
+			id: "emt:thaumiumwing",
+			tag: {
+				hasIC2Jetpack: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

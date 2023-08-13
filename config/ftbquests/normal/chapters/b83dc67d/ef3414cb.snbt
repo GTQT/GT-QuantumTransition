@@ -1,0 +1,25 @@
+{
+	x: 6.5d,
+	y: 1.5d,
+	dependencies: [
+		"218ce5c8"
+	],
+	tasks: [{
+		uid: "9dfd6d8a",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:parachute"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "37f5c12a",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	},
+	{
+		uid: "6b56a092",
+		type: "item",
+		item: "galacticraftcore:oxygen_tank_light_full 1 900"
+	}]
+}

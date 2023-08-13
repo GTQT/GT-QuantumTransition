@@ -1,0 +1,35 @@
+{
+	x: 7.0d,
+	y: 11.0d,
+	text: [
+		"激光刻蚀机用激光束在材料上出蚀刻特殊的纹理。当然，这种精密的工作必须在十分清洁，没有灰尘的环境(超净间)之内进行。",
+		"它是至关重要的电路制造设备，科技线机器。"
+	],
+	dependencies: [
+		"80eb8b1c"
+	],
+	dependency_requirement: "one_completed",
+	size: 2.0d,
+	tasks: [{
+		uid: "c4d28ba9",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 561"
+		}]
+	}],
+	rewards: [{
+		uid: "f860b476",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "db32660e",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "4c0b5108",
+		type: "item",
+		item: "gregtech:meta_item_1 1 3"
+	}]
+}

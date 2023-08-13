@@ -1,0 +1,43 @@
+{
+	title: "别让自己受伤",
+	x: 4.0d,
+	y: 2.0d,
+	description: "禁止携带管制刀具",
+	text: [
+		"无论是获取熟肉还是与僵尸战斗，还是切割橡胶或者其他什么东西，你都需要这把小刀",
+		"居然还有火焰附加，难以置信"
+	],
+	dependencies: [
+		"452dfcc6"
+	],
+	tasks: [{
+		uid: "d1653d92",
+		type: "item",
+		items: [{
+			id: "gregtech:knife",
+			tag: {
+				DisallowContainerItem: 0b,
+				ench: [{
+					lvl: 2s,
+					id: 20
+				}],
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 64,
+					AttackDamage: 1.0f,
+					Durability: 0,
+					Material: "flint",
+					AttackSpeed: 3.0f
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0c4e9ec2",
+		type: "random",
+		table: 9
+	}]
+}

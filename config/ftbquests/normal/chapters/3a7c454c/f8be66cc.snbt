@@ -1,0 +1,22 @@
+{
+	title: "硝酸混酸",
+	x: 18.5d,
+	y: -3.5d,
+	dependencies: [
+		"a735150f",
+		"a3f5f672"
+	],
+	tasks: [{
+		uid: "dba0d868",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "nitration_mixture",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

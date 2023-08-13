@@ -1,0 +1,25 @@
+{
+	title: "生命之源",
+	x: 17.5d,
+	y: 10.0d,
+	description: "准备好电解水了吗",
+	text: [
+		"首先你需要准备一些水"
+	],
+	dependencies: [
+		"81a33471"
+	],
+	tasks: [{
+		uid: "a8faf40f",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "water",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

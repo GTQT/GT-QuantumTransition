@@ -1,0 +1,12 @@
+{
+	x: 1.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "acf9a01d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_capacitor 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}

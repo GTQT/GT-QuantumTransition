@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 0.5d,
+	dependencies: [
+		"cdcd1917"
+	],
+	tasks: [{
+		uid: "9ca2e6aa",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "b5e99ec0",
+		type: "loot",
+		table: 9
+	}]
+}

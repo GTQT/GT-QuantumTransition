@@ -1,0 +1,18 @@
+{
+	x: 8.0d,
+	y: 4.0d,
+	dependencies: [
+		"377b68c7",
+		"83079dae",
+		"13e8069b"
+	],
+	tasks: [{
+		uid: "ec373811",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "6e4f1fa1",
+		type: "item",
+		item: "betterbuilderswands:wandunbreakable 1 12"
+	}]
+}

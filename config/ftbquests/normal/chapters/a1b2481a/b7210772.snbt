@@ -1,0 +1,17 @@
+{
+	x: -11.5d,
+	y: -12.0d,
+	text: [
+		"与氯化铵反应得到铂盐"
+	],
+	dependencies: [
+		"5ec616af"
+	],
+	tasks: [{
+		uid: "37435a74",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pti_item"
+		}]
+	}]
+}

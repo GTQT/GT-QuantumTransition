@@ -1,0 +1,44 @@
+{
+	x: 24.0d,
+	y: 1.0d,
+	shape: "gear",
+	text: [
+		"查询多方块部分"
+	],
+	dependencies: [
+		"9bf587fb"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "0e367c27",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1019"
+		}]
+	}],
+	rewards: [{
+		uid: "96a2efdf",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "c3ea7e49",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "0e8a3e98",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "0db4cf6f",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	},
+	{
+		uid: "8beaa49e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	}]
+}

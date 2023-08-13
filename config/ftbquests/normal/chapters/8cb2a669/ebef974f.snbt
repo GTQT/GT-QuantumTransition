@@ -1,0 +1,22 @@
+{
+	x: 6.5d,
+	y: -2.0d,
+	description: "不太文明的生物工程",
+	text: [
+		"你先别急",
+		"",
+		"本多方块可以消耗你不需要的作物，或者加工生物质到沼气用来发电！",
+		"当然，你也可以直接蒸馏沼气得到甲烷。"
+	],
+	dependencies: [
+		"e41e826a"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "3207f0af",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 32021"
+		}]
+	}]
+}

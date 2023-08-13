@@ -1,0 +1,21 @@
+{
+	icon: "gregtech:meta_stick 1 2035",
+	x: 13.5d,
+	y: 5.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "9b795fb3",
+		type: "ftbmoney:money",
+		value: 40L
+	},
+	{
+		uid: "8825f4fe",
+		type: "gamestage",
+		stage: "mv"
+	}],
+	rewards: [{
+		uid: "2a6a5766",
+		type: "item",
+		item: "gregtech:meta_stick 1 2035"
+	}]
+}

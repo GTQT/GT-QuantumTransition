@@ -1,0 +1,52 @@
+{
+	title: "该考虑蒸汽发电了",
+	x: 3.5d,
+	y: 3.0d,
+	description: "你的蒸汽真的很多嘛？",
+	text: [
+		"最高产生MV级的电压，暂时够用了。",
+		"当然你需要足量的蒸汽。"
+	],
+	dependencies: [
+		"c9f41a6f"
+	],
+	tasks: [{
+		uid: "2c1d5cf6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2027"
+		}]
+	},
+	{
+		uid: "15daefb0",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		}]
+	},
+	{
+		uid: "c5441c0f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1657"
+		}]
+	},
+	{
+		uid: "615e251d",
+		type: "item",
+		items: [{
+			item: "gcym:large_multiblock_casing 1 12"
+		}],
+		count: 21L
+	},
+	{
+		uid: "1cf957fc",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1226"
+		},
+		{
+			item: "gregtech:machine 1 1227"
+		}]
+	}]
+}

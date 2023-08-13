@@ -1,0 +1,24 @@
+{
+	title: "木焦油",
+	x: 14.0d,
+	y: 1.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"df4f8bb9"
+	],
+	tasks: [{
+		uid: "340f034a",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "wood_tar",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

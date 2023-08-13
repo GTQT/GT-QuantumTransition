@@ -1,0 +1,20 @@
+{
+	x: 23.5d,
+	y: 3.5d,
+	description: "老六哲学原理",
+	text: [
+		"如果你开了和平就算了"
+	],
+	dependencies: [
+		"2cb18d1d"
+	],
+	tasks: [{
+		uid: "715c2083",
+		type: "item",
+		items: [{
+			item: "minecraft:shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

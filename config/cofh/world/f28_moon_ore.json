@@ -1,0 +1,389 @@
+{
+    "priority": 1,
+	"populate": {
+		"mica_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_kyanite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_mica_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_bauxite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_pollucite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"cluster-size": 40
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28				
+				]
+			}
+		},
+		"molybdenite_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_wulfenite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_molybdenite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_molybdenum_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_powellite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"cluster-size": 40
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 20,
+			"max-height": 50,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28				
+				]
+			}
+		},
+		"monazite_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_bastnasite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_bastnasite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_monazite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_neodymium_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"cluster-size": 40
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 25,
+			"max-height": 45,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28				
+				]
+			}
+		},
+		"uraninite_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_pitchblende_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_pitchblende_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_uraninite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_uraninite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"cluster-size": 40
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 30,
+			"max-height": 60,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28				
+				]
+			}
+		},
+		"barite_red_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_quartzite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_certus_quartz_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_certus_quartz_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_barite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"cluster-size": 40
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 80,
+			"max-height": 120,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28				
+				]
+			}
+		},
+		"cassiterite_iron_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_tin_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_tin_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_cassiterite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_tin_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"cluster-size": 40
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 40,
+			"max-height": 60,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28				
+				]
+			}
+		},
+		"galena_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_galena_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_galena_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_silver_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_lead_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"cluster-size": 40
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 5,
+			"max-height": 45,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28				
+				]
+			}
+		},
+		"aluminium_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_bauxite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_ilmenite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_aluminium_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_ilmenite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"cluster-size": 40
+			},
+			"cluster-count": 1,
+			"chunk-chance": 1,
+			"min-height": 10,
+			"max-height": 80,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28				
+				]
+			}
+		}
+	}
+}

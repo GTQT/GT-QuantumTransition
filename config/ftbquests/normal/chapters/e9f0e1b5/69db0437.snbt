@@ -1,0 +1,20 @@
+{
+	x: 11.5d,
+	y: 5.5d,
+	dependencies: [
+		"76385ee4"
+	],
+	tasks: [{
+		uid: "f6801e3d",
+		type: "item",
+		items: [{
+			id: "aeadditions:storage.physical",
+			tag: {
+				upgrades: {},
+				config: {},
+				fuzzyMode: "IGNORE_ALL"
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

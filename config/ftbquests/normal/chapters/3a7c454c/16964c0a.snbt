@@ -1,0 +1,48 @@
+{
+	x: -1.0d,
+	y: -3.5d,
+	description: "电动玩具",
+	text: [
+		"末影储罐什么垃圾，感觉不如我末影覆盖版"
+	],
+	dependencies: [
+		"a728da35"
+	],
+	tasks: [{
+		uid: "c09ade28",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Mode: 1,
+				Charge: 1600000L
+			},
+			Damage: 467s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f0db3f38",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 311"
+		}]
+	},
+	{
+		uid: "06089c7d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 310"
+		}]
+	}],
+	rewards: [{
+		uid: "d3f3f9ec",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "253cf487",
+		type: "random",
+		table: 2
+	}]
+}

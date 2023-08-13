@@ -1,0 +1,26 @@
+{
+	title: "红石也有合金？",
+	x: 1.5d,
+	y: 9.5d,
+	description: "精准配比",
+	text: [
+		"在合金炉中4个红石与1个铜锭烧制得到1个红色合金锭，用于基础电路板合成，也是超低压机器的线缆。",
+		"化学式非常奇怪，在铜和红石的化合反应中产生了问号元素"
+	],
+	dependencies: [
+		"d1e977d0"
+	],
+	tasks: [{
+		uid: "b28ab25b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2517"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "a189d74e",
+		type: "choice",
+		table: 9
+	}]
+}

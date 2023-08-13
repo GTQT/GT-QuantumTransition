@@ -1,0 +1,24 @@
+{
+	title: "细菌",
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f3cbc283"
+	],
+	tasks: [{
+		uid: "b2f1c38c",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "bacteria",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "你可以把燧石镐丢掉了",
+	icon: "minecraft:iron_pickaxe",
+	x: 23.5d,
+	y: 0.0d,
+	description: "匠魂的工具",
+	text: [
+		"欢迎来到匠魂2！",
+		"你的工具搭配不同的材料将会拥有不同的属性！不过首先你得拥有一把匠魂的工具。"
+	],
+	dependencies: [
+		"bfb24547"
+	],
+	tasks: [{
+		uid: "d4701845",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "6fc4552d",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "e15ac00d",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

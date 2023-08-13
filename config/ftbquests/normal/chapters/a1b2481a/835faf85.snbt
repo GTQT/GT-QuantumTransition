@@ -1,0 +1,37 @@
+{
+	title: "六氯合铂酸铵以及六氯合铂酸钯",
+	x: -13.5d,
+	y: -12.0d,
+	text: [
+		"与氯化铵反应"
+	],
+	dependencies: [
+		"9a91b015"
+	],
+	tasks: [{
+		uid: "033e1a25",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ammonium_hexachloroplatinate",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "68bc7bb4",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ammonium_hexachloropalladate",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

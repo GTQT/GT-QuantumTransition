@@ -1,0 +1,19 @@
+{
+	x: 17.5d,
+	y: 21.0d,
+	description: "不是很贵",
+	text: [
+		"通常与钻石生成在一起，你需要获取一些石墨粉",
+		"你需要制作一台电弧炉制造MV级的电动马达才能获得MV级的发电手段。"
+	],
+	dependencies: [
+		"0f698fcb"
+	],
+	tasks: [{
+		uid: "cd9bb654",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_graphite_0"
+		}]
+	}]
+}

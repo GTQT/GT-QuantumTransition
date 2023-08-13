@@ -1,0 +1,11 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "6dbdf9e6",
+		type: "item",
+		items: [{
+			item: "gregica:meta_item_gcys 1 18"
+		}]
+	}]
+}

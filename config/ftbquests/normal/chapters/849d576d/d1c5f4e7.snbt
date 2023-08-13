@@ -1,0 +1,18 @@
+{
+	x: -1.5d,
+	y: 6.0d,
+	description: "熔炉升级",
+	text: [
+		"更多的燃料，更大的容量，更快的速度！"
+	],
+	dependencies: [
+		"7ccf9a0c"
+	],
+	tasks: [{
+		uid: "db4c35c5",
+		type: "item",
+		items: [{
+			item: "morefurnaces:furnaceblock"
+		}]
+	}]
+}

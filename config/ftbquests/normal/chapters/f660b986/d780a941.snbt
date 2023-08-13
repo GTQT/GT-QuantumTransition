@@ -1,0 +1,19 @@
+{
+	title: "我的油井在哪里",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"你或许早就发现世界上的油井了，不过现在，你有工业化的手段去提取它。"
+	],
+	dependencies: [
+		"85f263a8"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "2b97ce90",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1530"
+		}]
+	}]
+}

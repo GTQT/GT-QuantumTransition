@@ -1,0 +1,40 @@
+{
+  "guiScale": 4,
+  "hudScale": 4,
+  "tooltipScale": 4,
+  "customIndividualGuiScales": {},
+  "customGroupGuiScales": {},
+  "loggedGuiClassNames": [
+    "com.tiviacz.travelersbackpack.gui.GuiWarning",
+    "mod.acgaming.universaltweaks.util.compat.UTObsoleteModsScreen",
+    "rtg.client.WorldTypeMessageGUI",
+    "rtg.client.GuiCustomizeWorldScreenRTG",
+    "com.ezrol.terry.minecraft.defaultworldgenerator.gui.GuiCreateCustomWorld",
+    "net.minecraft.client.gui.GuiMainMenu",
+    "net.minecraft.client.gui.GuiScreenWorking",
+    "net.minecraft.client.gui.GuiDownloadTerrain",
+    "net.minecraft.client.gui.inventory.GuiContainerCreative",
+    "net.minecraft.client.gui.inventory.GuiInventory",
+    "com.feed_the_beast.ftblib.lib.gui.GuiWrapper",
+    "mcjty.theoneprobe.gui.GuiNote",
+    "mcjty.theoneprobe.gui.GuiConfig",
+    "lumien.custommainmenu.gui.GuiCustom",
+    "net.minecraft.client.gui.GuiWorldSelection",
+    "com.bloodnbonesgaming.loadingscreens.client.gui.override.GuiWorkingOverride",
+    "com.bloodnbonesgaming.loadingscreens.client.gui.override.GuiDownloadTerrainOverride",
+    "net.minecraft.client.gui.GuiIngameMenu",
+    "net.minecraft.client.gui.GuiOptions",
+    "net.minecraft.client.gui.GuiVideoSettings",
+    "spazley.scalingguis.gui.guiconfig.GuiConfigSG"
+  ],
+  "blacklistGuiClassNames": [
+    "slimeknights.tconstruct.smeltery.client.module.GuiSearedFurnaceSideInventory",
+    "slimeknights.tconstruct.smeltery.client.module.GuiSmelterySideInventory",
+    "slimeknights.tconstruct.tools.common.client.module.GuiButtonsStencilTable",
+    "slimeknights.tconstruct.tools.common.client.module.GuiButtonsToolStation",
+    "slimeknights.tconstruct.tools.common.client.module.GuiInfoPanel",
+    "slimeknights.tconstruct.tools.common.client.module.GuiSideInventory",
+    "slimeknights.tconstruct.tools.common.client.module.GuiTinkerTabs"
+  ],
+  "dynamicGuiScales": []
+}

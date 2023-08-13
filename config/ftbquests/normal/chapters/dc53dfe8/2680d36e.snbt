@@ -1,0 +1,14 @@
+{
+	x: 6.5d,
+	y: 21.5d,
+	dependencies: [
+		"555df82d"
+	],
+	tasks: [{
+		uid: "e508400e",
+		type: "item",
+		items: [{
+			item: "extrautils2:spike_diamond"
+		}]
+	}]
+}

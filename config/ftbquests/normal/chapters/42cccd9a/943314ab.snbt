@@ -1,0 +1,11 @@
+{
+	x: -5.0d,
+	y: 4.5d,
+	tasks: [{
+		uid: "c23e6d10",
+		type: "item",
+		items: [{
+			item: "emt:solar_ordertriplecompressed"
+		}]
+	}]
+}

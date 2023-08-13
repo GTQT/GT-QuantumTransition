@@ -1,0 +1,19 @@
+{
+	x: 17.5d,
+	y: 2.0d,
+	dependencies: [
+		"c977d587"
+	],
+	tasks: [{
+		uid: "5f9eadfb",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil"
+		}]
+	}],
+	rewards: [{
+		uid: "25f8a466",
+		type: "item",
+		item: "ic2:crafting 1 38"
+	}]
+}

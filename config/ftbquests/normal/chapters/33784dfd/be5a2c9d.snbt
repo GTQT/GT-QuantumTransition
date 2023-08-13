@@ -1,0 +1,25 @@
+{
+	x: -11.0d,
+	y: 14.5d,
+	description: "塑料塑料part",
+	text: [
+		""
+	],
+	dependencies: [
+		"f5f363a7"
+	],
+	tasks: [{
+		uid: "883704f7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 1007"
+		}]
+	},
+	{
+		uid: "2d338fdb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 383"
+		}]
+	}]
+}

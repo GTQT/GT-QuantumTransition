@@ -1,0 +1,29 @@
+{
+	title: "铿铀",
+	x: 2.0d,
+	y: -6.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6de61766"
+	],
+	tasks: [{
+		uid: "040ed4c1",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "duranium",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1e5c8540",
+		type: "loot",
+		table: 9
+	}]
+}

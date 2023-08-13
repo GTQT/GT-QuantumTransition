@@ -1,0 +1,12 @@
+{
+	title: "穿的？用的？能打架的？",
+	icon: {
+		id: "gravisuite:gravichestplate",
+		tag: {
+			charge: 6.0E7d
+		}
+	},
+	always_invisible: false,
+	group: 2051747107,
+	default_quest_shape: "rsquare"
+}

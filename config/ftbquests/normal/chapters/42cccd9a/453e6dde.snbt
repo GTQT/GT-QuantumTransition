@@ -1,0 +1,11 @@
+{
+	x: -7.0d,
+	y: 9.0d,
+	tasks: [{
+		uid: "be69ae58",
+		type: "item",
+		items: [{
+			item: "emt:solar_watercompressed"
+		}]
+	}]
+}

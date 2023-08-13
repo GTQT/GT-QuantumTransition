@@ -1,0 +1,15 @@
+{
+	x: 13.0d,
+	y: 13.5d,
+	description: "你确定不要了？？",
+	dependencies: [
+		"f8a944f9"
+	],
+	tasks: [{
+		uid: "55dc6f07",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:bin"
+		}]
+	}]
+}

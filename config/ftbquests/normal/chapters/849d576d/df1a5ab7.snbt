@@ -1,0 +1,25 @@
+{
+	title: "把你的熔炉丢掉吧",
+	x: -3.0d,
+	y: 11.5d,
+	description: "感觉，不如你的熔炉",
+	text: [
+		"蒸汽熔炉的速度慢于普通熔炉",
+		"如果是我的话，我肯定不会做这个"
+	],
+	dependencies: [
+		"7fafef8c"
+	],
+	tasks: [{
+		uid: "a72f924a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "c5e8f3b3",
+		type: "loot",
+		table: 9
+	}]
+}

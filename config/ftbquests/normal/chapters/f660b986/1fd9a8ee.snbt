@@ -1,0 +1,43 @@
+{
+	title: "裂化",
+	x: 9.0d,
+	y: 4.0d,
+	description: "化学反应釜，与蒸汽或者氢气裂化反应",
+	text: [
+		"建议使用暂时没啥用的石脑或者炼油气作为裂化原料"
+	],
+	dependencies: [
+		"faa34dab"
+	],
+	tasks: [{
+		uid: "95e6d8c4",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "hydrogen",
+					Amount: 1000
+				}
+			}
+		},
+		{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2steam",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "66896e6f",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "350538e8",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	x: 6.0d,
+	y: 5.0d,
+	description: "食物太多了？",
+	text: [
+		"可以装食物的小物品，可在关闭状态下手持右键打开GUI，有三个格子，每个格子只能放置两个同种食物。可以在开启状态下对着装有食物的箱子右键，",
+		"会将箱子中的食物提取到袋子中，在开启状态下可以直接按住右键吃袋子中的食物。注：shift+右键来开启关闭袋子。"
+	],
+	dependencies: [
+		"0ee0ed64"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "40baaa60",
+		type: "item",
+		items: [{
+			item: "spiceoflife:lunchbag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63b83aa3",
+		type: "item",
+		item: "gregtech:meta_item_1 1 1"
+	},
+	{
+		uid: "81df5262",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "b462ce65",
+		type: "item",
+		item: "spiceoflife:bookfoodjournal"
+	}]
+}

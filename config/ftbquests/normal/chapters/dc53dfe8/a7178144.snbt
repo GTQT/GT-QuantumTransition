@@ -1,0 +1,31 @@
+{
+	title: "钠&氯",
+	x: 21.5d,
+	y: 12.0d,
+	text: [
+		"氯碱工业两种主要产物，你将会大量需求他们"
+	],
+	dependencies: [
+		"303c73cc"
+	],
+	tasks: [{
+		uid: "67d94baa",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "chlorine",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "613597b2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 101"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 1.5d,
+	y: -0.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "663893c3",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 38"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "d5038720",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

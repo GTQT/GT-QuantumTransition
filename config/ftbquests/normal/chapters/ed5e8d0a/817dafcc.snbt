@@ -1,0 +1,24 @@
+{
+	title: "凯金",
+	x: 5.5d,
+	y: -3.0d,
+	text: [
+		"制作超导线圈需要它"
+	],
+	dependencies: [
+		"babf475e"
+	],
+	tasks: [{
+		uid: "758f8e9a",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "trinium",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

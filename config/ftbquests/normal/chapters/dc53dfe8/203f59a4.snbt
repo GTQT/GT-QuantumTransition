@@ -1,0 +1,18 @@
+{
+	x: 13.0d,
+	y: 20.0d,
+	description: "绝对是，数字化",
+	text: [
+		"可以覆盖在机器或一些其他的GTCEu方块上，但大部分覆盖板只能盖于机器上。使用撬棍进行拆卸，螺丝刀进行调整。"
+	],
+	dependencies: [
+		"0f698fcb"
+	],
+	tasks: [{
+		uid: "50c9b41b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 307"
+		}]
+	}]
+}

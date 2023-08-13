@@ -1,0 +1,20 @@
+{
+	icon: "gregtech:meta_ingot 1 335",
+	x: 16.5d,
+	y: 4.0d,
+	tasks: [{
+		uid: "10129e7c",
+		type: "ftbmoney:money",
+		value: 10L
+	},
+	{
+		uid: "a410a098",
+		type: "gamestage",
+		stage: "lv"
+	}],
+	rewards: [{
+		uid: "e89a01d3",
+		type: "item",
+		item: "gregtech:meta_ingot 1 335"
+	}]
+}

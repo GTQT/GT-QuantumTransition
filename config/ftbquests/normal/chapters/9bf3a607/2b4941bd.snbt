@@ -1,0 +1,15 @@
+{
+	x: -2.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "830dd3e8",
+		type: "item",
+		items: [{
+			id: "ic2:drill",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

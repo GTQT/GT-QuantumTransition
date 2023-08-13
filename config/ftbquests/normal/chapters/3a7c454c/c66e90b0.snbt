@@ -1,0 +1,30 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	text: [
+		"制作火把",
+		"硫酸",
+		"或者其他你后期才需要的东西"
+	],
+	dependencies: [
+		"a4cdae15"
+	],
+	tasks: [{
+		uid: "35d70077",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustPhosphorus",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustPhosphorus"
+				}
+			}
+		}]
+	}]
+}

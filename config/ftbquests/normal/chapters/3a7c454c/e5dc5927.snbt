@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: 5.5d,
+	text: [
+		"镁会帮助你的钛从四氯化钛里脱离出来"
+	],
+	dependencies: [
+		"7fff6990"
+	],
+	tasks: [{
+		uid: "762a2148",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 59"
+		}]
+	}]
+}

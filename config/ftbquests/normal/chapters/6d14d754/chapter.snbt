@@ -1,0 +1,18 @@
+{
+	title: "欢迎来到世界",
+	icon: "minecraft:grass",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "square",
+	images: [{
+		x: 1.0d,
+		y: -3.0d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "assets:ftb/1.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

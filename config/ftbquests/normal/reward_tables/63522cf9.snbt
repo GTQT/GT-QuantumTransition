@@ -1,0 +1,118 @@
+{
+	title: "食物",
+	loot_size: 1,
+	rewards: [{
+		item: "harvestcraft:cinnamonsugardonutitem"
+	},
+	{
+		item: "harvestcraft:gummybearsitem"
+	},
+	{
+		item: "harvestcraft:meatystewitem"
+	},
+	{
+		item: "harvestcraft:meatystewitem"
+	},
+	{
+		item: "harvestcraft:shepardspieitem"
+	},
+	{
+		item: "harvestcraft:sunflowerwheatrollsitem"
+	},
+	{
+		item: "harvestcraft:papayajellysandwichitem"
+	},
+	{
+		item: "harvestcraft:gingeredrhubarbtartitem"
+	},
+	{
+		item: "harvestcraft:watermelonjellysandwichitem"
+	},
+	{
+		item: "harvestcraft:fishsandwichitem"
+	},
+	{
+		item: "harvestcraft:chimichangaitem"
+	},
+	{
+		item: "harvestcraft:bbqchickenbiscuititem"
+	},
+	{
+		item: "minecraft:cookie"
+	},
+	{
+		item: "harvestcraft:cornedbeefbreakfastitem"
+	},
+	{
+		item: "harvestcraft:chickenandwafflesitem"
+	},
+	{
+		item: "minecraft:cooked_porkchop"
+	},
+	{
+		item: "harvestcraft:deluxechickencurryitem"
+	},
+	{
+		item: "harvestcraft:hamsweetpicklesandwichitem"
+	},
+	{
+		item: "minecraft:baked_potato"
+	},
+	{
+		item: "harvestcraft:deluxechickencurryitem"
+	},
+	{
+		item: "harvestcraft:hamsweetpicklesandwichitem"
+	},
+	{
+		item: "harvestcraft:weekendpicnicitem"
+	},
+	{
+		item: "harvestcraft:supremepizzaitem"
+	},
+	{
+		item: "harvestcraft:lamingtonitem"
+	},
+	{
+		item: "harvestcraft:minerstewitem"
+	},
+	{
+		item: "harvestcraft:cassouletitem"
+	},
+	{
+		item: "harvestcraft:applepieitem"
+	},
+	{
+		item: "harvestcraft:bentoboxitem"
+	},
+	{
+		item: "harvestcraft:eggsbenedictitem"
+	},
+	{
+		item: "harvestcraft:pumpkinbreaditem"
+	},
+	{
+		item: "harvestcraft:ploughmanslunchitem"
+	},
+	{
+		item: "harvestcraft:meatloafsandwichitem"
+	},
+	{
+		item: "harvestcraft:grilledcheeseitem"
+	},
+	{
+		item: "harvestcraft:southernstylebreakfastitem"
+	},
+	{
+		item: "harvestcraft:kohlundpinkelitem"
+	},
+	{
+		item: "harvestcraft:friesitem"
+	},
+	{
+		item: "harvestcraft:gourmetbeefburgeritem"
+	},
+	{
+		item: "harvestcraft:gumboitem"
+	}]
+}

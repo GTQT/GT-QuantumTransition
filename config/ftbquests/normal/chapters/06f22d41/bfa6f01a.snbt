@@ -1,0 +1,21 @@
+{
+	icon: "gregtech:meta_rotor 1 112",
+	x: 15.0d,
+	y: 4.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "fa75d4c8",
+		type: "ftbmoney:money",
+		value: 10L
+	},
+	{
+		uid: "e9616711",
+		type: "gamestage",
+		stage: "mv"
+	}],
+	rewards: [{
+		uid: "051843ed",
+		type: "item",
+		item: "gregtech:meta_rotor 1 112"
+	}]
+}

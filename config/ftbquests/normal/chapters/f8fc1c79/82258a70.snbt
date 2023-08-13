@@ -1,0 +1,17 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "a0fcb820",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "trimethyltin_chloride",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

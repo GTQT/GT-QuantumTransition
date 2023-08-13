@@ -1,0 +1,34 @@
+{
+	x: 9.5d,
+	y: -4.5d,
+	dependencies: [
+		"2ed16461"
+	],
+	tasks: [{
+		uid: "d24cfe4f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 580"
+		}]
+	},
+	{
+		uid: "d345904b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 354"
+		}]
+	},
+	{
+		uid: "2a234126",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "naquadah",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

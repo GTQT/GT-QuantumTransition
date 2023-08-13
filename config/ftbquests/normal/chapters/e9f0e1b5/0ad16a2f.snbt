@@ -1,0 +1,23 @@
+{
+	x: 0.5d,
+	y: -5.0d,
+	text: [
+		"将赛特斯放入磁化机即可充能",
+		"充能赛特斯可以用来制作福禄伊克斯水晶"
+	],
+	dependencies: [
+		"53930723"
+	],
+	tasks: [{
+		uid: "77000e5a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "cf66b404",
+		type: "random",
+		table: 15
+	}]
+}

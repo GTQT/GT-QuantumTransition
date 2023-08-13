@@ -1,0 +1,14 @@
+{
+	x: 21.5d,
+	y: 3.5d,
+	dependencies: [
+		"e3c664d9"
+	],
+	tasks: [{
+		uid: "2b0af658",
+		type: "item",
+		items: [{
+			item: "bibliocraft:lampgold"
+		}]
+	}]
+}

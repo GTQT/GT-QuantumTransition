@@ -1,0 +1,11 @@
+{
+	x: -1.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "b8815bfb",
+		type: "item",
+		items: [{
+			item: "fluidtank:blocktankcreative"
+		}]
+	}]
+}

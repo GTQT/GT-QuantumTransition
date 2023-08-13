@@ -1,0 +1,13 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "606564c3",
+		type: "item",
+		items: [{
+			item: "chisel:chisel_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

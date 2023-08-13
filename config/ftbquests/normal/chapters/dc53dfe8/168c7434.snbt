@@ -1,0 +1,46 @@
+{
+	title: "氧气&氢气",
+	x: 19.5d,
+	y: 10.0d,
+	description: "初三化学",
+	text: [
+		"这两种气体在目前的石化部分就有所涉及",
+		"人类离不开氧气",
+		"",
+		"对于这两种气体，我不否认有其他的生产方法，但是，永远不要忘记电解水，无论其他方法怎么这么怎么样的好"
+	],
+	dependencies: [
+		"a6e1f1e1"
+	],
+	tasks: [{
+		uid: "e70f68b2",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "hydrogen",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "960f60de",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "oxygen",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f3fb60eb",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

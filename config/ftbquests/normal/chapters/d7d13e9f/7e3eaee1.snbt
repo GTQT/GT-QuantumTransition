@@ -1,0 +1,38 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	dependencies: [
+		"3a3a9731"
+	],
+	tasks: [{
+		uid: "4d7976ba",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 416"
+		}]
+	},
+	{
+		uid: "edcd2f0f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1607"
+		}]
+	},
+	{
+		uid: "02de3bb5",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 36"
+		}]
+	}],
+	rewards: [{
+		uid: "ccdac718",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	},
+	{
+		uid: "cfb0ea3f",
+		type: "random",
+		table: 16
+	}]
+}

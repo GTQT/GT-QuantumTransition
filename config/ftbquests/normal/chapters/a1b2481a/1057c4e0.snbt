@@ -1,0 +1,15 @@
+{
+	x: -16.5d,
+	y: -21.0d,
+	dependencies: [
+		"32311145"
+	],
+	tasks: [{
+		uid: "eea0bb22",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_thorium_1 1 1"
+		}],
+		count: 16L
+	}]
+}

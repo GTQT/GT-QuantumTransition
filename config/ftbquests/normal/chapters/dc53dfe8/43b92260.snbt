@@ -1,0 +1,22 @@
+{
+	x: 15.5d,
+	y: 3.5d,
+	text: [
+		"机器的基本机械零件。用于制作扫描仪等机器。但LuV及其以上级别的发射器需要相应扫描低级别的发射器，同时打印并制作成书才能查看合成表，之后使用装配线来制作。"
+	],
+	dependencies: [
+		"84144216"
+	],
+	tasks: [{
+		uid: "b1a52e23",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 217"
+		}]
+	}],
+	rewards: [{
+		uid: "98f5ef60",
+		type: "random",
+		table: 0
+	}]
+}

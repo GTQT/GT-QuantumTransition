@@ -1,0 +1,11 @@
+{
+	x: 3.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "5bfd6562",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:corner"
+		}]
+	}]
+}

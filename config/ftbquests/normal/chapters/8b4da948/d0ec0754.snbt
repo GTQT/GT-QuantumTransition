@@ -1,0 +1,24 @@
+{
+	title: "二氯联苯胺",
+	x: 8.5d,
+	y: -10.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3cc8cf50"
+	],
+	tasks: [{
+		uid: "a95b4d8b",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "dichlorobenzidine",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

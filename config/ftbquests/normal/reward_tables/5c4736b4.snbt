@@ -1,0 +1,81 @@
+{
+	title: "daoguan",
+	loot_size: 1,
+	rewards: [{
+		item: "enderio:item_power_conduit 1 2",
+		count: 8
+	},
+	{
+		item: "enderio:item_power_conduit 1 1",
+		count: 16
+	},
+	{
+		item: "enderio:item_power_conduit",
+		count: 32
+	},
+	{
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 8
+	},
+	{
+		item: "enderio:item_liquid_conduit 1 1",
+		count: 16
+	},
+	{
+		item: "enderio:item_liquid_conduit",
+		count: 16
+	},
+	{
+		item: "enderio:item_item_conduit",
+		count: 16
+	},
+	{
+		item: "enderio:item_material 1 4",
+		count: 32
+	},
+	{
+		item: "enderio:item_material 1 19"
+	},
+	{
+		item: "enderio:item_material 1 18"
+	},
+	{
+		item: "enderio:item_material 1 17"
+	},
+	{
+		item: "enderio:item_material 1 16"
+	},
+	{
+		item: "enderio:item_material 1 15"
+	},
+	{
+		item: "enderio:item_material 1 14"
+	},
+	{
+		item: "enderio:item_basic_item_filter"
+	},
+	{
+		item: "enderio:item_advanced_item_filter"
+	},
+	{
+		item: "enderio:item_limited_item_filter"
+	},
+	{
+		item: "enderio:item_big_item_filter"
+	},
+	{
+		item: "enderio:item_existing_item_filter"
+	},
+	{
+		item: "enderio:item_big_advanced_item_filter"
+	},
+	{
+		item: "enderio:item_mod_item_filter"
+	},
+	{
+		item: "enderio:item_power_item_filter"
+	},
+	{
+		item: "enderio:item_fluid_filter"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "甲烷",
+	x: 16.0d,
+	y: 7.0d,
+	dependencies: [
+		"8d25a379"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "7e4d7fd6",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "methane",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

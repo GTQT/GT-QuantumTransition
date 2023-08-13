@@ -1,0 +1,34 @@
+{
+	x: -4.0d,
+	y: 1.5d,
+	description: "为了稳定生产杂酚油，你需要大量的焦炉以及煤炭加油吧。",
+	dependencies: [
+		"02f9cd9a"
+	],
+	tasks: [{
+		uid: "ba4b0ba1",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 8"
+		}],
+		count: 25L
+	},
+	{
+		uid: "f2e77309",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1017"
+		}]
+	}],
+	rewards: [{
+		uid: "4483f119",
+		type: "item",
+		item: "enderio:item_item_conduit",
+		count: 16
+	},
+	{
+		uid: "9903e440",
+		type: "item",
+		item: "gregtech:machine 1 1018"
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "把东西存起来",
+	x: 9.5d,
+	y: 3.5d,
+	text: [
+		"貌似能存更多"
+	],
+	dependencies: [
+		"fc236f61"
+	],
+	tasks: [{
+		uid: "e63ff408",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1612"
+		}]
+	},
+	{
+		uid: "59b83403",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1627"
+		}]
+	}],
+	rewards: [{
+		uid: "2af87851",
+		type: "choice",
+		table: 9
+	},
+	{
+		uid: "581e6161",
+		type: "item",
+		item: "ironchest:iron_chest 1 5"
+	}]
+}

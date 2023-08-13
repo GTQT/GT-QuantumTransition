@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: -0.5d,
+	description: "宝石透镜真垃圾",
+	text: [
+		"或许你已经收集了一套宝石透镜用来雕刻硅晶圆。",
+		"好消息是，你现在不需要了，你只需要在HV级的化学反应釜里用燃料给玻璃珠染色即可获得对应效果的透镜。"
+	],
+	dependencies: [
+		"2de577a8"
+	],
+	tasks: [{
+		uid: "855cfe4d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 217"
+		}]
+	}],
+	rewards: [{
+		uid: "be5bd91c",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "f6b66f3b",
+		type: "random",
+		table: 9
+	}]
+}

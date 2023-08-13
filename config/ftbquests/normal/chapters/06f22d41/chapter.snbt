@@ -1,0 +1,18 @@
+{
+	title: "福利系统",
+	icon: "ic2:crafting 1 38",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "rsquare",
+	images: [{
+		x: -4.5d,
+		y: 0.5d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "assets:ftb/shop.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

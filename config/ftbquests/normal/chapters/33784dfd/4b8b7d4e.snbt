@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 9.5d,
+	description: "你首先需要坎塔尔线圈！！",
+	text: [
+		"如果你还没有坎塔尔线圈，我建议你先做16个线圈再回来完成这个任务",
+		"如坎达尔一样，你需要冷却液冷却它，这样你才能得到可以使用的太阳能级硅"
+	],
+	dependencies: [
+		"55dcaad8"
+	],
+	tasks: [{
+		uid: "89322367",
+		type: "item",
+		items: [{
+			item: "contenttweaker:hotsilicon_item"
+		}]
+	}]
+}

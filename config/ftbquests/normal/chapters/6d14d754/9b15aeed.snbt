@@ -1,0 +1,30 @@
+{
+	x: 18.5d,
+	y: 0.0d,
+	description: "匠魂部件",
+	text: [
+		"这是你将用于制作匠魂部件的关键材料"
+	],
+	dependencies: [
+		"4fed4141"
+	],
+	tasks: [{
+		uid: "bc20d166",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "0f041588",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "6e81f1f1",
+		type: "item",
+		item: "minecraft:paper",
+		count: 8
+	}]
+}

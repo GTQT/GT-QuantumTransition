@@ -1,0 +1,21 @@
+{
+	title: "别傻等着了",
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"8abb667a"
+	],
+	tasks: [{
+		uid: "85e93ade",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "dbfb26ae",
+		type: "item",
+		item: "enderio:item_item_conduit",
+		count: 8
+	}]
+}

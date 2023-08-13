@@ -1,0 +1,21 @@
+{
+	title: "过硫酸钠",
+	x: 24.5d,
+	y: 11.0d,
+	dependencies: [
+		"7a6cdecb"
+	],
+	tasks: [{
+		uid: "ee9fe5e4",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "sodium_persulfate",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

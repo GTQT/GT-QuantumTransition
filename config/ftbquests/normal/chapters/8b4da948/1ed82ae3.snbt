@@ -1,0 +1,24 @@
+{
+	title: "聚乙酸乙烯脂",
+	x: -1.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"91a28aa8"
+	],
+	tasks: [{
+		uid: "4863a6cb",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "polyvinyl_acetate",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

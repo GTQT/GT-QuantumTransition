@@ -1,0 +1,22 @@
+{
+	title: "小心火灾",
+	x: 14.5d,
+	y: 3.5d,
+	dependencies: [
+		"fc236f61"
+	],
+	tasks: [{
+		uid: "97513f83",
+		type: "item",
+		items: [{
+			item: "minecraft:flint_and_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81cd33c1",
+		type: "choice",
+		table: 9
+	}]
+}

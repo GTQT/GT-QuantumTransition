@@ -1,0 +1,18 @@
+{
+	title: "EV-超高压",
+	icon: "gregtech:machine 1 989",
+	always_invisible: false,
+	group: -1479984865,
+	default_quest_shape: "square",
+	images: [{
+		x: -23.5d,
+		y: -20.0d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "assets:ftb/ev.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

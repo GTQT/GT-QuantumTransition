@@ -1,0 +1,30 @@
+{
+	x: 7.0d,
+	y: 11.0d,
+	shape: "gear",
+	description: "太神奇了，14CM工艺",
+	text: [
+		"使用基板，电阻以及一些真空管。",
+		"你也不知道为什么，这玩意就变成了电路板。",
+		"当然对于这种最简易的集成电路，我的评价是，能用就行。"
+	],
+	dependencies: [
+		"333ec67e",
+		"9ced3645",
+		"4ccff600"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "cc535ba1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 621"
+		}]
+	}],
+	rewards: [{
+		uid: "cfd9b20d",
+		type: "item",
+		item: "gregtech:meta_plate 1 324",
+		count: 2
+	}]
+}

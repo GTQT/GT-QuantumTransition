@@ -1,0 +1,11 @@
+{
+	x: -8.0d,
+	y: 10.5d,
+	tasks: [{
+		uid: "bff05f74",
+		type: "item",
+		items: [{
+			item: "emt:fire_generator"
+		}]
+	}]
+}

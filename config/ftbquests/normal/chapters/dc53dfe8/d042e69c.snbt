@@ -1,0 +1,30 @@
+{
+	title: "有些东西是装不起来的",
+	x: 19.5d,
+	y: 8.5d,
+	description: "比如破碎的心",
+	text: [
+		"可以组装一切你希望组装的东西！",
+		"你在想什么？"
+	],
+	dependencies: [
+		"c51ecf9a"
+	],
+	tasks: [{
+		uid: "3d41da92",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 110"
+		}]
+	}],
+	rewards: [{
+		uid: "095cd93e",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "83c34633",
+		type: "random",
+		table: 9
+	}]
+}

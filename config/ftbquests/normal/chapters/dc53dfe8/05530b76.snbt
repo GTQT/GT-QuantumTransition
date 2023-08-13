@@ -1,0 +1,26 @@
+{
+	title: "熔融锡",
+	x: 29.0d,
+	y: 7.0d,
+	description: "什么化了",
+	text: [
+		"你可能会在很多机器配方里发现需要焊锡或者熔融锡抑或是其他什么流体。",
+		"使用提取机可以融化对应金属。"
+	],
+	dependencies: [
+		"d4583f6d"
+	],
+	tasks: [{
+		uid: "67641c66",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "tin",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

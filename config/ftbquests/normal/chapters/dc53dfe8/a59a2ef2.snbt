@@ -1,0 +1,32 @@
+{
+	title: "真有点咸",
+	x: 19.5d,
+	y: 11.0d,
+	text: [
+		"如果你问我盐水怎么来",
+		"首先很抱歉，你无法抽所谓的海水。",
+		"开心点，你还可以把盐混到水里，又或者到后期还有盐水矿脉这种东西。"
+	],
+	dependencies: [
+		"81a33471"
+	],
+	tasks: [{
+		uid: "43e22a36",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreRockSalt",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreRockSalt"
+				}
+			}
+		}],
+		count: 16L
+	}]
+}

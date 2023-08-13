@@ -1,0 +1,18 @@
+{
+	x: 11.0d,
+	y: -1.0d,
+	dependencies: [
+		"edfe5ae7"
+	],
+	tasks: [{
+		uid: "4189af7e",
+		type: "item",
+		items: [{
+			id: "emt:nanogoggles",
+			tag: {},
+			Damage: 27s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

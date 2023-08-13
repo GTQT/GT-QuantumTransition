@@ -1,0 +1,18 @@
+{
+	title: "LV-低压",
+	icon: "gregtech:machine 1 986",
+	always_invisible: false,
+	group: -1479984865,
+	default_quest_shape: "square",
+	images: [{
+		x: 4.0d,
+		y: 3.0d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "assets:ftb/4.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

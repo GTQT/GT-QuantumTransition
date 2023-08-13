@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -8.0d,
+	description: "真好，是新的塑料哎",
+	text: [
+		""
+	],
+	dependencies: [
+		"6cbf3d67",
+		"f100ce8a"
+	],
+	tasks: [{
+		uid: "b94e0c50",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 15036"
+		}]
+	}]
+}

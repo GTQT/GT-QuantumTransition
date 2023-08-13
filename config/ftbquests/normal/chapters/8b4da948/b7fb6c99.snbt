@@ -1,0 +1,19 @@
+{
+	title: "锑在哪里",
+	x: 5.5d,
+	y: 2.5d,
+	text: [
+		"你需要至少T2等级的火箭去火星开采，又或者T3等级前往金星。"
+	],
+	dependencies: [
+		"b99e49f8"
+	],
+	tasks: [{
+		uid: "cefded64",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_stibnite_0"
+		}],
+		count: 16L
+	}]
+}

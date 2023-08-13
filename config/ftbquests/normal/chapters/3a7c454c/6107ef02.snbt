@@ -1,0 +1,26 @@
+{
+	title: "木焦油",
+	x: 12.0d,
+	y: 3.0d,
+	description: "你的热解炉已经搭好了吗",
+	text: [
+		"你的热解炉一定投入使用来消耗你过量的木头了吧",
+		"你会得到木焦油，也是一种应用广泛的原料"
+	],
+	dependencies: [
+		"d175e1a7"
+	],
+	tasks: [{
+		uid: "3dc9854a",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "wood_tar",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

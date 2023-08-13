@@ -1,0 +1,18 @@
+{
+	title: "UHV-极高压",
+	icon: "gregtech:machine 1 994",
+	always_invisible: false,
+	group: -1433178221,
+	default_quest_shape: "square",
+	images: [{
+		x: -8.5d,
+		y: -3.0d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "assets:ftb/uhv.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 2.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "976bafb2",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:oven"
+		}]
+	}]
+}

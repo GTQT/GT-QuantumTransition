@@ -1,0 +1,84 @@
+{
+	icon: "gregtech:machine 1 1001",
+	x: 8.0d,
+	y: 0.0d,
+	description: "第一块铝",
+	text: [
+		"值得注意的是，目前你的高炉需要两个能源仓以及四台发电机为其提供电力。",
+		"不要淋雨"
+	],
+	dependencies: [
+		"c9f41a6f"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ecbade90",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1001"
+		}]
+	},
+	{
+		uid: "c19dcd11",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 2"
+		}],
+		count: 9L
+	},
+	{
+		uid: "3775008d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1211"
+		}],
+		count: 2L
+	},
+	{
+		uid: "5e0d437a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		}]
+	},
+	{
+		uid: "28ddbe8c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1166"
+		}]
+	},
+	{
+		uid: "0ad6f8ce",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1196"
+		}]
+	},
+	{
+		uid: "a7dd0651",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1151"
+		}]
+	},
+	{
+		uid: "5dafe0ed",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1181"
+		}]
+	},
+	{
+		uid: "a0a8ebea",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1657"
+		}]
+	}],
+	rewards: [{
+		uid: "02146a87",
+		type: "item",
+		item: "gregtech:meta_item_1 1 502"
+	}]
+}

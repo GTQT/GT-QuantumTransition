@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: -3.5d,
+	description: "从mk1开始的山铜",
+	text: [
+		"从你的稀土产线里获得，如果你想知道你的稀土产线能产生什么，我建议看一看JEI",
+		"合成山铜，我们需要逐步聚变这些物质。"
+	],
+	dependencies: [
+		"014209a2"
+	],
+	tasks: [{
+		uid: "ff60123d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 53"
+		}]
+	}]
+}

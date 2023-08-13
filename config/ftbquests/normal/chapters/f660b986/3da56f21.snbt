@@ -1,0 +1,24 @@
+{
+	title: "汽油",
+	x: 11.5d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"faa34dab"
+	],
+	tasks: [{
+		uid: "2409acb4",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "light_fuel",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

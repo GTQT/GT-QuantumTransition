@@ -1,0 +1,137 @@
+[
+  {
+    "content": "gregtech:meta_item_1:1",
+    "unitWorth": 20,
+    "weight": 40,
+    "amount": {
+      "min": 5,
+      "max": 10
+    }
+  },
+  {
+    "content": "gregtech:meta_item_1:2",
+    "unitWorth": 200,
+    "weight": 20,
+    "amount": {
+      "min": 2,
+      "max": 6
+    }
+  },
+  {
+    "content": "gregtech:meta_item_1:3",
+    "unitWorth": 1600,
+    "weight": 10,
+    "amount": {
+      "min": 1,
+      "max": 4
+    }
+  },
+  {
+    "content": "gregtech:meta_item_1:4",
+    "unitWorth": 12800,
+    "weight": 5,
+    "amount": {
+      "min": 1,
+      "max": 2
+    }
+  },
+  {
+    "content": "gregtech:meta_item_1:5",
+    "unitWorth": 1024000,
+    "weight": 2,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+   {
+    "content": "gregtech:meta_item_1:6",
+    "unitWorth": 8192000,
+    "weight": 1,
+    "amount": {
+      "min": 1,
+      "max": 1
+    }
+  },
+    {
+    "content": "minecraft:iron_ingot",
+    "unitWorth": 20,
+    "weight": 20,
+    "amount": {
+      "min": 32,
+      "max": 64
+    }
+  },
+   {
+    "content": "minecraft:gold_ingot",
+    "unitWorth": 200,
+    "weight": 20,
+    "amount": {
+      "min": 2,
+      "max": 12
+    }
+  },
+   {
+    "content": "gregtech:meta_ingot:25",
+    "unitWorth": 50,
+    "weight": 20,
+    "amount": {
+      "min": 2,
+      "max": 16
+    }
+  },
+  {
+    "content": "gregtech:meta_ingot:112",
+    "unitWorth": 50,
+    "weight": 20,
+    "amount": {
+      "min": 2,
+      "max": 16
+    }
+  },
+  {
+    "content": "enderio:item_liquid_conduit",
+    "unitWorth": 200,
+    "weight": 20,
+    "amount": {
+      "min": 2,
+      "max": 16
+    }
+  },
+  {
+    "content": "enderio:item_liquid_conduit:1",
+    "unitWorth": 400,
+    "weight": 20,
+    "amount": {
+      "min": 4,
+      "max": 12
+    }
+  },
+  {
+    "content": "enderio:item_liquid_conduit:2",
+    "unitWorth": 800,
+    "weight": 20,
+    "amount": {
+      "min": 2,
+      "max": 6
+    }
+  },
+  {
+    "content": "enderio:item_item_conduit",
+    "unitWorth": 200,
+    "weight": 20,
+    "amount": {
+      "min": 4,
+      "max": 16
+    }
+  },
+   {
+    "content": "gregtech:meta_ingot:324",
+    "unitWorth": 400,
+    "weight": 20,
+    "amount": {
+      "min": 12,
+      "max": 16
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: 6.0d,
+	dependencies: [
+		"246dac9a"
+	],
+	tasks: [{
+		uid: "fb344910",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_shard"
+		}]
+	}]
+}

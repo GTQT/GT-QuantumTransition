@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: -8.0d,
+	shape: "gear",
+	dependencies: [
+		"6de61766"
+	],
+	tasks: [{
+		uid: "b53b058c",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "europium",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

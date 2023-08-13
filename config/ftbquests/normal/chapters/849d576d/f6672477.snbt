@@ -1,0 +1,32 @@
+{
+	title: "超强吸力",
+	x: 23.0d,
+	y: 0.0d,
+	description: "什么，旺仔吸吸冰",
+	text: [
+		"把你收集到的树脂塞进去。",
+		"提取机是一个神奇的机器，尽管在现在他只能提取树脂。随后你会发现他的强大。",
+		"当然，好东西留给你自己探索啦"
+	],
+	dependencies: [
+		"21a97ace"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "6bc2e734",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "9543fa6a",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "2d1d6a5f",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

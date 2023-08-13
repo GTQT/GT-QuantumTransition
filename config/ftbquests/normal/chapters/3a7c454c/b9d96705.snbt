@@ -1,0 +1,21 @@
+{
+	title: "木醋酸",
+	x: 14.0d,
+	y: 5.5d,
+	dependencies: [
+		"ec96ac37"
+	],
+	tasks: [{
+		uid: "7116216f",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "wood_vinegar",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

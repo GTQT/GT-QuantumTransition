@@ -1,0 +1,24 @@
+{
+	x: 9.5d,
+	y: 10.0d,
+	dependencies: [
+		"fc8605be"
+	],
+	tasks: [{
+		uid: "200ff98c",
+		type: "item",
+		items: [{
+			id: "thaumicenergistics:essentia_cell_64k",
+			tag: {
+				filter: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "460c9555",
+		type: "item",
+		item: "gregtech:meta_item_1 1 5"
+	}]
+}

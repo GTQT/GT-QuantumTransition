@@ -1,0 +1,12 @@
+{
+	x: 6.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "71070b12",
+		type: "item",
+		items: [{
+			item: "xtones:base"
+		}],
+		count: 64L
+	}]
+}

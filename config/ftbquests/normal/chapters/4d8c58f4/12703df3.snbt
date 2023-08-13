@@ -1,0 +1,11 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	tasks: [{
+		uid: "5fe7544e",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum 1 4"
+		}]
+	}]
+}

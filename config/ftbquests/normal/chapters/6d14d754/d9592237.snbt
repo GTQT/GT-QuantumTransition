@@ -1,0 +1,25 @@
+{
+	title: "塞牙之物",
+	x: 18.5d,
+	y: 2.0d,
+	description: "够吃吗，够了够了。",
+	text: [
+		"你会在世界发现很多灌木果实或者水果。",
+		"他们都是极易采集的，并且能恢复少量饱食度。"
+	],
+	dependencies: [
+		"d48e9dff"
+	],
+	tasks: [{
+		uid: "a9c7a75c",
+		type: "item",
+		items: [{
+			item: "futuremc:sweet_berries"
+		}]
+	}],
+	rewards: [{
+		uid: "7e8bf482",
+		type: "loot",
+		table: 9
+	}]
+}

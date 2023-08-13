@@ -1,0 +1,35 @@
+{
+	title: "含杂富集硅岩溶液",
+	x: 13.0d,
+	y: 2.5d,
+	dependencies: [
+		"a840cf51",
+		"1607cbaa"
+	],
+	tasks: [{
+		uid: "052ce6a4",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "impure_enriched_naquadah_solution",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "9a0a7f44",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "impure_naquadria_solution",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

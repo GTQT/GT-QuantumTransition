@@ -1,0 +1,18 @@
+{
+	x: -1.0d,
+	y: 4.0d,
+	description: "独居石的另一个副产",
+	text: [
+		""
+	],
+	dependencies: [
+		"e619aea2"
+	],
+	tasks: [{
+		uid: "89ec2263",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 66"
+		}]
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "很鸡肋的机器",
+	x: 2.0d,
+	y: 3.0d,
+	description: "如果你有很多泥土可以洗一洗",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "105e8f4b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 32019"
+		}]
+	}],
+	rewards: [{
+		uid: "8ada1f42",
+		type: "item",
+		item: "enderio:item_liquid_conduit",
+		count: 8
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	x: 38.0d,
+	y: 1.0d,
+	description: "黑",
+	text: [
+		"用于炼钢，或者其他什么你目前接触不到的东西",
+		"也得多屯点"
+	],
+	dependencies: [
+		"3ba748c1"
+	],
+	tasks: [{
+		uid: "fb268159",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gemCoke",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any gemCoke"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "27d2c1ba",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "e7c67749",
+		type: "item",
+		item: "gregtech:meta_item_1",
+		count: 4
+	}]
+}

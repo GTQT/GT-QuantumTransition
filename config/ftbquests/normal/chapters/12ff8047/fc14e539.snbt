@@ -1,0 +1,17 @@
+{
+	x: -2.0d,
+	y: -3.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "dabcb825",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_gem 1 214"
+		}]
+	}],
+	rewards: [{
+		uid: "f5e3147d",
+		type: "item",
+		item: "appliedenergistics2:material"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	icon: "forestry:beehives 1 5",
+	x: 22.5d,
+	y: 5.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "b1bb8090",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "862b9e61",
+		type: "item",
+		item: "forestry:beehives 1 5"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "造纸术",
+	x: 17.0d,
+	y: 0.0d,
+	description: "这这这，不能写字呀",
+	text: [
+		"如果你使用粘土桶合成纸的配方，那么会直接消耗掉",
+		"注意，这是设定不是BUG"
+	],
+	dependencies: [
+		"12fa3f5b",
+		"9edeef15"
+	],
+	tasks: [{
+		uid: "86740158",
+		type: "item",
+		items: [{
+			item: "minecraft:paper"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "93cc53f6",
+		type: "random",
+		table: 9
+	}]
+}

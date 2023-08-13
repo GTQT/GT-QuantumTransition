@@ -1,0 +1,25 @@
+{
+	title: "四硝基甲烷",
+	x: 17.5d,
+	y: 6.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"bfcdae79",
+		"a735150f"
+	],
+	tasks: [{
+		uid: "dfccce94",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "tetranitromethane",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,212 @@
+{
+	title: "EV",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:meta_item_1 1 235"
+	},
+	{
+		item: "gregtech:meta_item_1 1 220"
+	},
+	{
+		item: "gregtech:meta_item_1 1 160"
+	},
+	{
+		item: "gregtech:meta_item_1 1 205"
+	},
+	{
+		item: "gregtech:meta_item_1 1 190"
+	},
+	{
+		item: "gregtech:meta_item_1 1 175"
+	},
+	{
+		item: "gregtech:meta_item_1 1 145"
+	},
+	{
+		item: "galacticraftcore:buggy"
+	},
+	{
+		item: "compactmachines3:machine"
+	},
+	{
+		item: "compactmachines3:psd"
+	},
+	{
+		item: "gregtech:machine 1 1578"
+	},
+	{
+		item: "galacticraftcore:rocket_t1"
+	},
+	{
+		item: "gregtech:machine 1 1577"
+	},
+	{
+		item: "gregtech:machine 1 1563"
+	},
+	{
+		item: "gregtech:machine 1 1562"
+	},
+	{
+		item: "fluidtank:blocktank3 1 3"
+	},
+	{
+		item: "enderio:item_item_conduit",
+		count: 16
+	},
+	{
+		item: "enderio:item_liquid_conduit 1 1",
+		count: 32
+	},
+	{
+		item: "enderio:item_liquid_conduit",
+		count: 64
+	},
+	{
+		item: "ironchest:iron_chest 1 5"
+	},
+	{
+		item: "gregtech:machine 1 1560"
+	},
+	{
+		item: "gregtech:machine 1 1561"
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Configuration: 0
+			},
+			Damage: 461s
+		},
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 81"
+	},
+	{
+		item: "ironchest:iron_chest 1 2",
+		count: 8
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 1600000L
+			},
+			Damage: 472s
+		}
+	},
+	{
+		item: "gregtech:meta_item_1 1 84"
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 6400000L
+			},
+			Damage: 741s
+		}
+	},
+	{
+		item: "gregtech:machine 1 1575"
+	},
+	{
+		item: "gregtech:machine 1 1576"
+	},
+	{
+		item: "lootgames:ms_activator"
+	},
+	{
+		item: "lootgames:gol_master"
+	},
+	{
+		item: "lootgames:puzzle_master"
+	},
+	{
+		item: "fluidtank:blocktank3"
+	},
+	{
+		item: "fluidtank:blocktank2 1 2"
+	},
+	{
+		item: "fluidtank:blocktank2 1 1"
+	},
+	{
+		item: "fluidtank:blocktank2"
+	},
+	{
+		item: "fluidtank:blocktank1"
+	},
+	{
+		item: "tinkersaddons:modifier_item 1 2"
+	},
+	{
+		item: "gregtech:meta_item_1 1 526",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 524",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 525",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 523",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 527",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 577"
+	},
+	{
+		item: "gregtech:meta_item_1 1 575"
+	},
+	{
+		item: "gregtech:meta_item_1 1 572"
+	},
+	{
+		item: "gregtech:meta_item_1 1 571"
+	},
+	{
+		item: "gregtech:meta_item_1 1 568"
+	},
+	{
+		item: "gregtech:meta_item_1 1 567"
+	},
+	{
+		item: "gregtech:meta_item_1 1 566"
+	},
+	{
+		item: "gregtech:meta_item_1 1 578"
+	},
+	{
+		item: "gregtech:machine 1 1153"
+	},
+	{
+		item: "gregtech:machine 1 1154"
+	},
+	{
+		item: "gregtech:machine 1 1198"
+	},
+	{
+		item: "gregtech:machine 1 1199"
+	},
+	{
+		item: "gregtech:machine 1 1168"
+	},
+	{
+		item: "gregtech:machine 1 1169"
+	},
+	{
+		item: "gregtech:machine 1 1183"
+	},
+	{
+		item: "gregtech:machine 1 1184"
+	}]
+}

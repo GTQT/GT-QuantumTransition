@@ -1,0 +1,28 @@
+{
+	title: "电解蓝宝石",
+	icon: "gregtech:ore_sapphire_0",
+	x: 9.5d,
+	y: 13.5d,
+	text: [
+		"蓝宝石在主世界暮色都能找到",
+		"如果你想获得一些铝，目前只能通过电解蓝宝石的方法来获取少量的铝直到你进入MV"
+	],
+	dependencies: [
+		"361d5233"
+	],
+	tasks: [{
+		uid: "5c8e75c1",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_sapphire_0"
+		}]
+	},
+	{
+		uid: "9fdd169b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 314"
+		}],
+		count: 16L
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "金币刷新",
+	x: 6.0d,
+	y: -0.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "180e49a8",
+		type: "ftbmoney:money",
+		value: 0L
+	}],
+	rewards: [{
+		uid: "6c33a5f5",
+		type: "ftbmoney:money",
+		ftb_money: 0L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	shape: "hexagon",
+	text: [
+		"这是一块ev的工作站，或许你会抱怨说什么套娃太难",
+		"开心点，到了ev你可以直接制作每一个过去等级的电路板了",
+		"就在眼前了是不是",
+		"",
+		"关于蓝石",
+		"你会发现你需要蓝色合金来合成这个电路板",
+		"在地狱找到硝石矿脉，里边分布着一些蓝石。"
+	],
+	dependencies: [
+		"823271aa"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "28ef795b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 630"
+		}]
+	}],
+	rewards: [{
+		uid: "92324c87",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "1ac09792",
+		type: "random",
+		table: 2
+	}]
+}

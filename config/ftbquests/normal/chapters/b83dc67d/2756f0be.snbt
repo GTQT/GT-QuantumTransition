@@ -1,0 +1,15 @@
+{
+	x: 26.0d,
+	y: 3.0d,
+	dependencies: [
+		"a1c504ce"
+	],
+	tasks: [{
+		uid: "c3a29495",
+		type: "item",
+		items: [{
+			item: "extraplanets:item_tier4_rocket"
+		}],
+		ignore_nbt: 1b
+	}]
+}

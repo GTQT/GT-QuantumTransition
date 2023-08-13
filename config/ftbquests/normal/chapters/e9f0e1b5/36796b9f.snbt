@@ -1,0 +1,29 @@
+{
+	x: 12.0d,
+	y: -5.0d,
+	text: [
+		"一种高级的消耗RF的压印器,无需压印模板,可以直接放入材料进行压印。",
+		"如：合成逻辑处理器只需要放入金锭,硅和红石即可。可以放8个加速卡,加速卡越多消耗RF速度越快。"
+	],
+	dependencies: [
+		"9d826eae"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "a7fd8ca2",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "6a1365ed",
+		type: "random",
+		table: 15
+	},
+	{
+		uid: "a151b5b9",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "丁醛",
+	x: -5.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a8909745"
+	],
+	tasks: [{
+		uid: "0d148bd3",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "butyraldehyde",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

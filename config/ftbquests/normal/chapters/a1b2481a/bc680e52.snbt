@@ -1,0 +1,27 @@
+{
+	x: -9.5d,
+	y: -13.0d,
+	text: [
+		"制作下一级电路板"
+	],
+	dependencies: [
+		"56a04998"
+	],
+	tasks: [{
+		uid: "06a59785",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 405"
+		}]
+	}],
+	rewards: [{
+		uid: "e43379dd",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "54acbe93",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	}]
+}

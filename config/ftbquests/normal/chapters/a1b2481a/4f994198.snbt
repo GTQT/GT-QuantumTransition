@@ -1,0 +1,25 @@
+{
+	title: "氮化硼！",
+	x: -14.5d,
+	y: -10.0d,
+	description: "就快要到了",
+	text: [
+		""
+	],
+	dependencies: [
+		"675a7db3"
+	],
+	tasks: [{
+		uid: "00ec6121",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "boron_nitride_solution",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

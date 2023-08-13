@@ -1,0 +1,18 @@
+{
+	x: 5.5d,
+	y: -3.5d,
+	description: "这是否，过于怠惰",
+	text: [
+		"不是太活泼的金属，你需要一点小手段，比如硫酸处理。"
+	],
+	dependencies: [
+		"b99e49f8"
+	],
+	tasks: [{
+		uid: "d0409437",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 433"
+		}]
+	}]
+}

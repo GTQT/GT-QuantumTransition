@@ -1,0 +1,20 @@
+{
+	title: "钛从哪里来？",
+	x: -6.5d,
+	y: 1.0d,
+	text: [
+		"在月球找到钛铁矿，你将从中提取钛。",
+		"钛作为下一阶段机器的主要材料，你需要囤积大量的钛。"
+	],
+	dependencies: [
+		"421cc2a3"
+	],
+	tasks: [{
+		uid: "f4c24a21",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_ilmenite_1"
+		}],
+		count: 64L
+	}]
+}

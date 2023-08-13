@@ -1,0 +1,7 @@
+{
+	title: "魔法少女—植物的故事",
+	icon: "botania:miniisland",
+	always_invisible: false,
+	group: -1042929383,
+	default_quest_shape: ""
+}

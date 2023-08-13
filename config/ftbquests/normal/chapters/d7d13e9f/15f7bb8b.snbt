@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 4.0d,
+	dependencies: [
+		"fca245ea"
+	],
+	tasks: [{
+		uid: "75309a7e",
+		type: "item",
+		items: [{
+			item: "projectred-transportation:routing_chip 1 3"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"ab52ae47"
+	],
+	tasks: [{
+		uid: "d9ea0c15",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "0de97966",
+		type: "item",
+		item: "enderio:item_item_conduit",
+		count: 4
+	},
+	{
+		uid: "bb38a7d7",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	x: 1.0d,
+	y: -3.5d,
+	dependencies: [
+		"f8c65c0e"
+	],
+	tasks: [{
+		uid: "3df3b1cb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 603"
+		}]
+	},
+	{
+		uid: "9dc1f75b",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "sodium_potassium",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e9e84ecb",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "cd4ad0e3",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

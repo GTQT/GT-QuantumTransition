@@ -1,0 +1,26 @@
+{
+	title: "鉴定为加热",
+	x: 12.5d,
+	y: 0.0d,
+	description: "为什么它什么都能烧",
+	dependencies: [
+		"034a97ae"
+	],
+	tasks: [{
+		uid: "d7148ec9",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "73d096cc",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "5f8cb985",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

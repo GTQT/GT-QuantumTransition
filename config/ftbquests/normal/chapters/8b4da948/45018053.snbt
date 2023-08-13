@@ -1,0 +1,25 @@
+{
+	title: "聚乙烯丁醛",
+	x: -3.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7fb27210",
+		"1ed82ae3"
+	],
+	tasks: [{
+		uid: "9baa2f4b",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "polyvinyl_butyral",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

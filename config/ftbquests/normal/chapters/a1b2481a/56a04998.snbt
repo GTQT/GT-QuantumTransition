@@ -1,0 +1,23 @@
+{
+	x: -10.5d,
+	y: -13.0d,
+	description: "比环氧树脂更好",
+	text: [
+		"你会需要它来制作其他的两种电路板基板"
+	],
+	dependencies: [
+		"0ace1705"
+	],
+	tasks: [{
+		uid: "71911b96",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 1006"
+		}]
+	}],
+	rewards: [{
+		uid: "1abc2ced",
+		type: "random",
+		table: 9
+	}]
+}

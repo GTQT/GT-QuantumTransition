@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -5.0d,
+	dependencies: [
+		"8b567553",
+		"cfb53cbf"
+	],
+	tasks: [{
+		uid: "bb1980f4",
+		type: "item",
+		items: [{
+			id: "gravisuite:vajra",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

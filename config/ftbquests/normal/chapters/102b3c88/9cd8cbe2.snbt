@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"https://www.mcmod.cn/post/1960.html"
+	],
+	dependencies: [
+		"a14ea372",
+		"c74f7e7a"
+	],
+	tasks: [{
+		uid: "ceab3500",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}]
+}

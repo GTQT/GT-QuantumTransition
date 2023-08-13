@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "894fb424",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "truxene",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

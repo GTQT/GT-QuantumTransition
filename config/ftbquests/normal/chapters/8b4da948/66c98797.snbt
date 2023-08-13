@@ -1,0 +1,25 @@
+{
+	title: "间苯二甲酸二苯酯",
+	x: 10.0d,
+	y: -14.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"47f2fd0a",
+		"a4833ac2"
+	],
+	tasks: [{
+		uid: "fc6ac0b8",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "diphenyl_isophthalate",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

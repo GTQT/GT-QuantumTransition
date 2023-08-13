@@ -1,0 +1,17 @@
+{
+	x: -10.5d,
+	y: -21.0d,
+	text: [
+		"在处理独居石的时候相信你已经得到了一些钚，你可以将他加工为燃料棒。"
+	],
+	dependencies: [
+		"85dead19"
+	],
+	tasks: [{
+		uid: "7f4fdd8e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:thorium_rod"
+		}]
+	}]
+}

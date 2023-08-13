@@ -1,0 +1,24 @@
+{
+	title: "硫酸硅岩溶液",
+	x: 4.0d,
+	y: 3.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"1f1405c1"
+	],
+	tasks: [{
+		uid: "d0363f91",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "acidic_naquadria_solution",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

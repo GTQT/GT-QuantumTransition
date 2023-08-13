@@ -1,0 +1,21 @@
+{
+	icon: "gcys:meta_item_1 1 421",
+	x: 6.0d,
+	y: 8.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "88b5d079",
+		type: "ftbmoney:money",
+		value: 640L
+	},
+	{
+		uid: "af89efa7",
+		type: "gamestage",
+		stage: "uv"
+	}],
+	rewards: [{
+		uid: "2ce17196",
+		type: "item",
+		item: "gcys:meta_item_1 1 421"
+	}]
+}

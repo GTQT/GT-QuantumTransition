@@ -1,0 +1,33 @@
+{
+	title: "杀！杀！杀！",
+	x: 8.0d,
+	y: 3.5d,
+	text: [
+		"对待怪物你不需要心慈手软"
+	],
+	dependencies: [
+		"1800d419"
+	],
+	tasks: [{
+		uid: "8c419484",
+		type: "item",
+		items: [{
+			item: "minecraft:rotten_flesh"
+		},
+		{
+			item: "minecraft:bone"
+		},
+		{
+			item: "minecraft:gunpowder"
+		},
+		{
+			item: "minecraft:string"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "e6973fc0",
+		type: "random",
+		table: 9
+	}]
+}

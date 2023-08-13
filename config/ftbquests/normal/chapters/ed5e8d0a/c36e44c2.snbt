@@ -1,0 +1,18 @@
+{
+	x: -6.5d,
+	y: -8.5d,
+	text: [
+		"锗能干什么",
+		"四氯化锗是制作光纤的材料之一"
+	],
+	dependencies: [
+		"6d29e0e0"
+	],
+	tasks: [{
+		uid: "0d3bbecf",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 40"
+		}]
+	}]
+}

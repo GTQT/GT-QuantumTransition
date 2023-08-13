@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: -3.0d,
+	dependencies: [
+		"ff730a93"
+	],
+	tasks: [{
+		uid: "6c001040",
+		type: "item",
+		items: [{
+			item: "gregtech:fusion_casing 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "70df0cc2",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "c022a801",
+		type: "random",
+		table: 9
+	}]
+}

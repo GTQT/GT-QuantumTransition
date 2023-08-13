@@ -1,0 +1,24 @@
+{
+	title: "空气",
+	x: 23.5d,
+	y: 2.0d,
+	text: [
+		"只是空气"
+	],
+	dependencies: [
+		"950afc9b"
+	],
+	tasks: [{
+		uid: "e81accc3",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "air",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

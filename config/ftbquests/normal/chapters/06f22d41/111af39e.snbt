@@ -1,0 +1,128 @@
+{
+	title: "婴儿宝宝套餐",
+	x: 0.0d,
+	y: 2.5d,
+	shape: "octagon",
+	description: "非常抱歉，但是您实在是太垃圾了，已经到了需要这份婴儿宝宝套餐的地步，恕我直言，您那么菜就应该去玩网易。",
+	text: [
+		"包含 一个背包，两把万能工具，箱子，储罐等等等"
+	],
+	tasks: [{
+		uid: "d09448ba",
+		type: "checkmark"
+	},
+	{
+		uid: "25eb6243",
+		type: "gamestage",
+		stage: "easy"
+	}],
+	rewards: [{
+		uid: "9ada620e",
+		type: "item",
+		item: {
+			id: "travelersbackpack:travelers_backpack",
+			tag: {
+				LeftTank: {
+					Empty: ""
+				},
+				Items: [{
+					Slot: 9b,
+					id: "gregtech:meta_item_1",
+					Count: 1,
+					tag: {
+						terminal: {
+							_creative: 1b
+						}
+					},
+					Damage: 465s
+				},
+				{
+					Slot: 10b,
+					id: "gregtechfoodoption:gtfo_meta_item",
+					Count: 64,
+					Damage: 194s
+				},
+				{
+					Slot: 11b,
+					id: "waystones:return_scroll",
+					Count: 8,
+					Damage: 0s
+				},
+				{
+					Slot: 12b,
+					id: "gregtech:machine",
+					Count: 2,
+					Damage: 1560s
+				},
+				{
+					Slot: 13b,
+					id: "gregtech:machine",
+					Count: 2,
+					Damage: 1575s
+				},
+				{
+					Slot: 14b,
+					id: "enderio:item_item_conduit",
+					Count: 16,
+					Damage: 0s
+				},
+				{
+					Slot: 15b,
+					id: "enderio:item_liquid_conduit",
+					Count: 16,
+					Damage: 0s
+				},
+				{
+					Slot: 16b,
+					id: "lootgames:ms_activator",
+					Count: 2,
+					Damage: 0s
+				},
+				{
+					Slot: 17b,
+					id: "waystones:waystone",
+					Count: 5,
+					Damage: 0s
+				},
+				{
+					Slot: 18b,
+					id: "enderstorage:ender_storage",
+					Count: 2,
+					Damage: 1s
+				},
+				{
+					Slot: 19b,
+					id: "enderstorage:ender_pouch",
+					Count: 1,
+					Damage: 0s
+				},
+				{
+					Slot: 20b,
+					id: "lootgames:puzzle_master",
+					Count: 2,
+					Damage: 0s
+				},
+				{
+					Slot: 21b,
+					id: "gregtech:gt_armor",
+					Count: 1,
+					tag: {
+						Charge: 80000L
+					},
+					Damage: 1s
+				},
+				{
+					Slot: 22b,
+					id: "torchmaster:mega_torch",
+					Count: 1,
+					Damage: 0s
+				}],
+				RightTank: {
+					FluidName: "lava",
+					Amount: 4000
+				},
+				LastTime: 0
+			}
+		}
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "输入到机器！",
+	x: 6.5d,
+	y: 9.0d,
+	description: "特级能源仓",
+	text: [
+		""
+	],
+	dependencies: [
+		"013adfbb"
+	],
+	tasks: [{
+		uid: "0215c2da",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1421"
+		}]
+	}]
+}

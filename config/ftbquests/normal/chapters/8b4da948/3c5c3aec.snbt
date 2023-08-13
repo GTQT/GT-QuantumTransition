@@ -1,0 +1,28 @@
+{
+	x: 26.0d,
+	y: 1.0d,
+	description: "处理矩阵是什么",
+	text: [
+		"你会需要她的"
+	],
+	dependencies: [
+		"6dc18240"
+	],
+	tasks: [{
+		uid: "4ec87af0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 262"
+		}]
+	}],
+	rewards: [{
+		uid: "19d061d2",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	},
+	{
+		uid: "bc4c23a7",
+		type: "random",
+		table: 4
+	}]
+}

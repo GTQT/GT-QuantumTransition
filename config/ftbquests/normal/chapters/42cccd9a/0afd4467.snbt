@@ -1,0 +1,23 @@
+{
+	x: -3.0d,
+	y: 3.0d,
+	text: [
+		"顾名思义，消耗蒸汽来发电，有多方块版本，前期的第一选择也是唯一选择",
+		"",
+		"电压等级	效率",
+		"LV	85%",
+		"MV	75%",
+		"HV	66%",
+		"备注：（2/效率）mb蒸汽=1EU"
+	],
+	dependencies: [
+		"a456c5bc"
+	],
+	tasks: [{
+		uid: "3d920cc5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 950"
+		}]
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "LV你会讨厌他的part1",
+	x: 10.0d,
+	y: 8.5d,
+	description: "活塞，马达，你至少准备一点",
+	text: [
+		"起码16个吧兄弟",
+		"机器的基本机械零件。用于制作压缩机等机器。",
+		"如果你发现需要输入的物品超过了蒸汽输入总线的上限，你可以再加一个输入总线"
+	],
+	dependencies: [
+		"c9f41a6f"
+	],
+	tasks: [{
+		uid: "3c3aac78",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 172"
+		}]
+	},
+	{
+		uid: "b3ab0552",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 127"
+		}]
+	}],
+	rewards: [{
+		uid: "cd74b641",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "c1494d15",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

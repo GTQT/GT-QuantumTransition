@@ -1,0 +1,28 @@
+{
+	title: "寄 铌钛 美合金锭",
+	x: 11.5d,
+	y: -0.5d,
+	text: [
+		"超导线缆！线损是什么"
+	],
+	dependencies: [
+		"487249f2"
+	],
+	tasks: [{
+		uid: "0f17623d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 296"
+		}]
+	}],
+	rewards: [{
+		uid: "da383160",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "2e5e4728",
+		type: "loot",
+		table: 9
+	}]
+}

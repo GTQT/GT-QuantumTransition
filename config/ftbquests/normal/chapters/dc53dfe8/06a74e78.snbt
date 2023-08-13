@@ -1,0 +1,28 @@
+{
+	x: 15.5d,
+	y: 19.0d,
+	description: "额，等等",
+	text: [
+		"你需要拥有坎塔尔线圈后再来做这个任务，为什么？"
+	],
+	dependencies: [
+		"3e237740"
+	],
+	tasks: [{
+		uid: "042f2a43",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_single 1 424"
+		}]
+	}],
+	rewards: [{
+		uid: "a985e4ef",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "05a9af5a",
+		type: "random",
+		table: 0
+	}]
+}

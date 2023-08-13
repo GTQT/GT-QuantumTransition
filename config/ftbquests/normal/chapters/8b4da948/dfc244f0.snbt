@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: 5.5d,
+	shape: "gear",
+	description: "专业化电解工厂",
+	text: [
+		"堆砌电解机的时代已经过去了，快来看看这台专业化的电解设备",
+		"以超级高的效率电解各种流体，处理矿物",
+		"",
+		"在此，我们需要获得一些过氧化氢，而电解槽恰恰可以帮助我们"
+	],
+	dependencies: [
+		"b99e49f8"
+	],
+	tasks: [{
+		uid: "49bcbfeb",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 32028"
+		}]
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "火箭燃料",
+	x: 2.0d,
+	y: 6.5d,
+	dependencies: [
+		"f5d741dc"
+	],
+	tasks: [{
+		uid: "40b9e84d",
+		type: "checkmark"
+	}]
+}

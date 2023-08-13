@@ -1,0 +1,31 @@
+{
+	x: -4.0d,
+	y: -1.0d,
+	dependencies: [
+		"6c172f03"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "622c16c7",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 991"
+		}]
+	}],
+	rewards: [{
+		uid: "24a308ef",
+		type: "random",
+		table: 7
+	},
+	{
+		uid: "5bcf3272",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "c4e55ebc",
+		type: "gamestage",
+		auto: "enabled",
+		stage: "luv"
+	}]
+}

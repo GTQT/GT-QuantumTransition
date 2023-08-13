@@ -1,0 +1,35 @@
+{
+	title: "锡石矿脉",
+	x: 22.0d,
+	y: -2.0d,
+	description: "有点用，显然和铜一样重要。",
+	text: [
+		"我不能否认锡的重要性，多挖一点",
+		"包含锡石与锡，如果你熟知青铜的配比以及你即将要做的机器，你会需要锡的。",
+		"锡能干什么？在目前而言，合金冶炼青铜就是锡的主要用处，在之后你还需要制作焊锡。"
+	],
+	dependencies: [
+		"2a4123c2"
+	],
+	tasks: [{
+		uid: "cde01977",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_tin_0"
+		}],
+		count: 32L
+	},
+	{
+		uid: "7ef93d86",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_cassiterite_0"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "ce6952c1",
+		type: "random",
+		table: 9
+	}]
+}

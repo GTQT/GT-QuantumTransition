@@ -1,0 +1,47 @@
+{
+	title: "抽屉抽屉！",
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		}
+	},
+	x: 3.0d,
+	y: 2.5d,
+	dependencies: [
+		"7e46fb59"
+	],
+	tasks: [{
+		uid: "bb8d290e",
+		type: "ftbmoney:money",
+		value: 25L
+	},
+	{
+		uid: "50a6fbd3",
+		type: "gamestage",
+		stage: "easy"
+	}],
+	rewards: [{
+		uid: "e87f1677",
+		type: "item",
+		item: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "9225d3cd",
+		type: "item",
+		item: "fluiddrawers:tank",
+		count: 4
+	},
+	{
+		uid: "a60ac454",
+		type: "item",
+		item: "storagedrawers:upgrade_storage",
+		count: 8
+	}]
+}

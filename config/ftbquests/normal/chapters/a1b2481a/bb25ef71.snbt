@@ -1,0 +1,27 @@
+{
+	title: "硼与硼砂",
+	x: -16.5d,
+	y: -13.0d,
+	text: [
+		"在这条线里，你需要制取硼硅玻璃以及立方氮化硼。"
+	],
+	dependencies: [
+		"21de2c58"
+	],
+	tasks: [{
+		uid: "592250b6",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_rock_salt_0"
+		}],
+		count: 16L
+	},
+	{
+		uid: "0a70d35e",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_lepidolite_0"
+		}],
+		count: 16L
+	}]
+}

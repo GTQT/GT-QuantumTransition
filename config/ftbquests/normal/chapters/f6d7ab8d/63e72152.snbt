@@ -1,0 +1,69 @@
+{
+	title: "多方块的开始",
+	x: 4.0d,
+	y: -3.5d,
+	description: "你挖好了吗",
+	text: [
+		"最原始的多方块结构（土高炉，冶炼炉）都需要混凝土",
+		"以下是一些你必须准备的东西",
+		"请确保你的进度已经到了蒸汽阶段",
+		"",
+		"石头粉：研磨机粉碎石头",
+		"方解石粉：寻找方解石（青金石）矿脉",
+		"粘土粉：粉碎粘土块",
+		"石英砂：粉碎沙子",
+		"燧石粉：粉碎燧石",
+		"其他以此类推"
+	],
+	dependencies: [
+		"cd1cd41c"
+	],
+	tasks: [{
+		uid: "826cb85a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2524"
+		}]
+	},
+	{
+		uid: "faa8af2c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2049"
+		}]
+	},
+	{
+		uid: "9bbac842",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2063"
+		}]
+	},
+	{
+		uid: "be0677d1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1599"
+		}]
+	},
+	{
+		uid: "d3bbf62c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2023"
+		}]
+	},
+	{
+		uid: "2e845a9e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 262"
+		}]
+	}],
+	rewards: [{
+		uid: "c8188c99",
+		type: "item",
+		item: "gregtech:meta_dust 1 262",
+		count: 16
+	}]
+}

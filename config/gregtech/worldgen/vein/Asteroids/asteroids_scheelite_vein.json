@@ -1,0 +1,37 @@
+{
+  "weight": 80,
+  "density": 0.2,
+  "min_height": 0,
+  "max_height": 250,
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "lithium"
+  },
+  "dimension_filter": [
+    "name:planet.asteroids"
+  ],
+  "generator": {
+    "type": "layered",
+    "radius": [
+      100,
+      120
+    ]
+  },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:scheelite"
+      },
+      {
+        "secondary": "ore:scheelite"
+      },
+      {
+        "between": "ore:tungstate"
+      },
+      {
+        "sporadic": "ore:lithium"
+      }
+    ]
+  }
+}

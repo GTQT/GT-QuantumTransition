@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 1.5d,
+	dependencies: [
+		"fc0e2af8"
+	],
+	tasks: [{
+		uid: "4f069544",
+		type: "item",
+		items: [{
+			item: "forestry:portable_alyzer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

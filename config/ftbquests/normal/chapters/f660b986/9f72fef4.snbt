@@ -1,0 +1,36 @@
+{
+	x: 7.0d,
+	y: 0.0d,
+	text: [
+		"含硫的一些小玩意"
+	],
+	dependencies: [
+		"3b31ed86"
+	],
+	tasks: [{
+		uid: "75d7d66a",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "sulfuric_heavy_fuel",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "560fcd5b",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "sulfuric_light_fuel",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

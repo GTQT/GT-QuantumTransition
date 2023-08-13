@@ -1,0 +1,16 @@
+visualores.resetclientcache=Reset client ore cache!
+
+visualores.button.oreveins=Toggle ore vein display
+visualores.button.undergroundfluid=Toggle underground fluid display
+
+visualores.tooltipoverflow=... (%d more lines)
+
+visualores.newveins=Prospected %d new veins!
+visualores.depleted= (depleted)
+
+visualores.keycategory=VisualOres
+
+visualores.key.action=Action Key
+
+visualores.share.clientonly=Cannot share prospecting data when VisualOres is not on the server!
+visualores.share.notification=%s is sharing prospecting data with you!

@@ -1,0 +1,18 @@
+{
+	title: "MV-中压",
+	icon: "gregtech:machine 1 987",
+	always_invisible: false,
+	group: -1479984865,
+	default_quest_shape: "square",
+	images: [{
+		x: 6.5d,
+		y: 5.0d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "assets:ftb/mv.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

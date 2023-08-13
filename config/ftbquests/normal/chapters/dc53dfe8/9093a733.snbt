@@ -1,0 +1,24 @@
+{
+	x: 19.5d,
+	y: 3.5d,
+	description: "合金派对",
+	text: [
+		"制作一些机器外壳值得开心的额是，这种机器外壳不会随着多方块的升级而升级",
+		"混合铁镍塞到合金炉里即可"
+	],
+	dependencies: [
+		"85b4672a"
+	],
+	tasks: [{
+		uid: "2cfdb6db",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 287"
+		}]
+	}],
+	rewards: [{
+		uid: "9c7a476e",
+		type: "random",
+		table: 9
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 9.0d,
+	y: -1.0d,
+	dependencies: [
+		"46834fea"
+	],
+	tasks: [{
+		uid: "392bbc4b",
+		type: "item",
+		items: [{
+			item: "forestry:worktable"
+		}]
+	}],
+	rewards: [{
+		uid: "76bee1aa",
+		type: "loot",
+		table: 9
+	}]
+}

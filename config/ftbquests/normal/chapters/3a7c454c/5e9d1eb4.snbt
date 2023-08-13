@@ -1,0 +1,29 @@
+{
+	title: "乙醇&氢氧化钠",
+	x: 17.5d,
+	y: -5.0d,
+	dependencies: [
+		"1b478edb",
+		"c91371be"
+	],
+	tasks: [{
+		uid: "9ccac52f",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "bio.ethanol",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "ada2a42f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 377"
+		}]
+	}]
+}

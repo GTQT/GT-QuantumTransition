@@ -1,0 +1,46 @@
+{
+	x: 11.0d,
+	y: 14.0d,
+	description: "你能离开烧开水？？？？",
+	text: [
+		"输入蒸汽，产生电力。前期你最爱的机器",
+		"电压等级	效率",
+		"LV	85%",
+		"MV	75%",
+		"HV	66%",
+		"备注：（2/效率）mb蒸汽=1EU"
+	],
+	dependencies: [
+		"0b755e9c",
+		"1648279a",
+		"d33a9e7d"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "1ea63041",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 950"
+		}]
+	}],
+	rewards: [{
+		uid: "16f0d9b5",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "d425b403",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "314f1c97",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	},
+	{
+		uid: "af4a98b9",
+		type: "item",
+		item: "touhou_little_maid:smart_slab"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "过氧化氢",
+	x: -1.0d,
+	y: 5.5d,
+	text: [
+		"石墨烯的开始",
+		"你需要使用过氧化氢合成肼"
+	],
+	dependencies: [
+		"dfc244f0"
+	],
+	tasks: [{
+		uid: "7ab47a9d",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "hydrogen_peroxide",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

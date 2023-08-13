@@ -1,0 +1,22 @@
+{
+	title: "简单的自动化",
+	x: 36.5d,
+	y: 4.0d,
+	description: "这是什么？你的焦炉可以自动化输出了",
+	dependencies: [
+		"3ba748c1"
+	],
+	tasks: [{
+		uid: "b5a9680f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1018"
+		}]
+	}],
+	rewards: [{
+		uid: "6ee1e919",
+		type: "item",
+		item: "gregtech:meta_item_1",
+		count: 4
+	}]
+}

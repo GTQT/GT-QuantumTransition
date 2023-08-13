@@ -1,0 +1,30 @@
+{
+	x: 6.0d,
+	y: 1.5d,
+	dependencies: [
+		"97174b65"
+	],
+	tasks: [{
+		uid: "64468ffa",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		}]
+	}],
+	rewards: [{
+		uid: "2ab20a8d",
+		type: "item",
+		item: "gregtech:machine 1 1656"
+	},
+	{
+		uid: "20084365",
+		type: "item",
+		item: "gregtech:meta_item_1 1 3"
+	},
+	{
+		uid: "2940abc3",
+		type: "item",
+		item: "appliedenergistics2:part 1 16",
+		count: 16
+	}]
+}

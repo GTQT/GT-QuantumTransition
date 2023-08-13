@@ -1,0 +1,96 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "gregtech",
+      "path": "meta_block_compressed_5"
+    },
+    "meta": 2
+  },
+  "components": [
+    {
+      "weight": 100,
+      "oreName": "oreIron"
+    },
+    {
+      "weight": 100,
+      "oreName": "oreCopper"
+    },
+    {
+      "weight": 100,
+      "oreName": "oreTin"
+    },
+    {
+      "weight": 100,
+      "oreName": "oreSilver"
+    },
+    {
+      "weight": 100,
+      "oreName": "oreLead"
+    },
+    {
+      "weight": 100,
+      "oreName": "oreGold"
+    },
+    {
+      "weight": 100,
+      "oreName": "oreBauxite"
+    },
+	{
+      "weight": 100,
+      "oreName": "oreLazurite"
+    },
+	{
+      "weight": 100,
+      "oreName": "oreRuby"
+    },
+	{
+      "weight": 100,
+      "oreName": "oreSapphire"
+    },
+	{
+      "weight": 100,
+      "oreName": "oreSaltpeter"
+    },
+	{
+      "weight": 100,
+      "oreName": "oreSphalerite"
+    },
+	{
+      "weight": 100,
+      "oreName": "oreTungstate"
+    },
+	{
+      "weight": 100,
+      "oreName": "oreNether_Quartz"
+    },
+	{
+      "weight": 100,
+      "oreName": "oreChalcocite"
+    },
+	{
+      "weight": 100,
+      "oreName": "orePentlandite"
+    },
+	{
+      "weight": 100,
+      "oreName": "orePentlandite"
+    },
+	{
+      "weight": 100,
+      "oreName": "oreSoapstone"
+    },
+	{
+      "weight": 100,
+      "oreName": "oreAluminium"
+    },
+    {
+      "weight": 100,
+      "oreName": "oreRedstone"
+    }
+  ],
+  "explosionStrength": 15.0,
+  "radius": 9,
+  "maxWeight": 1080,
+  "version": 3,
+  "cost": 100000000
+}

@@ -1,0 +1,33 @@
+{
+	x: 29.0d,
+	y: 3.0d,
+	text: [
+		"不是一般的泵，注意啦，这个泵会范围抽取范围内的所有流体，包括水，岩浆，石油，你需要在机器输出口进行预制的流体分流系统来保证机器一直工作。"
+	],
+	dependencies: [
+		"a9757831"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "c313e151",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1530"
+		}]
+	}],
+	rewards: [{
+		uid: "66289345",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "85629c7a",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "36fab341",
+		type: "item",
+		item: "gregtech:meta_item_1 1 3"
+	}]
+}

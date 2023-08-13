@@ -1,0 +1,30 @@
+{
+	x: 4.5d,
+	y: -0.5d,
+	description: "注意，只能兑换一次",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "cafceb2f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "8d6e0b5b",
+		type: "command",
+		command: "/say 你需要继续努力"
+	},
+	{
+		uid: "aa705971",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "ca15c563",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

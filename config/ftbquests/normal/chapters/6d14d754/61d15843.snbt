@@ -1,0 +1,21 @@
+{
+	title: "猪猪那么可爱，你为什么要杀猪猪",
+	x: 8.0d,
+	y: 6.5d,
+	dependencies: [
+		"1800d419"
+	],
+	tasks: [{
+		uid: "712173c8",
+		type: "item",
+		items: [{
+			item: "minecraft:porkchop"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "769c59ed",
+		type: "random",
+		table: 9
+	}]
+}

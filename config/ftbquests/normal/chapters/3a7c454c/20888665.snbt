@@ -1,0 +1,21 @@
+{
+	title: "苯",
+	x: 12.0d,
+	y: 4.5d,
+	dependencies: [
+		"6107ef02"
+	],
+	tasks: [{
+		uid: "d574daad",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "benzene",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

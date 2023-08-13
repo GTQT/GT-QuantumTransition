@@ -1,0 +1,25 @@
+{
+	title: "从催化化工开始的 聚酰亚胺kauton K",
+	x: 2.0d,
+	y: -8.5d,
+	text: [
+		"这条线是生物工程真正进入gt主线的开始，我们目前需要制作的是最基础的生物基板"
+	],
+	dependencies: [
+		"3959a7f1"
+	],
+	tasks: [{
+		uid: "29a865e7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 15031"
+		}]
+	},
+	{
+		uid: "6abe20d0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 15032"
+		}]
+	}]
+}

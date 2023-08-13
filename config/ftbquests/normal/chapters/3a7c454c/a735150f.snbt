@@ -1,0 +1,26 @@
+{
+	title: "硝酸",
+	x: 17.5d,
+	y: -3.0d,
+	description: "关于硝酸产线",
+	text: [
+		"氨与水反应多步，分别是一氧化氮，二氧化氮，硝酸"
+	],
+	dependencies: [
+		"6c70941c",
+		"7dbe44bd"
+	],
+	tasks: [{
+		uid: "772599a8",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "nitric_acid",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

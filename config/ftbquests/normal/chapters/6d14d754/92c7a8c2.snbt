@@ -1,0 +1,40 @@
+{
+	title: "保护你的家",
+	x: 26.5d,
+	y: 5.0d,
+	text: [
+		"你一定需要一扇铁门来保护自己的基地，当然，你不能把自己锁在外边。"
+	],
+	dependencies: [
+		"e5f5850c"
+	],
+	tasks: [{
+		uid: "e14231e7",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_door"
+		}]
+	},
+	{
+		uid: "3608ba04",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_pressure_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "d27d0804",
+		type: "ftbmoney:money",
+		ftb_money: 4L
+	},
+	{
+		uid: "b9d9ebbb",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "0e8082ba",
+		type: "item",
+		item: "morefurnaces:furnaceblock"
+	}]
+}

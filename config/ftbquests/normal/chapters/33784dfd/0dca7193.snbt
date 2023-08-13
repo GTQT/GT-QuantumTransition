@@ -1,0 +1,32 @@
+{
+	x: 2.0d,
+	y: 12.5d,
+	text: [
+		"别把你的硅块全切成硅板了！",
+		"你至少需要半组的硅块来制造晶圆！"
+	],
+	dependencies: [
+		"c882ec40"
+	],
+	tasks: [{
+		uid: "c2da4f3b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_plate 1 99"
+		}],
+		count: 4L
+	},
+	{
+		uid: "18446ab3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_block_compressed_6 1 3"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "90426ee9",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

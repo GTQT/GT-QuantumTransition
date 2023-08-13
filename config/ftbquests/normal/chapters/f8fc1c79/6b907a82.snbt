@@ -1,0 +1,24 @@
+{
+	x: -1.0d,
+	y: -3.0d,
+	dependencies: [
+		"d3e40674",
+		"6029b433",
+		"b4aaad51",
+		"046e9dc5",
+		"82258a70"
+	],
+	tasks: [{
+		uid: "d10db97a",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "cycloparaphenylene",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

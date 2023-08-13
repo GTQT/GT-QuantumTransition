@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "57121476",
+		type: "item",
+		items: [{
+			item: "botania:flower"
+		},
+		{
+			item: "botania:flower 1 1"
+		},
+		{
+			item: "botania:flower 1 2"
+		},
+		{
+			item: "botania:flower 1 3"
+		},
+		{
+			item: "botania:flower 1 4"
+		},
+		{
+			item: "botania:flower 1 5"
+		},
+		{
+			item: "botania:flower 1 6"
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "氟",
+	x: -9.5d,
+	y: -2.0d,
+	text: [
+		"氟是一种重要的化学元素，它的主要作用是制作氟化氢。",
+		"你需要搭建一条氟化氢产线。"
+	],
+	dependencies: [
+		"5a79a4b8"
+	],
+	tasks: [{
+		uid: "2e03172a",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "fluorine",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

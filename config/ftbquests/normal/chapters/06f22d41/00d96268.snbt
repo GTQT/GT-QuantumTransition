@@ -1,0 +1,21 @@
+{
+	icon: "gregtech:meta_item_1 1 521",
+	x: 6.0d,
+	y: 4.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "dff6e8ee",
+		type: "ftbmoney:money",
+		value: 10L
+	},
+	{
+		uid: "35c4c40f",
+		type: "gamestage",
+		stage: "mv"
+	}],
+	rewards: [{
+		uid: "75b31b76",
+		type: "item",
+		item: "gregtech:meta_item_1 1 521"
+	}]
+}

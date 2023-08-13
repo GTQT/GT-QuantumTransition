@@ -1,0 +1,17 @@
+{
+	icon: "forestry:alveary.plain 9",
+	x: 21.0d,
+	y: 10.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "3cf15b86",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "3a59bae1",
+		type: "item",
+		item: "forestry:alveary.plain",
+		count: 9
+	}]
+}

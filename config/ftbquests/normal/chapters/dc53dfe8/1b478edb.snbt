@@ -1,0 +1,17 @@
+{
+	x: 23.5d,
+	y: 10.0d,
+	text: [
+		"是个重要的东西，如果你查询他的配方，你会发现，哇，好厉害"
+	],
+	dependencies: [
+		"f8438a16"
+	],
+	tasks: [{
+		uid: "706a4d8d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 377"
+		}]
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	x: 0.0d,
+	y: -5.0d,
+	dependencies: [
+		"57576bb7",
+		"9a614e79",
+		"f58320ca",
+		"a18cc407"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "dec10fbf",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1021"
+		}]
+	}],
+	rewards: [{
+		uid: "049804dc",
+		type: "random",
+		table: 5
+	},
+	{
+		uid: "67baa867",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "f3ea7d70",
+		type: "random",
+		table: 5
+	},
+	{
+		uid: "dec5931a",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "95ec10d9",
+		type: "item",
+		item: "gregtech:meta_item_1 1 5"
+	}]
+}

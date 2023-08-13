@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	dependencies: [
+		"fc0e2af8"
+	],
+	tasks: [{
+		uid: "ed8c5bdf",
+		type: "item",
+		items: [{
+			item: "forestry:engine_electrical"
+		}]
+	}]
+}

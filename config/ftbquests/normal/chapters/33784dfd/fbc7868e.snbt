@@ -1,0 +1,18 @@
+{
+	x: -2.0d,
+	y: 9.5d,
+	description: "小心烫手",
+	text: [
+		"你将在电力高炉的配方里接触到很多炽热的物品，注意这些炽热的物品很可能会灼烧你的小手，因此，为什么不给自己准备一个手套呢"
+	],
+	dependencies: [
+		"18dc6751"
+	],
+	tasks: [{
+		uid: "44a051d9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot_hot 1 288"
+		}]
+	}]
+}

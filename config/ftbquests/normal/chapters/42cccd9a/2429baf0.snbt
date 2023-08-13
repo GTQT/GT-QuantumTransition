@@ -1,0 +1,11 @@
+{
+	x: -6.0d,
+	y: 7.5d,
+	tasks: [{
+		uid: "66273ab5",
+		type: "item",
+		items: [{
+			item: "emt:solar_firedoublecompressed"
+		}]
+	}]
+}

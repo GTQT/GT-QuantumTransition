@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: -6.0d,
+	tasks: [{
+		uid: "ea6ba34c",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "n_methyl_pyrrolidone",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

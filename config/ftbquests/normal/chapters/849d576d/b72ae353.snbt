@@ -1,0 +1,18 @@
+{
+	x: 11.0d,
+	y: 0.0d,
+	description: "基础的抽屉升级",
+	text: [
+		"任何抽屉升级都是基于这个升级模板"
+	],
+	dependencies: [
+		"fc236f61"
+	],
+	tasks: [{
+		uid: "bd9c2a3f",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_template"
+		}]
+	}]
+}

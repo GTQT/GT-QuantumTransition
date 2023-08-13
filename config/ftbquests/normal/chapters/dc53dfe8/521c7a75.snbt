@@ -1,0 +1,29 @@
+{
+	title: "大号加速火把",
+	x: 18.5d,
+	y: 19.0d,
+	text: [
+		"作用和加速火把相同，但是不同点在于这台机器可以有螺丝刀右键调整模式，并且可以用来加速实体。",
+		"默认需要输入3A电流来工作，加速实体需要2倍的耗能，最大可以接受8A电流"
+	],
+	dependencies: [
+		"e89820ef"
+	],
+	tasks: [{
+		uid: "cca372c0",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1390"
+		}]
+	}],
+	rewards: [{
+		uid: "0db930ac",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "bf421cad",
+		type: "random",
+		table: 0
+	}]
+}

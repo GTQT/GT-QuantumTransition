@@ -1,0 +1,26 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"63e72152"
+	],
+	tasks: [{
+		uid: "d2b3a701",
+		type: "item",
+		items: [{
+			item: "contenttweaker:hunnintu_item"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "4a45742a",
+		type: "item",
+		item: "contenttweaker:hunnintu_item",
+		count: 64
+	},
+	{
+		uid: "c61db612",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

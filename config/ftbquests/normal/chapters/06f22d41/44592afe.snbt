@@ -1,0 +1,16 @@
+{
+	icon: "gcys:meta_item_1 1 426",
+	x: 6.0d,
+	y: 10.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "cbcb57a8",
+		type: "ftbmoney:money",
+		value: 2560L
+	}],
+	rewards: [{
+		uid: "24eb3c3b",
+		type: "item",
+		item: "gcys:meta_item_1 1 426"
+	}]
+}

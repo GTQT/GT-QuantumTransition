@@ -1,0 +1,24 @@
+{
+	title: "无菌培养基",
+	x: -4.0d,
+	y: -8.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a2b09f81"
+	],
+	tasks: [{
+		uid: "37ee426d",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "sterilized_growth_medium",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "魔法少女—魔法探索",
+	icon: "thaumcraft:mirror",
+	always_invisible: false,
+	group: -1042929383,
+	default_quest_shape: ""
+}

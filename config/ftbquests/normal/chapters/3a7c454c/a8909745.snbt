@@ -1,0 +1,25 @@
+{
+	title: "丙烯",
+	x: 12.0d,
+	y: 0.5d,
+	text: [
+		"很常见的蒸馏裂化产物。",
+		"你有多种途径得到它，或者作为副产物你已经囤积很多了。"
+	],
+	dependencies: [
+		"291b6fc4"
+	],
+	tasks: [{
+		uid: "10bce473",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "propene",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

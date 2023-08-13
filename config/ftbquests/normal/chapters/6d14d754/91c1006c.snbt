@@ -1,0 +1,44 @@
+{
+	title: "have a good night",
+	x: 13.0d,
+	y: 5.0d,
+	dependencies: [
+		"69ddbfbf"
+	],
+	dependency_requirement: "one_completed",
+	size: 2.0d,
+	tasks: [{
+		uid: "303b6c68",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "bed",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any bed"
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e10a3c97",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "46ca1727",
+		type: "item",
+		item: "gregtech:meta_item_1 1 1"
+	},
+	{
+		uid: "1eee560d",
+		type: "item",
+		item: "waystones:waystone"
+	}]
+}

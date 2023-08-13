@@ -1,0 +1,58 @@
+{
+	title: "混合！柴油来喽",
+	x: 16.0d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3da56f21",
+		"7a890de1"
+	],
+	tasks: [{
+		uid: "08d4d1d6",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "diesel",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7593fa09",
+		type: "item",
+		item: {
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "heavy_fuel",
+					Amount: 1000
+				}
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "49a5b21e",
+		type: "item",
+		item: {
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "light_fuel",
+					Amount: 1000
+				}
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "d2dbcc29",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: 5.5d,
+	text: [
+		"即将到来的ev与iv都需要磁化Nd管"
+	],
+	dependencies: [
+		"b28cf763"
+	],
+	tasks: [{
+		uid: "f4182a6a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_stick 1 418"
+		}]
+	}]
+}

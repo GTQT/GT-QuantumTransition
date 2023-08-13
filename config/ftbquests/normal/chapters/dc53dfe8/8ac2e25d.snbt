@@ -1,0 +1,18 @@
+{
+	x: 15.5d,
+	y: 11.0d,
+	text: [
+		"这是目前较为便宜的小储罐",
+		"如果你觉得钢的更便宜，你应该反思你在LV阶段为什么会有那么多钢"
+	],
+	dependencies: [
+		"f8a944f9"
+	],
+	tasks: [{
+		uid: "a5db3a39",
+		type: "item",
+		items: [{
+			item: "ic2:fluid_cell"
+		}]
+	}]
+}

@@ -1,0 +1,106 @@
+{
+	title: "ae",
+	loot_size: 1,
+	rewards: [{
+		item: "appliedenergistics2:material 1 26"
+	},
+	{
+		item: "appliedenergistics2:material 1 27"
+	},
+	{
+		item: "appliedenergistics2:part 1 380"
+	},
+	{
+		item: "appliedenergistics2:part 1 360"
+	},
+	{
+		item: "appliedenergistics2:part 1 341"
+	},
+	{
+		item: "appliedenergistics2:part 1 340"
+	},
+	{
+		item: "appliedenergistics2:part 1 76"
+	},
+	{
+		item: "appliedenergistics2:interface"
+	},
+	{
+		item: "appliedenergistics2:controller"
+	},
+	{
+		item: "appliedenergistics2:material 1 37"
+	},
+	{
+		item: "appliedenergistics2:material 1 56"
+	},
+	{
+		item: "appliedenergistics2:material 1 35"
+	},
+	{
+		item: "appliedenergistics2:material 1 36"
+	},
+	{
+		item: "appliedenergistics2:material 1 38"
+	},
+	{
+		item: "appliedenergistics2:material 1 54"
+	},
+	{
+		item: "appliedenergistics2:material 1 38"
+	},
+	{
+		item: "appliedenergistics2:material 1 57"
+	},
+	{
+		item: "appliedenergistics2:material 1 30"
+	},
+	{
+		item: "appliedenergistics2:material 1 31"
+	},
+	{
+		item: "appliedenergistics2:material 1 53"
+	},
+	{
+		item: "appliedenergistics2:material 1 24"
+	},
+	{
+		item: "appliedenergistics2:material 1 29"
+	},
+	{
+		item: "appliedenergistics2:material 1 7"
+	},
+	{
+		item: "appliedenergistics2:material 1 23"
+	},
+	{
+		item: "appliedenergistics2:material 1 22"
+	},
+	{
+		item: "appliedenergistics2:material 1 11"
+	},
+	{
+		item: "appliedenergistics2:material 1 12"
+	},
+	{
+		item: "appliedenergistics2:material 1 10"
+	},
+	{
+		item: {
+			id: "appliedenergistics2:portable_cell",
+			tag: {
+				internalMaxPower: 20000.0d,
+				internalCurrentPower: 20000.0d
+			}
+		}
+	},
+	{
+		item: "appliedenergistics2:part 1 16"
+	},
+	{
+		item: "appliedenergistics2:spatial_io_port"
+	},
+	{
+		item: "appliedenergistics2:io_port"
+	}]
+}

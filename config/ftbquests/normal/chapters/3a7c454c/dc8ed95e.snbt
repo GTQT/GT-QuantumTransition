@@ -1,0 +1,22 @@
+{
+	title: "苯酚",
+	x: 14.0d,
+	y: 2.0d,
+	dependencies: [
+		"6107ef02",
+		"291b6fc4"
+	],
+	tasks: [{
+		uid: "5a288962",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "phenol",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

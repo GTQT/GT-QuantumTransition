@@ -1,0 +1,11 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "8d88ceff",
+		type: "item",
+		items: [{
+			item: "chisel:auto_chisel"
+		}]
+	}]
+}

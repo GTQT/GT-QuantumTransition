@@ -1,0 +1,296 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  biggerthanwidth = 1920
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/mainmenu/bg.png
+  action = texturizebackground
+}
+
+customization {
+  path = resources/mainmenu/bg_music.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 220
+  width = 200
+  action = deep_customization_element:title_screen_forge_top
+  actionid = bbd8a567-5eb9-4823-aefa-cac6719bc82c1690978770276
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 115
+  action = deep_customization_element:title_screen_branding
+  actionid = 4f5920fe-dad6-462d-ad4c-0af4e6ca6ff91690978770276
+  y = 322
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 471
+  width = 168
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 3e8fcf44-d862-435e-9d33-0e81d8c4c4381690978770276
+  y = 354
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 8d8d22d4-bf4b-421c-a99c-2f8f912bc5951690978770276
+  y = 193
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 094e5038-9e4f-4f28-bb53-78d9272787601690978770276
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 3de67e55-c35d-4be6-a05d-367e9eeb53761690978770276
+  y = 0
+  height = 30
+}
+
+customization {
+  path = resources/mainmenu/bottom_right-5.png
+  orientation = bottom-right
+  x = -168
+  width = 197
+  actionid = 4897be94-6cb5-4c59-99f9-c021d77ea1d31643712367862
+  action = addtexture
+  y = -28
+  height = 37
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.GuiWorldSelection%btnaction_splitter_fm%
+  backgroundhovered = resources\mainmenu\singleplayer_hovered-7.png
+  label = 
+  loopbackgroundanimations = true
+  x = -210
+  width = 100
+  action = addbutton
+  actionid = 278792db-409e-4e52-ba9a-ed65c396f0591643638749659
+  y = -42
+  backgroundnormal = resources\mainmenu\singleplayer-7.png
+  height = 40
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.GuiMultiplayer%btnaction_splitter_fm%
+  backgroundhovered = resources\mainmenu\multiplayer_hovered-9.png
+  label = 
+  loopbackgroundanimations = true
+  x = -105
+  width = 100
+  action = addbutton
+  actionid = cd71c2e4-20ab-4e90-a5db-46171a4fd4e81643639866080
+  y = -42
+  backgroundnormal = resources\mainmenu\multiplayer-10.png
+  height = 40
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraftforge.fml.client.GuiModList%btnaction_splitter_fm%
+  backgroundhovered = resources\mainmenu\mods_hovered_small-3.png
+  label = 
+  loopbackgroundanimations = true
+  x = -105
+  width = 100
+  action = addbutton
+  actionid = 5985282b-45d0-40bc-9bf5-94b26dfc6a011643642753648
+  y = 3
+  backgroundnormal = resources\mainmenu\mods_small-2.png
+  height = 40
+}
+
+customization {
+  path = resources/mainmenu/bottem_left-10.png
+  orientation = bottom-left
+  x = -3
+  width = 162
+  actionid = 38650046-70bf-4d51-93a8-774fb02e819e1643691553137
+  action = addtexture
+  y = -56
+  height = 56
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.GuiOptions%btnaction_splitter_fm%
+  backgroundhovered = resources\mainmenu\settings_hovered_small-2.png
+  label = 
+  loopbackgroundanimations = true
+  x = -210
+  width = 100
+  action = addbutton
+  actionid = b5b1e478-c2e7-4e45-b50a-ceddc5e022371643644520369
+  y = 3
+  backgroundnormal = resources\mainmenu\settings_small-2.png
+  height = 40
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.client.gui.GuiLanguage%btnaction_splitter_fm%
+  backgroundhovered = resources\mainmenu\language_hovered-5.png
+  label = 
+  loopbackgroundanimations = true
+  x = -210
+  width = 100
+  action = addbutton
+  actionid = d6bae89e-db9e-4cc4-b26c-a6777912b2171643647018377
+  y = 48
+  backgroundnormal = resources\mainmenu\language-4.png
+  height = 40
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = quitgame;%btnaction_splitter_fm%
+  backgroundhovered = resources\mainmenu\exit_hovered-6.png
+  label = 
+  loopbackgroundanimations = true
+  x = -105
+  width = 100
+  action = addbutton
+  actionid = c062274e-d4af-4602-b91f-7166946cba3d1643648199983
+  y = 48
+  backgroundnormal = resources\mainmenu\exit-5.png
+  height = 40
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 18
+  actionid = 40200b7b-5394-4da5-a732-22a89cd53edc1643688218181
+  action = addtext
+  y = -44
+  scale = 1.0
+  alignment = left
+  value = §aHello! §b%playername%!
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 18
+  actionid = 5cc09a63-8df3-4759-a86c-da3c61a0a6e81643691247520
+  action = addtext
+  y = -34
+  scale = 1.0
+  alignment = left
+  value = §bGTQuantumTranstiton §b§e ★
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 18
+  actionid = cbaf945d-3152-403b-8d09-200ee385f7ee1643691332437
+  action = addtext
+  y = -24
+  scale = 1.0
+  alignment = left
+  value = §aForge Version: §b%version:forge%
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 18
+  actionid = ab33ee37-b0a6-467c-9c0a-a54edc1682af1643691373137
+  action = addtext
+  y = -14
+  scale = 1.0
+  alignment = left
+  value = §aLoaded §b%loadedmods% §aMods
+}
+

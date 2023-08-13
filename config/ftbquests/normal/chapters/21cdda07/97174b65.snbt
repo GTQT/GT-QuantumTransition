@@ -1,0 +1,15 @@
+{
+	title: "低压 中压",
+	x: 0.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "70d47afc",
+		type: "gamestage",
+		stage: "easy"
+	},
+	{
+		uid: "c1dac47c",
+		type: "gamestage",
+		stage: "lv"
+	}]
+}

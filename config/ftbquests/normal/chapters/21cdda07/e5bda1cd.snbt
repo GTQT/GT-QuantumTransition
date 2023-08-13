@@ -1,0 +1,15 @@
+{
+	title: "强导压 剧差压",
+	x: 0.0d,
+	y: 6.0d,
+	tasks: [{
+		uid: "4361367d",
+		type: "gamestage",
+		stage: "easy"
+	},
+	{
+		uid: "7ea738a0",
+		type: "gamestage",
+		stage: "iv"
+	}]
+}

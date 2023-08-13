@@ -1,0 +1,223 @@
+{
+	title: "IV",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:meta_item_1 1 131"
+	},
+	{
+		item: "gregtech:meta_item_1 1 146"
+	},
+	{
+		item: "gregtech:meta_item_1 1 161"
+	},
+	{
+		item: "gregtech:meta_item_1 1 176"
+	},
+	{
+		item: "gregtech:meta_item_1 1 191"
+	},
+	{
+		item: "gregtech:meta_item_1 1 206"
+	},
+	{
+		item: "gregtech:meta_item_1 1 221"
+	},
+	{
+		item: "gregtech:meta_item_1 1 236"
+	},
+	{
+		item: "gregtech:meta_item_1 1 251"
+	},
+	{
+		item: "gregtech:meta_plate 1 2520",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_plate 1 2519",
+		count: 32
+	},
+	{
+		item: "enderio:block_dark_steel_anvil"
+	},
+	{
+		item: "ironchest:iron_chest 1 3",
+		count: 4
+	},
+	{
+		item: "ironchest:iron_chest 1 4",
+		count: 4
+	},
+	{
+		item: "fluidtank:blocktank3 1 1"
+	},
+	{
+		item: "fluidtank:blocktank3 1 2"
+	},
+	{
+		item: "gregtech:machine 1 1579"
+	},
+	{
+		item: "gregtech:machine 1 1578"
+	},
+	{
+		item: "gregtech:meta_item_1 1 710"
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 250000000L
+			},
+			Damage: 748s
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 1600000L
+			},
+			Damage: 740s
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 6400000L
+			},
+			Damage: 741s
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 25000000L
+			},
+			Damage: 742s
+		}
+	},
+	{
+		item: "gregtech:meta_item_1 1 83"
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 1600000L
+			},
+			Damage: 467s
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 100000L
+			},
+			Damage: 469s
+		}
+	},
+	{
+		item: "openmodularturrets:turret_base 1 4"
+	},
+	{
+		item: "openmodularturrets:turret_base 1 3"
+	},
+	{
+		item: "lootgames:ms_activator"
+	},
+	{
+		item: "lootgames:gol_master"
+	},
+	{
+		item: "lootgames:puzzle_master"
+	},
+	{
+		item: "ironchest:iron_chest 1 5",
+		count: 4
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 3",
+		count: 16
+	},
+	{
+		item: "storagedrawers:upgrade_storage 1 4",
+		count: 8
+	},
+	{
+		item: "storagedrawers:upgrade_template",
+		count: 16
+	},
+	{
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 32
+	},
+	{
+		item: "enderio:item_liquid_conduit 1 1",
+		count: 32
+	},
+	{
+		item: "enderio:item_liquid_conduit",
+		count: 32
+	},
+	{
+		item: "enderio:item_item_conduit",
+		count: 32
+	},
+	{
+		item: "nuclearcraft:gem 1 1",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1564"
+	},
+	{
+		item: "gregtech:machine 1 1577"
+	},
+	{
+		item: "gregtech:machine 1 1401"
+	},
+	{
+		item: "gregtech:machine 1 1562"
+	},
+	{
+		item: "gregtech:machine 1 1563"
+	},
+	{
+		item: "gregtech:meta_item_1 1 526",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 524",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 525",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 523",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 527",
+		count: 16
+	},
+	{
+		item: "gregtech:machine 1 1155"
+	},
+	{
+		item: "gregtech:machine 1 1206"
+	},
+	{
+		item: "gregtech:machine 1 1185"
+	},
+	{
+		item: "gregtech:machine 1 1191"
+	},
+	{
+		item: "gregtech:machine 1 1170"
+	}]
+}

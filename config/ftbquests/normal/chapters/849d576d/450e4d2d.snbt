@@ -1,0 +1,39 @@
+{
+	title: "被撅了（悲",
+	x: 14.5d,
+	y: 7.5d,
+	description: "将机器或者管道里不需要的残留液体撅出来~",
+	text: [
+		"可以从物品管道里清理出物品，从容器里清理出1000MB液体，也可以把物品清理出容器和管道,还可以清空神秘时代的源质"
+	],
+	dependencies: [
+		"18015dcf"
+	],
+	tasks: [{
+		uid: "28e6924e",
+		type: "item",
+		items: [{
+			id: "gregtech:plunger",
+			tag: {
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 256,
+					ToolSpeed: 4.0f,
+					AttackDamage: 0.0f,
+					Durability: 0,
+					Material: "rubber",
+					HarvestLevel: 1,
+					AttackSpeed: -2.4f
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c0d9c659",
+		type: "choice",
+		table: 9
+	}]
+}

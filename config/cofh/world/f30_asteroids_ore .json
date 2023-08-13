@@ -1,0 +1,197 @@
+{
+    "priority": 1,
+	"populate": {
+		"tetrahedrite_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_tetrahedrite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_tetrahedrite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_copper_0",
+						"properties": {
+							"stone_type": "barite"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_stibnite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"cluster-size": 160
+			},
+			"cluster-count": 5,
+			"chunk-chance": 5,
+			"min-height": 0,
+			"max-height": 250,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-30			
+				]
+			}
+		},
+		"lithium_vein_ow": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_scheelite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_scheelite_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_tungstate_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_lithium_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"cluster-size": 160
+			},
+			"cluster-count": 5,
+			"chunk-chance": 5,
+			"min-height": 0,
+			"max-height": 250,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-30			
+				]
+			}
+		},
+		"naquadah_iron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_naquadah_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_naquadah_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_naquadah_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_plutonium_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"cluster-size": 160
+			},
+			"cluster-count": 5,
+			"chunk-chance": 5,
+			"min-height": 0,
+			"max-height": 250,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-30			
+				]
+			}
+		}
+		"naquadah_iron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "gregtech:ore_naquadah_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_naquadah_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_naquadah_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 30
+					},
+					{
+						"name": "gregtech:ore_plutonium_0",
+						"properties": {
+							"stone_type": "stone"
+						},
+						"weight": 10
+					}
+				],
+				"cluster-size": 160
+			},
+			"cluster-count": 5,
+			"chunk-chance": 5,
+			"min-height": 0,
+			"max-height": 250,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-30			
+				]
+			}
+		}
+	}
+}

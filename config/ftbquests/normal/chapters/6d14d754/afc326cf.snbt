@@ -1,0 +1,42 @@
+{
+	x: 25.0d,
+	y: 5.0d,
+	description: "可以放下很多东西",
+	text: [
+		"你的随身工具箱，当然，你目前没有铁砧安装附加槽位。",
+		"1 级时增加 4 个物品槽，按下“护腿交互”键可以切换快捷栏前 4 个槽位的物品，此后每等级增加 1 个物品槽和可切换的槽位。",
+		"同时带有副手套环强化时，需要同时按下 Ctrl 和“护腿交互”键才能切换快捷栏。",
+		"手持带有该强化的护腿右击，或装备护腿时潜行并按下“护腿交互”键即可打开额外增加的物品槽。"
+	],
+	dependencies: [
+		"9cfdfa29"
+	],
+	tasks: [{
+		uid: "7745a0ef",
+		type: "item",
+		items: [{
+			id: "toolbelt:belt",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b6f40601",
+		type: "item",
+		items: [{
+			item: "toolbelt:pouch"
+		}]
+	}],
+	rewards: [{
+		uid: "6804b0bf",
+		type: "item",
+		item: "toolbelt:pouch",
+		count: 2
+	},
+	{
+		uid: "cb91d4b4",
+		type: "random",
+		table: 9
+	}]
+}

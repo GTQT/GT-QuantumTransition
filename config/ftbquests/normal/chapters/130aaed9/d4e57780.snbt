@@ -1,0 +1,19 @@
+{
+	title: "从机器输出！",
+	x: 6.5d,
+	y: 5.0d,
+	description: "特级动力仓",
+	text: [
+		""
+	],
+	dependencies: [
+		"013adfbb"
+	],
+	tasks: [{
+		uid: "b43c91a6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1420"
+		}]
+	}]
+}

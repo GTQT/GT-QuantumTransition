@@ -1,0 +1,24 @@
+{
+	title: "硫化氢",
+	x: 9.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"faa34dab"
+	],
+	tasks: [{
+		uid: "5b159590",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "hydrogen_sulfide",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

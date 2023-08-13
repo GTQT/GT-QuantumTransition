@@ -1,0 +1,36 @@
+{
+	title: "这些小家伙你肯定很熟悉了对吧",
+	x: -3.0d,
+	y: -2.0d,
+	description: "每次都写一遍任务怪烦的",
+	text: [
+		"懂得都懂"
+	],
+	dependencies: [
+		"585211e1"
+	],
+	tasks: [{
+		uid: "3fee2efb",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 129"
+		}]
+	},
+	{
+		uid: "5b3187cd",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 174"
+		}]
+	}],
+	rewards: [{
+		uid: "0851df50",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	},
+	{
+		uid: "2b91355b",
+		type: "random",
+		table: 2
+	}]
+}

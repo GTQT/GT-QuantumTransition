@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	dependencies: [
+		"e43f90ab",
+		"c7f07a4d"
+	],
+	tasks: [{
+		uid: "ffaf4677",
+		type: "item",
+		items: [{
+			item: "gcys:meta_item_1 1 382"
+		}],
+		consume_items: false
+	}]
+}

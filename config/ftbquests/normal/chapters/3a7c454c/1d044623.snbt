@@ -1,0 +1,34 @@
+{
+	title: "高效柴油",
+	x: 20.0d,
+	y: 6.5d,
+	text: [
+		"比燃油好，当然不是太容易量产。"
+	],
+	dependencies: [
+		"69d1508d"
+	],
+	tasks: [{
+		uid: "403faa0f",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "nitro_fuel",
+					Amount: 1000
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1eef8f6b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 3"
+	},
+	{
+		uid: "96b9f6bc",
+		type: "random",
+		table: 2
+	}]
+}

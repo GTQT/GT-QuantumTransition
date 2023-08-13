@@ -1,0 +1,29 @@
+{
+	title: "石墨烯",
+	x: -5.0d,
+	y: 5.5d,
+	text: [
+		"用于制作高级贴片"
+	],
+	dependencies: [
+		"00f6eb06"
+	],
+	tasks: [{
+		uid: "55c303e8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustGraphene",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustGraphene"
+				}
+			}
+		}]
+	}]
+}

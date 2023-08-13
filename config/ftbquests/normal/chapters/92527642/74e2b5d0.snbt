@@ -1,0 +1,11 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "02fdd443",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 10"
+		}]
+	}]
+}

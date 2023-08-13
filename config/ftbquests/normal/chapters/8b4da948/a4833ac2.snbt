@@ -1,0 +1,24 @@
+{
+	title: "邻苯二甲酸",
+	x: 8.5d,
+	y: -15.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"942a82b7"
+	],
+	tasks: [{
+		uid: "9d74ccf4",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "phthalic_acid",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

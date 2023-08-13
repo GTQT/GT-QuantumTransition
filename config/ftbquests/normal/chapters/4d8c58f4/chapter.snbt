@@ -1,0 +1,7 @@
+{
+	title: "创造物理——终局",
+	icon: "draconicevolution:draconium_capacitor 1 2",
+	always_invisible: true,
+	group: 0,
+	default_quest_shape: "hexagon"
+}

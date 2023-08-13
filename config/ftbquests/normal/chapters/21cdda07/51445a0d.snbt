@@ -1,0 +1,32 @@
+{
+	x: 6.0d,
+	y: 6.0d,
+	dependencies: [
+		"e5bda1cd"
+	],
+	tasks: [{
+		uid: "4173d6c3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 1010"
+		}]
+	}],
+	rewards: [{
+		uid: "33ea544c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 5"
+	},
+	{
+		uid: "709687fa",
+		type: "item",
+		item: "appliedenergistics2:crafting_storage_64k"
+	},
+	{
+		uid: "5dbfab44",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	}]
+}

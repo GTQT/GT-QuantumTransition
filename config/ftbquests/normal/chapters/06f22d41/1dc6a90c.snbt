@@ -1,0 +1,16 @@
+{
+	icon: "forestry:apiary",
+	x: 19.5d,
+	y: 10.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "318dfa3a",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "d9da995e",
+		type: "item",
+		item: "forestry:apiary"
+	}]
+}

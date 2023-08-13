@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: -0.5d,
+	dependencies: [
+		"f0de1072"
+	],
+	tasks: [{
+		uid: "0c0a5508",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 127"
+		}]
+	}],
+	rewards: [{
+		uid: "6c3cd2f9",
+		type: "loot",
+		table: 6
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 1.5d,
+	y: 4.5d,
+	dependencies: [
+		"2879c071"
+	],
+	tasks: [{
+		uid: "c2373c24",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			tag: {
+				FarmBlock: 0
+			},
+			Damage: 4s
+		}]
+	}]
+}

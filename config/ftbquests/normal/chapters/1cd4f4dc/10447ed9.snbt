@@ -1,0 +1,17 @@
+{
+	x: 11.5d,
+	y: 0.0d,
+	dependencies: [
+		"76f66896"
+	],
+	tasks: [{
+		uid: "5e91a799",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sentient_sword",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

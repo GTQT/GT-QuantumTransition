@@ -1,0 +1,24 @@
+{
+	title: "四氯化钛",
+	x: -6.5d,
+	y: 7.0d,
+	text: [
+		"你已经得到了含钛的溶液，你还需要一点手段将钛提取出来"
+	],
+	dependencies: [
+		"85c38a79"
+	],
+	tasks: [{
+		uid: "ffd99a4d",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "titanium_tetrachloride",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	rewards: [{
+		uid: "b0a8b876",
+		type: "command",
+		auto: "enabled",
+		command: "/say FTB任务位于背包界面 左上角，或者请修改快捷键打开任务"
+	}]
+}

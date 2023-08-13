@@ -1,0 +1,37 @@
+{
+  "weight": 80,
+  "density": 0.2,
+  "max_height": 60,
+  "min_height": 0,
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "trona"
+  },
+  "dimension_filter": [
+    "name:twilight_forest"
+    ],
+  "generator": {
+    "type": "layered",
+    "radius": [
+      17,
+      24
+    ]
+  },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:trona"
+      },
+      {
+        "secondary": "ore:trona"
+      },
+      {
+        "between": "ore:bauxite"
+      },
+      {
+        "sporadic": "ore:trona"
+      }
+    ]
+  }
+}

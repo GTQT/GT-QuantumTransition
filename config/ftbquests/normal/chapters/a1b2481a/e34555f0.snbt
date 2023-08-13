@@ -1,0 +1,32 @@
+{
+	title: "我该准备什么",
+	x: -16.5d,
+	y: -10.0d,
+	text: [
+		"乙硼烷和LiH的制取",
+		"硼砂这种东西你在处理岩盐的时候就能获取。"
+	],
+	dependencies: [
+		"bb25ef71"
+	],
+	tasks: [{
+		uid: "ed7662b4",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "diborane",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "de8da9a3",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 3563"
+		}]
+	}]
+}

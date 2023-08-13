@@ -1,0 +1,83 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "b7078376",
+		type: "item",
+		items: [{
+			item: "harvestcraft:aridgarden"
+		}]
+	},
+	{
+		uid: "5802fb1f",
+		type: "item",
+		items: [{
+			item: "harvestcraft:frostgarden"
+		}]
+	},
+	{
+		uid: "7d667f95",
+		type: "item",
+		items: [{
+			item: "harvestcraft:shadedgarden"
+		}]
+	},
+	{
+		uid: "7ccf8475",
+		type: "item",
+		items: [{
+			item: "harvestcraft:soggygarden"
+		}]
+	},
+	{
+		uid: "cda475a8",
+		type: "item",
+		items: [{
+			item: "harvestcraft:tropicalgarden"
+		}]
+	},
+	{
+		uid: "74b6607d",
+		type: "item",
+		items: [{
+			item: "harvestcraft:windygarden"
+		}]
+	}],
+	rewards: [{
+		uid: "9b7eb391",
+		type: "item",
+		item: "ebwizardry:charm_feeding"
+	},
+	{
+		uid: "184b0e76",
+		type: "item",
+		item: {
+			id: "unstabletools:unstable_axe",
+			tag: {
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "red",
+					AttributeModifiers: [{
+						UUIDMost: -7407646788387778838L,
+						UUIDLeast: -8775383805562899157L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 1597704243073663381L,
+						UUIDLeast: -5732469241315570683L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.clumsy.name"
+				}
+			}
+		}
+	}]
+}

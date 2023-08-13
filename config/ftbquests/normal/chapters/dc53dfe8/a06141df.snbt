@@ -1,0 +1,20 @@
+{
+	title: "一种及其重要的原料",
+	x: 23.0d,
+	y: 17.0d,
+	description: "半导体先驱",
+	text: [
+		"无论是现在的二极管，又或者是即将到来的晶圆产线，你都需要它。",
+		"（他的作用其实也就这么两个，但是你离不开它，对吧）"
+	],
+	dependencies: [
+		"81406c8f"
+	],
+	tasks: [{
+		uid: "3b95703b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 351"
+		}]
+	}]
+}

@@ -1,0 +1,54 @@
+{
+	title: "红石大师",
+	x: -0.5d,
+	y: 9.5d,
+	description: "啊，我没有粉碎机",
+	text: [
+		"找到红石矿脉，它通常与朱砂，红宝石在一起。",
+		"如果你还没有粉碎机，但是希望获取粉碎的红石矿，你可以使用锤子直接开采矿石",
+		"它会直接掉落粉碎的矿石（时运有效）",
+		"第二步，将粉碎的矿石投入炼药锅洗净（一次性都扔进去）得到纯洁的矿石碎片",
+		"第三步，将纯洁的矿石碎片在工作台粉碎得到纯净矿粉",
+		"最后，将纯净矿粉再次清洗即可得到粉"
+	],
+	dependencies: [
+		"7fafef8c"
+	],
+	tasks: [{
+		uid: "4d7843c0",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_crushed 1 2064"
+		}],
+		count: 64L
+	},
+	{
+		uid: "4462866b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_crushed_purified 1 2064"
+		}],
+		count: 64L
+	},
+	{
+		uid: "68362bdc",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust_pure 1 2064"
+		}],
+		count: 64L
+	},
+	{
+		uid: "98091bb4",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "b2a9da1a",
+		type: "item",
+		item: "gregtech:meta_item_1 1 1"
+	}]
+}

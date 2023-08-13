@@ -1,0 +1,25 @@
+{
+	title: "地狱土特产part1",
+	x: 21.0d,
+	y: 3.5d,
+	description: "石英是个好东西，虽然目前并不需求太多。",
+	text: [
+		"当然得屯一点"
+	],
+	dependencies: [
+		"43ea6a67"
+	],
+	tasks: [{
+		uid: "ea46e365",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "dd9fb31a",
+		type: "random",
+		table: 9
+	}]
+}

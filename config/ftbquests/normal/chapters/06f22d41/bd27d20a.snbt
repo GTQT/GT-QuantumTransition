@@ -1,0 +1,28 @@
+{
+	title: "懒得挖矿",
+	icon: "minecraft:diamond_pickaxe",
+	x: 1.5d,
+	y: 2.5d,
+	description: "免费的镐子要不要",
+	text: [
+		"只能买一次"
+	],
+	dependencies: [
+		"c9f41a6f"
+	],
+	tasks: [{
+		uid: "9046dc33",
+		type: "ftbmoney:money",
+		value: 10L
+	},
+	{
+		uid: "7047034d",
+		type: "gamestage",
+		stage: "easy"
+	}],
+	rewards: [{
+		uid: "620e3857",
+		type: "item",
+		item: "forestry:kit_pickaxe"
+	}]
+}

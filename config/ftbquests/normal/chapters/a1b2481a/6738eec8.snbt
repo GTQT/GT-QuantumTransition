@@ -1,0 +1,31 @@
+{
+	title: "锰从哪里来",
+	x: -18.0d,
+	y: -19.0d,
+	description: "烧绿石",
+	text: [
+		"分布在末地以及主世界，挖一点就会爆炸，靠近点就会融化。"
+	],
+	dependencies: [
+		"21de2c58"
+	],
+	tasks: [{
+		uid: "1b0446a1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "orePyrolusite",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any orePyrolusite"
+				}
+			}
+		}],
+		count: 16L
+	}]
+}

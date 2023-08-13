@@ -1,0 +1,16 @@
+{
+	x: 9.0d,
+	y: -5.5d,
+	dependencies: [
+		"21db1ac0"
+	],
+	tasks: [{
+		uid: "593c3ee9",
+		type: "item",
+		items: [{
+			id: "emt:quantumwing",
+			tag: {}
+		}],
+		ignore_damage: true
+	}]
+}

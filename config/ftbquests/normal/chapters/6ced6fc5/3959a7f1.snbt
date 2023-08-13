@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: -8.0d,
+	dependencies: [
+		"3a6f45f3"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "bb690475",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 993"
+		}]
+	}],
+	rewards: [{
+		uid: "39dd931b",
+		type: "loot",
+		table: 5
+	},
+	{
+		uid: "eb11e82d",
+		type: "loot",
+		table: 9
+	}]
+}

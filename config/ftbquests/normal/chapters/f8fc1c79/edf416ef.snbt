@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: -1.5d,
+	dependencies: [
+		"4e291ea9",
+		"5be90192",
+		"b146e9dd"
+	],
+	tasks: [{
+		uid: "4fed3db4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_foil 1 3604"
+		},
+		{
+			item: "gregtech:meta_dust 1 3604"
+		}],
+		consume_items: false
+	}]
+}

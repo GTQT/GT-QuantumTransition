@@ -1,0 +1,21 @@
+{
+	title: "鸡？光？",
+	x: 8.0d,
+	y: 7.0d,
+	shape: "gear",
+	description: "善用激光，丢掉你愚蠢的导线",
+	text: [
+		""
+	],
+	dependencies: [
+		"b3f964fc"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "da883f69",
+		type: "item",
+		items: [{
+			item: "gregtech:laser_pipe_normal"
+		}]
+	}]
+}

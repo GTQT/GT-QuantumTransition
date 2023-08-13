@@ -1,0 +1,36 @@
+{
+	title: "羊羊这么可爱，为什么要杀羊羊。",
+	x: 11.0d,
+	y: 5.0d,
+	text: [
+		"羊毛是个好东西，如果你是通过种植棉花的方法获得羊毛",
+		"恭喜你，你同样可以完成这个任务"
+	],
+	dependencies: [
+		"1800d419"
+	],
+	tasks: [{
+		uid: "9a2616f1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockWool",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any blockWool"
+				}
+			}
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "bd36cae6",
+		type: "loot",
+		table: 9
+	}]
+}

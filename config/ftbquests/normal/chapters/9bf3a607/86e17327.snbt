@@ -1,0 +1,18 @@
+{
+	x: 11.0d,
+	y: -3.0d,
+	dependencies: [
+		"882c3b67"
+	],
+	tasks: [{
+		uid: "dcd155b9",
+		type: "item",
+		items: [{
+			id: "emt:quantumgoggles",
+			tag: {},
+			Damage: 27s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

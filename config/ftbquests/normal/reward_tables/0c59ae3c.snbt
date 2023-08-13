@@ -1,0 +1,10 @@
+{
+	title: "daizi",
+	loot_size: 1,
+	rewards: [{
+		item: "enderstorage:ender_pouch"
+	},
+	{
+		item: "travelersbackpack:travelers_backpack"
+	}]
+}

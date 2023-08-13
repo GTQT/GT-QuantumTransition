@@ -1,0 +1,36 @@
+{
+	x: 10.0d,
+	y: 1.0d,
+	dependencies: [
+		"fec2fba9"
+	],
+	tasks: [{
+		uid: "81960206",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_gem 1 319"
+		}],
+		count: 64L
+	},
+	{
+		uid: "23b4dd1d",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "9b830bbb",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "creosote",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 38.0d,
+	y: 3.0d,
+	description: "不同的燃料拥有不同的燃烧时间，煤炭变成焦煤后会变得更加耐烧。（你可以尝试再把焦煤塞进焦炉一次）",
+	dependencies: [
+		"3ba748c1"
+	],
+	tasks: [{
+		uid: "05594f31",
+		type: "checkmark",
+		title: "高效燃烧"
+	}],
+	rewards: [{
+		uid: "b6686773",
+		type: "item",
+		item: "gregtech:meta_gem 1 319",
+		count: 16
+	},
+	{
+		uid: "58cc0360",
+		type: "item",
+		item: "gregtech:meta_item_1",
+		count: 4
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 29.0d,
+	y: 11.5d,
+	text: [
+		"你只需要过硫酸钠与三氯化铁中的一种即可。",
+		"当然得看你觉得哪个简单"
+	],
+	dependencies: [
+		"ffb164fb",
+		"87d8f805",
+		"3510b5a6",
+		"e377fb90"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "9e51b2d6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 402"
+		}]
+	}]
+}

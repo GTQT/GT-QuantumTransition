@@ -1,0 +1,17 @@
+{
+	x: -12.5d,
+	y: 14.5d,
+	text: [
+		"用于制作下一个等级的电路基板"
+	],
+	dependencies: [
+		"be5a2c9d"
+	],
+	tasks: [{
+		uid: "73df07b4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 403"
+		}]
+	}]
+}

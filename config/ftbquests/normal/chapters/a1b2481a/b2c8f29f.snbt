@@ -1,0 +1,18 @@
+{
+	title: "你在泡一种很新的东西",
+	x: -7.5d,
+	y: -8.0d,
+	text: [
+		"去末地准备一点末影珍珠末影之眼，在后续制作发射器你会需要它的。"
+	],
+	dependencies: [
+		"2c6e9762"
+	],
+	tasks: [{
+		uid: "02a6abf6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 281"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"a3c559c4",
+		"a66f2040",
+		"f73cb0c3"
+	],
+	tasks: [{
+		uid: "62f6eef9",
+		type: "item",
+		items: [{
+			item: "gcys:meta_item_1 1 224"
+		}]
+	}]
+}

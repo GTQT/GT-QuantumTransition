@@ -1,0 +1,16 @@
+visualores.resetclientcache=重置客户端矿石缓存！
+
+visualores.button.oreveins=切换矿脉显示
+visualores.button.undergroundfluid=切换地下流体显示
+
+visualores.tooltipoverflow=... (%d 好多行哦)
+
+visualores.newveins=发现 %d 新矿脉，宝贝真棒!
+visualores.depleted= (用完了 悲)
+
+visualores.keycategory=让我看看矿在哪
+
+visualores.key.action=原神，启动！
+
+visualores.share.clientonly=杂鱼，不把我装在服务端上你是无法共享我的！什么，这么多，要被塞满了！
+visualores.share.notification=%s 试图超一超你的矿脉（不给，哼~）！

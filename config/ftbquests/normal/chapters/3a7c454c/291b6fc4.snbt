@@ -1,0 +1,35 @@
+{
+	title: "石油里有什么 ？",
+	x: 9.0d,
+	y: 2.0d,
+	shape: "gear",
+	text: [
+		"无论是分馏石油，其他有机物又或者只是空气，你都需要分馏塔。"
+	],
+	dependencies: [
+		"547370be"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "0dd7de65",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1005"
+		}]
+	}],
+	rewards: [{
+		uid: "797a2971",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "63a1813f",
+		type: "loot",
+		table: 9
+	},
+	{
+		uid: "d26ffcdb",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	}]
+}

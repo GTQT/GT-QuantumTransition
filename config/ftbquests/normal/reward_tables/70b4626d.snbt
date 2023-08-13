@@ -1,0 +1,94 @@
+{
+	title: "gj",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "tconstruct:pickaxe",
+			tag: {
+				StatsOriginal: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.0f,
+					FreeModifiers: 3,
+					Durability: 1950,
+					HarvestLevel: 4,
+					Attack: 7.5f
+				},
+				Stats: {
+					AttackSpeedMultiplier: 1.0f,
+					MiningSpeed: 8.0f,
+					FreeModifiers: 3,
+					Durability: 1950,
+					HarvestLevel: 4,
+					Attack: 7.5f
+				},
+				Special: {
+					Categories: [
+						"harvest",
+						"tool",
+						"aoe"
+					]
+				},
+				TinkerData: {
+					Materials: [
+						"terrasteel",
+						"terrasteel",
+						"terrasteel"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Modifiers: [{
+					identifier: "tconevo.mortal_wounds",
+					color: -13048576,
+					level: 1
+				},
+				{
+					identifier: "tconevo.mana_infused",
+					color: -13048576,
+					level: 1
+				},
+				{
+					identifier: "tconevo.gaia_wrath",
+					color: -13048576,
+					level: 1
+				},
+				{
+					identifier: "tconevo.staggering",
+					color: -13048576,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1
+				}],
+				Traits: [
+					"tconevo.mortal_wounds",
+					"tconevo.mana_infused",
+					"tconevo.gaia_wrath",
+					"tconevo.staggering",
+					"toolleveling"
+				]
+			}
+		}
+	},
+	{
+		item: "nuclearcraft:spaxelhoe_boron_nitride"
+	},
+	{
+		item: {
+			id: "thaumcraft:elemental_pick",
+			tag: {
+				infench: [{
+					lvl: 1s,
+					id: 4s
+				},
+				{
+					lvl: 2s,
+					id: 3s
+				}]
+			}
+		}
+	}]
+}

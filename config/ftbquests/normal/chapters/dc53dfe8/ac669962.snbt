@@ -1,0 +1,25 @@
+{
+	title: "稀盐酸",
+	x: 22.5d,
+	y: 12.0d,
+	text: [
+		"从盐酸到三氯化铁",
+		"尽管在目前你不需要盐酸 。"
+	],
+	dependencies: [
+		"a7178144"
+	],
+	tasks: [{
+		uid: "be44b48e",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "diluted_hydrochloric_acid",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

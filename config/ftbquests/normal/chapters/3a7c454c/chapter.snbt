@@ -1,0 +1,18 @@
+{
+	title: "HV-高压",
+	icon: "gregtech:machine 1 988",
+	always_invisible: false,
+	group: -1479984865,
+	default_quest_shape: "square",
+	images: [{
+		x: 9.0d,
+		y: -4.0d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "assets:ftb/hv.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

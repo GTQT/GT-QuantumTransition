@@ -1,0 +1,24 @@
+{
+	title: "镥",
+	x: 2.0d,
+	y: -3.5d,
+	text: [
+		"使用稀土先的镧与硅初步合成镥"
+	],
+	dependencies: [
+		"3784230f"
+	],
+	tasks: [{
+		uid: "37df26da",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "lutetium",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

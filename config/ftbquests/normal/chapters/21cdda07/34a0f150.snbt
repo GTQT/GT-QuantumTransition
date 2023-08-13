@@ -1,0 +1,25 @@
+{
+	x: 7.5d,
+	y: 3.0d,
+	dependencies: [
+		"5d540e67"
+	],
+	tasks: [{
+		uid: "5154eee1",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 80"
+		}]
+	}],
+	rewards: [{
+		uid: "bfca4c78",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	},
+	{
+		uid: "c65491bc",
+		type: "item",
+		item: "appliedenergistics2:fluid_interface",
+		count: 4
+	}]
+}

@@ -1,0 +1,53 @@
+{
+	x: 16.0d,
+	y: 6.5d,
+	text: [
+		"虽然但是",
+		"1.12.2的GT没有工业污染，这套防化服什么也做不了"
+	],
+	dependencies: [
+		"18015dcf"
+	],
+	tasks: [{
+		uid: "14b1ce96",
+		type: "item",
+		items: [{
+			item: "ic2:hazmat_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "56ed2c96",
+		type: "item",
+		items: [{
+			item: "ic2:hazmat_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7caa3c53",
+		type: "item",
+		items: [{
+			item: "ic2:hazmat_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "56ac9a52",
+		type: "item",
+		items: [{
+			item: "ic2:rubber_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f4fadf6d",
+		type: "item",
+		item: "gregtech:meta_plate 1 1068",
+		count: 16
+	}]
+}

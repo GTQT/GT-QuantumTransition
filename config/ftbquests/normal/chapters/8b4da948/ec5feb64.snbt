@@ -1,0 +1,25 @@
+{
+	title: "对二氯苯",
+	x: 17.5d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"20888665",
+		"a7178144"
+	],
+	tasks: [{
+		uid: "51277d98",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "dichlorobenzene",
+					Amount: 1000
+				}
+			}
+		}]
+	}]
+}

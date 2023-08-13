@@ -1,0 +1,36 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	dependencies: [
+		"2ca0b651"
+	],
+	tasks: [{
+		uid: "77d1f2f9",
+		type: "item",
+		items: [{
+			item: "enderio:item_extract_speed_downgrade"
+		}]
+	},
+	{
+		uid: "38f8979b",
+		type: "item",
+		items: [{
+			item: "enderio:item_extract_speed_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "f02caf7d",
+		type: "item",
+		item: "gregtech:meta_item_1 1 3"
+	},
+	{
+		uid: "4ae2970a",
+		type: "item",
+		item: "enderio:item_conduit_probe"
+	},
+	{
+		uid: "eba19cec",
+		type: "random",
+		table: 16
+	}]
+}

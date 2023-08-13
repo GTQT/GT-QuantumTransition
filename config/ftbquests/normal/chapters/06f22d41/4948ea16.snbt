@@ -1,0 +1,22 @@
+{
+	icon: "gregtech:meta_item_1 1 530",
+	x: 1.5d,
+	y: 7.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "072afe8a",
+		type: "ftbmoney:money",
+		value: 160L
+	},
+	{
+		uid: "0313c2e7",
+		type: "gamestage",
+		stage: "zpm"
+	}],
+	rewards: [{
+		uid: "b4b95f6a",
+		type: "item",
+		item: "gregtech:meta_item_1 1 530",
+		count: 16
+	}]
+}

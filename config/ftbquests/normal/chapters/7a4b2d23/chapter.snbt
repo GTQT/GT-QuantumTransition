@@ -1,0 +1,7 @@
+{
+	title: "科技支线",
+	icon: "extraplanets:item_tier10_electric_rocket 1 4",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
