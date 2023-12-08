@@ -1,6 +1,10 @@
 {
 	x: 12.0d,
 	y: 1.0d,
+	description: "闲得？",
+	text: [
+		"我建议你有时间可以做一些更加重要的事情"
+	],
 	can_repeat: true,
 	tasks: [{
 		uid: "f2b2f725",

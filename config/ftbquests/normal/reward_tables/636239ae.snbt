@@ -53,5 +53,8 @@
 	},
 	{
 		item: "gregtech:machine 1 1191"
+	},
+	{
+		item: "avaritia:block_resource"
 	}]
 }

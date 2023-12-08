@@ -17,5 +17,10 @@
 		uid: "36f4eac6",
 		type: "item",
 		item: "gregtech:meta_item_1 1 4"
+	},
+	{
+		uid: "1203b4fa",
+		type: "random",
+		table: 4
 	}]
 }

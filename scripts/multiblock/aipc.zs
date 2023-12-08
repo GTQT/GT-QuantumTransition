@@ -144,3 +144,21 @@ aipc.recipeBuilder()
     .duration(1)
     .EUt(7864320)
     .buildAndRegister();
+	
+aipc.recipeBuilder() 
+    .fluidInputs(<liquid:antihydrogen>*1000)
+	.inputs(<gregtech:meta_plate:32160>)
+    .fluidOutputs(<liquid:metallic_hydrogen>*1000)
+    .duration(1000)
+    .EUt(30720)
+    .buildAndRegister();
+	
+//量子反常
+aipc.recipeBuilder() 
+    .fluidInputs(<liquid:plasma.helium>*2)
+	.inputs(<ore:platePlatinum>)
+    .chancedOutput(<contenttweaker:a>, 10, 10)
+    .duration(1000)
+    .EUt(30720)
+	.circuit(10)
+    .buildAndRegister();

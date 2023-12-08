@@ -1,0 +1,11 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "37c7ebf2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cosmic_cpu"
+		}]
+	}]
+}

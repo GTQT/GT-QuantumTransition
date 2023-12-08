@@ -1,0 +1,39 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "24ff07cc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cosmic_capacitor"
+		}]
+	},
+	{
+		uid: "dab6b834",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cosmic_diode"
+		}]
+	},
+	{
+		uid: "63d0f840",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cosmic_resistor"
+		}]
+	},
+	{
+		uid: "f7353499",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cosmic_transistor"
+		}]
+	},
+	{
+		uid: "063dbaaa",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cosmic_inductor"
+		}]
+	}]
+}

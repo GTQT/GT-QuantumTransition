@@ -1,7 +1,7 @@
 {
 	title: "生物质",
 	x: -9.5d,
-	y: 13.0d,
+	y: 11.5d,
 	description: "略有余温",
 	text: [
 		"酿造食物，农作物或者生物糠均可"
@@ -13,7 +13,8 @@
 		uid: "e33a844c",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
 			tag: {
 				Fluid: {
 					FluidName: "biomass",

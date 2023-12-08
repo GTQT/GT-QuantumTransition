@@ -1,7 +1,8 @@
 {
 	title: "管道？管道！",
-	x: 28.0d,
-	y: -2.0d,
+	x: 32.5d,
+	y: 0.0d,
+	shape: "gear",
 	description: "通过扳手链接机器，扳手shift+左键可以设置岔路管道液体流向。",
 	text: [
 		"貌似目前只能通过管道连接你的蒸汽机器。",
@@ -9,7 +10,7 @@
 		"你只需要通过扳手右键其九宫格对应方向的位置即可连接。"
 	],
 	dependencies: [
-		"d3cc7836"
+		"cd1cd41c"
 	],
 	tasks: [{
 		uid: "1455e938",
@@ -19,12 +20,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "2b2e7b35",
-		type: "item",
-		item: "enderio:item_liquid_conduit",
-		count: 4
-	},
-	{
 		uid: "ce733b72",
 		type: "random",
 		table: 9

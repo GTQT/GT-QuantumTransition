@@ -19,10 +19,5 @@
 		uid: "3460fb1c",
 		type: "choice",
 		table: 9
-	},
-	{
-		uid: "2a4177f2",
-		type: "item",
-		item: "fluidtank:blocktank1"
 	}]
 }

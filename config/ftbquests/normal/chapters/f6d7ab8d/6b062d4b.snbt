@@ -2,6 +2,7 @@
 	title: "更多的水",
 	x: -2.0d,
 	y: 1.5d,
+	shape: "gear",
 	description: "没有人会拒绝水泵",
 	text: [
 		"查询水泵JEI获取详细信息。"

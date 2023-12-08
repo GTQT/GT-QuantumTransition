@@ -13,12 +13,10 @@
 		uid: "be44b48e",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "diluted_hydrochloric_acid",
-					Amount: 1000
-				}
+				FluidName: "diluted_hydrochloric_acid",
+				Amount: 1000
 			}
 		}]
 	}]

@@ -1,0 +1,80 @@
+{
+	x: 6.0d,
+	y: 4.0d,
+	dependencies: [
+		"a47605ce"
+	],
+	tasks: [{
+		uid: "77ae8614",
+		type: "item",
+		items: [{
+			id: "draconicevolution:wyvern_helm",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ff78cbc9",
+		type: "item",
+		items: [{
+			id: "draconicevolution:wyvern_chest",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "13f4298d",
+		type: "item",
+		items: [{
+			id: "draconicevolution:wyvern_legs",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "36df490f",
+		type: "item",
+		items: [{
+			id: "draconicevolution:wyvern_boots",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6b5439c8",
+		type: "item",
+		items: [{
+			id: "draconicevolution:wyvern_pick",
+			ForgeCaps: {
+				Parent: {
+					Items: [],
+					Size: 9
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "edb1ddd5",
+		type: "item",
+		items: [{
+			id: "draconicevolution:wyvern_bow",
+			tag: {
+				Profile_0: {
+					bowArrowDamage: 2.0d,
+					bowArrowSpeedModifier: 100,
+					bowAutoFire: 0b,
+					bowExplosionPower: 0.0d,
+					bowZoomModifier: 0
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

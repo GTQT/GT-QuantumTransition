@@ -32,18 +32,6 @@ fluid_sicl4.stillLocation = "base:fluids/molten";
 fluid_sicl4.flowingLocation = "base:fluids/molten_flowing";
 fluid_sicl4.register();
 
-val fluid_zrso4 = mods.contenttweaker.VanillaFactory.createFluid("zrso4", Color.fromHex("3a9926").getIntColor());
-fluid_zrso4.material = <blockmaterial:lava>;
-fluid_zrso4.viscosity = 10000;
-fluid_zrso4.density = 1000;
-fluid_zrso4.colorize = true;
-fluid_zrso4.temperature = 300;
-fluid_zrso4.luminosity = 0;
-fluid_zrso4.color = Color.fromHex("9a9926").getIntColor();
-fluid_zrso4.stillLocation = "base:fluids/molten";
-fluid_zrso4.flowingLocation = "base:fluids/molten_flowing";
-fluid_zrso4.register();
-
 val fluid_tech = mods.contenttweaker.VanillaFactory.createFluid("tech", Color.fromHex("3a9926").getIntColor());
 fluid_tech.material = <blockmaterial:lava>;
 fluid_tech.viscosity = 10000;
@@ -116,18 +104,6 @@ fujidian.color = Color.fromHex("ad58df").getIntColor();
 fujidian.stillLocation = "base:fluids/molten";
 fujidian.flowingLocation = "base:fluids/molten_flowing";
 fujidian.register();
-
-val fujixitu = mods.contenttweaker.VanillaFactory.createFluid("fujixitu", Color.fromHex("fc62bc").getIntColor());
-fujixitu.material = <blockmaterial:lava>;
-fujixitu.viscosity = 2400;
-fujixitu.rarity = "EPIC";
-fujixitu.colorize = true;
-fujixitu.temperature = 1400;
-fujixitu.luminosity = 10;
-fujixitu.color = Color.fromHex("fc62bc").getIntColor();
-fujixitu.stillLocation = "base:fluids/molten";
-fujixitu.flowingLocation = "base:fluids/molten_flowing";
-fujixitu.register();
 
 val ircl3 = mods.contenttweaker.VanillaFactory.createFluid("ircl3", Color.fromHex("fc62bc").getIntColor());
 ircl3.material = <blockmaterial:lava>;

@@ -12,12 +12,10 @@
 		uid: "fa04aaee",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "methyl_acetate",
-					Amount: 1000
-				}
+				FluidName: "methyl_formate",
+				Amount: 1000
 			}
 		}]
 	}]

@@ -1,5 +1,5 @@
 {
-    "name": "Rhea Redstone",
+    "name": "Rhea dragon_essence",
     "weight": 60,
     "density": 0.25,
     "max_height": 55,
@@ -19,13 +19,13 @@
       "type": "layered",
       "values": [
         {
-          "primary": "ore:redstone"
+          "primary": "ore:dragon_essence"
         },
         {
-          "secondary": "ore:redstone"
+          "secondary": "ore:dragon_essence"
         },
         {
-          "between": "ore:ruby"
+          "between": "ore:dragon_essence"
         },
         {
           "sporadic": "ore:cinnabar"

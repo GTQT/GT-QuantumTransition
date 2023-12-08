@@ -1,0 +1,19 @@
+{
+	x: -7.0d,
+	y: -19.0d,
+	dependencies: [
+		"c22fbdd7"
+	],
+	tasks: [{
+		uid: "9b8f3488",
+		type: "item",
+		items: [{
+			id: "botania:odinring",
+			tag: {
+				soulbindUUID: "27a7323a-1fbb-4c30-8ba0-c5879feb7fce"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

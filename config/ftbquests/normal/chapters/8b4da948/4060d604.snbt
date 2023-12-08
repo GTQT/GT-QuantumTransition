@@ -12,12 +12,10 @@
 		uid: "00d23f59",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "rhodium_sulfate",
-					Amount: 1000
-				}
+				FluidName: "rhodium_sulfate",
+				Amount: 1000
 			}
 		}]
 	}]

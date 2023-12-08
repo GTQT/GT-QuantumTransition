@@ -1,0 +1,39 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "9e635b63",
+		type: "item",
+		items: [{
+			item: "contenttweaker:supracausal_capacitor"
+		}]
+	},
+	{
+		uid: "fd18bd6b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:supracausal_diode"
+		}]
+	},
+	{
+		uid: "8a496534",
+		type: "item",
+		items: [{
+			item: "contenttweaker:supracausal_resistor"
+		}]
+	},
+	{
+		uid: "a481ea88",
+		type: "item",
+		items: [{
+			item: "contenttweaker:supracausal_transistor"
+		}]
+	},
+	{
+		uid: "2734641d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:supracausal_inductor"
+		}]
+	}]
+}

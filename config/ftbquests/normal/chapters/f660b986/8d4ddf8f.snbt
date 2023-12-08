@@ -12,12 +12,10 @@
 		uid: "1a867826",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "toluene",
-					Amount: 1000
-				}
+				FluidName: "toluene",
+				Amount: 1000
 			}
 		}]
 	}]

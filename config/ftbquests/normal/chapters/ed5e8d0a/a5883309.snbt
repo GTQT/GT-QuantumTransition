@@ -8,16 +8,16 @@
 		uid: "7b97cc18",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "batteryLuv",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any batteryLuv"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "batteryLuv"
 				}
 			}
 		}]

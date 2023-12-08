@@ -220,8 +220,6 @@ macerator.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 	
-
-	
 macerator.recipeBuilder() 
     .inputs(<galacticraftplanets:asteroids_block>)
     .outputs(<gregtech:meta_dust:32053>)
@@ -232,7 +230,7 @@ macerator.recipeBuilder()
 macerator.recipeBuilder() 
     .inputs(<contenttweaker:poor_naquadah_rod>)
 	.chancedOutput(<gregtech:meta_dust:124>, 1000, 10)
-    .outputs(<gregtech:meta_dust:55>*2)
+    .outputs(<gregtech:meta_dust:55>*2,<gregtech:meta_dust:2013>*2)
     .duration(60)
     .EUt(2)
     .buildAndRegister();
@@ -240,7 +238,7 @@ macerator.recipeBuilder()
 macerator.recipeBuilder() 
     .inputs(<contenttweaker:poor_naquadah_rod_dual>)
 	.chancedOutput(<gregtech:meta_dust:124>, 2000, 40)
-    .outputs(<gregtech:meta_dust:55>*4)
+    .outputs(<gregtech:meta_dust:55>*4,<gregtech:meta_dust:2013>*4)
     .duration(60)
     .EUt(2)
     .buildAndRegister();
@@ -248,8 +246,60 @@ macerator.recipeBuilder()
 macerator.recipeBuilder() 
     .inputs(<contenttweaker:poor_naquadah_rod_quad>)
 	.chancedOutput(<gregtech:meta_dust:124>, 4000, 80)
-    .outputs(<gregtech:meta_dust:55>*8)
+    .outputs(<gregtech:meta_dust:55>*8,<gregtech:meta_dust:2013>*8)
     .duration(60)
     .EUt(2)
+    .buildAndRegister();
+	
+macerator.recipeBuilder() 
+    .inputs(<gregtech:meta_crushed_centrifuged:69>)
+    .outputs(<gregtech:meta_dust:69>)
+    .duration(60)
+    .EUt(2)
+    .buildAndRegister();
+	
+<recipemap:macerator>.findRecipe(2, [<gregtech:stone_smooth:1>], null).remove();	
+macerator.recipeBuilder() 
+    .inputs(<ore:stoneGraniteRed>)
+    .outputs(<gregtech:meta_dust:2020>)
+    .duration(150)
+    .EUt(2)
+    .buildAndRegister();
+	
+macerator.recipeBuilder() 
+    .inputs(<ore:listAllfishfresh>*8)
+    .outputs(<gregtech:meta_dust:1616>*13,<gregtech:meta_dust_small:258>*6,<gregtechfoodoption:gtfo_oredict_item:1119>*8)
+	.chancedOutput(<gregtechfoodoption:gtfo_oredict_item:1119>*6, 4000, 80)
+    .duration(150)
+    .EUt(2)
+    .buildAndRegister();
+	
+macerator.recipeBuilder() 
+    .inputs(<appliedenergistics2:material:10>)
+    .outputs(<gregtech:meta_dust:214>)
+    .duration(150)
+    .EUt(30)
+    .buildAndRegister();
+	
+	
+macerator.recipeBuilder() 
+    .inputs(<appliedenergistics2:material:1>)
+    .outputs(<gregtech:meta_dust:214>)
+    .duration(150)
+    .EUt(30)
+    .buildAndRegister();
+	
+macerator.recipeBuilder() 
+    .inputs(<appliedenergistics2:material:12>)
+    .outputs(<appliedenergistics2:material:8>)
+    .duration(150)
+    .EUt(30)
+    .buildAndRegister();
+	
+macerator.recipeBuilder() 
+    .inputs(<gregtech:stone_smooth:0>)
+    .outputs(<gregtech:meta_dust:2019>)
+    .duration(150)
+    .EUt(30)
     .buildAndRegister();
 	

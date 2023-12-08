@@ -2,7 +2,8 @@
 	x: 2.0d,
 	y: 16.0d,
 	dependencies: [
-		"e9565a27"
+		"e9565a27",
+		"741ac4a4"
 	],
 	size: 2.0d,
 	tasks: [{

@@ -1,15 +1,6 @@
 import mods.gregtech.recipe.RecipeMap;
 val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
 assembler.recipeBuilder() 
-    .inputs(<gregtech:meta_plate:324> * 6,<gregtech:meta_plate:55>*2)
-    .fluidInputs(<liquid:polytetrafluoroethylene>* 144)
-    .outputs(<ic2:crafting:9>* 1)
-	.circuit(3) 
-    .duration(120)
-    .EUt(16)
-    .buildAndRegister();
-	
-assembler.recipeBuilder() 
     .inputs(<ore:frameGtEnrichedNaquadriaAlloy>*2,<ore:plateEnrichedNaquadriaAlloy>*6)
     .fluidInputs(<liquid:polytetrafluoroethylene>* 144)
     .outputs(<contenttweaker:naq_housing>*2)
@@ -26,7 +17,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 	
 assembler.recipeBuilder() 
-    .inputs(<ic2:fluid_cell>,<minecraft:redstone>)
+    .inputs(<gregtech:meta_item_1:78>,<minecraft:redstone>)
     .outputs(<gregtech:meta_item_1:61>)
 	.circuit(3) 
     .duration(200)
@@ -81,7 +72,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:polytetrafluoroethylene> * 576)
     .outputs(<compactmachines3:machine:4>)
     .duration(1200)
-    .EUt(1920)
+    .EUt(1960)
     .buildAndRegister();
 	
 assembler.recipeBuilder() 
@@ -89,21 +80,13 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:polytetrafluoroethylene> * 576)
     .outputs(<compactmachines3:machine:5>)
     .duration(1200)
-    .EUt(4096)
+    .EUt(1960)
     .buildAndRegister();
 
 assembler.recipeBuilder() 
     .inputs(<gregtech:meta_item_1:591> * 4,<gregtech:meta_item_1:592> *8,<gregtech:meta_item_1:600>*16,<ore:circuitHv> * 4,<gregtech:meta_wire_fine:55>*16,<gregtech:meta_plate:1007> * 4)
     .fluidInputs(<liquid:glue> * 500)
-    .outputs(<gregtech:meta_item_1:261> * 1)
-    .duration(120)
-    .EUt(16)
-    .buildAndRegister();
-	
-assembler.recipeBuilder() 
-    .inputs(<gregtech:meta_item_1:527>,<gregtech:meta_wire_fine:55>*16,<gregtech:meta_plate:99> * 4)
-    .fluidInputs(<liquid:soldering_alloy> * 500)
-    .outputs(<ic2:crafting:27> * 1)
+    .outputs(<gregtech:meta_item_1:261> *2)
     .duration(120)
     .EUt(16)
     .buildAndRegister();
@@ -114,5 +97,102 @@ assembler.recipeBuilder()
     .outputs(<gcys:meta_item_1:500>)
     .duration(120)
 	.circuit(10)
-    .EUt(125400)
+    .EUt(125760)
     .buildAndRegister();
+	
+assembler.recipeBuilder() 
+    .inputs(<gregtech:meta_plate:21000>*6,<gregtech:meta_block_frame_1312:8>*2,<gregtech:meta_spring:331>*2)
+	.fluidInputs(<liquid:polytetrafluoroethylene>*576)
+    .outputs(<gtqtcore:multiblock_casing>)
+    .duration(100)
+    .EUt(7860)
+    .buildAndRegister();
+	
+assembler.recipeBuilder() 
+    .inputs(<gregtech:meta_block_frame_2010:4>*4,<ore:frameGtDraconium>*2,<gregtech:meta_stick_long:32192>*4,<gregtech:meta_plate:32192>*2,<ore:circuitUhv>*2)
+	.fluidInputs(<liquid:ruthenium_trinium_americium_neutronate>*1440)
+    .outputs(<contenttweaker:extreme_casing>)
+    .duration(1000)
+    .EUt(503040)
+    .buildAndRegister();
+	
+assembler.recipeBuilder() 
+    .inputs(<gregtech:meta_block_frame_2010:4>,<gregtech:meta_plate_dense:32193>*4,<gregtech:meta_item_1:210>*2,<gcys:meta_item_1:221>*12,<gregtech:meta_stick_long:32163>*12,<gregtech:meta_foil:15077>*32)
+	.fluidInputs(<liquid:ruthenium_trinium_americium_neutronate>*1440)
+    .outputs(<contenttweaker:trap_core>)
+    .duration(1000)
+    .EUt(503040)
+    .buildAndRegister();
+	
+assembler.recipeBuilder() 
+    .inputs(<gregtech:meta_block_frame_2010:4>,<gregtech:meta_plate:32192>*4,<gregtech:fusion_casing:4>,<gregtech:meta_item_1:209>*4)
+	.fluidInputs(<liquid:ruthenium_trinium_americium_neutronate>*1440)
+    .outputs(<contenttweaker:aipc_casing>)
+    .duration(1000)
+    .EUt(503040)
+    .buildAndRegister();
+	
+assembler.recipeBuilder() 
+    .inputs(<gregtech:machine:993> * 2,<contenttweaker:nanites> * 4,<gregtech:meta_plate_dense:32164> * 6,<gregtech:meta_item_1:210> * 2,<gregtech:meta_item_1:150> * 2,<gcys:meta_item_1:368> * 16,<gregtech:meta_item_1:497> * 16)
+	.fluidInputs(<liquid:ruthenium_trinium_americium_neutronate>*1440)
+    .outputs(<contenttweaker:coper>*2)
+    .duration(1000)
+    .EUt(503040)
+    .buildAndRegister();
+	
+assembler.recipeBuilder() 
+    .inputs(<gregtech:fusion_casing:1> * 2,<contenttweaker:nanites> * 4,<gcys:meta_item_1:368> * 16,<gregtech:meta_item_1:210>*4,<gregtech:meta_item_1:150>*4)
+	.fluidInputs(<liquid:ruthenium_trinium_americium_neutronate>*1440)
+    .outputs(<contenttweaker:aipc_core>)
+    .duration(1000)
+    .EUt(503040)
+    .buildAndRegister();
+	
+assembler.recipeBuilder() 
+    .inputs(<gregtech:transparent_casing:2>,<gregtech:meta_foil:344>*2,<gcys:meta_item_1:201>)
+	.fluidInputs(<liquid:polytetrafluoroethylene>*576)
+    .outputs(<gregtech:laser_pipe_normal>)
+    .duration(400)
+    .EUt(7860*4)
+    .buildAndRegister();
+
+	
+assembler.recipeBuilder() 
+    .notConsumable(<appliedenergistics2:material:13> * 1)
+    .inputs(<gregtech:meta_plate:214>*8,<gregtech:meta_gear_small:99>*8,<gregtech:meta_plate:2064>*8,<ore:circuitHv>,<gregtech:meta_item_1:603>)
+	.outputs(<appliedenergistics2:material:23>*16)
+    .duration(100)
+    .EUt(1960)
+    .buildAndRegister();
+	
+assembler.recipeBuilder() 
+    .notConsumable(<appliedenergistics2:material:14> * 1)
+    .inputs(<gregtech:meta_plate:276>*8,<gregtech:meta_gear_small:99>*8,<gregtech:meta_plate:2064>*8,<ore:circuitHv>,<gregtech:meta_item_1:603>)
+	.outputs(<appliedenergistics2:material:24>*16)
+    .duration(100)
+    .EUt(1960)
+    .buildAndRegister();
+	
+assembler.recipeBuilder() 
+    .notConsumable(<appliedenergistics2:material:15> * 1)
+    .inputs(<gregtech:meta_plate:41>*8,<gregtech:meta_gear_small:99>*8,<gregtech:meta_plate:2064>*8,<ore:circuitHv>,<gregtech:meta_item_1:603>)
+	.outputs(<appliedenergistics2:material:22>*16)
+    .duration(100)
+    .EUt(1960)
+    .buildAndRegister();
+	
+assembler.recipeBuilder() 
+    .inputs(<gregtech:meta_block_frame_194:1>,<gregtech:meta_wire_fine:3592>*64,<gregtech:meta_stick_long:3592>*16,<contenttweaker:nanites>)
+	.outputs(<contenttweaker:protonated_fullerene_sieving_matrix>)
+    .duration(10000)
+    .EUt(196000)
+    .buildAndRegister();
+	
+assembler.recipeBuilder() 
+    .inputs(<gregtech:meta_rotor:324>*2,<gregtech:meta_screw:324>*4,<gregtech:meta_stick_long:323>)
+	.fluidInputs(<liquid:jingbatancuihuaji>*2880)
+	.outputs(<galacticraftcore:air_fan>)
+    .duration(100)
+    .EUt(1960)
+    .buildAndRegister();
+	

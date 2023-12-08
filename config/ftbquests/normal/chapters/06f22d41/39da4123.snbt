@@ -7,9 +7,6 @@
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 2"
-		},
-		{
-			item: "treasure2:silver_coin"
 		}]
 	}],
 	rewards: [{

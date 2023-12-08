@@ -13,12 +13,10 @@
 		uid: "9a40c180",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "gelatin_mixture",
-					Amount: 1000
-				}
+				FluidName: "gtfo_gelatin_solution",
+				Amount: 1000
 			}
 		}]
 	}]

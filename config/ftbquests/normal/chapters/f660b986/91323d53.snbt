@@ -4,33 +4,17 @@
 	y: 0.0d,
 	description: "黑色的黄金",
 	text: [
-		"从油砂里离心出来的为石油",
-		"使用泵抽取的为原油",
-		"如果你在地下找到了名为oilgc的东西，使用化学反应釜转换即可"
+		"从油砂里离心出来的为重油，你需要MV的电压才能处理塔。",
+		"使用泵抽取的喷出来的那种为原油。",
+		"如果你在地下找到了名为oilgc的东西，使用化学反应釜转换即可",
+		"-------------------------------------------",
+		"无论是是石油还是原油，你都能进行相同处理"
 	],
 	dependencies: [
 		"d780a941"
 	],
 	tasks: [{
-		uid: "324845d9",
-		type: "item",
-		items: [{
-			id: "ic2:fluid_cell",
-			tag: {
-				Fluid: {
-					FluidName: "oil_medium",
-					Amount: 1000
-				}
-			}
-		},
-		{
-			id: "ic2:fluid_cell",
-			tag: {
-				Fluid: {
-					FluidName: "oil",
-					Amount: 1000
-				}
-			}
-		}]
+		uid: "81000d88",
+		type: "checkmark"
 	}]
 }

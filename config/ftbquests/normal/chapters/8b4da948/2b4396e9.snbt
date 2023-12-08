@@ -13,10 +13,7 @@
 		uid: "d50e21d9",
 		type: "item",
 		items: [{
-			item: "gregtech:ore_naquadah_1 1 2"
-		},
-		{
-			item: "gregtech:ore_naquadah_1 1 3"
+			item: "gregtech:meta_dust 1 32209"
 		}]
 	}],
 	rewards: [{

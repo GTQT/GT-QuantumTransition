@@ -1,0 +1,21 @@
+{
+	title: "面向普通的燃料棒",
+	x: -2.0d,
+	y: 0.5d,
+	dependencies: [
+		"ad76aa87"
+	],
+	tasks: [{
+		uid: "818b4baf",
+		type: "item",
+		items: [{
+			item: "contenttweaker:thorium_rod"
+		},
+		{
+			item: "contenttweaker:thorium_rod_dual"
+		},
+		{
+			item: "contenttweaker:thorium_rod_quad"
+		}]
+	}]
+}

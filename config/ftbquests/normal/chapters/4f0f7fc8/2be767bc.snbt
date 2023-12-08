@@ -1,6 +1,13 @@
 {
-	x: 2.5d,
+	title: "熔盐反应堆",
+	x: 4.0d,
 	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7ec78719"
+	],
 	tasks: [{
 		uid: "d95e9043",
 		type: "item",

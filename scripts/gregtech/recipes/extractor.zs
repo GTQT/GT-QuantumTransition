@@ -59,3 +59,24 @@ extractor.recipeBuilder()
     .duration(2)
     .EUt(5)
     .buildAndRegister();
+
+extractor.recipeBuilder() 
+    .inputs(<ore:ingotBloodInfusedIron>)
+    .fluidOutputs(<liquid:molten_blood_infused_iron>*144)
+    .duration(100)
+    .EUt(30)
+    .buildAndRegister();
+	
+extractor.recipeBuilder() 
+    .inputs(<ore:ingotOrichalcos>)
+    .fluidOutputs(<liquid:orichalcos>*144)
+    .duration(100)
+    .EUt(30)
+    .buildAndRegister();
+	
+extractor.recipeBuilder() 
+    .inputs(<avaritia:resource:6>)
+    .fluidOutputs(<liquid:infinity>*144)
+    .duration(10000)
+    .EUt(983040)
+    .buildAndRegister();

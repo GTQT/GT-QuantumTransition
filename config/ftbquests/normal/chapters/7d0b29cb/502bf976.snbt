@@ -1,0 +1,10 @@
+{
+	title: "你玩的到吗",
+	x: 4.0d,
+	y: 4.0d,
+	size: 2.0d,
+	tasks: [{
+		uid: "cee2bb6a",
+		type: "checkmark"
+	}]
+}

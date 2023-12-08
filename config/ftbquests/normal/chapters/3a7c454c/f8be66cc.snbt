@@ -3,19 +3,16 @@
 	x: 18.5d,
 	y: -3.5d,
 	dependencies: [
-		"a735150f",
-		"a3f5f672"
+		"a735150f"
 	],
 	tasks: [{
 		uid: "dba0d868",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "nitration_mixture",
-					Amount: 1000
-				}
+				FluidName: "nitration_mixture",
+				Amount: 1000
 			}
 		}]
 	}]

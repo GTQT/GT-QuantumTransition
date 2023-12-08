@@ -5,8 +5,7 @@
 	shape: "gear",
 	description: "好日子来力",
 	text: [
-		"EV部分的发电机略显吃力，我们需要好兄弟IC2帮帮忙。",
-		"快来看看这个核电吧，我们上调了10倍的发电量！1！1"
+		""
 	],
 	dependencies: [
 		"58d6cf95"
@@ -16,7 +15,7 @@
 		uid: "d7d7e00d",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 32048"
+			item: "gregtech:machine 1 3016"
 		}]
 	}],
 	rewards: [{

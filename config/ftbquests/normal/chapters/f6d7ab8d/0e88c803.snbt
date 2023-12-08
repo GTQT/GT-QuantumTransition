@@ -1,7 +1,7 @@
 {
 	title: "大型！我需要大型！",
-	x: 24.0d,
-	y: 1.5d,
+	x: 28.5d,
+	y: 0.0d,
 	text: [
 		"Gregicality Multiblocks 为GTCEu 添加了大量的多方块机器，是 Gregicality 的其中一个模块。",
 		"现在，GTCEu 中的每个单方块机器都有一个多方块变体，能够同时处理多达 256 个配方！",

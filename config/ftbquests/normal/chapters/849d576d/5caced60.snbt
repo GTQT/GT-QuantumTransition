@@ -12,6 +12,7 @@
 		type: "item",
 		items: [{
 			id: "gregtech:meta_item_1",
+			Damage: 464s,
 			tag: {
 				Page10: {
 					Task2: "",
@@ -315,8 +316,7 @@
 					Task5: "",
 					Task7: ""
 				}
-			},
-			Damage: 464s
+			}
 		}],
 		ignore_nbt: 1b
 	}],

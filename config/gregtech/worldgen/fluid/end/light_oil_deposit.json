@@ -1,0 +1,17 @@
+{
+  "weight": 25,
+  "name": "Overworld Light Oil Deposit",
+  "yield": {
+    "min": 250,
+    "max": 400
+  },
+  "depletion": {
+    "amount": 1,
+    "chance": 100,
+    "depleted_yield": 25
+  },
+  "dimension_filter": [
+    "name:the_end"
+  ],
+  "fluid": "oil_light"
+}

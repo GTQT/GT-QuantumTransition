@@ -144,7 +144,7 @@ chemical_bath.recipeBuilder()
 //觉醒龙素粉
 mixer.recipeBuilder()
     .fluidInputs([<liquid:americium>*576,<liquid:xenon>*4000])
-    .inputs([<ore:dustEmpoweredDraconium>*8,<ore:dustNaquadria>,<ore:dustRutheniumTriniumAmericiumNeutronate>,<ore:dustVibrantAlloy>,<ore:dustEnergeticAlloy>])
+    .inputs([<ore:dustEmpoweredDraconium>*8,<ore:dustNaquadria>,<ore:dustRutheniumTriniumAmericiumNeutronate>,<gregtech:meta_dust:130>])
     .outputs([<gregtech:meta_dust:32193>*4])
     .duration(320)
     .EUt(122880)

@@ -22,18 +22,5 @@
 		items: [{
 			item: "gregtech:meta_dust 1 2000"
 		}]
-	},
-	{
-		uid: "e7b6c1d9",
-		type: "item",
-		items: [{
-			id: "ic2:fluid_cell",
-			tag: {
-				Fluid: {
-					FluidName: "borosilicate_glass",
-					Amount: 1000
-				}
-			}
-		}]
 	}]
 }

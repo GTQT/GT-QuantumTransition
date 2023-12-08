@@ -8,7 +8,7 @@
 			SelectionOffset: 0
 		}
 	},
-	x: 12.0d,
+	x: 1.5d,
 	y: 2.5d,
 	description: "送你一个传送宝石吧，至少目前他是够用的。",
 	text: [

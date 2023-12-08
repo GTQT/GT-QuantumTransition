@@ -1,6 +1,6 @@
 {
-	x: -7.0d,
-	y: 8.5d,
+	x: -10.0d,
+	y: 6.0d,
 	dependencies: [
 		"3abf1a6f"
 	],
@@ -9,13 +9,6 @@
 		type: "item",
 		items: [{
 			item: "gregtech:machine 1 66"
-		}]
-	},
-	{
-		uid: "ed5abf58",
-		type: "item",
-		items: [{
-			item: "gregtech:machine 1 621"
 		}]
 	}],
 	rewards: [{

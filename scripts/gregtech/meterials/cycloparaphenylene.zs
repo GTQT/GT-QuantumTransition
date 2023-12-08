@@ -4,7 +4,7 @@ val chemical_plant = mods.gregtech.recipe.RecipeMap.getByName("chemical_plant");
 val lager_chemical_reactor = mods.gregtech.recipe.RecipeMap.getByName("lager_chemical_reactor");
 chemical_reactor.recipeBuilder() 
     .inputs(<gregtech:meta_dust:83>*2)
-    .fluidInputs(<liquid:chloroplatinic_acid>*1000)
+    .fluidInputs(<liquid:chloroplatinicacid>*1000)
 	.outputs(<gregtech:meta_dust:32133>*7)
     .fluidOutputs(<liquid:diluted_hydrochloric_acid>*2000)
     .duration(4500)
@@ -53,7 +53,7 @@ chemical_reactor.recipeBuilder()
 	
 
 chemical_reactor.recipeBuilder() 
-    .inputs(<gregtech:meta_dust:32139>*22,<gregtech:meta_dust:32041>*2)
+    .inputs(<ore:dustBiphenyl>*22,<gregtech:meta_dust:32041>*2)
     .fluidInputs(<liquid:sulfuric_acid>*1000,<liquid:ammonium_sulfate>*1000)
 	.outputs(<gregtech:meta_dust:32141>*22)
     .fluidOutputs(<liquid:hydrogen>*4000,<liquid:ammonium_persulfate>*1000)

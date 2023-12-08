@@ -167,13 +167,6 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("healing_frame", "", 10,
 	[<ore:dustClay>, <forestry:frame_impregnated>, <ore:dustClay>], 
 	[<ore:screwIron>, <ore:dustClay>, <ore:screwIron>]]);
 
-// Lumber Mill
-recipes.remove(<extratrees:machine>);
-recipes.addShaped(<extratrees:machine>, 
-	[[<gregtech:machine:813>, <ore:plateSteel>, <gregtech:meta_item_1:32721>], 
-	[conveyorLv, machineCasingLv, conveyorLv], 
-	[<extratrees:misc:2>, motorLv, <extratrees:misc:2>]]);
-
 // Woodworker
 recipes.remove(<extratrees:machine:1>);
 recipes.addShaped(<extratrees:machine:1>, 

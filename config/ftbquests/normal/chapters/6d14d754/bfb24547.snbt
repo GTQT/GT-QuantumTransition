@@ -26,25 +26,25 @@
 		},
 		{
 			id: "tconstruct:tooltables",
+			Damage: 2s,
 			tag: {
 				textureBlock: {
 					id: "minecraft:log",
 					Count: 1b,
 					Damage: 0s
 				}
-			},
-			Damage: 2s
+			}
 		},
 		{
 			id: "tconstruct:tooltables",
+			Damage: 1s,
 			tag: {
 				textureBlock: {
 					id: "minecraft:planks",
 					Count: 1b,
 					Damage: 0s
 				}
-			},
-			Damage: 1s
+			}
 		}]
 	}],
 	rewards: [{

@@ -26,11 +26,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "0aa2b220",
-		type: "item",
-		item: "threng:machine 1 2"
-	},
-	{
 		uid: "f595cdf9",
 		type: "item",
 		item: "gregtech:meta_item_1 1 5"
@@ -42,5 +37,10 @@
 			id: "appliedenergistics2:storage_cell_64k",
 			tag: {}
 		}
+	},
+	{
+		uid: "29e4b529",
+		type: "item",
+		item: "threng:material 1 13"
 	}]
 }

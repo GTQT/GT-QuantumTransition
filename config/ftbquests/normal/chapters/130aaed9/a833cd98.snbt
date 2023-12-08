@@ -1,7 +1,8 @@
 {
 	title: "恭喜你，正式入职！",
 	x: 2.0d,
-	y: 1.5d,
+	y: 1.0d,
+	shape: "octagon",
 	description: "你的游戏才刚刚开始.......",
 	text: [
 		""
@@ -9,6 +10,7 @@
 	dependencies: [
 		"4b3b52bc"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "cba7ea7e",
 		type: "item",

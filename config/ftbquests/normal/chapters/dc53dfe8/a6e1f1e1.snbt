@@ -10,10 +10,11 @@
 		"81a33471"
 	],
 	tasks: [{
-		uid: "a8faf40f",
+		uid: "63b86cec",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
 			tag: {
 				Fluid: {
 					FluidName: "water",

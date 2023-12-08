@@ -60,8 +60,49 @@ mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast>,null, <liquid:alumite>,
 mods.tconstruct.Melting.removeRecipe(<liquid:neutronium>,<avaritia:resource:4>);
 mods.tconstruct.Melting.removeRecipe(<liquid:neutronium>,<avaritia:resource:3>);
 mods.tconstruct.Melting.removeRecipe(<liquid:neutronium>,<avaritia:block_resource>);
-mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<gregtech:meta_dust_tiny:2>);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<gregtech:meta_dust:2>);
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<gregtech:meta_dust_small:2>);
+mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<gregtech:meta_dust_tiny:2>);
+mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<gregtech:meta_nugget:2>);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:osmium>,<gregtech:meta_dust:75>);
+mods.tconstruct.Melting.removeRecipe(<liquid:osmium>,<gregtech:meta_dust_small:75>);
+mods.tconstruct.Melting.removeRecipe(<liquid:osmium>,<gregtech:meta_dust_tiny:75>);
+mods.tconstruct.Melting.removeRecipe(<liquid:osmium>,<gregtech:meta_nugget:75>);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:stainless_steel>,<gregtech:meta_dust:323>);
+mods.tconstruct.Melting.removeRecipe(<liquid:stainless_steel>,<gregtech:meta_dust_small:323>);
+mods.tconstruct.Melting.removeRecipe(<liquid:stainless_steel>,<gregtech:meta_dust_tiny:323>);
+mods.tconstruct.Melting.removeRecipe(<liquid:stainless_steel>,<gregtech:meta_nugget:323>);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:tungsten>,<gregtech:meta_dust:115>);
+mods.tconstruct.Melting.removeRecipe(<liquid:tungsten>,<gregtech:meta_dust_small:115>);
+mods.tconstruct.Melting.removeRecipe(<liquid:tungsten>,<gregtech:meta_dust_tiny:115>);
+mods.tconstruct.Melting.removeRecipe(<liquid:tungsten>,<gregtech:meta_nugget:115>);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:titanium>,<gregtech:meta_dust:113>);
+mods.tconstruct.Melting.removeRecipe(<liquid:titanium>,<gregtech:meta_dust_small:113>);
+mods.tconstruct.Melting.removeRecipe(<liquid:titanium>,<gregtech:meta_dust_tiny:113>);
+mods.tconstruct.Melting.removeRecipe(<liquid:titanium>,<gregtech:meta_nugget:113>);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<gregtech:meta_dust:50>);
+mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<gregtech:meta_dust_small:50>);
+mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<gregtech:meta_dust_tiny:50>);
+mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<gregtech:meta_nugget:50>);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:zirconium>,<gregtech:meta_dust:123>);
+mods.tconstruct.Melting.removeRecipe(<liquid:zirconium>,<gregtech:meta_dust_small:123>);
+mods.tconstruct.Melting.removeRecipe(<liquid:zirconium>,<gregtech:meta_dust_tiny:123>);
+mods.tconstruct.Melting.removeRecipe(<liquid:zirconium>,<gregtech:meta_nugget:123>);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:platinum>,<gregtech:meta_dust:80>);
+mods.tconstruct.Melting.removeRecipe(<liquid:platinum>,<gregtech:meta_dust_small:80>);
+mods.tconstruct.Melting.removeRecipe(<liquid:platinum>,<gregtech:meta_dust_tiny:80>);
+mods.tconstruct.Melting.removeRecipe(<liquid:platinum>,<gregtech:meta_nugget:80>);
+
+mods.tconstruct.Melting.removeRecipe(<liquid:glowstone>,<minecraft:glowstone>);
+mods.tconstruct.Melting.removeRecipe(<liquid:glowstone>,<minecraft:glowstone_dust>);
 
 mods.tconstruct.Casting.removeTableRecipe(<avaritia:resource:4>);
 mods.tconstruct.Casting.removeTableRecipe(<avaritia:resource:3>);
@@ -74,34 +115,25 @@ recipes.remove(<tconstruct:soil>);
 recipes.addShaped(<tconstruct:soil> * 2, [[<ore:gravel>, <ore:sand>, <ore:gravel>], [<ore:sand>, <ore:blockClay>, <ore:sand>], [<ore:gravel>, <ore:sand>, <ore:gravel>]]);
 recipes.addShaped(<tconstruct:casting:1>, [[<ore:ingotBrickSeared>, null, <ore:ingotBrickSeared>], [<ore:ingotBrickSeared>, null, <ore:ingotBrickSeared>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
 recipes.addShaped(<tconstruct:casting>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:ingotBrickSeared>, null, <ore:ingotBrickSeared>], [<ore:ingotBrickSeared>, null, <ore:ingotBrickSeared>]]);
-recipes.addShaped(<tconstruct:seared:3>, [[<ore:ingotBrickSeared>, <ore:dustFlint>, <ore:ingotBrickSeared>], [<ore:ingotBrickSeared>, <forge:bucketfilled>.withTag({FluidName: "concrete", Amount: 1000}), <ore:ingotBrickSeared>], [<ore:ingotBrickSeared>, <ore:dustFlint>, <ore:ingotBrickSeared>]]);
-recipes.addShaped(<tconstruct:seared:3>*2, [[<ore:ingotBrickSeared>, <ore:dustFlint>, <ore:ingotBrickSeared>], [<ore:dustFlint>, <ore:frameGtSteel>, <ore:dustFlint>], [<ore:ingotBrickSeared>, <ore:dustFlint>, <ore:ingotBrickSeared>]]);
+recipes.addShaped(<tconstruct:seared:3>*2, [[<ore:ingotBrickSeared>, <ore:dustFlint>, <ore:ingotBrickSeared>], [<ore:ingotBrickSeared>, <forge:bucketfilled>.withTag({FluidName: "concrete", Amount: 1000}), <ore:ingotBrickSeared>], [<ore:ingotBrickSeared>, <ore:dustFlint>, <ore:ingotBrickSeared>]]);
+recipes.addShaped(<tconstruct:seared:3>*4, [[<ore:ingotBrickSeared>, <ore:dustFlint>, <ore:ingotBrickSeared>], [<ore:dustFlint>, <ore:frameGtSteel>, <ore:dustFlint>], [<ore:ingotBrickSeared>, <ore:dustFlint>, <ore:ingotBrickSeared>]]);
 
 mods.tconstruct.Melting.addRecipe(<liquid:molten_netherite>*144,<futuremc:netherite_ingot>, 1800);
 mods.tconstruct.Melting.addRecipe(<liquid:molten_coalescence_matrix>*144,<tconevo:material:0>, 2000);
 mods.tconstruct.Melting.addRecipe(<liquid:molten_gaia>*144,<item:botania:manaresource:14>, 1600);
-
+mods.tconstruct.Melting.removeRecipe(<liquid:draconium>,<draconicevolution:draconium_ore:2>);
+mods.tconstruct.Melting.removeRecipe(<liquid:draconium>,<draconicevolution:draconium_ore:1>);
+mods.tconstruct.Melting.removeRecipe(<liquid:draconium>,<draconicevolution:draconium_ore:0>);
 mods.tconstruct.Melting.removeRecipe(<liquid:bronze>,<minecraft:minecart>);
 mods.tconstruct.Melting.removeRecipe(<liquid:gold>,<minecraft:golden_rail>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>,<minecraft:detector_rail>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>,<minecraft:activator_rail>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>,<minecraft:rail>);
 //删除其他模组的东西
-mods.tconstruct.Casting.removeTableRecipe(<ic2:ingot:*>);
 mods.tconstruct.Casting.removeTableRecipe(<forestry:ingot_tin>);
 mods.tconstruct.Casting.removeTableRecipe(<forestry:ingot_copper>);
 mods.tconstruct.Casting.removeTableRecipe(<forestry:ingot_bronze>);
 mods.tconstruct.Casting.removeBasinRecipe(<forestry:resource_storage:*>);
-mods.tconstruct.Casting.removeTableRecipe(<ic2:plate:0>);
-mods.tconstruct.Casting.removeTableRecipe(<ic2:plate:1>);
-mods.tconstruct.Casting.removeTableRecipe(<ic2:plate:2>);
-mods.tconstruct.Casting.removeTableRecipe(<ic2:plate:3>);
-mods.tconstruct.Casting.removeTableRecipe(<ic2:plate:4>);
-mods.tconstruct.Casting.removeTableRecipe(<ic2:plate:5>);
-mods.tconstruct.Casting.removeTableRecipe(<ic2:plate:6>);
-mods.tconstruct.Casting.removeTableRecipe(<ic2:plate:7>);
-mods.tconstruct.Casting.removeTableRecipe(<ic2:plate:8>);
-mods.tconstruct.Casting.removeBasinRecipe(<ic2:resource:*>);
 mods.tconstruct.Casting.removeTableRecipe(<forestry:gear_bronze>);
 mods.tconstruct.Casting.removeTableRecipe(<forestry:gear_copper>);
 mods.tconstruct.Casting.removeTableRecipe(<forestry:gear_tin>);
@@ -123,13 +155,15 @@ mods.tconstruct.Casting.addBasinRecipe(<gregtech:meta_block_compressed_16:4>,nul
 
 mods.tconstruct.Casting.addTableRecipe(<gregtech:meta_ingot:55>,<tconstruct:cast_custom>,<liquid:lead>,144,false,60);
 mods.tconstruct.Casting.addBasinRecipe(<gregtech:meta_block_compressed_3:7>,null, <liquid:lead>, 1296, true, 540);
+//glowstone
+mods.tconstruct.Melting.addRecipe(<liquid:glowstone>*576,<minecraft:glowstone>, 200);
 //玻璃
 mods.tconstruct.Melting.removeRecipe(<liquid:glass>);
 
-mods.tconstruct.Melting.addRecipe(<liquid:glass>*1000,<ore:sand>, 200);
-mods.tconstruct.Melting.addRecipe(<liquid:glass>*1000,<ore:blockGlass>, 200);
-mods.tconstruct.Melting.addRecipe(<liquid:glass>*500,<ore:paneGlass>, 200);
-mods.tconstruct.Casting.addBasinRecipe(<minecraft:glass>,null, <liquid:glass>, 144, false, 20);
+mods.tconstruct.Melting.addRecipe(<liquid:glass>*576,<ore:sand>, 200);
+mods.tconstruct.Melting.addRecipe(<liquid:glass>*576,<ore:blockGlass>, 200);
+mods.tconstruct.Melting.addRecipe(<liquid:glass>*288,<ore:paneGlass>, 200);
+mods.tconstruct.Casting.addBasinRecipe(<minecraft:glass>,null, <liquid:glass>, 576, false, 20);
 //燃料注册
 mods.tconstruct.Fuel.registerFuel(<liquid:plasma.argon> * 2, 900);
 mods.tconstruct.Fuel.registerFuel(<liquid:plasma.adamantium> * 2, 900);

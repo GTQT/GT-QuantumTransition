@@ -2,6 +2,7 @@
 	title: "硫酸氢钠",
 	x: 22.5d,
 	y: 11.0d,
+	description: "请先完成《石油化工》部分的 硫酸 前置！！！！！！！！！！！！！！！！！！！",
 	text: [
 		"在石油化工里，或许你已经接触到了硫酸产线",
 		"现在你可以生产一些过硫酸钠了，在接下来的产线里，你将会须要它"
@@ -11,19 +12,6 @@
 		"82a58d28"
 	],
 	tasks: [{
-		uid: "50f45a0b",
-		type: "item",
-		items: [{
-			id: "ic2:fluid_cell",
-			tag: {
-				Fluid: {
-					FluidName: "sulfuric_acid",
-					Amount: 1000
-				}
-			}
-		}]
-	},
-	{
 		uid: "61283b66",
 		type: "item",
 		items: [{

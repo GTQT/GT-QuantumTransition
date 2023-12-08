@@ -1,24 +1,21 @@
 {
 	title: "硝基氯苯",
-	x: 7.0d,
-	y: -10.5d,
+	x: 6.5d,
+	y: -12.0d,
 	text: [
 		""
 	],
 	dependencies: [
-		"edd8b279",
-		"db783cbe"
+		"edd8b279"
 	],
 	tasks: [{
 		uid: "53786c7e",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "nitrochlorobenzene",
-					Amount: 1000
-				}
+				FluidName: "nitrochlorobenzene",
+				Amount: 1000
 			}
 		}]
 	}]

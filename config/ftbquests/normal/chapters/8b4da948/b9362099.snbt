@@ -2,8 +2,7 @@
 	x: 11.5d,
 	y: 5.5d,
 	dependencies: [
-		"be7038ea",
-		"01dc5372"
+		"be7038ea"
 	],
 	tasks: [{
 		uid: "d59b17e7",
@@ -16,5 +15,20 @@
 		uid: "130b02af",
 		type: "item",
 		item: "gregtech:meta_item_1 1 4"
+	},
+	{
+		uid: "140a70dc",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "5bc84585",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "ff4ffd3b",
+		type: "random",
+		table: 4
 	}]
 }

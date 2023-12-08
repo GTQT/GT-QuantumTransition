@@ -32,5 +32,11 @@
 		uid: "902b7b54",
 		type: "item",
 		item: "appliedenergistics2:interface"
+	},
+	{
+		uid: "87fcadc0",
+		type: "item",
+		item: "appliedenergistics2:part 1 220",
+		count: 4
 	}]
 }

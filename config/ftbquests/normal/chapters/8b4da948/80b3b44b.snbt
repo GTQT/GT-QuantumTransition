@@ -1,24 +1,21 @@
 {
 	title: "二氨基联苯胺",
-	x: 10.0d,
+	x: 9.5d,
 	y: -12.0d,
 	text: [
 		""
 	],
 	dependencies: [
-		"d0ec0754",
-		"319b219a"
+		"d0ec0754"
 	],
 	tasks: [{
 		uid: "908f5526",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "diaminobenzidine",
-					Amount: 1000
-				}
+				FluidName: "diaminobenzidine",
+				Amount: 1000
 			}
 		}]
 	}]

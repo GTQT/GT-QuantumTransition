@@ -16,16 +16,16 @@
 		uid: "b37da367",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "materialResin",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any materialResin"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "materialResin"
 				}
 			}
 		}],
@@ -52,30 +52,22 @@
 		uid: "e6570c43",
 		type: "item",
 		item: {
-			id: "extrautils2:fireaxe",
+			id: "gregtech:axe",
 			tag: {
-				Quality: {
-					Slots: [
-						"mainhand"
-					],
-					Color: "yellow",
-					AttributeModifiers: [{
-						UUIDMost: -2376932733572853795L,
-						UUIDLeast: -5322108804122877250L,
-						Amount: 0.15000000596046448d,
-						AttributeName: "generic.attackDamage",
-						Operation: 2,
-						Name: "qualitytools"
-					},
-					{
-						UUIDMost: 5725037285332174373L,
-						UUIDLeast: -4969549204534395160L,
-						Amount: -0.5d,
-						AttributeName: "generic.reachDistance",
-						Operation: 0,
-						Name: "qualitytools"
-					}],
-					Name: "quality.vicious.name"
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:cubic_boron_nitride",
+					MaxDurability: 12399,
+					Durability: 0,
+					ToolSpeed: 16.0f,
+					HarvestLevel: 15,
+					AttackDamage: 14.0f,
+					AttackSpeed: -3.2f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					DisableShields: 1b,
+					TreeFelling: 1b
 				}
 			}
 		}

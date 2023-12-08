@@ -8,75 +8,111 @@ import mods.gregtech.multiblock.IBlockPattern;
 import mods.gregtech.recipe.FactoryRecipeMap;
 import mods.gregtech.recipe.RecipeMap;
 import crafttweaker.world.IFacing;
- 
-global ex_cvd_recipes as RecipeMap = FactoryRecipeMap.start("ex_cvd_recipes")
-    .maxInputs(2)
-    .maxOutputs(2)
-	.maxFluidInputs(4)
-	.maxFluidOutputs(4)
-    .build();
- 
-Builder.start("ex_cvd_recipes", 32039)
-    .withPattern(function(controller as IControllerTile) as IBlockPattern {
-        return FactoryBlockPattern.start()
-            .aisle(" K        K ", " K        K ", " K        K ", " K        K "," K        K "," K        K "," K        K ","            ")
-            .aisle("NK   KK   KN", "NKKKKKKKKKKN", "NNSSSSSSSSNN", "NNSSSSSSSSNN","NNSSSSSSSSNN","NKSSSSSSSSKN","NKSSSSSSSSKN","NG        GN")
-            .aisle(" K        K ", " KKKKKKKKKK ", " NSEEEEEESN ", " NS      SN "," NS      SN "," KJJJJJJJJK "," KSSSSSSSSK "," G        G ")
-            .aisle(" K        K ", " KKKKKKKKKK ", " NSEEEEEESN ", " NS      SN "," NS      SN "," KS      SK "," KSSSSSSSSK "," G        G ")
-            .aisle(" K        K ", " KKKKKKKKKK ", " NSEEEEEESN ", " NS      SN "," NS      SN "," KJJJJJJJJK "," KSSSSSSSSK "," G        G ")
-            .aisle("NK   KK   KN", "NKKKKKKKKKKN", "NNSSSSSSSSNN", "NNSSSSSSSSNN","NNSSSSSSSSNN","NKSSSSSSSSKN","NKSSSSSSSSKN","NG        GN")
-            .aisle(" K        K ", " K        K ", " K        K ", " C        K "," K        K "," K        K "," K        K ","            ")
-            .where("C", controller.self())
-            .where("N", <metastate:gregtech:meta_block_frame_194:1>)
-            .where("S", <metastate:gregtech:transparent_casing:1>)
-            .where("J", <metastate:gregtech:boiler_casing:4>)
-            .where("G", <metastate:gregtech:multiblock_casing:2>)
-            .where("E", <metastate:gcys:multiblock_casing:1>)
-            .where("K", CTPredicate.states(<metastate:gcym:large_multiblock_casing:10>)
-                | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
-                | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>).setMinGlobalLimited(1).setMaxGlobalLimited(2).setPreviewCount(1)
-                | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>).setMinGlobalLimited(1).setMaxGlobalLimited(3).setPreviewCount(1)
-                | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>).setMinGlobalLimited(1).setMaxGlobalLimited(3).setPreviewCount(1)
-			    | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>).setMinGlobalLimited(1).setMaxGlobalLimited(3).setPreviewCount(1)
-                | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>).setMinGlobalLimited(1).setMaxGlobalLimited(3).setPreviewCount(1)
-            )
-            .where(" ",CTPredicate.getAny())
-        .build();
-    } as IPatternBuilderFunction)
-    .withRecipeMap(ex_cvd_recipes)
-    .withBaseTexture(<metastate:gcym:large_multiblock_casing:10>)
-    .buildAndRegister();
-ex_cvd_recipes.recipeBuilder() 
-    .notConsumable(<gregtech:meta_plate:89>)
-	.fluidInputs(<liquid:plasma.nitrogen>*16000,<liquid:acetylene>*24000)
-    .fluidOutputs(<liquid:ammonia>*16000)
-	.outputs(<gregtech:meta_stick_long:3592>)
-	.EUt(7864320)
-    .duration(1200) 
-    .buildAndRegister(); 
-	
-ex_cvd_recipes.recipeBuilder() 
+val plasma_cvd_recipes = mods.gregtech.recipe.RecipeMap.getByName("plasma_cvd_recipes");
+plasma_cvd_recipes.recipeBuilder() 
     .notConsumable(<gregtech:meta_plate:89>)
 	.fluidInputs(<liquid:plasma.nitrogen>*10000,<liquid:cycloparaphenylene>*7000,<liquid:acetylene>*3000)
     .fluidOutputs(<liquid:ammonia>*10000)
-	.outputs(<gregtech:meta_ingot:3592>)
-	.EUt(7864320)
+	.outputs(<gregtech:meta_ingot:25046>)
+	.EUt(1966080)
     .duration(1200) 
     .buildAndRegister(); 
 
-ex_cvd_recipes.recipeBuilder() 
+plasma_cvd_recipes.recipeBuilder() 
     .inputs(<ore:dustPlutonium241>)
 	.fluidInputs(<liquid:hydrogen>*30000,<liquid:plasma.argon>*3000)
     .fluidOutputs(<liquid:argon>*3000)
 	.outputs(<gregtech:meta_dust:32149>)
-	.EUt(7864320)
+	.EUt(1966080)
     .duration(1200) 
     .buildAndRegister(); 
 	
-ex_cvd_recipes.recipeBuilder() 
+plasma_cvd_recipes.recipeBuilder() 
     .inputs(<gregtech:meta_block_frame_2012>*16)
 	.fluidInputs(<liquid:ruthenium_trinium_americium_neutronate>*16000,<liquid:plasma.argon>*3000)
 	.outputs(<draconicevolution:fusion_crafting_core>)
-	.EUt(7864320)
+	.EUt(1966080)
     .duration(12000) 
     .buildAndRegister(); 
+	
+plasma_cvd_recipes.recipeBuilder()
+    .notConsumable(<gregtech:meta_plate:89>)
+    .inputs(<gregtech:meta_plate:15057>)
+    .fluidInputs(<liquid:plasma.nickel>*576)
+	.outputs(<gcys:meta_item_1:424>*16)
+    .duration(160).EUt(122880).buildAndRegister();
+	
+plasma_cvd_recipes.recipeBuilder()
+    .notConsumable(<gregtech:meta_plate:89>)
+	.notConsumable(<contenttweaker:protonated_fullerene_sieving_matrix>)
+    .fluidInputs(<liquid:yuchulixitu>*1000)
+	.fluidOutputs(<liquid:chunjingchulixitu>*1000)
+    .duration(160).EUt(491520).buildAndRegister();
+	
+plasma_cvd_recipes.recipeBuilder() 
+    .notConsumable(<gregtech:meta_plate:89>)
+	.inputs(<gregtech:meta_dust:32368>,<gregtech:meta_dust:41>)
+	.outputs(<gregtech:meta_dust:32369>)
+    .duration(1600)
+    .EUt(491520)
+    .buildAndRegister();
+	
+plasma_cvd_recipes.recipeBuilder()
+    .notConsumable(<gregtech:meta_plate:89>)
+	.notConsumable(<contenttweaker:protonated_fullerene_sieving_matrix>)
+    .fluidInputs(<liquid:ruthenium_trinium_americium_neutronate>*1000)
+    .outputs(<avaritia:resource:2>)
+    .duration(160).EUt(491520).buildAndRegister();
+	
+plasma_cvd_recipes.recipeBuilder()
+    .notConsumable(<gregtech:meta_plate:89>)
+	.notConsumable(<contenttweaker:protonated_fullerene_sieving_matrix>)
+	.inputs(<gregtech:meta_stick:89>*1)
+    .fluidInputs(<liquid:plutonium_phosphide>*1000)
+    .fluidOutputs(<liquid:lai>*144)
+    .duration(160).EUt(491520).buildAndRegister();
+	
+plasma_cvd_recipes.recipeBuilder()
+    .notConsumable(<gregtech:meta_item_1:211>)
+	.notConsumable(<qmd:waste_spallation:9>*32)
+    .fluidInputs(<liquid:dragon_essence>*576,<liquid:positronium>*10)
+    .fluidOutputs(<liquid:sunnarium>*100)
+    .duration(1600).EUt(491520*16).buildAndRegister();
+	
+plasma_cvd_recipes.recipeBuilder()
+    .notConsumable(<gregtech:meta_plate:89>)
+	.notConsumable(<contenttweaker:protonated_fullerene_sieving_matrix>)
+	.inputs(<avaritia:resource>)
+    .fluidInputs(<liquid:dragon_essence>*576)
+    .fluidOutputs(<liquid:crystal_matrix>*36)
+    .duration(1600).EUt(491520*16).buildAndRegister();
+	
+plasma_cvd_recipes.recipeBuilder()
+    .notConsumable(<gregtech:meta_plate:89>)
+	.notConsumable(<contenttweaker:protonated_fullerene_sieving_matrix>)
+	.inputs(<gregtech:meta_dust:32>)
+    .fluidInputs(<liquid:zblan_glass>*1584)
+    .outputs(<gregtech:meta_dust:6021>)
+    .duration(1600).EUt(491520*16).buildAndRegister();
+	
+plasma_cvd_recipes.recipeBuilder()
+    .notConsumable(<gregtech:meta_plate:89>)
+	.notConsumable(<contenttweaker:protonated_fullerene_sieving_matrix>)
+	.inputs(<gregtech:meta_dust:84>)
+    .fluidInputs(<liquid:zblan_glass>*1584)
+    .outputs(<gregtech:meta_dust:6022>)
+    .duration(16000).EUt(491520*16).buildAndRegister();
+	
+plasma_cvd_recipes.recipeBuilder()
+    .notConsumable(<gregtech:meta_plate:89>)
+	.notConsumable(<contenttweaker:protonated_fullerene_sieving_matrix>)
+	.inputs(<gregtech:meta_dust:432>)
+    .fluidInputs(<liquid:positronium>*1584)
+    .outputs(<gregtech:meta_dust:32160>)
+    .duration(16000).EUt(491520*64).buildAndRegister();
+	
+plasma_cvd_recipes.recipeBuilder()
+    .notConsumable(<gregtech:meta_plate:89>)
+	.inputs(<gregtech:meta_dust:6023>*5,<gregtech:meta_dust:3605>*2)
+    .outputs(<gregtech:meta_dust:32239>)
+    .duration(16000).EUt(491520*16).buildAndRegister();

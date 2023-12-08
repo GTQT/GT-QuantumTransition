@@ -6,13 +6,16 @@
 		"如果你觉得钢的更便宜，你应该反思你在LV阶段为什么会有那么多钢"
 	],
 	dependencies: [
-		"f8a944f9"
+		"d042e69c"
 	],
 	tasks: [{
 		uid: "a5db3a39",
 		type: "item",
 		items: [{
-			item: "ic2:fluid_cell"
+			item: "gregtech:meta_item_1 1 78"
+		},
+		{
+			item: "gregtech:meta_item_1 1 79"
 		}]
 	}]
 }

@@ -10,28 +10,6 @@
 		"faa34dab"
 	],
 	tasks: [{
-		uid: "95e6d8c4",
-		type: "item",
-		items: [{
-			id: "ic2:fluid_cell",
-			tag: {
-				Fluid: {
-					FluidName: "hydrogen",
-					Amount: 1000
-				}
-			}
-		},
-		{
-			id: "ic2:fluid_cell",
-			tag: {
-				Fluid: {
-					FluidName: "ic2steam",
-					Amount: 1000
-				}
-			}
-		}]
-	},
-	{
 		uid: "66896e6f",
 		type: "checkmark"
 	}],

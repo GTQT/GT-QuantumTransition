@@ -10,28 +10,7 @@
 		"21de2c58"
 	],
 	tasks: [{
-		uid: "c9b9c4d4",
-		type: "item",
-		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "oreChalcopyrite",
-					id: "ore"
-				}
-			},
-			id: "itemfilters:filter",
-			tag: {
-				display: {
-					Name: "Any oreChalcopyrite"
-				}
-			}
-		},
-		{
-			item: "gregtech:ore_tetrahedrite_0"
-		},
-		{
-			item: "gregtech:ore_pentlandite_0"
-		}],
-		count: 16L
+		uid: "1e8288af",
+		type: "checkmark"
 	}]
 }

@@ -22,5 +22,11 @@
 		items: [{
 			item: "gregtech:machine 1 1001"
 		}]
+	}],
+	rewards: [{
+		uid: "2daa19ea",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 8
 	}]
 }

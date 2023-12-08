@@ -13,12 +13,10 @@
 		uid: "51277d98",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "dichlorobenzene",
-					Amount: 1000
-				}
+				FluidName: "dichlorobenzene",
+				Amount: 1000
 			}
 		}]
 	}]

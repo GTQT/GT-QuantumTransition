@@ -2,10 +2,10 @@
 	title: "矿物在哪里",
 	icon: {
 		id: "gregtech:meta_item_1",
+		Damage: 466s,
 		tag: {
 			Charge: 100000L
-		},
-		Damage: 466s
+		}
 	},
 	x: 4.5d,
 	y: 2.5d,
@@ -27,10 +27,10 @@
 		type: "item",
 		item: {
 			id: "gregtech:meta_item_1",
+			Damage: 467s,
 			tag: {
 				Charge: 1600000L
-			},
-			Damage: 467s
+			}
 		}
 	}]
 }

@@ -26,5 +26,10 @@
 		uid: "557b5451",
 		type: "item",
 		item: "gregtech:meta_item_1 1 4"
+	},
+	{
+		uid: "13217c27",
+		type: "random",
+		table: 4
 	}]
 }

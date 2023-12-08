@@ -1,7 +1,8 @@
 {
 	title: "检查你的工具！工程师",
-	x: 26.5d,
+	x: 29.5d,
 	y: 3.5d,
+	shape: "gear",
 	description: "在你的机器完善之前，会一直需要他们。",
 	text: [
 		"工具以及使用方法",
@@ -12,20 +13,21 @@
 	dependencies: [
 		"5a6ae1d0"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "12c63721",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "toolScrewdriver",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any toolScrewdriver"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "toolScrewdriver"
 				}
 			}
 		}],
@@ -36,16 +38,16 @@
 		uid: "c333fb46",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "toolWireCutter",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any toolWireCutter"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "toolWireCutter"
 				}
 			}
 		}],
@@ -56,16 +58,16 @@
 		uid: "d341ce63",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "toolFile",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any toolFile"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "toolFile"
 				}
 			}
 		}],
@@ -76,16 +78,16 @@
 		uid: "e1deea37",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "toolKnife",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any toolKnife"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "toolKnife"
 				}
 			}
 		}],

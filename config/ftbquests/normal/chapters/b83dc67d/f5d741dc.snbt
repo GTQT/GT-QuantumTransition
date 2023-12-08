@@ -6,11 +6,16 @@
 		"206a3e15"
 	],
 	tasks: [{
-		uid: "654f5972",
+		uid: "8b71437e",
 		type: "item",
 		items: [{
-			item: "galacticraftcore:fuel_canister_partial 1 1"
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fuelgc",
+				Amount: 1000
+			}
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	}]
 }

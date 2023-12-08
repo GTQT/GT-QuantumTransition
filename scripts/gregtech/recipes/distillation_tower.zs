@@ -1,8 +1,8 @@
 import mods.gregtech.recipe.RecipeMap;
 val distillation_tower = mods.gregtech.recipe.RecipeMap.getByName("distillation_tower");
 distillation_tower.recipeBuilder() 
-    .fluidInputs(<liquid:ic2biogas> * 100)
-    .fluidOutputs(<liquid:methane> * 60,<liquid:hydrogen_sulfide>*40)
+    .fluidInputs(<liquid:biogas> * 1000)
+    .fluidOutputs(<liquid:methane> * 700,<liquid:hydrogen_sulfide>*100,<liquid:carbon_dioxide>*200)
     .duration(20)
     .EUt(96)
     .buildAndRegister();

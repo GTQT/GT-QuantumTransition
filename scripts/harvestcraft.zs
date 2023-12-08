@@ -148,7 +148,7 @@ recipes.remove(<cookingforblockheads:cooking_table>);
 recipes.addShaped(<cookingforblockheads:cooking_table>, [[<ore:plateStone>, <ore:plateStone>, <ore:plateStone>],[<ore:plateCrudeSteel>, <cookingforblockheads:recipe_book:2>, <ore:plateCrudeSteel>], [<ore:plateCrudeSteel>, <ore:plateCrudeSteel>, <ore:plateCrudeSteel>]]);
 
 recipes.remove(<cookingforblockheads:fridge>);
-recipes.addShaped(<cookingforblockheads:fridge>, [[<ore:plateDoubleIron>, <ore:plateIron>, <ore:plateDoubleIron>],[<ore:plateIron>, <minecraft:chest>, <ore:plateIron>], [<ore:plateDoubleIron>, <ore:plateIron>, <ore:plateDoubleIron>]]);
+recipes.addShaped(<cookingforblockheads:fridge>, [[<ore:plateCrudeSteel>, <ore:plateIron>, <ore:plateCrudeSteel>],[<ore:plateIron>, <minecraft:chest>, <ore:plateIron>], [<ore:plateCrudeSteel>, <ore:plateIron>, <ore:plateCrudeSteel>]]);
 
 recipes.remove(<cookingforblockheads:toaster>);
 recipes.addShaped(<cookingforblockheads:toaster>, [[<ore:plateStone>, <minecraft:iron_trapdoor>, <ore:plateStone>],[<ore:plateIron>, <ore:springIron>, <ore:plateIron>], [<ore:plateIron>, <minecraft:magma>, <ore:plateIron>]]);

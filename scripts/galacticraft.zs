@@ -220,55 +220,6 @@ furnace.remove(<galacticraftplanets:basic_item_venus:1>);
 furnace.remove(<ore:ingotMeteoricIron>);
 furnace.remove(<ore:ingotDesh>);
 furnace.remove(<ore:ingotTitanium>);
-//oil canister
-recipes.remove(<galacticraftcore:oil_canister_partial:1001>);
-assembler.recipeBuilder()
-    .inputs(<ore:ringSteel> * 4)
-    .inputs(<ore:compressedSteel> * 4)
-    .outputs(<galacticraftcore:oil_canister_partial:1001>)
-    .duration(200)
-    .EUt(64)
-    .buildAndRegister();
-
-canner.recipeBuilder()
-    .inputs(<galacticraftcore:oil_canister_partial:1001>)
-    .fluidInputs([<liquid:oil> * 1000])
-    .outputs(<galacticraftcore:oil_canister_partial:1>)
-    .duration(16)
-    .EUt(1)
-    .buildAndRegister();
-
-canner.recipeBuilder() 
-    .inputs(<galacticraftcore:oil_canister_partial:1001>)
-	.fluidInputs(<liquid:rpmix>*4000)
-    .outputs(<galacticraftcore:fuel_canister_partial:1>)
-    .duration(30)
-    .EUt(16)
-    .buildAndRegister();
-	
-canner.recipeBuilder() 
-    .inputs(<galacticraftcore:oil_canister_partial:1001>)
-	.fluidInputs(<liquid:dense_hydrazine>*2000)
-    .outputs(<galacticraftcore:fuel_canister_partial:1>)
-    .duration(30)
-    .EUt(16)
-    .buildAndRegister();
-	
-canner.recipeBuilder() 
-    .inputs(<galacticraftcore:oil_canister_partial:1001>)
-	.fluidInputs(<liquid:methylhydrazine_nitrate>*1000)
-    .outputs(<galacticraftcore:fuel_canister_partial:1>)
-    .duration(30)
-    .EUt(16)
-    .buildAndRegister();
-	
-canner.recipeBuilder() 
-    .inputs(<galacticraftcore:oil_canister_partial:1001>)
-	.fluidInputs(<liquid:rocket_fuel>*500)
-    .outputs(<galacticraftcore:fuel_canister_partial:1>)
-    .duration(30)
-    .EUt(16)
-    .buildAndRegister();
 
 //steel pole
 recipes.remove(<galacticraftcore:steel_pole>);
@@ -747,11 +698,11 @@ recipes.addShaped(<galacticraftcore:distributor>, [[<ore:compressedAluminum>, <g
 
 //
 recipes.remove(<galacticraftcore:oxygen_compressor:4>);
-recipes.addShaped(<galacticraftcore:oxygen_compressor:4>, [[<ore:compressedAluminum>, <galacticraftcore:oxygen_concentrator>, <ore:compressedAluminum>],[<gregtech:meta_item_1:129>, <galacticraftcore:oil_canister_partial:1001>, <galacticraftcore:air_fan>], [<ore:compressedSteel>, <ore:compressedBronze>, <ore:compressedSteel>]]);
+recipes.addShaped(<galacticraftcore:oxygen_compressor:4>, [[<ore:compressedAluminum>, <galacticraftcore:oxygen_concentrator>, <ore:compressedAluminum>],[<gregtech:meta_item_1:129>, <gregtech:meta_item_1:80>, <galacticraftcore:air_fan>], [<ore:compressedSteel>, <ore:compressedBronze>, <ore:compressedSteel>]]);
 
 //
 recipes.remove(<galacticraftcore:oxygen_compressor>);
-recipes.addShaped(<galacticraftcore:oxygen_compressor>, [[<ore:compressedAluminum>, <galacticraftcore:oxygen_concentrator>, <ore:compressedAluminum>],[<gregtech:meta_item_1:174>, <galacticraftcore:oil_canister_partial:1001>, <gregtech:meta_item_1:129>], [<ore:compressedSteel>, <ore:compressedBronze>, <ore:compressedSteel>]]);
+recipes.addShaped(<galacticraftcore:oxygen_compressor>, [[<ore:compressedAluminum>, <galacticraftcore:oxygen_concentrator>, <ore:compressedAluminum>],[<gregtech:meta_item_1:174>, <gregtech:meta_item_1:80>, <gregtech:meta_item_1:129>], [<ore:compressedSteel>, <ore:compressedBronze>, <ore:compressedSteel>]]);
 
 //oxygen collector
 recipes.remove(<galacticraftcore:collector>);
@@ -893,7 +844,7 @@ recipes.addShaped(<galacticraftplanets:miner_base> * 4, [[<ore:compressedDesh>, 
 
 //
 recipes.remove(<galacticraftplanets:item_basic_mars:6>);
-recipes.addShaped(<galacticraftplanets:item_basic_mars:6>, [[<gregtech:meta_item_1:144>, <ore:pipeQuadrupleFluidSteel>, <gregtech:meta_item_1:144>],[<ore:pipeQuadrupleFluidSteel>, <galacticraftcore:oil_canister_partial:1001>, <ore:pipeQuadrupleFluidSteel>], [<gregtech:meta_item_1:144>, <ore:pipeQuadrupleFluidSteel>, <gregtech:meta_item_1:144>]]);
+recipes.addShaped(<galacticraftplanets:item_basic_mars:6>, [[<gregtech:meta_item_1:144>, <ore:pipeQuadrupleFluidSteel>, <gregtech:meta_item_1:144>],[<ore:pipeQuadrupleFluidSteel>, <gregtech:meta_item_1:80>, <ore:pipeQuadrupleFluidSteel>], [<gregtech:meta_item_1:144>, <ore:pipeQuadrupleFluidSteel>, <gregtech:meta_item_1:144>]]);
 
 //
 recipes.remove(<galacticraftplanets:mars_machine:8>);

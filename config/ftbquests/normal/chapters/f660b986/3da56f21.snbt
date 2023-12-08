@@ -12,12 +12,10 @@
 		uid: "2409acb4",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "light_fuel",
-					Amount: 1000
-				}
+				FluidName: "light_fuel",
+				Amount: 1000
 			}
 		}]
 	}]

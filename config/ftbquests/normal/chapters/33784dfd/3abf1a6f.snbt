@@ -1,6 +1,6 @@
 {
 	x: -6.0d,
-	y: 9.5d,
+	y: 7.0d,
 	dependencies: [
 		"90a1f4ab"
 	],
@@ -16,13 +16,6 @@
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 173"
-		}]
-	},
-	{
-		uid: "0c90567d",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_item_1 1 158"
 		}]
 	}],
 	rewards: [{

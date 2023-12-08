@@ -1,7 +1,7 @@
 {
 	title: "鸡？光？",
-	x: 8.0d,
-	y: 7.0d,
+	x: 13.5d,
+	y: -0.5d,
 	shape: "gear",
 	description: "善用激光，丢掉你愚蠢的导线",
 	text: [

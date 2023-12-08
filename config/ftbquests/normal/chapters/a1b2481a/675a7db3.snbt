@@ -1,23 +1,21 @@
 {
 	title: "硼酸！",
-	x: -15.5d,
+	x: -16.5d,
 	y: -10.0d,
 	text: [
 		""
 	],
 	dependencies: [
-		"e34555f0"
+		"bb25ef71"
 	],
 	tasks: [{
 		uid: "85c6ad49",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "boric_acid",
-					Amount: 1000
-				}
+				FluidName: "boric_acid",
+				Amount: 1000
 			}
 		}]
 	}]

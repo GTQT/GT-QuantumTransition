@@ -12,12 +12,10 @@
 		uid: "758f8e9a",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "trinium",
-					Amount: 1000
-				}
+				FluidName: "trinium",
+				Amount: 1000
 			}
 		}]
 	}]

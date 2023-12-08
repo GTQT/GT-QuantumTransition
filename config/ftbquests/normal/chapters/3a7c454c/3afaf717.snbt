@@ -2,28 +2,21 @@
 	title: "鱼油，种子油",
 	x: 17.5d,
 	y: -6.0d,
-	dependencies: [
-		"0a4cf6a6"
-	],
 	tasks: [{
-		uid: "e5c301a8",
+		uid: "83fc69c5",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "seed.oil",
-					Amount: 1000
-				}
+				FluidName: "fish_oil",
+				Amount: 1000
 			}
 		},
 		{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "fish_oil",
-					Amount: 1000
-				}
+				FluidName: "seed.oil",
+				Amount: 1000
 			}
 		}]
 	}]

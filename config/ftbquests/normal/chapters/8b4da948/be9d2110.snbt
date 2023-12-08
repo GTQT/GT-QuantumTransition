@@ -1,0 +1,31 @@
+{
+	x: 26.0d,
+	y: -10.0d,
+	shape: "gear",
+	description: "我的科技发展到了瓶颈",
+	text: [
+		"扫描解锁科技，从低等级的组件（各种电动组件，IV-ZPM）中提取信息并写入闪存，从而在装配线中制造更高级的物品。",
+		"所有工序需求的电功率均为LV（低压）。"
+	],
+	dependencies: [
+		"4d86c270"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "f3f1da5b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 459"
+		}]
+	}],
+	rewards: [{
+		uid: "4297e955",
+		type: "item",
+		item: "gregtech:meta_item_1 1 261"
+	},
+	{
+		uid: "c659456b",
+		type: "random",
+		table: 4
+	}]
+}

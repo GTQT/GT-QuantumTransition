@@ -9,10 +9,10 @@
 		type: "item",
 		items: [{
 			id: "gregtech:meta_item_1",
+			Damage: 735s,
 			tag: {
 				Charge: 120000L
-			},
-			Damage: 735s
+			}
 		}],
 		ignore_nbt: 1b
 	},
@@ -21,10 +21,10 @@
 		type: "item",
 		items: [{
 			id: "gregtech:meta_item_1",
+			Damage: 738s,
 			tag: {
 				Charge: 100000L
-			},
-			Damage: 738s
+			}
 		}],
 		ignore_nbt: 1b
 	}]

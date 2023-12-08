@@ -1,0 +1,19 @@
+{
+	x: -6.5d,
+	y: -17.0d,
+	dependencies: [
+		"c7e03a79"
+	],
+	tasks: [{
+		uid: "462cdeb6",
+		type: "item",
+		items: [{
+			id: "botania:dice",
+			tag: {
+				soulbindUUID: "27a7323a-1fbb-4c30-8ba0-c5879feb7fce"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

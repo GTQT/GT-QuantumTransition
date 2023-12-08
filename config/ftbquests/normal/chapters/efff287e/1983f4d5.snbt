@@ -9,10 +9,10 @@
 		type: "item",
 		items: [{
 			id: "forestry:chipsets",
+			Damage: 1s,
 			tag: {
 				T: 1s
-			},
-			Damage: 1s
+			}
 		}]
 	}]
 }

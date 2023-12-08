@@ -63,10 +63,10 @@
 	{
 		item: {
 			id: "gregtech:meta_item_1",
+			Damage: 731s,
 			tag: {
 				Charge: 1000L
-			},
-			Damage: 731s
+			}
 		}
 	},
 	{
@@ -97,34 +97,34 @@
 	{
 		item: {
 			id: "gregtech:meta_item_1",
+			Damage: 90s,
 			tag: {
 				usesLeft: 16
-			},
-			Damage: 90s
+			}
 		}
 	},
 	{
 		item: {
 			id: "gregtech:meta_item_1",
+			Damage: 92s,
 			tag: {
 				Fluid: {
 					FluidName: "butane",
 					Amount: 1000
 				}
-			},
-			Damage: 92s
+			}
 		}
 	},
 	{
 		item: {
 			id: "gregtech:meta_item_1",
+			Damage: 91s,
 			tag: {
 				Fluid: {
 					FluidName: "butane",
 					Amount: 100
 				}
-			},
-			Damage: 91s
+			}
 		}
 	},
 	{
@@ -135,21 +135,6 @@
 	},
 	{
 		item: "lootgames:puzzle_master"
-	},
-	{
-		item: "fluidtank:blocktank3"
-	},
-	{
-		item: "fluidtank:blocktank2 1 2"
-	},
-	{
-		item: "fluidtank:blocktank2 1 1"
-	},
-	{
-		item: "fluidtank:blocktank2"
-	},
-	{
-		item: "fluidtank:blocktank1"
 	},
 	{
 		item: "fluiddrawers:tank",

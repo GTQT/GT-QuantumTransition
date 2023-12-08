@@ -11,7 +11,8 @@
 					FluidName: "fluorine",
 					Amount: 1000
 				}
-			}
+			},
+			Count: 1b
 		}]
 	}]
 }

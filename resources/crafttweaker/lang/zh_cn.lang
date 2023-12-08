@@ -1,9 +1,9 @@
 ## 事件提示
 events_loggedin_1=欢迎游玩 GregTech:QuantumTransition,
-events_loggedin_2=GTQT 官方交流群:
-events_loggedin_3=GTQT 的 Github 页面:
-events_loggedin_4=GTQT 的 MCBBS 页面:
-events_loggedin_5=GTQT 的 MCMOD 页面:
+events_loggedin_2=官方交流群:
+events_loggedin_3=Github 页面:
+events_loggedin_4=MCBBS 页面:
+events_loggedin_5=MCmod 页面:
 events_loggedin_6=§1073091808
 events_wakeup_1=§6又一个美好的早晨呢§f
 events_respawn_1=§c死亡提示:

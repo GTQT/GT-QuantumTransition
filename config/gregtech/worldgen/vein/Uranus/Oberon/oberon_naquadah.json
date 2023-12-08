@@ -28,7 +28,7 @@
           "between": "ore:naquadah"
         },
         {
-          "sporadic": "ore:naquadah_enriched"
+          "sporadic": "ore:naquadah"
         }
       ]
     }

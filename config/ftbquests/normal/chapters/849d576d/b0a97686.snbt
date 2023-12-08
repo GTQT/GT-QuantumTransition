@@ -31,7 +31,7 @@
 		items: [{
 			item: "gregtech:cable_single 1 2517"
 		}],
-		count: 16L
+		count: 4L
 	},
 	{
 		uid: "43a16d6a",

@@ -1,0 +1,71 @@
+{
+	x: 12.0d,
+	y: 4.0d,
+	dependencies: [
+		"dda47102"
+	],
+	tasks: [{
+		uid: "72580862",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconic_helm",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ef1ff702",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconic_chest",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1983593b",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconic_legs",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fbbe84f4",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconic_boots",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "58d6a6a5",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconic_staff_of_power",
+			ForgeCaps: {
+				Parent: {
+					Items: [],
+					Size: 27
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5257d172",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

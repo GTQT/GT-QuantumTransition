@@ -24,12 +24,10 @@
 		uid: "e1278632",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "fermented_biomass",
-					Amount: 1000
-				}
+				FluidName: "fermented_biomass",
+				Amount: 1000
 			}
 		}]
 	}]

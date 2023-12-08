@@ -1,5 +1,5 @@
 {
-	title: "六氯合铂酸铵以及六氯合铂酸钯",
+	title: "纯村的一坨铂族金属",
 	x: -13.5d,
 	y: -12.0d,
 	text: [
@@ -12,25 +12,10 @@
 		uid: "033e1a25",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "ammonium_hexachloroplatinate",
-					Amount: 1000
-				}
-			}
-		}]
-	},
-	{
-		uid: "68bc7bb4",
-		type: "item",
-		items: [{
-			id: "ic2:fluid_cell",
-			tag: {
-				Fluid: {
-					FluidName: "ammonium_hexachloropalladate",
-					Amount: 1000
-				}
+				FluidName: "purified_platinum_group_concentrate",
+				Amount: 1000
 			}
 		}]
 	}]

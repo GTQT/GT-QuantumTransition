@@ -8,7 +8,7 @@
 		uid: "9dafdf2f",
 		type: "item",
 		items: [{
-			item: "ic2:crafting 1 5"
+			item: "forestry:fabricator"
 		}]
 	}]
 }

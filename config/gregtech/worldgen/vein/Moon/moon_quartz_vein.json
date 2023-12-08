@@ -22,13 +22,13 @@
     "type": "layered",
     "values": [
       {
-        "primary": "ore:wulfenite"
+        "primary": "ore:certus_quarz"
       },
       {
-        "secondary": "ore:molybdenite"
+        "secondary": "ore:certus_quarz"
       },
       {
-        "between": "ore:molybdenite"
+        "between": "ore:certus_quarz"
       },
       {
         "sporadic": "ore:powellite"

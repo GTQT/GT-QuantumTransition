@@ -1,6 +1,6 @@
 {
 	x: 17.0d,
-	y: -1.0d,
+	y: -3.0d,
 	dependencies: [
 		"00129c64"
 	],
@@ -9,10 +9,10 @@
 		type: "item",
 		items: [{
 			id: "gregtech:gt_armor",
+			Damage: 42s,
 			tag: {
 				Charge: 100000000L
-			},
-			Damage: 42s
+			}
 		}],
 		ignore_nbt: 1b
 	}]

@@ -1,7 +1,7 @@
 {
 	title: "东西太多了",
 	icon: "forestry:apiarist_bag",
-	x: 10.5d,
+	x: 3.0d,
 	y: 2.5d,
 	tasks: [{
 		uid: "bc9cfce9",

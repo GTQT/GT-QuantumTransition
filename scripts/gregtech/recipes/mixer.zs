@@ -3,14 +3,14 @@ val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
 mixer.recipeBuilder() 
     .inputs(<gregtech:meta_dust:2007> * 9)
     .fluidInputs(<liquid:distilled_water> * 1000)
-    .fluidOutputs(<liquid:ic2coolant> * 1000)
+    .fluidOutputs(<liquid:coolant> * 1000)
     .duration(100)
     .EUt(16)
     .buildAndRegister();
 	
 mixer.recipeBuilder() 
-    .inputs(<minecraft:redstone> * 1,<minecraft:quartz> * 1,<appliedenergistics2:material:1> * 1)
-    .outputs(<appliedenergistics2:material:7> * 1)
+    .inputs(<ore:dustNetherQuartz>* 4,<gregtech:meta_dust:277> * 1,<appliedenergistics2:material:1> * 3)
+    .outputs(<appliedenergistics2:material:7> * 8)
     .duration(100)
     .EUt(32)
     .buildAndRegister();
@@ -22,19 +22,19 @@ mixer.recipeBuilder()
     .EUt(32)
     .buildAndRegister();
 	
-mixer.recipeBuilder() 
-    .inputs(<gregtech:meta_dust:116> * 1,<gregtech:meta_dust:117> * 3)
-    .outputs(<ic2:nuclear> * 1)
-    .duration(100)
-    .EUt(32)
-    .buildAndRegister();
+//mixer.recipeBuilder() 
+//    .inputs(<gregtech:meta_dust:116> * 1,<gregtech:meta_dust:117> * 3)
+//   .outputs(<ic2:nuclear> * 1)
+//   .duration(100)
+//    .EUt(32)
+//    .buildAndRegister();
 	
-mixer.recipeBuilder() 
-    .inputs(<gregtech:meta_dust:82> * 3,<gregtech:meta_dust:117> * 1)
-    .outputs(<ic2:nuclear:3> * 1)
-    .duration(100)
-    .EUt(32)
-    .buildAndRegister();
+//mixer.recipeBuilder() 
+//    .inputs(<gregtech:meta_dust:82> * 3,<gregtech:meta_dust:117> * 1)
+//    .outputs(<ic2:nuclear:3> * 1)
+//    .duration(100)
+//    .EUt(32)
+//    .buildAndRegister();
 	
 mixer.recipeBuilder() 
     .fluidInputs(<liquid:liquid_oxygen> * 1000)
@@ -145,5 +145,54 @@ mixer.recipeBuilder()
     .inputs(<gregtech:meta_dust:324>*4,<gregtech:meta_dust:122>) 
 	.outputs(<gregtech:meta_dust:32046>*5)
     .duration(120)
+    .EUt(16)
+    .buildAndRegister();
+	
+mixer.recipeBuilder() 
+    .inputs(<gregtech:meta_dust:341>,<gregtech:meta_dust:99>) 
+	.outputs(<gregtech:meta_dust:3621>*2)
+    .duration(120)
+	.circuit(10)
+    .EUt(16)
+    .buildAndRegister();
+	
+mixer.recipeBuilder() 
+    .inputs(<appliedenergistics2:material:8>*16,<gregtech:meta_dust:3558>) 
+	.outputs(<appliedenergistics2:crystal_seed:1200>.withTag({progress: 1200})*16)
+    .duration(120)
+	.circuit(11)
+    .EUt(16)
+    .buildAndRegister();
+	
+mixer.recipeBuilder() 
+    .inputs(<gregtech:meta_dust:214>*16,<gregtech:meta_dust:3558>) 
+	.outputs(<appliedenergistics2:crystal_seed>.withTag({progress: 0})*16)
+    .duration(120)
+	.circuit(11)
+    .EUt(16)
+    .buildAndRegister();
+	
+mixer.recipeBuilder() 
+    .notConsumable(<gregtech:meta_item_1:210>)
+    .fluidInputs(<liquid:edot>*576,<liquid:polystyrene_sulfonate>*1000)
+	.fluidOutputs(<liquid:pedot_pss>*576)
+    .duration(1200)
+    .EUt(1966080)
+    .buildAndRegister();
+	
+mixer.recipeBuilder() 
+    .notConsumable(<gregtech:meta_item_1:209>)
+    .fluidInputs(<liquid:edot>*576,<liquid:polystyrene_sulfonate>*1000)
+	.fluidOutputs(<liquid:pedot_pss>*144)
+    .duration(1200)
+    .EUt(1966080)
+    .buildAndRegister();
+	
+mixer.recipeBuilder() 
+    .inputs(<gregtech:meta_dust:32354>) 
+	.fluidInputs(<liquid:water>*1000)
+	.fluidOutputs(<liquid:chunjingchulixitu>*1000)
+    .duration(120)
+	.circuit(11)
     .EUt(16)
     .buildAndRegister();

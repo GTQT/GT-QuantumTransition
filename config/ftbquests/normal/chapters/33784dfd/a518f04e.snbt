@@ -1,6 +1,6 @@
 {
-	x: -7.0d,
-	y: 10.5d,
+	x: -12.0d,
+	y: 7.0d,
 	shape: "gear",
 	text: [
 		"压膜机十分强大，只需要提供模具以及金属锭便可以加工一步到位。",
@@ -14,6 +14,7 @@
 	dependencies: [
 		"3abf1a6f"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "d1bad32c",
 		type: "item",

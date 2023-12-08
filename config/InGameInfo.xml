@@ -11,6 +11,16 @@
 
             </str>
         </line>
+		<line>
+            <str>
+
+            </str>
+        </line>
+		<line>
+            <str>
+
+            </str>
+        </line>
         <line>
             <operation>
                 <str>GT</str>
@@ -174,39 +184,7 @@
             <str>{white}K</str>
             <str> {gold}{humidity}{white}% 湿度</str>
         </line>
-        <line>
-            <icon>
-                <str>thaumcraft:crystal_aer</str>
-            </icon>
-            <str> 神秘时代： </str>
-            <str>§b灵气§r§0：§b</str>
-            <round>
-                <num>{thaumaura}</num>
-                <num>0</num>
-            </round>
-            <str> §6|§r </str>
-            <str>§5腐化§r§0：§d</str>
-            <round>
-                <num>{thaumflux}</num>
-                <num>0</num>
-            </round>
-            <str>§5正常扭曲§r§0：§d</str>
-            <round>
-                <num>{thaumwarpnormal}</num>
-                <num>0</num>
-            </round>
-            <str>§5永久扭曲§r§0：§d</str>
-            <round>
-                <num>{thaumwarpperm}</num>
-                <num>0</num>
-            </round>
-            <str>§5临时扭曲§r§0：§d</str>
-            <round>
-                <num>{thaumwarptemp}</num>
-                <num>0</num>
-            </round>
-        </line>
-        <line>
+		<line>
             <icon>
                 <str>bloodarsenal:glass_dagger_of_sacrifice</str>
             </icon>
@@ -1006,6 +984,38 @@
             <str>$f</str>
             <str>$f </str>
         </line>
+		<line>
+            <icon>
+                <str>thaumcraft:crystal_aer</str>
+            </icon>
+            <str> 神秘时代： </str>
+            <str>§b灵气§r§0：§b</str>
+            <round>
+                <num>{thaumaura}</num>
+                <num>0</num>
+            </round>
+            <str> §6|§r </str>
+            <str>§5腐化§r§0：§d</str>
+            <round>
+                <num>{thaumflux}</num>
+                <num>0</num>
+            </round>
+            <str>§5正常扭曲§r§0：§d</str>
+            <round>
+                <num>{thaumwarpnormal}</num>
+                <num>0</num>
+            </round>
+            <str>§5永久扭曲§r§0：§d</str>
+            <round>
+                <num>{thaumwarpperm}</num>
+                <num>0</num>
+            </round>
+            <str>§5临时扭曲§r§0：§d</str>
+            <round>
+                <num>{thaumwarptemp}</num>
+                <num>0</num>
+            </round>
+        </line>
         <line>
             <if>
                 <and>
@@ -1146,5 +1156,5 @@
                 </concat>
             </if>
         </line>
-    </lines>
+	</lines>
 </config>

@@ -43,7 +43,7 @@ Builder.start("PCB_factory", 32005)
       )
 .aisle (
         "AAAAA",
-        "AD DC",
+        "AD DA",
         "AD DA",
         "AD DA",
         "AAAAA",
@@ -143,7 +143,7 @@ Builder.start("PCB_factory", 32005)
       )
 .aisle (
         "AAAAA",
-        "AAAAA",
+        "CAAAA",
         "AAAAA",
         "AAAAA",
         "AAAAA",
@@ -187,7 +187,7 @@ PCB_factory.recipeBuilder()
     .EUt(512)  
     .fluidInputs(<liquid:polyvinyl_chloride>*1440,<liquid:iron_iii_chloride>*2500) 
 	.inputs(<gregtech:meta_foil:25>*40)
-    .outputs(<gregtech:meta_item_1:403>*10) 
+    .outputs(<gregtech:meta_item_1:403>*12) 
 	.circuit(1)
     .buildAndRegister(); 
 	
@@ -196,7 +196,7 @@ PCB_factory.recipeBuilder()
     .EUt(512)  
     .fluidInputs(<liquid:polyvinyl_chloride>*1440,<liquid:sodium_persulfate>*5000) 
 	.inputs(<gregtech:meta_foil:25>*40)
-    .outputs(<gregtech:meta_item_1:403>*10) 
+    .outputs(<gregtech:meta_item_1:403>*12) 
 	.circuit(1)
     .buildAndRegister(); 
 	
@@ -205,7 +205,7 @@ PCB_factory.recipeBuilder()
     .EUt(960)  
     .fluidInputs(<liquid:epoxy>*1440,<liquid:iron_iii_chloride>*2500) 
 	.inputs(<gregtech:meta_foil:277>*160)
-    .outputs(<gregtech:meta_item_1:404>*10) 
+    .outputs(<gregtech:meta_item_1:404>*12) 
 	.circuit(1)
     .buildAndRegister(); 
 	
@@ -214,7 +214,7 @@ PCB_factory.recipeBuilder()
     .EUt(960)  
     .fluidInputs(<liquid:epoxy>*1440,<liquid:sodium_persulfate>*5000) 
 	.inputs(<gregtech:meta_foil:277>*160)
-    .outputs(<gregtech:meta_item_1:404>*10) 
+    .outputs(<gregtech:meta_item_1:404>*12) 
 	.circuit(1)
     .buildAndRegister(); 
 	
@@ -223,7 +223,7 @@ PCB_factory.recipeBuilder()
     .EUt(1920)  
     .fluidInputs(<liquid:epoxy>*1440,<liquid:borosilicate_glass>*1440,<liquid:iron_iii_chloride>*2500) 
 	.inputs(<gregtech:meta_foil:252>*200)
-    .outputs(<gregtech:meta_item_1:405>*10) 
+    .outputs(<gregtech:meta_item_1:405>*12) 
 	.circuit(2)
     .buildAndRegister(); 
 	
@@ -232,7 +232,7 @@ PCB_factory.recipeBuilder()
     .EUt(1920)  
     .fluidInputs(<liquid:epoxy>*1440,<liquid:borosilicate_glass>*1440,<liquid:sodium_persulfate>*5000) 
 	.inputs(<gregtech:meta_foil:252>*200)
-    .outputs(<gregtech:meta_item_1:405>*10) 
+    .outputs(<gregtech:meta_item_1:405>*12) 
 	.circuit(2)
     .buildAndRegister(); 
 	
@@ -241,7 +241,7 @@ PCB_factory.recipeBuilder()
     .EUt(3840)  
     .fluidInputs(<liquid:epoxy>*1440,<liquid:borosilicate_glass>*1440,<liquid:iron_iii_chloride>*2500) 
 	.inputs(<gregtech:meta_foil:80>*160)
-    .outputs(<gregtech:meta_item_1:406>*10) 
+    .outputs(<gregtech:meta_item_1:406>*12) 
 	.circuit(2)
     .buildAndRegister(); 
 	
@@ -250,7 +250,7 @@ PCB_factory.recipeBuilder()
     .EUt(3840)  
     .fluidInputs(<liquid:epoxy>*1440,<liquid:borosilicate_glass>*1440,<liquid:sodium_persulfate>*5000) 
 	.inputs(<gregtech:meta_foil:80>*160)
-    .outputs(<gregtech:meta_item_1:406>*10) 
+    .outputs(<gregtech:meta_item_1:406>*12) 
 	.circuit(2)
     .buildAndRegister(); 
 	
@@ -259,7 +259,7 @@ PCB_factory.recipeBuilder()
     .EUt(1920)  
     .fluidInputs(<liquid:epoxy>*1440,<liquid:carbon>*1440,<liquid:iron_iii_chloride>*2500) 
 	.inputs(<gregtech:meta_foil:252>*200)
-    .outputs(<gregtech:meta_item_1:405>*10) 
+    .outputs(<gregtech:meta_item_1:405>*12) 
 	.circuit(2)
     .buildAndRegister(); 
 	
@@ -268,7 +268,7 @@ PCB_factory.recipeBuilder()
     .EUt(1920)  
     .fluidInputs(<liquid:epoxy>*1440,<liquid:carbon>*1440,<liquid:sodium_persulfate>*5000) 
 	.inputs(<gregtech:meta_foil:252>*200)
-    .outputs(<gregtech:meta_item_1:405>*10) 
+    .outputs(<gregtech:meta_item_1:405>*12) 
 	.circuit(2)
     .buildAndRegister(); 
 	
@@ -277,7 +277,7 @@ PCB_factory.recipeBuilder()
     .EUt(3840)  
     .fluidInputs(<liquid:epoxy>*1440,<liquid:carbon>*1440,<liquid:iron_iii_chloride>*2500) 
 	.inputs(<gregtech:meta_foil:80>*160)
-    .outputs(<gregtech:meta_item_1:406>*10) 
+    .outputs(<gregtech:meta_item_1:406>*12) 
 	.circuit(2)
     .buildAndRegister(); 
 	
@@ -286,6 +286,6 @@ PCB_factory.recipeBuilder()
     .EUt(3840)  
     .fluidInputs(<liquid:epoxy>*1440,<liquid:carbon>*1440,<liquid:sodium_persulfate>*5000) 
 	.inputs(<gregtech:meta_foil:80>*160)
-    .outputs(<gregtech:meta_item_1:406>*10) 
+    .outputs(<gregtech:meta_item_1:406>*12) 
 	.circuit(2)
     .buildAndRegister(); 

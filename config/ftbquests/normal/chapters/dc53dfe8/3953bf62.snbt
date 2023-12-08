@@ -14,16 +14,16 @@
 		uid: "935dc96c",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "oreNetherrackCobalt",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreNetherrackCobalt"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreNetherrackCobalt"
 				}
 			}
 		},

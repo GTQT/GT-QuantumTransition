@@ -13,25 +13,10 @@
 		uid: "a4d25fa2",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "ethylene",
-					Amount: 1000
-				}
-			}
-		}]
-	},
-	{
-		uid: "1878921b",
-		type: "item",
-		items: [{
-			id: "ic2:fluid_cell",
-			tag: {
-				Fluid: {
-					FluidName: "oxygen",
-					Amount: 1000
-				}
+				FluidName: "ethylene",
+				Amount: 1000
 			}
 		}]
 	}],

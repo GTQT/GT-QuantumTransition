@@ -13,12 +13,10 @@
 		uid: "6829a967",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "lubricant",
-					Amount: 1000
-				}
+				FluidName: "lubricant",
+				Amount: 1000
 			}
 		}]
 	}]

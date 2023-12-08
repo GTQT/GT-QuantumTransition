@@ -1,0 +1,16 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "CTM",
+    "layer": "BLOOM",
+    "gregtech": true,
+    "textures": [
+      "contenttweaker:blocks/stella_anvil_module_bloom-ctm"
+    ],
+    "extra": {
+      "connect_to": [
+        { "block": "contenttweaker:stella_anvil_module" }
+      ]
+    }
+  }
+}

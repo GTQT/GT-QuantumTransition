@@ -10,5 +10,10 @@
 		items: [{
 			item: "gregtech:machine 1 1240"
 		}]
+	}],
+	rewards: [{
+		uid: "f9b1c363",
+		type: "random",
+		table: 4
 	}]
 }

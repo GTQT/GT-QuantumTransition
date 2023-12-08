@@ -1,5 +1,5 @@
 {
-	title: "钻石工具（只一次）",
+	title: "神奇的妙妙工具",
 	icon: {
 		id: "gregtech:hammer",
 		tag: {
@@ -22,9 +22,6 @@
 	description: "免费的工具要不要",
 	text: [
 		"只能买一次"
-	],
-	dependencies: [
-		"c9f41a6f"
 	],
 	tasks: [{
 		uid: "91d8ed29",
@@ -155,6 +152,25 @@
 					HarvestLevel: 3,
 					AttackSpeed: -2.3000002f
 				}
+			}
+		}
+	},
+	{
+		uid: "49afc272",
+		type: "item",
+		item: {
+			id: "gregtech:mortar",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:cobalt_brass",
+					MaxDurability: 1023,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -2.6000001f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
 			}
 		}
 	}]

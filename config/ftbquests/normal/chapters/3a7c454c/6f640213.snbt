@@ -6,20 +6,16 @@
 		"当然你也可以使用盐酸与甘油反应制得"
 	],
 	dependencies: [
-		"27b120e0",
-		"a8909745",
-		"65fa03b0"
+		"a8909745"
 	],
 	tasks: [{
 		uid: "837217eb",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "epichlorohydrin",
-					Amount: 1000
-				}
+				FluidName: "epichlorohydrin",
+				Amount: 1000
 			}
 		}]
 	}]

@@ -2,7 +2,7 @@ import mods.gregtech.recipe.RecipeMap;
 val autoclave = mods.gregtech.recipe.RecipeMap.getByName("autoclave");
 autoclave.recipeBuilder() 
     .inputs(<gregtech:meta_gem:214> * 1)
-	.fluidInputs(<liquid:distilled_water> * 36)
+	.fluidInputs(<liquid:boron_nitride_solution> * 36)
     .outputs(<appliedenergistics2:material:10> * 1)
     .duration(100)
     .EUt(128)
@@ -26,7 +26,7 @@ autoclave.recipeBuilder()
 	
 autoclave.recipeBuilder() 
     .inputs(<appliedenergistics2:material:7> * 1)
-	.fluidInputs(<liquid:distilled_water> * 36)
+	.fluidInputs(<liquid:boron_nitride_solution> * 36)
     .outputs(<appliedenergistics2:material:12> * 1)
     .duration(100)
     .EUt(128)
@@ -80,6 +80,20 @@ autoclave.recipeBuilder()
 autoclave.recipeBuilder() 
 	.fluidInputs(<liquid:sodium_potassium> * 1000)
     .fluidOutputs(<liquid:nak>*1000)
+    .duration(100)
+    .EUt(128)
+    .buildAndRegister();
+
+autoclave.recipeBuilder() 
+	.fluidInputs(<liquid:fuhuashanjingfen> * 1000)
+    .outputs(<gregtech:meta_dust:32337>)
+    .duration(100)
+    .EUt(128)
+    .buildAndRegister();
+	
+autoclave.recipeBuilder() 
+	.fluidInputs(<liquid:xituhuahewu> * 1000)
+    .outputs(<gregtech:meta_dust:32362>)
     .duration(100)
     .EUt(128)
     .buildAndRegister();

@@ -12,12 +12,10 @@
 		uid: "403faa0f",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "nitro_fuel",
-					Amount: 1000
-				}
+				FluidName: "nitro_fuel",
+				Amount: 1000
 			}
 		}]
 	}],

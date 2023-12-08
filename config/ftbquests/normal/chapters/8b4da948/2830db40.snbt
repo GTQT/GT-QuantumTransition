@@ -13,12 +13,10 @@
 		uid: "62964d26",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "polybenzimidazole",
-					Amount: 1000
-				}
+				FluidName: "polybenzimidazole",
+				Amount: 1000
 			}
 		}]
 	}]

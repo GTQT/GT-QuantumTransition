@@ -6,11 +6,14 @@
 	text: [
 		""
 	],
+	dependencies: [
+		"1ea63041"
+	],
 	tasks: [{
 		uid: "105e8f4b",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 32019"
+			item: "gregtech:machine 1 3019"
 		}]
 	}],
 	rewards: [{

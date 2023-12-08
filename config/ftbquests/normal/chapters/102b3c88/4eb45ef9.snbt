@@ -1,0 +1,14 @@
+{
+	x: -10.0d,
+	y: -17.0d,
+	dependencies: [
+		"78db5d45"
+	],
+	tasks: [{
+		uid: "16d73aaf",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 3"
+		}]
+	}]
+}

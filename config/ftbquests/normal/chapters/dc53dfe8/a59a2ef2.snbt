@@ -14,16 +14,16 @@
 		uid: "43e22a36",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "oreRockSalt",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreRockSalt"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreRockSalt"
 				}
 			}
 		}],

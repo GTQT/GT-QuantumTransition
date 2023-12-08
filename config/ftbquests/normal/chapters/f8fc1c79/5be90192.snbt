@@ -5,12 +5,10 @@
 		uid: "894fb424",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "truxene",
-					Amount: 1000
-				}
+				FluidName: "truxene",
+				Amount: 1000
 			}
 		}]
 	}]

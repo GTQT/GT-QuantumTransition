@@ -1,11 +1,11 @@
 {
-	x: -12.5d,
-	y: 11.5d,
+	x: -4.0d,
+	y: 16.0d,
 	text: [
 		"如果你想，可以在HV阶段给自己做一套纳米套。"
 	],
 	dependencies: [
-		"bd84258a"
+		"b92c89a9"
 	],
 	tasks: [{
 		uid: "dfdf190d",

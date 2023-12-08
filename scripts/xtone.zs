@@ -1,6 +1,4 @@
 import crafttweaker.item.IItemStack;
-#Script by Emperdog
-
 val types = [
 	"agon",
 	"azur",

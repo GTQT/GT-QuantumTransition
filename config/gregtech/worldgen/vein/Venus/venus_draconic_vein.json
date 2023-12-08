@@ -21,7 +21,7 @@
     "type": "layered",
     "values": [
       {
-        "primary": "ore:draconium"
+        "primary": "ore:dragon_essence"
       },
       {
         "secondary": "ore:amethyst"

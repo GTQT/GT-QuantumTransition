@@ -13,16 +13,16 @@
 		uid: "264f63d8",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "oreNetherrackNetherQuartz",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreNetherrackNetherQuartz"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreNetherrackNetherQuartz"
 				}
 			}
 		}]
@@ -31,16 +31,16 @@
 		uid: "c53f6c7a",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "oreNetherrackCertusQuartz",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreNetherrackCertusQuartz"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreNetherrackCertusQuartz"
 				}
 			}
 		}]

@@ -8,23 +8,23 @@
 		"（不用找陨石，这游戏没有陨石）"
 	],
 	dependencies: [
-		"1e1e6c4e"
+		"547370be"
 	],
 	size: 2.0d,
 	tasks: [{
 		uid: "25797567",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "circuitEv",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any circuitEv"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "circuitEv"
 				}
 			}
 		}]

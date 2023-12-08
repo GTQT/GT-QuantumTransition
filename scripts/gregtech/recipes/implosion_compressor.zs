@@ -17,23 +17,31 @@ implosion_compressor.recipeBuilder()
     .buildAndRegister();
 	
 implosion_compressor.recipeBuilder()
-    .inputs(<gregtech:meta_plate_double:3592>*4)
+    .inputs(<gregtech:meta_plate:342>*9)
     .property("explosives", <minecraft:tnt> * 4)
-    .outputs(<extraplanets:tier4_items:4>,<gregtech:meta_dust_small:275>)
-    .duration(20)
-    .EUt(120)
-    .buildAndRegister();
-
-implosion_compressor.recipeBuilder()
-    .inputs(<gregtech:meta_plate_double:3592>*4)
-    .property("explosives", <gregtech:meta_item_1:460> * 2)
     .outputs(<extraplanets:tier4_items:4>,<gregtech:meta_dust_small:275>)
     .duration(20)
     .EUt(120)
     .buildAndRegister();
 	
 implosion_compressor.recipeBuilder()
-    .inputs(<gregtech:meta_plate_double:77>*4)
+    .inputs(<gregtech:meta_plate:276>*64)
+    .property("explosives", <gregtech:meta_item_1:460>*16)
+    .outputs(<avaritia:resource>*4)
+    .duration(20)
+    .EUt(245760)
+    .buildAndRegister();
+	
+implosion_compressor.recipeBuilder()
+    .inputs(<gregtech:meta_plate:342>*9)
+    .property("explosives", <gregtech:meta_item_1:460>*2)
+    .outputs(<extraplanets:tier4_items:4>,<gregtech:meta_dust_small:275>)
+    .duration(20)
+    .EUt(120)
+    .buildAndRegister();
+	
+implosion_compressor.recipeBuilder()
+    .inputs(<gregtech:meta_plate:77>*9)
     .property("explosives", <minecraft:tnt> * 4)
     .outputs(<extraplanets:tier5_items:4>,<gregtech:meta_dust_small:275>)
     .duration(20)
@@ -41,7 +49,7 @@ implosion_compressor.recipeBuilder()
     .buildAndRegister();
 
 implosion_compressor.recipeBuilder()
-    .inputs(<gregtech:meta_plate_double:77>*4)
+    .inputs(<gregtech:meta_plate:77>*9)
     .property("explosives", <gregtech:meta_item_1:460> * 2)
     .outputs(<extraplanets:tier5_items:4>,<gregtech:meta_dust_small:275>)
     .duration(20)
@@ -49,7 +57,7 @@ implosion_compressor.recipeBuilder()
     .buildAndRegister();
 	
 implosion_compressor.recipeBuilder()
-    .inputs(<gregtech:meta_plate_double:69>*4)
+    .inputs(<gregtech:meta_plate:69>*9)
     .property("explosives", <minecraft:tnt> * 4)
     .outputs(<extraplanets:tier5_items:6>,<gregtech:meta_dust_small:275>)
     .duration(20)
@@ -57,7 +65,7 @@ implosion_compressor.recipeBuilder()
     .buildAndRegister();
 
 implosion_compressor.recipeBuilder()
-    .inputs(<gregtech:meta_plate_double:69>*4)
+    .inputs(<gregtech:meta_plate:69>*9)
     .property("explosives", <gregtech:meta_item_1:460> * 2)
     .outputs(<extraplanets:tier5_items:6>,<gregtech:meta_dust_small:275>)
     .duration(20)
@@ -65,7 +73,7 @@ implosion_compressor.recipeBuilder()
     .buildAndRegister();
 	
 implosion_compressor.recipeBuilder()
-    .inputs(<gregtech:meta_plate_double:290>*4)
+    .inputs(<gregtech:meta_plate:290>*9)
     .property("explosives", <minecraft:tnt> * 4)
     .outputs(<extraplanets:tier6_items:4>,<gregtech:meta_dust_small:275>)
     .duration(20)
@@ -73,7 +81,7 @@ implosion_compressor.recipeBuilder()
     .buildAndRegister();
 
 implosion_compressor.recipeBuilder()
-    .inputs(<gregtech:meta_plate_double:290>*4)
+    .inputs(<gregtech:meta_plate:290>*9)
     .property("explosives", <gregtech:meta_item_1:460> * 2)
     .outputs(<extraplanets:tier6_items:4>,<gregtech:meta_dust_small:275>)
     .duration(20)
@@ -113,7 +121,7 @@ implosion_compressor.recipeBuilder()
     .buildAndRegister();
 	
 implosion_compressor.recipeBuilder()
-    .inputs(<gregtech:meta_plate_double:2013>*4)
+    .inputs(<gregtech:meta_plate:2013>*9)
     .property("explosives", <minecraft:tnt> * 4)
     .outputs(<extraplanets:tier9_items:4>,<gregtech:meta_dust_small:275>)
     .duration(20)
@@ -121,7 +129,7 @@ implosion_compressor.recipeBuilder()
     .buildAndRegister();
 
 implosion_compressor.recipeBuilder()
-    .inputs(<gregtech:meta_plate_double:2013>*4)
+    .inputs(<gregtech:meta_plate:2013>*9)
     .property("explosives", <gregtech:meta_item_1:460> * 2)
     .outputs(<extraplanets:tier9_items:4>,<gregtech:meta_dust_small:275>)
     .duration(20)
@@ -145,7 +153,7 @@ implosion_compressor.recipeBuilder()
     .buildAndRegister();
 	
 implosion_compressor.recipeBuilder()
-    .inputs(<gregtech:meta_plate_double:32015>*4)
+    .inputs(<gregtech:meta_plate:32015>*9)
     .property("explosives", <minecraft:tnt> * 4)
     .outputs(<extraplanets:tier10_items:4>,<gregtech:meta_dust_small:275>)
     .duration(20)
@@ -153,7 +161,7 @@ implosion_compressor.recipeBuilder()
     .buildAndRegister();
 
 implosion_compressor.recipeBuilder()
-    .inputs(<gregtech:meta_plate_double:32015>*4)
+    .inputs(<gregtech:meta_plate:32015>*9)
     .property("explosives", <gregtech:meta_item_1:460> * 2)
     .outputs(<extraplanets:tier10_items:4>,<gregtech:meta_dust_small:275>)
     .duration(20)
@@ -161,7 +169,7 @@ implosion_compressor.recipeBuilder()
     .buildAndRegister();
 	
 implosion_compressor.recipeBuilder()
-    .inputs(<gregtech:meta_plate_double:80>*4)
+    .inputs(<gregtech:meta_plate:80>*9)
     .property("explosives", <minecraft:tnt> * 4)
     .outputs(<extraplanets:tier11_items:6>,<gregtech:meta_dust_small:275>)
     .duration(20)
@@ -169,7 +177,7 @@ implosion_compressor.recipeBuilder()
     .buildAndRegister();
 
 implosion_compressor.recipeBuilder()
-    .inputs(<gregtech:meta_plate_double:80>*4)
+    .inputs(<gregtech:meta_plate:80>*9)
     .property("explosives", <gregtech:meta_item_1:460> * 2)
     .outputs(<extraplanets:tier11_items:6>,<gregtech:meta_dust_small:275>)
     .duration(20)
@@ -213,7 +221,7 @@ implosion_compressor.recipeBuilder()
 implosion_compressor.recipeBuilder()
     .inputs(<avaritia:resource:3>*9)
     .property("explosives", <minecraft:tnt> * 64)
-    .outputs(<avaritia:resource:4>)
+    .outputs(<gregtech:meta_ingot:32164>)
     .duration(1)
     .EUt(122880)
     .buildAndRegister();
@@ -225,3 +233,20 @@ implosion_compressor.recipeBuilder()
     .duration(1)
     .EUt(122880)
     .buildAndRegister();
+
+implosion_compressor.recipeBuilder()
+    .inputs(<gregtech:meta_dust:1602>*16)
+    .property("explosives", <minecraft:tnt>*64)
+    .outputs(<minecraft:nether_star>)
+    .duration(1)
+    .EUt(122880)
+    .buildAndRegister();
+	
+implosion_compressor.recipeBuilder()
+    .inputs(<minecraft:nether_star>)
+    .property("explosives", <minecraft:tnt>*16)
+    .outputs(<gregtech:meta_lens:1602>)
+    .duration(1)
+    .EUt(1960)
+    .buildAndRegister();
+	

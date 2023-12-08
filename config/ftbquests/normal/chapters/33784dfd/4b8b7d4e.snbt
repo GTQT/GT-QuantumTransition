@@ -1,10 +1,9 @@
 {
 	x: 0.0d,
 	y: 9.5d,
-	description: "你首先需要坎塔尔线圈！！",
+	description: "什么，芯片？",
 	text: [
-		"如果你还没有坎塔尔线圈，我建议你先做16个线圈再回来完成这个任务",
-		"如坎达尔一样，你需要冷却液冷却它，这样你才能得到可以使用的太阳能级硅"
+		"芯片是你这一阶段重要任务的基础，无论是新线圈，还是新材料，电路板都需要芯片。"
 	],
 	dependencies: [
 		"55dcaad8"
@@ -13,7 +12,7 @@
 		uid: "89322367",
 		type: "item",
 		items: [{
-			item: "contenttweaker:hotsilicon_item"
+			item: "gregtech:meta_ingot_hot 1 99"
 		}]
 	}]
 }

@@ -1,8 +1,8 @@
 {
-	x: -8.0d,
-	y: 11.5d,
+	x: -4.0d,
+	y: 14.5d,
 	dependencies: [
-		"666aebb9"
+		"6363b229"
 	],
 	tasks: [{
 		uid: "e7308de6",
@@ -10,27 +10,6 @@
 		items: [{
 			item: "gregtech:machine 1 126"
 		}]
-	},
-	{
-		uid: "bcf9b367",
-		type: "item",
-		items: [{
-			id: "ic2:fluid_cell",
-			tag: {
-				Fluid: {
-					FluidName: "polyvinyl_chloride",
-					Amount: 1000
-				}
-			}
-		}]
-	},
-	{
-		uid: "32647c98",
-		type: "item",
-		items: [{
-			item: "gregtech:meta_dust 1 18"
-		}],
-		count: 4L
 	}],
 	rewards: [{
 		uid: "3801eaee",

@@ -13,7 +13,7 @@
 		"ZPM	1/20s(1t)	UV	1/20s(1t)"
 	],
 	dependencies: [
-		"c51ecf9a"
+		"9ea1ad6f"
 	],
 	tasks: [{
 		uid: "3d822dc4",

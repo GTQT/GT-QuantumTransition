@@ -11,7 +11,8 @@
 					FluidName: "chlorine",
 					Amount: 1000
 				}
-			}
+			},
+			Count: 1b
 		}]
 	}]
 }

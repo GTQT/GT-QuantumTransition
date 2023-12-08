@@ -12,12 +12,10 @@
 		uid: "ffd99a4d",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "titanium_tetrachloride",
-					Amount: 1000
-				}
+				FluidName: "titanium_tetrachloride",
+				Amount: 1000
 			}
 		}]
 	}]

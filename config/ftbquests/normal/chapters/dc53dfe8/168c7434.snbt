@@ -13,10 +13,11 @@
 		"a6e1f1e1"
 	],
 	tasks: [{
-		uid: "e70f68b2",
+		uid: "89ecb057",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
 			tag: {
 				Fluid: {
 					FluidName: "hydrogen",
@@ -26,10 +27,11 @@
 		}]
 	},
 	{
-		uid: "960f60de",
+		uid: "7d7ea9ee",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
 			tag: {
 				Fluid: {
 					FluidName: "oxygen",

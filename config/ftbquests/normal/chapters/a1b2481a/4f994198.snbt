@@ -13,12 +13,10 @@
 		uid: "00ec6121",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "boron_nitride_solution",
-					Amount: 1000
-				}
+				FluidName: "boron_nitride_solution",
+				Amount: 1000
 			}
 		}]
 	}]

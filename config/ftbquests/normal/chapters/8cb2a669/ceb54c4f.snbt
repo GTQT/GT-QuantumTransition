@@ -8,12 +8,10 @@
 		uid: "80d856ac",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "mutagen",
-					Amount: 1000
-				}
+				FluidName: "mutagen",
+				Amount: 1000
 			}
 		}]
 	}]

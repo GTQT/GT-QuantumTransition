@@ -8,16 +8,16 @@
 		uid: "8e0909fa",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "beeComb",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any beeComb"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "beeComb"
 				}
 			}
 		}]

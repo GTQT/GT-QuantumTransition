@@ -305,9 +305,4 @@ Builder.start("aion_implanter", 32010)
     .withRecipeMap(aion_implanter_recipes)
     .withBaseTexture(<metastate:gregtech:machine_casing:8>)
     .buildAndRegister();
-aion_implanter_recipes.recipeBuilder()
-    .inputs(<gregtech:meta_plate:15057>,<gregtech:meta_plate:15040>)
-    .fluidInputs(<liquid:plasma.nickel>*576)
-	.outputs(<gcys:meta_item_1:424>*16)
-    .duration(160).EUt(491520).buildAndRegister();
-	
+

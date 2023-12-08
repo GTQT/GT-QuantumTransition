@@ -1,5 +1,5 @@
 {
-	title: "电解分离",
+	title: "我需要大化反",
 	x: -12.5d,
 	y: -12.0d,
 	text: [
@@ -12,12 +12,10 @@
 		uid: "c04fbfeb",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "chloroplatinic_acid",
-					Amount: 1000
-				}
+				FluidName: "ammonium_hexachloroplatinate",
+				Amount: 1000
 			}
 		}]
 	}]

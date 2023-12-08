@@ -1,6 +1,6 @@
 {
 	title: "蒸汽！源源不断的蒸汽！",
-	x: 30.0d,
+	x: 31.0d,
 	y: 0.0d,
 	description: "请及时查阅多方块部分哟",
 	text: [
@@ -15,7 +15,8 @@
 	],
 	dependencies: [
 		"051eaccf",
-		"d3cc7836"
+		"d3cc7836",
+		"5ac0fc2f"
 	],
 	size: 2.0d,
 	tasks: [{
@@ -41,17 +42,5 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "1"
-	},
-	{
-		uid: "4be8a005",
-		type: "item",
-		item: {
-			id: "tiab:timeinabottle",
-			tag: {
-				timeData: {
-					storageTime: "144000"
-				}
-			}
-		}
 	}]
 }

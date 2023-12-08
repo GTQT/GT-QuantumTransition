@@ -13,7 +13,8 @@
 		uid: "328e0578",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
 			tag: {
 				Fluid: {
 					FluidName: "salt_water",

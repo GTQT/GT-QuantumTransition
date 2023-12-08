@@ -32,3 +32,26 @@ electrolyzer.recipeBuilder()
     .duration(120)
     .EUt(120)
     .buildAndRegister();
+	
+electrolyzer.recipeBuilder() 
+    .fluidInputs(<liquid:depleted_leu_233_fluoride>*144)
+	.fluidOutputs(<liquid:leu_233_fluoride>*72,<liquid:fluorine>*72)
+    .duration(900)
+    .EUt(960)
+    .buildAndRegister();
+	
+electrolyzer.recipeBuilder() 
+    .fluidInputs(<liquid:sodium_fluoride_solution>*8000)
+	.fluidOutputs(<liquid:fluorine>*1000)
+    .duration(900)
+	.outputs(<gregtech:meta_dust:101>*1)
+    .EUt(1960)
+    .buildAndRegister();
+	
+electrolyzer.recipeBuilder() 
+    .fluidInputs(<liquid:water>*1000)
+	.fluidOutputs(<liquid:hydrogen>*2000,<liquid:oxygen>*1000)
+    .duration(75*20)
+    .circuit(10)
+    .EUt(30)
+    .buildAndRegister();

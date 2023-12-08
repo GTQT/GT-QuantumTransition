@@ -1,12 +1,21 @@
 import mods.gregtech.recipe.RecipeMap;
 val chemical_bath = mods.gregtech.recipe.RecipeMap.getByName("chemical_bath");
 chemical_bath.recipeBuilder() 
+    .inputs(<contenttweaker:rebuxiu_item> * 1)
+    .fluidInputs(<liquid:coolant> * 125)
+    .outputs(<gregtech:meta_ingot:323> * 1)
+    .fluidOutputs(<liquid:hot_coolant> * 125)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
+
+chemical_bath.recipeBuilder() 
     .inputs(<gregtech:meta_ingot_hot:288> * 1)
-    .fluidInputs(<liquid:ic2coolant> * 125)
+    .fluidInputs(<liquid:coolant> * 125)
     .outputs(<gregtech:meta_ingot:288> * 1)
-    .fluidOutputs(<liquid:ic2hot_coolant> * 125)
-    .duration(600)
-    .EUt(16)
+    .fluidOutputs(<liquid:hot_coolant> * 125)
+    .duration(200)
+    .EUt(120)
     .buildAndRegister();
 
 chemical_bath.recipeBuilder() 
@@ -18,18 +27,18 @@ chemical_bath.recipeBuilder()
     .buildAndRegister();
 
 chemical_bath.recipeBuilder() 
-    .inputs(<contenttweaker:hotsilicon_item> * 1)
-    .fluidInputs(<liquid:ic2coolant> * 125)
+    .inputs(<gregtech:meta_ingot_hot:99> * 1)
+    .fluidInputs(<liquid:coolant> * 125)
     .outputs(<gregtech:meta_ingot:99> * 1)
-    .fluidOutputs(<liquid:ic2hot_coolant> * 125)
+    .fluidOutputs(<liquid:hot_coolant> * 125)
     .duration(400)
     .EUt(16)
     .buildAndRegister();
 	
 chemical_bath.recipeBuilder() 
-    .inputs(<gregtech:meta_dust:449>*12)
+    .inputs(<gregtech:meta_dust:449>*11)
     .fluidInputs(<liquid:hydrofluoric_acid> * 4000)
-    .outputs(<gregtech:meta_dust:3535>)
+    .outputs(<gregtech:meta_dust:3535>*7)
     .duration(400)
     .EUt(7600)
     .buildAndRegister();
@@ -173,3 +182,12 @@ chemical_bath.recipeBuilder()
     .duration(20)
     .EUt(480)
     .buildAndRegister();
+	
+chemical_bath.recipeBuilder() 
+    .inputs(<ore:stickWood>)
+	.fluidInputs(<liquid:creosote>*1000)
+	.outputs(<forestry:oak_stick>)
+    .duration(20)
+    .EUt(480)
+    .buildAndRegister();
+	

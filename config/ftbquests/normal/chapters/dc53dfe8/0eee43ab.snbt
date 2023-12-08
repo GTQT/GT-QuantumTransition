@@ -14,16 +14,16 @@
 		uid: "e90aa400",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "oreNetherrackSphalerite",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreNetherrackSphalerite"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreNetherrackSphalerite"
 				}
 			}
 		}]

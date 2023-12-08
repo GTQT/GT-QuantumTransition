@@ -5,7 +5,7 @@
   "max_height": 60,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "arsenic"
+    "material": "arsenopyrite"
   },
   "dimension_filter": [
     "name:planet.mars"
@@ -21,16 +21,16 @@
     "type": "layered",
     "values": [
       {
-        "primary": "ore:arsenic"
+        "primary": "ore:arsenopyrite"
       },
       {
-        "secondary": "ore:bismuth"
+        "secondary": "ore:arsenopyrite"
       },
       {
-        "between": "ore:antimony"
+        "between": "ore:stibnite"
       },
       {
-        "sporadic": "ore:antimony"
+        "sporadic": "ore:stibnite"
       }
     ]
   }

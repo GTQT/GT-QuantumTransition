@@ -23,5 +23,10 @@
 				material: "oak"
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "cdf801ef",
+		type: "item",
+		item: "storagedrawers:tape"
 	}]
 }

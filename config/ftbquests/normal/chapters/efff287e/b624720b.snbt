@@ -9,10 +9,10 @@
 		type: "item",
 		items: [{
 			id: "forestry:ffarm",
+			Damage: 2s,
 			tag: {
 				FarmBlock: 0
-			},
-			Damage: 2s
+			}
 		}]
 	}]
 }

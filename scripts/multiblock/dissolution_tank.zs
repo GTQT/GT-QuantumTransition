@@ -10,52 +10,45 @@ import mods.gregtech.recipe.RecipeMap;
 import mods.gregtech.recipe.functions.IRunOverclockingLogicFunction;
 import mods.gregtech.recipe.IRecipeLogic;
 import mods.gregtech.recipe.IRecipe;
- 
-global dissolution_tank as RecipeMap = FactoryRecipeMap.start("dissolution_tank_controller")
-    .maxInputs(2)
-	.maxOutputs(2)
-    .maxFluidInputs(4)
-    .maxFluidOutputs(2)
-    .build();
- 
-Builder.start("dissolution_tank", 32001)
-    .withPattern(function(controller as IControllerTile) as IBlockPattern {
-        return FactoryBlockPattern.start()
-            .aisle("M###M", "MMMMM", "MGGGM", "MGGGM", "#MMM#")
-            .aisle("#####", "MNNNM", "G###G", "G###G", "MMMMM")
-            .aisle("#####", "MNNNM", "G###G", "G###G", "MMMMM")
-            .aisle("#####", "MNNNM", "G###G", "G###G", "MMMMM")
-            .aisle("M###M", "MMCMM", "MGGGM", "MGGGM", "#MMM#")
-            .where("C", controller.self())
-            .where("G", <metastate:gregtech:transparent_casing>)
-            .where("M", CTPredicate.states(<metastate:gregtech:metal_casing:5>)
-                | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
-                | CTPredicate.abilities(<mte_ability:MUFFLER_HATCH>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
-                | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>).setMinGlobalLimited(1).setMaxGlobalLimited(2).setPreviewCount(1)
-                | CTPredicate.abilities(<mte_ability:IMPORT_ITEMS>).setMinGlobalLimited(1).setMaxGlobalLimited(2).setPreviewCount(1)
-                | CTPredicate.abilities(<mte_ability:IMPORT_FLUIDS>).setMinGlobalLimited(2).setMaxGlobalLimited(2).setPreviewCount(2)
-                | CTPredicate.abilities(<mte_ability:EXPORT_FLUIDS>).setMinGlobalLimited(1).setMaxGlobalLimited(2).setPreviewCount(1)
-			    | CTPredicate.abilities(<mte_ability:EXPORT_ITEMS>).setMinGlobalLimited(1).setMaxGlobalLimited(2).setPreviewCount(1)
-            )
-            .where("N", <metastate:gregtech:multiblock_casing:2>)
-            .where("#",CTPredicate.getAny())
-        .build();
-    } as IPatternBuilderFunction)
-    .withRecipeMap(dissolution_tank)
-    .withBaseTexture(<metastate:gregtech:metal_casing:5>)
+val dissolution_tank_recipes = mods.gregtech.recipe.RecipeMap.getByName("dissolution_tank_recipes");
+
+dissolution_tank_recipes.recipeBuilder() 
+    .inputs(<ore:dustSaltpeter>*9) 
+	.fluidInputs(<liquid:dujushixituzhuorongye>*9000,<liquid:water>*90000)
+	.fluidOutputs(<liquid:xishidujushixitunijiang>*99000)
+	.outputs(<gregtech:meta_dust:32299>,<gregtech:meta_dust:332>,<gregtech:meta_dust:2029>*2)
+    .duration(120)
+    .EUt(7800)
     .buildAndRegister();
-dissolution_tank.recipeBuilder()
+	
+dissolution_tank_recipes.recipeBuilder()
     .duration(500)  
-    .EUt(960)  
+    .EUt(7860)  
     .inputs(<gregtech:meta_dust:32037>) 
     .fluidInputs(<liquid:hydrochloric_acid> * 250)  
 	.outputs(<gregtech:meta_dust:32038>)
     .fluidOutputs(<liquid:goldcl> * 250) 
     .buildAndRegister(); 
 
-dissolution_tank.recipeBuilder()
-    .duration(50)  
-    .EUt(960)  
-    .fluidInputs(<liquid:fujixitu>*576,<liquid:diethylhexyl_phosphoric_acid>*200)  
-    .fluidOutputs(<liquid:rare_earth_chlorides_solution> * 576) 
+dissolution_tank_recipes.recipeBuilder()
+    .duration(500)  
+    .EUt(7860)  
+    .fluidInputs(<liquid:chunjingchulixitu>*1000,<liquid:hydrochloric_acid>*1000)  
+    .fluidOutputs(<liquid:rare_earth_chlorides_solution> * 1000) 
     .buildAndRegister(); 
+	
+dissolution_tank_recipes.recipeBuilder()
+	.fluidInputs(<liquid:tiaozhizhengqiliejiefutanlanshixituzhuorongye>*1000,<liquid:water>*10000)
+	.inputs(<ore:dustSaltpeter>)
+	.fluidOutputs(<liquid:xishifutanlanshinijiang>*11000)
+    .duration(120)
+    .EUt(7800)
+    .buildAndRegister();
+	
+dissolution_tank_recipes.recipeBuilder() 
+	.fluidInputs(<liquid:shanxituzhuorongye>*1000,<liquid:nitric_acid>*1000)
+	.fluidOutputs(<liquid:xishishannijiang>*2000)
+	.outputs(<gregtech:meta_dust:32324>)
+    .duration(120)
+    .EUt(7800)
+    .buildAndRegister();

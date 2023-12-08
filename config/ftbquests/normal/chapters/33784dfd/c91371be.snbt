@@ -1,7 +1,7 @@
 {
 	title: "乙醇",
 	x: -12.5d,
-	y: 12.5d,
+	y: 11.5d,
 	text: [
 		"乙醇，化学式为 C₂H₆O ，是一种液态流体，不可被放置。其存在于下列混合物中，可在蒸馏室或蒸馏塔中分离得到：",
 		"生物质。每 600 mB 中含 240 mB 生物乙醇，含量占比 50%（240 mB / 480 mB）；",
@@ -16,7 +16,8 @@
 		uid: "488a1b17",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
 			tag: {
 				Fluid: {
 					FluidName: "bio.ethanol",

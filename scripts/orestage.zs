@@ -41,4 +41,15 @@ mods.ItemStages.addItemStage("disabledStage", <artifacts:everlasting_rabbit_stew
 mods.ItemStages.addItemStage("disabledStage", <artifacts:everlasting_cooked_mutton>);
 mods.ItemStages.addItemStage("disabledStage", <artifacts:everlasting_mutton>);
 mods.ItemStages.addItemStage("disabledStage", <artifacts:everlasting_cooked_rabbit>);
-
+mods.ItemStages.addItemStage("disabledStage", <tfspellpack:twilight_spell_book:220>);
+mods.ItemStages.addItemStage("disabledStage", <tfspellpack:twilight_scroll:220>);
+mods.ItemStages.addItemStage("disabledStage", <galacticraftcore:oil_canister_partial:1>);
+mods.ItemStages.addItemStage("disabledStage", <galacticraftcore:fuel_canister_partial:1>);
+mods.ItemStages.addItemStage("disabledStage", <galacticraftcore:oil_canister_partial:1001>);
+mods.ItemStages.addItemStage("disabledStage", <galacticraftplanets:canister_partial_ln2:1>);
+mods.ItemStages.addItemStage("disabledStage", <galacticraftplanets:canister_partial_lox:1>);
+mods.ItemStages.addItemStage("disabledStage", <galacticraftplanets:methane_canister_partial:1>);
+mods.ItemStages.addItemStage("disabledStage", <draconicevolution:draconium_ore:2>);
+mods.ItemStages.addItemStage("disabledStage", <draconicevolution:draconium_ore:1>);
+mods.ItemStages.addItemStage("disabledStage", <draconicevolution:draconium_ore:0>);
+mods.ItemStages.addItemStage("disabledStage", <gregtech:machine:2027>);

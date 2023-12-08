@@ -10,12 +10,10 @@
 		uid: "9ccac52f",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "bio.ethanol",
-					Amount: 1000
-				}
+				FluidName: "sodium_hydroxide_solution",
+				Amount: 1000
 			}
 		}]
 	},

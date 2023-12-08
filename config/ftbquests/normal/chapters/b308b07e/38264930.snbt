@@ -1,0 +1,29 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"ec1082dc",
+		"d742c759"
+	],
+	tasks: [{
+		uid: "f3d8e0f3",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
+			tag: {
+				Fluid: {
+					FluidName: "activated_dragon_tissue_mixture",
+					Amount: 1000
+				}
+			}
+		}]
+	},
+	{
+		uid: "414d3458",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 32194"
+		}]
+	}]
+}

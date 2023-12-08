@@ -1,7 +1,7 @@
 {
 	title: "甲醇",
 	x: -12.5d,
-	y: 13.5d,
+	y: 13.0d,
 	text: [
 		"甲醇，化学式为 CH₄O，存在于下列混合物中，可在蒸馏室（或蒸馏塔）中分离得到：",
 		"木醋酸。每 1,000 mB 中含 300 mB 甲醇，含量约为 30.9%（300 mB / 970 mB）；",
@@ -17,7 +17,8 @@
 		uid: "3ab3db6e",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
 			tag: {
 				Fluid: {
 					FluidName: "methanol",

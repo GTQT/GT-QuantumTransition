@@ -1,6 +1,7 @@
 {
   "inventory": {
-    "0:0": "minecraft:apple,16"
+    "0:0": "minecraft:apple,16",
+    "0:1": "ftbquests:book"
   },
   "kits": {
     "baby": {

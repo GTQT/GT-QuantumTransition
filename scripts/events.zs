@@ -1,9 +1,3 @@
-/*
- * ZenScript by DuantuiSame & Hikari_Nova
- * 未经过授权，禁止用于其他整合包或服务器内容。
- * 此脚本为部分事件内容
-*/
-
 #priority 100
 //#loader crafttweaker reloadableevents
 
@@ -18,11 +12,13 @@ import crafttweaker.data.IData;
 
 events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent){
     var player as IPlayer = event.player;
+	player.sendMessage("==================GTQT==================");
     player.sendMessage(game.localize("events_loggedin_1")+ " §1"+player.name);
     player.sendMessage(game.localize("events_loggedin_2")+ " " + game.localize("events_loggedin_6"));
     player.sendMessage(game.localize("events_loggedin_3")+ " §2"+"https://github.com/KeQingsocute520/GT-QuantumTransition");
     player.sendMessage(game.localize("events_loggedin_4")+ " §2"+"https://www.mcbbs.net/thread-1437057-1-1.html");
     player.sendMessage(game.localize("events_loggedin_5")+ " §2"+"https://www.mcmod.cn/modpack/590.html");
+	player.sendMessage("========================================");
 });
 
 events.onPlayerWakeUp(function(event as PlayerWakeUpEvent){

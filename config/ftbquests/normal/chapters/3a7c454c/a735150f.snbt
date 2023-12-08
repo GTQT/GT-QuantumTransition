@@ -7,19 +7,16 @@
 		"氨与水反应多步，分别是一氧化氮，二氧化氮，硝酸"
 	],
 	dependencies: [
-		"6c70941c",
 		"7dbe44bd"
 	],
 	tasks: [{
 		uid: "772599a8",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "nitric_acid",
-					Amount: 1000
-				}
+				FluidName: "nitric_acid",
+				Amount: 1000
 			}
 		}]
 	}]

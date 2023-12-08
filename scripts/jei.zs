@@ -1,14 +1,10 @@
-mods.jei.JEI.removeAndHide(<ic2:ingot:5>);
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_item:5>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_item:4>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_item:3>);
-mods.jei.JEI.removeAndHide(<ic2:ingot:6>);
-mods.jei.JEI.removeAndHide(<ic2:ingot:5>);
-mods.jei.JEI.removeAndHide(<advanced_solar_panels:crafting:10>);
-mods.jei.JEI.removeAndHide(<ic2:ingot:3>);
-mods.jei.JEI.removeAndHide(<ic2:ingot:4>);
-mods.jei.JEI.removeAndHide(<ic2:ingot:2>);
-mods.jei.JEI.removeAndHide(<ic2:ingot:1>);
 mods.jei.JEI.removeAndHide(<enderio:item_alloy_endergy_nugget:*>);
 mods.jei.JEI.removeAndHide(<enderio:item_alloy_endergy_ingot:*>);
 mods.jei.JEI.removeAndHide(<enderio:block_alloy_endergy:*>);
@@ -18,35 +14,16 @@ mods.jei.JEI.removeAndHide(<forestry:ingot_bronze>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:material:49>);
 mods.jei.JEI.removeAndHide(<forestry:ingot_tin>);
 mods.jei.JEI.removeAndHide(<forestry:ingot_copper>);
-mods.jei.JEI.removeAndHide(<advanced_solar_panels:crafting:11>);
-mods.jei.JEI.removeAndHide(<ic2:crushed:*>);
-mods.jei.JEI.removeAndHide(<ic2:purified:*>);
-mods.jei.JEI.removeAndHide(<ic2:dust:*>);
-mods.jei.JEI.removeAndHide(<ic2:plate:0>);
 mods.jei.JEI.removeAndHide(<harvestcraft:saltitem>);
-mods.jei.JEI.removeAndHide(<ic2:plate:1>);
-mods.jei.JEI.removeAndHide(<ic2:coke>);
-mods.jei.JEI.removeAndHide(<ic2:plate:2>);
-mods.jei.JEI.removeAndHide(<ic2:plate:3>);
-mods.jei.JEI.removeAndHide(<ic2:plate:4>);
-mods.jei.JEI.removeAndHide(<ic2:plate:5>);
-mods.jei.JEI.removeAndHide(<ic2:plate:6>);
-mods.jei.JEI.removeAndHide(<ic2:plate:7>);
-mods.jei.JEI.removeAndHide(<ic2:plate:8>);
 mods.jei.JEI.removeAndHide(<thaumcraft:plate:0>);
 mods.jei.JEI.removeAndHide(<thaumcraft:plate:1>);
-mods.jei.JEI.removeAndHide(<ic2:resource:6>);
 mods.jei.JEI.removeAndHide(<thaumcraft:metal_brass>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_block_core:9>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_block_core:11>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_block_core:10>);
-mods.jei.JEI.removeAndHide(<ic2:resource:8>);
-mods.jei.JEI.removeAndHide(<ic2:resource:7>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:machine2:4>);
 mods.jei.JEI.removeAndHide(<galacticraftplanets:mars_machine_t2>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:refinery>);
-mods.jei.JEI.removeAndHide(<ic2:resource:9>);
-mods.jei.JEI.removeAndHide(<ic2:resource:5>);
 mods.jei.JEI.removeAndHide(<projectred-core:resource_item:102>);
 mods.jei.JEI.removeAndHide(<projectred-core:resource_item:101>);
 mods.jei.JEI.removeAndHide(<projectred-core:resource_item:100>);
@@ -55,17 +32,10 @@ mods.jei.JEI.removeAndHide(<projectred-core:resource_item:251>);
 mods.jei.JEI.removeAndHide(<forestry:resource_storage:3>);
 mods.jei.JEI.removeAndHide(<forestry:resource_storage>);
 mods.jei.JEI.removeAndHide(<forestry:resource_storage:1>);
-mods.jei.JEI.removeAndHide(<ic2:resource:1>);
 mods.jei.JEI.removeAndHide(<forestry:resource_storage:2>);
-mods.jei.JEI.removeAndHide(<ic2:cover>);
-mods.jei.JEI.removeAndHide(<ic2:cover:1>);
-mods.jei.JEI.removeAndHide(<ic2:pipe:1>.withTag({size: 1 as byte, type: 1 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:pipe:1>.withTag({size: 0 as byte, type: 1 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:resource:2>);
 mods.jei.JEI.removeAndHide(<forestry:resources:1>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_block_core:5>);
 mods.jei.JEI.removeAndHide(<forestry:resources:2>);
-mods.jei.JEI.removeAndHide(<ic2:resource:3>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_block_core:6>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:charged_quartz_ore>);
 mods.jei.JEI.removeAndHide(<gregtech:meta_block_compressed_125:10>);
@@ -74,153 +44,6 @@ mods.jei.JEI.removeAndHide(<galacticraftcore:basic_block_core:8>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_block_core:7>);
 mods.jei.JEI.removeAndHide(<forestry:resources>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:quartz_ore>);
-mods.jei.JEI.removeAndHide(<advanced_solar_panels:machines>);
-mods.jei.JEI.removeAndHide(<ic2:resource:4>);
-mods.jei.JEI.removeAndHide(<ic2:pipe:1>.withTag({size: 2 as byte, type: 1 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:pipe>.withTag({size: 2 as byte, type: 0 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:pipe:1>.withTag({size: 3 as byte, type: 1 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:pipe>.withTag({size: 3 as byte, type: 0 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:pipe>.withTag({size: 1 as byte, type: 0 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:pipe>.withTag({size: 0 as byte, type: 0 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:te:2>);
-mods.jei.JEI.removeAndHide(<ic2:te:3>);
-mods.jei.JEI.removeAndHide(<ic2:te:4>);
-mods.jei.JEI.removeAndHide(<ic2:te:7>);
-mods.jei.JEI.removeAndHide(<ic2:te:9>);
-mods.jei.JEI.removeAndHide(<ic2:te:10>);
-mods.jei.JEI.removeAndHide(<ic2:te:11>);
-mods.jei.JEI.removeAndHide(<ic2:te:12>);
-mods.jei.JEI.removeAndHide(<ic2:te:13>);
-mods.jei.JEI.removeAndHide(<ic2:te:14>);
-mods.jei.JEI.removeAndHide(<ic2:te:15>);
-mods.jei.JEI.removeAndHide(<ic2:te:16>);
-mods.jei.JEI.removeAndHide(<ic2:te:17>);
-mods.jei.JEI.removeAndHide(<ic2:te:18>);
-mods.jei.JEI.removeAndHide(<ic2:te:19>);
-mods.jei.JEI.removeAndHide(<ic2:te:27>);
-mods.jei.JEI.removeAndHide(<ic2:te:28>);
-mods.jei.JEI.removeAndHide(<ic2:te:29>);
-mods.jei.JEI.removeAndHide(<ic2:te:30>);
-mods.jei.JEI.removeAndHide(<ic2:te:31>);
-mods.jei.JEI.removeAndHide(<ic2:te:32>);
-mods.jei.JEI.removeAndHide(<ic2:te:33>);
-mods.jei.JEI.removeAndHide(<ic2:te:34>);
-mods.jei.JEI.removeAndHide(<ic2:te:35>);
-mods.jei.JEI.removeAndHide(<ic2:te:36>);
-mods.jei.JEI.removeAndHide(<ic2:te:37>);
-mods.jei.JEI.removeAndHide(<ic2:te:38>);
-mods.jei.JEI.removeAndHide(<ic2:te:39>);
-mods.jei.JEI.removeAndHide(<ic2:te:40>);
-mods.jei.JEI.removeAndHide(<ic2:te:41>);
-mods.jei.JEI.removeAndHide(<ic2:te:42>);
-mods.jei.JEI.removeAndHide(<ic2:te:43>);
-mods.jei.JEI.removeAndHide(<ic2:te:44>);
-mods.jei.JEI.removeAndHide(<ic2:te:45>);
-mods.jei.JEI.removeAndHide(<ic2:te:47>);
-mods.jei.JEI.removeAndHide(<ic2:te:48>);
-mods.jei.JEI.removeAndHide(<ic2:te:49>);
-mods.jei.JEI.removeAndHide(<ic2:te:50>);
-mods.jei.JEI.removeAndHide(<ic2:te:51>);
-mods.jei.JEI.removeAndHide(<ic2:te:52>);
-mods.jei.JEI.removeAndHide(<ic2:te:53>);
-mods.jei.JEI.removeAndHide(<ic2:te:54>);
-mods.jei.JEI.removeAndHide(<ic2:te:55>);
-mods.jei.JEI.removeAndHide(<ic2:te:56>);
-mods.jei.JEI.removeAndHide(<ic2:te:57>);
-mods.jei.JEI.removeAndHide(<ic2:te:60>);
-mods.jei.JEI.removeAndHide(<ic2:te:65>);
-mods.jei.JEI.removeAndHide(<ic2:te:66>);
-mods.jei.JEI.removeAndHide(<ic2:te:67>);
-mods.jei.JEI.removeAndHide(<ic2:te:68>);
-mods.jei.JEI.removeAndHide(<ic2:te:69>);
-mods.jei.JEI.removeAndHide(<ic2:te:70>);
-mods.jei.JEI.removeAndHide(<ic2:te:71>);
-mods.jei.JEI.removeAndHide(<ic2:te:72>);
-mods.jei.JEI.removeAndHide(<ic2:te:73>);
-mods.jei.JEI.removeAndHide(<ic2:te:74>);
-mods.jei.JEI.removeAndHide(<ic2:te:75>);
-mods.jei.JEI.removeAndHide(<ic2:te:76>);
-mods.jei.JEI.removeAndHide(<ic2:te:77>);
-mods.jei.JEI.removeAndHide(<ic2:te:78>);
-mods.jei.JEI.removeAndHide(<ic2:te:79>);
-mods.jei.JEI.removeAndHide(<ic2:te:80>);
-mods.jei.JEI.removeAndHide(<ic2:te:81>);
-mods.jei.JEI.removeAndHide(<ic2:te:82>);
-mods.jei.JEI.removeAndHide(<ic2:te:83>);
-mods.jei.JEI.removeAndHide(<ic2:te:84>);
-mods.jei.JEI.removeAndHide(<ic2:te:85>);
-mods.jei.JEI.removeAndHide(<ic2:te:86>);
-mods.jei.JEI.removeAndHide(<ic2:te:87>);
-mods.jei.JEI.removeAndHide(<ic2:te:88>);
-mods.jei.JEI.removeAndHide(<ic2:te:89>);
-mods.jei.JEI.removeAndHide(<ic2:te:90>);
-mods.jei.JEI.removeAndHide(<ic2:te:91>);
-mods.jei.JEI.removeAndHide(<ic2:te:92>);
-mods.jei.JEI.removeAndHide(<ic2:te:93>);
-mods.jei.JEI.removeAndHide(<ic2:te:94>);
-mods.jei.JEI.removeAndHide(<ic2:te:95>);
-mods.jei.JEI.removeAndHide(<ic2:te:96>);
-mods.jei.JEI.removeAndHide(<ic2:te:97>);
-mods.jei.JEI.removeAndHide(<ic2:te:98>);
-mods.jei.JEI.removeAndHide(<ic2:te:99>);
-mods.jei.JEI.removeAndHide(<ic2:te:100>);
-mods.jei.JEI.removeAndHide(<ic2:te:101>);
-mods.jei.JEI.removeAndHide(<ic2:te:102>);
-mods.jei.JEI.removeAndHide(<ic2:te:103>);
-mods.jei.JEI.removeAndHide(<ic2:te:104>);
-mods.jei.JEI.removeAndHide(<ic2:te:105>);
-mods.jei.JEI.removeAndHide(<ic2:te:106>);
-mods.jei.JEI.removeAndHide(<ic2:te:107>);
-mods.jei.JEI.removeAndHide(<ic2:te:108>);
-mods.jei.JEI.removeAndHide(<ic2:te:109>);
-mods.jei.JEI.removeAndHide(<ic2:te:110>);
-mods.jei.JEI.removeAndHide(<ic2:te:111>);
-mods.jei.JEI.removeAndHide(<ic2:te:112>);
-mods.jei.JEI.removeAndHide(<ic2:te:113>);
-mods.jei.JEI.removeAndHide(<ic2:te:114>);
-mods.jei.JEI.removeAndHide(<ic2:te:115>);
-mods.jei.JEI.removeAndHide(<ic2:te:116>);
-mods.jei.JEI.removeAndHide(<ic2:te:117>);
-mods.jei.JEI.removeAndHide(<ic2:te:118>);
-mods.jei.JEI.removeAndHide(<ic2:te:119>);
-mods.jei.JEI.removeAndHide(<ic2:te:120>);
-mods.jei.JEI.removeAndHide(<ic2:te:121>);
-mods.jei.JEI.removeAndHide(<ic2:te:122>);
-mods.jei.JEI.removeAndHide(<ic2:te:123>);
-mods.jei.JEI.removeAndHide(<ic2:te:124>);
-mods.jei.JEI.removeAndHide(<ic2:te:125>);
-mods.jei.JEI.removeAndHide(<ic2:te:126>);
-mods.jei.JEI.removeAndHide(<ic2:te:127>);
-mods.jei.JEI.removeAndHide(<ic2:te:128>);
-mods.jei.JEI.removeAndHide(<ic2:te:129>);
-mods.jei.JEI.removeAndHide(<ic2:te:130>);
-mods.jei.JEI.removeAndHide(<ic2:te:131>);
-mods.jei.JEI.removeAndHide(<ic2:te:132>);
-mods.jei.JEI.removeAndHide(<ic2:te:133>);
-mods.jei.JEI.removeAndHide(<ic2:te:134>);
-mods.jei.JEI.removeAndHide(<ic2:upgrade:9>.withTag({}));
-mods.jei.JEI.removeAndHide(<ic2:upgrade:10>);
-mods.jei.JEI.removeAndHide(<ic2:filled_tin_can>);
-mods.jei.JEI.removeAndHide(<ic2:iodine_tablet>);
-mods.jei.JEI.removeAndHide(<ic2:filled_fuel_can>.withTag({}));
-mods.jei.JEI.removeAndHide(<ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:cable>.withTag({type: 0 as byte, insulation: 1 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:cable:1>.withTag({type: 1 as byte, insulation: 0 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:cable:4>.withTag({type: 4 as byte, insulation: 1 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 3 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 1 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 2 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:cable:3>.withTag({type: 3 as byte, insulation: 0 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:cable:6>.withTag({type: 6 as byte, insulation: 0 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:cable:5>.withTag({type: 5 as byte, insulation: 0 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 1 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:cable:2>.withTag({type: 2 as byte, insulation: 2 as byte}));
-mods.jei.JEI.removeAndHide(<ic2:crystal_memory>.withTag({}));
-mods.jei.JEI.removeAndHide(<ic2:resource:12>);
-mods.jei.JEI.removeAndHide(<ic2:resource:13>);
-mods.jei.JEI.removeAndHide(<galacticraftcore:ic2compat:7>);
 mods.jei.JEI.removeAndHide(<galacticraftplanets:item_basic_asteroids:9>);
 mods.jei.JEI.removeAndHide(<galacticraftplanets:item_basic_asteroids>);
 mods.jei.JEI.removeAndHide(<galacticraftplanets:asteroids_block:7>);
@@ -258,12 +81,7 @@ mods.jei.JEI.removeAndHide(<galacticraftcore:machine:12>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_item:13>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_item:14>);
 mods.jei.JEI.removeAndHide(<bloodmagic:component:23>);
-mods.jei.JEI.removeAndHide(<ic2:wrench>);
-mods.jei.JEI.removeAndHide(<ic2:wrench_new>);
-mods.jei.JEI.removeAndHide(<ic2:cutter>);
-mods.jei.JEI.removeAndHide(<ic2:forge_hammer>);
 mods.jei.JEI.removeAndHide(<enderio:item_alloy_ingot:*>);
-mods.jei.JEI.removeAndHide(<galacticraftcore:ic2compat>);
 mods.jei.JEI.removeAndHide(<forestry:charcoal>);
 mods.jei.JEI.removeAndHide(<minecraft:coal_ore>);
 mods.jei.JEI.removeAndHide(<minecraft:iron_ore>);
@@ -316,15 +134,6 @@ mods.jei.JEI.removeAndHide(<extraplanets:tier6_items:5>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:inscriber>);
 mods.jei.JEI.removeAndHide(<enderio:block_combustion_generator>);
 mods.jei.JEI.removeAndHide(<enderio:block_enhanced_combustion_generator>);
-mods.jei.JEI.removeAndHide(<ic2:plate:0>);
-mods.jei.JEI.removeAndHide(<ic2:plate:1>);
-mods.jei.JEI.removeAndHide(<ic2:plate:2>);
-mods.jei.JEI.removeAndHide(<ic2:plate:3>);
-mods.jei.JEI.removeAndHide(<ic2:plate:4>);
-mods.jei.JEI.removeAndHide(<ic2:plate:5>);
-mods.jei.JEI.removeAndHide(<ic2:block_cutting_blade:*>);
-mods.jei.JEI.removeAndHide(<ic2:crafting:*>);
-mods.jei.JEI.removeAndHide(<ic2:painter:*>);
 mods.jei.JEI.removeAndHide(<projectred-core:resource_item:105>);
 mods.jei.JEI.removeAndHide(<nuclearcraft:alloy_furnace>);
 mods.jei.JEI.removeAndHide(<nuclearcraft:manufactory>);
@@ -434,8 +243,6 @@ mods.jei.JEI.removeAndHide(<nuclearcraft:cobblestone_generator_compact>);
 mods.jei.JEI.removeAndHide(<nuclearcraft:cobblestone_generator_dense>);
 mods.jei.JEI.removeAndHide(<nuclearcraft:nitrogen_collector_dense>);
 mods.jei.JEI.removeAndHide(<nuclearcraft:nitrogen_collector_compact>);
-mods.jei.JEI.removeAndHide(<ic2:ingot:8>);
-mods.jei.JEI.removeAndHide(<ic2:sapling>);
 mods.jei.JEI.removeAndHide(<compactmachines3:fieldprojector>);
 mods.jei.JEI.removeAndHide(<extraplanets:kepler22b:13>);
 mods.jei.JEI.removeAndHide(<extraplanets:kepler22b:14>);
@@ -455,6 +262,123 @@ mods.jei.JEI.removeAndHide(<enderio:block_lava_generator>);
 mods.jei.JEI.removeAndHide(<extraplanets:basic_chemical_injector>);
 mods.jei.JEI.removeAndHide(<enderio:block_simple_stirling_generator>);
 mods.jei.JEI.removeAndHide(<enderio:block_vat>);
-mods.jei.JEI.removeAndHide(<ic2:plate:14>);
-mods.jei.JEI.removeAndHide(<ic2:fluid_cell>.withTag({Fluid: {FluidName: "clay", Amount: 1000}}));
 mods.jei.JEI.removeAndHide(<forestry:carpenter>);
+mods.jei.JEI.removeAndHide(<appliedenergistics2:material:16>);
+mods.jei.JEI.removeAndHide(<appliedenergistics2:material:17>);
+mods.jei.JEI.removeAndHide(<appliedenergistics2:material:18>);
+mods.jei.JEI.removeAndHide(<avaritia:neutron_collector>);
+mods.jei.JEI.removeAndHide(<avaritia:neutronium_compressor>);
+mods.jei.JEI.removeAndHide(<enderio:block_enhanced_sag_mill>);
+mods.jei.JEI.removeAndHide(<enderio:block_simple_sag_mill>);
+mods.jei.JEI.removeAndHide(<enderio:block_sag_mill>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:manufactory>);
+mods.jei.JEI.removeAndHide(<galacticraftcore:oil_canister_partial:1>);
+mods.jei.JEI.removeAndHide(<galacticraftcore:fuel_canister_partial:1>);
+mods.jei.JEI.removeAndHide(<galacticraftcore:oil_canister_partial:1001>);
+mods.jei.JEI.removeAndHide(<galacticraftplanets:canister_partial_ln2:1>);
+mods.jei.JEI.removeAndHide(<galacticraftplanets:canister_partial_lox:1>);
+mods.jei.JEI.removeAndHide(<galacticraftplanets:methane_canister_partial:1>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:compound:5>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:voltaic_pile_basic>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:voltaic_pile_advanced>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:voltaic_pile_du>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:voltaic_pile_elite>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:lithium_ion_battery_basic>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:lithium_ion_battery_advanced>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:lithium_ion_battery_du>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:lithium_ion_battery_elite>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:salt_fission_controller>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:salt_fission_vessel>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:solid_fission_cell>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:solid_fission_controller>);
+mods.jei.JEI.removeAndHide(<appliedenergistics2:grindstone>);
+mods.jei.JEI.removeAndHide(<nuclearcraft:fluid_ethanol>);
+
+
+
+var items as IItemStack[] = [
+<extraplanets:massive_battery>.withTag({electricity: 500000.0 as float}),
+<extraplanets:ultimate_battery>.withTag({electricity: 200000.0 as float}),
+<extraplanets:zinc_battery>.withTag({electricity: 125000.0 as float}),
+<extraplanets:advanced_battery>.withTag({electricity: 150000.0 as float}),
+<extraplanets:nickel_battery>.withTag({electricity: 85000.0 as float}),
+<extraplanets:mercury_battery>.withTag({electricity: 100000.0 as float}),
+<extraplanets:solar:4>,
+<extraplanets:solar>,
+<enderio:block_solar_panel:4>,
+<enderio:block_solar_panel:5>,
+<enderio:block_solar_panel:6>,
+<enderio:block_solar_panel>,
+<forestry:bottler>,
+<forestry:squeezer>,
+<threng:machine:2>,
+<qmd:ingot:12>,
+<qmd:ingot:13>,
+<qmd:ingot2:1>,
+<qmd:ingot2>,
+<qmd:ingot_alloy>,
+<qmd:ingot_alloy:2>,
+<qmd:ingot_alloy:3>,
+<qmd:ingot_alloy:4>,
+<qmd:ingot_alloy:5>,
+<qmd:dust:6>,
+<qmd:dust:7>,
+<qmd:dust:8>,
+<qmd:dust:9>,
+<qmd:dust:10>,
+<qmd:dust:11>,
+<qmd:dust:12>,
+<qmd:dust:13>,
+<qmd:dust:14>,
+<qmd:dust2>,
+<qmd:dust2:1>,
+<qmd:dust2:2>,
+<qmd:dust2:3>,
+<qmd:dust2:4>,
+<qmd:dust2:5>,
+<qmd:dust2:6>,
+<qmd:ingot>,
+<qmd:ingot:1>,
+<qmd:ingot:3>,
+<qmd:ingot:4>,
+<appliedenergistics2:charger>,
+<appliedenergistics2:quartz_growth_accelerator>,
+<qmd:ingot:5>,
+<qmd:ingot:6>,
+<qmd:ingot:7>,
+<qmd:ingot:8>,
+<qmd:ingot:9>,
+<gregtech:machine:2027>,
+<qmd:ingot:10>,
+<qmd:ingot:11>,
+<qmd:dust>,
+<qmd:dust:1>,
+<qmd:dust:2>,
+<qmd:dust:3>,
+<avaritiaddons:infinity_compressor>,
+<avaritia:neutronium_compressor>,
+<qmd:dust:4>,
+<qmd:dust:5>,
+<qmd:chemical_dust:2>,
+<qmd:chemical_dust:3>,
+<qmd:chemical_dust:7>,
+<threng:material:5>,
+<qmd:atmosphere_collector>,
+<threng:material:6>,
+<forestry:still>,
+<forestry:moistener>,
+<forestry:fermenter>,
+<extratrees:machine>,
+<gregtech:meta_block_compressed_2010:4>,
+<gregtech:meta_ingot:32048>,
+<gregtech:meta_block_compressed_2003>,
+<appliedenergistics2:material:4>,
+<extraplanets:tier11_items:6>,
+<enderio:item_material:21>
+
+];
+
+//循环移除
+for i, item in items {
+    mods.jei.JEI.removeAndHide(item);
+}

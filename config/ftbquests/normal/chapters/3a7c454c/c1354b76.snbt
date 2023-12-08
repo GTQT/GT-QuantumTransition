@@ -12,7 +12,7 @@
 		uid: "901fd973",
 		type: "item",
 		items: [{
-			item: "gregtech:meta_plate 1 113"
+			item: "gregtech:meta_ingot 1 113"
 		}]
 	}],
 	rewards: [{

@@ -1,8 +1,8 @@
 import mods.gregtech.recipe.RecipeMap;
 val vacuum_freezer = mods.gregtech.recipe.RecipeMap.getByName("vacuum_freezer");
 vacuum_freezer.recipeBuilder() 
-    .inputs(<contenttweaker:hotsilicon_item> * 1)
-    .outputs(<gregtech:meta_ingot:99> * 1)
+    .inputs(<contenttweaker:rebuxiu_item> * 1)
+    .outputs(<gregtech:meta_ingot:323> * 1)
     .duration(25)
     .EUt(120)
     .buildAndRegister();
@@ -13,6 +13,20 @@ vacuum_freezer.recipeBuilder()
     .duration(400)
     .EUt(960)
     .buildAndRegister();
+	
+vacuum_freezer.recipeBuilder() 
+    .fluidInputs(<liquid:lai>*144)
+    .outputs(<gregtech:meta_dust:32379>)
+    .duration(200)
+    .EUt(960)
+    .buildAndRegister();	
+
+vacuum_freezer.recipeBuilder() 
+    .fluidInputs(<liquid:chaotoushefen>*144)
+    .outputs(<gregtech:meta_dust:32376>)
+    .duration(200)
+    .EUt(960)
+    .buildAndRegister();	
 	
 vacuum_freezer.recipeBuilder() 
     .fluidInputs(<liquid:emergency_coolant_heated> * 125)
@@ -90,3 +104,73 @@ vacuum_freezer.recipeBuilder().outputs(<nuclearcraft:uranium:10>).fluidInputs(<l
 vacuum_freezer.recipeBuilder().outputs(<nuclearcraft:uranium:5>).fluidInputs(<liquid:uranium_235>*144).duration(200).EUt(1024).buildAndRegister();
 vacuum_freezer.recipeBuilder().outputs(<nuclearcraft:uranium>).fluidInputs(<liquid:uranium_233>*144).duration(200).EUt(1024).buildAndRegister();	
 
+vacuum_freezer.recipeBuilder() 
+    .fluidInputs(<liquid:sulfur>*144) 
+    .outputs(<gregtech:meta_dust:103>)
+    .duration(1200)
+    .EUt(7600)
+    .buildAndRegister();
+	
+vacuum_freezer.recipeBuilder() 
+    .fluidInputs(<liquid:radium>*144) 
+    .outputs(<nuclearcraft:fission_dust:1>)
+    .duration(1200)
+    .EUt(7600)
+    .buildAndRegister();
+
+vacuum_freezer.recipeBuilder() 
+    .fluidInputs(<liquid:calcium>*144) 
+    .outputs(<gregtech:meta_dust:16>)
+    .duration(1200)
+    .EUt(7600)
+    .buildAndRegister();
+
+vacuum_freezer.recipeBuilder() 
+    .fluidInputs(<liquid:chromium>*144) 
+    .outputs(<gregtech:meta_dust:22>)
+    .duration(1200)
+    .EUt(7600)
+    .buildAndRegister();
+		
+vacuum_freezer.recipeBuilder() 
+    .fluidInputs(<liquid:strontium>*144) 
+    .outputs(<qmd:ingot:14>)
+    .duration(1200)
+    .EUt(7600)
+    .buildAndRegister();
+	
+
+vacuum_freezer.recipeBuilder() 
+    .fluidInputs(<liquid:terbium>*144) 
+    .outputs(<gregtech:meta_dust:108>)
+    .duration(1200)
+    .EUt(7600)
+    .buildAndRegister();
+	
+vacuum_freezer.recipeBuilder() 
+    .fluidInputs(<liquid:erbium>*144) 
+    .outputs(<gregtech:meta_dust:32>)
+    .duration(1200)
+    .EUt(7600)
+    .buildAndRegister();
+	
+vacuum_freezer.recipeBuilder() 
+    .fluidInputs(<liquid:ytterbium>*144) 
+    .outputs(<gregtech:meta_dust:120>)
+    .duration(1200)
+    .EUt(7600)
+    .buildAndRegister();
+
+vacuum_freezer.recipeBuilder() 
+    .fluidInputs(<liquid:hafnium>*144) 
+    .outputs(<gregtech:meta_dust:32047>)
+    .duration(1200)
+    .EUt(7600)
+    .buildAndRegister();
+	
+vacuum_freezer.recipeBuilder() 
+    .fluidInputs(<liquid:polonium>*144) 
+    .outputs(<nuclearcraft:fission_dust:2>)
+    .duration(1200)
+    .EUt(7600)
+    .buildAndRegister();

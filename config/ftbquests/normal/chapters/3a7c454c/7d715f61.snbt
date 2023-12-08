@@ -1,12 +1,12 @@
 {
 	x: -1.0d,
-	y: 4.0d,
+	y: 2.5d,
 	description: "独居石的另一个副产",
 	text: [
 		""
 	],
 	dependencies: [
-		"e619aea2"
+		"12a58b10"
 	],
 	tasks: [{
 		uid: "89ec2263",

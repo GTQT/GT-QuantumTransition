@@ -12,8 +12,13 @@
 		}]
 	}],
 	rewards: [{
-		uid: "25f8a466",
+		uid: "098e4623",
 		type: "item",
-		item: "ic2:crafting 1 38"
+		item: "gregtech:wire_coil"
+	},
+	{
+		uid: "6759f217",
+		type: "random",
+		table: 0
 	}]
 }

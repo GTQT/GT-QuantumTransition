@@ -10,39 +10,39 @@ implosion_compressor.recipeBuilder()
     .buildAndRegister();
 	
 assembler.recipeBuilder()
-    .inputs([<fluxnetworks:flux>, <gregtech:meta_item_1:283>,<gregtech:meta_item_1:209>])
-	.outputs(<fluxnetworks:fluxcore>)
+    .inputs([<fluxnetworks:flux>*16, <gregtech:meta_item_1:283>*4,<gregtech:meta_item_1:209>,<ore:circuitUhv>])
+	.outputs(<fluxnetworks:fluxcore>*2)
 	.duration(300).EUt(120).buildAndRegister();
 	
 assembler.recipeBuilder()
-    .inputs([<ore:circuitUv>, <fluxnetworks:fluxcore>,<gregtech:meta_item_1:239>])
+    .inputs([<ore:circuitUv>*4,<fluxnetworks:fluxcore>,<gregtech:meta_item_1:239>,<gregtech:wire_single:15077>*32])
 	.outputs(<fluxnetworks:fluxpoint>)
 	.duration(300).EUt(120).buildAndRegister();
 	
 assembler.recipeBuilder()
-    .inputs([<ore:circuitUv>, <fluxnetworks:fluxcore>,<gregtech:meta_item_1:224>])
+    .inputs([<ore:circuitUv>*4,<fluxnetworks:fluxcore>,<gregtech:meta_item_1:224>,<gregtech:wire_single:15077>*32])
 	.outputs(<fluxnetworks:fluxplug>)
-	.duration(300).EUt(120).buildAndRegister();
+	.duration(300).EUt(120*120).buildAndRegister();
 	
 assembler.recipeBuilder()
-    .inputs([<gregtech:machine:993>*2,<fluxnetworks:fluxcore>*2,<gregtech:meta_item_1:209>,<ore:circuitUv>*2])
+    .inputs([<gregtech:machine:993>*2,<fluxnetworks:fluxcore>*2,<gregtech:meta_item_1:209>,<ore:circuitUv>*2,<gregtech:meta_item_1:753>])
 	.outputs(<fluxnetworks:fluxcontroller>)
-	.duration(300).EUt(120).buildAndRegister();
+	.duration(300).EUt(120*120).buildAndRegister();
 	
 assembler.recipeBuilder()
-    .inputs([<gregtech:machine:1336>*2,<fluxnetworks:fluxcore>*2,<gregtech:meta_item_1:745>*6,<ore:circuitZpm>*2,<gregtech:meta_foil:1010>*16])
+    .inputs([<gregtech:machine:1336>*2,<fluxnetworks:fluxcore>*2,<gregtech:meta_item_1:751>*2,<ore:circuitZpm>*2,<gregtech:meta_foil:15040>*16])
 	.fluidInputs(<liquid:orichalcum> * 144)
 	.outputs(<fluxnetworks:fluxstorage>)
-	.duration(300).EUt(120).buildAndRegister();
+	.duration(300).EUt(120*120).buildAndRegister();
 	
 assembler.recipeBuilder()
-    .inputs([<gregtech:machine:1337>*2,<fluxnetworks:fluxcore>*2,<gregtech:meta_item_1:746>*6,<ore:circuitUv>*2,<gregtech:meta_foil:1010>*32])
+    .inputs([<gregtech:machine:1337>*2,<fluxnetworks:fluxcore>*2,<gregtech:meta_item_1:751>*4,<ore:circuitUv>*4,<gregtech:meta_foil:15040>*32])
 	.fluidInputs(<liquid:orichalcum> * 144)
 	.outputs(<fluxnetworks:herculeanfluxstorage>)
-	.duration(300).EUt(120).buildAndRegister();
+	.duration(300).EUt(120*120).buildAndRegister();
 	
 assembler.recipeBuilder()
-    .inputs([<gregtech:machine:1338>*2,<fluxnetworks:fluxcore>*2,<gregtech:meta_item_1:747>*6,<ore:circuitUhv>*2,<gregtech:meta_foil:1010>*64])	
+    .inputs([<gregtech:machine:1338>*2,<fluxnetworks:fluxcore>*2,<gregtech:meta_item_1:751>*8,<ore:circuitUhv>*8,<gregtech:meta_foil:15040>*64])	
     .fluidInputs(<liquid:orichalcum> * 144)
 	.outputs(<fluxnetworks:gargantuanfluxstorage>)	
-	.duration(300).EUt(120).buildAndRegister();
+	.duration(300).EUt(120*120).buildAndRegister();

@@ -1,6 +1,6 @@
 {
-	x: -1.0d,
-	y: 7.5d,
+	x: 3.5d,
+	y: 9.0d,
 	description: "蒸燃联合PART1",
 	text: [
 		"125%的效率，来自过热蒸汽",
@@ -14,7 +14,7 @@
 		uid: "9d72c00a",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 32023"
+			item: "gregtech:machine 1 3014"
 		}]
 	}]
 }

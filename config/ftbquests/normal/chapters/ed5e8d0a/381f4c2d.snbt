@@ -17,18 +17,5 @@
 		items: [{
 			item: "gregtech:meta_dust 1 354"
 		}]
-	},
-	{
-		uid: "2a234126",
-		type: "item",
-		items: [{
-			id: "ic2:fluid_cell",
-			tag: {
-				Fluid: {
-					FluidName: "naquadah",
-					Amount: 1000
-				}
-			}
-		}]
 	}]
 }

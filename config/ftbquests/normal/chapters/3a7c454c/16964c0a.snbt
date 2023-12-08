@@ -1,5 +1,5 @@
 {
-	x: -1.0d,
+	x: 1.0d,
 	y: -3.5d,
 	description: "电动玩具",
 	text: [
@@ -13,11 +13,11 @@
 		type: "item",
 		items: [{
 			id: "gregtech:meta_item_1",
+			Damage: 467s,
 			tag: {
 				Mode: 1,
 				Charge: 1600000L
-			},
-			Damage: 467s
+			}
 		}],
 		ignore_nbt: 1b
 	},

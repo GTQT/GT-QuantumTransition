@@ -39,22 +39,22 @@ Builder.start("heat_exchanger", 32022)
     .withBaseTexture(<metastate:gregtech:metal_casing:5>)
     .buildAndRegister();
 heat_exchanger.recipeBuilder() 
-	.fluidInputs(<liquid:ic2superheated_steam>*2000,<liquid:ic2coolant>*200)
-	.fluidOutputs(<liquid:steam>*250000,<liquid:ic2hot_coolant>*200)
+	.fluidInputs(<liquid:high_pressure_steam>*2000,<liquid:coolant>*200)
+	.fluidOutputs(<liquid:steam>*250000,<liquid:hot_coolant>*200)
 	.EUt(16)
     .duration(2) 
     .buildAndRegister(); 
 
 heat_exchanger.recipeBuilder() 
-	.fluidInputs(<liquid:ic2superheated_steam>*2000,<liquid:water>*2000)
+	.fluidInputs(<liquid:high_pressure_steam>*2000,<liquid:water>*2000)
 	.fluidOutputs(<liquid:steam>*250000)
 	.EUt(16)
     .duration(2) 
     .buildAndRegister(); 
 	
 heat_exchanger.recipeBuilder() 
-	.fluidInputs(<liquid:ic2hot_coolant>*1000,<liquid:water>*100)
-	.fluidOutputs(<liquid:ic2coolant>*1000,<liquid:steam>*1000)
+	.fluidInputs(<liquid:hot_coolant>*1000,<liquid:water>*100)
+	.fluidOutputs(<liquid:coolant>*1000,<liquid:steam>*1000)
 	.EUt(16)
     .duration(1) 
     .buildAndRegister(); 

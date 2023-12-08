@@ -31,10 +31,16 @@ MaterialBuilder(32006, "infused_order")
     .ore()
     .build();
 
+MaterialBuilder(32007, "thaumium")
+    .ingot()
+    .color(0x473B6D).iconSet("INGOT")
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
+    .build();
+
 MaterialBuilder(32008, "void")
     .ingot().fluid()
     .color(0x2A1248).iconSet("SHINY")
-.flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_gear","generate_spring_small", "generate_small_gear"])
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_gear","generate_spring_small", "generate_small_gear"])
     .build();
 	
 MaterialBuilder(32009, "amber")
@@ -88,7 +94,7 @@ MaterialBuilder(32014, "conductive_iron")
 MaterialBuilder(32012, "energetic_alloy")
     .ingot().fluid()
     .color(0xd89045).iconSet("SHINY")
-   .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
     .components([
     <material:black_steel>* 1,
     <material:gold>* 1,
@@ -177,7 +183,7 @@ MaterialBuilder(32020, "xb_draconium")
     .color(0x6C3A9A).iconSet("SHINY")
    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
     .blastTemp(7200,"HIGHER",30720,2000)
-    .cableProperties(8388608, 8, 32)
+    .cableProperties(2097152, 32, 2)
     .build();
 
 MaterialBuilder(32021, "xb_draconium_awakened")
@@ -185,7 +191,7 @@ MaterialBuilder(32021, "xb_draconium_awakened")
     .color(0xFF9C00).iconSet("SHINY")
    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
     .blastTemp(9900,"HIGHEST",122880,2500)
-    .cableProperties(2147483640, 1, 16)
+    .cableProperties(8388608, 32, 2)
     .fluidPipeProperties(10000000,150000,true)
     .build();
 
@@ -377,23 +383,16 @@ MaterialBuilder(32046, "znfe")
     .ingot().fluid()
     .color(0x807C74).iconSet("INGOT")
    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
-    .element("ZnFe")
+    .components([<material:iron> * 1,<material:zinc>*1])
     .build();
 	
 //锆
 MaterialBuilder(32047, "hf")
     .ingot().fluid()
     .color(0x9d9d9d).iconSet("INGOT")
-   .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
-    .element("hf")
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
+	.components([<material:hafnium> * 1])
     .build();
-//无尽
-MaterialBuilder(32048, "infinity")
-    .ingot().fluid()
-    .color(0x9d9d9d).iconSet("INGOT")
-   .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
-    .build();
-	
 
 //植物魔法材料
 # 活石
@@ -419,18 +418,44 @@ MaterialBuilder(32044, "elven_elementium")
     .color(0xFF69B4)
     .iconSet("INGOT")
     .blastTemp(2400, "MID", 768, 300)
-   .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
     .build();
 
 # 神话钢锭
-MaterialBuilder(32045, "terrasteel")
+MaterialBuilder(32095, "terrasteel")
     .ingot().fluid()
-    .color(0x2A1248)
+    .color(0x2a8a21)
     .iconSet("INGOT")
     .blastTemp(3200, "MID", 2048, 350)
-   .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
     .build();
 
+# 血钢
+MaterialBuilder(32097, "blood_infused_iron")
+    .ingot().fluid()
+    .color(0xad4d4d)
+    .iconSet("INGOT")
+    .blastTemp(2400, "MID", 768, 300)
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
+    .build();
+
+# 盖亚
+MaterialBuilder(32098, "gaia")
+    .ingot().fluid()
+    .color(0x469BB1)
+    .iconSet("INGOT")
+    .blastTemp(2400, "MID", 768, 300)
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
+    .build();
+
+# 奥利哈
+MaterialBuilder(32099, "orichalcos")
+    .ingot().fluid()
+    .color(0xFF69B4)
+    .iconSet("INGOT")
+    .blastTemp(3200, "MID", 2048, 350)
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
+    .build();
 
 var kaemanite = MaterialBuilder(32100, "kaemanite")
     .dust()
@@ -695,14 +720,7 @@ MaterialBuilder(32138, "potassium_chloride")
     .color(0x777777).iconSet("DUST")
 	.components([<material:potassium>*1,<material:chlorine>* 1])
     .build();	
-	
-//联苯
-MaterialBuilder(32139, "biphenyl")
-    .dust()
-    .color(0x2f292f).iconSet("DUST")
-    .components([<material:carbon>*12,<material:hydrogen> * 10])
-    .build();	
-		
+
 //硫酸铵
 MaterialBuilder(32140, "ammonium_sulfate")
     .dust().fluid()
@@ -839,6 +857,7 @@ MaterialBuilder(32160, "universe_neutronium")
     .ingot()
     .color(0x644629).iconSet("INGOT")
 	.ore()
+    .cableProperties(2097152, 16, 0)
     .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
     .build();
 <material:universe_neutronium>.setFormula("NT*NT",true);
@@ -865,13 +884,7 @@ MaterialBuilder(32163, "initial_alloy")
     .components([<material:naquadah>*7,<material:palladium>*4,<material:ruthenium>*3,<material:germanium>*3,<material:plutonium>*1])
     .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
     .build();	
-//态素中子
-MaterialBuilder(32164, "cosmic_neutronium")
-    .ingot()
-    .color(0x777777).iconSet("INGOT")
-	.ore()
-    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
-    .build();
+
 //气态行星外核物质
 MaterialBuilder(32165, "star_outside_material")
     .ingot().fluid()
@@ -899,15 +912,15 @@ MaterialBuilder(32168, "refined_drac")
     .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
     .build();
 	
-<material:refined_drac>.setFormula("|*|",true);
-//龙精
-MaterialBuilder(32169, "dragon_essence")
+<material:refined_drac>.setFormula("",true);
+//通流合金
+MaterialBuilder(32169, "essence")
     .ingot().fluid()
     .color(0x9d9d9d).iconSet("INGOT")
 	.ore()
     .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
     .build();
-	
+<material:essence>.setFormula("",true);
 //煤油
 MaterialBuilder(32170, "kerosene")
     .dust().fluid()
@@ -915,45 +928,11 @@ MaterialBuilder(32170, "kerosene")
     .build();
 <material:kerosene>.setFormula("C12H26",true);
 
-//RP 1
-MaterialBuilder(32171, "rpone")
-    .dust().fluid()
-    .color(0x2f292f).iconSet("DUST")
-    .build();
-<material:rpone>.setFormula("CH3(CH2)?CH3",true);
-
-//RP 1 mix
-MaterialBuilder(32172, "rpmix")
-    .dust().fluid()
-    .color(0x644629).iconSet("DUST")
-    .build();
-<material:rpmix>.setFormula("CH3(CH2)?CH3?O",true);
-
-//密集肼
-MaterialBuilder(32173, "dense_hydrazine")
-    .dust().fluid()
-    .color(0xad4d4d).iconSet("DUST")
-    .build();
-<material:dense_hydrazine>.setFormula("NH2NH2-CH4O",true);
-
-//硝酸甲肼
-MaterialBuilder(32174, "methylhydrazine_nitrate")
-    .dust().fluid()
-    .color(0x644629).iconSet("DUST")
-    .build();
-<material:methylhydrazine_nitrate>.setFormula("CN3H7O3",true);
-
-//一甲基肼
-MaterialBuilder(32175, "monomethylhydrazine")
-    .dust().fluid()
-    .color(0x2f292f).iconSet("DUST")
-    .build();
-<material:monomethylhydrazine>.setFormula("CH6N2",true);
-
 //泽洛
 MaterialBuilder(32176, "ziro")
     .ingot().fluid()
     .color(0x636C3E).iconSet("INGOT")
+  .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
 	.ore()
     .build();
 <material:ziro>.setFormula("*-*",true);
@@ -963,6 +942,7 @@ MaterialBuilder(32177, "proton_flow")
     .ingot().fluid()
     .color(0x2f292f).iconSet("INGOT")
 	.ore()
+  .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
     .build();
 <material:proton_flow>.setFormula("*-*",true);
 
@@ -970,6 +950,7 @@ MaterialBuilder(32177, "proton_flow")
 MaterialBuilder(32178, "neutrons_flow")
     .ingot().fluid()
     .color(0x333366).iconSet("INGOT")
+  .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
 	.ore()
     .build();
 <material:neutrons_flow>.setFormula("*-*",true);
@@ -979,6 +960,8 @@ MaterialBuilder(32179, "metallic_hydrogen")
     .ingot().fluid()
     .color(0x034970).iconSet("INGOT")
 	.ore()
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
+	.cableProperties(8088608, 16, 0)
     .build();
 <material:metallic_hydrogen>.setFormula("*H*",true);
 
@@ -1000,9 +983,11 @@ MaterialBuilder(32181, "calcium_difluoride")
 
 //龙素处理
 MaterialBuilder(32182, "dragon_blood")
-    .ingot().fluid()
-    .color(0x5C1F4F).iconSet("INGOT")
+	.ingot().fluid()
+    .color(0x832DEF).iconSet("INGOT")
     .build();
+<material:dragon_blood>.setFormula("☼", false);
+
 
 MaterialBuilder(32183, "activated_dragon_tissue_mixture")
     .ingot().fluid()
@@ -1053,7 +1038,7 @@ MaterialBuilder(32191,"enriched_draconium_solution")
 MaterialBuilder(32192, "draconium")
     .ingot().fluid()
     .color(0x6C3A9A).iconSet("INGOT")
-    .flags(["generate_plate","generate_rod","generate_frame","generate_dense","generate_foil","generate_gear"])
+      .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
 	.blastTemp(7000,"HIGHER",122880,900)
     .fluidPipeProperties(6000,400,true)
     .build();
@@ -1061,7 +1046,7 @@ MaterialBuilder(32192, "draconium")
 MaterialBuilder(32193, "draconium_awakened")
     .ingot().fluid()
     .color(0xFF9C00).iconSet("INGOT")
-    .flags(["generate_plate","generate_rod","generate_frame","generate_dense","generate_foil","generate_gear"])
+      .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
 	.blastTemp(9000,"HIGHEST",491520,1200)
     .build();
 
@@ -1089,14 +1074,1080 @@ MaterialBuilder(32197,"naquadria_hydroxide")
 MaterialBuilder(32198,"nether_star")
     .ingot().fluid()
     .ore()
-    .color(0x636C3E).iconSet("INGOT")
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
+    .color(0xCCCCCC).iconSet("INGOT")
+    .build();
+/*	
+MaterialBuilder(32199,"nitinol")
+    .ingot().fluid()
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
+	.components([<material:nickel>*2,<material:titanium>*3])
+    .color(0xC39FB6).iconSet("INGOT")
+    .build();
+*/
+//硅岩产线
+MaterialBuilder(32200, "clear_enriched_naquadah")
+    .dust().fluid()
+    .color(0xad4d4d).iconSet("DUST")
+    .build();	
+<material:clear_enriched_naquadah>.setFormula("Nq+",true);	
+
+MaterialBuilder(32201, "clear_naquadah")
+    .dust().fluid()
+    .color(0xad4d4d).iconSet("DUST")
+    .build();	
+<material:clear_naquadah>.setFormula("Nq+",true);	
+
+MaterialBuilder(32202, "complicated_heavy_enriched_naquadah")
+    .dust().fluid()
+    .color(0xad4d4d).iconSet("DUST")
+    .build();	
+<material:complicated_heavy_enriched_naquadah>.setFormula("Nq+",true);	
+
+MaterialBuilder(32203, "complicated_enriched_naquadah")
+    .dust().fluid()
+    .color(0x905F83).iconSet("DUST")
+    .build();	
+<material:complicated_enriched_naquadah>.setFormula("Nq+",true);	
+
+MaterialBuilder(32204, "complicated_light_naquadah")
+    .dust().fluid()
+    .color(0x644629).iconSet("DUST")
+    .build();	
+<material:complicated_light_naquadah>.setFormula("Nq+",true);	
+
+MaterialBuilder(32205, "complicated_light_enriched_naquadah")
+    .dust().fluid()
+    .color(0x905F83).iconSet("DUST")
+    .build();	
+<material:complicated_light_enriched_naquadah>.setFormula("Nq+",true);	
+
+MaterialBuilder(32206, "enriched_xenon_hexafluoronaquadate")
+    .dust().fluid()
+    .color(0xad4d4d).iconSet("DUST")
+    .build();	
+<material:enriched_xenon_hexafluoronaquadate>.setFormula("Nq+",true);	
+
+MaterialBuilder(32207, "brookite")
+    .ingot()
+    .color(0xe7413c).iconSet("INGOT")
+	.ore()
+    .components([<material:titanium>*1,<material:iron>*1,<material:oxygen> *2])
+    .build();
+	
+//高密度能量
+MaterialBuilder(32208, "eng")
+    .dust().fluid()
+    .color(0x2f292f).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32209, "naquadah_mix")
+    .ingot()
+    .color(0x4d4ded).iconSet("INGOT")
+	.ore()
+    .build();
+<material:complicated_light_naquadah>.setFormula("?Nq?",true);	
+
+//P-507
+MaterialBuilder(32210, "pwlq")
+    .dust().fluid()
+    .color(0x2f292f).iconSet("DUST")
+    .build();	
+
+//GaOH
+MaterialBuilder(32211, "gaoh")
+    .ingot()
+    .color(0x644629).iconSet("INGOT")
+    .components([<material:gallium>*1,<material:oxygen>*1,<material:hydrogen> *1])
     .build();
 
-<material:graphite>.addFlags("generate_plate", "generate_bolt_screw","generate_rod","generate_rotor","generate_frame","generate_long_rod");
-<material:dragon_essence>.setFormula("|*|",true);
+//废氟
+MaterialBuilder(32212, "feifu")
+    .dust().fluid()
+    .color(0x905F83).iconSet("DUST")
+    .build();	
+<material:feifu>.setFormula("?F?",true);	
+
+//废液
+MaterialBuilder(32213, "feiye")
+    .dust().fluid()
+    .color(0x4D579A).iconSet("DUST")
+    .build();	
+
+//浓缩富集硅岩矿泥粉
+MaterialBuilder(32214, "fujiguiyankuangni")
+    .dust().fluid()
+    .color(0xe7413c).iconSet("DUST")
+    .build();	
+<material:fujiguiyankuangni>.setFormula("?Nq",true);	
+//氧化硅岩混合物粉
+MaterialBuilder(32215, "guiyanhunhewu")
+    .dust().fluid()
+    .color(0x372719).iconSet("DUST")
+    .build();	
+<material:guiyanhunhewu>.setFormula("?Nq",true);	
+//高纯富集硅岩溶液
+MaterialBuilder(32216, "gaochunfujiguiy")
+    .dust().fluid()
+    .color(0x2f292f).iconSet("DUST")
+    .build();	
+<material:gaochunfujiguiy>.setFormula("?Nq",true);
+//硫酸钠
+MaterialBuilder(32217, "sodium_sulfate")
+    .dust().fluid()
+    .color(0x644629).iconSet("DUST")
+    .components([<material:sodium>*1,<material:sulfur>*1,<material:oxygen> *4])
+    .build();	
+	
+//低纯硫酸超能硅岩粉
+MaterialBuilder(32218, "dichunchaonengguiyan")
+    .dust().fluid()
+    .color(0xd89045).iconSet("DUST")
+    .build();	
+<material:dichunchaonengguiyan>.setFormula("?Nq",true);	
+//低纯磷酸超能硅岩混合物粉
+MaterialBuilder(32219, "dichunlinsuanchaoneng")
+    .dust().fluid()
+    .color(0x905F83).iconSet("DUST")
+    .build();	
+<material:dichunlinsuanchaoneng>.setFormula("?Nq",true);	
+//高纯超能硅岩溶液
+MaterialBuilder(32220, "gaochunchaonengguiyan")
+    .dust().fluid()
+    .color(0x2f292f).iconSet("DUST")
+    .build();	
+<material:gaochunchaonengguiyan>.setFormula("?Nq",true);
+//绝缘云母
+MaterialBuilder(32221, "jueyuanyunmu")
+    .ingot()
+	.flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
+    .color(0x2f292f).iconSet("INGOT")
+    .build();	
+	
+//聚合矩阵
+MaterialBuilder(32222, "molten_coalescence_matrix")
+    .ingot().fluid()
+    .color(0x2D0069).iconSet("shiny")
+    .build();
+<material:molten_coalescence_matrix>.setFormula("❇",true);
+//克鲁苏
+MaterialBuilder(32223, "cthulhu")
+    .gem().fluid()
+    .iconSet("ruby")
+    .color(0x2D0069)
+    .build();
+<material:cthulhu>.setFormula("☼", false);
+
+//Aurorium : UXV superconductor
+MaterialBuilder(32224, "aurorium")
+    .ingot().fluid()
+    .color(0xDFBCDE).iconSet("shiny")
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
+    .cableProperties(134217728, 32, 0, true)
+    .build();
+
+<material:aurorium>.setFormula("☄", false);
+
+//Sunnarium : UIV conductor
+MaterialBuilder(32225, "sunnarium")
+    .ingot().fluid()
+    .color(0xCD8E26).iconSet("shiny")
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round","generate_fine_wire"])   
+    .cableProperties(33554432, 16, 8, false)
+    .build();
+<material:sunnarium>.setFormula("☀", true);
+
+//Crystal Matrix : UXV conductor
+MaterialBuilder(32226, "crystal_matrix")
+    .ingot().fluid()
+    .color(0x70ecff).iconSet("shiny")
+    .flags(["generate_plate","generate_fine_wire", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])   
+    .cableProperties(134217728, 32, 16, false)
+    .build();
+
+//Superheavy Element Mixture : OpV conductor
+MaterialBuilder(3222, "superheavy_element_mixture")
+    .ingot().fluid()
+    .color(0x70ecff).iconSet("shiny")
+	.cableProperties(536870912, 999, 32, false)
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round","generate_fine_wire"])   
+    .build();
+
+//Magneto Resonatic
+MaterialBuilder(32228, "magneto_resonatic")
+    .gem()
+	.color(0xFF97FF).iconSet("magnetic")
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
+    .build();
+
+<material:magneto_resonatic>.setFormula("(Na2TeO3)4(ZrO2)3(CrGeTe3)2", true);
+
+//HDCS (High Durability Compound Steel)
+MaterialBuilder(32229, "hdcs")
+    .ingot().fluid()
+    .color(0x334433).iconSet("shiny")
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])   
+    .blastTemp(9900)
+    .build();
+
+<material:hdcs>.setFormula("(FeW)12(((FeW)5CrMo2V)6Ir2Os)9((FeW)5CrMo2V)6(Ru2Ir)3((Na2TeO3)4(ZrO2)3(CrGeTe3)2)2Pu",true);
+
+//Superconducting Magnet Mixture
+MaterialBuilder(32230, "superconducting_magnet_mixture")
+    .ingot().fluid()
+    .color(0xFA5192).iconSet("magnetic")
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])
+    .blastTemp(9900)
+    .build();
+
+<material:superconducting_magnet_mixture>.setFormula("(PuP)9(BiFeO3)4(TuCuCl3)3", true);
+
+//Cosmic computing Mixture
+MaterialBuilder(32231, "cosmic_Computing_mixture")
+    .ingot().fluid()
+    .color(0xF9CAFD)
+    .flags(["no_unification"])
+    .iconSet("shiny")
+    .build();
+
+<material:cosmic_computing_mixture>.setFormula("((t2)u)((u2)ds)gyih", true);
+
+//Heavy Lepton Mixture
+MaterialBuilder(32232, "heavy_lepton_mixture")
+    .fluid()
+    .color(0x8FA015)
+    .build();
+
+<material:heavy_lepton_mixture>.setFormula("(t2)u", true);
+
+//Heavy quark
+MaterialBuilder(32233, "heavy_quark")
+    .fluid()
+    .color(0x845C59)
+    .build();
+
+<material:heavy_quark>.setFormula("(u₂)ds", true);
+
+//Gluon
+MaterialBuilder(32234, "gluon")
+    .fluid()
+    .color(0xE00E88)
+    .build();
+
+<material:gluon>.setFormula("g", true);
+
+//Tachyon
+MaterialBuilder(32235, "tachyon")
+    .fluid()
+    .color(0x8CC8D6)
+    .build();
+
+<material:tachyon>.setFormula("y", true);
+
+//Instanton
+MaterialBuilder(32236, "instanton")
+    .fluid()
+    .color(0x09AC8D)
+    .build();
+
+<material:instanton>.setFormula("i", true);
+
+//Higgs
+MaterialBuilder(32237, "higgs")
+    .fluid()
+    .color(0x609EA8)
+    .build();
+
+<material:higgs>.setFormula("h", true);
+
+//Quark Gluon Plasma
+MaterialBuilder(32238, "quark_gluon_plasma")
+    .fluid()
+    .color(0xD520F7)
+    .build();
+
+<material:quark_gluon_plasma>.setFormula("(u2)dsga");
+
+//Thallium Copper Chloride-Nd: YAG mixture
+MaterialBuilder(32239, "thallium_copper_chloride_ndyag_mixture")
+    .dust()
+    .color(0xA85E8B)
+    .iconSet("magnetic")
+    .build();
+
+<material:thallium_copper_chloride_ndyag_mixture>.setFormula("(NdY2Al5O12)4(TlCuCl3)2",true);
+
+//Lepton mixture
+MaterialBuilder(32240, "lepton_mixture")
+    .fluid()
+    .color(0xD4BCA3)
+    .build();
+
+<material:lepton_mixture>.setFormula("(t2)ui", true);
+
+//Sublight plasma jet 
+MaterialBuilder(32241, "sublight_plasma_jet")
+    .fluid()
+    .color(0x11F7C9)
+    .build();
+
+<material:sublight_plasma_jet>.setFormula("y", true);
+
+//Sodium Fluoride : NaF
+MaterialBuilder(32246, "sodium_fluoride")
+    .dust()
+    .color(0x460012)
+    .iconSet("dull")
+    .components([<material:sodium> * 1,
+<material:fluorine> * 1])
+    .build();
+
+//Benzyl Fluoride : C7H7F
+MaterialBuilder(32248, "benzyl_fluoride")
+    .fluid()
+    .color(0x6EC5B8)
+    .build();
+
+<material:benzyl_fluoride>.setFormula("C7H7F",true);
+
+//Yttrium Aluminum Garnet (YAG) : Y2Al5O12
+MaterialBuilder(32250, "yttrium_aluminum_garnet")
+    .gem()
+    .ore()
+    .color(0x5D313F)
+    .iconSet("shiny")
+    .build();
+
+<material:yttrium_aluminum_garnet>.setFormula("Y2Al5O12", true);
+
+//Zylon : C14H6N2O2
+MaterialBuilder(32251, "zylon")
+    .dust()
+    .fluid()
+    .color(0xFD8A12)
+    .iconSet("shiny")
+    .build();
+
+<material:zylon>.setFormula("C14H6N2O2", true);
+
+//Prezylon : C20H22N2O2
+MaterialBuilder(32252, "prezylon")
+    .dust()
+    .color(0x623250)
+    .iconSet("dull")
+    .build();
+
+<material:prezylon>.setFormula("C20H22N2O2", true);
+
+//Dinitrodipropanyloxybenzene : C12H16O2(NO2)2
+MaterialBuilder(32253, "dinitrodipropanyloxybenzene")
+    .fluid()
+    .color(0xA7C760)
+    .build();
+
+<material:dinitrodipropanyloxybenzene>.setFormula("C12H16O2(NO2)2", true);
+
+//Terephthalaldehyde : C8H6O2
+MaterialBuilder(32254, "terephthalaldehyde")
+    .dust()
+    .color(0x567C2D)
+    .build();
+<material:terephthalaldehyde>.setFormula("C8H6O2", true);
+
+//dragon_essence 
+MaterialBuilder(32255, "dragon_essence")
+    .ingot().fluid()
+	.ore()
+    .color(0x70ecff).iconSet("shiny")
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"])   
+    .build();
+//艾萨 
+MaterialBuilder(32256, "red_fluid")
+    .fluid()
+    .color(0x70ecff).iconSet("shiny")
+    .build();
+<material:red_fluid>.setFormula("Fe*Cu*Sn", true);
+
+MaterialBuilder(32257, "nie_milled")
+    .fluid()
+    .color(0x7C7C9B).iconSet("shiny")
+    .build();
+<material:nie_milled>.setFormula("Ni*", true);
+
+MaterialBuilder(32258, "bo_milled")
+    .fluid()
+    .color(0xB0B08B).iconSet("shiny")
+    .build();
+<material:bo_milled>.setFormula("Pt*Co*Pd", true);
+
+MaterialBuilder(32259, "dujushi_milled")
+    .fluid()
+    .color(0x273427).iconSet("shiny")
+    .build();
+<material:dujushi_milled>.setFormula("PO4*Th*Nd", true);
+
+MaterialBuilder(32260, "shanxin_milled")
+    .fluid()
+    .color(0xA1A1A1).iconSet("shiny")
+    .build();
+<material:shanxin_milled>.setFormula("ZnS*Cd*Ga", true);
+
+MaterialBuilder(32261, "hongshi_milled")
+    .fluid()
+    .color(0x870808).iconSet("shiny")
+    .build();
+<material:hongshi_milled>.setFormula("太复杂了", true);
+
+MaterialBuilder(32262, "huangtong_milled")
+    .fluid()
+    .color(0x9E0000).iconSet("Fe*Cu")
+    .build();
+<material:huangtong_milled>.setFormula("C8H6O2", true);
+
+MaterialBuilder(32263, "niehuangtie_milled")
+    .fluid()
+    .color(0x4A1F3E).iconSet("shiny")
+    .build();
+<material:niehuangtie_milled>.setFormula("Ni*Fe*Cu", true);
+
+MaterialBuilder(32264, "tielvliushi_milled")
+    .fluid()
+    .color(0x70ecff).iconSet("shiny")
+    .build();
+<material:tielvliushi_milled>.setFormula("Fe*Al*Si*O", true);
+
+MaterialBuilder(32265, "gailvliushi_milled")
+    .fluid()
+    .color(0x675021).iconSet("shiny")
+    .build();
+<material:gailvliushi_milled>.setFormula("Ca*Al*Si*O", true);
+
+MaterialBuilder(32266, "meilvliushi_milled")
+    .fluid()
+    .color(0x7F444A).iconSet("shiny")
+    .build();
+<material:meilvliushi_milled>.setFormula("Mg*Al*Si*O", true);
+
+MaterialBuilder(32267, "menglvliushi_milled")
+    .fluid()
+    .color(0xA44646).iconSet("shiny")
+    .build();
+
+MaterialBuilder(32268, "sodium_ethylate")
+    .dust()
+    .iconSet("dull")
+    .color(0xD0FC8F)
+    .build();
+<material:sodium_ethylate>.setFormula("C2H5ONa", true);
+
+MaterialBuilder(32269, "sodium_ethylxanthate")
+    .dust()
+    .iconSet("shiny")
+    .color(0xF3F311)
+    .build();
+<material:sodium_ethylxanthate>.setFormula("C3H5NaOS2", true);
+
+MaterialBuilder(32270, "potassium_ethylate")
+    .dust()
+    .iconSet("dull")
+    .color(0xFBC47D)
+    .build();
+<material:potassium_ethylate>.setFormula("C2H5OK", true);
+
+MaterialBuilder(32271, "potassium_ethylxanthate")
+    .dust()
+    .iconSet("shiny")
+    .color(0xB9AD83)
+    .build();
+<material:potassium_ethylxanthate>.setFormula("C3H5KOS2", true);
+
+MaterialBuilder(32272, "carbon_disulfide")
+    .fluid()
+    .color(0x70ecff)
+    .build();
+<material:carbon_disulfide>.setFormula("CS2", true);
+
+MaterialBuilder(32273, "coolant")
+    .fluid()
+    .color(0xCB7266)
+    .build();
+
+MaterialBuilder(32277, "hot_coolant")
+    .fluid()
+    .color(0xB9AD83)
+    .build();
+	
+MaterialBuilder(32278, "biogas")
+    .fluid()
+    .color(0xF3F311)
+    .build();
+	
+MaterialBuilder(32279, "superheated_steam")
+    .fluid()
+    .color(0xCB7266)
+    .build();
+
+MaterialBuilder(32280, "austenite_steel")
+    .ingot().fluid()
+    .color(0x630d56).iconSet("shiny")
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round"])   
+    .build();	
+
+MaterialBuilder(32281, "lunarium")
+    .ingot().fluid()
+    .color(0x779689).iconSet("bright")
+    .flags(["generate_plate","generate_foil","generate_fine_wire","generate_gear","generate_small_gear","generate_frame"])
+    .cableProperties(33554432, 32, 32, false)
+    .build();
+
+MaterialBuilder(32282, "mithril")
+    .ingot().fluid()
+    .color(0x6d2a50).iconSet("shiny")
+    .cableProperties(33554432, 8, 8, false)
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round","generate_fine_wire"])   
+    .build();
+
+MaterialBuilder(32283, "tiberium")
+    .ingot().fluid()
+    .color(0x9E8DB9).iconSet("shiny")
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round","generate_fine_wire"])   
+    .build();
+	
+MaterialBuilder(32284, "hikarium")
+    .ingot().fluid()
+    .color(0xBEF32C).iconSet("shiny")
+    .cableProperties(33554432, 16, 16, false)
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round","generate_fine_wire"])   
+    .build();
+<material:hikarium>.setFormula("✴", false);
+
+MaterialBuilder(32285, "black_hole_matter_polymer_matrix")
+    .ingot().fluid()
+    .color(0xBEF32C).iconSet("shiny")
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round","generate_fine_wire"])   
+    .build();
+	
+MaterialBuilder(32287, "arcanium")
+    .ingot().fluid()
+    .color(0x6F6382).iconSet("shiny")
+    .blastTemp(18800)
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round","generate_fine_wire"])   
+    .build();
+	
+MaterialBuilder(32288, "dense_magnetically_constrained_stellar_plasma_fluid")
+    .fluid()
+    .color(0x9999CC)
+    .build();
+	
+MaterialBuilder(32289, "stellar_debris")
+    .ingot().fluid()
+    .color(0x9E8DB9).iconSet("shiny")
+    .blastTemp(17900)
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round","generate_fine_wire"])   
+    .build();
+	
+MaterialBuilder(32290, "quadruple_crystal_matrix")
+    .ingot().fluid()
+    .color(0x8B4513).iconSet("shiny")
+	.cableProperties(536870912, 999, 32, false)
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round","generate_fine_wire"])   
+    .build();
+	
+MaterialBuilder(32291, "quadruple_eternal")
+    .ingot().fluid()
+    .color(0x8B4513).iconSet("shiny")
+	.cableProperties(536870912, 999, 32, false)
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round","generate_fine_wire"])   
+    .build();
+	
+MaterialBuilder(32292, "octal_superheavy_element_mixture")
+    .ingot().fluid()
+    .color(0x79FE00).iconSet("shiny")
+	.cableProperties(536870912, 999, 32, false)
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round","generate_fine_wire"])   
+    .build();
+	
+MaterialBuilder(32293, "small_superheavy_element_mixture")
+    .ingot().fluid()
+    .color(0x29288A).iconSet("shiny")
+	.cableProperties(536870912, 999, 32, false)
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round","generate_fine_wire"])   
+    .build();
+	
+MaterialBuilder(32294, "eternal")
+    .ingot().fluid()
+    .color(0x9E19CF).iconSet("shiny")
+	.cableProperties(536870912, 999, 32, false)
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round","generate_fine_wire"])   
+    .build();
+	
+MaterialBuilder(32295, "uevchaodao")
+    .ingot().fluid()
+    .color(0x8B4513).iconSet("shiny")
+	.cableProperties(8388608, 32, 0, true)
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round","generate_fine_wire"])   
+    .build();
+	
+MaterialBuilder(32296, "uivchaodao")
+    .ingot().fluid()
+    .color(0x79FE00).iconSet("shiny")
+	.cableProperties(33554432, 32, 0, true)
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round","generate_fine_wire"])   
+    .build();
+	
+//镧系
+MaterialBuilder(32297, "dujushixituzhuorongye")
+    .dust().fluid()
+    .color(0x644629).iconSet("DUST")
+    .build();	
+<material:dujushixituzhuorongye>.setFormula("?", false);
+
+MaterialBuilder(32298, "xishidujushixitunijiang")
+    .dust().fluid()
+    .color(0x4A1BB1).iconSet("DUST")
+    .build();	
+<material:xishidujushixitunijiang>.setFormula("?", false);
+
+MaterialBuilder(32299, "yanghuahayanghuagao")
+    .dust().fluid()
+    .color(0xFA2600).iconSet("DUST")
+    .build();	
+<material:yanghuahayanghuagao>.setFormula("Hf?O=Zr?O", false);
+
+MaterialBuilder(32300, "liusuandujushi")
+    .dust().fluid()
+    .color(0xEEDD6D).iconSet("DUST")
+    .build();	
+<material:liusuandujushi>.setFormula("?SO4?", false);
+
+MaterialBuilder(32301, "xishiliusuandujushi")
+    .dust().fluid()
+    .color(0x95CE92).iconSet("DUST")
+    .build();	
+<material:xishiliusuandujushi>.setFormula("?SO4?", false);
+
+MaterialBuilder(32302, "suanxingdujushifen")
+    .dust().fluid()
+    .color(0x4E71F0).iconSet("DUST")
+    .build();	
+
+MaterialBuilder(32303, "dujushixitulvzha")
+    .dust().fluid()
+    .color(0xDB6951).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32304, "lingsuantulvbing")
+    .dust().fluid()
+    .color(0x0B8596).iconSet("DUST")
+    .build();	
+<material:lingsuantulvbing>.setFormula("PO4?Th", false);
+
+MaterialBuilder(32305, "lingsuantulvjing")
+    .dust().fluid()
+    .color(0xD80036).iconSet("DUST")
+    .build();	
+<material:lingsuantulvjing>.setFormula("PO4=Th", false);
+
+MaterialBuilder(32306, "zhonghedujushixitulvzha")
+    .dust().fluid()
+    .color(0xD54338).iconSet("DUST")
+    .build();
+	
+MaterialBuilder(32307, "nhfournothree")
+    .dust().fluid()
+    .color(0x003F5F).iconSet("DUST")
+    .build();
+	
+MaterialBuilder(32308, "nongsuodujushixituqingyanghuawu")
+    .dust().fluid()
+    .color(0x9E19CF).iconSet("DUST")
+    .build();
+
+MaterialBuilder(32309, "youlvzhafen")
+    .dust().fluid()
+    .color(0x79B349).iconSet("DUST")
+    .build();
+
+MaterialBuilder(32310, "zhongheyoulvzhafen")
+    .dust().fluid()
+    .color(0xCCF7FB).iconSet("DUST")
+    .build();
+	
+MaterialBuilder(32311, "ganzaonongsuoxiaosuandujushixitu")
+    .dust().fluid()
+    .color(0xF3F3F3).iconSet("DUST")
+    .build();
+
+MaterialBuilder(32312, "nongsuodanhuadujushixiturongye")
+    .dust().fluid()
+    .color(0x4EDAC5).iconSet("DUST")
+    .build();
+	
+MaterialBuilder(32313, "xiaosuandujushijinchuwu")
+    .dust().fluid()
+    .color(0x779689).iconSet("DUST")
+    .build();
+	
+MaterialBuilder(32314, "nongsuoxiaosuandujushixitufen")
+    .dust().fluid()
+    .color(0x11F7C9).iconSet("DUST")
+    .build();		
+	
+MaterialBuilder(32315, "dujushihantuchengdianfen")
+    .dust().fluid()
+    .color(0xD4BCA3).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32316, "yizhiluhuadujushixitu")
+    .dust().fluid()
+    .color(0xA85E8B).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32317, "shanjingfen")
+    .dust().fluid()
+	.ore()
+    .color(0xD520F7).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32318, "baohedujushixitufen")
+    .dust().fluid()
+    .color(0x609EA8).iconSet("DUST")
+    .build();	
+
+MaterialBuilder(32319, "shanchengdian")
+    .dust().fluid()
+    .color(0x09AC8D).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32320, "futanlanshixituzhuorongye")
+    .dust().fluid()
+    .color(0x8CC8D6).iconSet("DUST")
+    .build();	
+
+MaterialBuilder(32321, "zhengqiliejiefutanlanshixituzhuorongye")
+    .dust().fluid()
+    .color(0xE00E88).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32322, "fuguisuan")
+    .dust().fluid()
+    .color(0x845C59).iconSet("DUST")
+    .build();	
+
+MaterialBuilder(32323, "fuguisuanna")
+    .dust().fluid()
+    .color(0x8FA015).iconSet("DUST")
+    .build();		
+	
+MaterialBuilder(32324, "tiaozhizhengqiliejiefutanlanshixituzhuorongye")
+    .dust().fluid()
+    .color(0xF9CAFD).iconSet("DUST")
+    .build();	
+
+MaterialBuilder(32325, "xishifutanlanshinijiang")
+    .dust().fluid()
+    .color(0xFA5192).iconSet("DUST")
+    .build();	
+
+MaterialBuilder(32326, "guolvxishifutanlanshinijiang")
+    .dust().fluid()
+    .color(0x334433).iconSet("DUST")
+    .build();	
+
+MaterialBuilder(32327, "futanlanshixituyanghuawu")
+    .dust().fluid()
+    .color(0xFF97FF).iconSet("DUST")
+    .build();	
+
+MaterialBuilder(32328, "suanjingfutanlanshixituyanghuawu")
+    .dust().fluid()
+    .color(0x998EA6).iconSet("DUST")
+    .build();	
+		
+MaterialBuilder(32329, "beishaoxituyanghuawufen")
+    .dust().fluid()
+    .color(0x70ecff).iconSet("DUST")
+    .build();			
+	
+MaterialBuilder(32330, "shixituyanghuawu")
+    .dust().fluid()
+    .color(0x000000).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32331, "yanghuawushixituyanghuawu")
+    .dust().fluid()
+    .color(0xCD8E26).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32332, "futanlanshihantuyanghuawu")
+    .dust().fluid()
+    .color(0xDFBCDE).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32333, "danhuafutanlanshihantuyanghuawu")
+    .dust().fluid()
+    .color(0x2D0069).iconSet("DUST")
+    .build();	
+
+MaterialBuilder(32334, "futanlanshihantuyanghuaxuanzhuo")
+    .dust().fluid()
+    .color(0x832DEF).iconSet("DUST")
+    .build();	
+
+MaterialBuilder(32335, "ruxitujing")
+    .dust().fluid()
+    .color(0x428fdb).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32336, "shanxitujingfen")
+    .dust().fluid()
+    .color(0x800D0D).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32337, "fuhuashanjingfen")
+    .dust().fluid()
+    .color(0xff7f0f).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32338, "shantuihunhewu")
+    .dust().fluid()
+    .color(0xad2f05).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32339, "danhuashantuihunhewu")
+    .dust().fluid()
+    .color(0xf6ff99).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32340, "xiaosuantuifen")
+    .dust().fluid()
+    .color(0xd6d980).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32341, "caosuan")
+    .dust().fluid()
+    .color(0xa4ff70).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32342, "eryanghuashi")
+    .dust().fluid()
+    .color(0xffb545).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32343, "lvhuashi")
+    .dust().fluid()
+    .color(0xb2c0c1).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32344, "caosuanshi")
+    .dust().fluid()
+    .color(0x414751).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32345, "yanghuashisan")
+    .dust().fluid()
+    .color(0xf7b29b).iconSet("DUST")
+    .build();		
+	
+MaterialBuilder(32346, "tuolinshanjingfen")
+    .dust().fluid()
+    .color(0x6ae26e).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32347, "nongsuoxiaosuandujushijinchuwu")
+    .dust().fluid()
+    .color(0xE00E88).iconSet("DUST")
+    .build();		
+	
+MaterialBuilder(32348, "liusuangaoha")
+    .dust().fluid()
+    .color(0x428fdb).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32349, "cuyanghuagaoha")
+    .dust().fluid()
+    .color(0xF9CAFD).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32350, "lvhuayanghuagaoha")
+    .dust().fluid()
+    .color(0xEEE7E7).iconSet("DUST")
+    .build();
+	
+MaterialBuilder(32351, "culvhuagao")
+    .dust().fluid()
+    .color(0x800D0D).iconSet("DUST")
+    .build();
+
+MaterialBuilder(32352, "lvhuaha")
+    .dust().fluid()
+    .color(0xf7b29b).iconSet("DUST")
+    .build();
+	
+MaterialBuilder(32353, "yuchulixitu")
+    .dust().fluid()
+    .color(0xF9CAFD).iconSet("DUST")
+    .build();
+	
+MaterialBuilder(32354, "chunjingchulixitu")
+    .dust().fluid()
+    .color(0xf6ff99).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32355, "shanxituzhuorongye")
+    .dust().fluid()
+    .color(0xF9CAFD).iconSet("DUST")
+    .build();	
+
+MaterialBuilder(32356, "xishishannijiang")
+    .dust().fluid()
+    .color(0xCD8E26).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32357, "xishishanrongye")
+    .dust().fluid()
+    .color(0x2D0069).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32358, "caosuanshan")
+    .dust().fluid()
+    .color(0x832DEF).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32359, "shanzhuoye")
+    .dust().fluid()
+    .color(0x428fdb).iconSet("DUST")
+    .build();	
+
+MaterialBuilder(32360, "lvhuashan")
+    .dust().fluid()
+    .color(0x800D0D).iconSet("DUST")
+    .build();	
+
+MaterialBuilder(32361, "lvhuashanxituhunhewu")
+    .dust().fluid()
+    .color(0xa4ff70).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32362, "xituhuahewu")
+    .dust().fluid()
+    .color(0xffb545).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32363, "hanzachengdianxitu")
+    .dust().fluid()
+    .color(0xb2c0c1).iconSet("DUST")
+    .build();
+	
+MaterialBuilder(32364, "lvhuachengdianxitu")
+    .dust().fluid()
+    .color(0x414751).iconSet("DUST")
+    .build();
+	
+MaterialBuilder(32365, "xitucuiquzhuoye")
+    .dust().fluid()
+    .color(0xf7b29b).iconSet("DUST")
+    .build();
+	
+MaterialBuilder(32366, "daichengdianxitucuiquzhuoye")
+    .dust().fluid()
+    .color(0x800D0D).iconSet("DUST")
+    .build();
+	
+MaterialBuilder(32367, "jiejinggaohahunhewu")
+    .dust().fluid()
+    .color(0x6ae26e).iconSet("DUST")
+    .build();
+
+MaterialBuilder(32368, "batancuihuaji")
+    .dust().fluid()
+    .color(0xad2f05).iconSet("DUST")
+    .build();
+	
+MaterialBuilder(32369, "jingbatancuihuaji")
+    .dust().fluid()
+    .color(0xd6d980).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32370, "duibenerjiaquan")
+    .dust().fluid()
+    .color(0xffb545).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32371, "erxiujiaben")
+    .dust().fluid()
+    .color(0xffb545).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32372, "yanghuana")
+    .dust().fluid()
+    .color(0xb2c0c1).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32373, "yisuanna")
+    .dust().fluid()
+    .color(0x414751).iconSet("DUST")
+    .build();	
+
+MaterialBuilder(32374, "lvbingwan")
+    .dust().fluid()
+    .color(0xf7b29b).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32375, "chaojinghuahewu")
+    .dust().fluid()
+    .color(0xf7b29b).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32376, "chaotoushefen")
+    .dust().fluid()
+    .color(0x414751).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32378, "chaojinghuaa")
+    .dust().fluid()
+    .color(0xb2c0c1).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32379, "lai")
+    .dust().fluid()
+    .color(0xffb545).iconSet("DUST")
+    .build();		
+	
+MaterialBuilder(32380, "dijihenxingwuzhicanliu")
+    .dust().fluid()
+    .color(0xffb545).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32381, "zhongjihenxingwuzhicanliu")
+    .dust().fluid()
+    .color(0xf7b29b).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32382, "gaojihenxingwuzhicanliu")
+    .dust().fluid()
+    .color(0x414751).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32383, "infinity_catalyst")
+    .dust().fluid().ore()
+    .color(0x414751).iconSet("DUST")
+    .build();	
+	
+MaterialBuilder(32384, "hypogen")
+    .ingot().fluid()
+    .color(0x9E19CF).iconSet("shiny")
+	.cableProperties(536870912, 999, 32, false)
+    .flags(["generate_plate", "generate_dense", "generate_rod","generate_rotor","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear", "generate_round","generate_fine_wire"])   
+    .build();
+	
+<material:carbon_disulfide>.setFormula("CS2", true);
+<material:menglvliushi_milled>.setFormula("C8H6O2", true);
+<material:gaochunchaonengguiyan>.setFormula("?Nq",true);	
 <material:certus_quartz>.addFlags("generate_rod", "generate_bolt_screw");
 <material:nether_quartz>.addFlags("generate_rod", "generate_bolt_screw");
 <material:iron>.addFlags("generate_dense");
+<material:bronze>.addFlags("generate_dense");
 <material:lead>.addFlags("generate_dense");
 <material:brass>.addFlags("generate_spring", "generate_gear", "generate_ring");
 <material:bronze>.addFlags("generate_fine_wire");
@@ -1111,11 +2162,13 @@ MaterialBuilder(32198,"nether_star")
 <material:seaborgium>.addFlags("generate_rotor");
 <material:europium>.addFlags("generate_ring");
 <material:tungsten>.addFlags("generate_dense");
+<material:steel>.addFlags("generate_dense");
 <material:tantalum>.addFlags("generate_bolt_screw");
 <material:nether_star>.addFlags("generate_bolt_screw");
 <material:magnesium>.addFlags("generate_plate", "generate_bolt_screw","generate_rod","generate_rotor","generate_frame","generate_long_rod");
 <material:americium>.addFlags("generate_bolt_screw","generate_rotor","generate_frame","generate_long_rod");
 <material:lead>.addFlags("generate_frame");
+<material:graphite>.addFlags(["generate_plate","generate_dense", "generate_rod","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"]);
 <material:copper>.addFlags(["generate_plate","generate_dense", "generate_rod","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"]);
 <material:bismuth>.addFlags(["generate_plate","generate_dense", "generate_rod","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"]);
 <material:beryllium>.addFlags(["generate_plate","generate_dense", "generate_rod","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"]);
@@ -1171,7 +2224,7 @@ MaterialBuilder(32198,"nether_star")
 <material:polystyrene_sulfonate>.addFlags(["generate_plate","generate_dense", "generate_rod","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"]);
 <material:kapton_e>.addFlags(["generate_plate","generate_dense", "generate_rod","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"]);
 <material:kapton_k>.addFlags(["generate_plate","generate_dense", "generate_rod","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"]);
-<material:pedot_tma>.addFlags(["generate_plate","generate_dense", "generate_rod","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"]);
+<material:pedot_tma>.addFlags(["generate_fine_wire", "generate_spring_small","generate_plate","generate_dense", "generate_rod","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"]);
 <material:pedot_pss>.addFlags(["generate_plate","generate_dense", "generate_rod","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"]);
 <material:magnesium_diboride>.addFlags(["generate_plate","generate_dense", "generate_rod","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"]);
 <material:kevlar>.addFlags(["generate_plate","generate_dense", "generate_rod","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"]);
@@ -1183,3 +2236,5 @@ MaterialBuilder(32198,"nether_star")
 <material:zblan_glass>.addFlags(["generate_plate","generate_dense", "generate_rod","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"]);
 <material:gst_glass>.addFlags(["generate_plate","generate_dense", "generate_rod","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"]);
 <material:metallic_hydrogen>.addFlags(["generate_plate","generate_dense", "generate_rod","generate_frame","generate_ring","generate_foil", "generate_long_rod", "generate_bolt_screw", "generate_spring","generate_spring_small","generate_gear", "generate_small_gear"]);
+<material:neutronium>.addFlags(["generate_rotor"]);
+<material:vibranium>.addFlags(["generate_rod", "generate_frame", "generate_foil", "generate_fine_wire"]);

@@ -132,42 +132,163 @@ stella_anvil_module.setToolClass("pickaxe");
 stella_anvil_module.setToolLevel(3);
 stella_anvil_module.register();
 
-//龙线圈
-var machine_coil_drac = VanillaFactory.createBlock("machine_coil_drac", <blockmaterial:iron>);
-machine_coil_drac.entitySpawnable = false;
-machine_coil_drac.fullBlock = false;
-machine_coil_drac.setToolClass("pickaxe");
-machine_coil_drac.setToolLevel(3);
-machine_coil_drac.register();
+//镍钛诺机械外壳
+var nitinol_casing = VanillaFactory.createBlock("nitinol_casing", <blockmaterial:iron>);
+nitinol_casing.entitySpawnable = false;
+nitinol_casing.fullBlock = false;
+nitinol_casing.setToolClass("pickaxe");
+nitinol_casing.setToolLevel(3);
+nitinol_casing.register();
 
-//觉醒龙线圈
-var machine_coil_wdrac = VanillaFactory.createBlock("machine_coil_wdrac", <blockmaterial:iron>);
-machine_coil_wdrac.entitySpawnable = false;
-machine_coil_wdrac.fullBlock = false;
-machine_coil_wdrac.setToolClass("pickaxe");
-machine_coil_wdrac.setToolLevel(3);
-machine_coil_wdrac.register();
+//annihilationcasing
+var annihilationcasing = VanillaFactory.createBlock("annihilationcasing", <blockmaterial:iron>);
+annihilationcasing.entitySpawnable = false;
+annihilationcasing.fullBlock = false;
+annihilationcasing.setToolClass("pickaxe");
+annihilationcasing.setToolLevel(3);
+annihilationcasing.register();
 
-//态素中子线圈
-var machine_coil_unive = VanillaFactory.createBlock("machine_coil_unive", <blockmaterial:iron>);
-machine_coil_unive.entitySpawnable = false;
-machine_coil_unive.fullBlock = false;
-machine_coil_unive.setToolClass("pickaxe");
-machine_coil_unive.setToolLevel(3);
-machine_coil_unive.register();
+//dimensionalcasing
+var dimensionalcasing = VanillaFactory.createBlock("dimensionalcasing", <blockmaterial:iron>);
+dimensionalcasing.entitySpawnable = false;
+dimensionalcasing.fullBlock = false;
+dimensionalcasing.setToolClass("pickaxe");
+dimensionalcasing.setToolLevel(3);
+dimensionalcasing.register();
 
-//无尽线圈
-var machine_coil_end = VanillaFactory.createBlock("machine_coil_end", <blockmaterial:iron>);
-machine_coil_end.entitySpawnable = false;
-machine_coil_end.fullBlock = false;
-machine_coil_end.setToolClass("pickaxe");
-machine_coil_end.setToolLevel(3);
-machine_coil_end.register();
+//fieldgeneratorcasing
+var fieldgeneratorcasing = VanillaFactory.createBlock("fieldgeneratorcasing", <blockmaterial:iron>);
+fieldgeneratorcasing.entitySpawnable = false;
+fieldgeneratorcasing.fullBlock = false;
+fieldgeneratorcasing.setToolClass("pickaxe");
+fieldgeneratorcasing.setToolLevel(3);
+fieldgeneratorcasing.register();
 
-//库珀对线圈
-var cupar_proton_pair_coil = VanillaFactory.createBlock("cupar_proton_pair_coil", <blockmaterial:iron>);
-cupar_proton_pair_coil.entitySpawnable = false;
-cupar_proton_pair_coil.fullBlock = false;
-cupar_proton_pair_coil.setToolClass("pickaxe");
-cupar_proton_pair_coil.setToolLevel(3);
-cupar_proton_pair_coil.register();
+//quantumcomputercasing
+var quantumcomputercasing = VanillaFactory.createBlock("quantumcomputercasing", <blockmaterial:iron>);
+quantumcomputercasing.entitySpawnable = false;
+quantumcomputercasing.fullBlock = false;
+quantumcomputercasing.setToolClass("pickaxe");
+quantumcomputercasing.setToolLevel(3);
+quantumcomputercasing.register();
+
+//blockgraphite
+var blockgraphite = VanillaFactory.createBlock("blockgraphite", <blockmaterial:iron>);
+blockgraphite.entitySpawnable = false;
+blockgraphite.fullBlock = false;
+blockgraphite.setToolClass("pickaxe");
+blockgraphite.setToolLevel(3);
+blockgraphite.register();
+
+//basecasing
+var basecasing = VanillaFactory.createBlock("basecasing", <blockmaterial:iron>);
+basecasing.entitySpawnable = false;
+basecasing.fullBlock = false;
+basecasing.setToolClass("pickaxe");
+basecasing.setToolLevel(3);
+basecasing.register();
+
+//logcasing
+var logcasing = VanillaFactory.createBlock("logcasing", <blockmaterial:iron>);
+logcasing.entitySpawnable = false;
+logcasing.fullBlock = false;
+logcasing.setToolClass("pickaxe");
+logcasing.setToolLevel(3);
+logcasing.register();
+
+//berylliumdetector
+var berylliumdetector = VanillaFactory.createBlock("berylliumdetector", <blockmaterial:iron>);
+berylliumdetector.entitySpawnable = false;
+berylliumdetector.fullBlock = false;
+berylliumdetector.setToolClass("pickaxe");
+berylliumdetector.setToolLevel(3);
+berylliumdetector.register();
+
+//cryogeniccasing
+var cryogeniccasing = VanillaFactory.createBlock("cryogeniccasing", <blockmaterial:iron>);
+cryogeniccasing.entitySpawnable = false;
+cryogeniccasing.fullBlock = false;
+cryogeniccasing.setToolClass("pickaxe");
+cryogeniccasing.setToolLevel(3);
+cryogeniccasing.register();
+
+//advancedcraftingunit
+var advancedcraftingunit = VanillaFactory.createBlock("advancedcraftingunit", <blockmaterial:iron>);
+advancedcraftingunit.entitySpawnable = false;
+advancedcraftingunit.fullBlock = false;
+advancedcraftingunit.setToolClass("pickaxe");
+advancedcraftingunit.setToolLevel(3);
+advancedcraftingunit.register();
+
+//motorblock
+var motorblock = VanillaFactory.createBlock("motorblock", <blockmaterial:iron>);
+motorblock.entitySpawnable = false;
+motorblock.fullBlock = false;
+motorblock.setToolClass("pickaxe");
+motorblock.setToolLevel(3);
+motorblock.register();
+
+//neutronaccelerator
+var neutronaccelerator = VanillaFactory.createBlock("neutronaccelerator", <blockmaterial:iron>);
+neutronaccelerator.entitySpawnable = false;
+neutronaccelerator.fullBlock = false;
+neutronaccelerator.setToolClass("pickaxe");
+neutronaccelerator.setToolLevel(3);
+neutronaccelerator.register();
+
+//neutronsensor
+var neutronsensor = VanillaFactory.createBlock("neutronsensor", <blockmaterial:iron>);
+neutronsensor.entitySpawnable = false;
+neutronsensor.fullBlock = false;
+neutronsensor.setToolClass("pickaxe");
+neutronsensor.setToolLevel(3);
+neutronsensor.register();
+
+// 新机械方块
+var electromagnetic_acceleration_pipe_box = VanillaFactory.createBlock("electromagnetic_acceleration_pipe_box", <blockmaterial:iron>);
+electromagnetic_acceleration_pipe_box.register();
+
+var advanced_electromagnetic_acceleration_pipe_box = VanillaFactory.createBlock("advanced_electromagnetic_acceleration_pipe_box", <blockmaterial:iron>);
+advanced_electromagnetic_acceleration_pipe_box.register();
+
+var neutron_tube_casing = VanillaFactory.createBlock("neutron_tube_casing", <blockmaterial:iron>);
+neutron_tube_casing.register();
+
+var mervin_tara_carbonoxygen_casing = VanillaFactory.createBlock("mervin_tara_carbonoxygen_casing", <blockmaterial:iron>);
+mervin_tara_carbonoxygen_casing.register();
+
+var Indestructible_casing = VanillaFactory.createBlock("Indestructible_casing", <blockmaterial:iron>);
+Indestructible_casing.register();
+
+var accelerator_force_field_containment_mechanical_block = VanillaFactory.createBlock("accelerator_force_field_containment_mechanical_block", <blockmaterial:iron>);
+accelerator_force_field_containment_mechanical_block.register();
+
+var radiation_protection_mechanical_block = VanillaFactory.createBlock("radiation_protection_mechanical_block", <blockmaterial:iron>);
+radiation_protection_mechanical_block.register();
+
+var neutron_source = VanillaFactory.createBlock("neutron_source", <blockmaterial:iron>);
+neutron_source.register();
+
+var unmeltable_machine_block = VanillaFactory.createBlock("unmeltable_machine_block", <blockmaterial:iron>);
+unmeltable_machine_block.register();
+
+var gravitational_field_constraint_machine_block = VanillaFactory.createBlock("gravitational_field_constraint_machine_block", <blockmaterial:iron>);
+gravitational_field_constraint_machine_block.register();
+
+var stable_neutron_pipe_block = VanillaFactory.createBlock("stable_neutron_pipe_block", <blockmaterial:iron>);
+stable_neutron_pipe_block.register();
+
+var vacuum_casing = VanillaFactory.createBlock("vacuum_casing", <blockmaterial:iron>);
+vacuum_casing.register();
+
+var isa_machine_casing = VanillaFactory.createBlock("isa_machine_casing", <blockmaterial:iron>);
+isa_machine_casing.register();
+
+var flotation_casing = VanillaFactory.createBlock("flotation_casing", <blockmaterial:iron>);
+flotation_casing.register();
+
+var fishing_machine_casing = VanillaFactory.createBlock("fishing_machine_casing", <blockmaterial:iron>);
+fishing_machine_casing.register();
+
+var flotation_cell = VanillaFactory.createBlock("flotation_cell", <blockmaterial:iron>);
+flotation_cell.register();

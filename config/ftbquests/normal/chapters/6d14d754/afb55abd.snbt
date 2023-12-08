@@ -1,15 +1,25 @@
 {
 	title: "游戏须知",
-	x: 2.0d,
+	x: 0.0d,
 	y: 2.0d,
+	shape: "gear",
 	description: "必读！！",
 	text: [
 		"任务如果遇到无法解锁，请查看任务前置是否完成，如何看任务前置",
 		"随便点开一个任务，你会在任务框顶部最左边图标的正下方有一个向左的三角，点击三角即可查看任务前置。",
 		"---------------------------------------------------",
+		"如果你遇到游戏跑图卡顿，可以选择使用原版地形生成器。",
+		"如果你觉得游戏加载时间过长，可以考虑删除内置的材质包。",
+		"---------------------------------------------------",
+		"如果你在使用终端探矿时遇到崩溃，请使用其他扫描仪器",
+		"---------------------------------------------------",
 		"关于内网穿透显示 发生致命错误，链接终止",
 		"请按照如下步骤 单人模式打开或者创建你所需要的游戏存档，在生存模式下进入花园世界并且保证花园世界拥有一个FTB强制加载区块，3-5秒后重新尝试内网穿透。或者删除 实用世界 UtilityWorlds模组（这会导致花园世界消失，这也意味着你需要提前搬家，避免造成损失）",
-		"并且删除.minecraft\\versions\\GTQT\\scripts目录下的utilityworlds.zs文件",
+		"---------------------------------------------------",
+		"如果你的存档突然消失了，请按照如下步骤",
+		"方法一：使用备份存档",
+		"方法二：新建存档，转移老存档文件夹里的所有内容替换到新存档文件夹内",
+		"如果你希望避免这些问题可以直接删除visual ore这个模组",
 		"---------------------------------------------------",
 		"如何关闭左上角的小字",
 		"/igi disable",
@@ -40,11 +50,18 @@
 		"---------------------------------------------------",
 		"请不要打开 快速渲染 选项",
 		"---------------------------------------------------",
-		"请重启游戏后在主界面更换光影来保证游戏正常运行"
+		"如果遇到更换光影导致游戏黑屏，请重启游戏后在主界面更换光影来保证游戏正常运行",
+		"---------------------------------------------------",
+		"如果需要开启全屏，请在视频设置里选择 全屏：开",
+		"---------------------------------------------------",
+		"如果遇到内存清理卡顿，使用如下JVM参数：",
+		"-d64 -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ParallelGCThreads=8 -Dsun.rmi.dgc.server.gcInterval=3600000 -XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis=50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInvalidMinecraftCertificates=true -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio=3 -Dfml.readTimeout=90 -XX:+UseFastAccessorMethods",
+		"---------------------------------------------------"
 	],
 	dependencies: [
 		"2e7b437e"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "281b454d",
 		type: "checkmark"

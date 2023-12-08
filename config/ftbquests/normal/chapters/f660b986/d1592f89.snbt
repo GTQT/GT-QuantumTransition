@@ -16,16 +16,16 @@
 		uid: "8bbff231",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "oreOilsands",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreOilsands"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreOilsands"
 				}
 			}
 		}],

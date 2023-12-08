@@ -12,11 +12,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "ae7b4e1c",
-		type: "item",
-		item: "gregtech:machine 1 1005"
-	},
-	{
 		uid: "2af43f37",
 		type: "item",
 		item: "enderio:item_liquid_conduit 1 2",
@@ -34,5 +29,11 @@
 			id: "appliedenergistics2:storage_cell_4k",
 			tag: {}
 		}
+	},
+	{
+		uid: "328eadfe",
+		type: "item",
+		item: "gregtech:metal_casing 1 5",
+		count: 16
 	}]
 }

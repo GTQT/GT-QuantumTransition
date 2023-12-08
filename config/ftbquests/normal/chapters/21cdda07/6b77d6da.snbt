@@ -17,8 +17,18 @@
 		item: "nuclearcraft:water_source"
 	},
 	{
-		uid: "e434b390",
+		uid: "6e28c80a",
 		type: "item",
-		item: "gregtech:machine 1 1561"
+		item: {
+			id: "tiab:timeinabottle",
+			tag: {
+				timeData: {}
+			}
+		}
+	},
+	{
+		uid: "b8cb84f3",
+		type: "item",
+		item: "fluidtank:blocktank2 1 1"
 	}]
 }

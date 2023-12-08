@@ -1,6 +1,6 @@
 {
-	x: 1.0d,
-	y: -2.0d,
+	x: -1.0d,
+	y: -3.5d,
 	shape: "gear",
 	description: "啥《我不需要电阻。",
 	text: [

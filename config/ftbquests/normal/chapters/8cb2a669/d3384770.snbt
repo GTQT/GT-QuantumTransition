@@ -8,12 +8,10 @@
 		uid: "81a347ab",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "enriched_bacterial_sludge",
-					Amount: 1000
-				}
+				FluidName: "enriched_bacterial_sludge",
+				Amount: 1000
 			}
 		}]
 	}]

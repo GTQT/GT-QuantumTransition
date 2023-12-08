@@ -6,11 +6,14 @@
 	text: [
 		"这台青铜高炉只需要一点点的能量以及蒸汽就可以工作，耗时是土高炉的一半"
 	],
+	dependencies: [
+		"1ea63041"
+	],
 	tasks: [{
 		uid: "ec54c765",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 32018"
+			item: "gregtech:machine 1 3018"
 		}]
 	}]
 }

@@ -1,9 +1,11 @@
 {
-	x: -9.5d,
+	x: 9.0d,
 	y: 7.0d,
+	shape: "gear",
 	dependencies: [
-		"59bb088e"
+		"eb4ef064"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "71f91de5",
 		type: "item",
@@ -20,5 +22,10 @@
 		uid: "2b1d88a6",
 		type: "item",
 		item: "gregtech:meta_item_1 1 4"
+	},
+	{
+		uid: "3a2a4c02",
+		type: "random",
+		table: 3
 	}]
 }

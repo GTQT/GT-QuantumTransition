@@ -35,5 +35,8 @@
 	{
 		item: "gregtech:meta_plate 1 126",
 		count: 64
+	},
+	{
+		item: "avaritia:block_resource"
 	}]
 }

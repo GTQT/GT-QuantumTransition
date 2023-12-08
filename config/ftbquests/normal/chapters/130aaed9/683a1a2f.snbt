@@ -12,12 +12,10 @@
 		uid: "691a08cb",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "americium",
-					Amount: 1000
-				}
+				FluidName: "americium",
+				Amount: 1000
 			}
 		}]
 	}]

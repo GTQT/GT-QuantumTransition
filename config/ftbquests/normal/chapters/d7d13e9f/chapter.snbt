@@ -1,6 +1,6 @@
 {
 	title: "运输与自动化控制论",
-	icon: "projectred-transportation:pipe",
+	icon: "enderio:item_item_conduit",
 	always_invisible: false,
 	group: 2051747107,
 	default_quest_shape: "square"

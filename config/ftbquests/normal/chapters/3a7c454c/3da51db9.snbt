@@ -1,27 +1,20 @@
 {
-	x: 1.0d,
-	y: -3.5d,
+	x: 4.0d,
+	y: -5.0d,
+	description: "这是什么",
+	text: [
+		"你会发现切割LPIC需要HV的电压以及超净间环境",
+		"使用HV机身，将HV的电通过机身传入进超净间"
+	],
 	dependencies: [
-		"f8c65c0e"
+		"f8c65c0e",
+		"823271aa"
 	],
 	tasks: [{
 		uid: "3df3b1cb",
 		type: "item",
 		items: [{
 			item: "gregtech:meta_item_1 1 603"
-		}]
-	},
-	{
-		uid: "9dc1f75b",
-		type: "item",
-		items: [{
-			id: "ic2:fluid_cell",
-			tag: {
-				Fluid: {
-					FluidName: "sodium_potassium",
-					Amount: 1000
-				}
-			}
 		}]
 	}],
 	rewards: [{

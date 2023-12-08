@@ -9,12 +9,10 @@
 		uid: "cbbbe946",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "acetone",
-					Amount: 1000
-				}
+				FluidName: "acetone",
+				Amount: 1000
 			}
 		}]
 	}]

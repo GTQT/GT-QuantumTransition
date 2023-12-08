@@ -14,16 +14,16 @@
 		uid: "a05041e8",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "oreNetherrackCertusQuartz",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any oreNetherrackCertusQuartz"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreNetherrackCertusQuartz"
 				}
 			}
 		},

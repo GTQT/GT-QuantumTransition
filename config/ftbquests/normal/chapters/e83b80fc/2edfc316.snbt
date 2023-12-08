@@ -5,7 +5,7 @@
 		uid: "8f17eb39",
 		type: "item",
 		items: [{
-			item: "gregica:meta_item_gcys 1 19"
+			item: "gcys:meta_item_1 1 19"
 		}]
 	}]
 }

@@ -12,12 +12,10 @@
 		uid: "f84ddba6",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "heavy_fuel",
-					Amount: 1000
-				}
+				FluidName: "heavy_fuel",
+				Amount: 1000
 			}
 		}]
 	}]

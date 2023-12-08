@@ -13,7 +13,7 @@ recipes.remove(<morefurnaces:upgrade:2>);
 recipes.remove(<morefurnaces:upgrade:3>);
 recipes.remove(<morefurnaces:upgrade:4>);
 recipes.remove(<morefurnaces:upgrade:5>);
-recipes.addShaped(<morefurnaces:furnaceblock:3>, [[<ore:plateDenseObsidian>, <ore:plateDenseObsidian>, <ore:plateDenseObsidian>], [<ore:plateDenseObsidian>, <morefurnaces:furnaceblock:2>, <ore:plateDenseObsidian>], [<ore:plateDenseObsidian>, <ore:plateDenseObsidian>, <ore:plateDenseObsidian>]]);
+recipes.addShaped(<morefurnaces:furnaceblock:3>, [[<tconstruct:large_plate>.withTag({Material: "obsidian"}), <tconstruct:large_plate>.withTag({Material: "obsidian"}), <tconstruct:large_plate>.withTag({Material: "obsidian"})], [<tconstruct:large_plate>.withTag({Material: "obsidian"}), <morefurnaces:furnaceblock:2>, <tconstruct:large_plate>.withTag({Material: "obsidian"})], [<tconstruct:large_plate>.withTag({Material: "obsidian"}), <tconstruct:large_plate>.withTag({Material: "obsidian"}), <tconstruct:large_plate>.withTag({Material: "obsidian"})]]);
 recipes.addShaped(<morefurnaces:furnaceblock:2>, [[<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>], [<ore:plateDiamond>, <morefurnaces:furnaceblock:1>, <ore:plateDiamond>], [<ore:plateDiamond>, <ore:plateDiamond>, <ore:plateDiamond>]]);
 recipes.addShaped(<morefurnaces:furnaceblock:1>, [[<ore:plateDoubleGold>, <ore:plateDoubleGold>, <ore:plateDoubleGold>], [<ore:plateDoubleGold>, <morefurnaces:furnaceblock>, <ore:plateDoubleGold>], [<ore:plateDoubleGold>, <ore:plateDoubleGold>, <ore:plateDoubleGold>]]);
 recipes.addShaped(<morefurnaces:furnaceblock>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <ore:craftingFurnace>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);

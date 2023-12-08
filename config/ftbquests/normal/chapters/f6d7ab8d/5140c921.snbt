@@ -80,5 +80,10 @@
 		uid: "02146a87",
 		type: "item",
 		item: "gregtech:meta_item_1 1 502"
+	},
+	{
+		uid: "76cb5fcc",
+		type: "item",
+		item: "nuclearcraft:nitrogen_collector"
 	}]
 }

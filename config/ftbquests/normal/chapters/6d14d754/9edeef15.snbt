@@ -15,8 +15,8 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "762e0db2",
+		uid: "3c7c61c8",
 		type: "item",
-		item: "minecraft:yellow_flower"
+		item: "minecraft:reeds"
 	}]
 }

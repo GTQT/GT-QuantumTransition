@@ -14,16 +14,16 @@
 		uid: "aefa2cf6",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "logWood",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any logWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "logWood"
 				}
 			}
 		}],

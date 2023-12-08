@@ -23,3 +23,19 @@ alloy_blast_smelter.recipeBuilder()
     .EUt(491520)
     .buildAndRegister();
 	
+alloy_blast_smelter.recipeBuilder() 
+    .inputs(<gregtech:meta_dust:69> * 2,<gregtech:meta_dust:113> * 3)
+	.circuit(20)
+	.fluidOutputs(<liquid:nitinol>* 720)
+    .duration(4000)
+    .EUt(7680*4)
+    .buildAndRegister();
+	
+alloy_blast_smelter.recipeBuilder() 
+    .inputs(<ore:dustRedstone>,<minecraft:blaze_powder>,<ore:dustEnderPearl>,<bloodarsenal:base_item:2>)
+	.circuit(20)
+	.fluidOutputs(<liquid:refined_life_essence>* 500)
+    .duration(4000)
+    .EUt(7680)
+    .buildAndRegister();
+	

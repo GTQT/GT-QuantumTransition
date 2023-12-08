@@ -14,7 +14,7 @@
 		items: [{
 			item: "gregtech:meta_plate 1 1068"
 		}],
-		count: 32L
+		count: 8L
 	},
 	{
 		uid: "22fca17c",
@@ -27,5 +27,11 @@
 		uid: "3c4efd5e",
 		type: "choice",
 		table: 9
+	},
+	{
+		uid: "0c0e1484",
+		type: "item",
+		item: "gregtech:meta_ingot 1 1068",
+		count: 4
 	}]
 }

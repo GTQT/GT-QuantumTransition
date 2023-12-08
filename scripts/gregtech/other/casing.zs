@@ -63,8 +63,7 @@ recipes.remove(<gregtech:machine_casing:10>);
 recipes.remove(<gregtech:machine:985>);
 
 recipes.remove(<gregtech:machine:985>);
-recipes.addShaped(<gregtech:machine:985>, [[<ore:plateRubber>, <ore:plateWroughtIron>, <ore:plateRubber>], [<ore:cableGtSingleRedAlloy>, <gregtech:machine_casing>, <ore:cableGtSingleRedAlloy>]]);
-
+recipes.addShaped(<gregtech:machine:985>, [[<gregtech:meta_plate:55>,<ore:plateRubber>, <gregtech:meta_plate:55>], [<ore:cableGtSingleRedAlloy>, <gregtech:machine_casing>, <ore:cableGtSingleRedAlloy>]]);
 recipes.addShaped(<gregtech:machine:989>, [[<ore:plateMagnalium>, <ore:platePolytetrafluoroethylene>, <ore:plateMagnalium>], [<ore:cableGtSingleAluminium>, <gregtech:machine_casing:4>, <ore:cableGtSingleAluminium>], [<ore:plateMagnalium>, <ore:platePolytetrafluoroethylene>, <ore:plateMagnalium>]]);
 recipes.addShaped(<gregtech:machine:988>, [[null, null, null],[<gregtech:meta_item_1:501>, <ore:platePlastic>, <gregtech:meta_item_1:501>], [<ore:cableGtSingleGold>, <gregtech:machine_casing:3>, <ore:cableGtSingleGold>]]);
 recipes.addShaped(<gregtech:machine:987>, [[null, null, null],[<ore:plateInvar>, <ore:platePlastic>, <ore:plateInvar>], [<ore:cableGtSingleAnnealedCopper>, <gregtech:machine_casing:2>, <ore:cableGtSingleAnnealedCopper>]]);
@@ -73,11 +72,11 @@ recipes.addShaped(<gregtech:machine_casing:1>, [[<ore:plateZnfe>, <ore:plateZnfe
 recipes.addShaped(<gregtech:machine:990>, [[<ore:plateHssg>, <ore:platePolytetrafluoroethylene>, <ore:plateHssg>], [<ore:cableGtSinglePlatinum>, <gregtech:machine_casing:5>, <ore:cableGtSinglePlatinum>], [<ore:plateHssg>, <ore:platePolytetrafluoroethylene>, <ore:plateHssg>]]);
 recipes.addShaped(<gregtech:machine:991>, [[<ore:plateHsss>, <ore:platePolybenzimidazole>, <ore:plateHsss>], [<ore:wireGtQuadrupleNiobiumTitanium>, <gregtech:machine_casing:6>, <ore:wireGtQuadrupleNiobiumTitanium>], [<ore:plateHsss>, <ore:platePolybenzimidazole>, <ore:plateHsss>]]);
 recipes.addShaped(<gregtech:machine:992>, [[<gregtech:meta_plate:130>, <ore:platePolybenzimidazole>, <gregtech:meta_plate:130>], [<ore:wireGtQuadrupleVanadiumGallium>, <gregtech:machine_casing:7>, <ore:wireGtQuadrupleVanadiumGallium>], [<gregtech:meta_plate:130>, <ore:platePolybenzimidazole>, <gregtech:meta_plate:130>]]);
-recipes.addShaped(<gregtech:machine:993>, [[<ore:plateEnrichedNaquadahTriniumEuropiumDuranide>, <gregtech:meta_plate:15040>, <ore:plateEnrichedNaquadahTriniumEuropiumDuranide>], [<gregtech:wire_quadruple:338>, <gregtech:machine_casing:8>, <gregtech:wire_quadruple:338>], [<ore:plateEnrichedNaquadahTriniumEuropiumDuranide>, <gregtech:meta_plate:15040>, <ore:plateEnrichedNaquadahTriniumEuropiumDuranide>]]);
+recipes.addShaped(<gregtech:machine:993>, [[<gregtech:meta_plate:128>, <gregtech:meta_plate:15040>, <gregtech:meta_plate:128>], [<gregtech:wire_quadruple:338>, <gregtech:machine_casing:8>, <gregtech:wire_quadruple:338>], [<gregtech:meta_plate:128>, <gregtech:meta_plate:15040>, <gregtech:meta_plate:128>]]);
 recipes.addShaped(<gregtech:machine:994>, [[<ore:plateNeutronium>, <gregtech:meta_plate:15040>, <ore:plateNeutronium>], [<gregtech:wire_quadruple:33>, <gregtech:machine_casing:9>,<gregtech:wire_quadruple:33>], [<ore:plateNeutronium>, <gregtech:meta_plate:15040>, <ore:plateNeutronium>]]);
 
 assembler.recipeBuilder() 
-    .inputs(<gregtech:meta_plate:335>*2,<gregtech:cable_single:2517>*2,<gregtech:machine_casing:0>)
+    .inputs(<gregtech:meta_plate:55>*2,<gregtech:cable_single:2517>*2,<gregtech:machine_casing:0>)
 	.fluidInputs(<liquid:rubber>*144)
     .outputs(<gregtech:machine:985>)
     .duration(50)
@@ -98,7 +97,7 @@ assembler.recipeBuilder()
 	.fluidInputs(<liquid:rubber>*144)
     .outputs(<gregtech:machine:986>)
     .duration(50)
-    .EUt(32)
+    .EUt(30)
 	.circuit(20)
     .buildAndRegister();
 
@@ -107,7 +106,7 @@ assembler.recipeBuilder()
 	.fluidInputs(<liquid:plastic>*144)
     .outputs(<gregtech:machine:987>)
     .duration(100)
-    .EUt(128)
+    .EUt(120)
 	.circuit(20)
     .buildAndRegister();
 	
@@ -116,7 +115,7 @@ assembler.recipeBuilder()
 	.fluidInputs(<liquid:plastic>*144)
     .outputs(<gregtech:machine:988>)
     .duration(100)
-    .EUt(512)
+    .EUt(480)
 	.circuit(20)
     .buildAndRegister();
 	
@@ -125,7 +124,7 @@ assembler.recipeBuilder()
 	.fluidInputs(<liquid:polytetrafluoroethylene>*288)
     .outputs(<gregtech:machine:989>)
     .duration(100)
-    .EUt(2048)
+    .EUt(1920)
 	.circuit(20)
     .buildAndRegister();
 
@@ -134,16 +133,17 @@ assembler.recipeBuilder()
 	.fluidInputs(<liquid:polytetrafluoroethylene>*288)
     .outputs(<gregtech:machine:990>)
     .duration(200)
-    .EUt(8192)
+    .EUt(7680)
 	.circuit(20)
     .buildAndRegister();
+	
 //LUV
 assembler.recipeBuilder() 
     .inputs(<ore:plateHsss>*4,<ore:wireGtQuadrupleNiobiumTitanium>*2,<gregtech:machine_casing:6>)
 	.fluidInputs(<liquid:polybenzimidazole>*288)
     .outputs(<gregtech:machine:991>)
     .duration(200)
-    .EUt(8192)
+    .EUt(30720)
 	.circuit(20)
     .buildAndRegister();
 //ZPM	
@@ -152,45 +152,66 @@ assembler.recipeBuilder()
 	.fluidInputs(<liquid:polybenzimidazole>*288)
     .outputs(<gregtech:machine:992>)
     .duration(400)
-    .EUt(32768)
+    .EUt(122880)
 	.circuit(20)
     .buildAndRegister();
 //UV
 assembler.recipeBuilder() 
-    .inputs(<ore:plateEnrichedNaquadahTriniumEuropiumDuranide>*4,<gregtech:wire_quadruple:338>*2,<gregtech:machine_casing:8>)
+    .inputs(<gregtech:meta_plate:128>*4,<gregtech:wire_quadruple:338>*2,<gregtech:machine_casing:8>)
 	.fluidInputs(<liquid:kapton_e>*288)
     .outputs(<gregtech:machine:993>)
     .duration(400)
-    .EUt(131072)
+    .EUt(491520)
 	.circuit(20)
     .buildAndRegister();
+
+val assembly_line = mods.gregtech.recipe.RecipeMap.getByName("assembly_line");	
 //UHV	
-assembler.recipeBuilder() 
+assembly_line.recipeBuilder() 
     .inputs(<gregtech:meta_plate:127>*4,<gregtech:wire_quadruple:33>*2,<gregtech:machine_casing:9>)
-	.fluidInputs(<liquid:kapton_e>*288)
+	.fluidInputs(<liquid:ruthenium_trinium_americium_neutronate>*5760,<liquid:kapton_e>*2880)
     .outputs(<gregtech:machine:994>)
     .duration(800)
-    .EUt(524288)
+    .EUt(1966080)
 	.circuit(20)
     .buildAndRegister();
 	
 //UEV
-val assembly_line = mods.gregtech.recipe.RecipeMap.getByName("assembly_line");
 assembly_line.recipeBuilder() 
-    .inputs(<gregtech:cable_single:15077>*64,<gregtech:meta_block_frame_194:1>*16,<gregtech:meta_plate:3599>*16,<ore:circuitUhv>*8)
-    .fluidInputs(<liquid:kevlar>*576,<liquid:neutronium>*576)
+    .inputs(<ore:plateMetallicHydrogen>*16,<ore:frameGtAdamantium>*2,<ore:cableGtSinglePedotTma>*8,<ore:circuitUev>*8)
+    .fluidInputs(<liquid:cosmic_neutronium>*5760,<liquid:ruthenium_trinium_americium_neutronate>*5760,<liquid:kevlar>*2880,<liquid:kapton_e>*2880)
 	.outputs(<gregtech:machine:995>)
     .duration(800)
-    .EUt(524288)
-	.circuit(20)
-    .buildAndRegister();
-//UIV
-assembly_line.recipeBuilder() 
-    .inputs(<gregtech:wire_double:15078>*64,<gregtech:meta_block_frame_225:4>*16,<gregtech:meta_plate:3592>*16,<ore:circuitUev>*8)
-    .fluidInputs(<liquid:kevlar>*1440,<liquid:neutronium>*576)
-	.outputs(<gregtech:machine:996>)
-    .duration(800)
-    .EUt(524288)
+    .EUt(7864320)
 	.circuit(20)
     .buildAndRegister();
 	
+//UIV
+assembly_line.recipeBuilder() 
+    .inputs(<ore:plateAusteniteSteel>*16,<ore:frameGtLunarium>*2,<ore:cableGtSinglePedotTma>*8,<ore:circuitUiv>*8)
+    .fluidInputs(<liquid:infinity>*5760,<liquid:zylon>*5760,<liquid:kevlar>*14400,<liquid:kapton_e>*14400)
+	.outputs(<gregtech:machine:996>)
+    .duration(800)
+    .EUt(31457280)
+	.circuit(20)
+    .buildAndRegister();
+	
+//UXV
+assembly_line.recipeBuilder() 
+    .inputs(<ore:plateTiberium>*16,<ore:frameGtHikarium>*2,<ore:cableGtSingleCrystalMatrix>*8,<ore:circuitUxv>*8)
+    .fluidInputs(<liquid:infinity>*28800,<liquid:black_hole_matter_polymer_matrix>*5760,<liquid:zylon>*14400,<liquid:kevlar>*28800)
+	.outputs(<gregtech:machine:997>)
+    .duration(800)
+    .EUt(125829120)
+	.circuit(20)
+    .buildAndRegister();
+	
+//OPV
+assembly_line.recipeBuilder() 
+    .inputs(<ore:plateArcanium>*16,<ore:frameGtHypogen>*2,<ore:cableGtSingleSuperheavyElementMixture>*8,<ore:circuitOpv>*8)
+    .fluidInputs(<liquid:infinity>*115200,<liquid:dense_magnetically_constrained_stellar_plasma_fluid>*115200,<liquid:black_hole_matter_polymer_matrix>*115200,<liquid:zylon>*115200)
+	.outputs(<gregtech:machine:998>)
+    .duration(800)
+    .EUt(503316480)
+	.circuit(20)
+    .buildAndRegister();

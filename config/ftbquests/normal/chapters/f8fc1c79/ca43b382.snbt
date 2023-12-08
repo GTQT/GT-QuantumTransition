@@ -5,12 +5,10 @@
 		uid: "ea6ba34c",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "n_methyl_pyrrolidone",
-					Amount: 1000
-				}
+				FluidName: "n_methyl_pyrrolidone",
+				Amount: 1000
 			}
 		}]
 	}]

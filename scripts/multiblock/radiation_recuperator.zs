@@ -48,10 +48,10 @@ radiation_recuperator.hasMaintenanceMechanics = false;
 
 radiation_recuperator.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:nak_hot>*500,<liquid:distilled_water>*250)
-	.fluidOutputs(<liquid:nak>*500,<liquid:ic2superheated_steam>*5000)
+	.fluidOutputs(<liquid:nak>*500,<liquid:high_pressure_steam>*5000)
     .duration(1).EUt(32).buildAndRegister();
 
 radiation_recuperator.recipeMap.recipeBuilder()
     .fluidInputs(<liquid:nak_hot>*500,<liquid:water>*500)
-	.fluidOutputs(<liquid:nak>*500,<liquid:ic2superheated_steam>*5000)
+	.fluidOutputs(<liquid:nak>*500,<liquid:high_pressure_steam>*5000)
     .duration(1).EUt(32).buildAndRegister();

@@ -15,13 +15,5 @@
 			item: "gregtech:ore_rock_salt_0"
 		}],
 		count: 16L
-	},
-	{
-		uid: "0a70d35e",
-		type: "item",
-		items: [{
-			item: "gregtech:ore_lepidolite_0"
-		}],
-		count: 16L
 	}]
 }

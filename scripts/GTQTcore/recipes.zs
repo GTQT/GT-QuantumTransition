@@ -1,0 +1,4 @@
+#modloaded gtqtcore
+recipes.addShaped(<gregtech:machine:20000>, [[<gregtech:meta_item_1:750>, <gregtech:machine:1292>, <gregtech:meta_item_1:750>], [<gregtech:machine:1292>, <gregtech:machine:992>, <gregtech:machine:1292>], [<gregtech:meta_item_1:750>, <gregtech:machine:1292>, <gregtech:meta_item_1:750>]]);
+recipes.addShaped(<gregtech:machine:20001>, [[<gregtech:meta_item_1:749>, <gregtech:machine:1291>, <gregtech:meta_item_1:749>], [<gregtech:machine:1291>, <gregtech:machine:991>, <gregtech:machine:1291>], [<gregtech:meta_item_1:749>, <gregtech:machine:1291>, <gregtech:meta_item_1:749>]]);
+recipes.addShaped(<gregtech:machine:20002>, [[<gregtech:meta_item_1:748>, <gregtech:machine:1290>, <gregtech:meta_item_1:748>], [<gregtech:machine:1290>, <gregtech:machine:990>, <gregtech:machine:1290>], [<gregtech:meta_item_1:748>, <gregtech:machine:1290>, <gregtech:meta_item_1:748>]]);

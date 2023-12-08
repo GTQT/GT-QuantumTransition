@@ -1,7 +1,7 @@
 {
 	title: "简单的自动化",
-	x: 36.5d,
-	y: 4.0d,
+	x: 32.5d,
+	y: -3.5d,
 	description: "这是什么？你的焦炉可以自动化输出了",
 	dependencies: [
 		"3ba748c1"

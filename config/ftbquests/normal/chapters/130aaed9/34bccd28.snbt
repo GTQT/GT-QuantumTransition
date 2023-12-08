@@ -1,7 +1,7 @@
 {
 	title: "输入到机器！",
-	x: 6.5d,
-	y: 9.0d,
+	x: 12.0d,
+	y: 1.5d,
 	description: "特级能源仓",
 	text: [
 		""

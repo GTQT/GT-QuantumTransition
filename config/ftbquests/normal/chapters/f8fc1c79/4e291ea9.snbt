@@ -5,12 +5,10 @@
 		uid: "a2debccb",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "bromo_bromomethyl_naphthalene",
-					Amount: 1000
-				}
+				FluidName: "butyllithium",
+				Amount: 1000
 			}
 		}]
 	}]

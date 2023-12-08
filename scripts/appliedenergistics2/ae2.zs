@@ -6,6 +6,9 @@ import crafttweaker.item.IIngredient;
 
 val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
 val canner = mods.gregtech.recipe.RecipeMap.getByName("canner");
+
+recipes.removeByRecipeName("avaritiaddons:infinity_chest");
+recipes.removeByRecipeName("gendustry:recipe26");
 // Crafting Co-Processing Unit
 recipes.removeByRecipeName("appliedenergistics2:network/crafting/cpu_crafting_accelerator");
 canner.recipeBuilder()
@@ -169,7 +172,8 @@ assembler.recipeBuilder()
 recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_components_cell_4k_part");
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.random_access_memory>)
-    .inputs(<appliedenergistics2:material:35> * 3)
+    .inputs(<appliedenergistics2:material:35> * 4)
+    .inputs(<appliedenergistics2:material:22> * 4)
     .inputs(<ore:circuitMv>)
     .outputs(<appliedenergistics2:material:36>)
     .duration(200)
@@ -180,8 +184,9 @@ assembler.recipeBuilder()
 recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_components_cell_16k_part");
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.ultra_low_power_integrated_circuit>)
-    .inputs(<appliedenergistics2:material:36> * 3)
+    .inputs(<appliedenergistics2:material:36> * 4)
     .inputs(<ore:circuitHv>)
+    .inputs(<appliedenergistics2:material:23> * 4)
     .outputs(<appliedenergistics2:material:37>)
     .duration(200)
     .EUt(120)
@@ -191,8 +196,9 @@ assembler.recipeBuilder()
 recipes.removeByRecipeName("appliedenergistics2:network/cells/storage_components_cell_64k_part");
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.power_integrated_circuit>)
-    .inputs(<appliedenergistics2:material:37> * 3)
+    .inputs(<appliedenergistics2:material:37> * 4)
     .inputs(<ore:circuitEv>)
+    .inputs(<appliedenergistics2:material:24> * 4)
     .outputs(<appliedenergistics2:material:38>)
     .duration(200)
     .EUt(480)
@@ -203,7 +209,7 @@ recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_comp
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.simple_system_on_chip>)
     .inputs(<ore:plateLapis> * 3)
-    .inputs(<ore:circuitEv> * 2)
+    .inputs(<ore:circuitEv>)
     .inputs(<metaitem:fluid.regulator.lv>)
     .outputs(<appliedenergistics2:material:54>)
     .duration(200)
@@ -214,9 +220,10 @@ assembler.recipeBuilder()
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_components_cell_4k_part");
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.system_on_chip>)
-    .inputs(<appliedenergistics2:material:54> * 3)
-    .inputs(<ore:circuitEv> * 2)
+    .inputs(<appliedenergistics2:material:54> * 4)
+    .inputs(<ore:circuitEv>)
     .inputs(<metaitem:fluid.regulator.mv>)
+    .inputs(<appliedenergistics2:material:22> * 4)
     .outputs(<appliedenergistics2:material:55>)
     .duration(200)
     .EUt(480)
@@ -226,9 +233,10 @@ assembler.recipeBuilder()
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_components_cell_16k_part");
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.power_integrated_circuit>)
-    .inputs(<appliedenergistics2:material:55> * 3)
-    .inputs(<ore:circuitIv> * 2)
+    .inputs(<appliedenergistics2:material:55> * 4)
+    .inputs(<ore:circuitIv>)
     .inputs(<metaitem:fluid.regulator.hv>)
+    .inputs(<appliedenergistics2:material:23> * 4)
     .outputs(<appliedenergistics2:material:56>)
     .duration(200)
     .EUt(1920)
@@ -238,9 +246,10 @@ assembler.recipeBuilder()
 recipes.removeByRecipeName("appliedenergistics2:network/cells/fluid_storage_components_cell_64k_part");
 assembler.recipeBuilder()
     .inputs(<metaitem:plate.high_power_integrated_circuit>)
-    .inputs(<appliedenergistics2:material:56> * 3)
-    .inputs(<ore:circuitLuv> * 2)
+    .inputs(<appliedenergistics2:material:56> * 4)
+    .inputs(<ore:circuitLuv>)
     .inputs(<metaitem:fluid.regulator.ev>)
+    .inputs(<appliedenergistics2:material:24> * 4)
     .outputs(<appliedenergistics2:material:57>)
     .duration(200)
     .EUt(7680)
@@ -422,4 +431,186 @@ assembler.recipeBuilder()
     .duration(150)
 	.circuit(21)
     .EUt(8)
+    .buildAndRegister();
+	
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:404>*4,<ore:circuitEv>,<appliedenergistics2:material:23>*4,<appliedenergistics2:material:22>*4,<gregtech:wire_single:277>*16,<gregtech:meta_item_1:602>*4)
+    .fluidInputs([<liquid:polytetrafluoroethylene>*576])
+    .outputs(<appliedenergistics2:material:25>*8)
+    .duration(150)
+	.circuit(20)
+    .EUt(480)
+    .buildAndRegister();
+	
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:405>*4,<ore:circuitEv>,<appliedenergistics2:material:23>*4,<appliedenergistics2:material:22>*4,<gregtech:wire_single:80>*16,<gregtech:meta_item_1:603>*4)
+    .fluidInputs([<liquid:polytetrafluoroethylene>*576])
+    .outputs(<appliedenergistics2:material:28>*8)
+    .duration(150)
+	.circuit(20)
+    .EUt(480)
+    .buildAndRegister();
+	
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:404>*4,<ore:circuitIv>,<appliedenergistics2:material:23>*4,<appliedenergistics2:material:22>*4,<gregtech:wire_single:277>*16,<gregtech:meta_item_1:603>*4)
+    .fluidInputs([<liquid:polybenzimidazole>*288])
+    .outputs(<appliedenergistics2:material:25>*16)
+    .duration(150)
+	.circuit(20)
+    .EUt(480)
+    .buildAndRegister();
+	
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:405>*4,<ore:circuitIv>,<appliedenergistics2:material:23>*4,<appliedenergistics2:material:22>*4,<gregtech:wire_single:80>*16,<gregtech:meta_item_1:604>*4)
+    .fluidInputs([<liquid:polybenzimidazole>*288])
+    .outputs(<appliedenergistics2:material:28>*16)
+    .duration(150)
+	.circuit(20)
+    .EUt(480)
+    .buildAndRegister();
+	
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:404>*4,<ore:circuitZpm>,<appliedenergistics2:material:23>*4,<appliedenergistics2:material:22>*4,<gregtech:wire_single:277>*16,<gregtech:meta_item_1:604>*4)
+    .fluidInputs([<liquid:kapton_e>*72])
+    .outputs(<appliedenergistics2:material:25>*32)
+    .duration(150)
+	.circuit(20)
+    .EUt(480)
+    .buildAndRegister();
+	
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:405>*4,<ore:circuitZpm>,<appliedenergistics2:material:23>*4,<appliedenergistics2:material:22>*4,<gregtech:wire_single:80>*16,<gregtech:meta_item_1:605>*4)
+    .fluidInputs([<liquid:kapton_e>*72])
+    .outputs(<appliedenergistics2:material:28>*32)
+    .duration(150)
+	.circuit(20)
+    .EUt(480)
+    .buildAndRegister();
+
+// ae more
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:605>)
+    .inputs(<appliedenergistics2:material:38> * 4)
+    .inputs(<ore:circuitIv>)
+    .inputs(<appliedenergistics2:material:24> * 4)
+    .outputs(<aeadditions:storage.component:0>)
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
+	
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:606>)
+    .inputs(<aeadditions:storage.component:0> * 4)
+    .inputs(<ore:circuitLuv>)
+    .inputs(<appliedenergistics2:material:24> * 4)
+    .outputs(<aeadditions:storage.component:1>)
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
+	
+assembler.recipeBuilder()
+    .inputs(<gcys:meta_item_1:368>)
+    .inputs(<aeadditions:storage.component:1> * 4)
+    .inputs(<ore:circuitZpm>)
+    .inputs(<appliedenergistics2:material:24> * 4)
+    .outputs(<aeadditions:storage.component:2>)
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
+	
+assembler.recipeBuilder()
+    .inputs(<gcys:meta_item_1:369>)
+    .inputs(<aeadditions:storage.component:2> * 4)
+    .inputs(<ore:circuitUv>)
+    .inputs(<appliedenergistics2:material:24> * 4)
+    .outputs(<aeadditions:storage.component:3>)
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
+	
+canner.recipeBuilder()
+    .inputs(<aeadditions:storage.component:0>)
+    .inputs(<aeadditions:storage.casing>)
+    .outputs(<aeadditions:storage.physical:0>.withTag({upgrades: {}, config: {}, fuzzyMode: "IGNORE_ALL"}))
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+	
+canner.recipeBuilder()
+    .inputs(<aeadditions:storage.component:1>)
+    .inputs(<aeadditions:storage.casing>)
+    .outputs(<aeadditions:storage.physical:1>.withTag({upgrades: {}, config: {}, fuzzyMode: "IGNORE_ALL"}))
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+	
+canner.recipeBuilder()
+    .inputs(<aeadditions:storage.component:2>)
+    .inputs(<aeadditions:storage.casing>)
+    .outputs(<aeadditions:storage.physical:2>.withTag({upgrades: {}, config: {}, fuzzyMode: "IGNORE_ALL"}))
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+	
+canner.recipeBuilder()
+    .inputs(<aeadditions:storage.component:3>)
+    .inputs(<aeadditions:storage.casing>)
+    .outputs(<aeadditions:storage.physical:3>.withTag({upgrades: {}, config: {}, fuzzyMode: "IGNORE_ALL"}))
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+	
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:605>)
+    .inputs(<appliedenergistics2:material:57> * 4)
+    .inputs(<ore:circuitIv>)
+    .inputs(<appliedenergistics2:material:24> * 4)
+    .outputs(<aeadditions:storage.component:4>)
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
+	
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_item_1:606>)
+    .inputs(<aeadditions:storage.component:4> * 4)
+    .inputs(<ore:circuitLuv>)
+    .inputs(<appliedenergistics2:material:24> * 4)
+    .outputs(<aeadditions:storage.component:5>)
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
+	
+assembler.recipeBuilder()
+    .inputs(<gcys:meta_item_1:368>)
+    .inputs(<aeadditions:storage.component:5> * 4)
+    .inputs(<ore:circuitZpm>)
+    .inputs(<appliedenergistics2:material:24> * 4)
+    .outputs(<aeadditions:storage.component:6>)
+    .duration(200)
+    .EUt(480)
+    .buildAndRegister();
+
+	
+canner.recipeBuilder()
+    .inputs(<aeadditions:storage.component:4>)
+    .inputs(<aeadditions:storage.casing>)
+    .outputs(<aeadditions:storage.fluid:0>.withTag({fuzzyMode: "IGNORE_ALL"}))
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+	
+canner.recipeBuilder()
+    .inputs(<aeadditions:storage.component:5>)
+    .inputs(<aeadditions:storage.casing>)
+    .outputs(<aeadditions:storage.fluid:1>.withTag({fuzzyMode: "IGNORE_ALL"}))
+    .duration(100)
+    .EUt(4)
+    .buildAndRegister();
+	
+canner.recipeBuilder()
+    .inputs(<aeadditions:storage.component:6>)
+    .inputs(<aeadditions:storage.casing>)
+    .outputs(<aeadditions:storage.fluid:2>.withTag({fuzzyMode: "IGNORE_ALL"}))
+    .duration(100)
+    .EUt(4)
     .buildAndRegister();

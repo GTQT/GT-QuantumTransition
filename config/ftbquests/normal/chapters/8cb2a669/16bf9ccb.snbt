@@ -19,18 +19,5 @@
 			item: "minecraft:coal 1 1"
 		}],
 		count: 64L
-	},
-	{
-		uid: "9b830bbb",
-		type: "item",
-		items: [{
-			id: "ic2:fluid_cell",
-			tag: {
-				Fluid: {
-					FluidName: "creosote",
-					Amount: 1000
-				}
-			}
-		}]
 	}]
 }

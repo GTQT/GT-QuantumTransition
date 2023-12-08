@@ -2,8 +2,8 @@ import mods.gregtech.recipe.RecipeMap;
 val chemical_reactor = mods.gregtech.recipe.RecipeMap.getByName("chemical_reactor");
 val large_chemical_reactor = mods.gregtech.recipe.RecipeMap.getByName("large_chemical_reactor");
 chemical_reactor.recipeBuilder() 
-    .fluidInputs(<liquid:ic2hot_coolant> * 125)
-    .fluidOutputs(<liquid:ic2coolant> * 125)
+    .fluidInputs(<liquid:hot_coolant> * 125)
+    .fluidOutputs(<liquid:coolant> * 125)
     .duration(20)
     .EUt(16)
     .buildAndRegister();
@@ -171,8 +171,8 @@ chemical_reactor.recipeBuilder()
 	
 chemical_reactor.recipeBuilder() 
     .fluidInputs(<liquid:chlorine>* 4000)
-	.inputs(<contenttweaker:zroo_item>,<gregtech:meta_dust:18>*2)
-	.outputs(<contenttweaker:zrcl_item>)
+	.inputs(<gregtech:meta_dust:32349>,<gregtech:meta_dust:18>*2)
+	.outputs(<gregtech:meta_dust:32350>)
     .fluidOutputs(<liquid:carbon_monoxide>*2000)
     .duration(900)
     .EUt(960)
@@ -185,3 +185,156 @@ chemical_reactor.recipeBuilder()
     .duration(900)
     .EUt(960)
     .buildAndRegister();
+	
+chemical_reactor.recipeBuilder() 
+    .fluidInputs(<liquid:hydrofluoric_acid>*1000)
+	.inputs(<contenttweaker:poor_thorium_rod>)
+	.fluidOutputs(<liquid:depleted_leu_233_fluoride>*144)
+    .duration(900)
+    .EUt(960)
+    .buildAndRegister();
+	
+chemical_reactor.recipeBuilder() 
+    .fluidInputs(<liquid:hydrofluoric_acid>*2000)
+	.inputs(<contenttweaker:poor_thorium_rod_dual>)
+	.fluidOutputs(<liquid:depleted_leu_233_fluoride>*288,<liquid:tungsten_steel>*144)
+    .duration(900)
+    .EUt(960)
+    .buildAndRegister();
+	
+chemical_reactor.recipeBuilder() 
+    .fluidInputs(<liquid:hydrofluoric_acid>*4000)
+	.inputs(<contenttweaker:poor_thorium_rod_quad>)
+	.fluidOutputs(<liquid:depleted_leu_233_fluoride>*576,<liquid:tungsten_steel>*288)
+    .duration(900)
+    .EUt(960)
+    .buildAndRegister();
+	
+// 丁醇 * 1000
+<recipemap:chemical_reactor>.findRecipe(480, null, [<liquid:butyraldehyde> * 1000, <liquid:hydrogen> * 2000]).remove();
+// 丁醇 * 1000
+<recipemap:large_chemical_reactor>.findRecipe(480, null, [<liquid:butyraldehyde> * 1000, <liquid:hydrogen> * 2000]).remove();
+chemical_reactor.recipeBuilder() 
+    .fluidInputs(<liquid:hydrogen>*2000,<liquid:butyraldehyde>*1000)
+	.fluidOutputs(<liquid:butanol>*1000)
+	.circuit(1)
+    .duration(1000)
+    .EUt(480)
+    .buildAndRegister();
+	
+chemical_reactor.recipeBuilder() 
+	.fluidInputs(<liquid:dense_hydrazine_mixture_fuel>*2000)
+    .fluidOutputs(<liquid:fuelgc>*1000)
+    .duration(30)
+    .EUt(16)
+    .buildAndRegister();
+	
+chemical_reactor.recipeBuilder() 
+	.fluidInputs(<liquid:methylhydrazine_nitrate_rocket_fuel>*1000)
+    .fluidOutputs(<liquid:fuelgc>*1000)
+    .duration(30)
+    .EUt(16)
+    .buildAndRegister();
+	
+chemical_reactor.recipeBuilder() 
+	.fluidInputs(<liquid:rocket_fuel>*500)
+    .fluidOutputs(<liquid:fuelgc>*1000)
+    .duration(30)
+    .EUt(16)
+    .buildAndRegister();
+	
+chemical_reactor.recipeBuilder() 
+	.fluidInputs(<liquid:lithium>*500,<liquid:fluorine>*500)
+    .fluidOutputs(<liquid:lif>*1000)
+    .duration(300)
+    .EUt(7680)
+    .buildAndRegister();
+	
+chemical_reactor.recipeBuilder() 
+	.fluidInputs(<liquid:beryllium>*500,<liquid:fluorine>*500)
+    .fluidOutputs(<liquid:bef2>*1000)
+    .duration(300)
+    .EUt(7680)
+    .buildAndRegister();
+	
+chemical_reactor.recipeBuilder() 
+	.fluidInputs(<liquid:lif>*500,<liquid:bef2>*500)
+    .fluidOutputs(<liquid:flibe>*1000)
+    .duration(300)
+    .EUt(7680)
+    .buildAndRegister();
+	
+//chemical_reactor.recipeBuilder() 
+//    .inputs(<ic2:nuclear:11>) 
+//	.fluidInputs(<liquid:fluorine>*500)
+//   .fluidOutputs(<liquid:depleted_leu_235_fluoride>*500)
+//    .duration(300)
+//    .EUt(7680)
+//    .buildAndRegister();
+	
+//chemical_reactor.recipeBuilder() 
+//    .inputs(<ic2:nuclear:12>) 
+//	.fluidInputs(<liquid:fluorine>*1000)
+//    .fluidOutputs(<liquid:depleted_leu_235_fluoride>*1000)
+//    .duration(300)
+//    .EUt(7680)
+//    .buildAndRegister();
+	
+//chemical_reactor.recipeBuilder() 
+//    .inputs(<ic2:nuclear:13>) 
+//	.fluidInputs(<liquid:fluorine>*2000)
+//    .fluidOutputs(<liquid:depleted_leu_235_fluoride>*2000)
+//    .duration(300)
+//    .EUt(7680)
+//    .buildAndRegister();
+	
+chemical_reactor.recipeBuilder() 
+    .fluidInputs(<liquid:hydrogen>*4000,<liquid:butyraldehyde>*2000)
+    .fluidOutputs(<liquid:ethylhexanol>*1000,<liquid:water>*1000)
+    .duration(200)
+	.circuit(2)
+    .EUt(480)
+    .buildAndRegister();
+
+chemical_reactor.recipeBuilder() 
+    .inputs(<gregtech:meta_dust:101>*1)
+    .fluidInputs(<liquid:water>*1000)
+    .fluidOutputs(<liquid:hydrogen>*1000,<liquid:sodium_hydroxide_solution>*1000)
+    .duration(20)
+	.circuit(10)
+    .EUt(30)
+    .buildAndRegister();
+
+chemical_reactor.recipeBuilder() 
+    .fluidInputs(<liquid:plastic>*1000,<liquid:chlorine>*2000)
+    .fluidOutputs(<liquid:polyvinyl_chloride>*1000,<liquid:hydrochloric_acid>*1000)
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
+	
+chemical_reactor.recipeBuilder() 
+    .fluidInputs(<liquid:hydrochloric_acid>*2000)
+    .fluidOutputs(<liquid:water>*5000,<liquid:boric_acid>*4000)
+	.outputs(<gregtech:meta_dust:312>*4)
+	.inputs(<ore:dustBorax>*23)
+    .duration(150)
+    .EUt(480)
+    .buildAndRegister();
+
+large_chemical_reactor.recipeBuilder() 
+    .inputs(<ore:listAllfishfresh>*32)
+    .fluidInputs(<liquid:chloroform>*4000,<liquid:methanol>*4000)
+    .fluidOutputs(<liquid:gtfo_stearin>*3200,<liquid:gtfo_sludge>*12000,<liquid:chlorine>*12000)
+	.outputs(<gregtech:meta_dust:1616>*40,<minecraft:dye:15>*16)
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
+
+chemical_reactor.recipeBuilder() 
+    .inputs(<minecraft:magma_cream>)
+    .fluidInputs(<liquid:fire_water>*1000)
+    .fluidOutputs(<liquid:pyrotheum>*1000)
+    .duration(20)
+    .EUt(30)
+    .buildAndRegister();
+

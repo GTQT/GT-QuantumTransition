@@ -1,11 +1,12 @@
 {
-	x: -12.5d,
-	y: 14.5d,
+	x: -4.0d,
+	y: 11.5d,
+	shape: "gear",
 	text: [
 		"用于制作下一个等级的电路基板"
 	],
 	dependencies: [
-		"be5a2c9d"
+		"6363b229"
 	],
 	tasks: [{
 		uid: "73df07b4",

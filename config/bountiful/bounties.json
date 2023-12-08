@@ -68,7 +68,7 @@
       "min": 1,
       "max": 8
     },
-    "unitWorth": 200,
+    "unitWorth": 100,
     "weight": 100
   },
   {
@@ -232,24 +232,6 @@
     },
     "unitWorth": 100,
     "weight": 100
-  },
-  {
-    "content": "entity:minecraft:zombie",
-    "amount": {
-      "min": 1,
-      "max": 8
-    },
-    "unitWorth": 40,
-    "weight": 300
-  },
-  {
-    "content": "entity:minecraft:skeleton",
-    "amount": {
-      "min": 1,
-      "max": 6
-    },
-    "unitWorth": 40,
-    "weight": 250
   },
   {
     "content": "minecraft:potion",

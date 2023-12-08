@@ -31,7 +31,6 @@ mods.botania.Orechid.addOre(<ore:oreSilver>, 5000000);
 mods.botania.Orechid.addOre(<ore:oreSulfur>, 5000000);
 mods.botania.Orechid.addOre(<ore:oreThorium>, 5000000);
 mods.botania.Orechid.addOre(<ore:oreTin>, 5000000);
-mods.botania.Orechid.addOre(<ore:oreNaquadah>, 5000000);
 mods.botania.Orechid.addOre(<ore:oreCertus_Quartz>, 5000000);
 mods.botania.Orechid.addOre(<ore:oreAlmandine>, 5000000);
 mods.botania.Orechid.addOre(<ore:oreAsbestos>, 5000000);
@@ -343,14 +342,7 @@ PureDaisy.addRecipe(<minecraft:sapling>, <thaumcraft:sapling_greatwood>, 30);
 
 //活木
 PureDaisy.removeRecipe(<botania:livingwood>);
-var greatWoods as IItemStack[] = [
-    <thaumcraft:log_greatwood:0>,
-    <thaumcraft:log_greatwood:1>,
-    <thaumcraft:log_greatwood:2>
-];
-for greatWood in greatWoods {
-    PureDaisy.addRecipe(greatWood, <botania:livingwood>, 30);
-}
+PureDaisy.addRecipe(<ore:blockMagicalWood>, <botania:livingwood>, 30);
 
 //活木枝
 lathe.recipeBuilder()
@@ -371,6 +363,13 @@ ArcaneWorkbench.registerShapedRecipe("spreader", "", 20, [<aspect:aer>, <aspect:
         [<botania:livingwood>, <botania:livingwood>, <botania:livingwood>]
 ]);
 
+//盖亚魂锭
+ArcaneWorkbench.registerShapedRecipe("manaresource", "", 20, [<aspect:aer>, <aspect:ordo>, <aspect:terra>], 
+    <botania:manaresource:14>, [
+        [<botania:manaresource:5>, <gregtech:meta_item_1:491>, <botania:manaresource:5>],
+        [<thaumcraft:nugget:5>, <gregtech:meta_item_1:492>, <thaumcraft:nugget:5>],
+        [<botania:manaresource:5>, <gregtech:meta_item_1:491>, <botania:manaresource:5>]
+]);
 //水绣球
 Apothecary.removeRecipe(<botania:specialflower>.withTag({type: "hydroangeas"}));
 Apothecary.addRecipe(<botania:specialflower>.withTag({type: "hydroangeas"}), 

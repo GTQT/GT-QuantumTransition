@@ -15,10 +15,11 @@
 		uid: "d2e43676",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "gregtech:meta_item_1",
+			Damage: 78s,
 			tag: {
 				Fluid: {
-					FluidName: "ic2coolant",
+					FluidName: "coolant",
 					Amount: 1000
 				}
 			}

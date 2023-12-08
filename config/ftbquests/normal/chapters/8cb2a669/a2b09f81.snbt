@@ -9,12 +9,10 @@
 		uid: "5875f711",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "raw_growth_medium",
-					Amount: 1000
-				}
+				FluidName: "raw_growth_medium",
+				Amount: 1000
 			}
 		}]
 	}]

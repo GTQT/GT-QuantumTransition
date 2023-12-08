@@ -109,62 +109,6 @@ precision_disassembly_machine.recipeBuilder()
     .buildAndRegister();
 
 precision_disassembly_machine.recipeBuilder() 
-    .outputs(<gregtech:machine:1020> * 4, <metaitem:plateDoublePlutonium241> * 16, <metaitem:plateDoubleOsmiridium> * 4, <metaitem:field.generator.iv> * 2, <metaitem:wireGtSingleIndiumTinBariumTitaniumCuprate> * 64)
-	.inputs(<gregtech:machine:32014>* 1)
-	.fluidInputs(<liquid:liquid_nitrogen>*4000)
-    .duration(6000)
-    .EUt(1920)
-    .buildAndRegister();
-	
-precision_disassembly_machine.recipeBuilder() 
-    .outputs(<gregtech:machine:1021> * 4,<metaitem:plateDoubleNaquadria> * 16, <metaitem:plateDoubleEuropium> * 8, <metaitem:field.generator.luv> * 2, <metaitem:wireGtSingleUraniumRhodiumDinaquadide> * 64)
-	.inputs(<gregtech:machine:32015>* 1)
-	.fluidInputs(<liquid:liquid_nitrogen>*4000)
-    .duration(6000)
-    .EUt(1920)
-    .buildAndRegister();
-	
-precision_disassembly_machine.recipeBuilder() 
-    .outputs(<gregtech:machine:1022> * 4,<metaitem:quantumstar> * 16, <metaitem:plateDoubleAmericium> * 32, <metaitem:field.generator.zpm> * 4, <metaitem:wireGtSingleEnrichedNaquadahTriniumEuropiumDuranide> * 64)
-	.inputs(<gregtech:machine:32016>* 1)
-	.fluidInputs(<liquid:liquid_nitrogen>*4000)
-    .duration(6000)
-    .EUt(1920)
-    .buildAndRegister();
-	
-precision_disassembly_machine.recipeBuilder() 
-    .outputs(<gregtech:machine:991>* 16,<gregtech:boiler_casing:4> * 16,<metaitem:field.generator.iv> * 4, <metaitem:wireGtSingleIndiumTinBariumTitaniumCuprate> * 64, <metaitem:wireGtSingleIndiumTinBariumTitaniumCuprate> * 64)
-	.inputs(<gregtech:machine:32007>* 1)
-	.fluidInputs(<liquid:liquid_nitrogen>*4000)
-    .duration(6000)
-    .EUt(1920)
-    .buildAndRegister();
-
-precision_disassembly_machine.recipeBuilder() 
-    .outputs(<gregtech:cable_single:334> * 64,<gregtech:meta_foil:130> * 64,<gregtech:machine:992> * 8,<gregtech:meta_item_1:238> * 4,<gregtech:meta_item_1:223> * 4,<advanced_solar_panels:crafting:12> * 2)
-	.inputs(<gregtech:machine:32027>)
-	.fluidInputs(<liquid:liquid_nitrogen>*4000)
-    .duration(6000)
-    .EUt(1920)
-    .buildAndRegister();
-	
-precision_disassembly_machine.recipeBuilder() 
-    .outputs(<gregtech:meta_block_frame_20:3> * 48,<gregtech:meta_item_1:251> * 4,<gregtech:meta_item_1:146> * 4,<gregtech:meta_item_1:101> * 4,<gregtech:meta_rotor:113> * 16,<gregtech:wire_quadruple:428> * 32,<gregtech:fluid_pipe_quadruple:113> * 16,<gregtech:boiler_casing:2> * 16)
-	.inputs(<gregtech:machine:32004>)
-	.fluidInputs(<liquid:liquid_nitrogen>*4000)
-    .duration(6000)
-    .EUt(1920)
-    .buildAndRegister();
-
-precision_disassembly_machine.recipeBuilder() 
-    .outputs(<gregtech:meta_plate_double:3006> * 16,<gregtech:meta_rotor:3006> * 16,<gregtech:fluid_pipe_normal:296> * 16,<gregtech:meta_item_1:177>*16,<gregtech:meta_item_1:147>*16,<gregtech:meta_item_1:102>*32)
-	.inputs(<gregtech:machine:32005>)
-	.fluidInputs(<liquid:liquid_nitrogen>*4000)
-    .duration(6000)
-    .EUt(1920)
-    .buildAndRegister();
-
-precision_disassembly_machine.recipeBuilder() 
     .outputs(<gregtech:fusion_casing:0>, <metaitem:field.generator.iv> * 2,<metaitem:electric.pump.iv>, <metaitem:neutron_reflector> * 2,<metaitem:pipeSmallFluidNaquadah> * 4, <metaitem:plateEuropium> * 4)
 	.inputs(<gregtech:fusion_casing:1>)
 	.fluidInputs(<liquid:liquid_nitrogen>*4000)

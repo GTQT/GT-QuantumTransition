@@ -1,12 +1,12 @@
 {
-	x: 31.5d,
-	y: 2.0d,
+	x: 18.5d,
+	y: -2.0d,
 	description: "用于制作砖头",
 	text: [
 		""
 	],
 	dependencies: [
-		"051eaccf"
+		"9b15aeed"
 	],
 	tasks: [{
 		uid: "0f06c6e2",

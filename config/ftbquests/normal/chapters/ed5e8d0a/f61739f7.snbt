@@ -12,12 +12,10 @@
 		uid: "6727f8de",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "impure_enriched_naquadah_solution",
-					Amount: 1000
-				}
+				FluidName: "impure_enriched_naquadah_solution",
+				Amount: 1000
 			}
 		}]
 	}]

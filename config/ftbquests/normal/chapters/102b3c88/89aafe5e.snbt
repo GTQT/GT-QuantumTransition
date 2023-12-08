@@ -8,7 +8,7 @@
 		uid: "8c76dde7",
 		type: "item",
 		items: [{
-			item: "botania:manaresource"
+			item: "gregtech:meta_dust 1 32043"
 		}]
 	},
 	{

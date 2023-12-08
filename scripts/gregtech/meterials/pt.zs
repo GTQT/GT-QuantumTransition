@@ -12,6 +12,7 @@ electric_blast_furnace.recipeBuilder()
     .buildAndRegister();
 	
 chemical_reactor.recipeBuilder() 
+    .fluidInputs(<liquid:water>*1000)
     .inputs(<contenttweaker:ptcl_item>*1)
 	.outputs(<gregtech:meta_dust:80>*1)
     .duration(200)
@@ -41,14 +42,7 @@ chemical_reactor.recipeBuilder()
 // 铂粉 * 3
 <recipemap:electrolyzer>.findRecipe(60, [<metaitem:dustCooperite> * 6], null).remove();
 val electrolyzer = mods.gregtech.recipe.RecipeMap.getByName("electrolyzer");
-electrolyzer.recipeBuilder() 
-    .fluidInputs(<liquid:chloroplatinic_acid>*1000)
-	.outputs(<contenttweaker:pti_item>*1)
-	.fluidOutputs(<liquid:chlorine>*4000,<liquid:hydrochloric_acid>*2000)
-    .duration(200)
-    .EUt(512)
-    .buildAndRegister();
-	
+
 electrolyzer.recipeBuilder() 
     .inputs(<gregtech:meta_dust:273>*6)
     .fluidInputs(<liquid:hydrochloric_acid>*6000)

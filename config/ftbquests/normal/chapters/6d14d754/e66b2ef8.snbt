@@ -1,6 +1,6 @@
 {
-	x: 38.0d,
-	y: 1.0d,
+	x: 32.5d,
+	y: -4.5d,
 	description: "黑",
 	text: [
 		"用于炼钢，或者其他什么你目前接触不到的东西",
@@ -13,16 +13,16 @@
 		uid: "fb268159",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "gemCoke",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any gemCoke"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gemCoke"
 				}
 			}
 		}],

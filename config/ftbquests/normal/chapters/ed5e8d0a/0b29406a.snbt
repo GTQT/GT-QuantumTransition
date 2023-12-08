@@ -36,16 +36,16 @@
 		uid: "14239fd4",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "dustTin",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustTin"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustTin"
 				}
 			}
 		}]

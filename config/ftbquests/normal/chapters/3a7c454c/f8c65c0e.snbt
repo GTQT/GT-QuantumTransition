@@ -1,5 +1,5 @@
 {
-	x: 1.0d,
+	x: 2.5d,
 	y: -5.0d,
 	description: "吉吉光",
 	text: [
@@ -8,7 +8,6 @@
 	dependencies: [
 		"a728da35"
 	],
-	size: 2.0d,
 	tasks: [{
 		uid: "c2b0f197",
 		type: "item",

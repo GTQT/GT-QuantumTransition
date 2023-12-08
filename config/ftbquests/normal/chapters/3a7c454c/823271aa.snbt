@@ -1,6 +1,6 @@
 {
 	x: 4.0d,
-	y: -1.0d,
+	y: -2.0d,
 	shape: "gear",
 	description: "详见 多方块 部分",
 	text: [

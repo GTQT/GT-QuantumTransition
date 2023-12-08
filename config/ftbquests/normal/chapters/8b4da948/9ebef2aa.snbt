@@ -1,0 +1,30 @@
+{
+	title: "你知道闪存应该塞在哪里嘛",
+	x: 22.0d,
+	y: -10.0d,
+	shape: "gear",
+	text: [
+		""
+	],
+	dependencies: [
+		"be9d2110"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "90e32f8f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1037"
+		}]
+	}],
+	rewards: [{
+		uid: "8ee0aa5c",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "335a6648",
+		type: "random",
+		table: 4
+	}]
+}

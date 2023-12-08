@@ -1,23 +1,22 @@
 {
 	title: "末地空气",
-	x: -12.5d,
-	y: -8.0d,
+	x: -2.5d,
+	y: -7.0d,
 	text: [
 		"末地的空气也是很值钱的呢，你需要收集一些来提取稀有气体。"
 	],
 	dependencies: [
+		"a109c0d9",
 		"ee8427ec"
 	],
 	tasks: [{
 		uid: "10332015",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "ender_air",
-					Amount: 1000
-				}
+				FluidName: "ender_air",
+				Amount: 1000
 			}
 		}]
 	}],

@@ -50,7 +50,7 @@ alloy_smelter.recipeBuilder()
     .buildAndRegister();
 	
 alloy_smelter.recipeBuilder() 
-    .inputs(<gregtech:meta_ingot:59>,<gregtech:meta_dust:13>*2)
+    .inputs(<gregtech:meta_dust:59>,<gregtech:meta_dust:13>*2)
     .outputs(<nuclearcraft:alloy:3>*3)
     .duration(600)
     .EUt(2048)
@@ -64,28 +64,28 @@ alloy_smelter.recipeBuilder()
     .buildAndRegister();	
 	
 alloy_smelter.recipeBuilder() 
-    .inputs(<gregtech:meta_ingot:324>,<gregtech:meta_dust:13>)
+    .inputs(<gregtech:meta_dust:324>,<gregtech:meta_dust:13>)
     .outputs(<nuclearcraft:alloy:6>*2)
     .duration(600)
     .EUt(2048)
     .buildAndRegister();	
 	
 alloy_smelter.recipeBuilder() 
-    .inputs(<gregtech:meta_ingot:25>*4,<gregtech:meta_dust:100>)
+    .inputs(<gregtech:meta_dust:25>*4,<gregtech:meta_dust:100>)
     .outputs(<nuclearcraft:alloy:7>*4)
     .duration(600)
     .EUt(2048)
     .buildAndRegister();	
 	
 alloy_smelter.recipeBuilder() 
-    .inputs(<gregtech:meta_ingot:112>,<gregtech:meta_dust:100>)
+    .inputs(<gregtech:meta_dust:112>,<gregtech:meta_dust:100>)
     .outputs(<nuclearcraft:alloy:8>*2)
     .duration(600)
     .EUt(2048)
     .buildAndRegister();	
 	
 alloy_smelter.recipeBuilder() 
-    .inputs(<gregtech:meta_ingot:55>*3,<gregtech:meta_dust:80>)
+    .inputs(<gregtech:meta_dust:55>*3,<gregtech:meta_dust:80>)
     .outputs(<nuclearcraft:alloy:9>*4)
     .duration(600)
     .EUt(2048)

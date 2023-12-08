@@ -12,9 +12,9 @@ assembler.recipeBuilder()
 // 末影流体连接覆盖板 * 1
 <recipemap:assembler>.findRecipe(480, [<metaitem:plateEnderPearl> * 9, <metaitem:plateDoubleStainlessSteel>, <metaitem:sensor.hv>, <metaitem:emitter.hv>, <metaitem:electric.pump.hv>], [<liquid:plastic> * 288]).remove();
 assembler.recipeBuilder() 
-    .inputs(<metaitem:plateEnderPearl> * 9, <metaitem:plateDoubleStainlessSteel>*2,<ore:circuitEv>, <metaitem:sensor.ev>*2, <metaitem:emitter.ev>*2, <metaitem:electric.pump.ev>)
+    .inputs(<metaitem:plateEnderPearl> * 18, <metaitem:plateDoubleStainlessSteel>*2,<ore:circuitEv>, <metaitem:sensor.ev>*2, <metaitem:emitter.ev>*2, <metaitem:electric.pump.ev>)
 	.fluidInputs(<liquid:polytetrafluoroethylene>*576)
-    .outputs(<gregtech:meta_item_1:311>*2)
+    .outputs(<gregtech:meta_item_1:311>*4)
     .duration(1200)
     .EUt(480)
     .buildAndRegister();
@@ -30,3 +30,4 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 	
+

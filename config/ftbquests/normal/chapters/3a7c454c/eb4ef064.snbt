@@ -1,7 +1,8 @@
 {
-	x: 9.0d,
+	x: 6.0d,
 	y: 7.0d,
 	dependencies: [
+		"59bb088e",
 		"c1354b76"
 	],
 	size: 2.0d,

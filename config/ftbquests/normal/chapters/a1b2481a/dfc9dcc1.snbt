@@ -10,10 +10,22 @@
 		items: [{
 			item: "gregtech:meta_dust 1 2013"
 		}]
+	},
+	{
+		uid: "a267c27f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 473"
+		}]
 	}],
 	rewards: [{
 		uid: "0faf3405",
 		type: "random",
 		table: 9
+	},
+	{
+		uid: "9764d523",
+		type: "random",
+		table: 3
 	}]
 }

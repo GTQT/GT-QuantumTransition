@@ -12,12 +12,10 @@
 		uid: "bc0687bb",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "fluoroantimonic_acid",
-					Amount: 1000
-				}
+				FluidName: "fluoroantimonic_acid",
+				Amount: 1000
 			}
 		}]
 	}]

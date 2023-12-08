@@ -8,7 +8,7 @@
 		uid: "d471450d",
 		type: "item",
 		items: [{
-			item: "ic2:plate 1 16"
+			item: "gregtech:meta_plate_dense 1 260"
 		}]
 	},
 	{
@@ -22,7 +22,7 @@
 		uid: "cf07310d",
 		type: "item",
 		items: [{
-			item: "ic2:plate 1 9"
+			item: "gregtech:meta_plate_dense 1 324"
 		}]
 	}],
 	rewards: [{

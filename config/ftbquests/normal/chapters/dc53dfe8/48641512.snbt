@@ -33,5 +33,10 @@
 		uid: "a49a5fe9",
 		type: "item",
 		item: "gregtech:meta_item_1 1 2"
+	},
+	{
+		uid: "942094c6",
+		type: "item",
+		item: "gregtech:machine 1 1575"
 	}]
 }

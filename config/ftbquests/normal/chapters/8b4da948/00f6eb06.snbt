@@ -14,12 +14,10 @@
 		uid: "a3610308",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "hydrazine",
-					Amount: 1000
-				}
+				FluidName: "hydrazine",
+				Amount: 1000
 			}
 		}]
 	},
@@ -29,5 +27,10 @@
 		items: [{
 			item: "gregtech:meta_dust 1 6014"
 		}]
+	}],
+	rewards: [{
+		uid: "12bebdab",
+		type: "random",
+		table: 4
 	}]
 }

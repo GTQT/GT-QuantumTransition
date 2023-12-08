@@ -1,7 +1,7 @@
 {
 	title: "氦",
-	x: -12.5d,
-	y: -9.0d,
+	x: 0.0d,
+	y: -7.0d,
 	text: [
 		"分馏末地空气",
 		"",
@@ -27,12 +27,10 @@
 		uid: "8c8f369f",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "helium",
-					Amount: 1000
-				}
+				FluidName: "helium",
+				Amount: 1000
 			}
 		}]
 	}]

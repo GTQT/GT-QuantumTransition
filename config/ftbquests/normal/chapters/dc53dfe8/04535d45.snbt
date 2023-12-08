@@ -9,10 +9,10 @@
 		type: "item",
 		items: [{
 			id: "gregtech:gt_armor",
+			Damage: 1s,
 			tag: {
 				Charge: 80000L
-			},
-			Damage: 1s
+			}
 		}],
 		ignore_nbt: 1b
 	}],

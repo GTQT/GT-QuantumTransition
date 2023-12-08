@@ -2,117 +2,30 @@
 	title: "食物",
 	loot_size: 1,
 	rewards: [{
-		item: "harvestcraft:cinnamonsugardonutitem"
+		item: "harvestcraft:pbandjitem"
 	},
 	{
-		item: "harvestcraft:gummybearsitem"
+		item: "harvestcraft:applejellysandwichitem"
 	},
 	{
-		item: "harvestcraft:meatystewitem"
+		item: "harvestcraft:blackberryjellysandwichitem"
 	},
 	{
-		item: "harvestcraft:meatystewitem"
+		item: "harvestcraft:blueberryjellysandwichitem"
 	},
 	{
-		item: "harvestcraft:shepardspieitem"
+		item: "harvestcraft:cherryjellysandwichitem"
 	},
 	{
-		item: "harvestcraft:sunflowerwheatrollsitem"
+		item: "harvestcraft:cranberryjellysandwichitem"
 	},
 	{
-		item: "harvestcraft:papayajellysandwichitem"
+		item: "harvestcraft:kiwijellysandwichitem"
 	},
 	{
-		item: "harvestcraft:gingeredrhubarbtartitem"
+		item: "harvestcraft:lemonjellysandwichitem"
 	},
 	{
-		item: "harvestcraft:watermelonjellysandwichitem"
-	},
-	{
-		item: "harvestcraft:fishsandwichitem"
-	},
-	{
-		item: "harvestcraft:chimichangaitem"
-	},
-	{
-		item: "harvestcraft:bbqchickenbiscuititem"
-	},
-	{
-		item: "minecraft:cookie"
-	},
-	{
-		item: "harvestcraft:cornedbeefbreakfastitem"
-	},
-	{
-		item: "harvestcraft:chickenandwafflesitem"
-	},
-	{
-		item: "minecraft:cooked_porkchop"
-	},
-	{
-		item: "harvestcraft:deluxechickencurryitem"
-	},
-	{
-		item: "harvestcraft:hamsweetpicklesandwichitem"
-	},
-	{
-		item: "minecraft:baked_potato"
-	},
-	{
-		item: "harvestcraft:deluxechickencurryitem"
-	},
-	{
-		item: "harvestcraft:hamsweetpicklesandwichitem"
-	},
-	{
-		item: "harvestcraft:weekendpicnicitem"
-	},
-	{
-		item: "harvestcraft:supremepizzaitem"
-	},
-	{
-		item: "harvestcraft:lamingtonitem"
-	},
-	{
-		item: "harvestcraft:minerstewitem"
-	},
-	{
-		item: "harvestcraft:cassouletitem"
-	},
-	{
-		item: "harvestcraft:applepieitem"
-	},
-	{
-		item: "harvestcraft:bentoboxitem"
-	},
-	{
-		item: "harvestcraft:eggsbenedictitem"
-	},
-	{
-		item: "harvestcraft:pumpkinbreaditem"
-	},
-	{
-		item: "harvestcraft:ploughmanslunchitem"
-	},
-	{
-		item: "harvestcraft:meatloafsandwichitem"
-	},
-	{
-		item: "harvestcraft:grilledcheeseitem"
-	},
-	{
-		item: "harvestcraft:southernstylebreakfastitem"
-	},
-	{
-		item: "harvestcraft:kohlundpinkelitem"
-	},
-	{
-		item: "harvestcraft:friesitem"
-	},
-	{
-		item: "harvestcraft:gourmetbeefburgeritem"
-	},
-	{
-		item: "harvestcraft:gumboitem"
+		item: "harvestcraft:mangojellysandwichitem"
 	}]
 }

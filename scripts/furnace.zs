@@ -1,13 +1,11 @@
 furnace.remove(<minecraft:glass>);
 furnace.remove(<galacticraftcore:item_basic_moon>);
 furnace.remove(<galacticraftplanets:item_basic_mars:2>);
-furnace.remove(<ic2:crystal_memory>);
 furnace.remove(<threng:material>);
-furnace.remove(<opencomputers:material:4>);
 furnace.remove(<enderio:item_alloy_ingot:*>);
 furnace.remove(<minecraft:coal:1>);
+furnace.remove(<qmd:ingot:*>);
 furnace.remove(<nuclearcraft:ingot:*>);
-furnace.remove(<ic2:ingot:*>);
 furnace.remove(<projectred-core:resource_item>);
 furnace.remove(<extraplanets:tier9_items:5>);
 furnace.setFuel(<minecraft:diamond>, 102400);

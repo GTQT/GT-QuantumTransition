@@ -67,7 +67,7 @@ recipes.addShaped(<enderio:block_tank>, [[<ore:plateSteel>, <gregtech:meta_plate
 recipes.addShaped(<enderio:block_wireless_charger>, [[<ore:plateElectricalSteel>, <enderio:item_basic_capacitor:2>, <ore:plateElectricalSteel>],[<ore:circuitHv>, <enderio:item_material:1>, <ore:circuitHv>], [<gregtech:meta_item_1:129>, <ore:skullEnderResonator>, <gregtech:meta_item_1:129>]]);
 
 //Farming Station
-recipes.addShaped(<enderio:block_farm_station>, [[<gregtech:meta_item_1:189>, <ore:plateDoublePulsatingIron>, <gregtech:meta_item_1:189>],[<ore:itemPulsatingCrystal>, <enderio:item_material:53>, <ore:itemPulsatingCrystal>], [<ore:gearElectricalSteel>, <ore:skullZombieController>, <ore:gearElectricalSteel>]]);
+recipes.addShaped(<enderio:block_farm_station>, [[<gregtech:meta_item_1:189>, <ore:circuitHv>, <gregtech:meta_item_1:189>],[<ore:itemPulsatingCrystal>, <enderio:item_material:53>, <ore:itemPulsatingCrystal>], [<ore:gearElectricalSteel>, <ore:skullZombieController>, <ore:gearElectricalSteel>]]);
 
 //Powered Monitor
 recipes.addShaped(<enderio:block_power_monitor>, [[<ore:plateElectricalSteel>, <gregtech:meta_item_1:465>, <ore:plateElectricalSteel>],[<ore:circuitLv>, <enderio:item_material:1>, <ore:circuitLv>], [<enderio:item_power_conduit>, <enderio:item_conduit_probe>, <enderio:item_power_conduit>]]);
@@ -314,13 +314,6 @@ assembler.recipeBuilder()
     .inputs([<enderio:item_me_conduit> * 4, <ore:plateTitanium>,<enderio:item_material:4>*2])
     .fluidInputs(<liquid:plastic> * 144)
 	.outputs(<enderio:item_me_conduit:1>)
-	.duration(100).EUt(480).buildAndRegister();
-
-//OC Conduit
-assembler.recipeBuilder()
-    .inputs([<appliedenergistics2:part:16>, <ore:plateRedstoneAlloy>,<enderio:item_material:4>*2])
-    .fluidInputs(<liquid:plastic> * 144)
-	.outputs(<enderio:item_opencomputers_conduit>)
 	.duration(100).EUt(480).buildAndRegister();
 
 //Redstone Conduit

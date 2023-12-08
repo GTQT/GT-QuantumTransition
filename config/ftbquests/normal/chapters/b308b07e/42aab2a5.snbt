@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: -4.0d,
+	dependencies: [
+		"608be575"
+	],
+	tasks: [{
+		uid: "86f100e1",
+		type: "item",
+		items: [{
+			item: "draconicevolution:particle_generator"
+		}]
+	},
+	{
+		uid: "a65106dd",
+		type: "item",
+		items: [{
+			item: "draconicevolution:particle_generator 1 2"
+		}]
+	}]
+}

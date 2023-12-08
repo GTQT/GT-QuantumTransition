@@ -15,8 +15,8 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
  
 global space_elevator as RecipeMap = FactoryRecipeMap.start("space_elevator_controller")
-    .maxInputs(16)
-    .maxOutputs(16)
+    .maxInputs(12)
+    .maxOutputs(25)
 	.maxFluidInputs(6)
 	.maxFluidOutputs(6)
     .build();
@@ -2211,7 +2211,7 @@ Builder.start("space_elevator", 32042)
      .aisle(
         "AAAAAAAAAAAAAAAAAAAAAGGAAGGAAAAAAAAAAAAAAAAAAAAA",
         "                    EGG  GGEA                   ",
-        "                     GG  GG X                   ",
+        "                     GG  GG A                   ",
         "                     GG  GG A                   ",
         "                    EGG  GGEA                   ",
         "                     GG  GG A                   ",
@@ -2731,7 +2731,7 @@ Builder.start("space_elevator", 32042)
      .aisle(
         "AAAAAAAAAAAAAAAAAAAAAGGAAGGAAAAAAAAAAAAAAAAAAAAA",
         "                    EGG  GGEA                   ",
-        "                     GG  GG A                   ",
+        "                     GG  GG X                   ",
         "                     GG  GG A                   ",
         "                    EGG  GGEA                   ",
         "                     GG  GG A                   ",
@@ -5035,6 +5035,7 @@ Builder.start("space_elevator", 32042)
             .where("H", CTPredicate.states(<metastate:contenttweaker:base_components:0>)
                 | CTPredicate.abilities(<mte_ability:MAINTENANCE_HATCH>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
                 | CTPredicate.abilities(<mte_ability:MUFFLER_HATCH>).setMinGlobalLimited(1).setMaxGlobalLimited(1).setPreviewCount(1)
+			    | CTPredicate.abilities(<mte_ability:INPUT_ENERGY>).setMinGlobalLimited(1).setMaxGlobalLimited(8).setPreviewCount(1)
             )
             .where(" ",CTPredicate.getAny())
         .build();
@@ -5047,80 +5048,143 @@ space_elevator.recipeBuilder()
     .duration(1)
 	.fluidOutputs(<liquid:tech>*1000)
 	.circuit(1)
-    .EUt(1966080)
+    .EUt(122880)
     .buildAndRegister();	
 	
 //组装下行 物品IO
 space_elevator.recipeBuilder() 
-    .inputs(<gregtech:machine:1022> *4,<ore:circuitUhv> * 8,<gregtech:meta_item_1:209>*16,<ore:wireGtHexEnrichedNaquadahTriniumEuropiumDuranide>*64,<contenttweaker:nanites>*32,<gcys:meta_item_1:368>*64)
-    .fluidInputs(<liquid:soldering_alloy> * 20000,<liquid:uu_matter>*4000,<liquid:molten.ruthenium_trinium_americium_neutronate>*1000,<liquid:kapton_k>*1000,<liquid:kapton_e>*1000,<liquid:kevlar>*1000)
-	.outputs(<gregtech:machine:32014>* 1)
+    .inputs(<gregtech:machine:1022> *4,<ore:circuitUhv> * 16,<gregtech:meta_item_1:209>*16,<ore:wireGtHexEnrichedNaquadahTriniumEuropiumDuranide>*64,<contenttweaker:nanites>*32,<gcys:meta_item_1:368>*64)
+    .fluidInputs(<liquid:soldering_alloy> * 20000,<liquid:uu_matter>*40000,<liquid:ruthenium_trinium_americium_neutronate>*10000,<liquid:kapton_k>*10000,<liquid:kapton_e>*10000,<liquid:kevlar>*10000)
+	.outputs(<gregtech:machine:15010>* 1)
 	.circuit(2)
     .duration(8000)
-    .EUt(1966080)
+    .EUt(122880)
     .buildAndRegister();
 	
 space_elevator.recipeBuilder() 
-    .inputs(<gregtech:machine:32014> *4, <ore:circuitUev>* 32,<gregtech:meta_item_1:210>*32,<ore:wireGtHexPedotPss>*64,<contenttweaker:nanites>*64,<gcys:meta_item_1:369>*64)
-    .fluidInputs(<liquid:soldering_alloy> * 20000,<liquid:uu_matter>*8000,<liquid:molten.ruthenium_trinium_americium_neutronate>*4000,<liquid:kapton_k>*4000,<liquid:kapton_e>*4000,<liquid:kevlar>*4000)
-	.outputs(<gregtech:machine:32015>* 1)
+    .inputs(<gregtech:machine:15010> *4, <ore:circuitUev>* 32,<gregtech:meta_item_1:210>*32,<ore:wireGtHexPedotPss>*64,<contenttweaker:nanites>*64,<gcys:meta_item_1:369>*64)
+    .fluidInputs(<liquid:soldering_alloy> * 20000,<liquid:uu_matter>*80000,<liquid:ruthenium_trinium_americium_neutronate>*40000,<liquid:kapton_k>*40000,<liquid:kapton_e>*40000,<liquid:kevlar>*40000)
+	.outputs(<gregtech:machine:15011>* 1)
 	.circuit(2)
     .duration(10000)
-    .EUt(1966080)
+    .EUt(122880)
     .buildAndRegister();
 	
-//space_elevator.recipeBuilder() 
-//    .inputs(<gregtech:machine:32015> * 4,<ore:circuitUiv> * 64,<gregtech:meta_item_1:211>*64,<gcys:meta_item_1:370>*64)
-//    .fluidInputs(<liquid:soldering_alloy> * 20000,<liquid:uu_matter>*16000,<liquid:molten.ruthenium_trinium_americium_neutronate>*8000,<liquid:kapton_k>*8000,<liquid:kapton_e>*8000,<liquid:kevlar>*8000)
-//	.outputs(<gregtech:machine:32016>* 1)
-//	.circuit(2)
-//    .duration(12000)
-//    .EUt(1966080)
-//    .buildAndRegister();
+space_elevator.recipeBuilder() 
+    .inputs(<gregtech:machine:15011> * 4,<ore:circuitUiv> * 64,<gregtech:meta_item_1:211>*64,<gcys:meta_item_1:370>*64)
+    .fluidInputs(<liquid:soldering_alloy> * 20000,<liquid:uu_matter>*160000,<liquid:ruthenium_trinium_americium_neutronate>*80000,<liquid:kapton_k>*80000,<liquid:kapton_e>*80000,<liquid:kevlar>*80000)
+	.outputs(<gregtech:machine:15012>* 1)
+	.circuit(2)
+    .duration(12000)
+    .EUt(122880)
+    .buildAndRegister();
+//压缩聚变
+space_elevator.recipeBuilder() 
+    .inputs(<gregtech:fusion_casing:1> * 16,<gcys:meta_item_1:368> * 64,<gregtech:wire_hex:15077> * 64,<gregtech:meta_item_1:149> * 8,<ore:circuitUhv> * 4)
+    .fluidInputs(<liquid:soldering_alloy> * 20000,<liquid:uu_matter>*8000,<liquid:ruthenium_trinium_americium_neutronate>*4000,<liquid:kapton_k>*4000,<liquid:molten_coalescence_matrix>*512,<liquid:kevlar>*4000)
+	.outputs(<gtqtcore:multiblock_casing:6>*2)
+	.circuit(2)
+    .duration(1000)
+    .EUt(122880)
+    .buildAndRegister();
+
+space_elevator.recipeBuilder() 
+    .inputs(<gregtech:fusion_casing:1> * 32,<gcys:meta_item_1:369> * 64,<gregtech:wire_hex:32295> * 64,<gregtech:meta_item_1:150> * 16,<ore:circuitUev> * 16)
+    .fluidInputs(<liquid:soldering_alloy> * 40000,<liquid:uu_matter>*16000,<liquid:molten.ruthenium_trinium_americium_neutronate>*4000,<liquid:kapton_k>*8000,<liquid:molten_coalescence_matrix>*512,<liquid:kevlar>*8000)
+	.outputs(<gtqtcore:multiblock_casing:4>*2)
+	.circuit(2)
+    .duration(1000)
+    .EUt(122880)
+    .buildAndRegister();
+	
+space_elevator.recipeBuilder() 
+    .inputs(<gregtech:fusion_casing:1> * 64,<gcys:meta_item_1:370> * 64,<gregtech:wire_hex:32296> * 64,<gregtech:meta_item_1:151> *32,<ore:circuitUiv> * 32)
+    .fluidInputs(<liquid:soldering_alloy> * 80000,<liquid:uu_matter>*32000,<liquid:molten.ruthenium_trinium_americium_neutronate>*4000,<liquid:kapton_k>*16000,<liquid:molten_coalescence_matrix>*512,<liquid:kevlar>*16000)
+	.outputs(<gtqtcore:multiblock_casing:8>*2)
+	.circuit(2)
+    .duration(1000)
+    .EUt(122880)
+    .buildAndRegister();
+
+space_elevator.recipeBuilder() 
+    .inputs(<gregtech:machine:15003> * 16,<gcys:meta_item_1:368> * 64,<gcys:meta_item_1:368> * 64,<gregtech:meta_item_1:195> * 64,<gregtech:meta_item_1:165> * 64,<gregtech:fusion_casing:1>* 64,<ore:circuitUev> * 64,<ore:circuitUev> * 64,<gregtech:wire_hex:32020> *64,<contenttweaker:nanites> * 64)
+    .fluidInputs(<liquid:soldering_alloy> * 20000,<liquid:uu_matter>*8000,<liquid:molten.ruthenium_trinium_americium_neutronate>*4000,<liquid:kapton_k>*4000,<liquid:molten_coalescence_matrix>*512,<liquid:kevlar>*4000)
+	.outputs(<gregtech:machine:3020>)
+	.circuit(2)
+    .duration(10000)
+    .EUt(122880)
+    .buildAndRegister();
+
+space_elevator.recipeBuilder() 
+    .inputs(<gregtech:machine:15004> * 32,<gcys:meta_item_1:369> * 64,<gcys:meta_item_1:369> * 64,<gregtech:meta_item_1:196> * 64,<gregtech:meta_item_1:166> * 64,<gregtech:fusion_casing:1>* 64,<ore:circuitUiv> * 64,<ore:circuitUiv> * 64,<gregtech:wire_hex:32021> *64,<contenttweaker:nanites> * 64)
+    .fluidInputs(<liquid:soldering_alloy> * 40000,<liquid:uu_matter>*32000,<liquid:molten.ruthenium_trinium_americium_neutronate>*16000,<liquid:kapton_k>*16000,<liquid:molten_coalescence_matrix>*512,<liquid:kevlar>*16000)
+	.outputs(<gregtech:machine:3021>)
+	.circuit(2)
+    .duration(10000)
+    .EUt(122880)
+    .buildAndRegister();
+	
+space_elevator.recipeBuilder() 
+    .inputs(<gregtech:machine:15005> * 64,<gcys:meta_item_1:370> * 64,<gcys:meta_item_1:370> * 64,<gregtech:meta_item_1:197> * 64,<gregtech:meta_item_1:167> * 64,<gregtech:fusion_casing:1>* 64,<ore:circuitUxv> * 64,<ore:circuitUxv> * 64,<gregtech:wire_hex:32226> *64,<contenttweaker:nanites> * 64)
+    .fluidInputs(<liquid:soldering_alloy> * 40000,<liquid:uu_matter>*32000,<liquid:molten.ruthenium_trinium_americium_neutronate>*16000,<liquid:kapton_k>*16000,<liquid:molten_coalescence_matrix>*512,<liquid:kevlar>*16000)
+	.outputs(<gregtech:machine:3022>)
+	.circuit(2)
+    .duration(10000)
+    .EUt(122880)
+    .buildAndRegister();
 //龙研组装
 space_elevator.recipeBuilder() 
-    .inputs(<draconicevolution:chaotic_core> *2,<ore:circuitUhv> * 8,<gregtech:meta_item_1:165>*4,<gregtech:meta_item_1:180>*4,<gregtech:meta_item_1:195>*4,<ore:wireGtSinglePedotPss>*64,<contenttweaker:nanites>*32,<gcys:meta_item_1:368>*64)
+    .inputs(<draconicevolution:dragon_heart>*8,<draconicevolution:chaotic_core> *2,<ore:circuitUhv> * 8,<gregtech:meta_item_1:165>*4,<gregtech:meta_item_1:180>*4,<gregtech:meta_item_1:195>*4,<ore:wireGtSinglePedotPss>*64,<contenttweaker:nanites>*32,<gcys:meta_item_1:368>*64)
     .fluidInputs(<liquid:soldering_alloy> * 20000,<liquid:uu_matter>*4000,<liquid:molten.ruthenium_trinium_americium_neutronate>*1000,<liquid:kapton_k>*1000,<liquid:kapton_e>*1000,<liquid:kevlar>*1000)
 	.outputs(<gregtech:machine:32053>* 1)
 	.circuit(2)
     .duration(10000)
-    .EUt(1966080)
+    .EUt(122880*4)
+    .buildAndRegister();
+	
+space_elevator.recipeBuilder() 
+    .inputs(<draconicevolution:dragon_heart>,<minecraft:dragon_egg>,<draconicevolution:wyvern_core>*2,<gregtech:meta_block_frame_2012>*8,<contenttweaker:nanites>*16,<gregtech:meta_item_1:239>*8,<gregtech:meta_item_1:224>*8,<gregtech:meta_plate_dense:32166>*16)
+    .fluidInputs(<liquid:soldering_alloy> * 20000,<liquid:uu_matter>*4000,<liquid:molten.ruthenium_trinium_americium_neutronate>*1000,<liquid:kapton_k>*1000,<liquid:kapton_e>*1000,<liquid:kevlar>*1000)
+	.outputs(<draconicevolution:celestial_manipulator>)
+	.circuit(2)
+    .duration(10000)
+    .EUt(122880*4)
     .buildAndRegister();
 
 space_elevator.recipeBuilder() 
-    .inputs(<gregtech:meta_item_1:134> * 2,<gregtech:meta_item_1:164> * 2,<gregtech:meta_item_1:179> * 2,<gregtech:meta_item_1:194> * 2,<gregtech:meta_item_1:606> * 32,<draconicevolution:draconic_core> * 2,<gregtech:meta_block_frame_2012> * 6,<gregtech:meta_screw:32164> * 2,<gregtech:meta_stick_long:32164> * 2,<contenttweaker:nanites>*8)
+    .inputs(<draconicevolution:dragon_heart>,<gregtech:meta_item_1:134> * 2,<gregtech:meta_item_1:164> * 2,<gregtech:meta_item_1:179> * 2,<gregtech:meta_item_1:194> * 2,<gregtech:meta_item_1:606> * 32,<draconicevolution:draconic_core> * 2,<gregtech:meta_block_frame_2012> * 6,<gregtech:meta_screw:28009> * 2,<gregtech:meta_stick_long:28009> * 2,<contenttweaker:nanites>*8)
     .fluidInputs(<liquid:soldering_alloy> * 20000,<liquid:uu_matter>*4000,<liquid:molten.ruthenium_trinium_americium_neutronate>*1000,<liquid:kapton_k>*1000,<liquid:kapton_e>*1000,<liquid:kevlar>*1000)
 	.outputs(<draconicevolution:crafting_injector:0>)
 	.circuit(2)
     .duration(10000)
-    .EUt(1966080)
+    .EUt(122880*4)
     .buildAndRegister();
 
 space_elevator.recipeBuilder() 
-    .inputs(<gregtech:meta_item_1:135> * 2,<gregtech:meta_item_1:165> * 2,<gregtech:meta_item_1:180> * 2,<gregtech:meta_item_1:195> * 2,<gcys:meta_item_1:368> * 32,<draconicevolution:wyvern_core> * 4,<gregtech:meta_block_frame_2012> * 6,<gregtech:meta_screw:32164> * 4,<gregtech:meta_stick_long:32164> * 4,<contenttweaker:nanites>*16)
+    .inputs(<draconicevolution:dragon_heart>,<gregtech:meta_item_1:135> * 2,<gregtech:meta_item_1:165> * 2,<gregtech:meta_item_1:180> * 2,<gregtech:meta_item_1:195> * 2,<gcys:meta_item_1:368> * 32,<draconicevolution:wyvern_core> * 4,<gregtech:meta_block_frame_2012> * 6,<gregtech:meta_screw:28009> * 4,<gregtech:meta_stick_long:28009> * 4,<contenttweaker:nanites>*16)
     .fluidInputs(<liquid:soldering_alloy> * 20000,<liquid:uu_matter>*4000,<liquid:molten.ruthenium_trinium_americium_neutronate>*1000,<liquid:kapton_k>*1000,<liquid:kapton_e>*1000,<liquid:kevlar>*1000)
 	.outputs(<draconicevolution:crafting_injector:1>)
 	.circuit(2)
     .duration(10000)
-    .EUt(1966080*4)
+    .EUt(122880*4)
     .buildAndRegister();
 
 space_elevator.recipeBuilder() 
-    .inputs(<gregtech:meta_item_1:136> * 2,<gregtech:meta_item_1:166> * 2,<gregtech:meta_item_1:181> * 2,<gregtech:meta_item_1:196> * 2,<gcys:meta_item_1:369> * 32,<draconicevolution:awakened_core> * 8,<gregtech:meta_block_frame_2012> * 6,<gregtech:meta_screw:32164> * 8,<gregtech:meta_stick_long:32164> * 8,<contenttweaker:nanites>*32)
+    .inputs(<draconicevolution:dragon_heart>,<gregtech:meta_item_1:136> * 2,<gregtech:meta_item_1:166> * 2,<gregtech:meta_item_1:181> * 2,<gregtech:meta_item_1:196> * 2,<gcys:meta_item_1:369> * 32,<draconicevolution:awakened_core> * 8,<gregtech:meta_block_frame_2012> * 6,<gregtech:meta_screw:28009> * 8,<gregtech:meta_stick_long:28009> * 8,<contenttweaker:nanites>*32)
     .fluidInputs(<liquid:soldering_alloy> * 20000,<liquid:uu_matter>*4000,<liquid:molten.ruthenium_trinium_americium_neutronate>*1000,<liquid:kapton_k>*1000,<liquid:kapton_e>*1000,<liquid:kevlar>*1000)
 	.outputs(<draconicevolution:crafting_injector:2>)
 	.circuit(2)
     .duration(10000)
-    .EUt(1966080*16)
+    .EUt(491520*4)
     .buildAndRegister();
 	
 space_elevator.recipeBuilder() 
-    .inputs(<gregtech:meta_item_1:137> * 2,<gregtech:meta_item_1:167> * 2,<gregtech:meta_item_1:182> * 2,<gregtech:meta_item_1:197> * 2,<gcys:meta_item_1:370> * 32,<draconicevolution:chaotic_core> * 16,<gregtech:meta_block_frame_2012> * 6,<gregtech:meta_screw:32164> * 16,<gregtech:meta_stick_long:32164> * 16,<contenttweaker:nanites>*64)
+    .inputs(<draconicevolution:dragon_heart>,<gregtech:meta_item_1:137> * 2,<gregtech:meta_item_1:167> * 2,<gregtech:meta_item_1:182> * 2,<gregtech:meta_item_1:197> * 2,<gcys:meta_item_1:370> * 32,<draconicevolution:chaotic_core> * 16,<gregtech:meta_block_frame_2012> * 6,<gregtech:meta_screw:28009> * 16,<gregtech:meta_stick_long:28009> * 16,<contenttweaker:nanites>*64)
     .fluidInputs(<liquid:soldering_alloy> * 20000,<liquid:uu_matter>*4000,<liquid:molten.ruthenium_trinium_americium_neutronate>*1000,<liquid:kapton_k>*1000,<liquid:kapton_e>*1000,<liquid:kevlar>*1000)
 	.outputs(<draconicevolution:crafting_injector:3>)
 	.circuit(2)
     .duration(10000)
-    .EUt(1966080*64)
+    .EUt(491520*4)
     .buildAndRegister();
 	
 
@@ -5143,16 +5207,256 @@ var map as IItemStack[int] = {
 14:<contenttweaker:miningdronemax>
 };
 var i as int = 0;
+var j as int = 0;
 for key,value in map{
 
 i=0;
-i=(10+key)*100;
+i=(10+key)*1000;
+
+j=0;
+j=(10+key)*10;
 space_elevator.recipeBuilder() 
-    .duration(10)
+    .duration(1000)
     .notConsumable(value)
-	.fluidInputs(<liquid:rocket_fuel>*2000)
-	.fluidOutputs(<liquid:star_deep_material>*i)
+	.inputs(<gregtech:meta_tool_head_drill:127>)
+	.outputs(<gregtech:meta_dust:99>*j,<gregtech:meta_dust:59>*j,<gregtech:meta_dust:103>*j)
+	.fluidInputs(<liquid:fuelgc>*2000)
+	.fluidOutputs(<liquid:star_deep_material>*i,<liquid:plasma.helium>*i,<liquid:plasma.oxygen>*i,<liquid:carbon>*i,<liquid:plasma.nitrogen>*i,<liquid:plasma.iron>*i)
 	.circuit(20)
-    .EUt(1966080)
+    .EUt(491520)
+    .buildAndRegister();
+
+space_elevator.recipeBuilder() 
+    .duration(10000)
+    .notConsumable(value)
+	.inputs(<gregtech:meta_tool_head_drill:2042>*10)
+	.outputs(<gregtech:ore_dragon_essence_0>*j,<gregtech:ore_black_plutonium_0>*j,<gregtech:ore_nether_star_0>*j,<gregtech:ore_osmiridium_8020_0>*j,<gregtech:ore_infinity_catalyst_0>*j)
+	.fluidInputs(<liquid:fuelgc>*2000)
+	.circuit(20)
+    .EUt(491520)
     .buildAndRegister();	
+}
+
+for key,value in map{
+i=0;
+i=key*10;
+	
+//地球
+space_elevator.recipeBuilder() 
+    .notConsumable(value)
+	.chancedOutput(<gregtech:ore_grossular_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_garnierite_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_coal_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_cinnabar_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_calcite_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_blue_topaz_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_certus_quartz_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_almandine_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_asbestos_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_sapphire_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_saltpeter_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_salt_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_ruby_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_rock_salt_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_pyrolusite_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_lazurite_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_magnesite_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_green_sapphire_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_gypsum_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_zeolite_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_glauconite_sand_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_topaz_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_sodalite_0>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_redstone_0>*i, 1000, 100)
+	.circuit(21)
+	.EUt(122880)
+	.duration(20)
+    .buildAndRegister(); 
+//月球T1
+space_elevator.recipeBuilder() 
+    .notConsumable(value)
+	.chancedOutput(<gregtech:ore_tungstate_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_preciousalloy_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_wulfenite_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_molybdenite_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_powellite_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_certus_quartz_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_bauxite_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_ilmenite_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_aluminium_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_calcium_difluoride_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_tin_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_barite_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_copper_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_pyrite_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_iron_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_chalcopyrite_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_galena_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_silver_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_lead_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_meteoric_iron_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_kyanite_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_mica_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_fullers_earth_1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_gypsum_1>*i, 1000, 100)
+	.circuit(22)
+	.EUt(122880)
+	.duration(20)
+    .buildAndRegister(); 
+//火星T2
+space_elevator.recipeBuilder() 
+    .notConsumable(value)
+	.chancedOutput(<gregtech:ore_sulfur_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_pyrite_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_sphalerite_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_scheelite_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_tungstate_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_lithium_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_rock_salt_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_salt_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_lepidolite_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_spodumene_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_redstone_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_cinnabar_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_nether_quartz_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_certus_quartz_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_preciousalloy_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_pitchblende_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_uraninite_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_gold_1:1>*i, 1000, 100)	
+	.chancedOutput(<gregtech:ore_garnierite_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_nickel_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_cobaltite_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_pentlandite_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_magnetite_1:1>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_vanadium_magnetite_1:1>*i, 1000, 100)
+	.circuit(23)
+	.EUt(122880*2)
+	.duration(20)
+    .buildAndRegister(); 
+	
+//金星T3
+space_elevator.recipeBuilder() 
+    .notConsumable(value)
+	.chancedOutput(<gregtech:ore_nether_quartz_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_barite_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_certus_quartz_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_preciousalloy_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_pitchblende_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_uraninite_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_palladium_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_garnierite_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_pentlandite_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_naquadah_mix_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_plutonium_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_bastnasite_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_monazite_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_neodymium_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_galena_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_dragon_essence_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_amethyst_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_brookite_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_ardite_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_tetrahedrite_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_stibnite_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_pyrite_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_sphalerite_1:2>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_bauxite_1:2>*i, 1000, 100)
+	.circuit(24)
+	.EUt(122880*3)
+	.duration(20)
+    .buildAndRegister(); 
+//水星T3
+space_elevator.recipeBuilder() 
+    .notConsumable(value)
+	.chancedOutput(<gregtech:ore_pitchblende_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_tungstate_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_scheelite_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_molybdenite_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_brookite_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_quartzite_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_barite_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_magnesite_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_soapstone_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_olivine_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_naquadah_mix_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_tantalite_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_pyrochlore_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_nickel_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_cobaltite_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_nether_star_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_dragon_essence_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_vanadium_magnetite_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_iridosmine_8020_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_magnetite_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_apatite_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_chalcopyrite_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_copper_1:4>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_cassiterite_1:4>*i, 1000, 100)
+	.circuit(25)
+	.EUt(122880*4)
+	.duration(20)
+    .buildAndRegister(); 
+//木星T4
+space_elevator.recipeBuilder() 
+    .notConsumable(value)
+	.chancedOutput(<gregtech:ore_nether_star_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_platinum_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_chromite_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_cooperite_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_palladium_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_pyrolusite_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_platinum_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_cassiterite_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_thorium_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_uraninite_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_pyrite_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_naquadah_mix_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_molybdenum_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_pyrolusite_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_tungstate_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_ilmenite_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_pollucite_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_bastnasite_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_iridosmine_8020_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_cassiterite_1:6>*i, 1000, 100)	
+	.chancedOutput(<gregtech:ore_sulfur_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_iron_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_copper_1:6>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_cassiterite_1:6>*i, 1000, 100)
+	.circuit(26)
+	.EUt(122880*5)
+	.duration(20)
+    .buildAndRegister(); 
+//土星T5
+space_elevator.recipeBuilder() 
+    .notConsumable(value)
+	.chancedOutput(<gregtech:ore_naquadah_mix_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_magnetite_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_vanadium_magnetite_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_gold_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_tetrahedrite_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_ilmenite_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_platinum_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_graphite_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_dragon_essence_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_electrotine_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_opal_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_spessartine_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_scheelite_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_desh_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_beryllium_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_emerald_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_thorium_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_stibnite_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_cassiterite_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_arsenopyrite_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_vanadium_magnetite_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_bauxite_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_iridosmine_8020_1:7>*i, 1000, 100)
+	.chancedOutput(<gregtech:ore_cinnabar_1:7>*i, 1000, 100)
+	.circuit(27)
+	.EUt(122880*6)
+	.duration(20)
+    .buildAndRegister(); 
 }

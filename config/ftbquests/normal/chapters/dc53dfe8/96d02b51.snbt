@@ -9,12 +9,10 @@
 		uid: "e3d56141",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "hydrochloric_acid",
-					Amount: 1000
-				}
+				FluidName: "hydrochloric_acid",
+				Amount: 1000
 			}
 		}]
 	}]

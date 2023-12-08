@@ -11,7 +11,8 @@
 					FluidName: "helium",
 					Amount: 1000
 				}
-			}
+			},
+			Count: 1b
 		}]
 	}]
 }

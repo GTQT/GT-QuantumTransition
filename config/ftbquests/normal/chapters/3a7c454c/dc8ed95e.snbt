@@ -1,6 +1,6 @@
 {
 	title: "苯酚",
-	x: 14.0d,
+	x: 12.0d,
 	y: 2.0d,
 	dependencies: [
 		"6107ef02",
@@ -10,12 +10,10 @@
 		uid: "5a288962",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "phenol",
-					Amount: 1000
-				}
+				FluidName: "phenol",
+				Amount: 1000
 			}
 		}]
 	}]

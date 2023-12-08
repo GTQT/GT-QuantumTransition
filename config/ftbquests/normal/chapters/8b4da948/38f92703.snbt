@@ -10,5 +10,25 @@
 		items: [{
 			item: "gregtech:machine 1 640"
 		}]
+	}],
+	rewards: [{
+		uid: "2028256b",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "78c3a999",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "78cfb4f2",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "1369d4a5",
+		type: "random",
+		table: 4
 	}]
 }

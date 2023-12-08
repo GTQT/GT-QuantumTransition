@@ -7,21 +7,19 @@ val circuit_assembler = mods.gregtech.recipe.RecipeMap.getByName("circuit_assemb
 <recipemap:circuit_assembler>.findRecipe(16, [<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2, <metaitem:wireFineCopper> * 2, <metaitem:boltTin> * 2], [<liquid:tin> * 144]).remove();
 
 circuit_assembler.recipeBuilder() 
-    .inputs(<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2, <metaitem:wireFineCopper> * 2, <metaitem:boltTin> * 2)
+    .inputs(<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <ore:componentResistor> * 2, <ore:componentDiode> * 2, <metaitem:wireFineCopper> * 2, <metaitem:boltTin> * 2)
     .fluidInputs(<liquid:soldering_alloy> * 72)
 	.outputs(<gregtech:meta_item_1:623>)
-    .duration(16)
-	.property("cleanroom", "cleanroom")
-    .EUt(200)
+    .duration(200)
+    .EUt(16)
     .buildAndRegister();
 
 circuit_assembler.recipeBuilder() 
-    .inputs(<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2, <metaitem:wireFineCopper> * 2, <metaitem:boltTin> * 2)
+    .inputs(<metaitem:circuit_board.basic>, <metaitem:plate.integrated_logic_circuit>, <ore:componentResistor> * 2, <ore:componentDiode> * 2, <metaitem:wireFineCopper> * 2, <metaitem:boltTin> * 2)
     .fluidInputs(<liquid:tin> * 144)
 	.outputs(<gregtech:meta_item_1:623>)
-	.property("cleanroom", "cleanroom")
-    .duration(16)
-    .EUt(200)
+    .duration(200)
+    .EUt(16)
     .buildAndRegister();
 	
 // 优质集成电路 * 2
@@ -30,20 +28,19 @@ circuit_assembler.recipeBuilder()
 <recipemap:circuit_assembler>.findRecipe(24, [<metaitem:circuit_board.good>, <metaitem:circuit.basic_integrated> * 2, <metaitem:component.resistor> * 2, <metaitem:component.diode> * 2, <metaitem:wireFineGold> * 4, <metaitem:boltSilver> * 4], [<liquid:soldering_alloy> * 72]).remove();
 
 circuit_assembler.recipeBuilder() 
-    .inputs(<metaitem:circuit_board.good>, <metaitem:circuit.basic_integrated> * 2, <metaitem:component.resistor> *2, <metaitem:component.diode> * 2, <metaitem:wireFineGold> * 4, <metaitem:boltSilver> * 4)
+    .inputs(<metaitem:circuit_board.good>, <metaitem:circuit.basic_integrated> * 2, <ore:componentResistor> *2, <ore:componentDiode> * 2, <metaitem:wireFineGold> * 4, <metaitem:boltSilver> * 4)
     .fluidInputs(<liquid:soldering_alloy> * 72)
 	.outputs(<gregtech:meta_item_1:624>)
-    .duration(25)
-    .EUt(400)
+    .duration(200)
+    .EUt(24)
     .buildAndRegister();
 	
 circuit_assembler.recipeBuilder() 
-    .inputs(<metaitem:circuit_board.good>, <metaitem:circuit.basic_integrated> * 2, <metaitem:component.resistor> *2, <metaitem:component.diode> * 2, <metaitem:wireFineGold> * 4, <metaitem:boltSilver> * 4)
+    .inputs(<metaitem:circuit_board.good>, <metaitem:circuit.basic_integrated> * 2, <ore:componentResistor> *2, <ore:componentDiode> * 2, <metaitem:wireFineGold> * 4, <metaitem:boltSilver> * 4)
     .fluidInputs(<liquid:tin> * 144)
 	.outputs(<gregtech:meta_item_1:624>)
-    .duration(25)
-	.property("cleanroom", "cleanroom")
-    .EUt(400)
+    .duration(200)
+    .EUt(24)
     .buildAndRegister();
 	
 // 处理器集群 * 2
@@ -52,20 +49,19 @@ circuit_assembler.recipeBuilder()
 <recipemap:circuit_assembler>.findRecipe(120, [<metaitem:circuit_board.plastic>, <metaitem:circuit.processor> * 2, <metaitem:component.inductor> * 4, <metaitem:component.capacitor> * 8, <metaitem:plate.random_access_memory> * 4, <metaitem:wireFineRedAlloy> * 8], [<liquid:tin> * 288]).remove();
 
 circuit_assembler.recipeBuilder() 
-    .inputs(<metaitem:circuit_board.plastic>, <metaitem:circuit.processor> * 2, <metaitem:component.inductor> * 4, <metaitem:component.capacitor> * 8, <metaitem:plate.random_access_memory> * 4, <metaitem:wireFineRedAlloy> * 8)
+    .inputs(<metaitem:circuit_board.plastic>, <metaitem:circuit.processor> * 2, <ore:componentInductor> * 4, <ore:componentCapacitor> * 8, <metaitem:plate.random_access_memory> * 4, <metaitem:wireFineRedAlloy> * 8)
     .fluidInputs(<liquid:soldering_alloy> * 72)
 	.outputs(<gregtech:meta_item_1:629>)
-    .duration(120)
-    .EUt(400)
+    .duration(200)
+    .EUt(120)
     .buildAndRegister();
 	
 circuit_assembler.recipeBuilder() 
-    .inputs(<metaitem:circuit_board.plastic>, <metaitem:circuit.processor> * 2, <metaitem:component.inductor> * 4, <metaitem:component.capacitor> * 8, <metaitem:plate.random_access_memory> * 4, <metaitem:wireFineRedAlloy> * 8)
+    .inputs(<metaitem:circuit_board.plastic>, <metaitem:circuit.processor> * 2, <ore:componentInductor> * 4, <ore:componentCapacitor> * 8, <metaitem:plate.random_access_memory> * 4, <metaitem:wireFineRedAlloy> * 8)
     .fluidInputs(<liquid:tin> * 144)
 	.outputs(<gregtech:meta_item_1:629>)
-    .duration(120)
-	.property("cleanroom", "cleanroom")
-    .EUt(400)
+    .duration(200)
+    .EUt(120)
     .buildAndRegister();
 
 // 纳米处理器集群 * 2

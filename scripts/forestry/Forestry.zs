@@ -64,7 +64,6 @@ mods.jei.JEI.removeAndHide(<forestry:farm_ender:1>);
 mods.jei.JEI.removeAndHide(<forestry:peat_bog>);
 mods.jei.JEI.removeAndHide(<forestry:peat_bog:1>);
 mods.jei.JEI.removeAndHide(<forestry:crate>);
-mods.jei.JEI.removeAndHide(<forestry:scoop>);
 
 // Minecart with Bee House
 recipes.remove(<forestry:cart.beehouse>);

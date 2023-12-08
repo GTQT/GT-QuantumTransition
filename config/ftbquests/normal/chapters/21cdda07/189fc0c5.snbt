@@ -26,5 +26,13 @@
 		type: "item",
 		item: "appliedenergistics2:part 1 16",
 		count: 16
+	},
+	{
+		uid: "865b9727",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}
 	}]
 }

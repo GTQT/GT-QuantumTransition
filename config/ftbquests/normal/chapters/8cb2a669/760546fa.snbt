@@ -12,12 +12,10 @@
 		uid: "45eb2f48",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "distilled_water",
-					Amount: 1000
-				}
+				FluidName: "distilled_water",
+				Amount: 1000
 			}
 		}]
 	}]

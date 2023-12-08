@@ -12,18 +12,28 @@
 		uid: "55c303e8",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "dustGraphene",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any dustGraphene"
 				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "dustGraphene"
+				}
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "f8755fb5",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "d1450530",
+		type: "random",
+		table: 4
 	}]
 }

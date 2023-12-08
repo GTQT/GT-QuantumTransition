@@ -1,10 +1,8 @@
 {
-	title: "穿的？用的？能打架的？",
+	title: "固若金汤",
 	icon: {
-		id: "gravisuite:gravichestplate",
-		tag: {
-			charge: 6.0E7d
-		}
+		id: "avaritia:infinity_helmet",
+		tag: {}
 	},
 	always_invisible: false,
 	group: 2051747107,

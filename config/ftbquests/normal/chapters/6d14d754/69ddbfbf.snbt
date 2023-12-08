@@ -13,16 +13,16 @@
 		uid: "9a2616f1",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				Parent: {
-					data: "blockWool",
-					id: "ore"
-				}
-			},
 			id: "itemfilters:filter",
 			tag: {
 				display: {
 					Name: "Any blockWool"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "blockWool"
 				}
 			}
 		}],

@@ -1,6 +1,6 @@
 {
 	title: "无尽能源？",
-	x: 4.5d,
+	x: -0.5d,
 	y: -0.5d,
 	description: "我的很大，你要忍一下",
 	text: [
@@ -14,10 +14,10 @@
 		type: "item",
 		items: [{
 			id: "gregtech:meta_item_1",
+			Damage: 753s,
 			tag: {
 				Charge: 9223372036854775807L
-			},
-			Damage: 753s
+			}
 		}],
 		ignore_nbt: 1b
 	}]

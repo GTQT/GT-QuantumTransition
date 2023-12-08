@@ -55,14 +55,7 @@ assembler.recipeBuilder()
     .fluidInputs(<liquid:polybenzimidazole> * 72)
 	.outputs(<enderio:item_me_conduit:1>)
 	.duration(100).EUt(512).buildAndRegister();
-
-//OC Conduit
-assembler.recipeBuilder()
-    .inputs(<appliedenergistics2:part:16>, <ore:plateRedstoneAlloy>)
-    .fluidInputs(<liquid:polybenzimidazole> * 72)
-	.outputs(<enderio:item_opencomputers_conduit>)
-	.duration(100).EUt(480).buildAndRegister();
-
+	
 //Redstone Conduit
 assembler.recipeBuilder()
     .inputs(<ore:wireGtSingleRedAlloy>, <ore:plateRedstoneAlloy>)

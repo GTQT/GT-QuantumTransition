@@ -13,12 +13,10 @@
 		uid: "dfccce94",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "tetranitromethane",
-					Amount: 1000
-				}
+				FluidName: "tetranitromethane",
+				Amount: 1000
 			}
 		}]
 	}]

@@ -4,6 +4,16 @@
 	tasks: [{
 		uid: "ffc59e0c",
 		type: "item",
+		icon: {
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "hydrogen",
+					Amount: 1000
+				}
+			},
+			Count: 1b
+		},
 		items: [{
 			id: "ic2:fluid_cell",
 			tag: {
@@ -11,7 +21,8 @@
 					FluidName: "ic2hydrogen",
 					Amount: 1000
 				}
-			}
+			},
+			Count: 1b
 		}]
 	}]
 }

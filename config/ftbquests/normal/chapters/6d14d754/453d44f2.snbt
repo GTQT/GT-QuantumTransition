@@ -1,0 +1,25 @@
+{
+	x: 27.0d,
+	y: -2.0d,
+	dependencies: [
+		"f3493e6c"
+	],
+	tasks: [{
+		uid: "5191d2a8",
+		type: "item",
+		items: [{
+			item: "minecraft:brick"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "fea40909",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "ca2edf63",
+		type: "item",
+		item: "claybucket:claybucket 1 1"
+	}]
+}

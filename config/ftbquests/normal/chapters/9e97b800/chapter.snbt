@@ -1,7 +1,7 @@
 {
-	title: "UIV",
+	title: "UIV-返璞归真",
 	icon: "gregtech:machine 1 996",
-	always_invisible: true,
+	always_invisible: false,
 	group: -2027845186,
 	default_quest_shape: "square"
 }

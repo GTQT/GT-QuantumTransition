@@ -10,12 +10,10 @@
 		uid: "975bc5b9",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "glycerol",
-					Amount: 1000
-				}
+				FluidName: "glycerol",
+				Amount: 1000
 			}
 		}]
 	}]

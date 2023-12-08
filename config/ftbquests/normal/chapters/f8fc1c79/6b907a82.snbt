@@ -12,12 +12,10 @@
 		uid: "d10db97a",
 		type: "item",
 		items: [{
-			id: "ic2:fluid_cell",
+			id: "forge:bucketfilled",
 			tag: {
-				Fluid: {
-					FluidName: "cycloparaphenylene",
-					Amount: 1000
-				}
+				FluidName: "cycloparaphenylene",
+				Amount: 1000
 			}
 		}]
 	}]
