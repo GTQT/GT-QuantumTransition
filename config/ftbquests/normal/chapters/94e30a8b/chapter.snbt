@@ -1,7 +1,0 @@
-{
-	title: "欠债人名单",
-	icon: "minecraft:diamond_sword",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

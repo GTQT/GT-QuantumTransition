@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "contenttweaker:items/relativistic_spinorial_memory_system"
-  }
-}

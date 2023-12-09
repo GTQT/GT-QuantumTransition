@@ -1,7 +1,0 @@
-{
-	title: "毕业设计",
-	icon: "draconicevolution:draconium_capacitor 1 2",
-	always_invisible: true,
-	group: 0,
-	default_quest_shape: "hexagon"
-}

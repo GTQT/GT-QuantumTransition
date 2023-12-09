@@ -1,7 +1,0 @@
-{
-	title: "魔法支线",
-	icon: "thaumcraft:crystal_aer",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

@@ -1,5 +1,0 @@
-background = addStretchedTexture("top_left", "mainmenu:3.png")
-
-
-
-background.setRelRender(1, 1)

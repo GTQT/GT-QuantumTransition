@@ -1,7 +1,0 @@
-{
-	title: "MAX-凝聚虚无",
-	icon: "gregtech:machine 1 999",
-	always_invisible: false,
-	group: -2027845186,
-	default_quest_shape: ""
-}
