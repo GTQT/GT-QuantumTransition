@@ -1,0 +1,13 @@
+{
+	title: "零点压 极限压",
+	x: 0.0d,
+	y: 7.5d,
+	tasks: [{
+		uid: "90687200",
+		type: "custom"
+	},
+	{
+		uid: "29eec130",
+		type: "custom"
+	}]
+}

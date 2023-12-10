@@ -1,0 +1,21 @@
+{
+	x: 12.0d,
+	y: 1.0d,
+	description: "闲得？",
+	text: [
+		"我建议你有时间可以做一些更加重要的事情"
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "f2b2f725",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 10"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "ba0bb899",
+		type: "custom"
+	}]
+}

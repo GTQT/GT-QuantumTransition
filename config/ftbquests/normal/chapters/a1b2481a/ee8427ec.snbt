@@ -1,0 +1,22 @@
+{
+	title: "末地",
+	x: -18.0d,
+	y: -7.0d,
+	text: [
+		"末地当然可以提前去，无论是末影龙还是其他矿产资源都是非常珍贵的。",
+		"对于末地矿物的开采，我的建议是，都挖走"
+	],
+	dependencies: [
+		"21de2c58"
+	],
+	tasks: [{
+		uid: "7143f334",
+		type: "dimension",
+		dim: 1
+	}],
+	rewards: [{
+		uid: "ea6f426d",
+		type: "random",
+		table: 0
+	}]
+}

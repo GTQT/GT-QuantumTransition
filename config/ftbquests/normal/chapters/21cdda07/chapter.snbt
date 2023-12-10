@@ -1,0 +1,7 @@
+{
+	title: "里程碑",
+	icon: "waystones:waystone",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "square"
+}

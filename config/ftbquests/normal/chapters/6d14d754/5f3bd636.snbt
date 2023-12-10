@@ -1,0 +1,27 @@
+{
+	x: 21.5d,
+	y: 4.0d,
+	description: "虽然目前你并不需要镍，但是建议你储备一点",
+	text: [
+		"铁，但是镍",
+		"通常在皂石矿脉以及那啥矿脉里边。",
+		"对于镍而言，你将在LV阶段需要一些，目前可以暂时忽略。"
+	],
+	dependencies: [
+		"2a4123c2"
+	],
+	tasks: [{
+		uid: "b6c8e3b8",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_pentlandite_0"
+		}],
+		count: 32L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "4dbbff9c",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -8.0d,
+	y: -0.5d,
+	description: "我说它是电池你信不信",
+	text: [
+		"不信"
+	],
+	dependencies: [
+		"b8402ed6"
+	],
+	tasks: [{
+		uid: "93a1de8c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 491"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "29b8bf23",
+		type: "random",
+		table: 0
+	}]
+}

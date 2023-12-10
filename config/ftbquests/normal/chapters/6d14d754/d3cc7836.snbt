@@ -1,0 +1,30 @@
+{
+	title: "青铜欸",
+	x: 29.0d,
+	y: 0.0d,
+	description: "将铜，锡 3:1粉碎混合得到青铜粉，再次烧制。",
+	text: [
+		"青铜是你开启蒸汽时代的重要标志，你将需要很多很多的青铜来制造机器外壳。"
+	],
+	dependencies: [
+		"2cac90ca"
+	],
+	tasks: [{
+		uid: "c3887658",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 260"
+		}]
+	}],
+	rewards: [{
+		uid: "fabd2d7a",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "4e1f34e0",
+		type: "item",
+		item: "gregtech:meta_item_1",
+		count: 4
+	}]
+}

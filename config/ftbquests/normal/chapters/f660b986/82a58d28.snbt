@@ -1,0 +1,22 @@
+{
+	title: "硫酸",
+	x: 11.5d,
+	y: -2.0d,
+	text: [
+		"毫无疑问，硫酸本身是一种极其重要的化工原料，你一定需要搭建一条硫酸产线。"
+	],
+	dependencies: [
+		"bc962ee5"
+	],
+	tasks: [{
+		uid: "915d8ec4",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sulfuric_acid",
+				Amount: 1000
+			}
+		}]
+	}]
+}

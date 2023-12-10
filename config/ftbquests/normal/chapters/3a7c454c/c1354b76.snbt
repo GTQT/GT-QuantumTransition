@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 7.0d,
+	text: [
+		"制作EV级别机器的部件"
+	],
+	dependencies: [
+		"d4497c15",
+		"1936adb3"
+	],
+	tasks: [{
+		uid: "901fd973",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 113"
+		}]
+	}],
+	rewards: [{
+		uid: "47c751df",
+		type: "random"
+	}]
+}

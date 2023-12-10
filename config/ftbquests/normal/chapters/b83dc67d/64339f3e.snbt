@@ -1,0 +1,20 @@
+{
+	x: -4.5d,
+	y: 4.0d,
+	dependencies: [
+		"bbc2c14f"
+	],
+	tasks: [{
+		uid: "1e3b7ca5",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:basic_item 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "7afee6ae",
+		type: "item",
+		item: "minecraft:tnt",
+		count: 8
+	}]
+}

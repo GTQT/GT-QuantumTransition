@@ -1,0 +1,18 @@
+{
+	x: 4.5d,
+	y: 3.0d,
+	text: [
+		"好消息，你可选择使用四甲基氢氧化铵或者EDP来作为原料制作基板",
+		"坏消息，你的氯化铁 过硫酸钠再也用不了了"
+	],
+	dependencies: [
+		"90c4b08d"
+	],
+	tasks: [{
+		uid: "ce946809",
+		type: "item",
+		items: [{
+			item: "gcys:meta_item_1 1 400"
+		}]
+	}]
+}

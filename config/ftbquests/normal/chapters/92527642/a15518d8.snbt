@@ -1,0 +1,28 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "ffc59e0c",
+		type: "item",
+		icon: {
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "hydrogen",
+					Amount: 1000
+				}
+			},
+			Count: 1b
+		},
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "ic2hydrogen",
+					Amount: 1000
+				}
+			},
+			Count: 1b
+		}]
+	}]
+}

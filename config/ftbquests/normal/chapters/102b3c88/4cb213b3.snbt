@@ -1,0 +1,38 @@
+{
+	x: 0.0d,
+	y: -6.5d,
+	dependencies: [
+		"1ab9d952"
+	],
+	tasks: [{
+		uid: "8ec1d83a",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}],
+		count: 64L
+	},
+	{
+		uid: "fb6a55e4",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "10e5c3de",
+		type: "item",
+		item: {
+			id: "botania:twigwand",
+			tag: {
+				color1: 5,
+				color2: 15,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			},
+			Count: 1b
+		}
+	}]
+}

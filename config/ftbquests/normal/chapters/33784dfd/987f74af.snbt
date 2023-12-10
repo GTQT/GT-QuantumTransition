@@ -1,0 +1,19 @@
+{
+	x: -10.0d,
+	y: 1.0d,
+	dependencies: [
+		"ffff424c"
+	],
+	tasks: [{
+		uid: "2f2dcaa0",
+		type: "item",
+		items: [{
+			item: "enderio:block_slice_and_splice"
+		}]
+	}],
+	rewards: [{
+		uid: "c625f86a",
+		type: "item",
+		item: "gregtech:meta_item_1 1 3"
+	}]
+}

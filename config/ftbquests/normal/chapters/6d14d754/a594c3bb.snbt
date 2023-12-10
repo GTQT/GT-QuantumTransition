@@ -1,0 +1,26 @@
+{
+	title: "你需要更多欸",
+	x: 6.0d,
+	y: -3.5d,
+	text: [
+		"沙子可以干什么？",
+		"你需要大量大量大量的沙子来制造砖块，无论是匠魂或者焦炉亦或是土高炉。",
+		"如果你问我需要多少个，我给个数，2000，没有连锁你挖的到吗。"
+	],
+	dependencies: [
+		"ffd1d36e"
+	],
+	tasks: [{
+		uid: "121d49e0",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		count: 128L
+	}],
+	rewards: [{
+		uid: "f89e28e5",
+		type: "random",
+		table: 0
+	}]
+}

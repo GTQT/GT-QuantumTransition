@@ -1,0 +1,22 @@
+{
+	title: "酸性富集硅岩溶液",
+	x: 11.5d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3fff60d9"
+	],
+	tasks: [{
+		uid: "30787e63",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "acidic_enriched_naquadah_solution",
+				Amount: 1000
+			}
+		}]
+	}]
+}

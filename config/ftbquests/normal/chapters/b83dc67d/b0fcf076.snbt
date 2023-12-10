@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: 3.0d,
+	dependencies: [
+		"5c97405b"
+	],
+	tasks: [{
+		uid: "3fd80504",
+		type: "item",
+		items: [{
+			item: "galacticraftplanets:item_basic_mars 1 3"
+		}]
+	}]
+}

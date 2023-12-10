@@ -1,0 +1,32 @@
+{
+	title: "工业高炉",
+	x: 19.5d,
+	y: 2.0d,
+	description: "这是什么，更多污染？？",
+	text: [
+		"你或许不是太喜欢你的土高炉，为什么不看看这款最新的电力高炉呢？？？"
+	],
+	dependencies: [
+		"9093a733"
+	],
+	tasks: [{
+		uid: "4a9f601b",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing 1 2"
+		}]
+	},
+	{
+		uid: "639d9507",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1001"
+		}]
+	}],
+	rewards: [{
+		uid: "2daa19ea",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 8
+	}]
+}

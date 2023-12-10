@@ -1,0 +1,29 @@
+{
+	x: 26.0d,
+	y: 3.0d,
+	description: "谁也别想进来",
+	text: [
+		"虽然用铁做栅栏非常的奢侈",
+		"但是我不排除有人会做"
+	],
+	dependencies: [
+		"2cb18d1d"
+	],
+	tasks: [{
+		uid: "21f8f917",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_bars"
+		}]
+	}],
+	rewards: [{
+		uid: "5bbf7d93",
+		type: "choice",
+		table: 0
+	},
+	{
+		uid: "c1c31e9b",
+		type: "item",
+		item: "minecraft:iron_bars"
+	}]
+}

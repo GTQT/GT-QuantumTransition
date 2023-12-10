@@ -1,0 +1,16 @@
+{
+	title: "金星在哪里",
+	x: 3.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b99e49f8"
+	],
+	tasks: [{
+		uid: "c6763865",
+		type: "dimension",
+		dim: -31
+	}]
+}

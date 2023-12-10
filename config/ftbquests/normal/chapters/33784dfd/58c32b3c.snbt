@@ -1,0 +1,35 @@
+{
+	title: "一种可行的量产方法，但是你需要的绝对比想象的要多。",
+	x: 0.0d,
+	y: 5.5d,
+	description: "要多少？10k????",
+	text: [
+		"粘土粉的原料粘土块可以通过粘土山获取，所以找一座粘土山吧。",
+		"值得一提的是，不要打河床粘土的主意了，远远不够的。",
+		"",
+		"当然当然，因为LV电压不够，你只能使用这种原始的处理方法，当你到了MV阶段，你就可以通过电解粘土粉大大提高效率。"
+	],
+	dependencies: [
+		"c892fbe9"
+	],
+	tasks: [{
+		uid: "cdb26200",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}]
+	},
+	{
+		uid: "fbe5412e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "8a98446c",
+		type: "item",
+		item: "gregtech:meta_dust 1 311",
+		count: 16
+	}]
+}

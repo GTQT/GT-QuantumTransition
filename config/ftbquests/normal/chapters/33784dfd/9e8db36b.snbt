@@ -1,0 +1,25 @@
+{
+	title: "这算是什么",
+	x: -4.0d,
+	y: 5.5d,
+	text: [
+		"电解红宝石，铬不仅仅可以用来制作电池，还可以混合为坎塔尔合金粉或者杂质不锈钢"
+	],
+	dependencies: [
+		"c892fbe9"
+	],
+	tasks: [{
+		uid: "6bbf87c2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 22"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "7df9c98e",
+		type: "item",
+		item: "gregtech:meta_dust 1 311",
+		count: 16
+	}]
+}

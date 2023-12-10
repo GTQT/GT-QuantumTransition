@@ -1,0 +1,17 @@
+{
+	x: 9.5d,
+	y: 12.5d,
+	text: [
+		"需要绿宝石透镜"
+	],
+	dependencies: [
+		"542ba0c8"
+	],
+	tasks: [{
+		uid: "bc053cfe",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 592"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "鹅rua石",
+	x: 2.0d,
+	y: 0.0d,
+	description: "希望你会喜欢沙砾，毕竟以后的一段时间里你将会无数次与他打交道。",
+	text: [
+		"如果你想知道在哪里能找到沙砾，我推荐你去河边转一转",
+		"众所周知，河流沉积左右发生的地方在哪",
+		"当然，海床也会分布大量的沙砾"
+	],
+	dependencies: [
+		"2e7b437e"
+	],
+	tasks: [{
+		uid: "e224b0b7",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "c3d01a9e",
+		type: "random",
+		table: 0
+	}]
+}

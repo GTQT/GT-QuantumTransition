@@ -1,0 +1,23 @@
+{
+	title: "细菌浆液",
+	x: 0.0d,
+	y: -4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e41e826a",
+		"b6d3d72c"
+	],
+	tasks: [{
+		uid: "759d89f7",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "bacterial_sludge",
+				Amount: 1000
+			}
+		}]
+	}]
+}

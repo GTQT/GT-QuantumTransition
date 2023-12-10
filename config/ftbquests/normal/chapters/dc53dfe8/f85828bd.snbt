@@ -1,0 +1,35 @@
+{
+	x: 10.5d,
+	y: 17.0d,
+	text: [
+		"车床是一台切削各种材料的机器。",
+		"车床可以将螺栓加工成螺丝钉，将锭/宝石加工成杆，还能将颗粒加工成垫圈、将宝石板加工成透镜（透镜唯一加工方法）。",
+		"它能减少一些“小损耗”，治疗一些人的强迫症（但是在前期极其费电，低压期各种跳电）。",
+		"专门的螺丝钉生产机。",
+		"大部分工序需求的电功率均为LV（低压），切割某些透镜则需要更高。"
+	],
+	dependencies: [
+		"c4ce2c05"
+	],
+	tasks: [{
+		uid: "5b7a0d31",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 440"
+		}]
+	}],
+	rewards: [{
+		uid: "a97bd3f5",
+		type: "loot"
+	},
+	{
+		uid: "128ba05b",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "7f08ef3f",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

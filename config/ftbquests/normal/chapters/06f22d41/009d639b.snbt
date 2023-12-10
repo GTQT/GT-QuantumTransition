@@ -1,0 +1,15 @@
+{
+	icon: "gcys:meta_item_1 1 402",
+	x: 10.5d,
+	y: 17.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "b03cebb5",
+		type: "custom"
+	}],
+	rewards: [{
+		uid: "9b7c8710",
+		type: "item",
+		item: "gcys:meta_item_1 1 402"
+	}]
+}

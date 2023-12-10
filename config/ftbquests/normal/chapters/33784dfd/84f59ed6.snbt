@@ -1,0 +1,29 @@
+{
+	x: 2.0d,
+	y: 14.0d,
+	text: [
+		"晶体管是制作这一级电路板必备的材料"
+	],
+	dependencies: [
+		"0dca7193"
+	],
+	tasks: [{
+		uid: "282a752b",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 518"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f62dd07b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 518",
+		count: 4
+	},
+	{
+		uid: "9a33d7bc",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

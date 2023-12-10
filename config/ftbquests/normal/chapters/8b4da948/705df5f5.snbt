@@ -1,0 +1,18 @@
+{
+	x: 11.5d,
+	y: -3.5d,
+	description: "很贵的金属，以及，没有辐射",
+	text: [
+		"你需要很多的锭来制作下一阶段的机器"
+	],
+	dependencies: [
+		"6bd3d1af"
+	],
+	tasks: [{
+		uid: "d6c478c9",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 2062"
+		}]
+	}]
+}

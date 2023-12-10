@@ -1,0 +1,22 @@
+{
+	title: "镁(打错了)",
+	x: 4.5d,
+	y: -3.5d,
+	text: [
+		"使用镥与铬聚变得到镅"
+	],
+	dependencies: [
+		"1cf9e59d"
+	],
+	tasks: [{
+		uid: "691a08cb",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "americium",
+				Amount: 1000
+			}
+		}]
+	}]
+}

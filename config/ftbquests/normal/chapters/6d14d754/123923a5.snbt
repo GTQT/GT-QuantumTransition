@@ -1,0 +1,27 @@
+{
+	title: "你不需要念旧",
+	x: 11.0d,
+	y: 3.5d,
+	shape: "gear",
+	description: "更nb的工作台",
+	text: [
+		"替代原版工作台，自带10*2的空间，上方的选项卡可以选择合成站相邻的容器，且相同物品会自动合并展示。",
+		"想要合成物品的话，需要把物品放下面或者相邻容器（没错，相邻容器的物品也会参与合成）。你甚至可以贴着抽屉控制器乃至AE！",
+		"快捷键：shift+左键能合成全部物品。"
+	],
+	dependencies: [
+		"02a914a5"
+	],
+	tasks: [{
+		uid: "f4c9cf2d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1647"
+		}]
+	}],
+	rewards: [{
+		uid: "a0ce30a3",
+		type: "random",
+		table: 0
+	}]
+}

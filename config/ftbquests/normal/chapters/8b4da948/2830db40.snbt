@@ -1,0 +1,23 @@
+{
+	title: "聚苯并咪唑",
+	x: 11.0d,
+	y: -13.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"80b3b44b",
+		"66c98797"
+	],
+	tasks: [{
+		uid: "62964d26",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "polybenzimidazole",
+				Amount: 1000
+			}
+		}]
+	}]
+}

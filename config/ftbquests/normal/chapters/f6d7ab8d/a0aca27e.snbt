@@ -1,0 +1,11 @@
+{
+	x: 8.0d,
+	y: 22.5d,
+	tasks: [{
+		uid: "65183162",
+		type: "item",
+		items: [{
+			item: "gtqtcore:wire_coil 1 5"
+		}]
+	}]
+}

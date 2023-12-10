@@ -1,0 +1,15 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "4d801d19",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "silver_tetrafluoroborate",
+				Amount: 1000
+			}
+		}]
+	}]
+}

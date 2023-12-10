@@ -1,0 +1,19 @@
+{
+	icon: "gregtech:meta_plate 1 1000",
+	x: 18.0d,
+	y: 7.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "d2cc565a",
+		type: "custom"
+	},
+	{
+		uid: "caabbda8",
+		type: "custom"
+	}],
+	rewards: [{
+		uid: "6c050c11",
+		type: "item",
+		item: "gregtech:meta_plate 1 1000"
+	}]
+}

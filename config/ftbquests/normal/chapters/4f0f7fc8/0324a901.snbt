@@ -1,0 +1,15 @@
+{
+	title: "放射性是什么，拆开来看一看",
+	x: 2.0d,
+	y: 7.5d,
+	dependencies: [
+		"644a3054"
+	],
+	tasks: [{
+		uid: "4b7ea47e",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:separator"
+		}]
+	}]
+}

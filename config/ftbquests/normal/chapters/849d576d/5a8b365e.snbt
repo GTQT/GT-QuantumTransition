@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	description: "锻造！更强大的工具",
+	text: [
+		"修复gt工具：",
+		"如果你的扳手啥的坏掉了，试试这个铁砧，你可以修好它"
+	],
+	dependencies: [
+		"35cb4d03"
+	],
+	tasks: [{
+		uid: "89c0bc1b",
+		type: "item",
+		items: [{
+			item: "minecraft:anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "30ddb4f9",
+		type: "choice",
+		table: 0
+	}]
+}

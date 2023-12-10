@@ -1,0 +1,19 @@
+{
+	title: "硝酸混酸",
+	x: 18.5d,
+	y: -3.5d,
+	dependencies: [
+		"a735150f"
+	],
+	tasks: [{
+		uid: "dba0d868",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "nitration_mixture",
+				Amount: 1000
+			}
+		}]
+	}]
+}

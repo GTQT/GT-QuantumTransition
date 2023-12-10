@@ -1,0 +1,16 @@
+{
+	title: "木醋酸",
+	x: 14.0d,
+	y: 5.5d,
+	tasks: [{
+		uid: "7116216f",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "wood_vinegar",
+				Amount: 1000
+			}
+		}]
+	}]
+}

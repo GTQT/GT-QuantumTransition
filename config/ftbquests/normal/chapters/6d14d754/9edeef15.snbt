@@ -1,0 +1,22 @@
+{
+	title: "装水用的，你在干什么？",
+	x: 17.0d,
+	y: -2.0d,
+	description: "我曾经被水保护，现在我来保护水。",
+	dependencies: [
+		"c6980344"
+	],
+	tasks: [{
+		uid: "deec09dc",
+		type: "item",
+		items: [{
+			item: "claybucket:claybucket"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3c7c61c8",
+		type: "item",
+		item: "minecraft:reeds"
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "对二氯苯",
+	x: 17.5d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"20888665",
+		"a7178144"
+	],
+	tasks: [{
+		uid: "51277d98",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "dichlorobenzene",
+				Amount: 1000
+			}
+		}]
+	}]
+}

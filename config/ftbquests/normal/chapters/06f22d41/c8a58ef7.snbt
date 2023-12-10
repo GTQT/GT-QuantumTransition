@@ -1,0 +1,15 @@
+{
+	icon: "gregtech:meta_item_1 1 598",
+	x: 4.5d,
+	y: 13.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "45a6e3b2",
+		type: "custom"
+	}],
+	rewards: [{
+		uid: "8227e71e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 573"
+	}]
+}

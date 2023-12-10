@@ -1,0 +1,11 @@
+{
+	x: 6.5d,
+	y: 1.5d,
+	tasks: [{
+		uid: "01bae4e6",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 3"
+		}]
+	}]
+}

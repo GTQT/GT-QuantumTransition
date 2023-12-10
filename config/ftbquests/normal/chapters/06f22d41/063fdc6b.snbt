@@ -1,0 +1,19 @@
+{
+	icon: "gregtech:meta_rotor 1 324",
+	x: 15.0d,
+	y: 7.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "998c3f7f",
+		type: "custom"
+	},
+	{
+		uid: "f2ea32a1",
+		type: "custom"
+	}],
+	rewards: [{
+		uid: "38c47c88",
+		type: "item",
+		item: "gregtech:meta_rotor 1 324"
+	}]
+}

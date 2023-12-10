@@ -1,0 +1,21 @@
+{
+	title: "压缩机，但是爆炸",
+	x: 16.0d,
+	y: 1.5d,
+	description: "小心污染",
+	text: [
+		"压缩机的工作除了提供电力以外，还需要提供炸药或者TNT。",
+		"你的TNT一定量产了对吧，如果没有可以查看 石油化工 部分。",
+		"当然你也可以使用炸药，它在高压部分。"
+	],
+	dependencies: [
+		"585211e1"
+	],
+	tasks: [{
+		uid: "5f4f112d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1003"
+		}]
+	}]
+}

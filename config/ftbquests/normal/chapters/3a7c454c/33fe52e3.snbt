@@ -1,0 +1,24 @@
+{
+	x: -3.0d,
+	y: -5.0d,
+	description: "更好的传感器",
+	text: [
+		"要制作HV阶段的传感器，乃至更加先进的激光蚀刻机，你需要不同于前一阶段的材料。",
+		"获取末影之眼，你需要HV级的化学浸洗机。"
+	],
+	dependencies: [
+		"2de577a8"
+	],
+	tasks: [{
+		uid: "2d4d120b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 202"
+		}]
+	}],
+	rewards: [{
+		uid: "4036ade7",
+		type: "random",
+		table: 0
+	}]
+}

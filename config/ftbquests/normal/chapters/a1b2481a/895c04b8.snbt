@@ -1,0 +1,38 @@
+{
+	x: -2.0d,
+	y: -21.0d,
+	description: "有能量的宝石",
+	text: [
+		"超高压级的电池。",
+		"充/放电压：2048EU（EV）",
+		"总电量：25,000,000EU",
+		"如果你问我有什么比能量水晶还厉害，那肯定是我蓝波顿."
+	],
+	dependencies: [
+		"6c583f60"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ef80b967",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_gem 1 1647"
+		}]
+	},
+	{
+		uid: "da24c7da",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 742"
+		}]
+	}],
+	rewards: [{
+		uid: "d641921f",
+		type: "random"
+	},
+	{
+		uid: "ca241c58",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	}]
+}

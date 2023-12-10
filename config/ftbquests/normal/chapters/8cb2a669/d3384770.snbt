@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -6.0d,
+	dependencies: [
+		"77362b46"
+	],
+	tasks: [{
+		uid: "81a347ab",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "enriched_bacterial_sludge",
+				Amount: 1000
+			}
+		}]
+	}]
+}

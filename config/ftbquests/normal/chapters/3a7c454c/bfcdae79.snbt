@@ -1,0 +1,22 @@
+{
+	title: "乙酸甲酯",
+	x: 14.0d,
+	y: 6.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b9d96705"
+	],
+	tasks: [{
+		uid: "fa04aaee",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "methyl_formate",
+				Amount: 1000
+			}
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "蒸汽—烧开水时代",
+	icon: "gregtech:machine 1 1",
+	always_invisible: false,
+	group: -1479984865,
+	default_quest_shape: "square",
+	images: [{
+		x: -2.5d,
+		y: -1.5d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "assets:ftb/2.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

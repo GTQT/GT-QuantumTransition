@@ -1,0 +1,50 @@
+{
+	title: "有些东西是装不起来的",
+	x: 15.5d,
+	y: 8.5d,
+	description: "比如破碎的心",
+	text: [
+		"可以组装一切你希望组装的东西！",
+		"你在想什么？"
+	],
+	dependencies: [
+		"c51ecf9a"
+	],
+	tasks: [{
+		uid: "3d41da92",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 110"
+		}]
+	}],
+	rewards: [{
+		uid: "095cd93e",
+		type: "random"
+	},
+	{
+		uid: "83c34633",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "9137ffce",
+		type: "item",
+		item: {
+			id: "gregtech:crowbar",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 255,
+					ToolSpeed: 6.0f,
+					AttackDamage: 4.0f,
+					Durability: 0,
+					Material: "gregtech:iron",
+					HarvestLevel: 2,
+					AttackSpeed: -2.4f
+				}
+			}
+		}
+	}]
+}

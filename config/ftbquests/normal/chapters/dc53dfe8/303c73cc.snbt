@@ -1,0 +1,29 @@
+{
+	x: 21.5d,
+	y: 11.0d,
+	text: [
+		"别急，不能吃",
+		"NACL额，如果你找到了KCL........"
+	],
+	dependencies: [
+		"a59a2ef2"
+	],
+	tasks: [{
+		uid: "26cb0856",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "dustSalt",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any dustSalt"
+				}
+			}
+		}]
+	}]
+}

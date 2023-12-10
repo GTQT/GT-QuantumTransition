@@ -1,0 +1,121 @@
+{
+	title: "食物",
+	loot_size: 1,
+	rewards: [{
+		item: "harvestcraft:pbandjitem"
+	},
+	{
+		item: "harvestcraft:applejellysandwichitem"
+	},
+	{
+		item: "harvestcraft:blackberryjellysandwichitem"
+	},
+	{
+		item: "harvestcraft:blueberryjellysandwichitem"
+	},
+	{
+		item: "harvestcraft:cherryjellysandwichitem"
+	},
+	{
+		item: "harvestcraft:cranberryjellysandwichitem"
+	},
+	{
+		item: "harvestcraft:kiwijellysandwichitem"
+	},
+	{
+		item: "harvestcraft:lemonjellysandwichitem"
+	},
+	{
+		item: "harvestcraft:mangojellysandwichitem"
+	},
+	{
+		item: "harvestcraft:cookedtofurkeyitem"
+	},
+	{
+		item: "harvestcraft:cookedtofenisonitem"
+	},
+	{
+		item: "harvestcraft:cookedtofuduckitem"
+	},
+	{
+		item: "harvestcraft:gourmetvenisonburgeritem"
+	},
+	{
+		item: "harvestcraft:minerstewitem"
+	},
+	{
+		item: "harvestcraft:cornedbeefbreakfastitem"
+	},
+	{
+		item: "harvestcraft:cornchipsitem"
+	},
+	{
+		item: "harvestcraft:jelliedeelitem"
+	},
+	{
+		item: "harvestcraft:meringuebombeitem"
+	},
+	{
+		item: "harvestcraft:crackeritem"
+	},
+	{
+		item: "harvestcraft:mushroomsteakitem"
+	},
+	{
+		item: "harvestcraft:sundayhighteaitem"
+	},
+	{
+		item: "harvestcraft:applesnowitem"
+	},
+	{
+		item: "harvestcraft:musubiitem"
+	},
+	{
+		item: "harvestcraft:steakfajitaitem"
+	},
+	{
+		item: "harvestcraft:blackpaellaitem"
+	},
+	{
+		item: "harvestcraft:redvelvetcupcakeitem"
+	},
+	{
+		item: "harvestcraft:greenbeancasseroleitem"
+	},
+	{
+		item: "harvestcraft:turkishdelightitem"
+	},
+	{
+		item: "harvestcraft:deviledeggitem"
+	},
+	{
+		item: "harvestcraft:mincepieitem"
+	},
+	{
+		item: "harvestcraft:fivespiceitem"
+	},
+	{
+		item: "harvestcraft:turkishdelightitem"
+	},
+	{
+		item: "harvestcraft:durianmuffinitem"
+	},
+	{
+		item: "harvestcraft:creeperwingsitem"
+	},
+	{
+		item: "harvestcraft:chocovoxelsitem"
+	},
+	{
+		item: "harvestcraft:venisoncookeditem"
+	}],
+	loot_crate: {
+		string_id: "_",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

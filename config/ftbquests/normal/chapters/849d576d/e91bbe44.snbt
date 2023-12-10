@@ -1,0 +1,21 @@
+{
+	title: "地狱土特产part2",
+	x: 18.0d,
+	y: 3.5d,
+	description: "萤石生成在地狱的天花板上，你需要垫高一点。",
+	text: [
+		"禁止高空抛物"
+	],
+	dependencies: [
+		"43ea6a67"
+	],
+	tasks: [{
+		uid: "e75ed620",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone_dust"
+		}],
+		count: 64L,
+		consume_items: false
+	}]
+}

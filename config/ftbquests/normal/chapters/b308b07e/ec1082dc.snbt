@@ -1,0 +1,21 @@
+{
+	x: -4.0d,
+	y: -1.5d,
+	dependencies: [
+		"04dd1873"
+	],
+	tasks: [{
+		uid: "931b77bd",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "depleted_draconium_solution",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}]
+	}]
+}

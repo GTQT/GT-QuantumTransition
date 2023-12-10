@@ -1,0 +1,44 @@
+{
+	title: "这台研磨机非常昂贵",
+	x: 18.0d,
+	y: -2.0d,
+	description: "粉碎一切，当然包括你的手",
+	text: [
+		"粉碎机是一个重要的机器，无论是原材料的加工还是矿物处理都需要粉碎机的帮助。",
+		"",
+		"你不在需要研钵了，对于处理燧石或者沙子，你可以相信这台蒸汽粉碎机！"
+	],
+	dependencies: [
+		"c7d23b1c"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "98c9eeed",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "9ee49125",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "3ecb23ba",
+		type: "item",
+		item: "minecraft:piston",
+		count: 2
+	},
+	{
+		uid: "9b229e39",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	},
+	{
+		uid: "e4435db1",
+		type: "item",
+		item: "gregtech:fluid_pipe_tiny 1 260",
+		count: 4
+	}]
+}

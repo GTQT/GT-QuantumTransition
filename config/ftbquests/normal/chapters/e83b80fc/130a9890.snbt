@@ -1,0 +1,11 @@
+{
+	x: 10.0d,
+	y: 8.0d,
+	tasks: [{
+		uid: "59b48b53",
+		type: "item",
+		items: [{
+			item: "gcys:meta_item_1 1 7"
+		}]
+	}]
+}

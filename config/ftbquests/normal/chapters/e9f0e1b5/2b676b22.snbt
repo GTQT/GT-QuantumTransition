@@ -1,0 +1,18 @@
+{
+	x: -3.5d,
+	y: 10.0d,
+	dependencies: [
+		"9e49665b"
+	],
+	tasks: [{
+		uid: "270fcbb4",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_crafting_terminal",
+			tag: {},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

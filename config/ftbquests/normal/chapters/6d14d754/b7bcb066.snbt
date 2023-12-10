@@ -1,0 +1,36 @@
+{
+	title: "甘蔗在哪里",
+	x: 17.0d,
+	y: -3.5d,
+	description: "你需要更多的运动",
+	text: [
+		"如果你在使用你的新粘土桶舀水的时候，你会发现河岸会分布一些甘蔗。",
+		"当然你也可以收集并种植更多甘蔗。",
+		"如果你觉得甘蔗长得太慢，那么一定是你的错觉认为他曾经长得太快。",
+		"",
+		"当然，如果你真的觉得甘蔗长得太慢，为什么不去花园世界种甘蔗，花园世界在哪？？",
+		"详见 无人深空 章节。"
+	],
+	dependencies: [
+		"9edeef15"
+	],
+	tasks: [{
+		uid: "8d200639",
+		type: "item",
+		items: [{
+			item: "minecraft:reeds"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "434aac84",
+		type: "item",
+		item: "minecraft:reeds",
+		count: 16
+	},
+	{
+		uid: "5d3e1d80",
+		type: "random",
+		table: 0
+	}]
+}

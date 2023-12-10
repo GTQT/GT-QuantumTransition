@@ -1,0 +1,19 @@
+{
+	icon: "appliedenergistics2:material 1 23",
+	x: 12.0d,
+	y: 4.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "ded6a719",
+		type: "custom"
+	},
+	{
+		uid: "b5b353e5",
+		type: "custom"
+	}],
+	rewards: [{
+		uid: "16c1333b",
+		type: "item",
+		item: "appliedenergistics2:material 1 23"
+	}]
+}

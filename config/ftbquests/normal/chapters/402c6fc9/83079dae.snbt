@@ -1,0 +1,12 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "2cae8ab0",
+		type: "item",
+		items: [{
+			item: "chisel:factory"
+		}],
+		count: 64L
+	}]
+}

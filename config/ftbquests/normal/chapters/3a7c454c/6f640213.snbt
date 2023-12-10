@@ -1,0 +1,22 @@
+{
+	title: "环氧氯丙烯",
+	x: 14.0d,
+	y: -0.5d,
+	text: [
+		"当然你也可以使用盐酸与甘油反应制得"
+	],
+	dependencies: [
+		"a8909745"
+	],
+	tasks: [{
+		uid: "837217eb",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "epichlorohydrin",
+				Amount: 1000
+			}
+		}]
+	}]
+}

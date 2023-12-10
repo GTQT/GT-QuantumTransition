@@ -1,0 +1,34 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"63e72152"
+	],
+	tasks: [{
+		uid: "d2b3a701",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete",
+				Amount: 1000
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c61db612",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	},
+	{
+		uid: "b3233dbd",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "concrete",
+				Amount: 1000
+			}
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "硝化甘油",
+	x: 20.0d,
+	y: -4.5d,
+	description: "小心爆炸",
+	text: [
+		"硝化甘油你是制作炸药的必需品。"
+	],
+	dependencies: [
+		"2c7e2827",
+		"f8be66cc"
+	],
+	tasks: [{
+		uid: "f3dd74c1",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "glyceryl_trinitrate",
+				Amount: 1000
+			}
+		}]
+	}]
+}

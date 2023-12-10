@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: 7.0d,
+	text: [
+		"还是你熟悉的冷却步骤，不过你可以在稍后选择真空冷冻机"
+	],
+	dependencies: [
+		"4126a7a6"
+	],
+	tasks: [{
+		uid: "c33e0614",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot_hot 1 113"
+		}]
+	}]
+}

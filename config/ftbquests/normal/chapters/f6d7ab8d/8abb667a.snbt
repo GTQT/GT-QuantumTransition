@@ -1,0 +1,21 @@
+{
+	title: "流体自动化输出",
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"05fdada2"
+	],
+	tasks: [{
+		uid: "1e65eeae",
+		type: "item",
+		items: [{
+			item: "gregtech:fluid_pipe_large 1 260"
+		}]
+	}],
+	rewards: [{
+		uid: "6f2a6609",
+		type: "item",
+		item: "enderio:item_liquid_conduit",
+		count: 8
+	}]
+}

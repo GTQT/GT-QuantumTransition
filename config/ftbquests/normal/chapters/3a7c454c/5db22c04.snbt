@@ -1,0 +1,46 @@
+{
+	x: -3.0d,
+	y: -0.5d,
+	text: [
+		"你还在犹豫如何种田？试试种植站吧！",
+		"种植站是一种消耗能量并依赖工具，自动进行耕地、种植、施肥和收获以代替人工的方块。",
+		"在符合作物生长条件的情况下，支持（包括但不限于）:",
+		"所有原版作物。",
+		"工业时代2的橡胶树提取树脂（工具为IC2木龙头或玄钢木龙头），但暂不支持其作物架。",
+		"潘马斯",
+		"",
+		"需要电容工作"
+	],
+	dependencies: [
+		"2de577a8"
+	],
+	tasks: [{
+		uid: "19f91486",
+		type: "item",
+		items: [{
+			item: "enderio:block_farm_station"
+		}]
+	},
+	{
+		uid: "070ebd29",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor"
+		}]
+	}],
+	rewards: [{
+		uid: "7285fbae",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	},
+	{
+		uid: "e5ddf44d",
+		type: "item",
+		item: "nuclearcraft:water_source"
+	},
+	{
+		uid: "16aa1df8",
+		type: "item",
+		item: "enderio:item_basic_capacitor 1 2"
+	}]
+}

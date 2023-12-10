@@ -1,0 +1,11 @@
+{
+	title: "固若金汤",
+	icon: {
+		id: "avaritia:infinity_helmet",
+		tag: {},
+		Count: 1b
+	},
+	always_invisible: false,
+	group: 2051747107,
+	default_quest_shape: "rsquare"
+}

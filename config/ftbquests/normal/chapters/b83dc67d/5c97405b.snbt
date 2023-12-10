@@ -1,0 +1,14 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	dependencies: [
+		"7b700989"
+	],
+	tasks: [{
+		uid: "39ab29e0",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_meteoric_iron_1"
+		}]
+	}]
+}

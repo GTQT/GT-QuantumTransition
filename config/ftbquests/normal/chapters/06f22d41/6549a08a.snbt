@@ -1,0 +1,15 @@
+{
+	icon: "extrabees:hive 1 1",
+	x: 22.5d,
+	y: 8.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "110e4ea0",
+		type: "custom"
+	}],
+	rewards: [{
+		uid: "b69bece8",
+		type: "item",
+		item: "extrabees:hive 1 1"
+	}]
+}

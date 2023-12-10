@@ -1,0 +1,19 @@
+{
+	icon: "gregtech:meta_ingot 1 260",
+	x: 13.5d,
+	y: 8.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "e9f7ab61",
+		type: "custom"
+	},
+	{
+		uid: "7c2dbcbc",
+		type: "custom"
+	}],
+	rewards: [{
+		uid: "ae95bfa9",
+		type: "item",
+		item: "gregtech:meta_ingot 1 260"
+	}]
+}

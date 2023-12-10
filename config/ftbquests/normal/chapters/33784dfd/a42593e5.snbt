@@ -1,0 +1,39 @@
+{
+	x: -8.0d,
+	y: 6.0d,
+	text: [
+		"你的老朋友",
+		"一般工序需求的电功率均为LV（低压），卷双叠板，致密板需要MV（中压）。"
+	],
+	dependencies: [
+		"3abf1a6f"
+	],
+	tasks: [{
+		uid: "2ed2e706",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 141"
+		}]
+	},
+	{
+		uid: "2b6b6573",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 621"
+		}]
+	}],
+	rewards: [{
+		uid: "c31d4758",
+		type: "loot"
+	},
+	{
+		uid: "09667a20",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "d94b22e1",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "乙醇&氢氧化钠",
+	x: 17.5d,
+	y: -5.0d,
+	dependencies: [
+		"1b478edb",
+		"c91371be"
+	],
+	tasks: [{
+		uid: "9ccac52f",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sodium_hydroxide_solution",
+				Amount: 1000
+			}
+		}]
+	},
+	{
+		uid: "ada2a42f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 377"
+		}]
+	}]
+}

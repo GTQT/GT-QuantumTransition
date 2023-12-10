@@ -1,0 +1,28 @@
+{
+	x: 7.0d,
+	y: 0.0d,
+	text: [
+		"含硫的一些小玩意"
+	],
+	dependencies: [
+		"3b31ed86"
+	],
+	tasks: [{
+		uid: "75d7d66a",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sulfuric_light_fuel",
+				Amount: 1000
+			}
+		},
+		{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sulfuric_heavy_fuel",
+				Amount: 1000
+			}
+		}]
+	}]
+}

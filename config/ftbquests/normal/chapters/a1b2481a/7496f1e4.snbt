@@ -1,0 +1,19 @@
+{
+	x: -7.5d,
+	y: -21.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ce7ddddc",
+		"0a2e762c"
+	],
+	tasks: [{
+		uid: "48bb88d9",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "bdda6638",
+		type: "random"
+	}]
+}

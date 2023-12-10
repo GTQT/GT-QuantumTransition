@@ -1,0 +1,26 @@
+{
+	title: "环氧树脂",
+	x: 15.5d,
+	y: 2.0d,
+	dependencies: [
+		"dc8ed95e",
+		"6f640213",
+		"ec45c40e"
+	],
+	tasks: [{
+		uid: "d384d967",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "epoxy",
+				Amount: 1000
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2849f226",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	dependencies: [
+		"47766ed3"
+	],
+	tasks: [{
+		uid: "7cbdb034",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			},
+			Count: 1b
+		}],
+		ignore_nbt: 1b
+	}]
+}

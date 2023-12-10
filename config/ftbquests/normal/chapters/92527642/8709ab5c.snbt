@@ -1,0 +1,18 @@
+{
+	x: 10.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "dd434ae4",
+		type: "item",
+		items: [{
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "chlorine",
+					Amount: 1000
+				}
+			},
+			Count: 1b
+		}]
+	}]
+}

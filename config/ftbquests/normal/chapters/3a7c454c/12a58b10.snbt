@@ -1,0 +1,35 @@
+{
+	x: -3.0d,
+	y: 2.5d,
+	text: [
+		"在月球你也会找到独居石",
+		"独居石在后期是一种重要的原料，遇到了就不要错过"
+	],
+	dependencies: [
+		"421cc2a3"
+	],
+	tasks: [{
+		uid: "9bf5b617",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_neodymium_1"
+		}],
+		count: 32L
+	},
+	{
+		uid: "c6316f9b",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_bastnasite_1"
+		}],
+		count: 64L
+	},
+	{
+		uid: "954a23b5",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_monazite_1"
+		}],
+		count: 64L
+	}]
+}

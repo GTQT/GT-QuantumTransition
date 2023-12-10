@@ -1,0 +1,11 @@
+{
+	x: 2.0d,
+	y: 12.0d,
+	tasks: [{
+		uid: "0f6386eb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:circuit_suprachronal_hv"
+		}]
+	}]
+}

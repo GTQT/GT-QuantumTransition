@@ -1,0 +1,32 @@
+{
+	title: "3202年还在用箱子",
+	x: -4.5d,
+	y: 5.0d,
+	description: "快来试试这款最新的抽屉吧",
+	text: [
+		"相信我，你会需要她，什么，你还不会用抽屉？？？",
+		"右键单击：将 1 组物品放入抽屉；",
+		"右键双击：将身上所有同种类物品全部放入抽屉；",
+		"左键单击：取出 1 个物品；",
+		"Shift+左键单击：从抽屉中取出一组的物品；",
+		"空手 Shift+右键单击：打开 GUI 以查看存储的物品数量并管理抽屉升级组件，最多可放 7 个不同的组件。"
+	],
+	dependencies: [
+		"7ccf9a0c"
+	],
+	tasks: [{
+		uid: "7e46fb59",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "cdf801ef",
+		type: "item",
+		item: "storagedrawers:tape"
+	}]
+}

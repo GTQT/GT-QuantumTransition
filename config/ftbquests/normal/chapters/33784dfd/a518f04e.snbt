@@ -1,0 +1,67 @@
+{
+	x: -12.0d,
+	y: 7.0d,
+	shape: "gear",
+	text: [
+		"压膜机十分强大，只需要提供模具以及金属锭便可以加工一步到位。",
+		"至于代价么，你需要远高于LV的电压才能完全发挥它的左右。",
+		"压模器是一台将原料处理为各种形状的机器。",
+		"配合模板（注意，不是模头）可以将原料处理为模板的形状。",
+		"模板是通过空模板合成的。",
+		"挤压机工序的电功率需求较大。",
+		"处理橡胶、玻璃和塑料需要LV（低压）；大部分材料都是MV（中压）；而处理钨钢等高熔点高硬度金属为HV（高压）。"
+	],
+	dependencies: [
+		"3abf1a6f"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d1bad32c",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 321"
+		}]
+	},
+	{
+		uid: "3b887704",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 31"
+		}]
+	},
+	{
+		uid: "d9bbe417",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 32"
+		}]
+	},
+	{
+		uid: "0ebd420c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 52"
+		}]
+	},
+	{
+		uid: "0bd5a73d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 57"
+		}]
+	}],
+	rewards: [{
+		uid: "cc44add4",
+		type: "loot"
+	},
+	{
+		uid: "381786c8",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	},
+	{
+		uid: "96042a38",
+		type: "random",
+		table: 0
+	}]
+}

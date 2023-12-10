@@ -1,0 +1,18 @@
+{
+	x: -8.0d,
+	y: 3.0d,
+	description: "请确保你的主线进度达到了HV",
+	text: [
+		"聚爆压缩机可以用来制作火箭专用的材料"
+	],
+	dependencies: [
+		"585211e1"
+	],
+	tasks: [{
+		uid: "d6e0e8c4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1003"
+		}]
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "新的？什么时候才能用上",
+	x: 2.0d,
+	y: 5.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"90c4b08d"
+	],
+	tasks: [{
+		uid: "ce490a78",
+		type: "item",
+		items: [{
+			item: "gcys:meta_item_1 1 420"
+		}]
+	},
+	{
+		uid: "492b15ea",
+		type: "item",
+		items: [{
+			item: "gcys:meta_item_1 1 421"
+		}]
+	},
+	{
+		uid: "815ef272",
+		type: "item",
+		items: [{
+			item: "gcys:meta_item_1 1 422"
+		}]
+	},
+	{
+		uid: "37850a7e",
+		type: "item",
+		items: [{
+			item: "gcys:meta_item_1 1 423"
+		}]
+	},
+	{
+		uid: "a6d6f220",
+		type: "item",
+		items: [{
+			item: "gcys:meta_item_1 1 424"
+		}]
+	}]
+}

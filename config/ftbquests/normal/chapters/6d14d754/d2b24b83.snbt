@@ -1,0 +1,23 @@
+{
+	title: "美洲种植园",
+	x: 17.0d,
+	y: 4.0d,
+	text: [
+		"你后期需要大量的棉花来制造me线缆，提前做好准备吧。"
+	],
+	dependencies: [
+		"d48e9dff"
+	],
+	tasks: [{
+		uid: "fba1f277",
+		type: "item",
+		items: [{
+			item: "harvestcraft:cottonseeditem"
+		}]
+	}],
+	rewards: [{
+		uid: "5ae4ba9d",
+		type: "random",
+		table: 0
+	}]
+}

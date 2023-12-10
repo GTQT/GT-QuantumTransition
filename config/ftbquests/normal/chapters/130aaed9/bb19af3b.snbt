@@ -1,0 +1,27 @@
+{
+	x: -0.5d,
+	y: 3.0d,
+	text: [
+		"联苯四甲酸二酐粉需要将邻苯二甲酸酐在钯的催化下得到",
+		"",
+		"另一种所需要的原料对苯二胺则是需要4-硝基苯胺与氢反应",
+		"由于产线并不复杂，在此不多叙述"
+	],
+	dependencies: [
+		"8c245540"
+	],
+	tasks: [{
+		uid: "2286c308",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 15039"
+		}]
+	},
+	{
+		uid: "3d78bd1a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 15037"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: 3.0d,
+	text: [
+		"在聚苯并咪唑的产线里,你已经接触到了邻苯二甲酸，为了的到现在所需要的邻苯二甲酸酐，你需要蒸馏邻苯二甲酸"
+	],
+	dependencies: [
+		"24c28123"
+	],
+	tasks: [{
+		uid: "d6d037ae",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 15006"
+		}]
+	}]
+}

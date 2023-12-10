@@ -1,0 +1,22 @@
+{
+	x: -0.5d,
+	y: 8.0d,
+	text: [
+		"更大的炸弹"
+	],
+	dependencies: [
+		"a6ddcb0f"
+	],
+	tasks: [{
+		uid: "af1f8831",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "d1d93567",
+		type: "random",
+		table: 0
+	}]
+}

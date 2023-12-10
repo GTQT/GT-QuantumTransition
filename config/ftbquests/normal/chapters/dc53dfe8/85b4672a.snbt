@@ -1,0 +1,19 @@
+{
+	x: 19.5d,
+	y: 5.0d,
+	dependencies: [
+		"c4a6cd44"
+	],
+	tasks: [{
+		uid: "707820f2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 69"
+		}]
+	}],
+	rewards: [{
+		uid: "233ba4ad",
+		type: "random",
+		table: 0
+	}]
+}

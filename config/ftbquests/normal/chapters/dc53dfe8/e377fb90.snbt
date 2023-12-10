@@ -1,0 +1,30 @@
+{
+	title: "三氯化铁",
+	x: 24.5d,
+	y: 12.0d,
+	text: [
+		"在处理一些电路基板的时候会需要它"
+	],
+	dependencies: [
+		"96d02b51"
+	],
+	tasks: [{
+		uid: "93d0c052",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Fluid: {
+					FluidName: "iron_iii_chloride",
+					Amount: 1000
+				}
+			},
+			Damage: 78s
+		}]
+	}],
+	rewards: [{
+		uid: "1dc3c4d2",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"0cac3f79"
+	],
+	tasks: [{
+		uid: "4bc62a4e",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {
+				sacrifice: 0b
+			},
+			Count: 1b
+		}],
+		ignore_nbt: 1b
+	}]
+}

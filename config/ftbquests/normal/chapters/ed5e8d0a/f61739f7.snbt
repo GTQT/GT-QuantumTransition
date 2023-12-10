@@ -1,0 +1,22 @@
+{
+	title: "含杂富集硅岩溶液",
+	x: 11.5d,
+	y: -3.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a5a3be4b"
+	],
+	tasks: [{
+		uid: "6727f8de",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "impure_enriched_naquadah_solution",
+				Amount: 1000
+			}
+		}]
+	}]
+}

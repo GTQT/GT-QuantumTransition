@@ -1,0 +1,27 @@
+{
+	x: -7.5d,
+	y: -12.0d,
+	text: [
+		"很贵，可惜你卖不了"
+	],
+	dependencies: [
+		"68b71134"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "35af6d1a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 80"
+		}]
+	}],
+	rewards: [{
+		uid: "7c67d409",
+		type: "random"
+	},
+	{
+		uid: "4ac0f7ff",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	}]
+}

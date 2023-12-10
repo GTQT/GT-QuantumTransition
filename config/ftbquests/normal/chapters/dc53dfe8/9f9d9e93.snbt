@@ -1,0 +1,22 @@
+{
+	x: 13.0d,
+	y: 17.0d,
+	description: "如何获取冰晶石",
+	text: [
+		"目前你有两种办法获取冰晶石",
+		"1.通过化学反应，使用碱，铝土矿粉以及氟化钠合成",
+		"2.挖冰晶石矿",
+		"",
+		"不要找借口说你在暮色找不到冰晶石，对不起我不信"
+	],
+	dependencies: [
+		"ca7fcd4c"
+	],
+	tasks: [{
+		uid: "51c30b70",
+		type: "item",
+		items: [{
+			item: "gregtech:ore_cryolite_0"
+		}]
+	}]
+}

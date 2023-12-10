@@ -1,0 +1,21 @@
+{
+	x: 13.0d,
+	y: 2.0d,
+	text: [
+		"机器的基本机械零件。用于制作打印机等机器。但LuV及其以上级别的传感器需要相应扫描低级别的传感器，同时打印并制作成书才能查看合成表，之后使用装配线来制作。"
+	],
+	dependencies: [
+		"84144216"
+	],
+	tasks: [{
+		uid: "3b916308",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 232"
+		}]
+	}],
+	rewards: [{
+		uid: "5b1ea8d6",
+		type: "random"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 8.0d,
+	y: 10.5d,
+	dependencies: [
+		"465d9a11"
+	],
+	tasks: [{
+		uid: "0b229aae",
+		type: "item",
+		items: [{
+			item: "gregtech:wire_coil 1 5"
+		}]
+	}]
+}

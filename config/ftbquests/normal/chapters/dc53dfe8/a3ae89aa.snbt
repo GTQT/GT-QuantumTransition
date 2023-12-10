@@ -1,0 +1,38 @@
+{
+	x: 24.5d,
+	y: 17.0d,
+	description: "你的聚乙烯在哪",
+	text: [
+		"二极管是什么",
+		"你的高级电路板需要更高级的电子元件来进行逻辑判断",
+		"有意思的是，二极管的制造难度远超普通电路板，你需要一点点的半导体，塑料板，以及导线",
+		"",
+		"注意，如果到现在你还没有做聚乙烯记得点开 石油化工 章节",
+		"并且你需要120EU的供电来获取砷化镓锭，所以你需要制作四台能源仓（你应该做完铝锭之后来完成这个任务）"
+	],
+	dependencies: [
+		"5140c921",
+		"a06141df"
+	],
+	tasks: [{
+		uid: "af2eff90",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 521"
+		}]
+	}],
+	rewards: [{
+		uid: "91ab4d14",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	},
+	{
+		uid: "8e89e0d8",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "ac4da692",
+		type: "random"
+	}]
+}

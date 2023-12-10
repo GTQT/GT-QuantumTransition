@@ -1,0 +1,31 @@
+{
+	x: 8.0d,
+	y: 12.5d,
+	text: [
+		"矿脉在哪里"
+	],
+	dependencies: [
+		"de8f9b84"
+	],
+	tasks: [{
+		uid: "51adf507",
+		type: "item",
+		items: [{
+			id: "gregtech:meta_item_1",
+			tag: {
+				Charge: 100000L
+			},
+			Damage: 469s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cd3fdcfd",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	},
+	{
+		uid: "2fdfdd8f",
+		type: "random"
+	}]
+}

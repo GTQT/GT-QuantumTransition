@@ -1,0 +1,22 @@
+{
+	title: "纯村的一坨铂族金属",
+	x: -13.5d,
+	y: -12.0d,
+	text: [
+		"与氯化铵反应"
+	],
+	dependencies: [
+		"9a91b015"
+	],
+	tasks: [{
+		uid: "033e1a25",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "purified_platinum_group_concentrate",
+				Amount: 1000
+			}
+		}]
+	}]
+}

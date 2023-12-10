@@ -1,0 +1,25 @@
+{
+	title: "简单的矿物处理",
+	x: 8.0d,
+	y: 0.0d,
+	description: "将粉碎的矿石再次X2，当然需要洗干净",
+	dependencies: [
+		"5a8b365e"
+	],
+	tasks: [{
+		uid: "6cf739f4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "ade9b4da",
+		type: "custom"
+	},
+	{
+		uid: "cff1e87c",
+		type: "choice",
+		table: 0
+	}]
+}

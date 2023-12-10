@@ -1,0 +1,22 @@
+{
+	title: "石脑油",
+	x: 5.0d,
+	y: 2.5d,
+	text: [
+		"如果你觉得用燃油提炼乙烯过于奢侈，你可以使用石脑油"
+	],
+	dependencies: [
+		"3b31ed86"
+	],
+	tasks: [{
+		uid: "3f836760",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "sulfuric_naphtha",
+				Amount: 1000
+			}
+		}]
+	}]
+}

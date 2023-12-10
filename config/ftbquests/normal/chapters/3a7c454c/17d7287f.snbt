@@ -1,0 +1,29 @@
+{
+	title: "量产聚四氟乙烯",
+	x: 10.5d,
+	y: 7.0d,
+	text: [
+		"利用四氯化钛增加产量，当然你的钛也很宝贵。"
+	],
+	dependencies: [
+		"2ad56ad7"
+	],
+	optional: true,
+	tasks: [{
+		uid: "01360dfc",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "polytetrafluoroethylene",
+				Amount: 1000
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bac21004",
+		type: "item",
+		item: "gregtech:meta_ingot 1 1016",
+		count: 4
+	}]
+}

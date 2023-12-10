@@ -1,0 +1,13 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "995e80e8",
+		type: "custom"
+	}],
+	rewards: [{
+		uid: "53a2338b",
+		type: "command",
+		command: "/say 请注意，你选择了easy模式,一经选择无法更改！"
+	}]
+}

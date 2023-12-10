@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "8740c455",
+		type: "item",
+		items: [{
+			item: "bibliocraft:lanterngold"
+		}]
+	}]
+}

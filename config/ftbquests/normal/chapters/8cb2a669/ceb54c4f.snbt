@@ -1,0 +1,18 @@
+{
+	x: -2.0d,
+	y: -6.0d,
+	dependencies: [
+		"d3384770"
+	],
+	tasks: [{
+		uid: "80d856ac",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "mutagen",
+				Amount: 1000
+			}
+		}]
+	}]
+}

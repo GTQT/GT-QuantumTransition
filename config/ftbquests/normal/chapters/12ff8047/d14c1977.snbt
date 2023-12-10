@@ -1,0 +1,74 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"粉碎你的神秘矿"
+	],
+	dependencies: [
+		"11a19674"
+	],
+	tasks: [{
+		uid: "988ed2d5",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			},
+			Count: 1b
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			},
+			Count: 1b
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			},
+			Count: 1b
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			},
+			Count: 1b
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			},
+			Count: 1b
+		},
+		{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			},
+			Count: 1b
+		}]
+	}]
+}

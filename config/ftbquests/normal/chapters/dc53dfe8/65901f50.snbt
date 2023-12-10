@@ -1,0 +1,23 @@
+{
+	x: 14.5d,
+	y: 22.0d,
+	dependencies: [
+		"045dff9f"
+	],
+	tasks: [{
+		uid: "1538c77e",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom"
+		}]
+	}],
+	rewards: [{
+		uid: "c6ef01f6",
+		type: "choice",
+		table: 0
+	},
+	{
+		uid: "b0ec5f23",
+		type: "custom"
+	}]
+}

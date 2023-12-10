@@ -1,0 +1,18 @@
+{
+	x: 13.0d,
+	y: 19.0d,
+	text: [
+		"铝的助融剂，帮助你在LV阶段炼铝"
+	],
+	dependencies: [
+		"9f9d9e93"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "76030ada",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 32035"
+		}]
+	}]
+}

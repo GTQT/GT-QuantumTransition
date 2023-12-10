@@ -1,0 +1,11 @@
+{
+	x: -4.0d,
+	y: 12.0d,
+	tasks: [{
+		uid: "af0b66f6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3905"
+		}]
+	}]
+}

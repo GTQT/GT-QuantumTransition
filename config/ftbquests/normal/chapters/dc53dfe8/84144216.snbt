@@ -1,0 +1,48 @@
+{
+	title: "石英？",
+	x: 13.0d,
+	y: 3.5d,
+	text: [
+		"石英矿脉里通常夹杂着赛特斯，赛特斯的重要性不言而喻，如果你熟知AE的话。",
+		"与硫相比，赛特斯石英的生成高度要高得多。"
+	],
+	dependencies: [
+		"c9f41a6f"
+	],
+	tasks: [{
+		uid: "264f63d8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreNetherrackNetherQuartz",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreNetherrackNetherQuartz"
+				}
+			}
+		}]
+	},
+	{
+		uid: "c53f6c7a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "oreNetherrackCertusQuartz",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreNetherrackCertusQuartz"
+				}
+			}
+		}]
+	}]
+}

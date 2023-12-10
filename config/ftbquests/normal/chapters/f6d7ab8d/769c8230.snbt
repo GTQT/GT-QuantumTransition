@@ -1,0 +1,83 @@
+{
+	title: "更多蒸汽",
+	x: 9.5d,
+	y: 0.0d,
+	description: "这台LV级别的蒸汽机值得你所有",
+	text: [
+		"当然你需要极其稳定的燃料供给，考虑它吧，当然还需要及其稳定的燃料供给"
+	],
+	dependencies: [
+		"0afd4467"
+	],
+	tasks: [{
+		uid: "12f66a3e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1013"
+		}]
+	},
+	{
+		uid: "37776bd6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1180"
+		}]
+	},
+	{
+		uid: "4a3a5a37",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1195"
+		}]
+	},
+	{
+		uid: "7212924b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1150"
+		}]
+	},
+	{
+		uid: "5c89b0fd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1657"
+		}]
+	},
+	{
+		uid: "c900f63f",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1654"
+		}]
+	},
+	{
+		uid: "42c74280",
+		type: "item",
+		items: [{
+			item: "gregtech:metal_casing"
+		}],
+		count: 20L
+	},
+	{
+		uid: "4f4d8eb3",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_casing"
+		}],
+		count: 2L
+	},
+	{
+		uid: "547738a7",
+		type: "item",
+		items: [{
+			item: "gregtech:boiler_firebox_casing"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "59ce2ab4",
+		type: "item",
+		item: "gregtech:meta_item_1 1 502"
+	}]
+}

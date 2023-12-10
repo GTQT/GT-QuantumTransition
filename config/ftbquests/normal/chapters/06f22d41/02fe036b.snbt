@@ -1,0 +1,18 @@
+{
+	title: "东西太多了",
+	icon: "forestry:apiarist_bag",
+	x: 3.0d,
+	y: 2.5d,
+	tasks: [{
+		uid: "bc9cfce9",
+		type: "custom"
+	},
+	{
+		uid: "fbcb18f4",
+		type: "custom"
+	}],
+	rewards: [{
+		uid: "0dd18fa5",
+		type: "choice"
+	}]
+}

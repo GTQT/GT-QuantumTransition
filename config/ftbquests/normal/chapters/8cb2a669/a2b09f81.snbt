@@ -1,0 +1,19 @@
+{
+	x: -4.0d,
+	y: -6.0d,
+	dependencies: [
+		"ceb54c4f",
+		"2afd3282"
+	],
+	tasks: [{
+		uid: "5875f711",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "raw_growth_medium",
+				Amount: 1000
+			}
+		}]
+	}]
+}

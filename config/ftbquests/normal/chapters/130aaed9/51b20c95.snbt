@@ -1,0 +1,16 @@
+{
+	title: "激光小技巧",
+	x: 16.0d,
+	y: -0.5d,
+	description: "善用激光，丢掉你愚蠢的导线",
+	text: [
+		"链接激光管，你需要这种染色器来代替连接导线的剪线钳"
+	],
+	dependencies: [
+		"013adfbb"
+	],
+	tasks: [{
+		uid: "11336af0",
+		type: "checkmark"
+	}]
+}

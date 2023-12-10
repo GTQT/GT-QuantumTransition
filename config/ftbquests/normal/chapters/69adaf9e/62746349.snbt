@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"e2adf53d"
+	],
+	tasks: [{
+		uid: "42a4725b",
+		type: "item",
+		items: [{
+			item: "forestry:centrifuge"
+		}]
+	}]
+}

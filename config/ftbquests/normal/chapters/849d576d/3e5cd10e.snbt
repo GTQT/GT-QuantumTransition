@@ -1,0 +1,25 @@
+{
+	title: "你的钢在哪",
+	x: -3.0d,
+	y: 3.5d,
+	description: "貌似你需要给你的锅炉升级了，不过你没有钢。",
+	text: [
+		"蒸汽机器都可以使用钢进行升级，这意味着拥有更快的工作速度以及消耗更多的蒸汽。",
+		"你将在本章获取你的第一块钢锭。"
+	],
+	dependencies: [
+		"7ccf9a0c"
+	],
+	tasks: [{
+		uid: "59dd08bd",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "0cccd343",
+		type: "random",
+		table: 0
+	}]
+}

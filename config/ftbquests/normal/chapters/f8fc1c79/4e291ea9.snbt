@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "a2debccb",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "butyllithium",
+				Amount: 1000
+			}
+		}]
+	}]
+}

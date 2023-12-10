@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "894fb424",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "truxene",
+				Amount: 1000
+			}
+		}]
+	}]
+}

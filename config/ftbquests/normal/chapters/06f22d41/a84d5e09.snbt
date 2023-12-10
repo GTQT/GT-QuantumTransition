@@ -1,0 +1,15 @@
+{
+	icon: "forestry:beehives 1 6",
+	x: 24.0d,
+	y: 7.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "09946062",
+		type: "custom"
+	}],
+	rewards: [{
+		uid: "db5e7679",
+		type: "item",
+		item: "forestry:beehives 1 6"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "欢迎来到GTQT",
+	icon: "minecraft:red_flower",
+	x: -2.0d,
+	y: 2.0d,
+	description: "这是什么模组包？",
+	text: [
+		"GTQT是一个融合了大量科技魔法冒险元素的整合包。",
+		"你将在游戏里体验到各自快乐！",
+		"祝你游玩愉快！",
+		"",
+		"问题反馈 QQ群 1073091808",
+		"                        --------------------2023.2.4 开发组"
+	],
+	dependencies: [
+		"2e7b437e"
+	],
+	tasks: [{
+		uid: "4e1a72c2",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "50c3f1a8",
+		type: "random",
+		table: 0
+	}]
+}

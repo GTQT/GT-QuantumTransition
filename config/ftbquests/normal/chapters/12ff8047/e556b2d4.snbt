@@ -1,0 +1,31 @@
+{
+	x: 6.0d,
+	y: -1.5d,
+	text: [
+		"https://www.mcmod.cn/post/1454.html",
+		"",
+		"",
+		"这种有任务书的模组，我建议自己看教程"
+	],
+	dependencies: [
+		"942a5f07"
+	],
+	tasks: [{
+		uid: "777065dd",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4c7c8839",
+		type: "item",
+		items: [{
+			item: "thaumcraft:goggles"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

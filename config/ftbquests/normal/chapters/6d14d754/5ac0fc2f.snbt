@@ -1,0 +1,29 @@
+{
+	title: "乔迁之喜",
+	x: 31.0d,
+	y: -2.0d,
+	description: "自然生成的某些遗迹结构含有大量的砖块，还不快去冒险？",
+	dependencies: [
+		"453d44f2"
+	],
+	tasks: [{
+		uid: "45547ee8",
+		type: "item",
+		items: [{
+			item: "minecraft:brick_block"
+		}],
+		count: 2L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "1434f10d",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "492f733f",
+		type: "item",
+		item: "minecraft:brick_block",
+		count: 2
+	}]
+}

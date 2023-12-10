@@ -1,0 +1,15 @@
+{
+	title: "面向球床裂变",
+	x: -3.0d,
+	y: 2.0d,
+	dependencies: [
+		"288ad75d"
+	],
+	tasks: [{
+		uid: "b97ae45b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:assembler"
+		}]
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "奢侈的装饰",
+	x: 19.5d,
+	y: 0.0d,
+	text: [
+		"合成玻璃粉，需要石英矿砂以及燧石粉，当然，合金炉烧制玻璃还需要钢制的模具。"
+	],
+	dependencies: [
+		"15f27e04",
+		"e73d60c6"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "005d7c82",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}],
+		count: 5L
+	},
+	{
+		uid: "ab002a50",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2000"
+		}]
+	}],
+	rewards: [{
+		uid: "3cbfd2e6",
+		type: "choice",
+		table: 0
+	},
+	{
+		uid: "3baacc13",
+		type: "item",
+		item: "minecraft:glass",
+		count: 4
+	}]
+}

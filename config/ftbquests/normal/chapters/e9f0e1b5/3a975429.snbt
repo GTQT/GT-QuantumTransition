@@ -1,0 +1,18 @@
+{
+	x: 1.5d,
+	y: 5.5d,
+	dependencies: [
+		"f7a73efd"
+	],
+	tasks: [{
+		uid: "1a49cebb",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 35"
+		}]
+	}],
+	rewards: [{
+		uid: "a1c374f1",
+		type: "random"
+	}]
+}

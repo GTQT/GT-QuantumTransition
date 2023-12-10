@@ -1,0 +1,19 @@
+{
+	title: "是时候寻找钻石矿脉了",
+	x: 4.5d,
+	y: -2.0d,
+	text: [
+		"你可以大胆的查询JEI，或者借助手里的探测仪。",
+		"钻石矿脉通常与煤炭，石墨生成在一起"
+	],
+	dependencies: [
+		"65257cf8"
+	],
+	tasks: [{
+		uid: "35b4f962",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}]
+}

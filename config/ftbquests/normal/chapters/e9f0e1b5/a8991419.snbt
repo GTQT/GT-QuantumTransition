@@ -1,0 +1,20 @@
+{
+	x: 3.5d,
+	y: 10.0d,
+	dependencies: [
+		"0231d193"
+	],
+	tasks: [{
+		uid: "a4a4ba00",
+		type: "item",
+		items: [{
+			id: "thaumicenergistics:essentia_cell_1k",
+			tag: {
+				filter: {}
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

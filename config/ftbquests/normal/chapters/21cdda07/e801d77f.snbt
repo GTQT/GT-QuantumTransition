@@ -1,0 +1,33 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	dependencies: [
+		"5d540e67"
+	],
+	tasks: [{
+		uid: "df239a4a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1015"
+		}]
+	}],
+	rewards: [{
+		uid: "d2a43fad",
+		type: "item",
+		item: "gregtech:machine 1 1016"
+	},
+	{
+		uid: "3af76738",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	},
+	{
+		uid: "1602f7cd",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {},
+			Count: 1b
+		}
+	}]
+}

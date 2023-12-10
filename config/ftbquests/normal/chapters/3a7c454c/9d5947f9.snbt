@@ -1,0 +1,25 @@
+{
+	x: -8.0d,
+	y: 2.5d,
+	text: [
+		"不难发现，这玩意在化学反应釜里具有两条产线。",
+		"一条是水，甲烷，氯，硅直接混合反应，",
+		"另一种是氯甲烷与硅反应制得二甲基氯硅烷再与水反应。",
+		"效率方面其实都差不多"
+	],
+	dependencies: [
+		"585211e1"
+	],
+	tasks: [{
+		uid: "bafb313c",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 1011"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "42fe3e50",
+		type: "random"
+	}]
+}

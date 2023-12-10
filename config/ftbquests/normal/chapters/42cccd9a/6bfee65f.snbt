@@ -1,0 +1,18 @@
+{
+	x: 3.5d,
+	y: 7.5d,
+	description: "这是一个坑",
+	text: [
+		""
+	],
+	dependencies: [
+		"21de2c58"
+	],
+	tasks: [{
+		uid: "f803282d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1011"
+		}]
+	}]
+}

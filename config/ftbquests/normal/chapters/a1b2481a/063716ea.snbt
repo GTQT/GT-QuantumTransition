@@ -1,0 +1,26 @@
+{
+	title: "有趣的硼硅玻璃",
+	x: -15.5d,
+	y: -13.0d,
+	description: "看看你的新合金冶炼炉的威力。",
+	text: [
+		"如果你在锂云母矿里提取的硼还有富余，为什么不做一点硼硅玻璃。"
+	],
+	dependencies: [
+		"bb25ef71"
+	],
+	tasks: [{
+		uid: "e54bcb4e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 13"
+		}]
+	},
+	{
+		uid: "c0fa57b5",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_dust 1 2000"
+		}]
+	}]
+}

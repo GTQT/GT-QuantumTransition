@@ -1,0 +1,21 @@
+{
+	x: 10.0d,
+	y: -2.0d,
+	dependencies: [
+		"16bf9ccb",
+		"b4457d9f"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "594d6b42",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1004"
+		}]
+	}],
+	rewards: [{
+		uid: "644097c2",
+		type: "item",
+		item: "nuclearcraft:nitrogen_collector"
+	}]
+}

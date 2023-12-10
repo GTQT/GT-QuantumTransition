@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	shape: "gear",
+	dependencies: [
+		"ed1a483a"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "b0ec7681",
+		type: "item",
+		items: [{
+			item: "gregtech:transparent_casing 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "33b46a0b",
+		type: "random"
+	},
+	{
+		uid: "d81e5e6f",
+		type: "loot",
+		table: 0
+	}]
+}

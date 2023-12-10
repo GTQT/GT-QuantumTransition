@@ -1,0 +1,11 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "b0aca399",
+		type: "item",
+		items: [{
+			item: "contenttweaker:supracausal_cpu"
+		}]
+	}]
+}

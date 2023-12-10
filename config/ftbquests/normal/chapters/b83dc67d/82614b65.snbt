@@ -1,0 +1,36 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"218ce5c8"
+	],
+	tasks: [{
+		uid: "a5b75b51",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:collector"
+		}]
+	}],
+	rewards: [{
+		uid: "ab5e22b6",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	},
+	{
+		uid: "d4e9c3b5",
+		type: "item",
+		item: "galacticraftcore:aluminum_wire",
+		count: 16
+	},
+	{
+		uid: "dbc341f2",
+		type: "item",
+		item: {
+			id: "galacticraftcore:battery",
+			tag: {
+				electricity: 15000.0f
+			},
+			Count: 1b
+		}
+	}]
+}

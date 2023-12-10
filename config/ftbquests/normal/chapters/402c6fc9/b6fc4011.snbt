@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "8cab2b17",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:copypastetool",
+			tag: {
+				mode: "Copy"
+			},
+			Count: 1b
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

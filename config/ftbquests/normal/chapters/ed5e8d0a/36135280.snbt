@@ -1,0 +1,22 @@
+{
+	title: "熔融的铱锇合金",
+	x: 7.5d,
+	y: -6.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a89d60ba"
+	],
+	tasks: [{
+		uid: "b571271f",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "molten.osmiridium",
+				Amount: 1000
+			}
+		}]
+	}]
+}

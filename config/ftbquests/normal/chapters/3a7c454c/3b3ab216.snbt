@@ -1,0 +1,35 @@
+{
+	title: "苯乙烯，丁二烯",
+	x: 12.0d,
+	y: 5.5d,
+	text: [
+		"关于丁二烯,只需要蒸馏一些常见的裂化燃油，石脑油即可获得。",
+		"苯乙烯则是苯与乙烯反应制备。",
+		"我知道你的乙烯肯定量产了。"
+	],
+	dependencies: [
+		"20888665"
+	],
+	tasks: [{
+		uid: "3a2973c0",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "styrene",
+				Amount: 1000
+			}
+		}]
+	},
+	{
+		uid: "5eb5841b",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "butadiene",
+				Amount: 1000
+			}
+		}]
+	}]
+}

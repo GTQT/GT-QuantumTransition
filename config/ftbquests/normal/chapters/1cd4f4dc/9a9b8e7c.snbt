@@ -1,0 +1,16 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"6e73a445"
+	],
+	tasks: [{
+		uid: "04f36c75",
+		type: "item",
+		items: [{
+			item: "bloodmagic:sanguine_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

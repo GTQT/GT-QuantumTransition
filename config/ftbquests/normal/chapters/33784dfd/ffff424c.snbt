@@ -1,0 +1,19 @@
+{
+	x: -8.0d,
+	y: 1.0d,
+	dependencies: [
+		"22c8b05c"
+	],
+	tasks: [{
+		uid: "aa62091b",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 53"
+		}]
+	}],
+	rewards: [{
+		uid: "20def0cd",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

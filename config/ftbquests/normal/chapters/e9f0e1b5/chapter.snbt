@@ -1,0 +1,18 @@
+{
+	title: "网络技术",
+	icon: "appliedenergistics2:controller",
+	always_invisible: false,
+	group: 2051747107,
+	default_quest_shape: "square",
+	images: [{
+		x: -8.5d,
+		y: -5.5d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "assets:ftb/ae.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

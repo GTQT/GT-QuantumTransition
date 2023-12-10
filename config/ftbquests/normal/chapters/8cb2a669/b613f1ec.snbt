@@ -1,0 +1,23 @@
+{
+	title: "明胶",
+	x: -4.0d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e13f3b31",
+		"651aef1d"
+	],
+	tasks: [{
+		uid: "9a40c180",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "gtfo_gelatin_solution",
+				Amount: 1000
+			}
+		}]
+	}]
+}

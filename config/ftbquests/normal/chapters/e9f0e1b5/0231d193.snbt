@@ -1,0 +1,18 @@
+{
+	x: 1.5d,
+	y: 10.0d,
+	dependencies: [
+		"f7a73efd"
+	],
+	tasks: [{
+		uid: "2daf45a2",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_component_1k"
+		}]
+	}],
+	rewards: [{
+		uid: "f98505bd",
+		type: "random"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	shape: "gear",
+	description: "详见 多方块 部分",
+	text: [
+		"提供干净又卫生的环境用于制造先进部件",
+		"对于多方块配方来说，多方块自带洁净效果，因此你不需要把多方块塞到洁净室里边"
+	],
+	dependencies: [
+		"e2373a98"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "662df7ff",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1035"
+		}]
+	}],
+	rewards: [{
+		uid: "b808af92",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	},
+	{
+		uid: "2523346b",
+		type: "random"
+	}]
+}

@@ -1,0 +1,57 @@
+{
+	x: -1.0d,
+	y: -3.5d,
+	shape: "gear",
+	description: "啥《我不需要电阻。",
+	text: [
+		"你即将会发现，传统的电子元件制造工艺实在是太落后了，为什么还要使用那些老古董？",
+		"快来看看这个最新的贴片，兄弟，只需要贴一片就好了。"
+	],
+	dependencies: [
+		"3304b222"
+	],
+	tasks: [{
+		uid: "c14ed9de",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 523"
+		}]
+	},
+	{
+		uid: "35d87992",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 524"
+		}]
+	},
+	{
+		uid: "b5d26a79",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 525"
+		}]
+	},
+	{
+		uid: "0ca2365d",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 526"
+		}]
+	},
+	{
+		uid: "60cd5d73",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 527"
+		}]
+	}],
+	rewards: [{
+		uid: "3368d32b",
+		type: "random"
+	},
+	{
+		uid: "1ffd7c1f",
+		type: "item",
+		item: "gregtech:meta_item_1 1 3"
+	}]
+}

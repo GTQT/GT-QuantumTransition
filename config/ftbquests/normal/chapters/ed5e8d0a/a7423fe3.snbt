@@ -1,0 +1,18 @@
+{
+	title: "大小姐驾到，通通闪开",
+	x: 11.5d,
+	y: -4.5d,
+	shape: "gear",
+	description: "禁止随地大小电",
+	dependencies: [
+		"381f4c2d"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "7f9aeb30",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1042"
+		}]
+	}]
+}

@@ -1,0 +1,50 @@
+{
+	title: "把你的锤子(剪线钳)丢掉吧",
+	x: 13.0d,
+	y: 11.0d,
+	shape: "gear",
+	description: "够了够了，坏，压扁了",
+	text: [
+		"卷板机将你的金属锭变成板，当然需要电路板",
+		"快速查阅）",
+		"锭变板 1号 双重 2号 箔 3号 致密板 4号",
+		"板变箔 1号 双重 2号 致密 9号",
+		"杆变螺丝 1号",
+		"",
+		"线材轧机将你的锭变成线",
+		"锭变1x  1号 ；2x 2号；4x 4号；8x 8号",
+		"锭变细导线 3号"
+	],
+	dependencies: [
+		"9ea1ad6f"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "80068890",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 140"
+		}]
+	},
+	{
+		uid: "86dff9b4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 620"
+		}]
+	}],
+	rewards: [{
+		uid: "0ded75db",
+		type: "loot"
+	},
+	{
+		uid: "edf5402d",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "b8114a97",
+		type: "item",
+		item: "gregtech:meta_item_1 1 3"
+	}]
+}

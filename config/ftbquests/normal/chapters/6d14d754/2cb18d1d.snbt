@@ -1,0 +1,26 @@
+{
+	title: "收集常见的矿物part2",
+	x: 25.0d,
+	y: 2.0d,
+	text: [
+		"这居然是铁",
+		"什么，你问我铁可以干什么？",
+		"如果你是在不知道铁能干什么，你可以做一把锤子。"
+	],
+	dependencies: [
+		"2a4123c2"
+	],
+	tasks: [{
+		uid: "fbdc0df0",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "5119d245",
+		type: "random",
+		table: 0
+	}]
+}

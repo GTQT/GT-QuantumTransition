@@ -1,0 +1,54 @@
+{
+	x: 1.0d,
+	y: -3.5d,
+	text: [
+		"贴片升级"
+	],
+	dependencies: [
+		"00129c64"
+	],
+	tasks: [{
+		uid: "fb2cacd2",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 531"
+		}]
+	},
+	{
+		uid: "b4a5e583",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 528"
+		}]
+	},
+	{
+		uid: "6e4ca068",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 530"
+		}]
+	},
+	{
+		uid: "b675ba0f",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 532"
+		}]
+	},
+	{
+		uid: "615a09d4",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 529"
+		}]
+	}],
+	rewards: [{
+		uid: "26f837a3",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	},
+	{
+		uid: "36b0ba1e",
+		type: "random"
+	}]
+}

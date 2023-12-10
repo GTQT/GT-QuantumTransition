@@ -1,0 +1,24 @@
+{
+	x: 15.5d,
+	y: -3.5d,
+	description: "沙漠在哪里",
+	text: [
+		"如果你问该去哪里找沙子，那肯定是沙漠啦。",
+		"如果你问我仙人掌可以干什么，我也不知道。但是你查询jei(其实是HEI)会发现，仙人掌可以用来合成木板，太神奇了"
+	],
+	dependencies: [
+		"9edeef15"
+	],
+	tasks: [{
+		uid: "7106f8b1",
+		type: "item",
+		items: [{
+			item: "minecraft:cactus"
+		}]
+	}],
+	rewards: [{
+		uid: "985c4f3e",
+		type: "random",
+		table: 0
+	}]
+}

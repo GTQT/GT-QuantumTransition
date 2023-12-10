@@ -1,0 +1,11 @@
+{
+	x: 2.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "3535fa13",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cooking_table"
+		}]
+	}]
+}

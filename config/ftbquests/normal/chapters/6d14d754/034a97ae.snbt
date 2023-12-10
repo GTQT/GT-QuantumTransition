@@ -1,0 +1,31 @@
+{
+	title: "石头，嘿嘿嘿我的石头",
+	x: 11.0d,
+	y: 0.0d,
+	description: "无需太多",
+	text: [
+		"显然目前你的这些小玩具还不能支持大量开采矿物的需求，但是吧挖16个石头我觉得绰绰有余。"
+	],
+	dependencies: [
+		"2b5c2513"
+	],
+	tasks: [{
+		uid: "f5d36ac3",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "b564eb24",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "0f9bac4a",
+		type: "item",
+		item: "minecraft:gravel",
+		count: 16
+	}]
+}

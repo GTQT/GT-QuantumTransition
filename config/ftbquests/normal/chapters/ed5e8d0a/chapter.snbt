@@ -1,0 +1,18 @@
+{
+	title: "LuV-原子纠缠",
+	icon: "gregtech:machine 1 991",
+	always_invisible: false,
+	group: -1433178221,
+	default_quest_shape: "square",
+	images: [{
+		x: 12.5d,
+		y: -8.5d,
+		width: 8.0d,
+		height: 4.0d,
+		rotation: 0.0d,
+		image: "assets:ftb/luv.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

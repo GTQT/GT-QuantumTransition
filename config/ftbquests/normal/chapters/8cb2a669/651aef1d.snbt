@@ -1,0 +1,19 @@
+{
+	title: "磷酸",
+	x: -7.5d,
+	y: 0.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "183586ac",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "phosphoric_acid",
+				Amount: 1000
+			}
+		}]
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	x: 4.5d,
+	y: 11.0d,
+	text: [
+		"用于制造一类晶体芯片的原材料，包括部分芯片.",
+		"实际上，硅晶圆雕刻到各级电路的产量非常客观，所以你不需要太担心你的硅存量。"
+	],
+	dependencies: [
+		"3e20d776"
+	],
+	tasks: [{
+		uid: "fd911313",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 371"
+		}]
+	},
+	{
+		uid: "f15466b6",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_lens 1 314"
+		}]
+	},
+	{
+		uid: "54ff13f7",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_lens 1 311"
+		}]
+	},
+	{
+		uid: "ee9bf84a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_lens 1 278"
+		}]
+	}],
+	rewards: [{
+		uid: "8275f307",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

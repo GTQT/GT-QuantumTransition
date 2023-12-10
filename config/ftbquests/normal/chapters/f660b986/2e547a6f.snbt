@@ -1,0 +1,23 @@
+{
+	title: "润滑油",
+	x: 7.0d,
+	y: -2.0d,
+	description: "比水好？",
+	text: [
+		"不要纠结润滑油是什么口味"
+	],
+	dependencies: [
+		"242375ec"
+	],
+	tasks: [{
+		uid: "6829a967",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "lubricant",
+				Amount: 1000
+			}
+		}]
+	}]
+}

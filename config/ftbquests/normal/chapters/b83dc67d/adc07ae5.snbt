@@ -1,0 +1,27 @@
+{
+	x: -3.0d,
+	y: 3.0d,
+	dependencies: [
+		"64339f3e",
+		"290c96a6",
+		"3c78d383"
+	],
+	tasks: [{
+		uid: "e7df806a",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:heavy_plating"
+		}]
+	}],
+	rewards: [{
+		uid: "d6cb1b9a",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	},
+	{
+		uid: "02927d76",
+		type: "item",
+		item: "minecraft:tnt",
+		count: 16
+	}]
+}

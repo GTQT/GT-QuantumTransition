@@ -1,0 +1,26 @@
+{
+	title: "第一次铂浸洗族元素",
+	x: -14.5d,
+	y: -12.0d,
+	text: [
+		"混合王水浸洗，你会得到铂系残渣，铂系浓缩物。",
+		"铂系浓缩物用于下一步的铂元素提纯。",
+		"对于铂系残渣，你需要再次浸洗得到惰性金属混合物，稀有金属混合。",
+		"惰性金属混合物经过几步反应可以得到钌和铑。",
+		"稀有金属混合物可以反应提纯得到锇和铱。"
+	],
+	dependencies: [
+		"86bd543c"
+	],
+	tasks: [{
+		uid: "83b4777e",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "platinum_group_concentrate",
+				Amount: 1000
+			}
+		}]
+	}]
+}

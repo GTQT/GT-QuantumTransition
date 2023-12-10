@@ -1,0 +1,44 @@
+{
+	title: "家在哪来着",
+	icon: {
+		id: "draconicevolution:dislocator_advanced",
+		tag: {
+			Selection: 0s,
+			Fuel: 256000,
+			SelectionOffset: 0
+		},
+		Count: 1b
+	},
+	x: 1.5d,
+	y: 2.5d,
+	description: "送你一个传送宝石吧，至少目前他是够用的。",
+	text: [
+		"使用方法：",
+		"shift+右键打开GUI设置传送点，直接右键传送至选中的传送点。",
+		"用几次就会了。"
+	],
+	dependencies: [
+		"2e7b437e"
+	],
+	tasks: [{
+		uid: "a4502d67",
+		type: "custom"
+	},
+	{
+		uid: "eaf09651",
+		type: "custom"
+	}],
+	rewards: [{
+		uid: "9d5bbf55",
+		type: "item",
+		item: {
+			id: "draconicevolution:dislocator_advanced",
+			tag: {
+				Selection: 0s,
+				Fuel: 256000,
+				SelectionOffset: 0
+			},
+			Count: 1b
+		}
+	}]
+}

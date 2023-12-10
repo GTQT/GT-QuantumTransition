@@ -1,0 +1,88 @@
+{
+	title: "最好的伙伴",
+	x: 31.0d,
+	y: 2.0d,
+	description: "是扳手哒",
+	text: [
+		"扳手可作为采掘工具使用。手持扳手对准本模组新增的各类机器、流体管道、机械外壳、机械方块、",
+		"架、线圈方块等方块按住摧毁键（默认为鼠标左键）即可快速拆除，并掉落其自身。",
+		"当手持扳手时按下使用键（默认为鼠标右键）时：",
+		"若对准机器的任意一面，则可以将机器的主动输出方向（即有黑色",
+		"正方形的一面）调整为对应面（正面不可被设置为输出方向）；",
+		"若对准其它能够调整方向的方块（如楼梯），则可以自由旋转该方块。",
+		"在工作台中，扳手也可以参与物品的合成。在工作台中合成不同电压等级的机器",
+		"外壳、电动工具、框架等物品都需要用到扳手。",
+		"以上操作每进行一次，扳手都会消耗 1 点耐久（在创造模式下使用不消耗耐久），",
+		"耐久为 0 的扳手再使用一次后会被直接销毁，非满耐久的扳手可以在铁砧中利用对应的材",
+		"料或材料板来修复（可用于修复的物品会在当鼠标悬浮在扳手上方并按住 Shift 键时显示在",
+		"其 Tooltip 的最下方）。可以使用电动扳手来代替普通的扳手使用。"
+	],
+	dependencies: [
+		"5a6ae1d0"
+	],
+	tasks: [{
+		uid: "fa630a66",
+		type: "item",
+		items: [{
+			id: "gregtech:wrench",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				Quality: {
+					Slots: [
+						"mainhand"
+					],
+					Color: "yellow",
+					AttributeModifiers: [{
+						UUIDMost: 3821875984829990998L,
+						UUIDLeast: -5570904816860638380L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "potioncore.digSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 4592346010760596711L,
+						UUIDLeast: -6737505110243309964L,
+						Amount: -0.05000000074505806d,
+						AttributeName: "generic.attackSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					},
+					{
+						UUIDMost: 2012967807302778991L,
+						UUIDLeast: -6442009226838568057L,
+						Amount: 0.10000000149011612d,
+						AttributeName: "generic.attackDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.broad.name"
+				},
+				GT.Tool: {
+					MaxDurability: 256,
+					ToolSpeed: 6.0f,
+					AttackDamage: 3.0f,
+					Durability: 0,
+					Material: "iron",
+					HarvestLevel: 2,
+					AttackSpeed: -2.8f
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "607207e2",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "231e0dbb",
+		type: "item",
+		item: "gregtech:meta_item_1",
+		count: 4
+	}]
+}

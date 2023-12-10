@@ -1,0 +1,23 @@
+{
+	title: "刷石机有什么用",
+	x: 3.0d,
+	y: -2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c7d23b1c"
+	],
+	tasks: [{
+		uid: "d3f90bba",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "c872e345",
+		type: "loot",
+		table: 0
+	}]
+}

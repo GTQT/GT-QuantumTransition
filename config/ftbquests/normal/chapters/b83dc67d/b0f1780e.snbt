@@ -1,0 +1,35 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	dependencies: [
+		"218ce5c8"
+	],
+	tasks: [{
+		uid: "566bb329",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:fuel_loader"
+		}]
+	}],
+	rewards: [{
+		uid: "0c149811",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	},
+	{
+		uid: "0de14b65",
+		type: "item",
+		item: "gregtech:machine 1 1682"
+	},
+	{
+		uid: "1d3f5b36",
+		type: "item",
+		item: {
+			id: "galacticraftcore:battery",
+			tag: {
+				electricity: 15000.0f
+			},
+			Count: 1b
+		}
+	}]
+}

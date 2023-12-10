@@ -1,0 +1,19 @@
+{
+	title: "四氟乙烯",
+	x: -9.5d,
+	y: 1.0d,
+	dependencies: [
+		"089cf025"
+	],
+	tasks: [{
+		uid: "6e7b19a2",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "tetrafluoroethylene",
+				Amount: 1000
+			}
+		}]
+	}]
+}

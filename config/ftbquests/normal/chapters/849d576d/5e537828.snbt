@@ -1,0 +1,18 @@
+{
+	title: "真贵啊",
+	x: -0.5d,
+	y: 6.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d1c5f4e7"
+	],
+	tasks: [{
+		uid: "68f38671",
+		type: "item",
+		items: [{
+			item: "morefurnaces:furnaceblock 1 1"
+		}]
+	}]
+}

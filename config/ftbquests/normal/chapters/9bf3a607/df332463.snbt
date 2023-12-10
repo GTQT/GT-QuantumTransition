@@ -1,0 +1,17 @@
+{
+	x: 13.0d,
+	y: 1.0d,
+	dependencies: [
+		"6fc205a0"
+	],
+	tasks: [{
+		uid: "1d4f0ba4",
+		type: "item",
+		items: [{
+			id: "gregtech:gt_armor",
+			tag: {},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

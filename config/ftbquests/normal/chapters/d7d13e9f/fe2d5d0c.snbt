@@ -1,0 +1,23 @@
+{
+	x: 8.0d,
+	y: -1.0d,
+	dependencies: [
+		"4301e84e"
+	],
+	tasks: [{
+		uid: "8b1cf2c3",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "ba6bc60c",
+		type: "item",
+		item: "gregtech:meta_item_1 1 3"
+	},
+	{
+		uid: "3d9a9b5f",
+		type: "random"
+	}]
+}

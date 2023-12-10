@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "07ee39d6",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 986"
+		}]
+	}],
+	rewards: [{
+		uid: "58c07d14",
+		type: "command",
+		auto: "disabled",
+		command: "/title @p title [{\"text\":\"!!!欢迎来到电力时代!!!\",\"color\":\"dark_red\",\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false}]"
+	}]
+}

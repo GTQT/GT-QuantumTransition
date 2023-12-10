@@ -1,0 +1,15 @@
+{
+	icon: "magicbees:hiveblock 1 5",
+	x: 19.5d,
+	y: 8.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "1242c705",
+		type: "custom"
+	}],
+	rewards: [{
+		uid: "1e89d8e9",
+		type: "item",
+		item: "magicbees:hiveblock 1 5"
+	}]
+}

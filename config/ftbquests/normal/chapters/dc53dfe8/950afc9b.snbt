@@ -1,0 +1,28 @@
+{
+	x: 23.5d,
+	y: 3.5d,
+	description: "气体里有什么",
+	text: [
+		"在冶炼金属是可能会需要氧气或者氮气来氧化或者保护反应",
+		"最廉价的方法当然是从空气里提取分离这两种气体"
+	],
+	dependencies: [
+		"a9757831"
+	],
+	tasks: [{
+		uid: "7886bd9e",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 530"
+		}]
+	}],
+	rewards: [{
+		uid: "1679de6b",
+		type: "loot"
+	},
+	{
+		uid: "203732ed",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	title: "蒸汽时代",
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "e20c09b4",
+		type: "custom"
+	},
+	{
+		uid: "d38dc4f6",
+		type: "custom"
+	}]
+}

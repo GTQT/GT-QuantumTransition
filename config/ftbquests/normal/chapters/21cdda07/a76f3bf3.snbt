@@ -1,0 +1,40 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	dependencies: [
+		"5d540e67"
+	],
+	tasks: [{
+		uid: "8a3e2215",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1005"
+		}]
+	}],
+	rewards: [{
+		uid: "2af43f37",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 8
+	},
+	{
+		uid: "4c6129f2",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	},
+	{
+		uid: "5385da83",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {},
+			Count: 1b
+		}
+	},
+	{
+		uid: "328eadfe",
+		type: "item",
+		item: "gregtech:metal_casing 1 5",
+		count: 16
+	}]
+}

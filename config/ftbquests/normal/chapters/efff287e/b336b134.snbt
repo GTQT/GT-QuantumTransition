@@ -1,0 +1,14 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	dependencies: [
+		"6ebda6d4"
+	],
+	tasks: [{
+		uid: "44fd19aa",
+		type: "item",
+		items: [{
+			item: "forestry:worktable"
+		}]
+	}]
+}

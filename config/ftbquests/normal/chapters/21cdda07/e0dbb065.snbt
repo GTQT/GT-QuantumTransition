@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: 7.5d,
+	dependencies: [
+		"9b10e602"
+	],
+	tasks: [{
+		uid: "1ff5613e",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_ingot 1 126"
+		}]
+	}],
+	rewards: [{
+		uid: "11af8f65",
+		type: "item",
+		item: "gregtech:meta_item_1 1 6"
+	}]
+}

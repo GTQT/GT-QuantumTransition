@@ -1,0 +1,31 @@
+{
+	title: "这可是货真价实的石头",
+	x: 14.0d,
+	y: 0.0d,
+	description: "啊对对对，真的真的",
+	text: [
+		"石头是前期制作研钵的重要材料"
+	],
+	dependencies: [
+		"2e1ed826"
+	],
+	tasks: [{
+		uid: "2eff25fe",
+		type: "item",
+		items: [{
+			item: "minecraft:stone"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "932a3bd0",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "7446d8a7",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 16
+	}]
+}
