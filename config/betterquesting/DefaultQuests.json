@@ -444,7 +444,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "圆石？原石！",
+          "desc:8": "圆石？原石！\n\n你需要一些圆石来制作熔炉，如果你问我圆石在哪，那我建议你换个整合包。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -762,7 +762,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "GTQT欢迎每一个玩家，无论你来自哪里！\n\nMCBBS:https://www.mcbbs.net/thread-1437057-1-1.html\nMCMOD:https://www.mcmod.cn/modpack/590.html\nGITHUB:https://github.com/KeQingsocute520/GT-QuantumTransition\n\n 格雷：量子跃迁(GregTech:QuantumTransition)是一款围绕GTCEu,GTQTcore,GregicalityMultiblocks展开，配合NuclearCraft:,等其他主流模组联动魔改的大型魔改整合包。整合包围绕科技，魔法，冒险等维度制作了约1600+（还在更新）拥有完整流程，介绍详细的任务，将完全覆盖你的整个游戏阶段。你将在游戏里研究16级电压的主线科技，8级支线科技，4条并联魔法任务组,总计30章任务。探索超过30个星球维度，以及100+随机遗迹，200+生物群系，以及遍布世界的冒险地牢，新村庄，藏宝地，探索全新机制生产的洞穴。",
+          "desc:8": "第一版\nGTQT是一个融合了大量科技魔法冒险元素的整合包。\n你将在游戏里体验到各自快乐！\n祝你游玩愉快！\n\n问题反馈 QQ群 1073091808\n                        --------------------2023.2.4 开发组\n\n第二版\n发布以来光受大家欢迎，考虑到整合包结构因为技术问题导致内容混乱\n开发组难以在此基础上继续开发，特此决定重置。\n感谢大家一直以来的支持！\n                         --------------------2023.12.4 开发组\n\n相关链接：\nMCBBS:https://www.mcbbs.net/thread-1437057-1-1.html\nMCMOD:https://www.mcmod.cn/modpack/590.html\nGITHUB:https://github.com/KeQingsocute520/GT-QuantumTransition\n\n 战斗，爽！\n\n任务必读部分：\n---------------------------------------------------\n关于更新以及备份存档，首先了解你的MC本体文件夹构成：\nXaeroWaypoints 此文件夹存放着小地图标点信息，XaeroWorldMap 此文件夹存放着你的世界地图信息，Visualores 此文件夹存放着你的矿脉标点信息，你的备份存档存储在backups 文件夹。\n\n更新时请注意保留以上文件夹再重装整合包。\n---------------------------------------------------\n如果你的存档突然消失，请不要紧张，你有两种办法挽回你的存档：\n第一种：使用你的备份存档，通常存储在backups文件夹 内，将其转移到你的存档文件夹。\n第二种：新建一个世界，拷贝你消失存档文件夹内的所有内容转移到新建的存档内，注意是清空后粘贴，不要覆盖\n引起存档消失的原因大部分来自于visualore这个模组（触发条件，在非主世界维度使用探矿仪扫矿），如果不希望存档消失，删除这个模组即可。\n再次警告：请不要在暮色森林传送门附近使用探矿仪，请不要在额外的模组维度内开启xaero地图内的矿脉显示。如果不小心因为启动了矿脉显示导致存档无法打开，请在游戏外的mod设置内关闭小地图即可进入游戏，进入后返回主世界维度关闭地图矿脉显示即可。\n---------------------------------------------------\n如果你的存档出现地形生成问题（例如两次地图生成的一模一样，或者地形出现断层），在新建世界的时候不要使用相同的命名即可。\n---------------------------------------------------\n游戏优化攻略：适当调低角视场，在视频设置中选择流畅画质，关闭平滑光照，关闭动态光源，动画全关，渲染距离拉低（其余部分自行选择），不要开快速渲染！\n---------------------------------------------------\n如何关闭左上角的小字\n/igi disable\n/igi config\n---------------------------------------------------\n如何关闭屏幕左侧的TOPC提示\n非潜行状态手持readme右击（在你的阿卡什宝典里边）：\nNeeded：需要检测器才能显示信息；\nNot Needed：直接显示，不需要检测器；\nExtended：需要检测器才能显示详细信息。\n潜行状态手持readme右击：\n左侧可调整信息的显示位置，默认为左上角，点击左侧区域调整位置。\n右侧可调整信息的显示样式和缩放。\n---------------------------------------------------\n区块加载器\n打开位于右上角的FTB区块加载功能\n单击区块：认领，在你的区块内默认防爆\nSHIFT+点击：保持加载，无论玩家处于什么维度。\n关于服务器区块问题。\n请优先联系你的服务器管理员协调区块加载权限以及是否开启本功能。\n---------------------------------------------------\n如果遇到更换光影导致游戏黑屏，请重启游戏后在主界面更换光影来保证游戏正常运行\n---------------------------------------------------\n如果需要开启全屏，请在视频设置里选择 全屏：开\n---------------------------------------------------\n如果遇到内存清理卡顿，使用如下JVM参数：\n-d64 -XX:+AggressiveOpts -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ParallelGCThreads\u003d8 -Dsun.rmi.dgc.server.gcInterval\u003d3600000 -XX:+UnlockExperimentalVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:MaxGCPauseMillis\u003d50 -XX:+AlwaysPreTouch -XX:+UseStringDeduplication -Dfml.ignorePatchDiscrepancies\u003dtrue -Dfml.ignoreInvalidMinecraftCertificates\u003dtrue -XX:-OmitStackTraceInFastThrow -XX:+OptimizeStringConcat -XX:+UseAdaptiveGCBoundary -XX:NewRatio\u003d3 -Dfml.readTimeout\u003d90 -XX:+UseFastAccessorMethods\n---------------------------------------------------",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2214,7 +2214,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "我要石头干什么。\n\n把圆石塞进熔炉 烧一下就会变成石头，然后用这些石头干一些古希腊艺术家会做的事情。\n\n古希腊石雕艺术在古代希腊文化中占据了重要的地位，它以精湛的技艺和深刻的主题而闻名于世。古希腊石雕主要服务于古希腊宗教和社会公共生活，反映了古希腊人的信仰、文化和社会生活。\n\n古希腊石雕作品广泛分布于希腊各地的神庙、纪念碑和公共场所。其中最著名的作品包括雅典卫城的帕台农神庙和宙斯神庙的石雕装饰，以及萨莫斯岛的赫拉神庙的石柱群。这些石雕作品通常由大理石雕刻而成，雕刻家们运用高超的技艺将神话故事、历史事件和人物形象刻画得栩栩如生。\n\n古希腊石雕艺术的特点包括严格的几何形状、对称性、准确的肌肉和表情以及理想化的形式。雕刻家们通过精确的测量和计算，将人物形象和身体比例刻画得非常真实。此外，古希腊石雕还注重表现情感和神态，通过细腻的表情和动作来传达人物的情感和精神状态。\n\n古希腊石雕对于西方艺术和文化有着深远的影响。它们不仅展示了古希腊雕刻艺术的卓越成就，也反映了古希腊文化和社会生活的方方面面。同时，古希腊石雕也为后来的西方艺术发展提供了重要的借鉴和启示，对西方艺术史的发展产生了深远的影响。\n\n唉，马赛克。",
+          "desc:8": "。把圆石塞进熔炉，烧一下就会变成石头，然后用这些石头干一些古希腊艺术家会做的事情。\n\n古希腊石雕艺术在古代希腊文化中占据了重要的地位，它以精湛的技艺和深刻的主题而闻名于世。古希腊石雕主要服务于古希腊宗教和社会公共生活，反映了古希腊人的信仰、文化和社会生活。\n\n古希腊石雕作品广泛分布于希腊各地的神庙、纪念碑和公共场所。其中最著名的作品包括雅典卫城的帕台农神庙和宙斯神庙的石雕装饰，以及萨莫斯岛的赫拉神庙的石柱群。这些石雕作品通常由大理石雕刻而成，雕刻家们运用高超的技艺将神话故事、历史事件和人物形象刻画得栩栩如生。\n\n古希腊石雕艺术的特点包括严格的几何形状、对称性、准确的肌肉和表情以及理想化的形式。雕刻家们通过精确的测量和计算，将人物形象和身体比例刻画得非常真实。此外，古希腊石雕还注重表现情感和神态，通过细腻的表情和动作来传达人物的情感和精神状态。\n\n古希腊石雕对于西方艺术和文化有着深远的影响。它们不仅展示了古希腊雕刻艺术的卓越成就，也反映了古希腊文化和社会生活的方方面面。同时，古希腊石雕也为后来的西方艺术发展提供了重要的借鉴和启示，对西方艺术史的发展产生了深远的影响。\n\n唉，马赛克。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2278,7 +2278,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "沙子",
+          "name:8": "我需要更多的沙子",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -2394,7 +2394,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "§6§1§0",
+          "desc:8": "你需要一些模具来制作砖块。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2516,7 +2516,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "你真的会玩匠魂吗？\n\n著名整合包《诸神匠心》玩家曾经说过：“大家注意了 最近出现了很多诋毁这个整合包的评论 经过我们国安部的调查 发现他们都是美国的CIA派来的网络水军 想要以此方式打压我们国产整合包事业 但是我们坚信事实胜于雄辩 这些诋毁性评论并不能代表整个国产整合包行业 更不能代表广大玩家的心声 我们呼吁广大玩家和网民保持警惕 不要轻信互联网上的虚假信息 同时 我们也希望有关部门能够加强对镜外势力的监管 遏制他们的恶意行为 以维护一个良好的国家环境。”\n\n著名国产整合包《诸神匠心》作者星雨曾经说过：“本包为魔改整合包，因此不可避免的会出现平衡性修改或整合包新增的内容，请善用游戏引导书，整合包内任务和mc百科。并且因为会优先去做实现我自己灵感的内容，因此如果你认为这个整合包哪里需要调整，欢迎在评论区提出建议，即使我无法满足你的要求我也会在评论区给出原因。如果你认为这个整合包完完全全的不适合你，还恳请你寻找更适合你的整合包而不是强忍难受去强行磨合。”\n\n著名评论家麦克阿瑟评论道：“看了你说的每一句话，我想你可能确实不曾认真的尝试着去自习体验这个整合包，起初我刚刚进入这个整合包的时候也觉得这个包很折磨人，然而开荒期的折磨带来的是开荒结束后无比大的成就感，我在各大魔法科技模组中本来是小白，诸神匠心一步步教会了我这些模组的玩法，关于你说的所谓原版匠魂材料，我认为你能说出虚金砍废了是为了彰显天灾金属的高贵这种话，是基于你完全没有做出过天灾金属来的前提下的，天灾金属超高的扭曲值使它并不能成为玩家的选择，以及天灾金属和虚金的造价完全没法比，你上来就是所谓的破解反作弊，然后再下定论这个包不好玩，有没有一种可能，整合包是用来玩的，不是用来速通的呢？我作为一个大学生，上课的时候把学会的自动化挂上机，下课回宿舍每每验收挂机成果都很开心，以及所谓的杀十几只混沌龙，那只是一个小的不能再小的支线，谁要求你做了呢？影响主线毕业吗？所以对于你说的这些，我的感觉就是你从未认真的体验这个整合包，而是破解了反作弊来这里大肆炫耀你的能耐。\n其次关于你说的联机不稳定，我一直用ranmin vpn与我好友联机，并未出现你说的那些情况，除了网络波动的时候大家连接都很稳定。\n最后，我不理解你所谓的恶趣味魔改以及作者不负责任的态度是从何而来，我觉得作者做的事情只是在主线里面尽可能让我们把所有模组都体验一遍才能够毕业，并且在群里我们向作者提出任何意见，只要他在，他多半会回复，一步步更新来改善这些问题，他会在群里跟我们分享他日常开发新版本的成果。我认为你觉得作者不负责，可能是你从来没试着融入我们的群聊吧。在结尾处，我还是想说，整合包是给你玩的，从来没有什么所谓作者想让你做的事，用爱发电的作者只希望你能够体验的开心，人物你不管也无所谓，没人逼你做任务。祝你生活愉快。”\n",
+          "desc:8": "你真的会玩匠魂吗？\n\n大家注意了 最近出现了很多诋毁这个整合包的评论 经过我们国安部的调查 发现他们都是美国的CIA派来的网络水军 想要以此方式打压我们国产整合包事业 但是我们坚信事实胜于雄辩 这些诋毁性评论并不能代表整个国产整合包行业 更不能代表广大玩家的心声 我们呼吁广大玩家和网民保持警惕 不要轻信互联网上的虚假信息 同时 我们也希望有关部门能够加强对镜外势力的监管 遏制他们的恶意行为 以维护一个良好的国家环境。\n\n著名国产整合包《诸神匠心》作者星雨曾经说过：“本包为魔改整合包，因此不可避免的会出现平衡性修改或整合包新增的内容，请善用游戏引导书，整合包内任务和mc百科。并且因为会优先去做实现我自己灵感的内容，因此如果你认为这个整合包哪里需要调整，欢迎在评论区提出建议，即使我无法满足你的要求我也会在评论区给出原因。如果你认为这个整合包完完全全的不适合你，还恳请你寻找更适合你的整合包而不是强忍难受去强行磨合。”\n\n著名评论家麦克阿瑟评论道：“看了你说的每一句话，我想你可能确实不曾认真的尝试着去自习体验这个整合包，起初我刚刚进入这个整合包的时候也觉得这个包很折磨人，然而开荒期的折磨带来的是开荒结束后无比大的成就感，我在各大魔法科技模组中本来是小白，诸神匠心一步步教会了我这些模组的玩法，关于你说的所谓原版匠魂材料，我认为你能说出虚金砍废了是为了彰显天灾金属的高贵这种话，是基于你完全没有做出过天灾金属来的前提下的，天灾金属超高的扭曲值使它并不能成为玩家的选择，以及天灾金属和虚金的造价完全没法比，你上来就是所谓的破解反作弊，然后再下定论这个包不好玩，有没有一种可能，整合包是用来玩的，不是用来速通的呢？我作为一个大学生，上课的时候把学会的自动化挂上机，下课回宿舍每每验收挂机成果都很开心，以及所谓的杀十几只混沌龙，那只是一个小的不能再小的支线，谁要求你做了呢？影响主线毕业吗？所以对于你说的这些，我的感觉就是你从未认真的体验这个整合包，而是破解了反作弊来这里大肆炫耀你的能耐。\n其次关于你说的联机不稳定，我一直用ranmin vpn与我好友联机，并未出现你说的那些情况，除了网络波动的时候大家连接都很稳定。\n最后，我不理解你所谓的恶趣味魔改以及作者不负责任的态度是从何而来，我觉得作者做的事情只是在主线里面尽可能让我们把所有模组都体验一遍才能够毕业，并且在群里我们向作者提出任何意见，只要他在，他多半会回复，一步步更新来改善这些问题，他会在群里跟我们分享他日常开发新版本的成果。我认为你觉得作者不负责，可能是你从来没试着融入我们的群聊吧。在结尾处，我还是想说，整合包是给你玩的，从来没有什么所谓作者想让你做的事，用爱发电的作者只希望你能够体验的开心，人物你不管也无所谓，没人逼你做任务。祝你生活愉快。”\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -2906,7 +2906,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "你感觉这通液体包含了半个元素周期表",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -3895,7 +3895,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "把你的铜粉和锡粉按照3：无序合成青铜粉。",
+          "desc:8": "把你的铜粉和锡粉按照3：无序合成青铜粉。\n\n青铜是你在蒸汽时代需要大量消耗的材料，所以说多做一点。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4405,7 +4405,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "《木门为什么比铁门好》\n在我们的日常生活中，门是不可或缺的家居元素之一。它们保护我们的家园，提供隐私和安全，同时还要满足美观和实用的要求。在各种门的选择中，木门和铁门是最常见的两种类型。虽然铁门在某些方面具有优势，但木门在许多方面仍然被认为更好。本文将探讨木门比铁门好的原因。\n\n美观性\n木门在美观性方面通常被认为比铁门更具优势。铁门通常显得较为冷硬，而木门则给人一种温暖、自然的感觉。木门的颜色、纹理和形状都可以根据需要进行定制，从而与家居的整体风格相协调。此外，木门还可以进行雕刻、镶嵌等加工，增加其艺术价值。\n\n隔热性能\n木门具有良好的隔热性能，而铁门则不是。由于木材是一种天然的隔热材料，因此木门能够有效地阻挡室内外温度的传递，提高家居的保温性能。相比之下，铁门的导热性较强，容易导致室内温度波动。\n\n耐久性\n虽然铁门在耐用性方面比木门更强，但木门的使用寿命也相当长。高质量的木门经过适当的保养和维护，可以持续使用数十年甚至更长时间。此外，由于木材具有自然的耐候性，因此在潮湿和干燥的环境下，木门也不易变形或损坏。\n\n安全性\n虽然铁门在安全性方面具有一定的优势，但木门在某些情况下可能更受欢迎。例如，在发生火灾时，由于木材的易燃性，木门通常比铁门更容易破碎，从而有助于消防员更快地进入建筑物。此外，木材的燃烧速度也比金属慢，因此木门在火灾中更加安全。\n\n环保性\n木材是一种可再生资源，与铁等非可再生资源相比，更加环保。此外，在生产过程中，木门的碳排放量也低于铁门。这使得木门成为一种更加环保的选择，符合当今社会对可持续发展的追求。\n\n综上所述，虽然铁门具有一定的优点，但木门在美观性、隔热性能、耐久性、安全性和环保性方面都优于铁门。因此，在选择门时，可以根据个人需求和喜好来选择适合的门类型。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4417,7 +4417,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "全友家居",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -4936,7 +4936,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "整合包使用生活调味料胡罗贝版与饥饿改革构成了一个完善的饮食体系。\n\n你需要注意尽量吃不同的食物，而不是只吃一种。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -4948,7 +4948,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "吃饱喝好，一路走好",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -4974,7 +4974,12 @@
           }
         }
       },
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      }
     },
     "76:10": {
       "preRequisites:11": [
@@ -5675,7 +5680,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你将在下一个阶段解锁匠魂冶炼炉，届时你就可以将先进的金属铸造成为工具了。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5730,7 +5735,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "新材料？新工具！",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -5752,7 +5757,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "如果你的东西太多了，你可以用这个背包.\n\n更多的空间-------------------------------------------\n背包满了？有了旅行者背包将不会再有这种事情发生了！\n掉进熔岩里了？不用担心，任何旅行者背包都不会被熔岩烧掉，它会像下界合金一样慢慢浮上来。\n在有很多Mod和很多物品的时候，你需要一个功能非常强大的旅行者背包。旅行者背包可以提供大约 45 个物品槽和 2 个流体储罐，每个储罐可以存储多达 4 桶流体，甚至是 16瓶药水（仅1.12.2）。如果你需要携带大量物品和流体，这个背包将成为你的不二之选。\n与护甲兼容------------------------------------------\n要护甲还是背包？为什么两个不能共同携带？小孩子才会做选择！探索者背包可以和护甲同时穿戴，但不是意味着你可以穿戴无限多的背包。\n在背包内会有穿戴背包按键（下图左），如果穿戴背包时打开背包会有卸下背包按键（下图右）\n探索好伙伴---------------------------------------\n探索时的完美装备！当你在探索到晚上时，你需要做什么？做一个工作台然后合成床和篝火？不！你只需要制作一个篝火即可！\n旅行者背包卸下后可以按下“Shift+右键”放在地上，然后打开背包会显示打开睡袋的按键，此时你就可以进入睡袋，进入梦乡。\n以上任何操作都不会影响背包的物品和流体！\n多种类背包------------------------------------------\n从 75 个定制背包中选择你的最爱的那个；如果你觉得背包的能力还不够，其中一些背包还可以提供特殊的能力，更多信息参见旅行者背包。\n----------------------------------------------------\n----------------------------------------------------\n背包使用指南\n旅行者背包的背包分为多个部分，这些部分具有的功能如下所述：\n蓝色槽代表基本的背包物品格，你可以在那里存储你的物品。\n绿色槽只能放工具，注意只能是工具不能是武器，但作者会在将来容许武器放在绿色槽，现在可以放的是绝大部分 Mod 的工具，例如匠魂的大锤，神秘时代的法术手套；绿色格可以提供特殊的工具快捷操作：当你在绿色槽里放入了工具且手持工具时，按住“Shift”并滚动鼠标滑轮就可以在你手持工具和背包内绿色槽的工具之间迅速切换，以便应对冒险中的各种情况。\n棕色槽是背包工作台，而且也可以当做背包空间使用，在里面放入的物品合成表会保存。\n储罐槽接受所有液体和药水，包括绝大部分 Mod 的流体和药水，支持流体单元、储罐和水瓶。当你在上面的水桶图标槽内放入有流体的桶时，流体就会进入背包的储罐槽，并将空的桶退回到下面的水桶图标槽内；如果是空的桶放在上面的水桶图标槽内，那么背包会把储存其内的流体接满到桶内并退回到下面的水桶图标槽内。你可以按储罐槽旁边的小X来清除储罐内的流体。\n桶槽下面的水桶图标槽只是流体的输出槽，所以你不能在那里放任何东西。\n当你背上背包后按 B 可以呼出背包 UI，当然你也可以在按键控制中调整为其他按键。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -5764,7 +5769,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "我的小背包",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -6044,7 +6049,127 @@
       },
       "questID:3": 89,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:beef"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:chicken"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:mutton"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 3,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:cooked_beef"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "4:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 4,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:cooked_chicken"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "5:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 5,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:cooked_mutton"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "6:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 6,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 64,
+              "Damage:2": 134,
+              "OreDict:8": "",
+              "id:8": "gregtechfoodoption:gtfo_meta_item"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        }
+      }
     },
     "90:10": {
       "preRequisites:11": [
@@ -6193,7 +6318,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "为什么不是秋游",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6205,7 +6330,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "春游",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -6245,7 +6370,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "你懒死了",
+          "desc:8": "你懒死了\n\n附：《如果我是一扇自动门，我会夹住你的脑袋吗》\n如果我是一扇自动门，我会夹住你的脑袋吗？\n\n首先，我要明确的是，作为一扇自动门，我的主要功能是方便人们进出，提高通行效率。我会根据人们的需要自动开关门，以提供最大的便利。\n\n然而，对于某些特殊的情况，比如有人试图通过我进入禁止进入的区域，或者在我不得不关闭的时候强行推开我，我可能会采取一些措施来保护自己和建筑物内部的安全。这可能包括夹住试图进入的人的脑袋。\n\n但是，请注意，我的设计初衷并不是为了夹住人们的脑袋。相反，我是为了在人们需要的时候提供帮助，而不是制造伤害。因此，如果有人遇到我夹住他们的情况，这通常是一种意外，而不是我的本意。\n\n此外，对于那些有行动不便或者需要频繁进出的人来说，自动门的存在提供了极大的便利。我可以根据他们的需要自动开关门，帮助他们顺利地进入和离开建筑物。\n\n总的来说，作为一扇自动门，我的主要任务是提供便利和保护安全。尽管在某些特殊情况下可能会出现意外，但这并不意味着我会故意夹住人们的脑袋。我会继续努力为人们提供最好的服务。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6417,7 +6542,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "有一天，一个贼想偷一家银行，于是他拿着一根撬棍来到了银行门口。他左顾右盼，确定没有人后，便拿出撬棍开始撬门。\n\n撬了半天，门终于开了，贼高兴地走了进去。结果，银行保安突然冲了出来，抓住了贼。\n\n贼惊讶地问：“你们怎么知道的？”\n\n保安得意地说：“你忘了，我们这里是银行，你的撬棍上印着‘此面朝上’啊！”\n\n贼仔细一看，才发现自己拿反了撬棍，把印有“此面朝上”的一端当成了手柄。他无奈地叹了口气，说：“唉，我真是太笨了。”",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6443,7 +6568,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "咖喱EX圣剑",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -6637,7 +6762,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "在使用管道输送水以及输出蒸汽的时候，你会发现这两种液体很容易混起来，或者蒸汽占用了你的供水管道！\n\n解决方法\n1：设置管道流向\n2：保障供水\n3：借一个EIO导管（或者其他什么）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6649,7 +6774,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "开始蒸汽时代！",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -6689,7 +6814,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "这个故事告诉我们合金炉的重要性。\n----------------------------------\n如果这是你的第一台蒸汽机器，在这里需要提醒你一些事情\n\n1.蒸汽机器需要使用扳手右键机器设置排气口，否则机器只会工作一次\n2.关于机器的IO面，机器的正面都是不能进行IO操作的，包括导管，接口面板以及机器自己的输出。\n3.在连接管道与机器时，注意管道的流量以及温度，不要被烫伤了。\n\n早期机器的蒸汽容量只有16000升（mB）在蒸汽机器中相当于8000EU。\n\n此机器只能处理功率不大于32EU/t(ULV级别)的配方，并且不能超频。\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6701,7 +6826,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "宁拆十座庙，不毁一桩婚。",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -6741,7 +6866,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "4*红石+一个铜锭.\n\n主要涉及你的第一块电路板合成，以及部分ULV设备。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 64,
@@ -6753,7 +6878,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "我超，红色合金",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -6793,7 +6918,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "工具家族新成员！\n\n可以用来连接/断开导线。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6819,7 +6944,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "小剪子",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -6873,7 +6998,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你的蒸汽机器需要活塞",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 2,
@@ -6885,7 +7010,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "活塞好难",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -6898,7 +7023,77 @@
       },
       "questID:3": 101,
       "rewards:9": {},
-      "tasks:9": {}
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 6,
+              "Damage:2": 51,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_stick"
+            },
+            "1:10": {
+              "Count:3": 2,
+              "Damage:2": 51,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 2517,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_plate"
+            },
+            "1:10": {
+              "Count:3": 2,
+              "Damage:2": 51,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_gear_small"
+            },
+            "2:10": {
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "blockcraftery:editable_block"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:piston"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     },
     "102:10": {
       "preRequisites:11": [
@@ -6907,7 +7102,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "研钵只能处理少量的粉碎配方，如果你想要获取一些玻璃，又或者希望粉碎一些矿物增产，那么你需要一台粉碎机来帮助你！\n\n用粉碎机粉碎粉碎机，粉碎机会被粉碎机粉碎吗？\n首先你应该弄清，到底是被粉碎的粉碎机会被粉碎粉碎机的粉碎机粉碎，还是粉碎粉碎机的粉碎机在粉碎粉碎机时，会被被粉碎的粉碎机粉碎呢？\n这就要看粉碎粉碎机的粉碎机和被粉碎的粉碎机谁更硬，如果粉碎粉碎机的粉碎机比被粉碎的粉碎机硬，那么被粉碎的粉碎机就会被粉碎粉碎机的粉碎机粉碎。\n如果被粉碎的粉碎机比粉碎粉碎机的粉碎机硬，那么粉碎粉碎机的粉碎机在粉碎粉碎机时，就会被被粉碎的粉碎机粉碎，但无论是被粉碎的粉碎机被粉碎粉碎机的粉碎机粉碎，还是粉粉碎机的粉碎机在粉碎粉碎机时，被被粉碎的粉碎机粉碎，都会对粉碎粉碎机的粉碎机或被粉碎的粉碎机造成不可逆的损伤。\n所以，请不要使用粉碎粉碎机的粉碎机去粉碎被粉碎的粉碎机！\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -6919,7 +7114,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "垃圾研钵，不如我的粉碎机",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -7011,7 +7206,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "压缩机可以干什么，除了压缩毛巾，它还可以压缩锻铁与铁块！\n你需要压缩一些锻铁来制作锻铁锭\n\n我们这个压缩毛巾体积小方便携带，拆开一包，放水里就变大，怎么扯都扯不坏，用来擦脚，擦脸，擦嘴都是很好用的，你看打开以后像圆饼一样大小，放在水里遇水变大变高，吸水性很强的。打开以后，是一条加大加厚的毛巾，你看他怎么挣都挣不坏，好不掉毛不掉絮，使用七八次都没问题，出差旅行带上它非常方便，用它擦擦脚，再擦擦嘴，擦擦脸干净卫生。什么?在哪里买?下方小黄车，买五包送五包，还包邮。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7023,7 +7218,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "压缩毛巾",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -7063,7 +7258,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "制作玻璃你至少需要准备\n1.玻璃粉\n2.玻璃模具",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7075,7 +7270,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "让我看看谁在外边",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -7178,19 +7373,19 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你的匠魂炉子在哪，兄弟",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "minecraft:nether_star"
+            "id:8": "tconstruct:cast"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "我现在可以做铸模了吗",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -7224,7 +7419,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "神奇鸭嘴兽的故事",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -7276,7 +7471,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "道理我都懂，但是为什么不是液压机",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -7316,7 +7511,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "首先你得有土高炉，然后你就可以炼钢了。\n钢是你进入LV的必要材料，也是你制作高压机器不可缺少的材料。\n\n附：《钢铁赞歌》\n\n钢铁，你是坚硬与力量的象征，\n在火与锤的熔炼中，你崭露锋芒。\n无论是在高楼大厦的支撑，\n还是在船只车辆的骨架中，\n你都是那坚固的脊梁。\n\n你是从矿石中诞生的灵魂，\n经过烈火的洗礼，你的灵魂得到升华。\n你的坚硬，如同岩石般不可动摇，\n你的韧性，如同柳条般柔韧。\n你的力量，如同狂风般无法抵挡。\n\n你与火共舞，你与锤共歌，\n在每一次的敲击与磨砺中，\n你变得更加坚韧与刚强。\n你是劳动者的汗水与智慧，\n你是工程师的梦想与希望。\n\n在黑暗中，你如同明塔，\n在困难中，你如同勇士。\n无论风雨如何摧残，\n无论岁月如何流逝，\n你都坚守着你的岗位，\n为人类的建设贡献着你的力量。\n\n钢铁啊，你是坚硬的石头，\n是柔软的柳条，是无尽的力量。\n在你的身上，我们看到了人类的智慧与勇气，\n在你的身上，我们看到了未来的希望与梦想。\n\n让我们向钢铁致敬，\n向那些为人类建设付出辛勤劳动的人们致敬！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7328,7 +7523,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "如何炼钢",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -7488,7 +7683,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "如果你连地狱都不会去，我建议换个包。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7500,7 +7695,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "地狱，启动！",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -7540,7 +7735,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "种植一些橡胶树，收集一些树脂准备制作橡胶。\n\n附：《我是超级无敌的橡胶树》\n\n第一章：神秘的星球\n\n在遥远的未来，人类已经踏上了探索宇宙的征程。一个探险队在探索一颗未知的星球时，意外发现了一种奇特的植物——橡胶树。\n\n这颗星球的环境异常恶劣，温度极低，气压极低，重力也只有地球的五分之一。然而，这种橡胶树却能够在这样的环境下生存繁衍。\n\n探险队的科学家们对这种植物产生了浓厚的兴趣，他们决定深入研究这种橡胶树的生长习性和特点。\n\n第二章：橡胶树的秘密\n\n科学家们发现，这种橡胶树的生长速度非常快，而且它们的果实含有一种特殊的物质，这种物质具有极高的弹性和耐磨性。\n\n科学家们开始研究这种物质的性质和用途，他们发现这种物质可以用于制造各种高性能材料，如防弹衣、跑鞋、轮胎等等。\n\n这个发现让科学家们兴奋不已，他们开始研究如何将这种物质带回地球，以便进行更深入的研究和开发。\n\n第三章：危机四伏\n\n然而，这个星球上的环境异常恶劣，探险队面临着各种危险。他们不仅要面对低温、低气压和低重力的挑战，还要应对各种未知的生物和自然灾害。\n\n探险队中的一些成员开始出现身体不适，甚至有人死亡。科学家们开始怀疑这种橡胶树是否带有某种病毒或细菌，会对人类造成危害。\n\n第四章：真相大白\n\n经过一系列的研究和调查，科学家们终于找到了真相。原来，这种橡胶树并非带有病毒或细菌，而是它们释放出一种特殊的能量场。这种能量场是由橡胶树内部的一种特殊能量源产生的，它可以对周围的环境和生物产生影响。\n\n当人类靠近这种橡胶树时，他们可以感受到这种能量场的存在。这种能量场不仅可以让人感到舒适和放松，还可以提高人类的智力和创造力。探险队的成员们正是因为受到了这种能量场的影响，才出现了身体不适和死亡的情况。\n\n第五章：新的希望\n\n虽然这个星球的环境异常恶劣，但是科学家们并没有放弃研究这种橡胶树的机会。他们开始研究如何利用这种能量场来改善人类的生活和工作状态。\n\n经过一系列的实验和研究，科学家们发现可以将这种能量场收集起来并存储在一种特殊的设备中。当人类需要提高智力和创造力时，只需要将这种设备开启并佩戴在身上，就可以感受到这种能量场的影响。\n\n科学家们还发现，这种能量场不仅可以提高人类的智力和创造力，还可以改善人类的生活质量。例如，当人们处于压力状态时，这种能量场可以帮助人们放松身心、缓解压力；当人们需要提高注意力和记忆力时，这种能量场可以帮助人们更好地集中精力、提高效率。\n\n第六章：未来的希望\n\n科学家们的研究成果得到了广泛的认可和应用。他们将这种能量场的技术带回了地球，并开始将其应用于各个领域。\n\n在未来的日子里，人类将会利用这种能量场的技术来改善自己的生活和工作状态、提高自己的智力和创造力。同时、人类也将继续探索宇宙的奥秘、寻找更多的奇特植物和资源。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7552,7 +7747,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "火爆热带经济",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -7627,7 +7822,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "岩浆湖底的炸药库",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -7697,7 +7892,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你的线缆需要绝缘包皮",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7709,7 +7904,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "有机的可能高分子的可能先进材料",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -7774,7 +7969,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "蒸汽涡轮机通过消耗蒸汽来发电，共分有 LV ~ IV 级机器，基础蒸汽涡轮机、进阶蒸汽涡轮机和涡轮蒸汽涡轮机的最大流体储量分别为 16,000 L、32,000 L 和 64,000 L，其他等级以此类推。\n在蒸汽涡轮机中消耗 640 L 蒸汽能够产生 320 EU 能量，同时生成 4 L 蒸馏水。\n\nEV 及以上追加大型蒸汽涡轮所取代。\n\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7786,7 +7981,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "（章节毕业线）总算可以玩电了",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -7827,7 +8022,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "对于其详细的介绍放在下一章节",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7839,7 +8034,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "转啊转",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -7915,7 +8110,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "不行，我来吹",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -7927,7 +8122,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "吹玻璃",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -7996,7 +8191,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "导线小教学！！！！！！必看，我该用什么导线\n每一个导线都有自己的属性，包括支持的最大电压，电流以及导线的电阻。\n首先我们来理解能量\n对于功率单位P\u003dUI，GT也是如此，GT机器所需要的电压（例如32）实际上是需要P\u003d32w\n也就是说，对于一个JEI显示120EU的配方来说，你完全可以使用32*4的做法也就是4台32EU级（见下）的发电机。\n当然，对于EU级的发电机，输出电流都是1A.，可以理解为，一台LV发电机的电功率为32W.\n换言之，有些发电机的输出电流可能为2，4....A。此时的电功率仍然按照P\u003dUI计算。\n第二，我们来看看导线。\n这里我们定义导线X，电压32，电流4，线损2\n他的意思是，这根导线最大支持32V的电压 4A的电流，也就是说，这条导线最大传输的P\u003d128W.\n第三,导线的损耗被称为线损，单位为V/(m·A)。\n仍然是X导线，可见他的线损是为2伏/(米·安)，对于一段从32EU级发电机机（1A）接出的4格线缆，在末端的\n电压只有24EU/t，此时，对于配方需求为24EU以上的机器便会不工作。\n对于输出电流为2A的发电机仍然符合公式W\u003dUI。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8008,7 +8203,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "电居然在这里",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8071,7 +8266,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "加工你的钢板，把他们制作成一些模具，你会在不久的将来大量需要他们",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8083,7 +8278,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "钢铁之家",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8165,7 +8360,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "不能代替你思考（暂时）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8177,7 +8372,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "智慧结晶",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8200,16 +8395,34 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 120,
-              "Damage:2": 1002,
+              "Count:3": 2,
+              "Damage:2": 516,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
+              "id:8": "gregtech:meta_item_1"
             },
             "1:10": {
-              "Count:3": 40,
-              "Damage:2": 103,
+              "Count:3": 1,
+              "Damage:2": 324,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
+              "id:8": "gregtech:meta_plate"
+            },
+            "2:10": {
+              "Count:3": 2,
+              "Damage:2": 519,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            },
+            "3:10": {
+              "Count:3": 3,
+              "Damage:2": 2517,
+              "OreDict:8": "",
+              "id:8": "gregtech:cable_single"
+            },
+            "4:10": {
+              "Count:3": 1,
+              "Damage:2": 401,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
             }
           },
           "taskID:8": "bq_standard:optional_retrieval"
@@ -8223,10 +8436,10 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 40,
-              "Damage:2": 1068,
+              "Count:3": 1,
+              "Damage:2": 621,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_ingot"
+              "id:8": "gregtech:meta_item_1"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -8240,7 +8453,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "电阻在集成电路中的作用主要有以下几个方面：\n\n限流作用：在集成电路中，电阻常被用来限制电流的大小，以保护电路中的其他元件不被过大的电流损坏。\n分流作用：当电流通过电阻时，会在电阻上产生电压降，因此可以将一部分电流通过电阻分流，以减轻主电路的压力。\n降压作用：在需要将高电压转换为低电压的情况下，电阻可以起到降压的作用。通过在电路中串联电阻，可以将高电压分压，从而得到较低的电压。\n分压作用：在需要将一个较高的电压分成多个较低的电压时，可以在电路中并联多个电阻，以实现分压的作用。\n偏置作用：在放大器等电路中，电阻可以用来设置电路的偏置点，以调整电路的工作状态。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8252,7 +8465,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "电阻",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8338,7 +8551,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "黏糊糊的，你觉得这个东西很恶心.\n\n把几片木板，几团树脂压在一起，塞点导线就变成了集成电路。\n你觉得很神奇，我也觉得很神奇。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8350,7 +8563,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "看起来不太健康的东西",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8373,16 +8586,16 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 120,
-              "Damage:2": 1002,
+              "Count:3": 6,
+              "Damage:2": 438,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
+              "id:8": "gregtech:meta_item_1"
             },
             "1:10": {
-              "Count:3": 40,
-              "Damage:2": 103,
+              "Count:3": 3,
+              "Damage:2": 1617,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
+              "id:8": "gregtech:meta_plate"
             }
           },
           "taskID:8": "bq_standard:optional_retrieval"
@@ -8396,10 +8609,33 @@
           "partialMatch:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "Count:3": 40,
-              "Damage:2": 1068,
+              "Count:3": 8,
+              "Damage:2": 25,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_ingot"
+              "id:8": "gregtech:wire_single"
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 381,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 401,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -8425,7 +8661,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "小风车",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8494,7 +8730,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "机械方块在组装机中由 1 个对应电压等级的机械外壳、2 个对应电压等级的 1x 线缆以及 288 L 对应电压等级用的熔融态塑料制成，仅需LV级电压即可制成所有等级的机械方块。在工作台中也可以直接合成得到，但是除与上述等量的材料之外，还需要额外消耗一个对应电压等级的金属板来制成。\n所有的单方块机器以及多方块机器通用组成方块，如输入仓（输出仓）、输入总线（输出总线）、能源仓等机器的装配都需要使用 1 个对应等级的机械方块。多余的机械方块也可以在研磨机或电弧炉（配合氧气）中回收，重新得到大部分合成原料，且运行仅需 LV 级电压。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8506,7 +8742,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "LV的外壳",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8581,7 +8817,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "把一颗煤炭变成蒸汽再烧物品，和用一颗煤炭直接烧物品，你猜猜谁烧的多。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8593,7 +8829,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "高速熔炉",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8633,7 +8869,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更快，以及消耗更多的蒸汽。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -8645,7 +8881,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "高高速熔炉",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8697,7 +8933,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "白嫖永远是最优选择",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8749,7 +8985,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "你完全不懂真正的白嫖",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8801,7 +9037,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "搞点岩浆",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8853,7 +9089,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "我的岩浆泵在哪",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8905,7 +9141,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "我要自动化",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8945,7 +9181,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "论管道是少萝的几项证据：\n\n1.都是由元素构成的。\n2.可以容纳液体（酸性不行，高温不行）\n3.可以连接其他物品（连接谁不知道）\n4.有阻力（摩擦系数决定）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 16,
@@ -8957,7 +9193,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "极品少萝",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -8997,7 +9233,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更多的合金",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9009,7 +9245,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "拆庙专家",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -9049,7 +9285,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "这样粉碎机粉碎粉碎机的时候，就不会被被粉碎的粉碎机粉碎了。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9061,7 +9297,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "粉碎机！",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -9101,7 +9337,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "钻石矿脉有什么？\n石墨，煤炭，钻石。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9113,7 +9349,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "我超，钻石",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -9165,7 +9401,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "钻石是一种重要物资，你的粉碎机需要钻石，你的箱子需要钻石，你的工具也需要钻石！\n钻石工具拥有非常可观的耐久！！\n钻石还能用来做燃料，一颗钻石相当于64颗煤炭！！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9177,7 +9413,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "我的钻石甲在哪",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -9229,7 +9465,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "很好的青金石矿脉，让我的时运土高炉旋转",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -9287,7 +9523,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "每一个高炉砖快需要两个石膏粉",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9299,7 +9535,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "石膏？非医用",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -9421,7 +9657,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "液压机（😊😊😊😊指威力）",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -9461,7 +9697,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "制作土高炉的材料之一\n\n一个高炉砖块需要两个方解石粉",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 64,
@@ -9473,7 +9709,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "方解石可以干什么",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -9525,7 +9761,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "抽屉还可以升级？",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -9565,7 +9801,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "重生异世界之我是抽屉出道成为爆红明星\n\n第一章：穿越重生\n\n一场意外，让我穿越到了异世界。我环顾四周，发现自己竟然变成了一个抽屉。是的，你没有听错，我是一个抽屉。虽然有些奇怪，但我很快接受了这个事实。毕竟，这是一个充满奇幻的异世界，什么都有可能发生。\n\n第二章：奇妙的异世界\n\n我所在的这个世界非常奇妙。这里有各种各样的生物，有会说话的动物、有长着翅膀的人类，还有像我一样可以变形的家具。这个世界充满了魔法和科技，让人目不暇接。\n\n第三章：出道成为明星\n\n在一次偶然的机会下，我被一个音乐制作人发现了。他觉得我的声音非常特别，有潜力成为一名歌手。于是，他对我进行了专业的培训，并为我录制了第一张单曲。没想到，这首单曲一发布就迅速走红，我也因此出道成为了一名歌手。\n\n第四章：爆红之路\n\n我的音乐风格非常独特，深受年轻人的喜爱。我的歌曲在各大音乐平台上被大量播放，我也因此获得了许多粉丝。随着知名度的提升，我开始参加各种音乐节目和演唱会，成为了当红的明星。\n\n第五章：挑战与机遇\n\n作为一名明星，我面临着许多挑战和机遇。我需要不断地创作新的音乐作品，以满足粉丝的期待。同时，我也需要应对各种媒体和公众的关注，保持良好的形象和声誉。但是，这些挑战也让我更加成长和进步。\n\n第六章：跨界发展\n\n除了音乐之外，我也开始尝试跨界发展。我参演了电影和电视剧，并且表现出色。我还推出了自己的时尚品牌，并受到了消费者的喜爱。我的多元化发展让我更加受欢迎，也成为了更多人心目中的偶像。\n\n第七章：影响与贡献\n\n作为一名爆红明星，我不仅带来了娱乐产业的繁荣，也为社会做出了积极的贡献。我参与了各种公益活动，用自己的影响力传递正能量。我还倡导环保和公益事业，呼吁更多人关注社会问题并积极参与解决。\n\n第八章：未来展望\n\n对于未来，我有着美好的展望。我希望继续在音乐和演艺事业上取得更大的成就，为观众带来更多优秀的作品。同时，我也希望拓展自己的事业领域，涉足更多有意义的领域。无论未来如何变化，我都会保持初心，用自己的努力和才华创造更多奇迹。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9577,7 +9813,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "抽屉养成计划Part1",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -9617,7 +9853,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "第九章：异世界的冒险\n\n有一天，我接到了一个神秘的任务，要求我前往一个未知的异世界进行冒险。这个任务充满了危险和未知，但同时也充满了机遇和惊喜。我踏上了这段旅程，与我的伙伴们一起探索这个神秘的世界。\n\n在这个异世界里，我们遇到了各种各样的生物和挑战。有时我们会遇到凶猛的怪兽，有时我们会陷入迷宫般的森林。但是，我们总是能够克服困难，找到前进的道路。\n\n在这个过程中，我也发现了自己身上的新力量。我学会了如何使用魔法和技能，变得更加强大和自信。我的伙伴们也在这个过程中成长和进步，我们之间的友谊也变得更加深厚。\n\n最终，我们成功地完成了这个任务，并获得了丰厚的奖励。这段冒险经历让我更加深入地了解了这个世界，也让我更加珍惜自己拥有的一切。\n\n第十章：回归现实\n\n在完成冒险任务后，我回到了现实世界。虽然我已经习惯了异世界的生活，但我也意识到现实世界的重要性。我继续努力发展自己的事业，同时也积极投身于公益事业，为社会做出贡献。\n\n在现实世界中，我也结识了许多新的朋友和伙伴。我们一起分享彼此的经历和故事，共同成长和进步。这段经历让我更加珍惜现实生活中的每一天，也让我更加明白人生的意义和价值。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9629,7 +9865,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "抽屉养成计划Part2",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -9669,7 +9905,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "第十一章：异世界的秘密\n\n在完成冒险任务后，我回到了现实世界，但我的心中始终有一个疑问：为什么我会穿越到异世界？这个疑问一直困扰着我。\n\n有一天，我在整理抽屉时，无意中发现了一个神秘的盒子。我打开盒子，发现里面有一张古老的地图和一封信。地图上标注着一个神秘的地方，信上写着：“寻找你的根源，揭开异世界的秘密。”\n\n我决定踏上新的旅程，寻找这个神秘的地方。经过一番周折，我终于找到了这个地方。这里是一个古老的遗迹，隐藏着异世界的秘密。\n\n第十二章：揭开秘密\n\n在遗迹中，我遇到了许多困难和挑战。但我并没有放弃，而是不断寻找线索和答案。最终，我找到了一个古老的魔法阵，并成功激活了它。\n\n魔法阵散发出耀眼的光芒，我的眼前出现了一个巨大的幻境。在这个幻境中，我看到了自己的前世今生，以及异世界与现实世界的联系。原来，我是因为某种原因穿越到异世界的，而这个原因与我的命运息息相关。\n\n第十三章：新的使命\n\n在揭开异世界的秘密后，我意识到自己肩负着新的使命。我需要利用自己的力量和智慧，保护现实世界和异世界的和平与繁荣。\n\n于是，我回到了现实世界，继续发展自己的事业。同时，我也积极投身于公益事业，为社会做出贡献。同时，我也利用自己的影响力，呼吁更多人关注社会问题并积极参与解决。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9681,7 +9917,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "抽屉养成计划Part3",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -9721,7 +9957,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "第十四章：新的开始\n\n在揭开异世界的秘密后，我明白了自己的使命和责任。我回到了现实世界，继续发展自己的事业，同时也积极投身于公益事业，为社会做出贡献。\n\n在这个过程中，我遇到了许多新的挑战和机遇。我不断学习和成长，不断提升自己的能力和素质。同时，我也结识了许多新的朋友和伙伴，我们一起分享彼此的经历和故事，共同成长和进步。\n\n最终，我成功地完成了自己的使命和责任。我不仅在音乐和演艺事业上取得了更大的成就，也为社会做出了积极的贡献。同时，我也找到了自己的真爱和幸福，过上了更加美好的生活。\n\n\n第十五章：永恒的传奇\n\n随着时间的推移，我逐渐成为了人们心中的传奇。我的音乐和演艺事业继续蓬勃发展，我的公益事业也取得了更大的成就。我不仅在现实世界中留下了深刻的印记，也在异世界中留下了自己的传说。\n\n然而，我深知自己的使命并未完成。我仍然需要继续努力，为这个世界带来更多的正能量和希望。我希望通过自己的努力，能够让更多人感受到音乐的力量和美好，让这个世界变得更加美好。\n\n最终，我成为了一个永恒的传奇。我的故事被人们传颂千古，我的音乐和演艺事业成为了永恒的经典。我成为了人们心中的偶像和榜样，为后人留下了宝贵的财富。\n\n这个旅程充满了奇幻和挑战，但也让我收获了成长和成功。无论身处何地，我都会珍惜这次重生的机会，用自己的努力和才华创造更多美好的回忆和经历。同时，我也希望这个故事能够给读者带来一些启示和感悟，让我们共同期待未来的精彩旅程吧！",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9733,7 +9969,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "抽屉养成计划Part4",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -9773,7 +10009,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "看了《永乐大典》会让人永远快乐吗?\n\n《永乐大典》是一部中华文化瑰宝，它汇集了中华民族数千年的智慧结晶，是一部集大成的学术巨著。然而，它并不能直接让人永远快乐。\n\n快乐是一种个人的主观感受，它受到多种因素的影响，包括个人的心理状态、生活环境、人际关系等等。而《永乐大典》虽然包含了许多有关人生、道德、哲学等方面的思考和见解，但它并不能直接改变一个人的心理状态或生活环境，因此也不能直接让人永远快乐。\n\n当然，《永乐大典》中的一些思想和观点可以启发人们思考人生和社会的意义，帮助人们更好地面对生活中的挑战和困难。同时，阅读《永乐大典》也可以提高人们的文化素养和审美能力，让人们更加欣赏和理解中华文化的博大精深。\n\n因此，虽然《永乐大典》不能直接让人永远快乐，但它可以启发人们思考人生和社会的意义，提高人们的文化素养和审美能力，为人们的生活带来更多的思考和启示。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9785,7 +10021,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "《永乐大典》",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -9889,7 +10125,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "借你的棒子用一用",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -9929,7 +10165,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "我也不知道他可以干什么",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9941,7 +10177,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "石英",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -9981,7 +10217,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "地狱的天花板上长着的免费吊顶灯，讽刺的是，在主世界你需要花钱买一个亮度大大不如其的火把。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -9993,7 +10229,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "地狱的免费灯泡",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10033,7 +10269,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "你的赛特斯至少需要HV阶段才能变成AE。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10045,7 +10281,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "赛特斯！",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10072,12 +10308,6 @@
               "Damage:2": 1,
               "OreDict:8": "",
               "id:8": "gregtech:ore_certus_quartz_0"
-            },
-            "1:10": {
-              "Count:3": 16,
-              "Damage:2": 1,
-              "OreDict:8": "",
-              "id:8": "gregtech:ore_certus_quartz_0"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -10091,7 +10321,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "更多的电流",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10103,7 +10333,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "粗粗的电线",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10150,7 +10380,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "马桶搋子",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10215,7 +10445,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "片！",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10267,7 +10497,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "岛上有什么",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10336,7 +10566,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "可以批量处理你的原木，把他们变成木炭！\n（显得焦炉是个废物，各种意义上）",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10348,7 +10578,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "非常好的点火堆，让我的焦炉旋转",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10388,7 +10618,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "消耗蒸汽进行粉碎。相比于蒸汽时代单方块蒸汽研磨机，它的效率高上了不少，能够一次处理八个物品。它是你蒸汽时代处理矿物的好帮手，并且造价并不贵，推荐蒸汽时代就做出来，能够一直用到HV阶段。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10400,7 +10630,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "磨的太慢了",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10440,7 +10670,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "蒸汽时代的多方块熔炉，运行时以 10 L/t 速率消耗蒸汽，每次烧炼的耗时为单方块蒸汽熔炉的 1.5 倍（即 9.6 秒），单次运行最多可以处理 8 个配方，且并行配方数不影响耗时",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10452,7 +10682,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "烧的太慢了",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10492,7 +10722,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "蒸汽洗矿机",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10504,7 +10734,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "洗得太慢了",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10544,7 +10774,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "很厉害的高炉",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10556,7 +10786,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "炼的太慢了",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10608,7 +10838,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "我的我的，我我的",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10648,7 +10878,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "可以存72组物品",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10660,7 +10890,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "存点东西",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10700,7 +10930,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "可以存64000L流体",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10712,7 +10942,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "再存点东西",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10752,7 +10982,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "这是LV章节超级缸的前置，放在这里的目的只是想让你看看",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10764,7 +10994,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "你TM谁啊",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -10804,7 +11034,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "有了金属制作的工具锻造台，你再也不用担心打造高级工具会损坏你的台面了。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -10823,7 +11053,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "高级工具我来啦",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -11178,7 +11408,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "优质工具",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -11239,7 +11469,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "什么肛门",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11251,7 +11481,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "钢门",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -11303,7 +11533,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "开不动",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -11398,7 +11628,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "上线\n挂机\n在机器上跳来跳去\n挂机\n下线",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11410,7 +11640,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "在机器上跳来跳去",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -11462,7 +11692,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "看家护院",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -11585,7 +11815,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "马桶锤子",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -11638,7 +11868,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "No Description",
+          "desc:8": "从V开始，你就已经步入了电气时代，值得注意的是，所有电器都要小心电压以及淋雨。\n给你的基地盖个屋顶吧。不然再靠近一点就会爆炸\n\nEU被打包安排在一个个的能量包内，并从供电机器沿导线传输到用电机器。供电机器常被称为\u0027发电机，用电机\n器则一般直接简称为机器。能量包的大小称为电压（V），能量包的数量称为电流（A）。格雷科技为电压划分\n了十六等级，它有的时候也被用来描述玩家所处的阶段。由于历史原因，一般使用的电压等级概念比较特殊，以\nLV为1。如果供电机器发出的电压超过了用电机器的最高电压，机器会立刻爆炸。\n所有机器都有它的最大输入(输出)电压和电流。最大电压你可以在小机器的tooltip上看到，大机器的最大电压则是\n根据能源仓/动力仓的电压等级来决定。发电机上标明了输出电压\n用电机器上标明了额定输入电压，变压器上同时标明了输入电压和输出电压，如果你发送的电压大小超过了机器最\n大所能接受的电压，那么机器会马上爆炸！。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -11650,7 +11880,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "电学入门",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -11664,6 +11894,162 @@
       "questID:3": 179,
       "rewards:9": {},
       "tasks:9": {}
+    },
+    "180:10": {
+      "preRequisites:11": [
+        100
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "是海王的鱼塘，不是你的。",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": "",
+            "id:8": "minecraft:fish"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "你能钓上来什么",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 180,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "minecraft:fishing_rod"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "181:10": {
+      "preRequisites:11": [
+        97
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "厉害的压缩机",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 3065,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "压的太慢了",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 181,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 3065,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
+    },
+    "182:10": {
+      "preRequisites:11": [
+        97
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "autoclaim:1": 0,
+          "desc:8": "没存在感的提取机",
+          "globalshare:1": 0,
+          "icon:10": {
+            "Count:3": 1,
+            "Damage:2": 3066,
+            "OreDict:8": "",
+            "id:8": "gregtech:machine"
+          },
+          "ignoresview:1": 0,
+          "ismain:1": 0,
+          "issilent:1": 0,
+          "lockedprogress:1": 0,
+          "name:8": "吸的太慢了",
+          "questlogic:8": "AND",
+          "repeat_relative:1": 1,
+          "repeattime:3": -1,
+          "simultaneous:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "tasklogic:8": "AND",
+          "visibility:8": "NORMAL"
+        }
+      },
+      "questID:3": 182,
+      "rewards:9": {},
+      "tasks:9": {
+        "0:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 3066,
+              "OreDict:8": "",
+              "id:8": "gregtech:machine"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -12684,8 +13070,8 @@
           "id:3": 133,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 104,
-          "y:3": -72
+          "x:3": 105,
+          "y:3": -65
         },
         "37:10": {
           "id:3": 134,
@@ -13008,6 +13394,27 @@
           "sizeY:3": 24,
           "x:3": 304,
           "y:3": 352
+        },
+        "83:10": {
+          "id:3": 180,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 273,
+          "y:3": -66
+        },
+        "84:10": {
+          "id:3": 181,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -8,
+          "y:3": 144
+        },
+        "85:10": {
+          "id:3": 182,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 24,
+          "y:3": 144
         }
       }
     },

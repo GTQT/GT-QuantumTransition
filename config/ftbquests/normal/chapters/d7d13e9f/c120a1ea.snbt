@@ -18,10 +18,12 @@
 	},
 	{
 		uid: "1eb16775",
-		type: "random"
+		type: "random",
+		table: 239
 	},
 	{
 		uid: "d3c11451",
-		type: "random"
+		type: "random",
+		table: 240
 	}]
 }

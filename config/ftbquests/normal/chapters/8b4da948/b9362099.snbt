@@ -18,14 +18,17 @@
 	},
 	{
 		uid: "140a70dc",
-		type: "random"
+		type: "random",
+		table: 166
 	},
 	{
 		uid: "5bc84585",
-		type: "random"
+		type: "random",
+		table: 167
 	},
 	{
 		uid: "ff4ffd3b",
-		type: "random"
+		type: "random",
+		table: 168
 	}]
 }

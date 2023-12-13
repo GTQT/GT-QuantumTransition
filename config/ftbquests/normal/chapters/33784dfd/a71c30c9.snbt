@@ -33,6 +33,7 @@
 	},
 	{
 		uid: "46c2ef3d",
-		type: "random"
+		type: "random",
+		table: 65
 	}]
 }

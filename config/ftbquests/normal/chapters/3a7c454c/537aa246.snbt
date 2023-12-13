@@ -18,6 +18,7 @@
 	},
 	{
 		uid: "fdd19429",
-		type: "random"
+		type: "random",
+		table: 87
 	}]
 }

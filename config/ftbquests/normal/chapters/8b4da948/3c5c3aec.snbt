@@ -22,6 +22,7 @@
 	},
 	{
 		uid: "bc4c23a7",
-		type: "random"
+		type: "random",
+		table: 150
 	}]
 }

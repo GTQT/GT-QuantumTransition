@@ -13,6 +13,7 @@
 	}],
 	rewards: [{
 		uid: "d962f844",
-		type: "random"
+		type: "random",
+		table: 123
 	}]
 }

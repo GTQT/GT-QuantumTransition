@@ -34,7 +34,8 @@
 	}],
 	rewards: [{
 		uid: "dc370bad",
-		type: "choice"
+		type: "choice",
+		table: 6
 	},
 	{
 		uid: "3b81da90",

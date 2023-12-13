@@ -20,6 +20,7 @@
 	},
 	{
 		uid: "1203b4fa",
-		type: "random"
+		type: "random",
+		table: 140
 	}]
 }

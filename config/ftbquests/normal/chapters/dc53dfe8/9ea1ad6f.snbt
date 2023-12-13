@@ -27,7 +27,8 @@
 	}],
 	rewards: [{
 		uid: "cd74b641",
-		type: "random"
+		type: "random",
+		table: 25
 	},
 	{
 		uid: "c1494d15",

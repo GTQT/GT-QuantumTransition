@@ -30,6 +30,7 @@
 	},
 	{
 		uid: "eba19cec",
-		type: "random"
+		type: "random",
+		table: 233
 	}]
 }

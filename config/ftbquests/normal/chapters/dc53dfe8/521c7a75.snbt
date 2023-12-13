@@ -23,6 +23,7 @@
 	},
 	{
 		uid: "bf421cad",
-		type: "random"
+		type: "random",
+		table: 12
 	}]
 }

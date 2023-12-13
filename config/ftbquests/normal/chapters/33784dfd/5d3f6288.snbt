@@ -13,7 +13,8 @@
 	}],
 	rewards: [{
 		uid: "feaf00a8",
-		type: "loot"
+		type: "loot",
+		table: 55
 	},
 	{
 		uid: "36bd61a7",

@@ -18,6 +18,7 @@
 	},
 	{
 		uid: "3d9a9b5f",
-		type: "random"
+		type: "random",
+		table: 242
 	}]
 }

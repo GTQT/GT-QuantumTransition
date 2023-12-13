@@ -24,6 +24,7 @@
 	},
 	{
 		uid: "e21c9842",
-		type: "random"
+		type: "random",
+		table: 16
 	}]
 }
