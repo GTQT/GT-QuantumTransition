@@ -26,3 +26,8 @@ var tangjiao as Item= VanillaFactory.createItem("tangjiao");
 tangjiao.maxStackSize = 64;
 tangjiao.creativeTab = <creativetab:misc>;
 tangjiao.register();
+//糖焦煤
+var weishaozhidejiaoluzhuan as Item= VanillaFactory.createItem("weishaozhidejiaoluzhuan");
+weishaozhidejiaoluzhuan.maxStackSize = 64;
+weishaozhidejiaoluzhuan.creativeTab = <creativetab:misc>;
+weishaozhidejiaoluzhuan.register();

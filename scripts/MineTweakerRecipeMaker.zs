@@ -12,7 +12,8 @@
 
 // ================================================================================
 //#MARKER REMOVE
-
+recipes.remove(<gregtech:meta_item_1:402>);
+recipes.remove(<gregtech:meta_item_1:14>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -23,9 +24,13 @@
 // ================================================================================
 //#MARKER ADD
 
+
 // ================================================================================
 //#MARKER ADD SHAPELESS
 
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<gregtech:machine:986>, [[<ore:plateGalvanizedSteel>, <gregtech:meta_plate:1068>, <ore:plateGalvanizedSteel>], [<ore:cableGtSingleTin>, <gregtech:machine_casing:1>, <ore:cableGtSingleTin>], [<ore:plateGalvanizedSteel>, <gregtech:meta_plate:1068>, <ore:plateGalvanizedSteel>]]);
+recipes.addShaped(<gregtech:machine:985>, [[<ore:plateRedAlloy>, <gregtech:meta_item_1:438>, <ore:plateRedAlloy>], [<ore:cableGtSingleLead>, <gregtech:machine_casing>, <ore:cableGtSingleLead>], [<ore:plateRedAlloy>, <gregtech:meta_item_1:438>, <ore:plateRedAlloy>]]);
+

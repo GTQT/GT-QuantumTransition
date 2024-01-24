@@ -11,6 +11,10 @@
     {
       "dimID": -1,
       "dimName": "Nether"
+    },
+	{
+      "dimID": 20,
+      "dimName": "The Betweenlands"
     }
   ]
 }

@@ -1,0 +1,6 @@
+recipes.addShaped(<gregtech:meta_item_1:187>, [[<ore:circuitLv>, <gregtech:meta_item_1:127>,<ore:circuitLv>], [<ore:cableGtSingleTin>, <ore:motor_stickSteel>, <gregtech:meta_item_1:172>], [<gregtech:meta_item_1:127>, <ore:cableGtSingleTin>, <ore:cableGtSingleTin>]]);
+recipes.addShaped(<gregtech:meta_item_1:172>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>], [<ore:cableGtSingleTin>, <ore:stickSteel>, <ore:stickSteel>], [<ore:cableGtSingleTin>, <ore:cylinderSteel>, <gregtech:meta_item_1:127>]]);
+recipes.addShaped(<gregtech:meta_item_1:157>, [[<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>], [<gregtech:meta_item_1:127>, <ore:cableGtSingleTin>, <gregtech:meta_item_1:127>], [<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>]]);
+recipes.addShaped(<gregtech:meta_item_1:127>, [[<ore:cableGtSingleTin>, <ore:wireGtSingleCopper>, <ore:plate_curvedSteel>], [<ore:wireGtSingleCopper>, <ore:stickSteelMagnetic>, <ore:wireGtSingleCopper>], [<ore:plate_curvedSteel>, <ore:wireGtSingleCopper>, <ore:cableGtSingleTin>]]);
+recipes.addShaped(<gregtech:meta_item_1:127>, [[<ore:cableGtSingleTin>, <ore:wireGtSingleCopper>, <ore:plate_curvedIron>], [<ore:wireGtSingleCopper>, <ore:stickIronMagnetic>, <ore:wireGtSingleCopper>], [<ore:plate_curvedIron>, <ore:wireGtSingleCopper>, <ore:cableGtSingleTin>]]);
+

@@ -1,0 +1,39 @@
+{
+    "name": "Betweenland Crocoite",
+    "weight": 40,
+    "density": 0.2,
+    "max_height": 80,
+    "min_height": 20,
+    "generation_predicate": "any",
+    "dimension_filter": [
+      "dimension_id:20"
+	],
+	"vein_populator": {
+		"type": "surface_rock",
+		"material": "crocoite"
+	},
+    "generator": {
+      "type": "layered",
+      "radius": [
+        12,
+        16
+      ]
+    },
+    "filler": {
+      "type": "layered",
+      "values": [
+       {
+        "primary": "ore:crocoite"
+		},
+		{
+        "secondary": "ore:crocoite"
+		},
+		{
+        "between": "ore:zincantimonygalvanite"
+		},
+		{
+        "sporadic": "ore:lead"
+		}
+      ]
+    }
+}

@@ -1,0 +1,79 @@
+metaitem.data_stick.tooltip.blockpos=Position: X: %d, Y: %d, Z: %d, Dim: %d
+
+metaitem.wireless_receiver.name=Wireless Receiver Cover
+
+mechtech.universal.tooltip.item_storage_accept=我要我要:
+mechtech.universal.tooltip.item_storage_reject=我不要:
+
+mechtech.machine.tesla_tower.name=雷电法王
+mechtech.machine.armor_workbench.name=盔甲工作台
+mechtech.machine.armor_workbench.tooltip=可用于修改模块化装甲
+
+mechtech.modular_workbench.error1=%s 是所需要的模式 
+mechtech.modular_workbench.error2= 与 %s 不兼容
+mechtech.modular_workbench.error3=杂鱼，这不是一个模式
+mechtech.modular_workbench.error4=可恶，色鬼，塞不下了啊
+mechtech.modular_workbench.error5=杂鱼，你这盔甲不行啊
+
+mechtech.multiblock.tesla_tower.range=范围: %s
+mechtech.multiblock.tesla_tower.voltage=电压: %d
+mechtech.multiblock.tesla_tower.receivers=接收器: %d
+mechtech.multiblock.tesla_tower.fail=发射失败于：
+mechtech.multiblock.tesla_tower.scan=扫描
+mechtech.multiblock.tesla_tower.amps=电流: %d/%d
+mechtech.multiblock.tesla_tower.loss=损耗: %d
+mechtech.multiblock.tesla_tower.description=特斯拉塔可以无线传输电力。
+mechtech.tesla_tower.ui.mode.tooltip=§b无线能源模式/n§r塔架向范围内的机器传输无线电力。机器离得越远，损失的能量就越多。如果实体离得太近，可能会伤害它们/n§b防御模式/n§r电塔将攻击范围内的任何怪物。它不会无线传输电力。
+
+mechtech.jei_category.torus_block=雷电法王今天穿什么
+
+mechtech.recipe.torus_block.dmg=伤害修改: %d
+mechtech.recipe.torus_block.range=范围修改: %d
+mechtech.recipe.torus_block.amps=每个接收器给多少电流呢: %d
+
+mechtech.modules.armor_plating.name=%s 未能击穿敌方的装甲
+mechtech.modules.night_vision.name=夜视
+mechtech.modules.solar_gen.1.name=太阳能i级
+mechtech.modules.solar_gen.2.name=太阳能ii级
+mechtech.modules.solar_gen.3.name=太阳能iii级
+mechtech.modules.jetpack.name=王牌飞行员
+mechtech.modules.advanced_jetpack.name=申请出战！
+mechtech.modules.shock_absorber.name=减震器
+mechtech.modules.insulator.name=电不死
+mechtech.modules.binoculars.name=看得远
+mechtech.modules.auto_feeder.name=自动吃吃
+mechtech.modules.tesla_coil.name=特斯拉线圈
+mechtech.modules.oxygen_mask.name=淹不死
+
+mechtech.modules.armor_plating.tooltip.1=§r耐久: §a%d/%d
+mechtech.modules.armor_plating.tooltip.2=§r盔甲: §a%d
+mechtech.modules.armor_plating.tooltip.3=§rToughness: §a%d
+mechtech.modules.armor_plating.tooltip.unsneak=§a按住 Shift
+mechtech.modules.armor_plating.tooltip.sneak=装甲板可以用来加强模块化装甲的防御，但在一件装甲中使用的装甲越多，效率就会越差。
+mechtech.modules.binoculars.zoom.enable=开启图标
+mechtech.modules.binoculars.zoom.disable=关闭图标
+
+metaitem.modular_helmet.name=模块化头盔
+metaitem.modular_chestplate.name=模块化胸甲
+metaitem.modular_leggings.name=模块化护腿
+metaitem.modular_boots.name=模块化靴子
+metaitem.modular_armor.tooltip.unsneak=§a按住 Shift
+metaitem.modular_armor.tooltip.sneak=模块化装甲本身什么也不做，永远不会断裂。它可以通过Armor Workbench中的各种模块进行修改。有些模块需要能量。这些还需要电池。
+metaitem.shock_absorber.name=伤害吸收
+metaitem.shock_absorber.tooltip=吸收90%的掉落伤害并减少击退（不叠加）
+metaitem.binoculars.name=看得远
+metaitem.binoculars.tooltip=手握鼠标右键可进行缩放。
+metaitem.thick_insulator.name=厚绝缘体
+metaitem.auto_feeder.name=自动吃吃
+metaitem.auto_feeder.tooltip=自动提供从玩家库存中找到的第一个食物。别担心，它不会浪费任何食物。
+metaitem.tesla_coil.name=Tesla Coil
+metaitem.tesla_coil.tooltip=用电攻击附近的怪物。可以装备到头部和胸部。
+metaitem.oxygen_mask.name=Oxygen Mask
+metaitem.oxygen_mask.tooltip=允许玩家在水下呼吸氧气
+
+metaitem.modular_armor.no_battery=§4把电池塞进去!
+metaitem.modular_armor.installed_modules=§b安装模式: §7(%d/%d)
+metaitem.modular_armor.no_modules=§cNo 安装的模块
+metaitem.modular_armor.max_fluid=§3最大流体单元大小：%s
+
+mechtech.modular_armor.usable=§3可作为模块化装甲中的模块使用

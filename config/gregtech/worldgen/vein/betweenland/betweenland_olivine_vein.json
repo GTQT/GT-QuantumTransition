@@ -1,0 +1,39 @@
+{
+    "name": "Betweenland Olivine",
+    "weight": 20,
+    "density": 0.2,
+    "max_height": 70,
+    "min_height": 20,
+    "generation_predicate": "any",
+    "dimension_filter": [
+      "dimension_id:20"
+	],
+	"vein_populator": {
+		"type": "surface_rock",
+		"material": "olivine"
+	},
+    "generator": {
+      "type": "layered",
+      "radius": [
+        14,
+        16
+      ]
+    },
+    "filler": {
+      "type": "layered",
+      "values": [
+        {
+        "primary": "ore:bentonite"
+      },
+      {
+        "secondary": "ore:olivine"
+      },
+      {
+        "between": "ore:magnesite"
+      },
+      {
+        "sporadic": "ore:glauconite_sand"
+      }
+      ]
+    }
+}
