@@ -1,38 +1,38 @@
 {
-    "name": "Betweenland Galena",
-    "weight": 80,
+    "name": "Venus Aluminium",
+    "weight": 60,
     "density": 0.2,
-    "max_height": 60,
-    "min_height": 20,
+    "max_height": 40,
+    "min_height": 0,
     "generation_predicate": "any",
     "dimension_filter": [
-      "dimension_id:20"
+      "dimension_id:-31"
 	],
 	"vein_populator": {
 		"type": "surface_rock",
-		"material": "lead"
+		"material": "aluminium"
 	},
     "generator": {
       "type": "layered",
       "radius": [
-        14,
-        16
+        17,
+        24
       ]
     },
     "filler": {
       "type": "layered",
       "values": [
         {
-        "primary": "ore:galena"
+        "primary": "ore:bauxite"
       },
       {
-        "secondary": "ore:galena"
+        "secondary": "ore:aluminium"
       },
       {
-        "between": "ore:silver"
+        "between": "ore:aluminium"
       },
       {
-        "sporadic": "ore:lead"
+        "sporadic": "ore:aluminium"
       }
       ]
     }

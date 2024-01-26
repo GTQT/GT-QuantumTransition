@@ -1,0 +1,39 @@
+{
+    "name": "Venus Beryllium",
+    "weight": 60,
+    "density": 0.2,
+    "max_height": 40,
+    "min_height": 0,
+    "generation_predicate": "any",
+    "dimension_filter": [
+      "dimension_id:-31"
+	],
+	"vein_populator": {
+		"type": "surface_rock",
+		"material": "beryllium"
+	},
+    "generator": {
+      "type": "layered",
+      "radius": [
+        17,
+        24
+      ]
+    },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:beryllium"
+      },
+      {
+        "secondary": "ore:beryllium"
+      },
+      {
+        "between": "ore:emerald"
+      },
+      {
+        "sporadic": "ore:thorium"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "name": "Moon Mica",
+    "weight": 40,
+    "density": 0.2,
+    "max_height": 40,
+    "min_height": 0,
+    "generation_predicate": "any",
+    "dimension_filter": [
+      "dimension_id:-28"
+	],
+	"vein_populator": {
+		"type": "surface_rock",
+		"material": "mica"
+	},
+    "generator": {
+      "type": "layered",
+      "radius": [
+        8,
+        16
+      ]
+    },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:kyanite"
+      },
+      {
+        "secondary": "ore:mica"
+      },
+      {
+        "between": "ore:bauxite"
+      },
+      {
+        "sporadic": "ore:pollucite"
+      }
+    ]
+  }
+}

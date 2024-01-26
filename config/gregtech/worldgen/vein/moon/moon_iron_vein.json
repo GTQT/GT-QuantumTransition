@@ -1,38 +1,38 @@
 {
-    "name": "Betweenland Crocoite",
-    "weight": 80,
+    "name": "Moon Iron",
+    "weight": 120,
     "density": 0.2,
-    "max_height": 80,
-    "min_height": 20,
+    "max_height": 40,
+    "min_height": 0,
     "generation_predicate": "any",
     "dimension_filter": [
-      "dimension_id:20"
+      "dimension_id:-28"
 	],
 	"vein_populator": {
 		"type": "surface_rock",
-		"material": "crocoite"
+		"material": "banded_iron"
 	},
     "generator": {
       "type": "layered",
       "radius": [
-        12,
-        16
+        17,
+        24
       ]
     },
     "filler": {
       "type": "layered",
       "values": [
        {
-        "primary": "ore:crocoite"
+        "primary": "ore:brown_limonite"
 		},
 		{
-        "secondary": "ore:crocoite"
+        "secondary": "ore:yellow_limonite"
 		},
 		{
-        "between": "ore:zincantimonygalvanite"
+        "between": "ore:banded_iron"
 		},
 		{
-        "sporadic": "ore:lead"
+        "sporadic": "ore:malachite"
 		}
       ]
     }

@@ -1,28 +1,28 @@
 {
-    "name": "Betweenland Galena",
-    "weight": 80,
+    "name": "Moon Galena",
+    "weight": 40,
     "density": 0.2,
-    "max_height": 60,
-    "min_height": 20,
+    "max_height": 40,
+    "min_height": 0,
     "generation_predicate": "any",
     "dimension_filter": [
-      "dimension_id:20"
+      "dimension_id:-28"
 	],
 	"vein_populator": {
 		"type": "surface_rock",
-		"material": "lead"
+		"material": "galena"
 	},
     "generator": {
       "type": "layered",
       "radius": [
-        14,
+        8,
         16
       ]
     },
-    "filler": {
-      "type": "layered",
-      "values": [
-        {
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
         "primary": "ore:galena"
       },
       {
@@ -34,6 +34,6 @@
       {
         "sporadic": "ore:lead"
       }
-      ]
-    }
+    ]
+  }
 }

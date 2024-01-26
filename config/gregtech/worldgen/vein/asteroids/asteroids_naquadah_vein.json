@@ -1,0 +1,39 @@
+{
+    "name": "Asteroids Naquadah",
+    "weight": 100,
+    "density": 1,
+    "max_height": 250,
+    "min_height": 0,
+    "generation_predicate": "any",
+    "dimension_filter": [
+      "dimension_id:-30"
+	],
+	"vein_populator": {
+		"type": "surface_rock",
+		"material": "naquadah"
+	},
+    "generator": {
+      "type": "layered",
+      "radius": [
+        8,
+        12
+      ]
+    },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:naquadah"
+      },
+      {
+        "secondary": "ore:naquadah"
+      },
+      {
+        "between": "ore:naquadah"
+      },
+      {
+        "sporadic": "ore:plutonium"
+      }
+    ]
+  }
+}

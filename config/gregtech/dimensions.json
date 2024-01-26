@@ -2,19 +2,39 @@
   "dims": [
     {
       "dimID": 0,
-      "dimName": "Overworld"
+      "dimName": "Overworld ZhuShiJie"
     },
     {
       "dimID": 1,
-      "dimName": "End"
+      "dimName": "End MoDi"
     },
     {
       "dimID": -1,
-      "dimName": "Nether"
+      "dimName": "Nether XiaJie"
     },
 	{
       "dimID": 20,
-      "dimName": "The Betweenlands"
+      "dimName": "The Betweenlands HeiAnZhaoZe"
+    },
+	{
+      "dimID": -28,
+      "dimName": "Moon YueQiu"
+    },
+	{
+      "dimID": -29,
+      "dimName": "Mars HuoXing"
+    },
+	{
+      "dimID": -1012,
+      "dimName": "Phobos HuoWeiYi"
+    },
+	{
+      "dimID": -30,
+      "dimName": "Asteroids XiaoXingXing"
+    },
+	{
+      "dimID": -31,
+      "dimName": "Venus JinXing"
     }
   ]
 }

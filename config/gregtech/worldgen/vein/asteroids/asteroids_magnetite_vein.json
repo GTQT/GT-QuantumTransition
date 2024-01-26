@@ -1,0 +1,39 @@
+{
+    "name": "Asteroids Gold",
+    "weight": 100,
+    "density": 1,
+    "max_height": 250,
+    "min_height": 0,
+    "generation_predicate": "any",
+    "dimension_filter": [
+      "dimension_id:-30"
+	],
+	"vein_populator": {
+		"type": "surface_rock",
+		"material": "gold"
+	},
+    "generator": {
+      "type": "layered",
+      "radius": [
+        8,
+        12
+      ]
+    },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:magnetite"
+      },
+      {
+        "secondary": "ore:gold"
+      },
+      {
+        "between": "ore:gold"
+      },
+      {
+        "sporadic": "ore:gold"
+      }
+    ]
+  }
+}

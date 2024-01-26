@@ -1,38 +1,38 @@
 {
-    "name": "Betweenland Galena",
-    "weight": 80,
-    "density": 0.2,
-    "max_height": 60,
-    "min_height": 20,
+    "name": "Asteroids Coal",
+    "weight": 100,
+    "density": 1,
+    "max_height": 250,
+    "min_height": 0,
     "generation_predicate": "any",
     "dimension_filter": [
-      "dimension_id:20"
+      "dimension_id:-30"
 	],
 	"vein_populator": {
 		"type": "surface_rock",
-		"material": "lead"
+		"material": "coal"
 	},
     "generator": {
       "type": "layered",
       "radius": [
-        14,
-        16
+        20,
+        32
       ]
     },
     "filler": {
       "type": "layered",
       "values": [
         {
-        "primary": "ore:galena"
+        "primary": "ore:coal"
       },
       {
-        "secondary": "ore:galena"
+        "secondary": "ore:coal"
       },
       {
-        "between": "ore:silver"
+        "between": "ore:coal"
       },
       {
-        "sporadic": "ore:lead"
+        "sporadic": "ore:lignite"
       }
       ]
     }
