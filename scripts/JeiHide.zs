@@ -90,7 +90,21 @@ var items as IItemStack[] = [
 <galaxyspace:ingots>,
 <galaxyspace:ingots:1>,
 <galaxyspace:ingots:2>,
-<galacticraftcore:rocket_workbench>
+<galacticraftcore:rocket_workbench>,
+<galacticraftcore:machine:12>,
+<galacticraftcore:machine2>,
+<galacticraftcore:machine2:4>,
+<galacticraftcore:refinery>,
+<galacticraftcore:machine2:12>,
+<galacticraftcore:machine_tiered:12>,
+<galacticraftcore:machine_tiered:4>,
+<galaxyspace:universal_recycler>,
+<galacticraftplanets:mars_machine_t2>,
+<galacticraftplanets:mars_machine_t2:4>,
+<galacticraftplanets:mars_machine_t2:8>,
+<galaxyspace:rocket_assembler>,
+<galaxyspace:adv_circuit_fabricator>,
+<galaxyspace:fuel_generator>
 ];
 
 //循环移除
