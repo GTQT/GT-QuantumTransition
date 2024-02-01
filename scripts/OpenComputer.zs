@@ -330,9 +330,9 @@ mixer.recipeBuilder()
 
 // Control Unit
 recipes.remove(controlUnit);
-circuit_assembler.recipeBuilder()
-	.inputs([<gregtech:meta_item_1:402> *2, <ore:circuitHv>])
-	.circuit(1)
+assembler.recipeBuilder()
+	.inputs([<gregtech:meta_item_1:402> *2,<ore:circuitHv>,<ore:foilAluminium> *4])
+	.circuit(20)
 	.outputs(controlUnit)
 	.duration(200).EUt(30).buildAndRegister();
 
@@ -342,7 +342,7 @@ assembler.recipeBuilder()
 	.inputs([<ore:lensGlass>, <ore:foilAluminium> *4])
     .fluidInputs([<liquid:cobalt> *36])
 	.circuit(1)
-	.outputs(controlUnit)
+	.outputs(<opencomputers:material:12>)
 	.duration(200).EUt(30).buildAndRegister();
 
 // Drone Case Tier 1
