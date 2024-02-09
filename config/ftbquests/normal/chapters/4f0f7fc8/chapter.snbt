@@ -1,7 +1,0 @@
-{
-	title: "核电之心",
-	icon: "galacticraftplanets:basic_item_venus 1 2",
-	always_invisible: false,
-	group: 2051747107,
-	default_quest_shape: "rsquare"
-}

@@ -31,6 +31,26 @@ mods.jei.removeAndHide(item('gregtech:machine', 345))
 mods.jei.removeAndHide(item('gregtech:machine', 346))
 mods.jei.removeAndHide(item('gregtech:machine', 347))
 */
+// 白铜线圈方块 * 1
+mods.gregtech.assembler.removeByInput(30, [metaitem('wireGtDoubleCupronickel') * 8, metaitem('foilBronze') * 8], [fluid('tin_alloy') * 144])
+// 坎塔尔合金线圈方块 * 1
+mods.gregtech.assembler.removeByInput(120, [metaitem('wireGtDoubleKanthal') * 8, metaitem('foilAluminium') * 8], [fluid('copper') * 144])
+// 镍铬合金线圈方块 * 1
+mods.gregtech.assembler.removeByInput(480, [metaitem('wireGtDoubleNichrome') * 8, metaitem('foilStainlessSteel') * 8], [fluid('aluminium') * 144])
+// 钌钨钼合金线圈方块 * 1
+mods.gregtech.assembler.removeByInput(1920, [metaitem('wireGtDoubleRtmAlloy') * 8, metaitem('foilVanadiumSteel') * 8], [fluid('nichrome') * 144])
+// 高速钢-G线圈方块 * 1
+mods.gregtech.assembler.removeByInput(7680, [metaitem('wireGtDoubleHssg') * 8, metaitem('foilTungstenCarbide') * 8], [fluid('tungsten') * 144])
+// 硅岩线圈方块 * 1
+mods.gregtech.assembler.removeByInput(30720, [metaitem('wireGtDoubleNaquadah') * 8, metaitem('foilOsmium') * 8], [fluid('tungsten_steel') * 144])
+// 凯金线圈方块 * 1
+mods.gregtech.assembler.removeByInput(122880, [metaitem('wireGtDoubleTrinium') * 8, metaitem('foilNaquadahEnriched') * 8], [fluid('naquadah') * 144])
+// 三钛合金线圈方块 * 1
+mods.gregtech.assembler.removeByInput(491520, [metaitem('wireGtDoubleTritanium') * 8, metaitem('foilNaquadria') * 8], [fluid('trinium') * 144])
+// 铝锭 * 1
+mods.gregtech.electric_blast_furnace.removeByInput(120, [metaitem('dustAluminium'), metaitem('circuit.integrated').withNbt(["Configuration": 1])], null)
+// 铝锭 * 1
+mods.gregtech.electric_blast_furnace.removeByInput(120, [metaitem('dustAluminium'), metaitem('circuit.integrated').withNbt(["Configuration": 2])], [fluid('nitrogen') * 1000])
 // §7LV§r机械臂 * 1
 mods.gregtech.assembler.removeByInput(30, [metaitem('cableGtSingleTin') * 3, metaitem('stickSteel') * 2, metaitem('electric.motor.lv') * 2, metaitem('electric.piston.lv'), metaitem('circuit.electronic')], null)
 // §bMV§r机械臂 * 1
@@ -197,3 +217,7 @@ mods.gregtech.chemical_reactor.removeByInput(120, [metaitem('dustRutheniumTetrox
 mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('dustIridiumChloride') * 4], [fluid('hydrogen') * 3000])
 // 铱粉 * 1
 mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('dustIridiumChloride') * 4], [fluid('hydrogen') * 3000])
+// 金粉 * 1
+mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustRichGoldSulphide') * 8], null)
+// 金粉 * 1
+mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustLeanGoldSulphide') * 7], null)

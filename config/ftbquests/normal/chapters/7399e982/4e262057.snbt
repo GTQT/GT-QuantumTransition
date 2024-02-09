@@ -1,0 +1,17 @@
+{
+	x: 7.0d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "0a4c5a7a",
+		type: "item",
+		items: [{
+			item: "gregtech:meta_item_1 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "86d414b5",
+		type: "ftbmoney:money",
+		ftb_money: 262144L
+	}]
+}

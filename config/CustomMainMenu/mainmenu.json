@@ -1,0 +1,270 @@
+{
+	"images": {
+		"title": {
+			"image": "supersymmetry:mainmenu/banner.png",
+			"posX": -980,
+			"posY": -5,
+			"width": 1960,
+			"height": 85,
+			"alignment": "top_center"
+		},
+		"frame": {
+			"image": "supersymmetry:mainmenu/frame.png",
+			"posX": -152,
+			"posY": -27,
+			"width": 304,
+			"height": 104,
+			"alignment": "center"
+		}
+	},
+	"buttons": {
+		"singleplayer": {
+			"text": "Singleplayer",
+			"hoverText": "Lonely and melancholy",
+			"alignment": "center",
+			"posX": -150,
+			"posY": -25,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"texture": "supersymmetry:mainmenu/button.png",
+			"action": {
+				"type": "openGui",
+				"gui": "singleplayer"
+			}
+		},
+		"multiplayer": {
+			"text": "Multiplayer",
+			"hoverText": "Loli Island",
+			"alignment": "center",
+			"posX": -150,
+			"posY": -5,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "supersymmetry:mainmenu/button.png",
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openGui",
+				"gui": "multiplayer"
+			}
+		},
+		"mods": {
+			"text": "Mods",
+			"hoverText": "Infinite hope",
+			"alignment": "center",
+			"posX": -150,
+			"posY": 15,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "supersymmetry:mainmenu/button.png",
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openGui",
+				"gui": "mods"
+			}
+		},
+		"options": {
+			"text": "Options",
+			"hoverText": "Master nature",
+			"alignment": "center",
+			"posX": -150,
+			"posY": 35,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "supersymmetry:mainmenu/button.png",
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openGui",
+				"gui": "options"
+			}
+		},
+		"quit": {
+			"text": "Quit",
+			"hoverText": "You can never escape Greg.",
+			"alignment": "center",
+			"posX": -150,
+			"posY": 55,
+			"width": 300,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "supersymmetry:mainmenu/button.png",
+			"hoverTextColor": 11141120,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "quit"
+			}
+		},
+		"language": {
+			"text": "",
+			"posX": -175,
+			"posY": 55,
+			"alignment": "center",
+			"width": 20,
+			"height": 20,
+			"action": {
+				"type": "openGui",
+				"gui": "languages"
+			}
+		},
+		"qq": {
+			"text": "QQ Group",
+			"alignment": "center",
+			"posX": 0,
+			"posY": -25,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "supersymmetry:mainmenu/button.png",
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openLink",
+				"link": "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=b8a8ooB1hA3EAauOuO16EVBn46p9vtoG&authKey=lVbMU1%2B77xYzLeqnve%2Bn884vRDNKA03mtU3MvCgtvNSdq5Ew5px%2BtTm9CB7bNYgR&noverify=0&group_code=1073091808"
+			}
+		},
+		"github": {
+			"text": "Report A Bug",
+			"alignment": "center",
+			"posX": 0,
+			"posY": -5,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "supersymmetry:mainmenu/button.png",
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "openLink",
+				"link": "https://github.com/KeQingsocute520/GT-QuantumTransition"
+			}
+		},
+		"open_folder": {
+			"text": "Open MC Folder",
+			"alignment": "center",
+			"posX": 0,
+			"posY": 15,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "supersymmetry:mainmenu/button.png",
+			"hoverTextColor": 65484,
+			"action": {
+				"type": "openFolder",
+				"folderName": "/"
+			}
+		},
+		"refresh": {
+			"text": "Refresh Menu",
+			"alignment": "center",
+			"posX": 0,
+			"posY": 35,
+			"width": 150,
+			"height": 20,
+			"imageWidth": 200,
+			"imageHeight": 20,
+			"texture": "supersymmetry:mainmenu/button.png",
+			"hoverTextColor": 65484,
+			"clickSound": "block.lever.click",
+			"action": {
+				"type": "refresh"
+			}
+		},
+		"language": {
+			"text": "",
+			"posX": -25,
+			"posY": -25,
+			"alignment": "bottom_right",
+			"width": 20,
+			"height": 20,
+			"texture": "supersymmetry:mainmenu/button_language.png",
+			"action": {
+				"type": "openGui",
+				"gui": "languages"
+			}
+		},
+		"replaymod": {
+			"text": "Replay Viewer",
+			"posX": -115,
+			"posY": -25,
+			"alignment": "bottom_right",
+			"width": 85,
+			"height": 20,
+			"texture": "supersymmetry:mainmenu/button_bordered.png",
+			"wrappedButton": 17890234
+		}
+	},
+	"labels": {
+		"minecraft_version": {
+			"text": "Minecraft #mcversion#",
+			"hoverText": "Minecraft Coder Pack 1.0.0",
+			"color": -1,
+			"posX": 2,
+			"posY": -32,
+			"alignment": "bottom_left"
+		},
+		"modinfo": {
+			"alignment": "bottom_left",
+			"text": "Forge Version: #forgeversion# | #modsactive# mods active out of #modsloaded#",
+			"hoverText": "FML Version: #fmlversion# | #modsactive# mods active out of #modsloaded#",
+			"color": -1,
+			"posX": 2,
+			"posY": -12
+		},
+		"credits": {
+			"text": "GT-QuantumTransition dev by KeQingsocute520",
+			"color": -1,
+			"alignment": "bottom_left",
+			"posX": 222,
+			"posY": -22,
+			"anchor": "end",
+			"hoverText": "Click here to see the Minecraft credits",
+			"action": {
+				"type": "openGui",
+				"gui": "credits"
+			}
+		}
+	},
+	"other": {
+		"splash-text": {
+			"posX": 105,
+			"posY": 105,
+			"color": -256,
+			"alignment": "top_center",
+			"texts": "file:supersymmetry:mainmenu/splashes.txt"
+		},
+		"background": {
+			"image": "",
+			"mode": "fill",
+			"slideshow": {
+				"images": [
+					"customloadingscreen:image/supersymmetry/bg/1.png",
+					"customloadingscreen:image/supersymmetry/bg/2.png",
+					"customloadingscreen:image/supersymmetry/bg/3.png",
+					"customloadingscreen:image/supersymmetry/bg/4.png",
+					"customloadingscreen:image/supersymmetry/bg/5.png",
+					"customloadingscreen:image/supersymmetry/bg/6.png"
+				],
+				"shuffle": true,
+				"displayDuration": 100,
+				"fadeDuration": 40,
+				"sync": true
+			}
+		}
+	}
+}

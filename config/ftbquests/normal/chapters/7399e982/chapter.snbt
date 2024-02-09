@@ -1,0 +1,7 @@
+{
+	title: "泛银河系交易所",
+	icon: "gregtech:meta_item_1 1 7",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "square"
+}

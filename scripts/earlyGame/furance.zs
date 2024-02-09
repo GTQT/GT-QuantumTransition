@@ -29,6 +29,7 @@ furnace.remove(<tconstruct:materials>);
 furnace.addRecipe(<tconstruct:materials>, <contenttweaker:weishaozhidejiaoluzhuan>);
 
 furnace.remove(<minecraft:coal:1>);
+furnace.remove(<projectred-core:resource_item:103>);
 //钻石做燃料
 furnace.setFuel(<minecraft:diamond>, 102400);
 furnace.setFuel(<minecraft:diamond_block>, 1024000);

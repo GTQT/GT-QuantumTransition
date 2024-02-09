@@ -1,0 +1,332 @@
+{
+	title: "steamAge",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:meta_ingot 1 1068",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 381",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_plate 1 1617",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 519",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 473"
+	},
+	{
+		item: "gregtech:wire_single 1 25",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 517",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 516",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 352",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 353",
+		count: 16
+	},
+	{
+		item: {
+			id: "gregtech:wrench",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 255,
+					ToolSpeed: 6.0f,
+					AttackDamage: 3.0f,
+					Durability: 0,
+					Material: "gregtech:iron",
+					HarvestLevel: 2,
+					AttackSpeed: -2.8f
+				}
+			}
+		}
+	},
+	{
+		item: "gregtech:meta_dust 1 25",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 438",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 401",
+		count: 4
+	},
+	{
+		item: "gregtech:metal_casing 1 8",
+		count: 4
+	},
+	{
+		item: "gregtech:metal_casing",
+		count: 2
+	},
+	{
+		item: "gregtech:boiler_casing",
+		count: 2
+	},
+	{
+		item: "gregtech:boiler_firebox_casing",
+		count: 2
+	},
+	{
+		item: "gregtech:steam_casing 1 3",
+		count: 2
+	},
+	{
+		item: "gregtech:steam_casing 1 2",
+		count: 2
+	},
+	{
+		item: "gregtech:steam_casing 1 1",
+		count: 2
+	},
+	{
+		item: "gregtech:steam_casing",
+		count: 2
+	},
+	{
+		item: "gregtech:metal_casing 1 1",
+		count: 4
+	},
+	{
+		item: "gregtech:fluid_pipe_tiny 1 260",
+		count: 4
+	},
+	{
+		item: "gregtech:fluid_pipe_tiny 1 25",
+		count: 4
+	},
+	{
+		item: "gregtech:fluid_pipe_small 1 260",
+		count: 4
+	},
+	{
+		item: "gregtech:fluid_pipe_normal 1 25",
+		count: 4
+	},
+	{
+		item: "gregtech:fluid_pipe_large 1 260",
+		count: 4
+	},
+	{
+		item: "gregtech:fluid_pipe_huge 1 260",
+		count: 4
+	},
+	{
+		item: "gregtech:fluid_pipe_huge 1 25",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_dust 1 1002",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 475"
+	},
+	{
+		item: "gregtech:meta_plate 1 1068",
+		count: 4
+	},
+	{
+		item: "gregtech:rubber_sapling",
+		count: 4
+	},
+	{
+		item: "minecraft:sticky_piston",
+		count: 2
+	},
+	{
+		item: "minecraft:glass",
+		count: 5
+	},
+	{
+		item: "gregtech:meta_plate 1 335",
+		count: 4
+	},
+	{
+		item: "minecraft:iron_block",
+		count: 4
+	},
+	{
+		item: "gregtech:fluid_pipe_small 1 328",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_plate 1 324",
+		count: 4
+	},
+	{
+		item: "minecraft:piston",
+		count: 2
+	},
+	{
+		item: "minecraft:hopper",
+		count: 2
+	},
+	{
+		item: "minecraft:chest",
+		count: 2
+	},
+	{
+		item: "gregtech:meta_item_1 1 460",
+		count: 2
+	},
+	{
+		item: {
+			id: "gregtech:wrench",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 255,
+					ToolSpeed: 6.0f,
+					AttackDamage: 3.0f,
+					Durability: 0,
+					Material: "gregtech:iron",
+					HarvestLevel: 2,
+					AttackSpeed: -2.8f
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:file",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 255,
+					AttackDamage: 0.0f,
+					Durability: 0,
+					Material: "gregtech:iron",
+					AttackSpeed: -2.4f
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:wire_cutter",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 255,
+					ToolSpeed: 6.0f,
+					AttackDamage: 1.0f,
+					Durability: 0,
+					Material: "gregtech:iron",
+					HarvestLevel: 2,
+					AttackSpeed: -2.4f
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:mortar",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 255,
+					AttackDamage: 0.0f,
+					Durability: 0,
+					Material: "gregtech:iron",
+					AttackSpeed: -2.4f
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "gtqtcore:jinitaimei",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 255,
+					ToolSpeed: 6.0f,
+					AttackDamage: 3.0f,
+					Durability: 0,
+					Material: "gregtech:iron",
+					HarvestLevel: 2,
+					AttackSpeed: -2.8f
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "gtqtcore:choocher",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Behaviours: {},
+				HideFlags: 2,
+				GT.Tool: {
+					MaxDurability: 255,
+					ToolSpeed: 6.0f,
+					AttackDamage: 3.0f,
+					Durability: 0,
+					Material: "gregtech:iron",
+					HarvestLevel: 2,
+					AttackSpeed: -2.8f
+				}
+			}
+		}
+	},
+	{
+		item: "gregtech:fluid_pipe_nonuple 1 25"
+	},
+	{
+		item: "gregtech:fluid_pipe_nonuple 1 260"
+	},
+	{
+		item: "gregtech:fluid_pipe_quadruple 1 260"
+	},
+	{
+		item: "gregtech:fluid_pipe_quadruple 1 25"
+	},
+	{
+		item: "blockcraftery:editable_block",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 11",
+		count: 2
+	}],
+	loot_crate: {
+		string_id: "steamage",
+		color: 16777215,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

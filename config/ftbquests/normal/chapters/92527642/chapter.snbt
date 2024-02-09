@@ -1,7 +1,0 @@
-{
-	title: "元素周期表",
-	icon: "minecraft:beacon",
-	always_invisible: false,
-	group: 2051747107,
-	default_quest_shape: "square"
-}

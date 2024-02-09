@@ -225,7 +225,10 @@ var items as IItemStack[] = [
 <enderio:item_alloy_endergy_ingot:4>,
 <enderio:item_alloy_endergy_ingot:5>,
 <enderio:item_alloy_endergy_ingot:6>,
-<enderio:item_alloy_endergy_nugget>
+<enderio:item_alloy_endergy_nugget>,
+<projectred-core:resource_item:100>,
+<projectred-core:resource_item:101>,
+<projectred-core:resource_item:102>
 ];
 
 //循环移除

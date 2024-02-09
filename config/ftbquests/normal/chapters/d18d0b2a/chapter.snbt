@@ -1,7 +1,0 @@
-{
-	title: "农业—今天中午吃什么",
-	icon: "minecraft:wheat",
-	always_invisible: false,
-	group: -519258995,
-	default_quest_shape: "rsquare"
-}

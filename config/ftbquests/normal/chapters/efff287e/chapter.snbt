@@ -1,7 +1,0 @@
-{
-	title: "农业—自动化农业",
-	icon: "forestry:engine_biogas",
-	always_invisible: false,
-	group: -519258995,
-	default_quest_shape: "rsquare"
-}

@@ -1,7 +1,0 @@
-{
-	title: "基地建设",
-	icon: "minecraft:stone",
-	always_invisible: false,
-	group: 2051747107,
-	default_quest_shape: "square"
-}
