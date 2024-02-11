@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "49f9205b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "0ed07242",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "STEAM"
+	},
+	{
+		uid: "fa8dcba2",
+		type: "command",
+		auto: "enabled",
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"gregtech:machine\",Count:1,Damage:1s},  TrophyName:\"第一桶蒸汽！\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

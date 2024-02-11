@@ -228,7 +228,12 @@ var items as IItemStack[] = [
 <enderio:item_alloy_endergy_nugget>,
 <projectred-core:resource_item:100>,
 <projectred-core:resource_item:101>,
-<projectred-core:resource_item:102>
+<projectred-core:resource_item:102>,
+<bloodmagic:component:23>,
+<galaxyspace:gs_basic:7>,
+<forestry:bottler>,
+<forestry:centrifuge>
+
 ];
 
 //循环移除

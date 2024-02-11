@@ -1,0 +1,28 @@
+{
+	title: "矿物在哪里？",
+	icon: {
+		id: "gregtech:meta_item_1",
+		Damage: 468s,
+		tag: {
+			Charge: 1000000000L
+		}
+	},
+	x: 1.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "efd25812",
+		type: "ftbmoney:money",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "d9c5e865",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 468s,
+			tag: {
+				Charge: 1000000000L
+			}
+		}
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	title: "我需要更多",
+	icon: "travelersbackpack:travelers_backpack",
+	x: 2.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "882d3e02",
+		type: "ftbmoney:money",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "170a34ea",
+		type: "item",
+		item: "travelersbackpack:travelers_backpack"
+	}]
+}

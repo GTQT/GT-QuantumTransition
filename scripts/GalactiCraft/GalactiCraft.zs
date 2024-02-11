@@ -342,8 +342,9 @@ assembler.recipeBuilder()
 
 //T2 heavy plate
 assembler.recipeBuilder()
-    .inputs(<galacticraftcore:heavy_plating>)
-    .inputs(<ore:plateMeteoricIron> * 2)
+    .inputs(<galacticraftcore:item_basic_moon:1>)
+    .inputs(<galacticraftplanets:item_basic_asteroids:6>)
+	.inputs(<galacticraftcore:basic_item:7>)
     .circuit(1)
     .fluidInputs(<liquid:polytetrafluoroethylene> * 576)
     .outputs(<galacticraftplanets:item_basic_mars:3>)
@@ -353,8 +354,9 @@ assembler.recipeBuilder()
 
 //T3 heavy plate
 assembler.recipeBuilder()
-    .inputs(<galacticraftplanets:item_basic_mars:3>)
-    .inputs(<ore:plateDesh> * 4)
+    .inputs(<galacticraftplanets:item_basic_mars:5>)
+    .inputs(<galacticraftplanets:item_basic_asteroids:6>)
+	.inputs(<galacticraftcore:basic_item:6>)
     .circuit(1)
     .fluidInputs(<liquid:tungsten_steel>*576)
     .outputs(<galacticraftplanets:item_basic_asteroids:5>)

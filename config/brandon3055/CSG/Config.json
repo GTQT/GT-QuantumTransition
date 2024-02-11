@@ -1,5 +1,6 @@
 {
   "inventory": {
-    "0:0": "betterquesting:quest_book"
+    "0:0": "betterquesting:quest_book",
+    "0:1": "gtqtcore:gtqt_meta_item_1,1,1010,{display:{Name:\"ÄÚ²â¸£Àû\"},RepairCost:0}"
   }
 }

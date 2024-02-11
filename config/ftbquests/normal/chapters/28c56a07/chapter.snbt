@@ -1,0 +1,23 @@
+{
+	title: "里程碑",
+	icon: {
+		id: "simple_trophies:trophy",
+		tag: {
+			TrophyItem: {
+				id: "gregtech:machine",
+				Count: 1,
+				Damage: 1001s
+			},
+			TrophyName: "伟大的开始！",
+			TrophyColorRed: 179,
+			TrophyColorGreen: 49,
+			TrophyColorBlue: 44,
+			TrophyVariant: "classic",
+			TrophyEarnedAt: 1707574665L,
+			TrophyShowsTooltip: 1b
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "square"
+}

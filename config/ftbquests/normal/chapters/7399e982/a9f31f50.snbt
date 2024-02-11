@@ -1,0 +1,15 @@
+{
+	icon: "gregtech:meta_item_1 1 529",
+	x: 2.0d,
+	y: 6.0d,
+	tasks: [{
+		uid: "899ff1c7",
+		type: "ftbmoney:money",
+		value: 128L
+	}],
+	rewards: [{
+		uid: "e5fde4e2",
+		type: "item",
+		item: "gregtech:meta_item_1 1 529"
+	}]
+}

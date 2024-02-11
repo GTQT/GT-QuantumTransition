@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"1119421c"
+	],
+	tasks: [{
+		uid: "f79cff1b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1575"
+		}]
+	}],
+	rewards: [{
+		uid: "e8436533",
+		type: "command",
+		auto: "enabled",
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"gregtech:machine\",Count:1,Damage:1575s},  TrophyName:\"存下所有液体！\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

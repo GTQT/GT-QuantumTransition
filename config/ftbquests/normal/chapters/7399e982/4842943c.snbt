@@ -1,0 +1,47 @@
+{
+	title: "蒸汽时代快乐五连抽",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "_"
+		}
+	},
+	x: -1.0d,
+	y: 4.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "6f60a891",
+		type: "ftbmoney:money",
+		value: 25L
+	},
+	{
+		uid: "3dfb98b1",
+		type: "gamestage",
+		stage: "STEAM"
+	}],
+	rewards: [{
+		uid: "5933ecea",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "1274cbb2",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "fad51458",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "650f4aff",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "784b4b54",
+		type: "loot",
+		table: 2
+	}]
+}

@@ -1,6 +1,15 @@
 // 聚变线圈方块 * 1
 mods.gregtech.assembler.removeByInput(122880, [item('gregtech:fusion_casing'), metaitem('field.generator.iv') * 2, metaitem('electric.pump.iv'), metaitem('neutron_reflector') * 2, metaitem('circuit.nano_mainframe') * 4, metaitem('pipeSmallFluidNaquadah') * 4, metaitem('plateEuropium') * 4], [fluid('vanadium_gallium') * 576])
-
+// 进阶流体钻机 * 1
+mods.gregtech.assembler.removeByInput(1920, [metaitem('hull.ev'), metaitem('frameTitanium') * 4, metaitem('circuit.workstation') * 4, metaitem('electric.motor.ev') * 4, metaitem('electric.pump.ev') * 4, metaitem('gearTungstenCarbide') * 4, metaitem('circuit.integrated').withNbt(["Configuration": 2])], null)
+// 进阶流体钻机 II * 1
+mods.gregtech.assembler.removeByInput(30720, [metaitem('hull.luv'), metaitem('frameTungstenSteel') * 4, metaitem('circuit.nano_mainframe') * 4, metaitem('electric.motor.luv') * 4, metaitem('electric.pump.luv') * 4, metaitem('gearOsmiridium') * 4, metaitem('circuit.integrated').withNbt(["Configuration": 2])], null)
+// 基础采矿场 * 1
+mods.gregtech.assembler.removeByInput(1920, [metaitem('hull.ev'), metaitem('frameTitanium') * 4, metaitem('circuit.workstation') * 4, metaitem('electric.motor.ev') * 4, metaitem('electric.pump.ev') * 4, metaitem('conveyor.module.ev') * 4, metaitem('gearTungsten') * 4, metaitem('circuit.integrated').withNbt(["Configuration": 2])], null)
+// 进阶采矿场 * 1
+mods.gregtech.assembler.removeByInput(7680, [metaitem('hull.iv'), metaitem('frameTungstenSteel') * 4, metaitem('circuit.mainframe') * 4, metaitem('electric.motor.iv') * 4, metaitem('electric.pump.iv') * 4, metaitem('conveyor.module.iv') * 4, metaitem('gearIridium') * 4, metaitem('circuit.integrated').withNbt(["Configuration": 2])], null)
+// 进阶采矿场 II * 1
+mods.gregtech.assembler.removeByInput(30720, [metaitem('hull.luv'), metaitem('frameHsss') * 4, metaitem('circuit.nano_mainframe') * 4, metaitem('electric.motor.luv') * 4, metaitem('electric.pump.luv') * 4, metaitem('conveyor.module.luv') * 4, metaitem('gearRuridit') * 4, metaitem('circuit.integrated').withNbt(["Configuration": 2])], null)
 // 超导线圈方块 * 1
 mods.gregtech.assembler.removeByInput(30720, [metaitem('wireGtDoubleIndiumTinBariumTitaniumCuprate') * 32, metaitem('foilNiobiumTitanium') * 32], [fluid('trinium') * 3456])
 // 超导线圈方块 * 1

@@ -1,0 +1,9 @@
+{
+	x: 0.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "599e7878",
+		type: "gamestage",
+		stage: "LV"
+	}]
+}

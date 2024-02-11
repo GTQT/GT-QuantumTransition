@@ -1,0 +1,20 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"1119421c"
+	],
+	tasks: [{
+		uid: "a0439eb1",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1316"
+		}]
+	}],
+	rewards: [{
+		uid: "7a30fd28",
+		type: "command",
+		auto: "enabled",
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"gregtech:machine\",Count:1,Damage:1316s},  TrophyName:\"把电存起来！\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"a6cd52fc"
+	],
+	tasks: [{
+		uid: "8687820b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 986"
+		}]
+	}],
+	rewards: [{
+		uid: "203950be",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "LV"
+	}]
+}

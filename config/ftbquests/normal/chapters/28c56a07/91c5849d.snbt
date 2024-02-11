@@ -1,0 +1,31 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"28d9f48e"
+	],
+	tasks: [{
+		uid: "cf07046d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1017"
+		}]
+	}],
+	rewards: [{
+		uid: "7b7d9619",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	},
+	{
+		uid: "8a609019",
+		type: "item",
+		item: "gregtech:meta_block_compressed_19 1 15",
+		count: 64
+	},
+	{
+		uid: "361f29fe",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 8
+	}]
+}

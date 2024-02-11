@@ -1,0 +1,16 @@
+{
+	icon: "gtqtcore:gtqt_meta_item_1 1 917",
+	x: 2.0d,
+	y: 10.0d,
+	tasks: [{
+		uid: "9f9fcbeb",
+		type: "ftbmoney:money",
+		value: 32768L
+	}],
+	rewards: [{
+		uid: "5b82ab9d",
+		type: "item",
+		icon: "gtqtcore:gtqt_meta_item_1 1 917",
+		item: "gtqtcore:gtqt_meta_item_1 1 912"
+	}]
+}
