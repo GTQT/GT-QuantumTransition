@@ -232,7 +232,10 @@ var items as IItemStack[] = [
 <bloodmagic:component:23>,
 <galaxyspace:gs_basic:7>,
 <forestry:bottler>,
-<forestry:centrifuge>
+<forestry:centrifuge>,
+<forestry:squeezer>,
+<galacticraftcore:ic2compat>,
+<galacticraftplanets:item_basic_asteroids:9>
 
 ];
 

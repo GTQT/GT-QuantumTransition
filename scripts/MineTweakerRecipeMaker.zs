@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<personalworlds:personal_portal>);
 recipes.remove(<buildinggadgets:copypastetool>);
 recipes.remove(<buildinggadgets:exchangertool>);
 recipes.remove(<buildinggadgets:buildingtool>);
