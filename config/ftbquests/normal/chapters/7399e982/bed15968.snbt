@@ -2,6 +2,7 @@
 	icon: "gtqtcore:gtqt_meta_item_1 1 902",
 	x: 2.0d,
 	y: 7.0d,
+	can_repeat: true,
 	tasks: [{
 		uid: "62b1e17d",
 		type: "ftbmoney:money",

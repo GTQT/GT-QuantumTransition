@@ -1,0 +1,55 @@
+{
+	x: 5.0d,
+	y: 1.0d,
+	dependencies: [
+		"89e028aa"
+	],
+	tasks: [{
+		uid: "fa597674",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3167"
+		}]
+	}],
+	rewards: [{
+		uid: "e51afd5b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 3"
+	},
+	{
+		uid: "5081fdda",
+		type: "item",
+		item: "appliedenergistics2:drive"
+	},
+	{
+		uid: "630d701f",
+		type: "item",
+		item: "appliedenergistics2:fluid_interface",
+		count: 2
+	},
+	{
+		uid: "defde008",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:fluid_storage_cell_16k",
+			tag: {}
+		}
+	},
+	{
+		uid: "1d1a78dc",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 1",
+		count: 32
+	},
+	{
+		uid: "8c3f0531",
+		type: "item",
+		item: "enderio:item_item_conduit",
+		count: 32
+	},
+	{
+		uid: "998cace4",
+		type: "item",
+		item: "appliedenergistics2:part 1 520"
+	}]
+}

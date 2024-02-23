@@ -30,6 +30,7 @@ var items as IItemStack[] = [
 <appliedenergistics2:material:3>,
 <appliedenergistics2:material:49>,
 <appliedenergistics2:material:51>,
+<forestry:fermenter>,
 <forestry:apatite>,
 <forestry:ingot_copper>,
 <forestry:ingot_tin>,

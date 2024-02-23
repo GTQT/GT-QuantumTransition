@@ -1,0 +1,20 @@
+{
+	title: "难度选择",
+	icon: "minecraft:structure_void",
+	x: -0.5d,
+	y: 0.0d,
+	description: "选择你的游戏难度模式，如果你在联机或者游玩服务器，此难度选择共享并且会随队友刷新而更改。",
+	text: [
+		"此外，注意一下，我不是你的主线任务，我只是一个商店，你的主线任务在BQ任务书里边哦。"
+	],
+	size: 4.0d,
+	tasks: [{
+		uid: "c48fcdf5",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "7e58337f",
+		type: "choice",
+		table: 5
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"1119421c",
+		"89e028aa"
+	],
+	tasks: [{
+		uid: "878e786d",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3167"
+		}]
+	}],
+	rewards: [{
+		uid: "05e25deb",
+		type: "command",
+		auto: "enabled",
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"gregtech:machine\",Count:1,Damage:3167s},  TrophyName:\"原子级分离\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

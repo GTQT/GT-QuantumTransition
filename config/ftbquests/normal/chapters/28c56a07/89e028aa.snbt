@@ -1,9 +1,17 @@
 {
 	x: 0.0d,
 	y: 1.0d,
+	dependencies: [
+		"28d9f48e"
+	],
 	tasks: [{
 		uid: "599e7878",
 		type: "gamestage",
 		stage: "LV"
+	},
+	{
+		uid: "b4f136d6",
+		type: "gamestage",
+		stage: "easy"
 	}]
 }

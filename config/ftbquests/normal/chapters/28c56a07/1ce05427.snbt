@@ -1,0 +1,37 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"28d9f48e"
+	],
+	tasks: [{
+		uid: "0f6f815b",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1599"
+		}]
+	}],
+	rewards: [{
+		uid: "6f60b74b",
+		type: "item",
+		item: "gregtech:meta_item_1 1 2"
+	},
+	{
+		uid: "2a569f8e",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 1",
+		count: 8
+	},
+	{
+		uid: "22ffcf85",
+		type: "item",
+		item: "enderio:item_item_conduit",
+		count: 8
+	},
+	{
+		uid: "12593d68",
+		type: "item",
+		item: "gregtech:machine 1 1576",
+		count: 2
+	}]
+}

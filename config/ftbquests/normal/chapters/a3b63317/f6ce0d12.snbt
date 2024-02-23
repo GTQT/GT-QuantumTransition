@@ -1,0 +1,20 @@
+{
+	x: 3.0d,
+	y: -1.0d,
+	dependencies: [
+		"a6cd52fc"
+	],
+	tasks: [{
+		uid: "81fdc3a3",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1648"
+		}]
+	}],
+	rewards: [{
+		uid: "2ea7c290",
+		type: "command",
+		auto: "enabled",
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"gregtech:machine\",Count:1,Damage:1648s},  TrophyName:\"1！5！\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

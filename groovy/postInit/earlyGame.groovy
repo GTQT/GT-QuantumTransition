@@ -4,15 +4,6 @@ mods.gregtech.forming_press.removeByInput(22, [metaitem('shape.mold.credit'), me
 mods.gregtech.forming_press.removeByInput(16, [metaitem('shape.mold.credit'), metaitem('plateCupronickel')], null)
 // 狗狗币 * 4
 mods.gregtech.forming_press.removeByInput(16, [metaitem('shape.mold.credit'), metaitem('plateBrass')], null)
-
-// 焦煤 * 1
-mods.gregtech.coke_oven.removeByInput(1, [item('minecraft:coal', 1)], null)
-mods.gregtech.coke_oven.recipeBuilder()
-    .inputs(item('minecraft:coal') * 1)
-    .outputs(metaitem('gemCoke')*1)
-	.fluidOutputs(fluid('creosote') * 500)
-    .duration(800) 
-    .buildAndRegister()
 	
 //仙人掌
 mods.gregtech.coke_oven.recipeBuilder()

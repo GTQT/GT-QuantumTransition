@@ -1,0 +1,22 @@
+{
+	title: "easy",
+	x: -1.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "1bbc6b89",
+		type: "gamestage",
+		stage: "easy"
+	}],
+	rewards: [{
+		uid: "5454a476",
+		type: "command",
+		auto: "enabled",
+		command: "/say 你已选择游戏难度 EASY"
+	},
+	{
+		uid: "d6b63d16",
+		type: "command",
+		auto: "enabled",
+		command: "/say 请刷新你的FTB任务，恭喜你已经解锁了里程碑功能，在完成阶段任务后可以获取丰富奖励！"
+	}]
+}

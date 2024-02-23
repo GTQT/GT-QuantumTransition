@@ -1,0 +1,20 @@
+{
+  "name": "Bittern Deposit",
+  "weight": 0,
+  "yield": {
+    "min": 50,
+    "max": 100
+  },
+  "depletion": {
+    "amount": 1,
+    "chance": 100,
+    "depleted_yield": 15
+  },
+  "fluid": "bittern",
+  "biome_modifier": {
+    "type": "biome_map",
+    "hell": 150,
+    "taiga": 150,
+    "desert_hills": 200
+  }
+}

@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	dependencies: [
+		"e75c6762"
+	],
+	tasks: [{
+		uid: "1883ef0a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3452"
+		}]
+	}],
+	rewards: [{
+		uid: "1bad43a3",
+		type: "command",
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"gregtech:machine\",Count:1,Damage:3452s},  TrophyName:\"让我研究研究！\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

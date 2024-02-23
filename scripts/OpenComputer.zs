@@ -87,7 +87,21 @@ assembler.recipeBuilder()
 // Capacitor
 recipes.remove(<opencomputers:capacitor>);
 assembler.recipeBuilder()
-	.inputs([machineCasingHv *2, <gregtech:meta_item_1:525> *8, circuitBoardPlastic *2, <gregtech:meta_item_1:525>, <ore:cableGtSingleCopper>*2])
+	.inputs([machineCasingHv *2, <gregtech:meta_item_1:525> *4, circuitBoardPlastic *2, <gregtech:meta_item_1:526>, <ore:cableGtSingleCopper>*2])
+    .fluidInputs([<liquid:plastic> *72])
+	.outputs(<opencomputers:capacitor>)
+	.circuit(1)
+	.duration(200).EUt(120).buildAndRegister();
+	
+assembler.recipeBuilder()
+	.inputs([machineCasingHv *2, <gregtech:meta_item_1:525> *4, circuitBoardPlastic *2, <gregtech:meta_item_1:521>, <ore:cableGtSingleCopper>*2])
+    .fluidInputs([<liquid:plastic> *72])
+	.outputs(<opencomputers:capacitor>)
+	.circuit(1)
+	.duration(200).EUt(120).buildAndRegister();
+	
+assembler.recipeBuilder()
+	.inputs([machineCasingHv *2, <gregtech:meta_item_1:520> *8, circuitBoardPlastic *2, <gregtech:meta_item_1:521>*2, <ore:cableGtSingleCopper>*2])
     .fluidInputs([<liquid:plastic> *72])
 	.outputs(<opencomputers:capacitor>)
 	.circuit(1)
@@ -244,12 +258,18 @@ assembler.recipeBuilder()
 // Screen Tier 1
 recipes.remove(<opencomputers:screen1>);
 assembler.recipeBuilder()
-	.inputs([machineCasingMv, <ore:circuitLv> *2, <gregtech:meta_item_1:525> *2])
+	.inputs([machineCasingMv, <ore:circuitLv> *2, <gregtech:meta_item_1:525> *1])
     .fluidInputs([<liquid:plastic> *72])
 	.circuit(1)
 	.outputs(<opencomputers:screen1>)
 	.duration(200).EUt(30).buildAndRegister();
 
+assembler.recipeBuilder()
+	.inputs([machineCasingMv, <ore:circuitLv> *2, <gregtech:meta_item_1:520> *2])
+    .fluidInputs([<liquid:plastic> *72])
+	.circuit(1)
+	.outputs(<opencomputers:screen1>)
+	.duration(200).EUt(30).buildAndRegister();
 // Screen Tier 3
 recipes.remove(<opencomputers:screen3>);
 assembler.recipeBuilder()
@@ -331,7 +351,7 @@ mixer.recipeBuilder()
 // Control Unit
 recipes.remove(controlUnit);
 assembler.recipeBuilder()
-	.inputs([<gregtech:meta_item_1:402> *2,<ore:circuitHv>,<ore:foilAluminium> *4])
+	.inputs([<gregtech:meta_item_1:402> *2,<ore:circuitMv>,<ore:foilAluminium> *4])
 	.circuit(20)
 	.outputs(controlUnit)
 	.duration(200).EUt(30).buildAndRegister();
@@ -392,7 +412,7 @@ assembler.recipeBuilder()
 // Microchip Tier 1
 recipes.remove(microchipMv);
 assembler.recipeBuilder()
-	.inputs([circuitBoardPlastic, <ore:circuitLv>, <gregtech:meta_item_1:525> *2, <ore:foilElectrum> *4])
+	.inputs([circuitBoardPlastic, <ore:circuitLv>, <gregtech:meta_item_1:525> *1, <ore:foilElectrum> *4])
     .fluidInputs([<liquid:soldering_alloy> *72])
 	.circuit(1)
 	.outputs(microchipMv)
@@ -401,7 +421,7 @@ assembler.recipeBuilder()
 // Microchip Tier 2
 recipes.remove(microchipHv);
 assembler.recipeBuilder()
-	.inputs([circuitBoardAdvanced, <ore:circuitHv>, <gregtech:meta_item_1:525> *2, <ore:foilElectrum> *8])
+	.inputs([circuitBoardAdvanced, <ore:circuitHv>, <gregtech:meta_item_1:525> *1, <ore:foilElectrum> *8])
     .fluidInputs([<liquid:soldering_alloy> *72])
 	.circuit(3)
 	.outputs(microchipHv)
@@ -410,11 +430,33 @@ assembler.recipeBuilder()
 // Microchip Tier 3
 recipes.remove(microchipEv);
 assembler.recipeBuilder()
-	.inputs([circuitBoardExtreme, <ore:circuitEv>, <gregtech:meta_item_1:525> *8, <ore:foilElectrum> *16])
+	.inputs([circuitBoardExtreme, <ore:circuitEv>, <gregtech:meta_item_1:525> *4, <ore:foilElectrum> *16])
     .fluidInputs([<liquid:soldering_alloy> *72])
 	.circuit(2)
 	.outputs(microchipEv)
 	.duration(300).EUt(480).buildAndRegister();
+	
+assembler.recipeBuilder()
+	.inputs([circuitBoardPlastic, <ore:circuitLv>, <gregtech:meta_item_1:520> *2, <ore:foilElectrum> *4])
+    .fluidInputs([<liquid:soldering_alloy> *72])
+	.circuit(1)
+	.outputs(microchipMv)
+	.duration(300).EUt(120).buildAndRegister();
+
+assembler.recipeBuilder()
+	.inputs([circuitBoardAdvanced, <ore:circuitHv>, <gregtech:meta_item_1:520> *2, <ore:foilElectrum> *8])
+    .fluidInputs([<liquid:soldering_alloy> *72])
+	.circuit(3)
+	.outputs(microchipHv)
+	.duration(300).EUt(120).buildAndRegister();
+
+assembler.recipeBuilder()
+	.inputs([circuitBoardExtreme, <ore:circuitEv>, <gregtech:meta_item_1:520> *8, <ore:foilElectrum> *16])
+    .fluidInputs([<liquid:soldering_alloy> *72])
+	.circuit(2)
+	.outputs(microchipEv)
+	.duration(300).EUt(480).buildAndRegister();
+
 
 // Microcontroller Case Tier 1
 recipes.remove(<opencomputers:material:20>);
@@ -456,11 +498,16 @@ assembler.recipeBuilder()
 // Analyzer
 recipes.remove(<opencomputers:tool>);
 assembler.recipeBuilder()
-	.inputs([<gregtech:meta_item_1:523>, microchipHv *2, <gregtech:meta_item_1:525> *2, sensorHv])
+	.inputs([<gregtech:meta_item_1:523>, microchipHv *2, <gregtech:meta_item_1:525> *1, sensorHv])
     .fluidInputs([<liquid:soldering_alloy> *72])
 	.outputs(<opencomputers:tool>)
 	.duration(300).EUt(120).buildAndRegister();
 
+assembler.recipeBuilder()
+	.inputs([<gregtech:meta_item_1:518>, microchipHv *2, <gregtech:meta_item_1:520> *2, sensorHv])
+    .fluidInputs([<liquid:soldering_alloy> *72])
+	.outputs(<opencomputers:tool>)
+	.duration(300).EUt(120).buildAndRegister();
 // Nanomachines
 recipes.remove(<opencomputers:tool:5>);
 assembler.recipeBuilder()
@@ -535,7 +582,7 @@ assembler.recipeBuilder()
 // Central Processing Unit Tier 1
 recipes.remove(<opencomputers:component>);
 assembler.recipeBuilder()
-	.inputs([arithmaticLogicUnit *8, controlUnit, <ore:circuitMv>, <ore:plateAluminium>,<gregtech:meta_item_1:602>])
+	.inputs([arithmaticLogicUnit *8, controlUnit, <ore:circuitMv>, <ore:plateAluminium>,<gregtech:meta_item_1:202>])
     .fluidInputs([<liquid:soldering_alloy> *72])
 	.circuit(1)
 	.outputs(<opencomputers:component>)
@@ -571,7 +618,7 @@ assembler.recipeBuilder()
 // Memory Tier 1
 recipes.remove(<opencomputers:component:6>);
 assembler.recipeBuilder()
-	.inputs([circuitBoardPlastic, <gregtech:meta_item_1:524> *16, microchipMv *2, <ore:foilElectrum> *16]) 
+	.inputs([circuitBoardPlastic, <gregtech:meta_item_1:524> *8, microchipMv *2, <ore:foilElectrum> *16]) 
     .fluidInputs([<liquid:soldering_alloy> *72])
 	.circuit(1)
 	.outputs(<opencomputers:component:6>)
@@ -580,7 +627,7 @@ assembler.recipeBuilder()
 // Memory Tier 1.5
 recipes.remove(<opencomputers:component:7>);
 assembler.recipeBuilder()
-	.inputs([circuitBoardPlastic, <gregtech:meta_item_1:524> *32, microchipMv *4, <ore:foilElectrum> *16]) 
+	.inputs([circuitBoardPlastic, <gregtech:meta_item_1:524> *16, microchipMv *4, <ore:foilElectrum> *16]) 
     .fluidInputs([<liquid:soldering_alloy> *72])
 	.circuit(2)
 	.outputs(<opencomputers:component:7>)
@@ -589,7 +636,7 @@ assembler.recipeBuilder()
 // Memory Tier 2 
 recipes.remove(<opencomputers:component:8>);
 assembler.recipeBuilder()
-	.inputs([circuitBoardAdvanced, <gregtech:meta_item_1:524> *64, microchipHv *2, <ore:foilElectrum> *16]) 
+	.inputs([circuitBoardAdvanced, <gregtech:meta_item_1:524> *32, microchipHv *2, <ore:foilElectrum> *16]) 
     .fluidInputs([<liquid:soldering_alloy> *72])
 	.circuit(1)
 	.outputs(<opencomputers:component:8>)
@@ -598,7 +645,7 @@ assembler.recipeBuilder()
 // Memory Tier 2.5
 recipes.remove(<opencomputers:component:9>);
 assembler.recipeBuilder()
-	.inputs([circuitBoardAdvanced, <gregtech:meta_item_1:524> *64, <gregtech:meta_item_1:523> *16, microchipHv *4, <ore:foilElectrum> *16]) 
+	.inputs([circuitBoardAdvanced, <gregtech:meta_item_1:524> *32, <gregtech:meta_item_1:523> *8, microchipHv *4, <ore:foilElectrum> *16]) 
     .fluidInputs([<liquid:soldering_alloy> *72])
 	.circuit(2)
 	.outputs(<opencomputers:component:9>)
@@ -607,7 +654,7 @@ assembler.recipeBuilder()
 // Memory Tier 3
 recipes.remove(<opencomputers:component:10>);
 assembler.recipeBuilder()
-	.inputs([circuitBoardExtreme, <gregtech:meta_item_1:524> *64, <gregtech:meta_item_1:523> *32, microchipEv *2, <ore:foilElectrum> *16]) 
+	.inputs([circuitBoardExtreme, <gregtech:meta_item_1:524> *32, <gregtech:meta_item_1:523> *16, microchipEv *2, <ore:foilElectrum> *16]) 
     .fluidInputs([<liquid:soldering_alloy> *72])
 	.circuit(1)
 	.outputs(<opencomputers:component:10>)
@@ -616,11 +663,60 @@ assembler.recipeBuilder()
 // Memory Tier 3.5
 recipes.remove(<opencomputers:component:11>);
 assembler.recipeBuilder()
-	.inputs([circuitBoardExtreme, <gregtech:meta_item_1:524> *64, <gregtech:meta_item_1:523> *64, microchipEv *4, <ore:foilElectrum> *16]) 
+	.inputs([circuitBoardExtreme, <gregtech:meta_item_1:524> *32, <gregtech:meta_item_1:523> *32, microchipEv *4, <ore:foilElectrum> *16]) 
     .fluidInputs([<liquid:soldering_alloy> *72])
 	.circuit(2)
 	.outputs(<opencomputers:component:11>)
 	.duration(250).EUt(1024).buildAndRegister();
+
+
+
+
+assembler.recipeBuilder()
+	.inputs([circuitBoardPlastic, <gregtech:meta_item_1:519> *16, microchipMv *2, <ore:foilElectrum> *16]) 
+    .fluidInputs([<liquid:soldering_alloy> *72])
+	.circuit(1)
+	.outputs(<opencomputers:component:6>)
+	.duration(250).EUt(30).buildAndRegister();
+
+assembler.recipeBuilder()
+	.inputs([circuitBoardPlastic, <gregtech:meta_item_1:519> *32, microchipMv *4, <ore:foilElectrum> *16]) 
+    .fluidInputs([<liquid:soldering_alloy> *72])
+	.circuit(2)
+	.outputs(<opencomputers:component:7>)
+	.duration(250).EUt(30).buildAndRegister();
+
+assembler.recipeBuilder()
+	.inputs([circuitBoardAdvanced, <gregtech:meta_item_1:519> *64, microchipHv *2, <ore:foilElectrum> *16]) 
+    .fluidInputs([<liquid:soldering_alloy> *72])
+	.circuit(1)
+	.outputs(<opencomputers:component:8>)
+	.duration(250).EUt(120).buildAndRegister();
+
+assembler.recipeBuilder()
+	.inputs([circuitBoardAdvanced, <gregtech:meta_item_1:519> *64, <gregtech:meta_item_1:518> *16, microchipHv *4, <ore:foilElectrum> *16]) 
+    .fluidInputs([<liquid:soldering_alloy> *72])
+	.circuit(2)
+	.outputs(<opencomputers:component:9>)
+	.duration(250).EUt(120).buildAndRegister();
+
+assembler.recipeBuilder()
+	.inputs([circuitBoardExtreme, <gregtech:meta_item_1:519> *64, <gregtech:meta_item_1:518> *32, microchipEv *2, <ore:foilElectrum> *16]) 
+    .fluidInputs([<liquid:soldering_alloy> *72])
+	.circuit(1)
+	.outputs(<opencomputers:component:10>)
+	.duration(250).EUt(1024).buildAndRegister();
+
+assembler.recipeBuilder()
+	.inputs([circuitBoardExtreme, <gregtech:meta_item_1:519> *64, <gregtech:meta_item_1:518> *64, microchipEv *4, <ore:foilElectrum> *16]) 
+    .fluidInputs([<liquid:soldering_alloy> *72])
+	.circuit(2)
+	.outputs(<opencomputers:component:11>)
+	.duration(250).EUt(1024).buildAndRegister();
+
+
+
+
 
 // Server Tier 1
 recipes.remove(<opencomputers:component:13>);
@@ -692,7 +788,7 @@ circuit_assembler.recipeBuilder()
     .fluidInputs([<liquid:soldering_alloy> *72])
 	.circuit(1)
 	.outputs(<opencomputers:card:1>)
-	.duration(400).EUt(120).buildAndRegister();
+	.duration(400).EUt(30).buildAndRegister();
 
 // Graphics Card Tier 2
 recipes.remove(<opencomputers:card:2>);
@@ -743,16 +839,29 @@ circuit_assembler.recipeBuilder()
 // Redstone Card Tier 1
 recipes.remove(<opencomputers:card:4>);
 circuit_assembler.recipeBuilder()
-	.inputs([cardBase, <ore:cableGtSingleCopper> *2, microchipMv, <gregtech:meta_item_1:525> *4, <minecraft:redstone_torch> *2])
+	.inputs([cardBase, <ore:cableGtSingleCopper> *2, microchipMv, <gregtech:meta_item_1:525> *2, <minecraft:redstone_torch> *2])
     .fluidInputs([<liquid:soldering_alloy> *72])
 	.circuit(1)
 	.outputs(<opencomputers:card:4>)
 	.duration(200).EUt(120).buildAndRegister();
 
+circuit_assembler.recipeBuilder()
+	.inputs([cardBase, <ore:cableGtSingleCopper> *2, microchipMv, <gregtech:meta_item_1:520> *4, <minecraft:redstone_torch> *2])
+    .fluidInputs([<liquid:soldering_alloy> *72])
+	.circuit(1)
+	.outputs(<opencomputers:card:4>)
+	.duration(200).EUt(120).buildAndRegister();
 // Redstone Card Tier 2
 recipes.remove(<opencomputers:card:5>);
 circuit_assembler.recipeBuilder()
-	.inputs([cardBase, <ore:cableGtSingleCopper> *2, microchipHv, <gregtech:meta_item_1:525> *16, <minecraft:redstone_torch> *4])
+	.inputs([cardBase, <ore:cableGtSingleCopper> *2, microchipHv, <gregtech:meta_item_1:525> *8, <minecraft:redstone_torch> *4])
+    .fluidInputs([<liquid:soldering_alloy> *72])
+	.circuit(1)
+	.outputs(<opencomputers:card:5>)
+	.duration(200).EUt(120).buildAndRegister();
+	
+circuit_assembler.recipeBuilder()
+	.inputs([cardBase, <ore:cableGtSingleCopper> *2, microchipHv, <gregtech:meta_item_1:520> *16, <minecraft:redstone_torch> *4])
     .fluidInputs([<liquid:soldering_alloy> *72])
 	.circuit(1)
 	.outputs(<opencomputers:card:5>)
@@ -784,25 +893,42 @@ assembler.recipeBuilder()
 	.circuit(1)
 	.outputs(<opencomputers:upgrade:1>)
 	.duration(300).EUt(120).buildAndRegister();
-
+assembler.recipeBuilder()
+	.inputs([circuitBoardPlastic, <ore:plateAluminium>, <opencomputers:capacitor>, <gregtech:meta_item_1:518> *4, <ore:wireFineRedAlloy> *8])
+    .fluidInputs([<liquid:soldering_alloy> *144])
+	.circuit(1)
+	.outputs(<opencomputers:upgrade:1>)
+	.duration(300).EUt(120).buildAndRegister();
 // Battery Upgrade Tier 2
 recipes.remove(<opencomputers:upgrade:2>);
 assembler.recipeBuilder()
-	.inputs([circuitBoardAdvanced, <ore:plateTitanium>, <opencomputers:capacitor> *2, <gregtech:meta_item_1:525> *2, <ore:wireFineRedAlloy> *8])
+	.inputs([circuitBoardAdvanced, <ore:plateTitanium>, <opencomputers:capacitor> *2, <gregtech:meta_item_1:525> *1, <ore:wireFineRedAlloy> *8])
     .fluidInputs([<liquid:soldering_alloy> *144])
 	.circuit(1)
 	.outputs(<opencomputers:upgrade:2>)
 	.duration(300).EUt(480).buildAndRegister();
 
+assembler.recipeBuilder()
+	.inputs([circuitBoardAdvanced, <ore:plateTitanium>, <opencomputers:capacitor> *2, <gregtech:meta_item_1:520> *2, <ore:wireFineRedAlloy> *8])
+    .fluidInputs([<liquid:soldering_alloy> *144])
+	.circuit(1)
+	.outputs(<opencomputers:upgrade:2>)
+	.duration(300).EUt(480).buildAndRegister();
 // Battery Upgrade Tier 3
 recipes.remove(<opencomputers:upgrade:3>);
+assembler.recipeBuilder()
+	.inputs([circuitBoardExtreme, <ore:plateTungstenSteel>, <opencomputers:capacitor> *4, <gregtech:meta_item_1:520> *1, <ore:wireFineRedAlloy> *8])
+    .fluidInputs([<liquid:soldering_alloy> *144])
+	.circuit(1)
+	.outputs(<opencomputers:upgrade:3>)
+	.duration(300).EUt(1024).buildAndRegister();
+
 assembler.recipeBuilder()
 	.inputs([circuitBoardExtreme, <ore:plateTungstenSteel>, <opencomputers:capacitor> *4, <gregtech:meta_item_1:525> *2, <ore:wireFineRedAlloy> *8])
     .fluidInputs([<liquid:soldering_alloy> *144])
 	.circuit(1)
 	.outputs(<opencomputers:upgrade:3>)
 	.duration(300).EUt(1024).buildAndRegister();
-
 // Card Container Tier 1
 recipes.remove(<opencomputers:upgrade:5>);
 assembler.recipeBuilder()

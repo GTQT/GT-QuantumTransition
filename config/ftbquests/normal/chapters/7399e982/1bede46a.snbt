@@ -15,7 +15,8 @@
 				},
 				RepairCost: 0
 			}
-		}]
+		}],
+		consume_items: true
 	}],
 	rewards: [{
 		uid: "74a32206",

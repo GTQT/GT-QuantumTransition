@@ -20,28 +20,28 @@
 		stage: "STEAM"
 	}],
 	rewards: [{
-		uid: "5933ecea",
-		type: "loot",
+		uid: "91cb606d",
+		type: "random",
 		table: 2
 	},
 	{
-		uid: "1274cbb2",
-		type: "loot",
+		uid: "df446208",
+		type: "random",
 		table: 2
 	},
 	{
-		uid: "fad51458",
-		type: "loot",
+		uid: "284a204d",
+		type: "random",
 		table: 2
 	},
 	{
-		uid: "650f4aff",
-		type: "loot",
+		uid: "ebcc888a",
+		type: "random",
 		table: 2
 	},
 	{
-		uid: "784b4b54",
-		type: "loot",
+		uid: "86ade1f3",
+		type: "random",
 		table: 2
 	}]
 }

@@ -19,8 +19,8 @@
 	},
 	"buttons": {
 		"singleplayer": {
-			"text": "Singleplayer",
-			"hoverText": "Lonely and melancholy",
+			"text": "\u5355\u4eba\u6e38\u620f",
+			"hoverText": "\u5b64\u72ec\u4e0e\u60c6\u6005",
 			"alignment": "center",
 			"posX": -150,
 			"posY": -25,
@@ -37,8 +37,8 @@
 			}
 		},
 		"multiplayer": {
-			"text": "Multiplayer",
-			"hoverText": "Loli Island",
+			"text": "\u591a\u4eba\u6e38\u620f",
+			"hoverText": "\u841d\u8389\u5c9b",
 			"alignment": "center",
 			"posX": -150,
 			"posY": -5,
@@ -55,8 +55,8 @@
 			}
 		},
 		"mods": {
-			"text": "Mods",
-			"hoverText": "Infinite hope",
+			"text": "\u6a21\u7ec4\u5217\u8868",
+			"hoverText": "\u91d1\u5c4b\u85cf\u5a07",
 			"alignment": "center",
 			"posX": -150,
 			"posY": 15,
@@ -73,8 +73,8 @@
 			}
 		},
 		"options": {
-			"text": "Options",
-			"hoverText": "Master nature",
+			"text": "\u9009\u9879\u8bbe\u7f6e",
+			"hoverText": "\u638c\u63a7\u81ea\u7136",
 			"alignment": "center",
 			"posX": -150,
 			"posY": 35,
@@ -91,8 +91,8 @@
 			}
 		},
 		"quit": {
-			"text": "Quit",
-			"hoverText": "You can never escape Greg.",
+			"text": "\u9000\u51fa\u6e38\u620f",
+			"hoverText": "\u4f60\u9003\u8131\u4e0d\u4e86\u683c\u96f7\u79d1\u6280",
 			"alignment": "center",
 			"posX": -150,
 			"posY": 55,
@@ -107,20 +107,8 @@
 				"type": "quit"
 			}
 		},
-		"language": {
-			"text": "",
-			"posX": -175,
-			"posY": 55,
-			"alignment": "center",
-			"width": 20,
-			"height": 20,
-			"action": {
-				"type": "openGui",
-				"gui": "languages"
-			}
-		},
 		"qq": {
-			"text": "QQ Group",
+			"text": "\u4ea4\u6d41\u7fa4\u7ec4",
 			"alignment": "center",
 			"posX": 0,
 			"posY": -25,
@@ -133,11 +121,11 @@
 			"clickSound": "block.lever.click",
 			"action": {
 				"type": "openLink",
-				"link": "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=b8a8ooB1hA3EAauOuO16EVBn46p9vtoG&authKey=lVbMU1%2B77xYzLeqnve%2Bn884vRDNKA03mtU3MvCgtvNSdq5Ew5px%2BtTm9CB7bNYgR&noverify=0&group_code=1073091808"
+				"link": "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Kdo7NTt_NL1LTD2AKitjKRf95dpJq971&authKey=l1gQHFPTQUZr4sjw4Cj8adYqEPMKK4B2ZBq%2FCG8ZMAav0qyqgukb2Rj9G2GZBw1m&noverify=0&group_code=494136307"
 			}
 		},
 		"github": {
-			"text": "Report A Bug",
+			"text": "\u95ee\u9898\u53cd\u9988",
 			"alignment": "center",
 			"posX": 0,
 			"posY": -5,
@@ -154,7 +142,7 @@
 			}
 		},
 		"open_folder": {
-			"text": "Open MC Folder",
+			"text": "\u6253\u5f00\u8def\u5f84",
 			"alignment": "center",
 			"posX": 0,
 			"posY": 15,
@@ -170,7 +158,7 @@
 			}
 		},
 		"refresh": {
-			"text": "Refresh Menu",
+			"text": "\u5237\u65b0\u83dc\u5355",
 			"alignment": "center",
 			"posX": 0,
 			"posY": 35,
@@ -184,29 +172,6 @@
 			"action": {
 				"type": "refresh"
 			}
-		},
-		"language": {
-			"text": "",
-			"posX": -25,
-			"posY": -25,
-			"alignment": "bottom_right",
-			"width": 20,
-			"height": 20,
-			"texture": "supersymmetry:mainmenu/button_language.png",
-			"action": {
-				"type": "openGui",
-				"gui": "languages"
-			}
-		},
-		"replaymod": {
-			"text": "Replay Viewer",
-			"posX": -115,
-			"posY": -25,
-			"alignment": "bottom_right",
-			"width": 85,
-			"height": 20,
-			"texture": "supersymmetry:mainmenu/button_bordered.png",
-			"wrappedButton": 17890234
 		}
 	},
 	"labels": {

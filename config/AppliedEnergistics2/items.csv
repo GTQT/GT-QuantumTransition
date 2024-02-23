@@ -769,61 +769,6 @@ forestry:resource_storage:2, 锡块
 forestry:resource_storage:3, 青铜块
 forestry:ash_brick:0, 灰砖
 forestry:ash_stairs:0, 灰砖楼梯
-forestry:bottler:0, 装瓶机
-forestry:carpenter:0, 木工机
-forestry:centrifuge:0, 离心机
-forestry:fermenter:0, 发酵机
-forestry:moistener:0, 加湿器
-forestry:squeezer:0, 榨汁机
-forestry:still:0, 蒸馏器
-forestry:rainmaker:0, 造雨机
-forestry:fabricator:0, 热电子加工台
-forestry:raintank:0, 集雨蓄水槽
-forestry:greenhouse:0, Greenhouse Block
-forestry:greenhouse:3, 温室能量分配器
-forestry:greenhouse:4, 温室控制器
-forestry:greenhouse:5, 温室屏幕
-forestry:climatiser:0, 温室湿度控制器
-forestry:climatiser:1, 温室加热器
-forestry:climatiser:2, 温室风扇
-forestry:climatiser:3, 温室加湿器
-forestry:climatiser:4, 温室除湿器
-forestry:greenhouse.window:0, 温室窗户
-forestry:greenhouse.window_up:0, 温室天窗
-forestry:stamps:0, 邮票(1n)
-forestry:stamps:1, 邮票(2n)
-forestry:stamps:2, 邮票(5n)
-forestry:stamps:3, 邮票(10n)
-forestry:stamps:4, 邮票(20n)
-forestry:stamps:5, 邮票(50n)
-forestry:stamps:6, 邮票(100n)
-forestry:letters, 信件
-forestry:catalogue, 贸易目录
-forestry:mailbox:0, 信箱
-forestry:trade_station:0, 贸易站
-forestry:stamp_collector:0, 集邮箱
-forestry:fluid.for.honey, 蜂蜜
-forestry:fluid.ice, 碎冰
-forestry:fluid.juice, 果汁
-forestry:fluid.milk, 牛奶
-forestry:fluid.seed.oil, 种子油
-forestry:fluid.short.mead, 蜂蜜酒
-forestry:can, item.for.can.name
-forestry:capsule, item.for.capsule.name
-forestry:refractory, item.for.refractory.name
-forestry:engine_peat:0, 泥炭引擎
-forestry:engine_biogas:0, 沼气引擎
-forestry:engine_clockwork:0, 发条引擎
-forestry:book_forester, 林务员手册
-forestry:charcoal:0, 木炭块
-forestry:wood_pile:0, 原木堆
-forestry:wood_pile_decorative:0, 装饰用原木堆
-forestry:ash_block_0:0, Ash Block
-forestry:ash_block_1:0, Ash Block
-forestry:ash_block_2:0, Ash Block
-forestry:ash_block_3:0, Ash Block
-forestry:loam:0, 壤土
-forestry:database:0, 数据库
 forestry:mushroom:0, tile.for.mushroom.name
 forestry:mushroom:1, tile.for.mushroom.name
 forestry:ffarm:0, 农场方块
@@ -881,70 +826,82 @@ forestry:ffarm:5, 农场控制盒
 forestry:ffarm:5, 农场控制盒
 forestry:ffarm:5, 农场控制盒
 forestry:ffarm:5, 农场控制盒
-forestry:habitat_former:0, Habitat Former
-forestry:habitat_screen, Habitat Screen
+forestry:fluid.for.honey, 蜂蜜
+forestry:fluid.ice, 碎冰
+forestry:fluid.juice, 果汁
+forestry:fluid.milk, 牛奶
+forestry:fluid.seed.oil, 种子油
+forestry:fluid.short.mead, 蜂蜜酒
+forestry:can, item.for.can.name
+forestry:capsule, item.for.capsule.name
+forestry:refractory, item.for.refractory.name
+forestry:apiarist_bag, 养蜂员背包
+forestry:lepidopterist_bag, 鳞翅目昆虫学家背包
+forestry:miner_bag, 采矿者背包
+forestry:miner_bag_t2, 采矿者编织背包
+forestry:digger_bag, 挖掘者背包
+forestry:digger_bag_t2, 挖掘者编织背包
+forestry:forester_bag, 林业员背包
+forestry:forester_bag_t2, 林业员编织背包
+forestry:hunter_bag, 狩猎者背包
+forestry:hunter_bag_t2, 狩猎者编织背包
+forestry:adventurer_bag, 冒险家背包
+forestry:adventurer_bag_t2, 冒险家编织背包
+forestry:builder_bag, 建筑师背包
+forestry:builder_bag_t2, 建筑师编织背包
+forestry:charcoal:0, 木炭块
+forestry:wood_pile:0, 原木堆
+forestry:wood_pile_decorative:0, 装饰用原木堆
+forestry:ash_block_0:0, Ash Block
+forestry:ash_block_1:0, Ash Block
+forestry:ash_block_2:0, Ash Block
+forestry:ash_block_3:0, Ash Block
+forestry:loam:0, 壤土
+forestry:engine_peat:0, 泥炭引擎
+forestry:engine_biogas:0, 沼气引擎
+forestry:engine_clockwork:0, 发条引擎
+forestry:bottler:0, 装瓶机
+forestry:carpenter:0, 木工机
+forestry:centrifuge:0, 离心机
+forestry:fermenter:0, 发酵机
+forestry:moistener:0, 加湿器
+forestry:squeezer:0, 榨汁机
+forestry:still:0, 蒸馏器
+forestry:rainmaker:0, 造雨机
+forestry:fabricator:0, 热电子加工台
+forestry:raintank:0, 集雨蓄水槽
+forestry:genetic_filter:0, 基因过滤器
+forestry:crate, 板条箱
 forestry:honeyed_slice, 蜂蜜面包
 forestry:ambrosia, 仙馔密酒
 forestry:honey_pot, 蜜罐
-forestry:habitat_locator, 栖息地定位仪
-forestry:imprinter, 染色体变换仪
-forestry:cart.beehouse:0, 蜂房车
-forestry:cart.beehouse:1, 蜂箱车
-forestry:frame_untreated, 未处理框架
-forestry:frame_impregnated, 浸渍框架
-forestry:frame_proven, 标定框架
-forestry:honey_drop:0, 蜂蜜滴
-forestry:pollen:0, 花粉
-forestry:pollen:1, 水晶花粉
-forestry:propolis:0, 蜂胶
-forestry:propolis:1, 粘性蜂胶
-forestry:propolis:3, 丝滑蜂胶
-forestry:honeydew, 蜂蜜汁
-forestry:royal_jelly, 蜂王浆
-forestry:wax_cast, 打蜡工具
-forestry:bee_combs:0, 蜜蜂蜂窝
-forestry:bee_combs:2, 激化蜂窝
-forestry:bee_combs:3, 纤维蜂窝
-forestry:bee_combs:4, 冻结蜂窝
-forestry:bee_combs:5, 滴水蜂窝
-forestry:bee_combs:6, 丝滑蜂窝
-forestry:bee_combs:7, 炎热蜂窝
-forestry:bee_combs:15, 苔藓蜂窝
-forestry:bee_combs:16, 醇厚蜂窝
-forestry:apiarist_helmet, 养蜂员帽子
-forestry:apiarist_chest, 养蜂员衬衣
-forestry:apiarist_legs, 养蜂员裤子
-forestry:apiarist_boots, 养蜂员靴子
-forestry:scoop, 捕虫网
-forestry:smoker, 驱蜂烟雾
-forestry:apiary:0, 蜂箱
-forestry:bee_house:0, 简易蜂房
-forestry:bee_chest:0, 养蜂人箱子
-forestry:beehives:0, 森林蜂巢
-forestry:beehives:1, 草地蜂巢
-forestry:beehives:2, 温和蜂巢
-forestry:beehives:3, 热带蜂巢
-forestry:beehives:4, 末影蜂巢
-forestry:beehives:5, 凛冬蜂巢
-forestry:beehives:6, 沼泽蜂巢
-forestry:candle:0, 熄灭的蜡烛
-forestry:stump:0, 蜡烛
-forestry:bee_combs_0:0, 蜜蜂蜂窝块
-forestry:bee_combs_0:2, 激化蜂窝块
-forestry:bee_combs_0:3, 纤维蜂窝块
-forestry:bee_combs_0:4, 冻结蜂窝块
-forestry:bee_combs_0:5, 滴水蜂窝块
-forestry:bee_combs_0:6, 丝滑蜂窝块
-forestry:bee_combs_0:7, 炎热蜂窝块
-forestry:bee_combs_0:15, 苔藓蜂窝块
-forestry:bee_combs_1:0, 醇厚蜂窝块
-forestry:alveary.plain:0, 蜂箱组
-forestry:alveary.swarmer:0, 蜂箱组克隆盒
-forestry:alveary.fan:0, 蜂箱组风扇
-forestry:alveary.heater:0, 蜂箱组加热器
-forestry:alveary.hygro:0, 蜂箱组保湿器
-forestry:alveary.stabiliser:0, 蜂箱组稳定器
-forestry:alveary.sieve:0, 蜂箱组滤网
+forestry:database:0, 数据库
+forestry:stamps:0, 邮票(1n)
+forestry:stamps:1, 邮票(2n)
+forestry:stamps:2, 邮票(5n)
+forestry:stamps:3, 邮票(10n)
+forestry:stamps:4, 邮票(20n)
+forestry:stamps:5, 邮票(50n)
+forestry:stamps:6, 邮票(100n)
+forestry:letters, 信件
+forestry:catalogue, 贸易目录
+forestry:mailbox:0, 信箱
+forestry:trade_station:0, 贸易站
+forestry:stamp_collector:0, 集邮箱
+forestry:arboretum:0, 自动伐木机
+forestry:arboretum:1, 手动伐木机
+forestry:farm_crops:0, 自动收割机
+forestry:farm_crops:1, 手动收割机
+forestry:farm_mushroom:0, 自动蘑菇收割机
+forestry:farm_mushroom:1, 手动蘑菇收割机
+forestry:farm_gourd:0, 自动瓜类收割机
+forestry:farm_gourd:1, 手动瓜类收割机
+forestry:farm_nether:0, 自动地狱收割机
+forestry:farm_nether:1, 手动地狱收割机
+forestry:farm_ender:0, 自动末影收割机
+forestry:farm_ender:1, 手动末影收割机
+forestry:peat_bog:0, 自动泥炭沼泽
+forestry:peat_bog:1, 手动泥炭沼泽
 forestry:grafter, 剪枝器
 forestry:grafter_proven, 标定剪枝器
 forestry:logs.0:0, 落叶树原木
@@ -1397,40 +1354,83 @@ forestry:leaves.decorative.2:0, 木瓜树叶
 forestry:leaves.decorative.2:1, 椰枣树叶
 forestry:leaves.decorative.2:2, 白杨树叶
 forestry:tree_chest:0, 林业员箱子
+forestry:habitat_locator, 栖息地定位仪
+forestry:imprinter, 染色体变换仪
+forestry:cart.beehouse:0, 蜂房车
+forestry:cart.beehouse:1, 蜂箱车
+forestry:frame_untreated, 未处理框架
+forestry:frame_impregnated, 浸渍框架
+forestry:frame_proven, 标定框架
+forestry:honey_drop:0, 蜂蜜滴
+forestry:pollen:0, 花粉
+forestry:pollen:1, 水晶花粉
+forestry:propolis:0, 蜂胶
+forestry:propolis:1, 粘性蜂胶
+forestry:propolis:3, 丝滑蜂胶
+forestry:honeydew, 蜂蜜汁
+forestry:royal_jelly, 蜂王浆
+forestry:wax_cast, 打蜡工具
+forestry:bee_combs:0, 蜜蜂蜂窝
+forestry:bee_combs:2, 激化蜂窝
+forestry:bee_combs:3, 纤维蜂窝
+forestry:bee_combs:4, 冻结蜂窝
+forestry:bee_combs:5, 滴水蜂窝
+forestry:bee_combs:6, 丝滑蜂窝
+forestry:bee_combs:7, 炎热蜂窝
+forestry:bee_combs:15, 苔藓蜂窝
+forestry:bee_combs:16, 醇厚蜂窝
+forestry:apiarist_helmet, 养蜂员帽子
+forestry:apiarist_chest, 养蜂员衬衣
+forestry:apiarist_legs, 养蜂员裤子
+forestry:apiarist_boots, 养蜂员靴子
+forestry:scoop, 捕虫网
+forestry:smoker, 驱蜂烟雾
+forestry:apiary:0, 蜂箱
+forestry:bee_house:0, 简易蜂房
+forestry:bee_chest:0, 养蜂人箱子
+forestry:beehives:0, 森林蜂巢
+forestry:beehives:1, 草地蜂巢
+forestry:beehives:2, 温和蜂巢
+forestry:beehives:3, 热带蜂巢
+forestry:beehives:4, 末影蜂巢
+forestry:beehives:5, 凛冬蜂巢
+forestry:beehives:6, 沼泽蜂巢
+forestry:candle:0, 熄灭的蜡烛
+forestry:stump:0, 蜡烛
+forestry:bee_combs_0:0, 蜜蜂蜂窝块
+forestry:bee_combs_0:2, 激化蜂窝块
+forestry:bee_combs_0:3, 纤维蜂窝块
+forestry:bee_combs_0:4, 冻结蜂窝块
+forestry:bee_combs_0:5, 滴水蜂窝块
+forestry:bee_combs_0:6, 丝滑蜂窝块
+forestry:bee_combs_0:7, 炎热蜂窝块
+forestry:bee_combs_0:15, 苔藓蜂窝块
+forestry:bee_combs_1:0, 醇厚蜂窝块
+forestry:alveary.plain:0, 蜂箱组
+forestry:alveary.swarmer:0, 蜂箱组克隆盒
+forestry:alveary.fan:0, 蜂箱组风扇
+forestry:alveary.heater:0, 蜂箱组加热器
+forestry:alveary.hygro:0, 蜂箱组保湿器
+forestry:alveary.stabiliser:0, 蜂箱组稳定器
+forestry:alveary.sieve:0, 蜂箱组滤网
+forestry:greenhouse:0, Greenhouse Block
+forestry:greenhouse:3, 温室能量分配器
+forestry:greenhouse:4, 温室控制器
+forestry:greenhouse:5, 温室屏幕
+forestry:climatiser:0, 温室湿度控制器
+forestry:climatiser:1, 温室加热器
+forestry:climatiser:2, 温室风扇
+forestry:climatiser:3, 温室加湿器
+forestry:climatiser:4, 温室除湿器
+forestry:greenhouse.window:0, 温室窗户
+forestry:greenhouse.window_up:0, 温室天窗
 forestry:butterfly_chest:0, 鳞翅目昆虫学家箱子
 forestry:cocoon:0, tile.for.cocoon.name
 forestry:cocoon.solid:0, tile.for.cocoon.solid.name
-forestry:apiarist_bag, 养蜂员背包
-forestry:lepidopterist_bag, 鳞翅目昆虫学家背包
-forestry:miner_bag, 采矿者背包
-forestry:miner_bag_t2, 采矿者编织背包
-forestry:digger_bag, 挖掘者背包
-forestry:digger_bag_t2, 挖掘者编织背包
-forestry:forester_bag, 林业员背包
-forestry:forester_bag_t2, 林业员编织背包
-forestry:hunter_bag, 狩猎者背包
-forestry:hunter_bag_t2, 狩猎者编织背包
-forestry:adventurer_bag, 冒险家背包
-forestry:adventurer_bag_t2, 冒险家编织背包
-forestry:builder_bag, 建筑师背包
-forestry:builder_bag_t2, 建筑师编织背包
-forestry:arboretum:0, 自动伐木机
-forestry:arboretum:1, 手动伐木机
-forestry:farm_crops:0, 自动收割机
-forestry:farm_crops:1, 手动收割机
-forestry:farm_mushroom:0, 自动蘑菇收割机
-forestry:farm_mushroom:1, 手动蘑菇收割机
-forestry:farm_gourd:0, 自动瓜类收割机
-forestry:farm_gourd:1, 手动瓜类收割机
-forestry:farm_nether:0, 自动地狱收割机
-forestry:farm_nether:1, 手动地狱收割机
-forestry:farm_ender:0, 自动末影收割机
-forestry:farm_ender:1, 手动末影收割机
-forestry:peat_bog:0, 自动泥炭沼泽
-forestry:peat_bog:1, 手动泥炭沼泽
-forestry:crate, 板条箱
+forestry:book_forester, 林务员手册
+forestry:habitat_former:0, Habitat Former
+forestry:habitat_screen, Habitat Screen
 forestry:worktable:0, 工作台
-forestry:genetic_filter:0, 基因过滤器
 binniecore:glass:0, Empty 瓶
 binniecore:glass:1, 苹果汁 瓶
 binniecore:glass:1, 杏汁 瓶
@@ -1573,106 +1573,6 @@ genetics:lab_machine:2, 恒温箱
 genetics:lab_machine:3, 基因池
 genetics:lab_machine:4, 适应性调整器
 genetics:adv_machine:0, 基因拼接器
-botany:plant:0, 杂草
-botany:plant:1, 杂草较多
-botany:plant:2, 杂草丛生
-botany:plant:3, 死花
-botany:plant:4, 花朵腐烂
-botany:soil:0, 土壤
-botany:soil:1, 土壤
-botany:soil:2, 土壤
-botany:soil:3, 土壤
-botany:soil:4, 土壤
-botany:soil:5, 土壤
-botany:soil:6, 土壤
-botany:soil:7, 土壤
-botany:soil:8, 土壤
-botany:loam:0, 壤土
-botany:loam:1, 壤土
-botany:loam:2, 壤土
-botany:loam:3, 壤土
-botany:loam:4, 壤土
-botany:loam:5, 壤土
-botany:loam:6, 壤土
-botany:loam:7, 壤土
-botany:loam:8, 壤土
-botany:flowerbed:0, 花坛
-botany:flowerbed:1, 花坛
-botany:flowerbed:2, 花坛
-botany:flowerbed:3, 花坛
-botany:flowerbed:4, 花坛
-botany:flowerbed:5, 花坛
-botany:flowerbed:6, 花坛
-botany:flowerbed:7, 花坛
-botany:flowerbed:8, 花坛
-botany:soil_no_weed:0, 土壤
-botany:soil_no_weed:1, 土壤
-botany:soil_no_weed:2, 土壤
-botany:soil_no_weed:3, 土壤
-botany:soil_no_weed:4, 土壤
-botany:soil_no_weed:5, 土壤
-botany:soil_no_weed:6, 土壤
-botany:soil_no_weed:7, 土壤
-botany:soil_no_weed:8, 土壤
-botany:loam_no_weed:0, 壤土
-botany:loam_no_weed:1, 壤土
-botany:loam_no_weed:2, 壤土
-botany:loam_no_weed:3, 壤土
-botany:loam_no_weed:4, 壤土
-botany:loam_no_weed:5, 壤土
-botany:loam_no_weed:6, 壤土
-botany:loam_no_weed:7, 壤土
-botany:loam_no_weed:8, 壤土
-botany:flowerbed_no_weed:0, 花坛
-botany:flowerbed_no_weed:1, 花坛
-botany:flowerbed_no_weed:2, 花坛
-botany:flowerbed_no_weed:3, 花坛
-botany:flowerbed_no_weed:4, 花坛
-botany:flowerbed_no_weed:5, 花坛
-botany:flowerbed_no_weed:6, 花坛
-botany:flowerbed_no_weed:7, 花坛
-botany:flowerbed_no_weed:8, 花坛
-botany:soil_meter, 土壤检测计
-botany:trowel_wood, 木质泥铲
-botany:trowel_stone, 石质泥铲
-botany:trowel_iron, 铁质泥铲
-botany:trowel_diamond, 钻石泥铲
-botany:trowel_gold, 金质泥铲
-botany:misc:0, 灰烬粉
-botany:misc:1, 木浆粉
-botany:misc:2, 覆盖戍粉
-botany:misc:3, 硫磺粉
-botany:misc:4, 肥料粉
-botany:misc:5, 堆肥粉
-botany:misc:6, 砂浆
-botany:misc:7, 除草剂
-botany:botanist_bag, 园丁背包
-botany:database:0, 植物学家数据库
-botany:database:1, 植物学家大师数据库
-botany:insulated_tube:0, 铜-粘土绝缘电子管
-botany:insulated_tube:128, 铜-圆石绝缘电子管
-botany:insulated_tube:256, 铜-砂岩绝缘电子管
-botany:insulated_tube:384, 铜-硬化粘土绝缘电子管
-botany:insulated_tube:512, 铜-石头绝缘电子管
-botany:insulated_tube:640, 铜-砂岩绝缘电子管
-botany:insulated_tube:1, 锡-粘土绝缘电子管
-botany:insulated_tube:129, 锡-圆石绝缘电子管
-botany:insulated_tube:257, 锡-砂岩绝缘电子管
-botany:insulated_tube:385, 锡-硬化粘土绝缘电子管
-botany:insulated_tube:513, 锡-石头绝缘电子管
-botany:insulated_tube:641, 锡-砂岩绝缘电子管
-botany:insulated_tube:2, 青铜-粘土绝缘电子管
-botany:insulated_tube:130, 青铜-圆石绝缘电子管
-botany:insulated_tube:258, 青铜-砂岩绝缘电子管
-botany:insulated_tube:386, 青铜-硬化粘土绝缘电子管
-botany:insulated_tube:514, 青铜-石头绝缘电子管
-botany:insulated_tube:642, 青铜-砂岩绝缘电子管
-botany:insulated_tube:3, 铁-粘土绝缘电子管
-botany:insulated_tube:131, 铁-圆石绝缘电子管
-botany:insulated_tube:259, 铁-砂岩绝缘电子管
-botany:insulated_tube:387, 铁-硬化粘土绝缘电子管
-botany:insulated_tube:515, 铁-石头绝缘电子管
-botany:insulated_tube:643, 铁-砂岩绝缘电子管
 botany:machine:0, 瓦砖工坊
 botany:ceramic:0, 碧蓝陶瓷块
 botany:ceramic:1, 黑陶瓷块
@@ -2009,6 +1909,106 @@ botany:clay:77, 白粘土
 botany:clay:78, 黄粘土
 botany:clay:79, 黄绿粘土
 botany:misc_ceramic:0, 砂浆
+botany:plant:0, 杂草
+botany:plant:1, 杂草较多
+botany:plant:2, 杂草丛生
+botany:plant:3, 死花
+botany:plant:4, 花朵腐烂
+botany:soil:0, 土壤
+botany:soil:1, 土壤
+botany:soil:2, 土壤
+botany:soil:3, 土壤
+botany:soil:4, 土壤
+botany:soil:5, 土壤
+botany:soil:6, 土壤
+botany:soil:7, 土壤
+botany:soil:8, 土壤
+botany:loam:0, 壤土
+botany:loam:1, 壤土
+botany:loam:2, 壤土
+botany:loam:3, 壤土
+botany:loam:4, 壤土
+botany:loam:5, 壤土
+botany:loam:6, 壤土
+botany:loam:7, 壤土
+botany:loam:8, 壤土
+botany:flowerbed:0, 花坛
+botany:flowerbed:1, 花坛
+botany:flowerbed:2, 花坛
+botany:flowerbed:3, 花坛
+botany:flowerbed:4, 花坛
+botany:flowerbed:5, 花坛
+botany:flowerbed:6, 花坛
+botany:flowerbed:7, 花坛
+botany:flowerbed:8, 花坛
+botany:soil_no_weed:0, 土壤
+botany:soil_no_weed:1, 土壤
+botany:soil_no_weed:2, 土壤
+botany:soil_no_weed:3, 土壤
+botany:soil_no_weed:4, 土壤
+botany:soil_no_weed:5, 土壤
+botany:soil_no_weed:6, 土壤
+botany:soil_no_weed:7, 土壤
+botany:soil_no_weed:8, 土壤
+botany:loam_no_weed:0, 壤土
+botany:loam_no_weed:1, 壤土
+botany:loam_no_weed:2, 壤土
+botany:loam_no_weed:3, 壤土
+botany:loam_no_weed:4, 壤土
+botany:loam_no_weed:5, 壤土
+botany:loam_no_weed:6, 壤土
+botany:loam_no_weed:7, 壤土
+botany:loam_no_weed:8, 壤土
+botany:flowerbed_no_weed:0, 花坛
+botany:flowerbed_no_weed:1, 花坛
+botany:flowerbed_no_weed:2, 花坛
+botany:flowerbed_no_weed:3, 花坛
+botany:flowerbed_no_weed:4, 花坛
+botany:flowerbed_no_weed:5, 花坛
+botany:flowerbed_no_weed:6, 花坛
+botany:flowerbed_no_weed:7, 花坛
+botany:flowerbed_no_weed:8, 花坛
+botany:soil_meter, 土壤检测计
+botany:trowel_wood, 木质泥铲
+botany:trowel_stone, 石质泥铲
+botany:trowel_iron, 铁质泥铲
+botany:trowel_diamond, 钻石泥铲
+botany:trowel_gold, 金质泥铲
+botany:misc:0, 灰烬粉
+botany:misc:1, 木浆粉
+botany:misc:2, 覆盖戍粉
+botany:misc:3, 硫磺粉
+botany:misc:4, 肥料粉
+botany:misc:5, 堆肥粉
+botany:misc:6, 砂浆
+botany:misc:7, 除草剂
+botany:botanist_bag, 园丁背包
+botany:insulated_tube:0, 铜-粘土绝缘电子管
+botany:insulated_tube:128, 铜-圆石绝缘电子管
+botany:insulated_tube:256, 铜-砂岩绝缘电子管
+botany:insulated_tube:384, 铜-硬化粘土绝缘电子管
+botany:insulated_tube:512, 铜-石头绝缘电子管
+botany:insulated_tube:640, 铜-砂岩绝缘电子管
+botany:insulated_tube:1, 锡-粘土绝缘电子管
+botany:insulated_tube:129, 锡-圆石绝缘电子管
+botany:insulated_tube:257, 锡-砂岩绝缘电子管
+botany:insulated_tube:385, 锡-硬化粘土绝缘电子管
+botany:insulated_tube:513, 锡-石头绝缘电子管
+botany:insulated_tube:641, 锡-砂岩绝缘电子管
+botany:insulated_tube:2, 青铜-粘土绝缘电子管
+botany:insulated_tube:130, 青铜-圆石绝缘电子管
+botany:insulated_tube:258, 青铜-砂岩绝缘电子管
+botany:insulated_tube:386, 青铜-硬化粘土绝缘电子管
+botany:insulated_tube:514, 青铜-石头绝缘电子管
+botany:insulated_tube:642, 青铜-砂岩绝缘电子管
+botany:insulated_tube:3, 铁-粘土绝缘电子管
+botany:insulated_tube:131, 铁-圆石绝缘电子管
+botany:insulated_tube:259, 铁-砂岩绝缘电子管
+botany:insulated_tube:387, 铁-硬化粘土绝缘电子管
+botany:insulated_tube:515, 铁-石头绝缘电子管
+botany:insulated_tube:643, 铁-砂岩绝缘电子管
+botany:database:0, 植物学家数据库
+botany:database:1, 植物学家大师数据库
 extrabees:honey_crystal, item.honey_crystal.name
 extrabees:honey_drop:0, 能量液滴
 extrabees:honey_drop:1, 酸液液滴
@@ -2829,7 +2829,6 @@ extratrees:drink:0, 雪利酒杯
 extratrees:drink:0, 香槟杯
 extratrees:drink:0, 装有红酒的杯子
 extratrees:databasetree, item.databaseTree.name
-extratrees:databaselepi, item.databaseLepi.name
 extratrees:machine:0, 锯木机
 extratrees:machine:1, 木材作坊
 extratrees:machine:2, 镶板作坊
@@ -2840,6 +2839,7 @@ extratrees:machine:7, 玻璃作坊
 extratrees:carpentry, 流体中子
 extratrees:carpentrypanel, 流体中子
 extratrees:stainedglass, 流体中子
+extratrees:databaselepi, item.databaseLepi.name
 extratrees:binnie.juice.apple, 苹果汁
 extratrees:binnie.juice.apricot, 杏汁
 extratrees:binnie.juice.banana, 香蕉汁
@@ -3321,8 +3321,6 @@ botanicadds:gaiasteel_ingot, 盖亚钢锭
 botanicadds:terra_protector, 盖亚祝福
 botanicadds:ring_aura_gaia, 盖亚光环之戒
 botanicadds:mana_stealer_sword, 窃魔之刃
-carryon:tile_item, item.tile_item.name
-carryon:entity_item, item.entity_item.name
 opencomputers:adapter:0, 适配器
 opencomputers:assembler:0, 装配器
 opencomputers:cable:0, 线缆
@@ -7583,15 +7581,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - 铜块
 appliedenergistics2:facade:0, 线缆伪装板 - 锡块
 appliedenergistics2:facade:0, 线缆伪装板 - 青铜块
 appliedenergistics2:facade:0, 线缆伪装板 - 灰砖
-appliedenergistics2:facade:0, 线缆伪装板 - Greenhouse Block
-appliedenergistics2:facade:0, 线缆伪装板 - 温室能量分配器
-appliedenergistics2:facade:0, 线缆伪装板 - 温室控制器
-appliedenergistics2:facade:0, 线缆伪装板 - 温室屏幕
-appliedenergistics2:facade:0, 线缆伪装板 - 温室湿度控制器
-appliedenergistics2:facade:0, 线缆伪装板 - 温室加热器
-appliedenergistics2:facade:0, 线缆伪装板 - 温室风扇
-appliedenergistics2:facade:0, 线缆伪装板 - 温室加湿器
-appliedenergistics2:facade:0, 线缆伪装板 - 温室除湿器
 appliedenergistics2:facade:0, 线缆伪装板 - 木炭块
 appliedenergistics2:facade:0, 线缆伪装板 - 原木堆
 appliedenergistics2:facade:0, 线缆伪装板 - 装饰用原木堆
@@ -7600,15 +7589,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - Ash Block
 appliedenergistics2:facade:0, 线缆伪装板 - Ash Block
 appliedenergistics2:facade:0, 线缆伪装板 - Ash Block
 appliedenergistics2:facade:0, 线缆伪装板 - 壤土
-appliedenergistics2:facade:0, 线缆伪装板 - 蜜蜂蜂窝块
-appliedenergistics2:facade:0, 线缆伪装板 - 激化蜂窝块
-appliedenergistics2:facade:0, 线缆伪装板 - 纤维蜂窝块
-appliedenergistics2:facade:0, 线缆伪装板 - 冻结蜂窝块
-appliedenergistics2:facade:0, 线缆伪装板 - 滴水蜂窝块
-appliedenergistics2:facade:0, 线缆伪装板 - 丝滑蜂窝块
-appliedenergistics2:facade:0, 线缆伪装板 - 炎热蜂窝块
-appliedenergistics2:facade:0, 线缆伪装板 - 苔藓蜂窝块
-appliedenergistics2:facade:0, 线缆伪装板 - 醇厚蜂窝块
 appliedenergistics2:facade:0, 线缆伪装板 - 落叶树原木
 appliedenergistics2:facade:0, 线缆伪装板 - 柚树原木
 appliedenergistics2:facade:0, 线缆伪装板 - 金合欢树原木
@@ -7772,6 +7752,24 @@ appliedenergistics2:facade:0, 线缆伪装板 - 绿心樟树叶
 appliedenergistics2:facade:0, 线缆伪装板 - 木瓜树叶
 appliedenergistics2:facade:0, 线缆伪装板 - 椰枣树叶
 appliedenergistics2:facade:0, 线缆伪装板 - 白杨树叶
+appliedenergistics2:facade:0, 线缆伪装板 - 蜜蜂蜂窝块
+appliedenergistics2:facade:0, 线缆伪装板 - 激化蜂窝块
+appliedenergistics2:facade:0, 线缆伪装板 - 纤维蜂窝块
+appliedenergistics2:facade:0, 线缆伪装板 - 冻结蜂窝块
+appliedenergistics2:facade:0, 线缆伪装板 - 滴水蜂窝块
+appliedenergistics2:facade:0, 线缆伪装板 - 丝滑蜂窝块
+appliedenergistics2:facade:0, 线缆伪装板 - 炎热蜂窝块
+appliedenergistics2:facade:0, 线缆伪装板 - 苔藓蜂窝块
+appliedenergistics2:facade:0, 线缆伪装板 - 醇厚蜂窝块
+appliedenergistics2:facade:0, 线缆伪装板 - Greenhouse Block
+appliedenergistics2:facade:0, 线缆伪装板 - 温室能量分配器
+appliedenergistics2:facade:0, 线缆伪装板 - 温室控制器
+appliedenergistics2:facade:0, 线缆伪装板 - 温室屏幕
+appliedenergistics2:facade:0, 线缆伪装板 - 温室湿度控制器
+appliedenergistics2:facade:0, 线缆伪装板 - 温室加热器
+appliedenergistics2:facade:0, 线缆伪装板 - 温室风扇
+appliedenergistics2:facade:0, 线缆伪装板 - 温室加湿器
+appliedenergistics2:facade:0, 线缆伪装板 - 温室除湿器
 appliedenergistics2:facade:0, 线缆伪装板 - 苹果树原木
 appliedenergistics2:facade:0, 线缆伪装板 - 无花果树原木
 appliedenergistics2:facade:0, 线缆伪装板 - 灰胡桃树原木
@@ -8340,6 +8338,28 @@ appliedenergistics2:facade:0, 线缆伪装板 - 海卫一地底岩石
 appliedenergistics2:facade:0, 线缆伪装板 - 海卫一石头
 appliedenergistics2:facade:0, 线缆伪装板 - 海卫一间歇泉
 appliedenergistics2:facade:0, 线缆伪装板 - 海卫一小型间歇泉
+appliedenergistics2:facade:0, 线缆伪装板 - 天仓五F泥土
+appliedenergistics2:facade:0, 线缆伪装板 - 天仓五F草方块
+appliedenergistics2:facade:0, 线缆伪装板 - 天仓五F石头
+appliedenergistics2:facade:0, 线缆伪装板 - 比邻星 B 表层
+appliedenergistics2:facade:0, 线缆伪装板 - 比邻星 B 次表层
+appliedenergistics2:facade:0, 线缆伪装板 - 比邻星 B 石头
+appliedenergistics2:facade:0, 线缆伪装板 - 比邻星 B 冰表层
+appliedenergistics2:facade:0, 线缆伪装板 - 比邻星 B 灰岩石
+appliedenergistics2:facade:0, 线缆伪装板 - 火星金矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 比邻星 B 锡矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 木卫一铜矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 火星煤矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 火星硅矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 比邻星 B 钻石矿石
+appliedenergistics2:facade:0, 线缆伪装板 - Rocky Surface
+appliedenergistics2:facade:0, 线缆伪装板 - Mushroom Skin
+appliedenergistics2:facade:0, 线缆伪装板 - Mushroom Geyser
+appliedenergistics2:facade:0, 线缆伪装板 - Mud
+appliedenergistics2:facade:0, 线缆伪装板 - 烧焦的木头
+appliedenergistics2:facade:0, 线缆伪装板 - 冻结的木头
+appliedenergistics2:facade:0, 线缆伪装板 - Mushroom Stem
+appliedenergistics2:facade:0, 线缆伪装板 - Grass
 appliedenergistics2:facade:0, 线缆伪装板 - 巴纳德C草方块
 appliedenergistics2:facade:0, 线缆伪装板 - tile.barnarda_c_grass_1.name
 appliedenergistics2:facade:0, 线缆伪装板 - 巴纳德C泥土
@@ -8367,28 +8387,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - 铝矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 石英矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 钴矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 镍矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 比邻星 B 表层
-appliedenergistics2:facade:0, 线缆伪装板 - 比邻星 B 次表层
-appliedenergistics2:facade:0, 线缆伪装板 - 比邻星 B 石头
-appliedenergistics2:facade:0, 线缆伪装板 - 比邻星 B 冰表层
-appliedenergistics2:facade:0, 线缆伪装板 - 比邻星 B 灰岩石
-appliedenergistics2:facade:0, 线缆伪装板 - 火星金矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 比邻星 B 锡矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 木卫一铜矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 火星煤矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 火星硅矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 比邻星 B 钻石矿石
-appliedenergistics2:facade:0, 线缆伪装板 - Rocky Surface
-appliedenergistics2:facade:0, 线缆伪装板 - Mushroom Skin
-appliedenergistics2:facade:0, 线缆伪装板 - Mushroom Geyser
-appliedenergistics2:facade:0, 线缆伪装板 - Mud
-appliedenergistics2:facade:0, 线缆伪装板 - 烧焦的木头
-appliedenergistics2:facade:0, 线缆伪装板 - 冻结的木头
-appliedenergistics2:facade:0, 线缆伪装板 - Mushroom Stem
-appliedenergistics2:facade:0, 线缆伪装板 - Grass
-appliedenergistics2:facade:0, 线缆伪装板 - 天仓五F泥土
-appliedenergistics2:facade:0, 线缆伪装板 - 天仓五F草方块
-appliedenergistics2:facade:0, 线缆伪装板 - 天仓五F石头
 appliedenergistics2:facade:0, 线缆伪装板 - Psi粉块
 appliedenergistics2:facade:0, 线缆伪装板 - 磁钢块
 appliedenergistics2:facade:0, 线缆伪装板 - 基岩粉块
@@ -8521,65 +8519,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - [腐蚀]意志之瞳
 appliedenergistics2:facade:0, 线缆伪装板 - [破坏]意志之瞳
 appliedenergistics2:facade:0, 线缆伪装板 - [复仇]意志之瞳
 appliedenergistics2:facade:0, 线缆伪装板 - [坚毅]意志之瞳
-appliedenergistics2:facade:0, 线缆伪装板 - 烟熏石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制烟熏石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹烟熏石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 魔力石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制魔力石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹魔力石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 烈焰石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制烈焰石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹烈焰石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 熏香石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制熏香石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹熏香石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 红色石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制红色石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹红色石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 精灵石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制精灵石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹精灵石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 金黄石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制金黄石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 竖纹金黄石英块
-appliedenergistics2:facade:0, 线缆伪装板 - 变质森林石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质平原石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高山石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高原石头
-appliedenergistics2:facade:0, 线缆伪装板 - 变质森林圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质平原圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高山圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高原圆石
-appliedenergistics2:facade:0, 线缆伪装板 - 变质森林石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质平原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高山石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 变质高原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质森林石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质平原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质高山石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质菌丝石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质沼泽石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质沙漠石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质雪原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质高原石砖
-appliedenergistics2:facade:0, 线缆伪装板 - 白色葡萄牙路面
-appliedenergistics2:facade:0, 线缆伪装板 - 黑色葡萄牙路面
-appliedenergistics2:facade:0, 线缆伪装板 - 蓝色葡萄牙路面
-appliedenergistics2:facade:0, 线缆伪装板 - 红色葡萄牙路面
-appliedenergistics2:facade:0, 线缆伪装板 - 黄色葡萄牙路面
-appliedenergistics2:facade:0, 线缆伪装板 - 绿色葡萄牙路面
 appliedenergistics2:facade:0, 线缆伪装板 - 活石
 appliedenergistics2:facade:0, 线缆伪装板 - 活石砖
 appliedenergistics2:facade:0, 线缆伪装板 - 苔活石砖
@@ -8650,6 +8589,65 @@ appliedenergistics2:facade:0, 线缆伪装板 - 鲜草草地
 appliedenergistics2:facade:0, 线缆伪装板 - 焦草草地
 appliedenergistics2:facade:0, 线缆伪装板 - 注魔草地
 appliedenergistics2:facade:0, 线缆伪装板 - 异变草地
+appliedenergistics2:facade:0, 线缆伪装板 - 烟熏石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制烟熏石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹烟熏石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 魔力石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制魔力石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹魔力石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 烈焰石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制烈焰石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹烈焰石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 熏香石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制熏香石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹熏香石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 红色石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制红色石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹红色石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 精灵石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制精灵石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹精灵石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 金黄石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制金黄石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 竖纹金黄石英块
+appliedenergistics2:facade:0, 线缆伪装板 - 变质森林石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质平原石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高山石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高原石头
+appliedenergistics2:facade:0, 线缆伪装板 - 变质森林圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质平原圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高山圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高原圆石
+appliedenergistics2:facade:0, 线缆伪装板 - 变质森林石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质平原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高山石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质菌丝石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沼泽石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质沙漠石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质雪原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 变质高原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质森林石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质平原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质高山石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质菌丝石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质沼泽石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质沙漠石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质雪原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 錾制变质高原石砖
+appliedenergistics2:facade:0, 线缆伪装板 - 白色葡萄牙路面
+appliedenergistics2:facade:0, 线缆伪装板 - 黑色葡萄牙路面
+appliedenergistics2:facade:0, 线缆伪装板 - 蓝色葡萄牙路面
+appliedenergistics2:facade:0, 线缆伪装板 - 红色葡萄牙路面
+appliedenergistics2:facade:0, 线缆伪装板 - 黄色葡萄牙路面
+appliedenergistics2:facade:0, 线缆伪装板 - 绿色葡萄牙路面
 appliedenergistics2:facade:0, 线缆伪装板 - 长距离物品管道
 appliedenergistics2:facade:0, 线缆伪装板 - 长距离流体管道
 appliedenergistics2:facade:0, 线缆伪装板 - 密封机械方块 I
@@ -8861,6 +8859,8 @@ appliedenergistics2:facade:0, 线缆伪装板 - 橡胶树叶
 appliedenergistics2:facade:0, 线缆伪装板 - 橡胶木板
 appliedenergistics2:facade:0, 线缆伪装板 - 防腐木板
 appliedenergistics2:facade:0, 线缆伪装板 - 脆木炭块
+appliedenergistics2:facade:0, 线缆伪装板 - Powderbarrel
+appliedenergistics2:facade:0, 线缆伪装板 - Industrial TNT
 appliedenergistics2:facade:0, 线缆伪装板 - 白色金属板方块
 appliedenergistics2:facade:0, 线缆伪装板 - 橘色金属板方块
 appliedenergistics2:facade:0, 线缆伪装板 - 品红色金属板方块
@@ -9261,6 +9261,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - 钒镓合金块
 appliedenergistics2:facade:0, 线缆伪装板 - 锻铁块
 appliedenergistics2:facade:0, 线缆伪装板 - 钇钡铜氧化物块
 appliedenergistics2:facade:0, 线缆伪装板 - 石英岩块
+appliedenergistics2:facade:0, 线缆伪装板 - 石墨块
 appliedenergistics2:facade:0, 线缆伪装板 - 铱锇合金块
 appliedenergistics2:facade:0, 线缆伪装板 - 砷化镓块
 appliedenergistics2:facade:0, 线缆伪装板 - 磷化铟镓块
@@ -9411,6 +9412,8 @@ appliedenergistics2:facade:0, 线缆伪装板 - 晶化粉红史莱姆块
 appliedenergistics2:facade:0, 线缆伪装板 - 孚能银块
 appliedenergistics2:facade:0, 线缆伪装板 - 强场合金块
 appliedenergistics2:facade:0, 线缆伪装板 - 粗钢块
+appliedenergistics2:facade:0, 线缆伪装板 - 柴隆纤维块
+appliedenergistics2:facade:0, 线缆伪装板 - 贵金属块
 appliedenergistics2:facade:0, 线缆伪装板 - gregtech.material.periodicium块
 appliedenergistics2:facade:0, 线缆伪装板 - 金属氢块
 appliedenergistics2:facade:0, 线缆伪装板 - 共振紫晶块
@@ -9425,6 +9428,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - 流块
 appliedenergistics2:facade:0, 线缆伪装板 - 土块
 appliedenergistics2:facade:0, 线缆伪装板 - 熵块
 appliedenergistics2:facade:0, 线缆伪装板 - 序块
+appliedenergistics2:facade:0, 线缆伪装板 - 可燃冰块
 appliedenergistics2:facade:0, 线缆伪装板 - 神秘块
 appliedenergistics2:facade:0, 线缆伪装板 - 虚空块
 appliedenergistics2:facade:0, 线缆伪装板 - 镍基合金-625块
@@ -9524,6 +9528,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - 铁框架
 appliedenergistics2:facade:0, 线缆伪装板 - 镁框架
 appliedenergistics2:facade:0, 线缆伪装板 - 钛框架
 appliedenergistics2:facade:0, 线缆伪装板 - 钨框架
+appliedenergistics2:facade:0, 线缆伪装板 - 硅岩框架
 appliedenergistics2:facade:0, 线缆伪装板 - 超能硅岩框架
 appliedenergistics2:facade:0, 线缆伪装板 - 中子素框架
 appliedenergistics2:facade:0, 线缆伪装板 - 三钛合金框架
@@ -9556,6 +9561,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - 耐热铬铁合金-MA956框架
 appliedenergistics2:facade:0, 线缆伪装板 - 山铜框架
 appliedenergistics2:facade:0, 线缆伪装板 - 精金框架
 appliedenergistics2:facade:0, 线缆伪装板 - 富勒烯框架
+appliedenergistics2:facade:0, 线缆伪装板 - 精金石框架
 appliedenergistics2:facade:0, 线缆伪装板 - 磁流体动力学约束恒星等离子体物质框架
 appliedenergistics2:facade:0, 线缆伪装板 - 陨铁框架
 appliedenergistics2:facade:0, 线缆伪装板 - 戴斯框架
@@ -9757,9 +9763,9 @@ appliedenergistics2:facade:0, 线缆伪装板 - 末地石磁铁矿矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 辉钼矿矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 地狱岩辉钼矿矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 末地石辉钼矿矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 钼钨钙矿矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 地狱岩钼钨钙矿矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 末地石钼钨钙矿矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 钼钙矿矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 地狱岩钼钙矿矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 末地石钼钙矿矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 黄铁矿矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 地狱岩黄铁矿矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 末地石黄铁矿矿石
@@ -9955,6 +9961,9 @@ appliedenergistics2:facade:0, 线缆伪装板 - 末地石陨铁矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 戴斯矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 地狱岩戴斯矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 末地石戴斯矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 贵金属矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 地狱岩贵金属矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 末地石贵金属矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 贫硫化金矿石矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 地狱岩贫硫化金矿石矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 末地石贫硫化金矿石矿石
@@ -10000,6 +10009,18 @@ appliedenergistics2:facade:0, 线缆伪装板 - 末地石磷铝锂石矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 琥珀矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 地狱岩琥珀矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 末地石琥珀矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 方钍石矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 地狱岩方钍石矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 末地石方钍石矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 氧化硅岩矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 地狱岩氧化硅岩矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 末地石氧化硅岩矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 钠硼解石矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 地狱岩钠硼解石矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 末地石钠硼解石矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 可燃冰矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 地狱岩可燃冰矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 末地石可燃冰矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 致密构建方块
 appliedenergistics2:facade:0, 线缆伪装板 - 铝块
 appliedenergistics2:facade:0, 线缆伪装板 - 铝块
@@ -12274,7 +12295,6 @@ appliedenergistics2:facade:0, 线缆伪装板 - tile.turbine_casing1.precise_ass
 appliedenergistics2:facade:0, 线缆伪装板 - tile.turbine_casing1.precise_assembler_casing_mk2.name
 appliedenergistics2:facade:0, 线缆伪装板 - tile.turbine_casing1.precise_assembler_casing_mk3.name
 appliedenergistics2:facade:0, 线缆伪装板 - 镀锌钢机械外壳
-appliedenergistics2:facade:0, 线缆伪装板 - tile.turbine_casing1.zhu.name
 appliedenergistics2:facade:0, 线缆伪装板 - 量子约束机器外壳
 appliedenergistics2:facade:0, 线缆伪装板 - 中子脉冲控制器机械方块
 appliedenergistics2:facade:0, 线缆伪装板 - 中子屏蔽核心机械方块
@@ -12490,7 +12510,8 @@ appliedenergistics2:facade:0, 线缆伪装板 - 谐振腔
 appliedenergistics2:facade:0, 线缆伪装板 - 高压流电容方块
 appliedenergistics2:facade:0, 线缆伪装板 - 元素约束机械方块
 appliedenergistics2:facade:0, 线缆伪装板 - 无菌农场机械方块
-appliedenergistics2:facade:0, 线缆伪装板 - yot机械方块
+appliedenergistics2:facade:0, 线缆伪装板 - YOT机械方块
+appliedenergistics2:facade:0, 线缆伪装板 - TFFT机械方块
 appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T1)
 appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T2)
 appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T3)
@@ -12499,6 +12520,18 @@ appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T5)
 appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T6)
 appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T7)
 appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T8)
+appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T9)
+appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T10)
+appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T1)
+appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T2)
+appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T3)
+appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T4)
+appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T5)
+appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T6)
+appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T7)
+appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T8)
+appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T9)
+appliedenergistics2:facade:0, 线缆伪装板 - 流体单元方块(T10)
 appliedenergistics2:facade:0, 线缆伪装板 - 粉色史莱姆泥土
 appliedenergistics2:facade:0, 线缆伪装板 - 飞龙金属块
 appliedenergistics2:facade:0, 线缆伪装板 - 神龙金属块
@@ -13716,6 +13749,49 @@ galaxyspace:plasma_axe, 等离子斧
 galaxyspace:plasma_pickaxe, 等离子镐
 galaxyspace:jetpack, 电力喷气背包
 galaxyspace:geo_scanner:100, 地质勘探仪
+galaxyspace:tauceti_f_blocks:0, 天仓五F泥土
+galaxyspace:tauceti_f_blocks:1, 天仓五F草方块
+galaxyspace:tauceti_f_blocks:2, 天仓五F石头
+galaxyspace:tauceti_f_watergrass:0, 红藻
+galaxyspace:tauceti_f_watergrass:1, 藻株底部
+galaxyspace:tauceti_f_watergrass:2, 藻株
+galaxyspace:tauceti_f_watergrass:3, 藻株顶部
+galaxyspace:tauceti_f_watergrass:4, 粘性藻株底部
+galaxyspace:tauceti_f_watergrass:5, 粘性藻株顶部
+galaxyspace:tauceti_f_watergrass:6, 褐藻
+galaxyspace:tauceti_f_watergrass:7, 海带
+galaxyspace:tauceti_f_corals:0, 脑纹珊瑚
+galaxyspace:tauceti_f_corals:1, 脑纹珊瑚扇
+galaxyspace:tauceti_f_corals:2, 气泡珊瑚
+galaxyspace:tauceti_f_corals:3, 气泡珊瑚扇
+galaxyspace:tauceti_f_corals:4, 火珊瑚
+galaxyspace:tauceti_f_corals:5, 火珊瑚扇
+galaxyspace:tauceti_f_corals:6, 鹿角珊瑚
+galaxyspace:tauceti_f_corals:7, 鹿角珊瑚扇
+galaxyspace:tauceti_f_corals:8, 管珊瑚
+galaxyspace:tauceti_f_corals:9, 管珊瑚扇
+galaxyspace:tauceti_f_corals:10, 海绵珊瑚
+galaxyspace:proxima_b_blocks:0, 比邻星 B 表层
+galaxyspace:proxima_b_blocks:1, 比邻星 B 次表层
+galaxyspace:proxima_b_blocks:2, 比邻星 B 石头
+galaxyspace:proxima_b_blocks:3, 比邻星 B 冰表层
+galaxyspace:proxima_b_blocks:4, 比邻星 B 灰岩石
+galaxyspace:proxima_b_blocks:5, 火星金矿石
+galaxyspace:proxima_b_blocks:6, 比邻星 B 锡矿石
+galaxyspace:proxima_b_blocks:7, 木卫一铜矿石
+galaxyspace:proxima_b_blocks:8, 火星煤矿石
+galaxyspace:proxima_b_blocks:9, 火星硅矿石
+galaxyspace:proxima_b_blocks:10, 比邻星 B 钻石矿石
+galaxyspace:proxima_b_blocks:11, Rocky Surface
+galaxyspace:proxima_b_blocks:12, Mushroom Skin
+galaxyspace:proxima_b_blocks:13, Mushroom Geyser
+galaxyspace:proxima_b_blocks:14, Mud
+galaxyspace:proxima_b_log_1, 烧焦的木头
+galaxyspace:proxima_b_log_2, 冻结的木头
+galaxyspace:proxima_b_mushroom_log, Mushroom Stem
+galaxyspace:proxima_b_grasses, Grass
+galaxyspace:proxima_b_dandelions:0, Red Tallgrass
+galaxyspace:proxima_b_dandelions:1, Red Tallgrass
 galaxyspace:barnarda_c_grasses:0, 巴纳德C草方块
 galaxyspace:barnarda_c_grasses:1, tile.barnarda_c_grass_1.name
 galaxyspace:barnarda_c_blocks:0, 巴纳德C泥土
@@ -13766,49 +13842,6 @@ galaxyspace:br_basic:1, 巴纳德C地衣
 galaxyspace:br_basic:2, 巴纳德C树脂
 galaxyspace:br_foods:0, 巴纳德C黄果
 galaxyspace:barnarda_c_violet_door, item.barnarda_c_violet_door.name
-galaxyspace:proxima_b_blocks:0, 比邻星 B 表层
-galaxyspace:proxima_b_blocks:1, 比邻星 B 次表层
-galaxyspace:proxima_b_blocks:2, 比邻星 B 石头
-galaxyspace:proxima_b_blocks:3, 比邻星 B 冰表层
-galaxyspace:proxima_b_blocks:4, 比邻星 B 灰岩石
-galaxyspace:proxima_b_blocks:5, 火星金矿石
-galaxyspace:proxima_b_blocks:6, 比邻星 B 锡矿石
-galaxyspace:proxima_b_blocks:7, 木卫一铜矿石
-galaxyspace:proxima_b_blocks:8, 火星煤矿石
-galaxyspace:proxima_b_blocks:9, 火星硅矿石
-galaxyspace:proxima_b_blocks:10, 比邻星 B 钻石矿石
-galaxyspace:proxima_b_blocks:11, Rocky Surface
-galaxyspace:proxima_b_blocks:12, Mushroom Skin
-galaxyspace:proxima_b_blocks:13, Mushroom Geyser
-galaxyspace:proxima_b_blocks:14, Mud
-galaxyspace:proxima_b_log_1, 烧焦的木头
-galaxyspace:proxima_b_log_2, 冻结的木头
-galaxyspace:proxima_b_mushroom_log, Mushroom Stem
-galaxyspace:proxima_b_grasses, Grass
-galaxyspace:proxima_b_dandelions:0, Red Tallgrass
-galaxyspace:proxima_b_dandelions:1, Red Tallgrass
-galaxyspace:tauceti_f_blocks:0, 天仓五F泥土
-galaxyspace:tauceti_f_blocks:1, 天仓五F草方块
-galaxyspace:tauceti_f_blocks:2, 天仓五F石头
-galaxyspace:tauceti_f_watergrass:0, 红藻
-galaxyspace:tauceti_f_watergrass:1, 藻株底部
-galaxyspace:tauceti_f_watergrass:2, 藻株
-galaxyspace:tauceti_f_watergrass:3, 藻株顶部
-galaxyspace:tauceti_f_watergrass:4, 粘性藻株底部
-galaxyspace:tauceti_f_watergrass:5, 粘性藻株顶部
-galaxyspace:tauceti_f_watergrass:6, 褐藻
-galaxyspace:tauceti_f_watergrass:7, 海带
-galaxyspace:tauceti_f_corals:0, 脑纹珊瑚
-galaxyspace:tauceti_f_corals:1, 脑纹珊瑚扇
-galaxyspace:tauceti_f_corals:2, 气泡珊瑚
-galaxyspace:tauceti_f_corals:3, 气泡珊瑚扇
-galaxyspace:tauceti_f_corals:4, 火珊瑚
-galaxyspace:tauceti_f_corals:5, 火珊瑚扇
-galaxyspace:tauceti_f_corals:6, 鹿角珊瑚
-galaxyspace:tauceti_f_corals:7, 鹿角珊瑚扇
-galaxyspace:tauceti_f_corals:8, 管珊瑚
-galaxyspace:tauceti_f_corals:9, 管珊瑚扇
-galaxyspace:tauceti_f_corals:10, 海绵珊瑚
 galacticraftcore:unlit_torch_stone, 阴燃石火把
 galacticraftcore:unlit_torch_stone_lit, 石火把
 psi:material:0, Psi粉
@@ -15775,6 +15808,339 @@ bloodmagic:demon_will_gauge, 灵域测量仪
 bloodmagic:potion_flask, 药剂瓶
 bloodmagic:alchemic_vial, item.bloodmagic.alchemic_vial.name
 bloodmagic:icarus_scroll, 伊卡洛斯卷轴
+botania:flower:0, 白色神秘花
+botania:flower:1, 橙色神秘花
+botania:flower:2, 品红色神秘花
+botania:flower:3, 淡蓝色神秘花
+botania:flower:4, 黄色神秘花
+botania:flower:5, 黄绿色神秘花
+botania:flower:6, 粉红色神秘花
+botania:flower:7, 灰色神秘花
+botania:flower:8, 淡灰色神秘花
+botania:flower:9, 青色神秘花
+botania:flower:10, 紫色神秘花
+botania:flower:11, 蓝色神秘花
+botania:flower:12, 棕色神秘花
+botania:flower:13, 绿色神秘花
+botania:flower:14, 红色神秘花
+botania:flower:15, 黑色神秘花
+botania:altar:0, 花药台
+botania:altar:1, 森林花药台
+botania:altar:2, 平原花药台
+botania:altar:3, 高山花药台
+botania:altar:4, 菌丝花药台
+botania:altar:5, 沼泽花药台
+botania:altar:6, 沙漠花药台
+botania:altar:7, 雪原花药台
+botania:altar:8, 高原花药台
+botania:livingrock:0, 活石
+botania:livingrock:1, 活石砖
+botania:livingrock:2, 苔活石砖
+botania:livingrock:3, 裂活石砖
+botania:livingrock:4, 框边活石砖
+botania:livingwood:0, 活木
+botania:livingwood:1, 活木板
+botania:livingwood:2, 苔活木板
+botania:livingwood:3, 框边活木板
+botania:livingwood:4, 框纹活木板
+botania:livingwood:5, 微光活木
+botania:specialflower:0, 白雏菊
+botania:specialflower:0, 魔力星
+botania:specialflower:0, 火红莲
+botania:specialflower:0, 水绣球
+botania:specialflower:0, 炽玫瑰
+botania:specialflower:0, 阿卡纳蔷薇
+botania:specialflower:0, 咀叶花
+botania:specialflower:0, 热爆花
+botania:specialflower:0, 贪食花
+botania:specialflower:0, 彼方兰
+botania:specialflower:0, 粘球草
+botania:specialflower:0, 斑斓花
+botania:specialflower:0, 噬草花
+botania:specialflower:0, 勿落草
+botania:specialflower:0, 启命英
+botania:specialflower:0, 翡翠苋
+botania:specialflower:0, 娇媚之刺
+botania:specialflower:0, 小娇媚之刺
+botania:specialflower:0, 恐惧之刺
+botania:specialflower:0, 平成之梦
+botania:specialflower:0, 虎之眼
+botania:specialflower:0, 异构花
+botania:specialflower:0, 小异构花
+botania:specialflower:0, 凝矿兰
+botania:specialflower:0, 炎矿兰
+botania:specialflower:0, 天降之奏
+botania:specialflower:0, 冶炼火
+botania:specialflower:0, 田园康乃馨
+botania:specialflower:0, 小田园康乃馨
+botania:specialflower:0, 漏斗花
+botania:specialflower:0, 小漏斗花
+botania:specialflower:0, 手掌花
+botania:specialflower:0, 小手掌花
+botania:specialflower:0, 束缚莓
+botania:specialflower:0, 自由之翼
+botania:specialflower:0, 毒风信
+botania:specialflower:0, 石化草
+botania:specialflower:0, 畜牧花
+botania:specialflower:0, 粘土花
+botania:specialflower:0, 小粘土花
+botania:specialflower:0, 聚宝花
+botania:specialflower:0, 扇水仙
+botania:specialflower:0, 诱引莲
+botania:specialflower:0, 凌空蓟
+botania:specialflower:0, 气泡铃
+botania:specialflower:0, 小气泡铃
+botania:specialflower:0, 弱磁兰
+botania:specialflower:0, 小弱磁兰
+botania:specialflower:0, 消音柑
+botania:specialflower:0, 惊雷之花
+botania:specialflower:0, 凋零之花
+botania:specialflower:0, 碎玉之花
+botania:specialflower:0, 清露之花
+botania:spreader:0, 魔力发射器
+botania:spreader:1, 魔力发射器（红石）
+botania:spreader:2, 精灵魔力发射器
+botania:spreader:3, 盖亚魔力发射器
+botania:pool:0, 魔力池
+botania:pool:2, 稀释魔力池
+botania:pool:3, 神话魔力池
+botania:pool:1, 永恒魔力池
+botania:runealtar, tile.runeAltar.name
+botania:pylon:0, 魔法水晶
+botania:pylon:1, 自然水晶
+botania:pylon:2, 盖亚水晶
+botania:pistonrelay, tile.pistonRelay.name
+botania:distributor, 氧气释放机
+botania:manavoid, tile.manaVoid.name
+botania:manadetector, tile.manaDetector.name
+botania:enchanter, 神能炉
+botania:turntable, tile.turntable.name
+botania:tinyplanetblock, tile.tinyPlanetBlock.name
+botania:alchemycatalyst, tile.alchemyCatalyst.name
+botania:opencrate:0, 花格箱
+botania:opencrate:1, 机巧箱
+botania:foresteye, tile.forestEye.name
+botania:storage:0, 魔力钢块
+botania:storage:1, 泰拉钢块
+botania:storage:2, 源质钢块
+botania:storage:3, 魔力钻石块
+botania:storage:4, 龙石块
+botania:forestdrum:0, 狂野之鼓
+botania:forestdrum:1, 收集之鼓
+botania:forestdrum:2, 林冠之鼓
+botania:shinyflower:0, 白色荧光花
+botania:shinyflower:1, 橙色荧光花
+botania:shinyflower:2, 品红色荧光花
+botania:shinyflower:3, 淡蓝色荧光花
+botania:shinyflower:4, 黄色荧光花
+botania:shinyflower:5, 黄绿色荧光花
+botania:shinyflower:6, 粉红色荧光花
+botania:shinyflower:7, 灰色荧光花
+botania:shinyflower:8, 淡灰色荧光花
+botania:shinyflower:9, 青色荧光花
+botania:shinyflower:10, 紫色荧光花
+botania:shinyflower:11, 蓝色荧光花
+botania:shinyflower:12, 棕色荧光花
+botania:shinyflower:13, 绿色荧光花
+botania:shinyflower:14, 红色荧光花
+botania:shinyflower:15, 黑色荧光花
+botania:platform:0, 奥秘平台
+botania:platform:1, 幻影平台
+botania:platform:2, 不破平台
+botania:alfheimportal, tile.alfheimPortal.name
+botania:dreamwood:0, 梦之木
+botania:dreamwood:1, 梦之木板
+botania:dreamwood:2, 苔梦之木板
+botania:dreamwood:3, 框边梦之木板
+botania:dreamwood:4, 框纹梦之木板
+botania:dreamwood:5, 微光梦之木
+botania:conjurationcatalyst, tile.conjurationCatalyst.name
+botania:bifrost, tile.bifrost.name
+botania:miniisland:0, 白色浮空花
+botania:miniisland:1, 橙色浮空花
+botania:miniisland:2, 品红色浮空花
+botania:miniisland:3, 淡蓝色浮空花
+botania:miniisland:4, 黄色浮空花
+botania:miniisland:5, 黄绿色浮空花
+botania:miniisland:6, 粉红色浮空花
+botania:miniisland:7, 灰色浮空花
+botania:miniisland:8, 淡灰色浮空花
+botania:miniisland:9, 青色浮空花
+botania:miniisland:10, 紫色浮空花
+botania:miniisland:11, 蓝色浮空花
+botania:miniisland:12, 棕色浮空花
+botania:miniisland:13, 绿色浮空花
+botania:miniisland:14, 红色浮空花
+botania:miniisland:15, 黑色浮空花
+botania:tinypotato, tile.tinyPotato.name
+botania:spawnerclaw, tile.spawnerClaw.name
+botania:custombrick:0, 阿兹勒赫瓷砖
+botania:custombrick:1, 阿兹勒赫瓷砖
+botania:custombrick:2, 阿兹勒赫瓷砖
+botania:custombrick:3, 阿兹勒赫瓷砖
+botania:custombrick:4, 阿兹勒赫瓷砖
+botania:custombrick:5, 阿兹勒赫瓷砖
+botania:custombrick:6, 阿兹勒赫瓷砖
+botania:custombrick:7, 阿兹勒赫瓷砖
+botania:custombrick:8, 阿兹勒赫瓷砖
+botania:custombrick:9, 阿兹勒赫瓷砖
+botania:custombrick:10, 阿兹勒赫瓷砖
+botania:custombrick:11, 阿兹勒赫瓷砖
+botania:custombrick:12, 阿兹勒赫瓷砖
+botania:custombrick:13, 阿兹勒赫瓷砖
+botania:custombrick:14, 阿兹勒赫瓷砖
+botania:custombrick:15, 阿兹勒赫瓷砖
+botania:endereyeblock, tile.enderEyeBlock.name
+botania:starfield, tile.starfield.name
+botania:rfgenerator, tile.rfGenerator.name
+botania:elfglass, tile.elfGlass.name
+botania:brewery, tile.brewery.name
+botania:managlass, tile.manaGlass.name
+botania:terraplate, tile.terraPlate.name
+botania:redstringcontainer, tile.redStringContainer.name
+botania:redstringdispenser, tile.redStringDispenser.name
+botania:redstringfertilizer, tile.redStringFertilizer.name
+botania:redstringcomparator, tile.redStringComparator.name
+botania:redstringrelay, tile.redStringRelay.name
+botania:floatingspecialflower:0, 浮空白雏菊
+botania:floatingspecialflower:0, 浮空魔力星
+botania:floatingspecialflower:0, 浮空火红莲
+botania:floatingspecialflower:0, 浮空水绣球
+botania:floatingspecialflower:0, 浮空炽玫瑰
+botania:floatingspecialflower:0, 浮空阿卡纳蔷薇
+botania:floatingspecialflower:0, 浮空咀叶花
+botania:floatingspecialflower:0, 浮空热爆花
+botania:floatingspecialflower:0, 浮空贪食花
+botania:floatingspecialflower:0, 浮空彼方兰
+botania:floatingspecialflower:0, 浮空粘球草
+botania:floatingspecialflower:0, 浮空斑斓花
+botania:floatingspecialflower:0, 浮空噬草花
+botania:floatingspecialflower:0, 浮空勿落草
+botania:floatingspecialflower:0, 浮空启命英
+botania:floatingspecialflower:0, 浮空翡翠苋
+botania:floatingspecialflower:0, 浮空娇媚之刺
+botania:floatingspecialflower:0, 浮空小娇媚之刺
+botania:floatingspecialflower:0, 浮空恐惧之刺
+botania:floatingspecialflower:0, 浮空平成之梦
+botania:floatingspecialflower:0, 浮空虎之眼
+botania:floatingspecialflower:0, 浮空异构花
+botania:floatingspecialflower:0, 浮空小异构花
+botania:floatingspecialflower:0, 浮空凝矿兰
+botania:floatingspecialflower:0, 浮空炎矿兰
+botania:floatingspecialflower:0, 浮空天降之奏
+botania:floatingspecialflower:0, 浮空冶炼火
+botania:floatingspecialflower:0, 浮空田园康乃馨
+botania:floatingspecialflower:0, 浮空小田园康乃馨
+botania:floatingspecialflower:0, 浮空漏斗花
+botania:floatingspecialflower:0, 浮空小漏斗花
+botania:floatingspecialflower:0, 浮空手掌花
+botania:floatingspecialflower:0, 浮空小手掌花
+botania:floatingspecialflower:0, 浮空束缚莓
+botania:floatingspecialflower:0, 浮空自由之翼
+botania:floatingspecialflower:0, 浮空毒风信
+botania:floatingspecialflower:0, 浮空石化草
+botania:floatingspecialflower:0, 浮空畜牧花
+botania:floatingspecialflower:0, 浮空粘土花
+botania:floatingspecialflower:0, 浮空小粘土花
+botania:floatingspecialflower:0, 浮空聚宝花
+botania:floatingspecialflower:0, 浮空扇水仙
+botania:floatingspecialflower:0, 浮空诱引莲
+botania:floatingspecialflower:0, 浮空凌空蓟
+botania:floatingspecialflower:0, 浮空气泡铃
+botania:floatingspecialflower:0, 浮空小气泡铃
+botania:floatingspecialflower:0, 浮空弱磁兰
+botania:floatingspecialflower:0, 浮空小弱磁兰
+botania:floatingspecialflower:0, 浮空消音柑
+botania:floatingspecialflower:0, 浮空惊雷之花
+botania:floatingspecialflower:0, 浮空凋零之花
+botania:floatingspecialflower:0, 浮空碎玉之花
+botania:floatingspecialflower:0, 浮空清露之花
+botania:prism, tile.prism.name
+botania:enchantedsoil, tile.enchantedSoil.name
+botania:petalblock:0, 白色花瓣块
+botania:petalblock:1, 橙色花瓣块
+botania:petalblock:2, 品红色花瓣块
+botania:petalblock:3, 淡蓝色花瓣块
+botania:petalblock:4, 黄色花瓣块
+botania:petalblock:5, 黄绿色花瓣块
+botania:petalblock:6, 粉红色花瓣块
+botania:petalblock:7, 灰色花瓣块
+botania:petalblock:8, 淡灰色花瓣块
+botania:petalblock:9, 青色花瓣块
+botania:petalblock:10, 紫色花瓣块
+botania:petalblock:11, 蓝色花瓣块
+botania:petalblock:12, 棕色花瓣块
+botania:petalblock:13, 绿色花瓣块
+botania:petalblock:14, 红色花瓣块
+botania:petalblock:15, 黑色花瓣块
+botania:corporeaindex, tile.corporeaIndex.name
+botania:corporeafunnel, tile.corporeaFunnel.name
+botania:mushroom:0, 白色微光蘑菇
+botania:mushroom:1, 橙色微光蘑菇
+botania:mushroom:2, 品红色微光蘑菇
+botania:mushroom:3, 淡蓝色微光蘑菇
+botania:mushroom:4, 黄色微光蘑菇
+botania:mushroom:5, 黄绿色微光蘑菇
+botania:mushroom:6, 粉红色微光蘑菇
+botania:mushroom:7, 灰色微光蘑菇
+botania:mushroom:8, 淡灰色微光蘑菇
+botania:mushroom:9, 青色微光蘑菇
+botania:mushroom:10, 紫色微光蘑菇
+botania:mushroom:11, 蓝色微光蘑菇
+botania:mushroom:12, 棕色微光蘑菇
+botania:mushroom:13, 绿色微光蘑菇
+botania:mushroom:14, 红色微光蘑菇
+botania:mushroom:15, 黑色微光蘑菇
+botania:pump, 污染物泵
+botania:doubleflower1:0, 白色高神秘花
+botania:doubleflower1:1, 橙色高神秘花
+botania:doubleflower1:2, 品红色高神秘花
+botania:doubleflower1:3, 淡蓝色高神秘花
+botania:doubleflower1:4, 黄色高神秘花
+botania:doubleflower1:5, 黄绿色高神秘花
+botania:doubleflower1:6, 粉红色高神秘花
+botania:doubleflower1:7, 灰色高神秘花
+botania:doubleflower2:0, 淡灰色高神秘花
+botania:doubleflower2:1, 青色高神秘花
+botania:doubleflower2:2, 紫色高神秘花
+botania:doubleflower2:3, 蓝色高神秘花
+botania:doubleflower2:4, 棕色高神秘花
+botania:doubleflower2:5, 绿色高神秘花
+botania:doubleflower2:6, 红色高神秘花
+botania:doubleflower2:7, 黑色高神秘花
+botania:blazeblock, tile.blazeBlock.name
+botania:corporeainterceptor, tile.corporeaInterceptor.name
+botania:corporeacrystalcube, tile.corporeaCrystalCube.name
+botania:incenseplate, tile.incensePlate.name
+botania:hourglass, tile.hourglass.name
+botania:ghostrail, tile.ghostRail.name
+botania:sparkchanger, tile.sparkChanger.name
+botania:root, tile.root.name
+botania:felpumpkin, tile.felPumpkin.name
+botania:cocoon, tile.cocoon.name
+botania:lightrelay:0, 微光
+botania:lightrelay:1, 探测微光
+botania:lightrelay:2, 岔路微光
+botania:lightrelay:3, 激活微光
+botania:lightlauncher, tile.lightLauncher.name
+botania:manabomb, tile.manaBomb.name
+botania:cacophoniumblock, tile.cacophoniumBlock.name
+botania:bellows, 奥术风箱
+botania:bifrostperm, tile.bifrostPerm.name
+botania:cellblock, tile.cellBlock.name
+botania:redstringinterceptor, tile.redStringInterceptor.name
+botania:corporearetainer, tile.corporeaRetainer.name
+botania:teruterubozu, tile.teruTeruBozu.name
+botania:shimmerrock, tile.shimmerrock.name
+botania:shimmerwoodplanks, tile.shimmerwoodPlanks.name
+botania:avatar, tile.avatar.name
+botania:altgrass:0, 干草地
+botania:altgrass:1, 黄金草地
+botania:altgrass:2, 鲜草草地
+botania:altgrass:3, 焦草草地
+botania:altgrass:4, 注魔草地
+botania:altgrass:5, 异变草地
+botania:animatedtorch, tile.animatedTorch.name
 botania:lexicon, item.lexicon.name
 botania:petal:0, 白色神秘花瓣
 botania:petal:1, 橙色神秘花瓣
@@ -16273,339 +16639,6 @@ botania:shimmerwoodplanks0stairs, tile.shimmerwoodPlanks0Stairs.name
 botania:managlasspane, tile.manaGlassPane.name
 botania:elfglasspane, tile.elfGlassPane.name
 botania:bifrostpermpane, tile.bifrostPermPane.name
-botania:flower:0, 白色神秘花
-botania:flower:1, 橙色神秘花
-botania:flower:2, 品红色神秘花
-botania:flower:3, 淡蓝色神秘花
-botania:flower:4, 黄色神秘花
-botania:flower:5, 黄绿色神秘花
-botania:flower:6, 粉红色神秘花
-botania:flower:7, 灰色神秘花
-botania:flower:8, 淡灰色神秘花
-botania:flower:9, 青色神秘花
-botania:flower:10, 紫色神秘花
-botania:flower:11, 蓝色神秘花
-botania:flower:12, 棕色神秘花
-botania:flower:13, 绿色神秘花
-botania:flower:14, 红色神秘花
-botania:flower:15, 黑色神秘花
-botania:altar:0, 花药台
-botania:altar:1, 森林花药台
-botania:altar:2, 平原花药台
-botania:altar:3, 高山花药台
-botania:altar:4, 菌丝花药台
-botania:altar:5, 沼泽花药台
-botania:altar:6, 沙漠花药台
-botania:altar:7, 雪原花药台
-botania:altar:8, 高原花药台
-botania:livingrock:0, 活石
-botania:livingrock:1, 活石砖
-botania:livingrock:2, 苔活石砖
-botania:livingrock:3, 裂活石砖
-botania:livingrock:4, 框边活石砖
-botania:livingwood:0, 活木
-botania:livingwood:1, 活木板
-botania:livingwood:2, 苔活木板
-botania:livingwood:3, 框边活木板
-botania:livingwood:4, 框纹活木板
-botania:livingwood:5, 微光活木
-botania:specialflower:0, 白雏菊
-botania:specialflower:0, 魔力星
-botania:specialflower:0, 火红莲
-botania:specialflower:0, 水绣球
-botania:specialflower:0, 炽玫瑰
-botania:specialflower:0, 阿卡纳蔷薇
-botania:specialflower:0, 咀叶花
-botania:specialflower:0, 热爆花
-botania:specialflower:0, 贪食花
-botania:specialflower:0, 彼方兰
-botania:specialflower:0, 粘球草
-botania:specialflower:0, 斑斓花
-botania:specialflower:0, 噬草花
-botania:specialflower:0, 勿落草
-botania:specialflower:0, 启命英
-botania:specialflower:0, 翡翠苋
-botania:specialflower:0, 娇媚之刺
-botania:specialflower:0, 小娇媚之刺
-botania:specialflower:0, 恐惧之刺
-botania:specialflower:0, 平成之梦
-botania:specialflower:0, 虎之眼
-botania:specialflower:0, 异构花
-botania:specialflower:0, 小异构花
-botania:specialflower:0, 凝矿兰
-botania:specialflower:0, 炎矿兰
-botania:specialflower:0, 天降之奏
-botania:specialflower:0, 冶炼火
-botania:specialflower:0, 田园康乃馨
-botania:specialflower:0, 小田园康乃馨
-botania:specialflower:0, 漏斗花
-botania:specialflower:0, 小漏斗花
-botania:specialflower:0, 手掌花
-botania:specialflower:0, 小手掌花
-botania:specialflower:0, 束缚莓
-botania:specialflower:0, 自由之翼
-botania:specialflower:0, 毒风信
-botania:specialflower:0, 石化草
-botania:specialflower:0, 畜牧花
-botania:specialflower:0, 粘土花
-botania:specialflower:0, 小粘土花
-botania:specialflower:0, 聚宝花
-botania:specialflower:0, 扇水仙
-botania:specialflower:0, 诱引莲
-botania:specialflower:0, 凌空蓟
-botania:specialflower:0, 气泡铃
-botania:specialflower:0, 小气泡铃
-botania:specialflower:0, 弱磁兰
-botania:specialflower:0, 小弱磁兰
-botania:specialflower:0, 消音柑
-botania:specialflower:0, 惊雷之花
-botania:specialflower:0, 碎玉之花
-botania:specialflower:0, 凋零之花
-botania:specialflower:0, 清露之花
-botania:spreader:0, 魔力发射器
-botania:spreader:1, 魔力发射器（红石）
-botania:spreader:2, 精灵魔力发射器
-botania:spreader:3, 盖亚魔力发射器
-botania:pool:0, 魔力池
-botania:pool:2, 稀释魔力池
-botania:pool:3, 神话魔力池
-botania:pool:1, 永恒魔力池
-botania:runealtar, tile.runeAltar.name
-botania:pylon:0, 魔法水晶
-botania:pylon:1, 自然水晶
-botania:pylon:2, 盖亚水晶
-botania:pistonrelay, tile.pistonRelay.name
-botania:distributor, 氧气释放机
-botania:manavoid, tile.manaVoid.name
-botania:manadetector, tile.manaDetector.name
-botania:enchanter, 神能炉
-botania:turntable, tile.turntable.name
-botania:tinyplanetblock, tile.tinyPlanetBlock.name
-botania:alchemycatalyst, tile.alchemyCatalyst.name
-botania:opencrate:0, 花格箱
-botania:opencrate:1, 机巧箱
-botania:foresteye, tile.forestEye.name
-botania:storage:0, 魔力钢块
-botania:storage:1, 泰拉钢块
-botania:storage:2, 源质钢块
-botania:storage:3, 魔力钻石块
-botania:storage:4, 龙石块
-botania:forestdrum:0, 狂野之鼓
-botania:forestdrum:1, 收集之鼓
-botania:forestdrum:2, 林冠之鼓
-botania:shinyflower:0, 白色荧光花
-botania:shinyflower:1, 橙色荧光花
-botania:shinyflower:2, 品红色荧光花
-botania:shinyflower:3, 淡蓝色荧光花
-botania:shinyflower:4, 黄色荧光花
-botania:shinyflower:5, 黄绿色荧光花
-botania:shinyflower:6, 粉红色荧光花
-botania:shinyflower:7, 灰色荧光花
-botania:shinyflower:8, 淡灰色荧光花
-botania:shinyflower:9, 青色荧光花
-botania:shinyflower:10, 紫色荧光花
-botania:shinyflower:11, 蓝色荧光花
-botania:shinyflower:12, 棕色荧光花
-botania:shinyflower:13, 绿色荧光花
-botania:shinyflower:14, 红色荧光花
-botania:shinyflower:15, 黑色荧光花
-botania:platform:0, 奥秘平台
-botania:platform:1, 幻影平台
-botania:platform:2, 不破平台
-botania:alfheimportal, tile.alfheimPortal.name
-botania:dreamwood:0, 梦之木
-botania:dreamwood:1, 梦之木板
-botania:dreamwood:2, 苔梦之木板
-botania:dreamwood:3, 框边梦之木板
-botania:dreamwood:4, 框纹梦之木板
-botania:dreamwood:5, 微光梦之木
-botania:conjurationcatalyst, tile.conjurationCatalyst.name
-botania:bifrost, tile.bifrost.name
-botania:miniisland:0, 白色浮空花
-botania:miniisland:1, 橙色浮空花
-botania:miniisland:2, 品红色浮空花
-botania:miniisland:3, 淡蓝色浮空花
-botania:miniisland:4, 黄色浮空花
-botania:miniisland:5, 黄绿色浮空花
-botania:miniisland:6, 粉红色浮空花
-botania:miniisland:7, 灰色浮空花
-botania:miniisland:8, 淡灰色浮空花
-botania:miniisland:9, 青色浮空花
-botania:miniisland:10, 紫色浮空花
-botania:miniisland:11, 蓝色浮空花
-botania:miniisland:12, 棕色浮空花
-botania:miniisland:13, 绿色浮空花
-botania:miniisland:14, 红色浮空花
-botania:miniisland:15, 黑色浮空花
-botania:tinypotato, tile.tinyPotato.name
-botania:spawnerclaw, tile.spawnerClaw.name
-botania:custombrick:0, 阿兹勒赫瓷砖
-botania:custombrick:1, 阿兹勒赫瓷砖
-botania:custombrick:2, 阿兹勒赫瓷砖
-botania:custombrick:3, 阿兹勒赫瓷砖
-botania:custombrick:4, 阿兹勒赫瓷砖
-botania:custombrick:5, 阿兹勒赫瓷砖
-botania:custombrick:6, 阿兹勒赫瓷砖
-botania:custombrick:7, 阿兹勒赫瓷砖
-botania:custombrick:8, 阿兹勒赫瓷砖
-botania:custombrick:9, 阿兹勒赫瓷砖
-botania:custombrick:10, 阿兹勒赫瓷砖
-botania:custombrick:11, 阿兹勒赫瓷砖
-botania:custombrick:12, 阿兹勒赫瓷砖
-botania:custombrick:13, 阿兹勒赫瓷砖
-botania:custombrick:14, 阿兹勒赫瓷砖
-botania:custombrick:15, 阿兹勒赫瓷砖
-botania:endereyeblock, tile.enderEyeBlock.name
-botania:starfield, tile.starfield.name
-botania:rfgenerator, tile.rfGenerator.name
-botania:elfglass, tile.elfGlass.name
-botania:brewery, tile.brewery.name
-botania:managlass, tile.manaGlass.name
-botania:terraplate, tile.terraPlate.name
-botania:redstringcontainer, tile.redStringContainer.name
-botania:redstringdispenser, tile.redStringDispenser.name
-botania:redstringfertilizer, tile.redStringFertilizer.name
-botania:redstringcomparator, tile.redStringComparator.name
-botania:redstringrelay, tile.redStringRelay.name
-botania:floatingspecialflower:0, 浮空白雏菊
-botania:floatingspecialflower:0, 浮空魔力星
-botania:floatingspecialflower:0, 浮空火红莲
-botania:floatingspecialflower:0, 浮空水绣球
-botania:floatingspecialflower:0, 浮空炽玫瑰
-botania:floatingspecialflower:0, 浮空阿卡纳蔷薇
-botania:floatingspecialflower:0, 浮空咀叶花
-botania:floatingspecialflower:0, 浮空热爆花
-botania:floatingspecialflower:0, 浮空贪食花
-botania:floatingspecialflower:0, 浮空彼方兰
-botania:floatingspecialflower:0, 浮空粘球草
-botania:floatingspecialflower:0, 浮空斑斓花
-botania:floatingspecialflower:0, 浮空噬草花
-botania:floatingspecialflower:0, 浮空勿落草
-botania:floatingspecialflower:0, 浮空启命英
-botania:floatingspecialflower:0, 浮空翡翠苋
-botania:floatingspecialflower:0, 浮空娇媚之刺
-botania:floatingspecialflower:0, 浮空小娇媚之刺
-botania:floatingspecialflower:0, 浮空恐惧之刺
-botania:floatingspecialflower:0, 浮空平成之梦
-botania:floatingspecialflower:0, 浮空虎之眼
-botania:floatingspecialflower:0, 浮空异构花
-botania:floatingspecialflower:0, 浮空小异构花
-botania:floatingspecialflower:0, 浮空凝矿兰
-botania:floatingspecialflower:0, 浮空炎矿兰
-botania:floatingspecialflower:0, 浮空天降之奏
-botania:floatingspecialflower:0, 浮空冶炼火
-botania:floatingspecialflower:0, 浮空田园康乃馨
-botania:floatingspecialflower:0, 浮空小田园康乃馨
-botania:floatingspecialflower:0, 浮空漏斗花
-botania:floatingspecialflower:0, 浮空小漏斗花
-botania:floatingspecialflower:0, 浮空手掌花
-botania:floatingspecialflower:0, 浮空小手掌花
-botania:floatingspecialflower:0, 浮空束缚莓
-botania:floatingspecialflower:0, 浮空自由之翼
-botania:floatingspecialflower:0, 浮空毒风信
-botania:floatingspecialflower:0, 浮空石化草
-botania:floatingspecialflower:0, 浮空畜牧花
-botania:floatingspecialflower:0, 浮空粘土花
-botania:floatingspecialflower:0, 浮空小粘土花
-botania:floatingspecialflower:0, 浮空聚宝花
-botania:floatingspecialflower:0, 浮空扇水仙
-botania:floatingspecialflower:0, 浮空诱引莲
-botania:floatingspecialflower:0, 浮空凌空蓟
-botania:floatingspecialflower:0, 浮空气泡铃
-botania:floatingspecialflower:0, 浮空小气泡铃
-botania:floatingspecialflower:0, 浮空弱磁兰
-botania:floatingspecialflower:0, 浮空小弱磁兰
-botania:floatingspecialflower:0, 浮空消音柑
-botania:floatingspecialflower:0, 浮空惊雷之花
-botania:floatingspecialflower:0, 浮空碎玉之花
-botania:floatingspecialflower:0, 浮空凋零之花
-botania:floatingspecialflower:0, 浮空清露之花
-botania:prism, tile.prism.name
-botania:enchantedsoil, tile.enchantedSoil.name
-botania:petalblock:0, 白色花瓣块
-botania:petalblock:1, 橙色花瓣块
-botania:petalblock:2, 品红色花瓣块
-botania:petalblock:3, 淡蓝色花瓣块
-botania:petalblock:4, 黄色花瓣块
-botania:petalblock:5, 黄绿色花瓣块
-botania:petalblock:6, 粉红色花瓣块
-botania:petalblock:7, 灰色花瓣块
-botania:petalblock:8, 淡灰色花瓣块
-botania:petalblock:9, 青色花瓣块
-botania:petalblock:10, 紫色花瓣块
-botania:petalblock:11, 蓝色花瓣块
-botania:petalblock:12, 棕色花瓣块
-botania:petalblock:13, 绿色花瓣块
-botania:petalblock:14, 红色花瓣块
-botania:petalblock:15, 黑色花瓣块
-botania:corporeaindex, tile.corporeaIndex.name
-botania:corporeafunnel, tile.corporeaFunnel.name
-botania:mushroom:0, 白色微光蘑菇
-botania:mushroom:1, 橙色微光蘑菇
-botania:mushroom:2, 品红色微光蘑菇
-botania:mushroom:3, 淡蓝色微光蘑菇
-botania:mushroom:4, 黄色微光蘑菇
-botania:mushroom:5, 黄绿色微光蘑菇
-botania:mushroom:6, 粉红色微光蘑菇
-botania:mushroom:7, 灰色微光蘑菇
-botania:mushroom:8, 淡灰色微光蘑菇
-botania:mushroom:9, 青色微光蘑菇
-botania:mushroom:10, 紫色微光蘑菇
-botania:mushroom:11, 蓝色微光蘑菇
-botania:mushroom:12, 棕色微光蘑菇
-botania:mushroom:13, 绿色微光蘑菇
-botania:mushroom:14, 红色微光蘑菇
-botania:mushroom:15, 黑色微光蘑菇
-botania:pump, 污染物泵
-botania:doubleflower1:0, 白色高神秘花
-botania:doubleflower1:1, 橙色高神秘花
-botania:doubleflower1:2, 品红色高神秘花
-botania:doubleflower1:3, 淡蓝色高神秘花
-botania:doubleflower1:4, 黄色高神秘花
-botania:doubleflower1:5, 黄绿色高神秘花
-botania:doubleflower1:6, 粉红色高神秘花
-botania:doubleflower1:7, 灰色高神秘花
-botania:doubleflower2:0, 淡灰色高神秘花
-botania:doubleflower2:1, 青色高神秘花
-botania:doubleflower2:2, 紫色高神秘花
-botania:doubleflower2:3, 蓝色高神秘花
-botania:doubleflower2:4, 棕色高神秘花
-botania:doubleflower2:5, 绿色高神秘花
-botania:doubleflower2:6, 红色高神秘花
-botania:doubleflower2:7, 黑色高神秘花
-botania:blazeblock, tile.blazeBlock.name
-botania:corporeainterceptor, tile.corporeaInterceptor.name
-botania:corporeacrystalcube, tile.corporeaCrystalCube.name
-botania:incenseplate, tile.incensePlate.name
-botania:hourglass, tile.hourglass.name
-botania:ghostrail, tile.ghostRail.name
-botania:sparkchanger, tile.sparkChanger.name
-botania:root, tile.root.name
-botania:felpumpkin, tile.felPumpkin.name
-botania:cocoon, tile.cocoon.name
-botania:lightrelay:0, 微光
-botania:lightrelay:1, 探测微光
-botania:lightrelay:2, 岔路微光
-botania:lightrelay:3, 激活微光
-botania:lightlauncher, tile.lightLauncher.name
-botania:manabomb, tile.manaBomb.name
-botania:cacophoniumblock, tile.cacophoniumBlock.name
-botania:bellows, 奥术风箱
-botania:bifrostperm, tile.bifrostPerm.name
-botania:cellblock, tile.cellBlock.name
-botania:redstringinterceptor, tile.redStringInterceptor.name
-botania:corporearetainer, tile.corporeaRetainer.name
-botania:teruterubozu, tile.teruTeruBozu.name
-botania:shimmerrock, tile.shimmerrock.name
-botania:shimmerwoodplanks, tile.shimmerwoodPlanks.name
-botania:avatar, tile.avatar.name
-botania:altgrass:0, 干草地
-botania:altgrass:1, 黄金草地
-botania:altgrass:2, 鲜草草地
-botania:altgrass:3, 焦草草地
-botania:altgrass:4, 注魔草地
-botania:altgrass:5, 异变草地
-botania:animatedtorch, tile.animatedTorch.name
 gregtech:sword, item.gt.tool.sword.name.name
 gregtech:pickaxe, item.gt.tool.pickaxe.name.name
 gregtech:shovel, item.gt.tool.shovel.name.name
@@ -17726,12 +17759,14 @@ gregtech:machine:3060, 火箭发动机
 gregtech:machine:3061, 爆燃发动机
 gregtech:machine:3062, 太阳能板
 gregtech:machine:3063, 模块化裂变（燃料棒）
+gregtech:machine:3064, 水电站
 gregtech:machine:3100, 合金窑
 gregtech:machine:3101, 大型蒸汽压缩机
 gregtech:machine:3102, 大型蒸汽提取机
 gregtech:machine:3103, 蒸汽高炉
 gregtech:machine:3104, 蒸汽洗矿厂
-gregtech:machine:3105, 工业级土高炉
+gregtech:machine:3105, 蒸汽锻造锤
+gregtech:machine:3106, 工业级土高炉
 gregtech:machine:3150, 溶解罐
 gregtech:machine:3151, 炽焱冶炼炉
 gregtech:machine:3152, 化工厂
@@ -17768,6 +17803,9 @@ gregtech:machine:3182, 澄清池
 gregtech:machine:3183, 电催破乳反应罐
 gregtech:machine:3184, 反射炉
 gregtech:machine:3185, 太空电梯
+gregtech:machine:3186, 3D部件`打印机
+gregtech:machine:3187, 中子活化仪
+gregtech:machine:3188, 大型闪蒸器
 gregtech:machine:3250, 蒸馏塔
 gregtech:machine:3251, 石油裂化机
 gregtech:machine:3252, 热解炉
@@ -17798,6 +17836,7 @@ gregtech:machine:3402, 压裂机III
 gregtech:machine:3403, 微重力轨道采集场(UV)
 gregtech:machine:3404, 微重力轨道采集场(UV)
 gregtech:machine:3405, 微重力轨道采集场(UHV)
+gregtech:machine:3406, 大型集气机
 gregtech:machine:3450, 计算服务器
 gregtech:machine:3451, 网络交换机
 gregtech:machine:3452, 科研计算机
@@ -17819,6 +17858,16 @@ gregtech:machine:3509, 低温反应室
 gregtech:machine:3510, 等离子体源离子注入器
 gregtech:machine:3511, 柴可斯基外延单晶硅生长炉
 gregtech:machine:3512, 极限粒子CVD
+gregtech:machine:3520, 结构储罐（LV）
+gregtech:machine:3521, 结构储罐（§7LV§r）
+gregtech:machine:3522, 结构储罐（§bMV§r）
+gregtech:machine:3523, 结构储罐（§6HV§r）
+gregtech:machine:3524, 结构储罐（§5EV§r）
+gregtech:machine:3525, 结构储罐（§1IV§r）
+gregtech:machine:3526, 结构储罐（§dLuV§r）
+gregtech:machine:3527, 结构储罐（§cZPM§r）
+gregtech:machine:3528, 结构储罐（§3UV§r）
+gregtech:machine:3529, 结构储罐（§4UHV§r）
 gregtech:machine:3750, 星际虚空真空仓
 gregtech:machine:3751, 封闭空间真空仓
 gregtech:machine:3752, 极高真空仓
@@ -18032,12 +18081,14 @@ gregtech:machine:15541, 并行控制仓（§4UHV§r）
 gregtech:machine:15542, 并行控制仓（§aUEV§r）
 gregtech:machine:15543, 并行控制仓（§2UIV§r）
 gregtech:machine:15544, 并行控制仓（§eUXV§r）
-gregtech:machine:15545, 无限水仓
-gregtech:machine:15546, 催化剂仓
-gregtech:machine:15547, 缓冲剂仓
-gregtech:machine:15548, 研磨球仓
-gregtech:machine:15549, 简易数据访问仓
-gregtech:machine:15550, 增强数据访问仓
+gregtech:machine:15545, 并行控制仓（§eOPV§r）
+gregtech:machine:15546, 并行控制仓（§eMAX§r）
+gregtech:machine:15547, 无限水仓
+gregtech:machine:15548, 催化剂仓
+gregtech:machine:15549, 缓冲剂仓
+gregtech:machine:15550, 研磨球仓
+gregtech:machine:15551, 简易数据访问仓
+gregtech:machine:15552, 增强数据访问仓
 gregtech:machine:15899, 基础灵气发电机（§7LV§r）
 gregtech:machine:15900, 进阶灵气发电机（§bMV§r）
 gregtech:machine:15901, 涡轮灵气发电机（§6HV§r）
@@ -18054,8 +18105,8 @@ gregtech:machine:15926, 灵气再生机（§3UV§r）
 gregtech:machine:15929, 空气过滤机（§7LV§r）
 gregtech:machine:15930, 空气过滤机（§bMV§r）
 gregtech:machine:15931, 空气过滤机（§6HV§r）
-gregtech:machine:15933, 大型空气过滤机（§1IV§r）
-gregtech:machine:15934, 大型空气过滤机（§5EV§r）
+gregtech:machine:15933, 大型空气过滤机（§5EV§r）
+gregtech:machine:15934, 大型空气过滤机（§1IV§r）
 gregtech:machine:15940, 简易消声仓（§7LV§r）
 gregtech:machine:15941, 简易消声仓（§bMV§r）
 gregtech:machine:15942, 简易消声仓（§6HV§r）
@@ -18184,7 +18235,6 @@ gregtech:wire_single:28002, 1x混沌龙素导线
 gregtech:wire_single:23, 1x钴导线
 gregtech:wire_single:25, 1x铜导线
 gregtech:wire_single:28007, 1x宇宙中子素导线
-gregtech:wire_single:20074, 1x粗钢导线
 gregtech:wire_single:20071, 1x晶化粉红史莱姆导线
 gregtech:wire_single:274, 1x白铜导线
 gregtech:wire_single:20065, 1x强磁导钢导线
@@ -18245,7 +18295,6 @@ gregtech:wire_double:28002, 2x混沌龙素导线
 gregtech:wire_double:23, 2x钴导线
 gregtech:wire_double:25, 2x铜导线
 gregtech:wire_double:28007, 2x宇宙中子素导线
-gregtech:wire_double:20074, 2x粗钢导线
 gregtech:wire_double:20071, 2x晶化粉红史莱姆导线
 gregtech:wire_double:274, 2x白铜导线
 gregtech:wire_double:20065, 2x强磁导钢导线
@@ -18306,7 +18355,6 @@ gregtech:wire_quadruple:28002, 4x混沌龙素导线
 gregtech:wire_quadruple:23, 4x钴导线
 gregtech:wire_quadruple:25, 4x铜导线
 gregtech:wire_quadruple:28007, 4x宇宙中子素导线
-gregtech:wire_quadruple:20074, 4x粗钢导线
 gregtech:wire_quadruple:20071, 4x晶化粉红史莱姆导线
 gregtech:wire_quadruple:274, 4x白铜导线
 gregtech:wire_quadruple:20065, 4x强磁导钢导线
@@ -18367,7 +18415,6 @@ gregtech:wire_octal:28002, 8x混沌龙素导线
 gregtech:wire_octal:23, 8x钴导线
 gregtech:wire_octal:25, 8x铜导线
 gregtech:wire_octal:28007, 8x宇宙中子素导线
-gregtech:wire_octal:20074, 8x粗钢导线
 gregtech:wire_octal:20071, 8x晶化粉红史莱姆导线
 gregtech:wire_octal:274, 8x白铜导线
 gregtech:wire_octal:20065, 8x强磁导钢导线
@@ -18428,7 +18475,6 @@ gregtech:wire_hex:28002, 16x混沌龙素导线
 gregtech:wire_hex:23, 16x钴导线
 gregtech:wire_hex:25, 16x铜导线
 gregtech:wire_hex:28007, 16x宇宙中子素导线
-gregtech:wire_hex:20074, 16x粗钢导线
 gregtech:wire_hex:20071, 16x晶化粉红史莱姆导线
 gregtech:wire_hex:274, 16x白铜导线
 gregtech:wire_hex:20065, 16x强磁导钢导线
@@ -18489,7 +18535,6 @@ gregtech:cable_single:28002, 1x混沌龙素线缆
 gregtech:cable_single:23, 1x钴线缆
 gregtech:cable_single:25, 1x铜线缆
 gregtech:cable_single:28007, 1x宇宙中子素线缆
-gregtech:cable_single:20074, 1x粗钢线缆
 gregtech:cable_single:20071, 1x晶化粉红史莱姆线缆
 gregtech:cable_single:274, 1x白铜线缆
 gregtech:cable_single:20065, 1x强磁导钢线缆
@@ -18541,7 +18586,6 @@ gregtech:cable_double:28002, 2x混沌龙素线缆
 gregtech:cable_double:23, 2x钴线缆
 gregtech:cable_double:25, 2x铜线缆
 gregtech:cable_double:28007, 2x宇宙中子素线缆
-gregtech:cable_double:20074, 2x粗钢线缆
 gregtech:cable_double:20071, 2x晶化粉红史莱姆线缆
 gregtech:cable_double:274, 2x白铜线缆
 gregtech:cable_double:20065, 2x强磁导钢线缆
@@ -18593,7 +18637,6 @@ gregtech:cable_quadruple:28002, 4x混沌龙素线缆
 gregtech:cable_quadruple:23, 4x钴线缆
 gregtech:cable_quadruple:25, 4x铜线缆
 gregtech:cable_quadruple:28007, 4x宇宙中子素线缆
-gregtech:cable_quadruple:20074, 4x粗钢线缆
 gregtech:cable_quadruple:20071, 4x晶化粉红史莱姆线缆
 gregtech:cable_quadruple:274, 4x白铜线缆
 gregtech:cable_quadruple:20065, 4x强磁导钢线缆
@@ -18645,7 +18688,6 @@ gregtech:cable_octal:28002, 8x混沌龙素线缆
 gregtech:cable_octal:23, 8x钴线缆
 gregtech:cable_octal:25, 8x铜线缆
 gregtech:cable_octal:28007, 8x宇宙中子素线缆
-gregtech:cable_octal:20074, 8x粗钢线缆
 gregtech:cable_octal:20071, 8x晶化粉红史莱姆线缆
 gregtech:cable_octal:274, 8x白铜线缆
 gregtech:cable_octal:20065, 8x强磁导钢线缆
@@ -18697,7 +18739,6 @@ gregtech:cable_hex:28002, 16x混沌龙素线缆
 gregtech:cable_hex:23, 16x钴线缆
 gregtech:cable_hex:25, 16x铜线缆
 gregtech:cable_hex:28007, 16x宇宙中子素线缆
-gregtech:cable_hex:20074, 16x粗钢线缆
 gregtech:cable_hex:20071, 16x晶化粉红史莱姆线缆
 gregtech:cable_hex:274, 16x白铜线缆
 gregtech:cable_hex:20065, 16x强磁导钢线缆
@@ -18948,142 +18989,142 @@ gregtech:fluid_pipe_nonuple:115, 九重钨流体管道
 gregtech:fluid_pipe_nonuple:396, 九重碳化钨流体管道
 gregtech:fluid_pipe_nonuple:2013, 九重钨钢流体管道
 gregtech:fluid_pipe_nonuple:2036, 九重钒钢流体管道
-gregtech:item_pipe_small:69, 小型镍物品管道
-gregtech:item_pipe_small:3, 小型镅物品管道
-gregtech:item_pipe_small:75, 小型锇物品管道
-gregtech:item_pipe_small:300, 小型标准纯银物品管道
-gregtech:item_pipe_small:23, 小型钴物品管道
-gregtech:item_pipe_small:274, 小型白铜物品管道
-gregtech:item_pipe_small:80, 小型铂物品管道
-gregtech:item_pipe_small:344, 小型铱锇合金物品管道
-gregtech:item_pipe_small:301, 小型玫瑰金物品管道
-gregtech:item_pipe_small:290, 小型镁铝合金物品管道
-gregtech:item_pipe_small:277, 小型琥珀金物品管道
 gregtech:item_pipe_small:112, 小型锡物品管道
+gregtech:item_pipe_small:259, 小型黄铜物品管道
+gregtech:item_pipe_small:75, 小型锇物品管道
+gregtech:item_pipe_small:3, 小型镅物品管道
+gregtech:item_pipe_small:277, 小型琥珀金物品管道
+gregtech:item_pipe_small:290, 小型镁铝合金物品管道
+gregtech:item_pipe_small:23, 小型钴物品管道
+gregtech:item_pipe_small:302, 小型黑青铜物品管道
+gregtech:item_pipe_small:344, 小型铱锇合金物品管道
 gregtech:item_pipe_small:2014, 小型钴黄铜物品管道
 gregtech:item_pipe_small:331, 小型哈氏合金物品管道
-gregtech:item_pipe_small:259, 小型黄铜物品管道
+gregtech:item_pipe_small:274, 小型白铜物品管道
+gregtech:item_pipe_small:301, 小型玫瑰金物品管道
 gregtech:item_pipe_small:1007, 小型聚氯乙烯（PVC）物品管道
-gregtech:item_pipe_small:302, 小型黑青铜物品管道
-gregtech:item_pipe_normal:69, 镍物品管道
-gregtech:item_pipe_normal:3, 镅物品管道
-gregtech:item_pipe_normal:75, 锇物品管道
-gregtech:item_pipe_normal:300, 标准纯银物品管道
-gregtech:item_pipe_normal:23, 钴物品管道
-gregtech:item_pipe_normal:274, 白铜物品管道
-gregtech:item_pipe_normal:80, 铂物品管道
-gregtech:item_pipe_normal:344, 铱锇合金物品管道
-gregtech:item_pipe_normal:301, 玫瑰金物品管道
-gregtech:item_pipe_normal:290, 镁铝合金物品管道
-gregtech:item_pipe_normal:277, 琥珀金物品管道
+gregtech:item_pipe_small:80, 小型铂物品管道
+gregtech:item_pipe_small:300, 小型标准纯银物品管道
+gregtech:item_pipe_small:69, 小型镍物品管道
 gregtech:item_pipe_normal:112, 锡物品管道
+gregtech:item_pipe_normal:259, 黄铜物品管道
+gregtech:item_pipe_normal:75, 锇物品管道
+gregtech:item_pipe_normal:3, 镅物品管道
+gregtech:item_pipe_normal:277, 琥珀金物品管道
+gregtech:item_pipe_normal:290, 镁铝合金物品管道
+gregtech:item_pipe_normal:23, 钴物品管道
+gregtech:item_pipe_normal:302, 黑青铜物品管道
+gregtech:item_pipe_normal:344, 铱锇合金物品管道
 gregtech:item_pipe_normal:2014, 钴黄铜物品管道
 gregtech:item_pipe_normal:331, 哈氏合金物品管道
-gregtech:item_pipe_normal:259, 黄铜物品管道
+gregtech:item_pipe_normal:274, 白铜物品管道
+gregtech:item_pipe_normal:301, 玫瑰金物品管道
 gregtech:item_pipe_normal:1007, 聚氯乙烯（PVC）物品管道
-gregtech:item_pipe_normal:302, 黑青铜物品管道
-gregtech:item_pipe_large:69, 大型镍物品管道
-gregtech:item_pipe_large:3, 大型镅物品管道
-gregtech:item_pipe_large:75, 大型锇物品管道
-gregtech:item_pipe_large:300, 大型标准纯银物品管道
-gregtech:item_pipe_large:23, 大型钴物品管道
-gregtech:item_pipe_large:274, 大型白铜物品管道
-gregtech:item_pipe_large:80, 大型铂物品管道
-gregtech:item_pipe_large:344, 大型铱锇合金物品管道
-gregtech:item_pipe_large:301, 大型玫瑰金物品管道
-gregtech:item_pipe_large:290, 大型镁铝合金物品管道
-gregtech:item_pipe_large:277, 大型琥珀金物品管道
+gregtech:item_pipe_normal:80, 铂物品管道
+gregtech:item_pipe_normal:300, 标准纯银物品管道
+gregtech:item_pipe_normal:69, 镍物品管道
 gregtech:item_pipe_large:112, 大型锡物品管道
+gregtech:item_pipe_large:259, 大型黄铜物品管道
+gregtech:item_pipe_large:75, 大型锇物品管道
+gregtech:item_pipe_large:3, 大型镅物品管道
+gregtech:item_pipe_large:277, 大型琥珀金物品管道
+gregtech:item_pipe_large:290, 大型镁铝合金物品管道
+gregtech:item_pipe_large:23, 大型钴物品管道
+gregtech:item_pipe_large:302, 大型黑青铜物品管道
+gregtech:item_pipe_large:344, 大型铱锇合金物品管道
 gregtech:item_pipe_large:2014, 大型钴黄铜物品管道
 gregtech:item_pipe_large:331, 大型哈氏合金物品管道
-gregtech:item_pipe_large:259, 大型黄铜物品管道
+gregtech:item_pipe_large:274, 大型白铜物品管道
+gregtech:item_pipe_large:301, 大型玫瑰金物品管道
 gregtech:item_pipe_large:1007, 大型聚氯乙烯（PVC）物品管道
-gregtech:item_pipe_large:302, 大型黑青铜物品管道
-gregtech:item_pipe_huge:69, 巨型镍物品管道
-gregtech:item_pipe_huge:3, 巨型镅物品管道
-gregtech:item_pipe_huge:75, 巨型锇物品管道
-gregtech:item_pipe_huge:300, 巨型标准纯银物品管道
-gregtech:item_pipe_huge:23, 巨型钴物品管道
-gregtech:item_pipe_huge:274, 巨型白铜物品管道
-gregtech:item_pipe_huge:80, 巨型铂物品管道
-gregtech:item_pipe_huge:344, 巨型铱锇合金物品管道
-gregtech:item_pipe_huge:301, 巨型玫瑰金物品管道
-gregtech:item_pipe_huge:290, 巨型镁铝合金物品管道
-gregtech:item_pipe_huge:277, 巨型琥珀金物品管道
+gregtech:item_pipe_large:80, 大型铂物品管道
+gregtech:item_pipe_large:300, 大型标准纯银物品管道
+gregtech:item_pipe_large:69, 大型镍物品管道
 gregtech:item_pipe_huge:112, 巨型锡物品管道
+gregtech:item_pipe_huge:259, 巨型黄铜物品管道
+gregtech:item_pipe_huge:75, 巨型锇物品管道
+gregtech:item_pipe_huge:3, 巨型镅物品管道
+gregtech:item_pipe_huge:277, 巨型琥珀金物品管道
+gregtech:item_pipe_huge:290, 巨型镁铝合金物品管道
+gregtech:item_pipe_huge:23, 巨型钴物品管道
+gregtech:item_pipe_huge:302, 巨型黑青铜物品管道
+gregtech:item_pipe_huge:344, 巨型铱锇合金物品管道
 gregtech:item_pipe_huge:2014, 巨型钴黄铜物品管道
 gregtech:item_pipe_huge:331, 巨型哈氏合金物品管道
-gregtech:item_pipe_huge:259, 巨型黄铜物品管道
+gregtech:item_pipe_huge:274, 巨型白铜物品管道
+gregtech:item_pipe_huge:301, 巨型玫瑰金物品管道
 gregtech:item_pipe_huge:1007, 巨型聚氯乙烯（PVC）物品管道
-gregtech:item_pipe_huge:302, 巨型黑青铜物品管道
-gregtech:item_pipe_small_restrictive:69, 小型加固镍物品管道
-gregtech:item_pipe_small_restrictive:3, 小型加固镅物品管道
-gregtech:item_pipe_small_restrictive:75, 小型加固锇物品管道
-gregtech:item_pipe_small_restrictive:300, 小型加固标准纯银物品管道
-gregtech:item_pipe_small_restrictive:23, 小型加固钴物品管道
-gregtech:item_pipe_small_restrictive:274, 小型加固白铜物品管道
-gregtech:item_pipe_small_restrictive:80, 小型加固铂物品管道
-gregtech:item_pipe_small_restrictive:344, 小型加固铱锇合金物品管道
-gregtech:item_pipe_small_restrictive:301, 小型加固玫瑰金物品管道
-gregtech:item_pipe_small_restrictive:290, 小型加固镁铝合金物品管道
-gregtech:item_pipe_small_restrictive:277, 小型加固琥珀金物品管道
+gregtech:item_pipe_huge:80, 巨型铂物品管道
+gregtech:item_pipe_huge:300, 巨型标准纯银物品管道
+gregtech:item_pipe_huge:69, 巨型镍物品管道
 gregtech:item_pipe_small_restrictive:112, 小型加固锡物品管道
+gregtech:item_pipe_small_restrictive:259, 小型加固黄铜物品管道
+gregtech:item_pipe_small_restrictive:75, 小型加固锇物品管道
+gregtech:item_pipe_small_restrictive:3, 小型加固镅物品管道
+gregtech:item_pipe_small_restrictive:277, 小型加固琥珀金物品管道
+gregtech:item_pipe_small_restrictive:290, 小型加固镁铝合金物品管道
+gregtech:item_pipe_small_restrictive:23, 小型加固钴物品管道
+gregtech:item_pipe_small_restrictive:302, 小型加固黑青铜物品管道
+gregtech:item_pipe_small_restrictive:344, 小型加固铱锇合金物品管道
 gregtech:item_pipe_small_restrictive:2014, 小型加固钴黄铜物品管道
 gregtech:item_pipe_small_restrictive:331, 小型加固哈氏合金物品管道
-gregtech:item_pipe_small_restrictive:259, 小型加固黄铜物品管道
+gregtech:item_pipe_small_restrictive:274, 小型加固白铜物品管道
+gregtech:item_pipe_small_restrictive:301, 小型加固玫瑰金物品管道
 gregtech:item_pipe_small_restrictive:1007, 小型加固聚氯乙烯（PVC）物品管道
-gregtech:item_pipe_small_restrictive:302, 小型加固黑青铜物品管道
-gregtech:item_pipe_normal_restrictive:69, 加固镍物品管道
-gregtech:item_pipe_normal_restrictive:3, 加固镅物品管道
-gregtech:item_pipe_normal_restrictive:75, 加固锇物品管道
-gregtech:item_pipe_normal_restrictive:300, 加固标准纯银物品管道
-gregtech:item_pipe_normal_restrictive:23, 加固钴物品管道
-gregtech:item_pipe_normal_restrictive:274, 加固白铜物品管道
-gregtech:item_pipe_normal_restrictive:80, 加固铂物品管道
-gregtech:item_pipe_normal_restrictive:344, 加固铱锇合金物品管道
-gregtech:item_pipe_normal_restrictive:301, 加固玫瑰金物品管道
-gregtech:item_pipe_normal_restrictive:290, 加固镁铝合金物品管道
-gregtech:item_pipe_normal_restrictive:277, 加固琥珀金物品管道
+gregtech:item_pipe_small_restrictive:80, 小型加固铂物品管道
+gregtech:item_pipe_small_restrictive:300, 小型加固标准纯银物品管道
+gregtech:item_pipe_small_restrictive:69, 小型加固镍物品管道
 gregtech:item_pipe_normal_restrictive:112, 加固锡物品管道
+gregtech:item_pipe_normal_restrictive:259, 加固黄铜物品管道
+gregtech:item_pipe_normal_restrictive:75, 加固锇物品管道
+gregtech:item_pipe_normal_restrictive:3, 加固镅物品管道
+gregtech:item_pipe_normal_restrictive:277, 加固琥珀金物品管道
+gregtech:item_pipe_normal_restrictive:290, 加固镁铝合金物品管道
+gregtech:item_pipe_normal_restrictive:23, 加固钴物品管道
+gregtech:item_pipe_normal_restrictive:302, 加固黑青铜物品管道
+gregtech:item_pipe_normal_restrictive:344, 加固铱锇合金物品管道
 gregtech:item_pipe_normal_restrictive:2014, 加固钴黄铜物品管道
 gregtech:item_pipe_normal_restrictive:331, 加固哈氏合金物品管道
-gregtech:item_pipe_normal_restrictive:259, 加固黄铜物品管道
+gregtech:item_pipe_normal_restrictive:274, 加固白铜物品管道
+gregtech:item_pipe_normal_restrictive:301, 加固玫瑰金物品管道
 gregtech:item_pipe_normal_restrictive:1007, 加固聚氯乙烯（PVC）物品管道
-gregtech:item_pipe_normal_restrictive:302, 加固黑青铜物品管道
-gregtech:item_pipe_large_restrictive:69, 大型加固镍物品管道
-gregtech:item_pipe_large_restrictive:3, 大型加固镅物品管道
-gregtech:item_pipe_large_restrictive:75, 大型加固锇物品管道
-gregtech:item_pipe_large_restrictive:300, 大型加固标准纯银物品管道
-gregtech:item_pipe_large_restrictive:23, 大型加固钴物品管道
-gregtech:item_pipe_large_restrictive:274, 大型加固白铜物品管道
-gregtech:item_pipe_large_restrictive:80, 大型加固铂物品管道
-gregtech:item_pipe_large_restrictive:344, 大型加固铱锇合金物品管道
-gregtech:item_pipe_large_restrictive:301, 大型加固玫瑰金物品管道
-gregtech:item_pipe_large_restrictive:290, 大型加固镁铝合金物品管道
-gregtech:item_pipe_large_restrictive:277, 大型加固琥珀金物品管道
+gregtech:item_pipe_normal_restrictive:80, 加固铂物品管道
+gregtech:item_pipe_normal_restrictive:300, 加固标准纯银物品管道
+gregtech:item_pipe_normal_restrictive:69, 加固镍物品管道
 gregtech:item_pipe_large_restrictive:112, 大型加固锡物品管道
+gregtech:item_pipe_large_restrictive:259, 大型加固黄铜物品管道
+gregtech:item_pipe_large_restrictive:75, 大型加固锇物品管道
+gregtech:item_pipe_large_restrictive:3, 大型加固镅物品管道
+gregtech:item_pipe_large_restrictive:277, 大型加固琥珀金物品管道
+gregtech:item_pipe_large_restrictive:290, 大型加固镁铝合金物品管道
+gregtech:item_pipe_large_restrictive:23, 大型加固钴物品管道
+gregtech:item_pipe_large_restrictive:302, 大型加固黑青铜物品管道
+gregtech:item_pipe_large_restrictive:344, 大型加固铱锇合金物品管道
 gregtech:item_pipe_large_restrictive:2014, 大型加固钴黄铜物品管道
 gregtech:item_pipe_large_restrictive:331, 大型加固哈氏合金物品管道
-gregtech:item_pipe_large_restrictive:259, 大型加固黄铜物品管道
+gregtech:item_pipe_large_restrictive:274, 大型加固白铜物品管道
+gregtech:item_pipe_large_restrictive:301, 大型加固玫瑰金物品管道
 gregtech:item_pipe_large_restrictive:1007, 大型加固聚氯乙烯（PVC）物品管道
-gregtech:item_pipe_large_restrictive:302, 大型加固黑青铜物品管道
-gregtech:item_pipe_huge_restrictive:69, 巨型加固镍物品管道
-gregtech:item_pipe_huge_restrictive:3, 巨型加固镅物品管道
-gregtech:item_pipe_huge_restrictive:75, 巨型加固锇物品管道
-gregtech:item_pipe_huge_restrictive:300, 巨型加固标准纯银物品管道
-gregtech:item_pipe_huge_restrictive:23, 巨型加固钴物品管道
-gregtech:item_pipe_huge_restrictive:274, 巨型加固白铜物品管道
-gregtech:item_pipe_huge_restrictive:80, 巨型加固铂物品管道
-gregtech:item_pipe_huge_restrictive:344, 巨型加固铱锇合金物品管道
-gregtech:item_pipe_huge_restrictive:301, 巨型加固玫瑰金物品管道
-gregtech:item_pipe_huge_restrictive:290, 巨型加固镁铝合金物品管道
-gregtech:item_pipe_huge_restrictive:277, 巨型加固琥珀金物品管道
+gregtech:item_pipe_large_restrictive:80, 大型加固铂物品管道
+gregtech:item_pipe_large_restrictive:300, 大型加固标准纯银物品管道
+gregtech:item_pipe_large_restrictive:69, 大型加固镍物品管道
 gregtech:item_pipe_huge_restrictive:112, 巨型加固锡物品管道
+gregtech:item_pipe_huge_restrictive:259, 巨型加固黄铜物品管道
+gregtech:item_pipe_huge_restrictive:75, 巨型加固锇物品管道
+gregtech:item_pipe_huge_restrictive:3, 巨型加固镅物品管道
+gregtech:item_pipe_huge_restrictive:277, 巨型加固琥珀金物品管道
+gregtech:item_pipe_huge_restrictive:290, 巨型加固镁铝合金物品管道
+gregtech:item_pipe_huge_restrictive:23, 巨型加固钴物品管道
+gregtech:item_pipe_huge_restrictive:302, 巨型加固黑青铜物品管道
+gregtech:item_pipe_huge_restrictive:344, 巨型加固铱锇合金物品管道
 gregtech:item_pipe_huge_restrictive:2014, 巨型加固钴黄铜物品管道
 gregtech:item_pipe_huge_restrictive:331, 巨型加固哈氏合金物品管道
-gregtech:item_pipe_huge_restrictive:259, 巨型加固黄铜物品管道
+gregtech:item_pipe_huge_restrictive:274, 巨型加固白铜物品管道
+gregtech:item_pipe_huge_restrictive:301, 巨型加固玫瑰金物品管道
 gregtech:item_pipe_huge_restrictive:1007, 巨型加固聚氯乙烯（PVC）物品管道
-gregtech:item_pipe_huge_restrictive:302, 巨型加固黑青铜物品管道
+gregtech:item_pipe_huge_restrictive:80, 巨型加固铂物品管道
+gregtech:item_pipe_huge_restrictive:300, 巨型加固标准纯银物品管道
+gregtech:item_pipe_huge_restrictive:69, 巨型加固镍物品管道
 gregtech:optical_pipe_normal:0, 光缆
 gregtech:laser_pipe_normal:0, 激光传导线缆
 gregtech:ld_item_pipe, 长距离物品管道
@@ -19614,6 +19655,8 @@ gregtech:brittle_charcoal, 脆木炭块
 gregtech:rubber_log, 橡胶木
 gregtech:rubber_leaves, 橡胶树叶
 gregtech:rubber_sapling, 橡胶树苗
+gregtech:powderbarrel, Powderbarrel
+gregtech:itnt, Industrial TNT
 gregtech:meta_block_compressed_0:2, 铝块
 gregtech:meta_block_compressed_0:3, 镅块
 gregtech:meta_block_compressed_0:4, 锑块
@@ -19710,6 +19753,7 @@ gregtech:meta_block_compressed_20:14, 钒镓合金块
 gregtech:meta_block_compressed_20:15, 锻铁块
 gregtech:meta_block_compressed_21:2, 钇钡铜氧化物块
 gregtech:meta_block_compressed_21:4, 石英岩块
+gregtech:meta_block_compressed_21:5, 石墨块
 gregtech:meta_block_compressed_21:8, 铱锇合金块
 gregtech:meta_block_compressed_21:15, 砷化镓块
 gregtech:meta_block_compressed_22:2, 磷化铟镓块
@@ -19860,6 +19904,8 @@ gregtech:meta_block_compressed_1254:7, 晶化粉红史莱姆块
 gregtech:meta_block_compressed_1254:8, 孚能银块
 gregtech:meta_block_compressed_1254:9, 强场合金块
 gregtech:meta_block_compressed_1254:10, 粗钢块
+gregtech:meta_block_compressed_1258:11, 柴隆纤维块
+gregtech:meta_block_compressed_1262:0, 贵金属块
 gregtech:meta_block_compressed_1268:13, gregtech.material.periodicium块
 gregtech:meta_block_compressed_1269:9, 金属氢块
 gregtech:meta_block_compressed_1272:7, 共振紫晶块
@@ -19874,6 +19920,7 @@ gregtech:meta_block_compressed_1288:2, 流块
 gregtech:meta_block_compressed_1288:3, 土块
 gregtech:meta_block_compressed_1288:4, 熵块
 gregtech:meta_block_compressed_1288:5, 序块
+gregtech:meta_block_compressed_1288:15, 可燃冰块
 gregtech:meta_block_compressed_1500:1, 神秘块
 gregtech:meta_block_compressed_1500:2, 虚空块
 gregtech:meta_block_compressed_1531:5, 镍基合金-625块
@@ -19973,6 +20020,7 @@ gregtech:meta_block_frame_3:3, 铁框架
 gregtech:meta_block_frame_3:11, 镁框架
 gregtech:meta_block_frame_7:1, 钛框架
 gregtech:meta_block_frame_7:3, 钨框架
+gregtech:meta_block_frame_7:12, 硅岩框架
 gregtech:meta_block_frame_7:14, 超能硅岩框架
 gregtech:meta_block_frame_7:15, 中子素框架
 gregtech:meta_block_frame_8:0, 三钛合金框架
@@ -20005,6 +20053,7 @@ gregtech:meta_block_frame_188:14, 耐热铬铁合金-MA956框架
 gregtech:meta_block_frame_193:15, 山铜框架
 gregtech:meta_block_frame_194:1, 精金框架
 gregtech:meta_block_frame_225:4, 富勒烯框架
+gregtech:meta_block_frame_225:15, 精金石框架
 gregtech:meta_block_frame_1250:11, 磁流体动力学约束恒星等离子体物质框架
 gregtech:meta_block_frame_1253:8, 陨铁框架
 gregtech:meta_block_frame_1253:9, 戴斯框架
@@ -20206,9 +20255,9 @@ gregtech:ore_magnetite_0:2, 末地石磁铁矿矿石
 gregtech:ore_molybdenite_0:0, 辉钼矿矿石
 gregtech:ore_molybdenite_0:1, 地狱岩辉钼矿矿石
 gregtech:ore_molybdenite_0:2, 末地石辉钼矿矿石
-gregtech:ore_powellite_0:0, 钼钨钙矿矿石
-gregtech:ore_powellite_0:1, 地狱岩钼钨钙矿矿石
-gregtech:ore_powellite_0:2, 末地石钼钨钙矿矿石
+gregtech:ore_powellite_0:0, 钼钙矿矿石
+gregtech:ore_powellite_0:1, 地狱岩钼钙矿矿石
+gregtech:ore_powellite_0:2, 末地石钼钙矿矿石
 gregtech:ore_pyrite_0:0, 黄铁矿矿石
 gregtech:ore_pyrite_0:1, 地狱岩黄铁矿矿石
 gregtech:ore_pyrite_0:2, 末地石黄铁矿矿石
@@ -20404,6 +20453,9 @@ gregtech:ore_meteoric_iron_0:2, 末地石陨铁矿石
 gregtech:ore_desh_0:0, 戴斯矿石
 gregtech:ore_desh_0:1, 地狱岩戴斯矿石
 gregtech:ore_desh_0:2, 末地石戴斯矿石
+gregtech:ore_precious_metal_0:0, 贵金属矿石
+gregtech:ore_precious_metal_0:1, 地狱岩贵金属矿石
+gregtech:ore_precious_metal_0:2, 末地石贵金属矿石
 gregtech:ore_lean_gold_sulphide_0:0, 贫硫化金矿石矿石
 gregtech:ore_lean_gold_sulphide_0:1, 地狱岩贫硫化金矿石矿石
 gregtech:ore_lean_gold_sulphide_0:2, 末地石贫硫化金矿石矿石
@@ -20449,6 +20501,18 @@ gregtech:ore_amblygonite_0:2, 末地石磷铝锂石矿石
 gregtech:ore_amber_0:0, 琥珀矿石
 gregtech:ore_amber_0:1, 地狱岩琥珀矿石
 gregtech:ore_amber_0:2, 末地石琥珀矿石
+gregtech:ore_thorianite_0:0, 方钍石矿石
+gregtech:ore_thorianite_0:1, 地狱岩方钍石矿石
+gregtech:ore_thorianite_0:2, 末地石方钍石矿石
+gregtech:ore_yanghuaguiyan_0:0, 氧化硅岩矿石
+gregtech:ore_yanghuaguiyan_0:1, 地狱岩氧化硅岩矿石
+gregtech:ore_yanghuaguiyan_0:2, 末地石氧化硅岩矿石
+gregtech:ore_ulexite_0:0, 钠硼解石矿石
+gregtech:ore_ulexite_0:1, 地狱岩钠硼解石矿石
+gregtech:ore_ulexite_0:2, 末地石钠硼解石矿石
+gregtech:ore_gashydrate_0:0, 可燃冰矿石
+gregtech:ore_gashydrate_0:1, 地狱岩可燃冰矿石
+gregtech:ore_gashydrate_0:2, 末地石可燃冰矿石
 gregtech:gt.frame_accelerated, 加速框架
 gregtech:gt.frame_mutagenic, 诱变框架
 gregtech:gt.frame_working, 工作框架
@@ -20793,42 +20857,42 @@ tconstruct:slime_vine_purple_end:0, 紫色史莱姆藤蔓
 tconstruct:slime_vine_purple_mid:0, 紫色史莱姆藤蔓
 tconstruct:slime_vine_purple:0, 紫色史莱姆藤蔓
 tconstruct:pattern:0, 空白模具
-tconstruct:pattern:0, 护甲夹板模具
-tconstruct:pattern:0, 手柄模具
-tconstruct:pattern:0, 碎片模具
-tconstruct:pattern:0, 护手模具
-tconstruct:pattern:0, 弓弦模具
-tconstruct:pattern:0, 磨制工具模具
-tconstruct:pattern:0, 锹头模具
-tconstruct:pattern:0, 头盔基底模具
-tconstruct:pattern:0, 镐头模具
-tconstruct:pattern:0, 弓臂模具
-tconstruct:pattern:0, 箭头模具
-tconstruct:pattern:0, 靴子基底模具
+tconstruct:pattern:0, 锤头模具
 tconstruct:pattern:0, 宽剑刃模具
 tconstruct:pattern:0, 开掘铲头模具
-tconstruct:pattern:0, 胸甲基底模具
-tconstruct:pattern:0, 十字柄模具
-tconstruct:pattern:0, 刀刃模具
-tconstruct:pattern:0, 抛光工具模具
-tconstruct:pattern:0, 宽护手模具
-tconstruct:pattern:0, 盘模具
-tconstruct:pattern:0, 剑刃模具
-tconstruct:pattern:0, 奇术焦镜模具
-tconstruct:pattern:0, 绑定结模具
 tconstruct:pattern:0, 斧刃模具
+tconstruct:pattern:0, 宽护手模具
+tconstruct:pattern:0, 箭头模具
+tconstruct:pattern:0, 园艺镰头模具
+tconstruct:pattern:0, 护手模具
+tconstruct:pattern:0, 锹头模具
+tconstruct:pattern:0, 手柄模具
+tconstruct:pattern:0, 弓弦模具
 tconstruct:pattern:0, 坚韧手柄模具
-tconstruct:pattern:0, 锤头模具
-tconstruct:pattern:0, 箭羽模具
+tconstruct:pattern:0, 盘模具
+tconstruct:pattern:0, 碎片模具
+tconstruct:pattern:0, 坚韧绑定结模具
+tconstruct:pattern:0, 磨制工具模具
 tconstruct:pattern:0, 护甲板模具
-tconstruct:pattern:0, 镰刀头模具
+tconstruct:pattern:0, 头盔基底模具
+tconstruct:pattern:0, 刀刃模具
+tconstruct:pattern:0, 绑定结模具
+tconstruct:pattern:0, 箭羽模具
+tconstruct:pattern:0, 护甲夹板模具
+tconstruct:pattern:0, 十字柄模具
+tconstruct:pattern:0, 护腿基底模具
+tconstruct:pattern:0, 靴子基底模具
+tconstruct:pattern:0, 抛光工具模具
 tconstruct:pattern:0, 箭杆模具
 tconstruct:pattern:0, 大板模具
-tconstruct:pattern:0, 坚韧绑定结模具
-tconstruct:pattern:0, 护腿基底模具
-tconstruct:pattern:0, 园艺镰头模具
-tconstruct:pattern:0, 牌板模具
+tconstruct:pattern:0, 剑刃模具
+tconstruct:pattern:0, 镐头模具
+tconstruct:pattern:0, 弓臂模具
+tconstruct:pattern:0, 奇术焦镜模具
 tconstruct:pattern:0, 宽斧刃模具
+tconstruct:pattern:0, 镰刀头模具
+tconstruct:pattern:0, 胸甲基底模具
+tconstruct:pattern:0, 牌板模具
 tconstruct:shard:0, 熔融木 碎片
 tconstruct:shard:0, 黑暗木 碎片
 tconstruct:shard:0, 血木 碎片
@@ -26438,80 +26502,80 @@ tconstruct:seared_stairs_road:0, 焦黑铺路石楼梯
 tconstruct:seared_stairs_tile:0, 焦黑瓷砖楼梯
 tconstruct:seared_stairs_creeper:0, 焦黑雕琢楼梯
 tconstruct:cast:0, 空白铸模
-tconstruct:cast:0, 护甲夹板铸模
-tconstruct:cast:0, 手柄铸模
-tconstruct:cast:0, 碎片铸模
-tconstruct:cast:0, 护手铸模
-tconstruct:cast:0, 弓弦铸模
-tconstruct:cast:0, 磨制工具铸模
-tconstruct:cast:0, 锹头铸模
-tconstruct:cast:0, 头盔基底铸模
-tconstruct:cast:0, 镐头铸模
-tconstruct:cast:0, 弓臂铸模
-tconstruct:cast:0, 箭头铸模
-tconstruct:cast:0, 靴子基底铸模
+tconstruct:cast:0, 锤头铸模
 tconstruct:cast:0, 宽剑刃铸模
 tconstruct:cast:0, 开掘铲头铸模
-tconstruct:cast:0, 胸甲基底铸模
-tconstruct:cast:0, 十字柄铸模
-tconstruct:cast:0, 刀刃铸模
-tconstruct:cast:0, 抛光工具铸模
-tconstruct:cast:0, 宽护手铸模
-tconstruct:cast:0, 盘铸模
-tconstruct:cast:0, 剑刃铸模
-tconstruct:cast:0, 奇术焦镜铸模
-tconstruct:cast:0, 绑定结铸模
 tconstruct:cast:0, 斧刃铸模
-tconstruct:cast:0, 坚韧手柄铸模
-tconstruct:cast:0, 锤头铸模
-tconstruct:cast:0, 护甲板铸模
-tconstruct:cast:0, 镰刀头铸模
-tconstruct:cast:0, 大板铸模
-tconstruct:cast:0, 坚韧绑定结铸模
-tconstruct:cast:0, 护腿基底铸模
+tconstruct:cast:0, 宽护手铸模
+tconstruct:cast:0, 箭头铸模
 tconstruct:cast:0, 园艺镰头铸模
-tconstruct:cast:0, 牌板铸模
+tconstruct:cast:0, 护手铸模
+tconstruct:cast:0, 锹头铸模
+tconstruct:cast:0, 手柄铸模
+tconstruct:cast:0, 弓弦铸模
+tconstruct:cast:0, 坚韧手柄铸模
+tconstruct:cast:0, 盘铸模
+tconstruct:cast:0, 碎片铸模
+tconstruct:cast:0, 坚韧绑定结铸模
+tconstruct:cast:0, 磨制工具铸模
+tconstruct:cast:0, 护甲板铸模
+tconstruct:cast:0, 头盔基底铸模
+tconstruct:cast:0, 刀刃铸模
+tconstruct:cast:0, 绑定结铸模
+tconstruct:cast:0, 护甲夹板铸模
+tconstruct:cast:0, 十字柄铸模
+tconstruct:cast:0, 护腿基底铸模
+tconstruct:cast:0, 靴子基底铸模
+tconstruct:cast:0, 抛光工具铸模
+tconstruct:cast:0, 大板铸模
+tconstruct:cast:0, 剑刃铸模
+tconstruct:cast:0, 镐头铸模
+tconstruct:cast:0, 弓臂铸模
+tconstruct:cast:0, 奇术焦镜铸模
 tconstruct:cast:0, 宽斧刃铸模
+tconstruct:cast:0, 镰刀头铸模
+tconstruct:cast:0, 胸甲基底铸模
+tconstruct:cast:0, 牌板铸模
 tconstruct:cast_custom:0, 锭铸模
 tconstruct:cast_custom:1, 粒铸模
 tconstruct:cast_custom:2, 宝石铸模
 tconstruct:cast_custom:3, 板铸模
 tconstruct:cast_custom:4, 齿轮铸模
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, 护甲夹板粘土铸模
-tconstruct:clay_cast:0, 手柄粘土铸模
-tconstruct:clay_cast:0, 碎片粘土铸模
-tconstruct:clay_cast:0, 护手粘土铸模
-tconstruct:clay_cast:0, 弓弦粘土铸模
-tconstruct:clay_cast:0, 磨制工具粘土铸模
-tconstruct:clay_cast:0, 锹头粘土铸模
-tconstruct:clay_cast:0, 头盔基底粘土铸模
-tconstruct:clay_cast:0, 镐头粘土铸模
-tconstruct:clay_cast:0, 弓臂粘土铸模
-tconstruct:clay_cast:0, 箭头粘土铸模
-tconstruct:clay_cast:0, 靴子基底粘土铸模
+tconstruct:clay_cast:0, 锤头粘土铸模
 tconstruct:clay_cast:0, 宽剑刃粘土铸模
 tconstruct:clay_cast:0, 开掘铲头粘土铸模
-tconstruct:clay_cast:0, 胸甲基底粘土铸模
-tconstruct:clay_cast:0, 十字柄粘土铸模
-tconstruct:clay_cast:0, 刀刃粘土铸模
-tconstruct:clay_cast:0, 抛光工具粘土铸模
-tconstruct:clay_cast:0, 宽护手粘土铸模
-tconstruct:clay_cast:0, 盘粘土铸模
-tconstruct:clay_cast:0, 剑刃粘土铸模
-tconstruct:clay_cast:0, 奇术焦镜粘土铸模
-tconstruct:clay_cast:0, 绑定结粘土铸模
 tconstruct:clay_cast:0, 斧刃粘土铸模
-tconstruct:clay_cast:0, 坚韧手柄粘土铸模
-tconstruct:clay_cast:0, 锤头粘土铸模
-tconstruct:clay_cast:0, 护甲板粘土铸模
-tconstruct:clay_cast:0, 镰刀头粘土铸模
-tconstruct:clay_cast:0, 大板粘土铸模
-tconstruct:clay_cast:0, 坚韧绑定结粘土铸模
-tconstruct:clay_cast:0, 护腿基底粘土铸模
+tconstruct:clay_cast:0, 宽护手粘土铸模
+tconstruct:clay_cast:0, 箭头粘土铸模
 tconstruct:clay_cast:0, 园艺镰头粘土铸模
-tconstruct:clay_cast:0, 牌板粘土铸模
+tconstruct:clay_cast:0, 护手粘土铸模
+tconstruct:clay_cast:0, 锹头粘土铸模
+tconstruct:clay_cast:0, 手柄粘土铸模
+tconstruct:clay_cast:0, 弓弦粘土铸模
+tconstruct:clay_cast:0, 坚韧手柄粘土铸模
+tconstruct:clay_cast:0, 盘粘土铸模
+tconstruct:clay_cast:0, 碎片粘土铸模
+tconstruct:clay_cast:0, 坚韧绑定结粘土铸模
+tconstruct:clay_cast:0, 磨制工具粘土铸模
+tconstruct:clay_cast:0, 护甲板粘土铸模
+tconstruct:clay_cast:0, 头盔基底粘土铸模
+tconstruct:clay_cast:0, 刀刃粘土铸模
+tconstruct:clay_cast:0, 绑定结粘土铸模
+tconstruct:clay_cast:0, 护甲夹板粘土铸模
+tconstruct:clay_cast:0, 十字柄粘土铸模
+tconstruct:clay_cast:0, 护腿基底粘土铸模
+tconstruct:clay_cast:0, 靴子基底粘土铸模
+tconstruct:clay_cast:0, 抛光工具粘土铸模
+tconstruct:clay_cast:0, 大板粘土铸模
+tconstruct:clay_cast:0, 剑刃粘土铸模
+tconstruct:clay_cast:0, 镐头粘土铸模
+tconstruct:clay_cast:0, 弓臂粘土铸模
+tconstruct:clay_cast:0, 奇术焦镜粘土铸模
 tconstruct:clay_cast:0, 宽斧刃粘土铸模
+tconstruct:clay_cast:0, 镰刀头粘土铸模
+tconstruct:clay_cast:0, 胸甲基底粘土铸模
+tconstruct:clay_cast:0, 牌板粘土铸模
 tconstruct:stone_torch:0, 石柄火把
 tconstruct:stone_ladder:0, 石梯
 tconstruct:punji:0, 尖竹钉
@@ -28347,7 +28411,6 @@ gtqtcore:turbine_casing1:4, tile.turbine_casing1.precise_assembler_casing_mk1.na
 gtqtcore:turbine_casing1:5, tile.turbine_casing1.precise_assembler_casing_mk2.name
 gtqtcore:turbine_casing1:6, tile.turbine_casing1.precise_assembler_casing_mk3.name
 gtqtcore:turbine_casing1:7, 镀锌钢机械外壳
-gtqtcore:turbine_casing1:8, tile.turbine_casing1.zhu.name
 gtqtcore:quantum_force_transformer_casing:0, 量子约束机器外壳
 gtqtcore:quantum_force_transformer_casing:1, 中子脉冲控制器机械方块
 gtqtcore:quantum_force_transformer_casing:2, 中子屏蔽核心机械方块
@@ -29128,35 +29191,35 @@ morefurnaces:furnaceblock:4, 下界熔炉
 morefurnaces:furnaceblock:5, 铜熔炉
 morefurnaces:furnaceblock:6, 银熔炉
 thaumicwonders:flux_distiller, 咒波蒸馏器
-thaumicwonders:placeholder_arcane_stone, 催化室
+thaumicwonders:portal_anchor, 传送锚
+thaumicwonders:primordial_accelerator_terminus, 元始加速冲撞终端
+thaumicwonders:alkahest_vat, 万能溶剂之锅
+thaumicwonders:madness_engine, 疯狂引擎
 thaumicwonders:portal_generator, 传送门生成器
 thaumicwonders:meaty_orb, 嗜肉之球
-thaumicwonders:placeholder_void_metal_block, 元始积聚室
-thaumicwonders:creative_essentia_jar, 创造模式源质罐子
-thaumicwonders:dimensional_ripper, 维度撕裂器
-thaumicwonders:placeholder_adv_alch_construct, 元始积聚室
-thaumicwonders:madness_engine, 疯狂引擎
-thaumicwonders:void_beacon, 虚空信标
-thaumicwonders:alkahest_vat, 万能溶剂之锅
-thaumicwonders:meteorb, 气象之球
-thaumicwonders:flux_capacitor, 咒波容器
-thaumicwonders:shimmerleaf_crop, 水银花
-thaumicwonders:everburning_urn, 永燃之瓮
-thaumicwonders:portal_anchor, 传送锚
-thaumicwonders:vishroom_crop, 纤毛菇
-thaumicwonders:placeholder_thaumium_block, 元始积聚室
-thaumicwonders:placeholder_obsidian, 催化室
-thaumicwonders:catalyzation_chamber, 催化室
-thaumicwonders:primordial_accretion_chamber, 元始积聚室
 thaumicwonders:cinderpearl_crop, 火焰草
-thaumicwonders:coalescence_matrix, 聚合矩阵
-thaumicwonders:inspiration_engine, 灵感引擎
-thaumicwonders:hexamite, 乌洛托品（魔法版01型）
-thaumicwonders:primordial_accelerator, 元始加速器
-thaumicwonders:coalescence_matrix_precursor, 聚合矩阵
-thaumicwonders:primordial_accelerator_tunnel, 元始加速轨道
-thaumicwonders:primordial_accelerator_terminus, 元始加速冲撞终端
+thaumicwonders:catalyzation_chamber, 催化室
+thaumicwonders:flux_capacitor, 咒波容器
+thaumicwonders:meteorb, 气象之球
 thaumicwonders:ore_diviner, 矿石探测器
+thaumicwonders:placeholder_thaumium_block, 元始积聚室
+thaumicwonders:primordial_accelerator_tunnel, 元始加速轨道
+thaumicwonders:placeholder_obsidian, 催化室
+thaumicwonders:void_beacon, 虚空信标
+thaumicwonders:vishroom_crop, 纤毛菇
+thaumicwonders:placeholder_adv_alch_construct, 元始积聚室
+thaumicwonders:primordial_accelerator, 元始加速器
+thaumicwonders:coalescence_matrix, 聚合矩阵
+thaumicwonders:dimensional_ripper, 维度撕裂器
+thaumicwonders:everburning_urn, 永燃之瓮
+thaumicwonders:hexamite, 乌洛托品（魔法版01型）
+thaumicwonders:shimmerleaf_crop, 水银花
+thaumicwonders:inspiration_engine, 灵感引擎
+thaumicwonders:creative_essentia_jar, 创造模式源质罐子
+thaumicwonders:placeholder_void_metal_block, 元始积聚室
+thaumicwonders:placeholder_arcane_stone, 催化室
+thaumicwonders:coalescence_matrix_precursor, 聚合矩阵
+thaumicwonders:primordial_accretion_chamber, 元始积聚室
 thaumicwonders:disjunction_cloth, 驱魔之布
 thaumicwonders:primal_destroyer, 元始毁灭者
 thaumicwonders:flying_carpet, 飞毯
@@ -29969,6 +30032,27 @@ stevescarts:cartmodule:96, 创造模式焚化炉
 stevescarts:cartmodule:97, 创造模式供应
 stevescarts:cartmodule:99, 蛋糕服务器
 stevescarts:cartmodule:101, 颜色定制组件
+storagedrawers:upgrade_template, 升级模板
+storagedrawers:upgrade_storage:0, 抽屉容量升级（I）
+storagedrawers:upgrade_storage:1, 抽屉容量升级（II）
+storagedrawers:upgrade_storage:2, 抽屉容量升级（III）
+storagedrawers:upgrade_storage:3, 抽屉容量升级（IV）
+storagedrawers:upgrade_storage:4, 抽屉容量升级（V）
+storagedrawers:upgrade_one_stack, 存储降级
+storagedrawers:upgrade_status:0, 状态显示升级（I）
+storagedrawers:upgrade_status:1, 状态显示升级（II）
+storagedrawers:upgrade_void, 销毁升级
+storagedrawers:upgrade_conversion, 转换升级
+storagedrawers:upgrade_creative:0, 创造模式容量升级
+storagedrawers:upgrade_creative:1, 创造模式取出升级
+storagedrawers:upgrade_redstone:0, 红石升级
+storagedrawers:upgrade_redstone:1, 红石升级（最大）
+storagedrawers:upgrade_redstone:2, 红石升级（最小）
+storagedrawers:drawer_key, 抽屉钥匙
+storagedrawers:shroud_key, 屏蔽钥匙
+storagedrawers:personal_key, 私人钥匙
+storagedrawers:quantify_key, 量化钥匙
+storagedrawers:tape, 打包带
 storagedrawers:basicdrawers:0, 基础抽屉
 storagedrawers:basicdrawers:0, 基础抽屉
 storagedrawers:basicdrawers:0, 基础抽屉
@@ -30019,27 +30103,6 @@ storagedrawers:customdrawers:3, 1x2 小型镶框抽屉
 storagedrawers:customdrawers:4, 2x2 小型镶框抽屉
 storagedrawers:customtrim, 镶框桥接方块
 storagedrawers:framingtable, 镶框台
-storagedrawers:upgrade_template, 升级模板
-storagedrawers:upgrade_storage:0, 抽屉容量升级（I）
-storagedrawers:upgrade_storage:1, 抽屉容量升级（II）
-storagedrawers:upgrade_storage:2, 抽屉容量升级（III）
-storagedrawers:upgrade_storage:3, 抽屉容量升级（IV）
-storagedrawers:upgrade_storage:4, 抽屉容量升级（V）
-storagedrawers:upgrade_one_stack, 存储降级
-storagedrawers:upgrade_status:0, 状态显示升级（I）
-storagedrawers:upgrade_status:1, 状态显示升级（II）
-storagedrawers:upgrade_void, 销毁升级
-storagedrawers:upgrade_conversion, 转换升级
-storagedrawers:upgrade_creative:0, 创造模式容量升级
-storagedrawers:upgrade_creative:1, 创造模式取出升级
-storagedrawers:upgrade_redstone:0, 红石升级
-storagedrawers:upgrade_redstone:1, 红石升级（最大）
-storagedrawers:upgrade_redstone:2, 红石升级（最小）
-storagedrawers:drawer_key, 抽屉钥匙
-storagedrawers:shroud_key, 屏蔽钥匙
-storagedrawers:personal_key, 私人钥匙
-storagedrawers:quantify_key, 量化钥匙
-storagedrawers:tape, 打包带
 superfactorymanager:cable_relay:0, 物品栏中转站
 superfactorymanager:cable_relay:8, 高级物品栏中转站
 superfactorymanager:cable_intake:0, 物品阀门
@@ -30275,69 +30338,6 @@ travelersbackpack:backpack_tank, 背包储罐
 travelersbackpack:sleeping_bag_bottom, 睡袋
 travelersbackpack:hose_nozzle, 水管口
 travelersbackpack:hose, 水管
-treasure2:wood_chest, 木箱
-treasure2:crate_chest, 板条箱
-treasure2:crate_chest_moldy, 老旧的板条箱
-treasure2:ironbound_chest, 铁条加固箱
-treasure2:pirate_chest, 海盗宝箱
-treasure2:iron_strongbox, 铁制保险箱
-treasure2:gold_strongbox, 金制保险箱
-treasure2:safe, 保险箱
-treasure2:dread_pirate_chest, 可怖海盗宝箱
-treasure2:compressor_chest, 紧凑型箱子
-treasure2:wither_chest, 凋灵箱子
-treasure2:skull_chest, 骷髅头箱子
-treasure2:gold_skull_chest, 黄金骷髅头箱子
-treasure2:crystal_skull_chest, 水晶骷髅头箱子
-treasure2:cauldron_chest, 坩埚箱子
-treasure2:spider_chest, 蜘蛛箱子
-treasure2:viking_chest, 维京箱子
-treasure2:cardboard_box, 纸板箱
-treasure2:milk_crate, 牛奶储装箱
-treasure2:wood_mimic, 木头宝箱怪
-treasure2:pirate_mimic, 海盗宝箱怪
-treasure2:gravestone1_stone, 石制墓碑
-treasure2:gravestone1_cobblestone, 圆石墓碑
-treasure2:gravestone1_mossy_cobblestone, 苔石墓碑
-treasure2:gravestone1_polished_granite, 花岗岩墓碑
-treasure2:gravestone1_polished_andesite, 安山岩墓碑
-treasure2:gravestone1_polished_diorite, 闪长岩墓碑
-treasure2:gravestone1_obsidian, 黑曜石墓碑
-treasure2:gravestone2_stone, 石制墓碑
-treasure2:gravestone2_cobblestone, 圆石墓碑
-treasure2:gravestone2_mossy_cobblestone, 苔石墓碑
-treasure2:gravestone2_polished_granite, 花岗岩墓碑
-treasure2:gravestone2_polished_andesite, 安山岩墓碑
-treasure2:gravestone2_polished_diorite, 闪长岩墓碑
-treasure2:gravestone2_obsidian, 黑曜石墓碑
-treasure2:gravestone3_stone, 石头墓碑
-treasure2:gravestone3_cobblestone, 圆石墓碑
-treasure2:gravestone3_mossy_cobblestone, 苔石墓碑
-treasure2:gravestone3_polished_granite, 花岗岩墓碑
-treasure2:gravestone3_polished_andesite, 安山岩墓碑
-treasure2:gravestone3_polished_diorite, 闪长岩墓碑
-treasure2:gravestone3_obsidian, 黑曜石墓碑
-treasure2:gravestone1_spawner_stone, 石头墓碑
-treasure2:gravestone2_spawner_cobblestone, 圆石墓碑
-treasure2:gravestone3_spawner_obsidian, 黑曜石墓碑
-treasure2:skull_and_crossbones, 骷髅头
-treasure2:wishing_well_block, 许愿井铸石
-treasure2:desert_wishing_well_block, 沙漠许愿井铸石
-treasure2:wither_log, 凋灵木
-treasure2:wither_broken_log, 缺损的凋灵木
-treasure2:wither_log_soul, 凋灵木之魂
-treasure2:wither_planks, 凋灵木板
-treasure2:amethyst_ore, 紫水晶矿石
-treasure2:onyx_ore, 缟玛瑙矿石
-treasure2:sapphire_ore, 蓝宝石矿石
-treasure2:ruby_ore, 红宝石矿石
-treasure2:proximity_spawner, tile.treasure2:proximity_spawner.name
-treasure2:falling_grass, 草方块
-treasure2:falling_sand, 沙块
-treasure2:falling_red_sand, 红沙块
-treasure2:blackstone, 黑石
-treasure2:jeweler_bench, 饰品加工台
-treasure2:charming_table, 魔咒加工台
 treasure2:treasure_tab, item.treasure2:treasure_tab.name
 treasure2:adornments_tab, item.treasure2:adornments_tab.name
 treasure2:copper_coin, 铜币
@@ -30701,6 +30701,69 @@ treasure2:great_black_pearl_black_bracelet, 大型暗影镶黑珍珠手镯
 treasure2:great_black_pearl_black_necklace, 大型暗影镶黑珍珠项链
 treasure2:great_black_pearl_black_ring, 大型暗影镶黑珍珠戒指
 treasure2:pocket_watch, 怀表
+treasure2:wood_chest, 木箱
+treasure2:crate_chest, 板条箱
+treasure2:crate_chest_moldy, 老旧的板条箱
+treasure2:ironbound_chest, 铁条加固箱
+treasure2:pirate_chest, 海盗宝箱
+treasure2:iron_strongbox, 铁制保险箱
+treasure2:gold_strongbox, 金制保险箱
+treasure2:safe, 保险箱
+treasure2:dread_pirate_chest, 可怖海盗宝箱
+treasure2:compressor_chest, 紧凑型箱子
+treasure2:wither_chest, 凋灵箱子
+treasure2:skull_chest, 骷髅头箱子
+treasure2:gold_skull_chest, 黄金骷髅头箱子
+treasure2:crystal_skull_chest, 水晶骷髅头箱子
+treasure2:cauldron_chest, 坩埚箱子
+treasure2:spider_chest, 蜘蛛箱子
+treasure2:viking_chest, 维京箱子
+treasure2:cardboard_box, 纸板箱
+treasure2:milk_crate, 牛奶储装箱
+treasure2:wood_mimic, 木头宝箱怪
+treasure2:pirate_mimic, 海盗宝箱怪
+treasure2:gravestone1_stone, 石制墓碑
+treasure2:gravestone1_cobblestone, 圆石墓碑
+treasure2:gravestone1_mossy_cobblestone, 苔石墓碑
+treasure2:gravestone1_polished_granite, 花岗岩墓碑
+treasure2:gravestone1_polished_andesite, 安山岩墓碑
+treasure2:gravestone1_polished_diorite, 闪长岩墓碑
+treasure2:gravestone1_obsidian, 黑曜石墓碑
+treasure2:gravestone2_stone, 石制墓碑
+treasure2:gravestone2_cobblestone, 圆石墓碑
+treasure2:gravestone2_mossy_cobblestone, 苔石墓碑
+treasure2:gravestone2_polished_granite, 花岗岩墓碑
+treasure2:gravestone2_polished_andesite, 安山岩墓碑
+treasure2:gravestone2_polished_diorite, 闪长岩墓碑
+treasure2:gravestone2_obsidian, 黑曜石墓碑
+treasure2:gravestone3_stone, 石头墓碑
+treasure2:gravestone3_cobblestone, 圆石墓碑
+treasure2:gravestone3_mossy_cobblestone, 苔石墓碑
+treasure2:gravestone3_polished_granite, 花岗岩墓碑
+treasure2:gravestone3_polished_andesite, 安山岩墓碑
+treasure2:gravestone3_polished_diorite, 闪长岩墓碑
+treasure2:gravestone3_obsidian, 黑曜石墓碑
+treasure2:gravestone1_spawner_stone, 石头墓碑
+treasure2:gravestone2_spawner_cobblestone, 圆石墓碑
+treasure2:gravestone3_spawner_obsidian, 黑曜石墓碑
+treasure2:skull_and_crossbones, 骷髅头
+treasure2:wishing_well_block, 许愿井铸石
+treasure2:desert_wishing_well_block, 沙漠许愿井铸石
+treasure2:wither_log, 凋灵木
+treasure2:wither_broken_log, 缺损的凋灵木
+treasure2:wither_log_soul, 凋灵木之魂
+treasure2:wither_planks, 凋灵木板
+treasure2:amethyst_ore, 紫水晶矿石
+treasure2:onyx_ore, 缟玛瑙矿石
+treasure2:sapphire_ore, 蓝宝石矿石
+treasure2:ruby_ore, 红宝石矿石
+treasure2:proximity_spawner, tile.treasure2:proximity_spawner.name
+treasure2:falling_grass, 草方块
+treasure2:falling_sand, 沙块
+treasure2:falling_red_sand, 红沙块
+treasure2:blackstone, 黑石
+treasure2:jeweler_bench, 饰品加工台
+treasure2:charming_table, 魔咒加工台
 unstabletools:unstable_ingot, 不稳定金属锭
 unstabletools:unstable_shears, 不稳定金属剪刀
 unstabletools:unstable_block, 不稳定金属块
@@ -31293,9 +31356,13 @@ contenttweaker:tangtan, 糖碳
 contenttweaker:tangjiao, 糖焦煤
 contenttweaker:weishaozhidejiaoluzhuan, 未烧制的焦炉砖
 drtech:gravitational_anomaly, 质量异常点
+drtech:homo_eye, tile.drtech.homo_eye.name
 drtech:red_stone_seed, 红石种子
 drtech:lapis_seed, 染料种子
 drtech:flu_seed, 萤石种子
+drtech:connector_1, 1级电容
+drtech:connector_2, 2级电容
+drtech:connector_3, 3级电容
 drtech:glasses_casing:0, 钛强化硅酸盐硼玻璃
 drtech:glasses_casing:1, 钨强化硅酸盐硼玻璃
 drtech:glasses_casing:2, 钍钇玻璃块
@@ -31316,7 +31383,8 @@ drtech:meta_machine_casing:5, 谐振腔
 drtech:meta_machine_casing:6, 高压流电容方块
 drtech:meta_machine_casing:7, 元素约束机械方块
 drtech:meta_machine_casing:8, 无菌农场机械方块
-drtech:meta_machine_casing:9, yot机械方块
+drtech:meta_machine_casing:9, YOT机械方块
+drtech:meta_machine_casing:10, TFFT机械方块
 drtech:yot_tank_part:0, 流体单元方块(T1)
 drtech:yot_tank_part:1, 流体单元方块(T2)
 drtech:yot_tank_part:2, 流体单元方块(T3)
@@ -31325,6 +31393,18 @@ drtech:yot_tank_part:4, 流体单元方块(T5)
 drtech:yot_tank_part:5, 流体单元方块(T6)
 drtech:yot_tank_part:6, 流体单元方块(T7)
 drtech:yot_tank_part:7, 流体单元方块(T8)
+drtech:yot_tank_part:8, 流体单元方块(T9)
+drtech:yot_tank_part:9, 流体单元方块(T10)
+drtech:tfft_part:0, 流体单元方块(T1)
+drtech:tfft_part:1, 流体单元方块(T2)
+drtech:tfft_part:2, 流体单元方块(T3)
+drtech:tfft_part:3, 流体单元方块(T4)
+drtech:tfft_part:4, 流体单元方块(T5)
+drtech:tfft_part:5, 流体单元方块(T6)
+drtech:tfft_part:6, 流体单元方块(T7)
+drtech:tfft_part:7, 流体单元方块(T8)
+drtech:tfft_part:8, 流体单元方块(T9)
+drtech:tfft_part:9, 流体单元方块(T10)
 drtech:my_laser_pipe_normal:0, 透明激光管
 ae2fc:fluid_discretizer, ME流体离散器
 ae2fc:fluid_pattern_encoder, 流体适配型样板编码台
@@ -31345,16 +31425,6 @@ ae2fc:part_fluid_pattern_terminal, ME流体样板终端
 ae2fc:part_fluid_pattern_ex_terminal, ME增广流体样板终端
 ae2fc:large_item_encoded_pattern, 编码样板
 ae2fc:wireless_fluid_pattern_terminal, Wireless Fluid Pattern Terminal
-tconevo:earth_material_block:0, 粉色史莱姆泥土
-tconevo:metal_block:0, 飞龙金属块
-tconevo:metal_block:1, 神龙金属块
-tconevo:metal_block:2, 混沌金属块
-tconevo:metal_block:3, 蕴魔源质金属块
-tconevo:metal_block:4, 元金块
-tconevo:metal_block:5, 束缚金属块
-tconevo:metal_block:6, 感知金属块
-tconevo:metal_block:7, 能量金属块
-tconevo:metal_block:8, UU金属块
 tconevo:material:0, 聚合矩阵
 tconevo:material:1, 粉色史莱姆晶体
 tconevo:material:2, 启封之板
@@ -31390,6 +31460,16 @@ tconevo:metal:33, 感知板
 tconevo:metal:34, 感知齿轮
 tconevo:edible:0, 生肉锭
 tconevo:edible:1, 熟肉锭
+tconevo:earth_material_block:0, 粉色史莱姆泥土
+tconevo:metal_block:0, 飞龙金属块
+tconevo:metal_block:1, 神龙金属块
+tconevo:metal_block:2, 混沌金属块
+tconevo:metal_block:3, 蕴魔源质金属块
+tconevo:metal_block:4, 元金块
+tconevo:metal_block:5, 束缚金属块
+tconevo:metal_block:6, 感知金属块
+tconevo:metal_block:7, 能量金属块
+tconevo:metal_block:8, UU金属块
 tconevo:mana_giver, 内部物品
 tconevo:part_arcane_focus:0, 圆石 奇术焦镜
 tconevo:part_arcane_focus:0, 银 奇术焦镜
@@ -32858,6 +32938,7 @@ minecraft:cooked_salmon, 熟鲑鱼
 minecraft:clownfish, 小丑鱼
 minecraft:pufferfish, 河豚
 patchouli:guide_book, 指南书
+personalworlds:personal_portal, 私人维度传送门
 thebetweenlands:druid_stone_1, 符石1
 thebetweenlands:druid_stone_2, 符石2
 thebetweenlands:druid_stone_3, 符石3
@@ -34283,6 +34364,13 @@ forestry:crated.minecraft.sapling.2, item.crated.minecraft.sapling.2.name
 forestry:crated.minecraft.sapling.3, item.crated.minecraft.sapling.3.name
 forestry:crated.minecraft.sapling.4, item.crated.minecraft.sapling.4.name
 forestry:crated.minecraft.sapling.5, item.crated.minecraft.sapling.5.name
+forestry:crated.forestry.fruits.0, item.crated.forestry.fruits.0.name
+forestry:crated.forestry.fruits.1, item.crated.forestry.fruits.1.name
+forestry:crated.forestry.fruits.2, item.crated.forestry.fruits.2.name
+forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
+forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
+forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
+forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
 forestry:crated.forestry.beeswax.0, item.crated.forestry.beeswax.0.name
 forestry:crated.forestry.pollen.0, item.crated.forestry.pollen.0.name
 forestry:crated.forestry.pollen.1, item.crated.forestry.pollen.1.name
@@ -34303,11 +34391,4 @@ forestry:crated.forestry.bee_combs.14, item.crated.forestry.bee_combs.14.name
 forestry:crated.forestry.bee_combs.15, item.crated.forestry.bee_combs.15.name
 forestry:crated.forestry.bee_combs.16, item.crated.forestry.bee_combs.16.name
 forestry:crated.forestry.refractory_wax.0, item.crated.forestry.refractory_wax.0.name
-forestry:crated.forestry.fruits.0, item.crated.forestry.fruits.0.name
-forestry:crated.forestry.fruits.1, item.crated.forestry.fruits.1.name
-forestry:crated.forestry.fruits.2, item.crated.forestry.fruits.2.name
-forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
-forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
-forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
-forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
 guideapi:bloodmagic-guide, item.guideapi.book.bloodmagic.guide.name

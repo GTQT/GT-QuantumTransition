@@ -1,9 +1,19 @@
 {
 	x: 0.0d,
 	y: 0.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"60376b64"
+	],
+	hide: true,
 	tasks: [{
 		uid: "a24e6d6c",
 		type: "gamestage",
 		stage: "STEAM"
+	},
+	{
+		uid: "f7517511",
+		type: "gamestage",
+		stage: "easy"
 	}]
 }

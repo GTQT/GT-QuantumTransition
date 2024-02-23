@@ -1,0 +1,17 @@
+{
+  "name": "gregtech.veins.fluid.salt_water",
+  "weight": 0,
+  "yield": {
+    "min": 50,
+    "max": 100
+  },
+  "depletion": {
+    "amount": 1,
+    "chance": 100,
+    "depleted_yield": 15
+  },
+  "fluid": "salt_water",
+   "dimension_filter": [
+    "dimension_id:20"
+	]
+}

@@ -1,0 +1,21 @@
+{
+	title: "最好的选择",
+	icon: "personalworlds:personal_portal",
+	x: 3.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "f58377ad",
+		type: "ftbmoney:money",
+		value: 20L
+	},
+	{
+		uid: "8820a4b1",
+		type: "gamestage",
+		stage: "easy"
+	}],
+	rewards: [{
+		uid: "e4bbb3fe",
+		type: "item",
+		item: "personalworlds:personal_portal"
+	}]
+}

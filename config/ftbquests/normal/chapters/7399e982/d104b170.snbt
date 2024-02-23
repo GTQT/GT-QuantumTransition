@@ -8,6 +8,7 @@
 	},
 	x: -1.0d,
 	y: 5.0d,
+	can_repeat: true,
 	tasks: [{
 		uid: "29ebedc5",
 		type: "ftbmoney:money",
@@ -19,11 +20,6 @@
 		stage: "LV"
 	}],
 	rewards: [{
-		uid: "2b2b5635",
-		type: "choice",
-		table: 3
-	},
-	{
 		uid: "986a96c5",
 		type: "random",
 		table: 3
@@ -40,6 +36,11 @@
 	},
 	{
 		uid: "3a67fdb4",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "e7bba8c6",
 		type: "random",
 		table: 3
 	}]

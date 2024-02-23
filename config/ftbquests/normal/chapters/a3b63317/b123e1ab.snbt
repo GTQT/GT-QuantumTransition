@@ -1,0 +1,20 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"1119421c"
+	],
+	tasks: [{
+		uid: "7e5fbdf5",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3175"
+		}]
+	}],
+	rewards: [{
+		uid: "1093531c",
+		type: "command",
+		auto: "enabled",
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"gregtech:machine\",Count:1,Damage:3175s},  TrophyName:\"谁还需要挖矿\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

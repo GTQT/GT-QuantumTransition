@@ -2,6 +2,7 @@
 	icon: "gregtech:meta_item_1 1 521",
 	x: 4.0d,
 	y: 4.0d,
+	can_repeat: true,
 	tasks: [{
 		uid: "00692718",
 		type: "ftbmoney:money",

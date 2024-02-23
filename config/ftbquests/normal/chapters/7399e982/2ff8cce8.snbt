@@ -1,6 +1,6 @@
 {
 	x: 6.0d,
-	y: 0.0d,
+	y: 1.0d,
 	can_repeat: true,
 	tasks: [{
 		uid: "7804f5ca",
