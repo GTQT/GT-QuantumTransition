@@ -1,6 +1,6 @@
 {
   "name": "Bittern Deposit",
-  "weight": 0,
+  "weight": 20,
   "yield": {
     "min": 50,
     "max": 100

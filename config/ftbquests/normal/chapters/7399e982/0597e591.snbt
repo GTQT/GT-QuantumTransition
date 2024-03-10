@@ -1,0 +1,201 @@
+{
+	title: "总是最好的",
+	icon: {
+		id: "gtqtcore:vajra",
+		tag: {
+			DisallowContainerItem: 0b,
+			GT.Tool: {
+				Material: "gregtech:rhugnor",
+				MaxDurability: 2559999,
+				Durability: 3660,
+				ToolSpeed: 404.0f,
+				HarvestLevel: 8,
+				AttackDamage: 30.0f,
+				AttackSpeed: 5.7f
+			},
+			HideFlags: 2,
+			ench: [{
+				id: 33,
+				lvl: 1s
+			}],
+			GT.Behaviours: {
+				TreeFelling: 1b,
+				TorchPlacing: 1b
+			},
+			MaxCharge: 40960000L,
+			Charge: 39912100L
+		}
+	},
+	x: 4.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "b1e6c79e",
+		type: "ftbmoney:money",
+		value: 20L
+	},
+	{
+		uid: "83485e88",
+		type: "gamestage",
+		stage: "easy"
+	}],
+	rewards: [{
+		uid: "a1e3139d",
+		type: "item",
+		item: {
+			id: "gregtech:wrench",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:inconel_690",
+					MaxDurability: 59999,
+					Durability: 0,
+					ToolSpeed: 11.0f,
+					HarvestLevel: 6,
+					AttackDamage: 7.0f,
+					AttackSpeed: -2.7f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		uid: "fecad854",
+		type: "item",
+		item: {
+			id: "gregtech:file",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:inconel_690",
+					MaxDurability: 59999,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -2.3000002f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		uid: "672c492e",
+		type: "item",
+		item: {
+			id: "gregtech:screwdriver",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:inconel_690",
+					MaxDurability: 59999,
+					Durability: 0,
+					AttackDamage: 5.0f,
+					AttackSpeed: 3.1f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		uid: "4ba8fb70",
+		type: "item",
+		item: {
+			id: "gregtech:hammer",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:inconel_690",
+					MaxDurability: 59999,
+					Durability: 0,
+					ToolSpeed: 11.0f,
+					HarvestLevel: 6,
+					AttackDamage: 7.0f,
+					AttackSpeed: -2.7f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		uid: "ddfdc2e3",
+		type: "item",
+		item: {
+			id: "gregtech:saw",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:inconel_690",
+					MaxDurability: 59999,
+					Durability: 0,
+					AttackDamage: 5.0f,
+					AttackSpeed: -2.5f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					HarvestIce: 1b
+				}
+			}
+		}
+	},
+	{
+		uid: "9b6d8b42",
+		type: "item",
+		item: {
+			id: "gregtech:wire_cutter",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:inconel_690",
+					MaxDurability: 59999,
+					Durability: 0,
+					ToolSpeed: 11.0f,
+					HarvestLevel: 6,
+					AttackDamage: 5.0f,
+					AttackSpeed: -2.3000002f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		uid: "9d528710",
+		type: "item",
+		item: {
+			id: "gregtech:mortar",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:cobalt_brass",
+					MaxDurability: 1023,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -2.6000001f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		uid: "347e2ac9",
+		type: "item",
+		item: {
+			id: "gtqtcore:bending_cylinder",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:inconel_690",
+					MaxDurability: 59999,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -2.7f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	}]
+}

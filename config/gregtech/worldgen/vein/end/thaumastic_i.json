@@ -1,0 +1,39 @@
+{
+    "name": "End Thaumastic One",
+    "weight": 10,
+    "density": 0.25,
+    "max_height": 200,
+    "min_height": 0,
+    "generation_predicate": "any",
+    "dimension_filter": [
+		"name:the_end"
+	],
+	"vein_populator": {
+		"type": "surface_rock",
+		"material": "infused_air"
+	},
+    "generator": {
+      "type": "layered",
+      "radius": [
+        8,
+        20
+      ]
+    },
+    "filler": {
+      "type": "layered",
+      "values": [
+        {
+          "primary": "ore:infused_air"
+        },
+        {
+          "secondary": "ore:infused_fire"
+        },
+        {
+          "between": "ore:amber"
+        },
+        {
+          "sporadic": "ore:cinnabar"
+        }
+      ]
+    }
+}

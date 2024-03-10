@@ -186,7 +186,7 @@
         </line>
 		<line>
             <icon>
-                <str>bloodarsenal:glass_dagger_of_sacrifice</str>
+                <str>bloodmagic:blood_shard</str>
             </icon>
             <str> 血魔法：</str>
             <str>当前LP：$6</str>

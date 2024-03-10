@@ -159,5 +159,16 @@
 		uid: "8d37d9f6",
 		type: "item",
 		item: "unstabletools:unstable_spade"
+	},
+	{
+		uid: "db33e745",
+		type: "item",
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 468s,
+			tag: {
+				Charge: 1000000000L
+			}
+		}
 	}]
 }

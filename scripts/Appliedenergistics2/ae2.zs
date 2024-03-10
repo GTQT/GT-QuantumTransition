@@ -568,7 +568,7 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 
-
+/*
 
 //uel
 // 1mb ME Storage Cell
@@ -727,3 +727,5 @@ canner.recipeBuilder()
     .duration(100)
     .EUt(4)
     .buildAndRegister();
+	
+*/
