@@ -20,3 +20,17 @@ mods.gregtech.extractor.recipeBuilder()
     .duration(200) 
     .buildAndRegister()
 	
+//交错 橡胶
+mods.gregtech.extractor.recipeBuilder()
+    .inputs(item('thebetweenlands:items_misc', 23))
+    .fluidOutputs(fluid('rubber')*144)
+	.EUt(30)
+    .duration(200) 
+    .buildAndRegister()
+	
+mods.gregtech.extractor.recipeBuilder()
+    .inputs(item('thebetweenlands:log_rubber'))
+    .fluidOutputs(fluid('rubber')*144)
+	.EUt(30)
+    .duration(200) 
+    .buildAndRegister()

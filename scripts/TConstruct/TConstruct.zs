@@ -6,6 +6,9 @@ import mods.tconstruct.Alloy;
 import mods.tconstruct.Fuel;
 
 //
+mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<gregtech:meta_dust_tiny:2>);
+mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<gregtech:meta_dust_small:2>);
+mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<galacticraftcore:ic2compat>);
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<galaxyspace:marsores:5>);
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<galaxyspace:haumeablocks:3>);
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<galaxyspace:europablocks:5>);

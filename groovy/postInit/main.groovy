@@ -22,7 +22,18 @@ mods.gregtech.assembler.removeByInput(491520, [metaitem('wireGtDoubleTritanium')
 mods.gregtech.electric_blast_furnace.removeByInput(120, [metaitem('dustAluminium'), metaitem('circuit.integrated').withNbt(["Configuration": 1])], null)
 // 铝锭 * 1
 mods.gregtech.electric_blast_furnace.removeByInput(120, [metaitem('dustAluminium'), metaitem('circuit.integrated').withNbt(["Configuration": 2])], [fluid('nitrogen') * 1000])
-
+// 铝粒 * 3
+mods.gregtech.electric_blast_furnace.removeByInput(100, [metaitem('dustRuby')], null)
+// 铝粒 * 3
+mods.gregtech.electric_blast_furnace.removeByInput(100, [metaitem('gemRuby')], null)
+// 铝粒 * 3
+mods.gregtech.electric_blast_furnace.removeByInput(100, [metaitem('dustGreenSapphire')], null)
+// 铝粒 * 3
+mods.gregtech.electric_blast_furnace.removeByInput(100, [metaitem('gemGreenSapphire')], null)
+// 铝粒 * 3
+mods.gregtech.electric_blast_furnace.removeByInput(100, [metaitem('dustSapphire')], null)
+// 铝粒 * 3
+mods.gregtech.electric_blast_furnace.removeByInput(100, [metaitem('gemSapphire')], null)
 // 加氢裂化乙烷 * 250
 mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(["Configuration": 2])], [fluid('ethane') * 500, fluid('hydrogen') * 2000])
 // 蒸汽裂化乙烷 * 500
