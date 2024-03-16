@@ -47,4 +47,51 @@ autoclave.recipeBuilder()
     .duration(200)
     .EUt(30)
     .buildAndRegister();
-	
+
+// forge hammer
+forge_hammer.recipeBuilder()
+    .inputs(<thaumcraft:crystal_aer>)
+    .outputs(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}))
+    .duration(10)
+    .EUt(16)
+    .buildAndRegister();
+
+
+forge_hammer.recipeBuilder()
+    .inputs(<thaumcraft:crystal_ignis>)
+    .outputs(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}))
+    .duration(10)
+    .EUt(16)
+    .buildAndRegister();
+
+
+forge_hammer.recipeBuilder()
+    .inputs(<thaumcraft:crystal_aqua>)
+    .outputs(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}))
+    .duration(10)
+    .EUt(16)
+    .buildAndRegister();
+
+
+forge_hammer.recipeBuilder()
+    .inputs(<thaumcraft:crystal_terra>)
+    .outputs(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}))
+    .duration(10)
+    .EUt(16)
+    .buildAndRegister();
+
+
+forge_hammer.recipeBuilder()
+    .inputs(<thaumcraft:crystal_ordo>)
+    .outputs(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}))
+    .duration(10)
+    .EUt(16)
+    .buildAndRegister();
+
+
+forge_hammer.recipeBuilder()
+    .inputs(<thaumcraft:crystal_perditio>)
+    .outputs(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}))
+    .duration(10)
+    .EUt(16)
+    .buildAndRegister();
