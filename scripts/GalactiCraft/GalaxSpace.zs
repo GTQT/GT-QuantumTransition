@@ -47,12 +47,12 @@ var planks as IItemStack[] = [
 <gregtech:meta_plate_dense:23>,
 <gregtech:meta_plate_dense:59>,
 <gregtech:meta_plate_dense:69>,
-<gtqtcore:gtqt_meta_item_1:362>,
-<gtqtcore:gtqt_meta_item_1:363>,
-<gtqtcore:gtqt_meta_item_1:364>,
-<gtqtcore:gtqt_meta_item_1:365>,
-<gtqtcore:gtqt_meta_item_1:366>,
-<gtqtcore:gtqt_meta_item_1:367>,
+<gtqtspace:gtqt_space_meta_item_1:20>,
+<gtqtspace:gtqt_space_meta_item_1:21>,
+<gtqtspace:gtqt_space_meta_item_1:22>,
+<gtqtspace:gtqt_space_meta_item_1:23>,
+<gtqtspace:gtqt_space_meta_item_1:24>,
+<gtqtspace:gtqt_space_meta_item_1:25>,
 <gregtech:meta_plate_dense:20056>,
 <gregtech:meta_plate_dense:20057>
 ]; //两个数组要一一对应

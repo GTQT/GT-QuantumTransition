@@ -2,14 +2,14 @@ import gregtech.recipes.builders.*
 
 def assembly_line = mods.gregtech.assembly_line
 mods.gregtech.assembly_line.recipeBuilder()
-    .inputs(item('gtqtcore:gtqt_meta_item_1', 353),item('galaxyspace:rocket_modules'),item('galacticraftcore:nose_cone'),item('galacticraftcore:rocket_fins')*4,item('galacticraftcore:engine')*4,item('galacticraftcore:heavy_plating')*32)
+    .inputs(item('gtqtspace:gtqt_space_meta_item_1', 1),item('galaxyspace:rocket_modules'),item('galacticraftcore:nose_cone'),item('galacticraftcore:rocket_fins')*4,item('galacticraftcore:engine')*4,item('galacticraftcore:heavy_plating')*32)
     .outputs(item('galacticraftcore:rocket_t1', 3))
     .duration(2000) // 10 seconds
     .EUt(480) // HV recipe
     .buildAndRegister()
 	
 mods.gregtech.assembly_line.recipeBuilder()
-    .inputs(item('gtqtcore:gtqt_meta_item_1', 354),item('galaxyspace:rocket_modules', 1),item('galacticraftcore:nose_cone'),item('galacticraftcore:engine', 1)*2,item('galacticraftcore:rocket_fins')*8,item('galacticraftcore:engine')*8,item('galacticraftplanets:item_basic_mars', 3))
+    .inputs(item('gtqtspace:gtqt_space_meta_item_1', 2),item('galaxyspace:rocket_modules', 1),item('galacticraftcore:nose_cone'),item('galacticraftcore:engine', 1)*2,item('galacticraftcore:rocket_fins')*8,item('galacticraftcore:engine')*8,item('galacticraftplanets:item_basic_mars', 3))
     .outputs(item('galacticraftplanets:rocket_t2', 3))
     .duration(2000) // 10 seconds
     .EUt(1960) // HV recipe
@@ -17,7 +17,7 @@ mods.gregtech.assembly_line.recipeBuilder()
     .buildAndRegister()
 	
 mods.gregtech.assembly_line.recipeBuilder()
-    .inputs(item('gtqtcore:gtqt_meta_item_1', 355),item('galaxyspace:rocket_modules', 2),item('galaxyspace:rocket_parts'),item('galaxyspace:rocket_parts', 1)*8,item('galaxyspace:rocket_parts', 2)*4,item('galaxyspace:rocket_parts', 3)*2,item('galaxyspace:rocket_parts', 4)*4)
+    .inputs(item('gtqtspace:gtqt_space_meta_item_1', 3),item('galaxyspace:rocket_modules', 2),item('galaxyspace:rocket_parts'),item('galaxyspace:rocket_parts', 1)*8,item('galaxyspace:rocket_parts', 2)*4,item('galaxyspace:rocket_parts', 3)*2,item('galaxyspace:rocket_parts', 4)*4)
     .outputs(item('galacticraftplanets:rocket_t3', 3))
     .duration(2000) // 10 seconds
     .EUt(7680) // HV recipe
@@ -25,7 +25,7 @@ mods.gregtech.assembly_line.recipeBuilder()
     .buildAndRegister()
 	
 mods.gregtech.assembly_line.recipeBuilder()
-    .inputs(item('gtqtcore:gtqt_meta_item_1', 356),item('galaxyspace:rocket_modules', 2),item('galaxyspace:rocket_parts',5),item('galaxyspace:rocket_parts', 6)*8,item('galaxyspace:rocket_parts', 7)*4,item('galaxyspace:rocket_parts', 8)*2,item('galaxyspace:rocket_parts', 9)*2)
+    .inputs(item('gtqtspace:gtqt_space_meta_item_1', 4),item('galaxyspace:rocket_modules', 2),item('galaxyspace:rocket_parts',5),item('galaxyspace:rocket_parts', 6)*8,item('galaxyspace:rocket_parts', 7)*4,item('galaxyspace:rocket_parts', 8)*2,item('galaxyspace:rocket_parts', 9)*2)
     .outputs(item('galaxyspace:rocket_tier_4', 3))
     .duration(2000) // 10 seconds
     .EUt(7680) // HV recipe
@@ -33,7 +33,7 @@ mods.gregtech.assembly_line.recipeBuilder()
     .buildAndRegister()
 	
 mods.gregtech.assembly_line.recipeBuilder()
-    .inputs(item('gtqtcore:gtqt_meta_item_1', 357),item('galaxyspace:rocket_modules', 2),item('galaxyspace:rocket_parts', 10),item('galaxyspace:rocket_parts', 11)*8,item('galaxyspace:rocket_parts', 12)*4,item('galaxyspace:rocket_parts', 13)*2,item('galaxyspace:rocket_parts', 14)*2)
+    .inputs(item('gtqtspace:gtqt_space_meta_item_1', 5),item('galaxyspace:rocket_modules', 2),item('galaxyspace:rocket_parts', 10),item('galaxyspace:rocket_parts', 11)*8,item('galaxyspace:rocket_parts', 12)*4,item('galaxyspace:rocket_parts', 13)*2,item('galaxyspace:rocket_parts', 14)*2)
     .outputs(item('galaxyspace:rocket_tier_5', 3))
     .duration(2000) // 10 seconds
     .EUt(7680) // HV recipe
@@ -41,7 +41,7 @@ mods.gregtech.assembly_line.recipeBuilder()
     .buildAndRegister()
 	
 mods.gregtech.assembly_line.recipeBuilder()
-    .inputs(item('gtqtcore:gtqt_meta_item_1', 358),item('galaxyspace:rocket_modules', 2),item('galaxyspace:rocket_parts', 15),item('galaxyspace:rocket_parts', 16)*8,item('galaxyspace:rocket_parts', 17)*4,item('galaxyspace:rocket_parts', 18)*2,item('galaxyspace:rocket_parts', 19)*2)
+    .inputs(item('gtqtspace:gtqt_space_meta_item_1', 6),item('galaxyspace:rocket_modules', 2),item('galaxyspace:rocket_parts', 15),item('galaxyspace:rocket_parts', 16)*8,item('galaxyspace:rocket_parts', 17)*4,item('galaxyspace:rocket_parts', 18)*2,item('galaxyspace:rocket_parts', 19)*2)
     .outputs(item('galaxyspace:rocket_tier_6', 3))
     .duration(2000) // 10 seconds
     .EUt(7680) // HV recipe
