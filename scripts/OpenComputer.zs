@@ -4,6 +4,7 @@ val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
 val compressor = mods.gregtech.recipe.RecipeMap.getByName("compressor");
 val canner = mods.gregtech.recipe.RecipeMap.getByName("canner");
 val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
+val cutting_saw = mods.gregtech.recipe.RecipeMap.getByName("cutting_saw");
 val microchipMv = <opencomputers:material:7>;
 val microchipHv = <opencomputers:material:8>;
 val microchipEv = <opencomputers:material:9>;
@@ -1000,4 +1001,50 @@ canner.recipeBuilder()
 canner.recipeBuilder()
 	.inputs(<gtqtcore:computer_competent>,<opencomputers:card:3>)
 	.outputs(<gtqtcore:computer_competent:9>)
+	.duration(200).EUt(120).buildAndRegister();
+	
+//计算机配方
+cutting_saw.recipeBuilder()
+	.outputs(<gtqtcore:computer_competent>,<opencomputers:component:13>)
+	.inputs(<gtqtcore:computer_competent:1>)
+	.duration(200).EUt(120).buildAndRegister();
+	
+cutting_saw.recipeBuilder()
+	.outputs(<gtqtcore:computer_competent>,<opencomputers:component:14>)
+	.inputs(<gtqtcore:computer_competent:2>)
+	.duration(200).EUt(120).buildAndRegister();
+	
+cutting_saw.recipeBuilder()
+	.outputs(<gtqtcore:computer_competent>,<opencomputers:component:15>)
+	.inputs(<gtqtcore:computer_competent:3>)
+	.duration(200).EUt(120).buildAndRegister();
+	
+cutting_saw.recipeBuilder()
+	.outputs(<gtqtcore:computer_competent>,<opencomputers:component:0>)
+	.inputs(<gtqtcore:computer_competent:4>)
+	.duration(200).EUt(120).buildAndRegister();
+	
+cutting_saw.recipeBuilder()
+	.outputs(<gtqtcore:computer_competent>,<opencomputers:component:1>)
+	.inputs(<gtqtcore:computer_competent:5>)
+	.duration(200).EUt(120).buildAndRegister();
+	
+cutting_saw.recipeBuilder()
+	.outputs(<gtqtcore:computer_competent>,<opencomputers:component:2>)
+	.inputs(<gtqtcore:computer_competent:6>)
+	.duration(200).EUt(120).buildAndRegister();
+	
+cutting_saw.recipeBuilder()
+	.outputs(<gtqtcore:computer_competent>,<opencomputers:card:1>)
+	.inputs(<gtqtcore:computer_competent:7>)
+	.duration(200).EUt(120).buildAndRegister();
+	
+cutting_saw.recipeBuilder()
+	.outputs(<gtqtcore:computer_competent>,<opencomputers:card:2>)
+	.inputs(<gtqtcore:computer_competent:8>)
+	.duration(200).EUt(120).buildAndRegister();
+	
+cutting_saw.recipeBuilder()
+	.outputs(<gtqtcore:computer_competent>,<opencomputers:card:3>)
+	.inputs(<gtqtcore:computer_competent:9>)
 	.duration(200).EUt(120).buildAndRegister();
