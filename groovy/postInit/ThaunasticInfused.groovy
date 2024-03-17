@@ -1,0 +1,36 @@
+//在这里我们移除六要素的提取机配方
+mods.gregtech.extractor.removeByInput(30, [metaitem('blockInfusedAir')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemInfusedAir')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemFlawlessInfusedAir')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('dustInfusedAir')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemExquisiteInfusedAir')], null)
+
+mods.gregtech.extractor.removeByInput(30, [metaitem('blockInfusedFire')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemInfusedFire')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemFlawlessInfusedFire')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('dustInfusedFire')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemExquisiteInfusedFire')], null)
+
+mods.gregtech.extractor.removeByInput(30, [metaitem('blockInfusedWater')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemInfusedWater')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemFlawlessInfusedWater')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('dustInfusedWater')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemExquisiteInfusedWater')], null)
+
+mods.gregtech.extractor.removeByInput(30, [metaitem('blockInfusedEarth')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemInfusedEarth')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemFlawlessInfusedEarth')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('dustInfusedEarth')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemExquisiteInfusedEarth')], null)
+
+mods.gregtech.extractor.removeByInput(30, [metaitem('blockInfusedEntropy')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemInfusedEntropy')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemFlawlessInfusedEntropy')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('dustInfusedEntropy')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemExquisiteInfusedEntropy')], null)
+
+mods.gregtech.extractor.removeByInput(30, [metaitem('blockInfusedOrder')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemInfusedOrder')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemFlawlessInfusedOrder')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('dustInfusedOrder')], null)
+mods.gregtech.extractor.removeByInput(30, [metaitem('gemExquisiteInfusedOrder')], null)
