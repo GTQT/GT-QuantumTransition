@@ -60,6 +60,14 @@ for i, log in logs {
 //一个for循环，准确的说是foreach循环，遍历数组，i为一个变量，表示循环了几次（程序员数数是从0开始数的，第一次循环i=0，第二次为1....）
 //log in logs 表示在logs数组中循环，并把log变量用来存储logs数组的每一个物品。
     var plank = planks[i]; //将 plank 赋值为 planks 中 i 对应的物品
+	implosion_compressor.recipeBuilder()
+		.inputs(plank)
+		.property("explosives", <gregtech:powderbarrel> * 8)
+		.outputs(log,<gregtech:meta_dust_small:275>)
+		.duration(20)
+		.EUt(120)
+		.buildAndRegister();
+		
     implosion_compressor.recipeBuilder()
 		.inputs(plank)
 		.property("explosives", <minecraft:tnt> * 4)

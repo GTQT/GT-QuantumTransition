@@ -1786,7 +1786,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "管道的使用方法",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -1818,7 +1818,7 @@
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "New Quest",
+          "name:8": "矿脉？矿脉？",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -15006,28 +15006,27 @@
     },
     "200:10": {
       "preRequisites:11": [
-        455
+        215,
+        212,
+        210,
+        214
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "氯化铁也是一个选择。而且它更加高效。\n\n你自己选吧",
+          "desc:8": "你应该已经把你的这些核心生产机器更换了到了MV，拥有了足够的配方电压。\n\n该迎接更多的化工和更多的多方块机器了。\n\n建议你多做点电路板相关的东西，会用得上的。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "forge:bucketfilled",
-            "tag:10": {
-              "Amount:3": 1000,
-              "FluidName:8": "iron_iii_chloride"
-            }
+            "id:8": "minecraft:brick_block"
           },
           "ignoresview:1": 0,
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "另一种蚀刻液",
+          "name:8": "筑基前期大圆满",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -15048,11 +15047,16 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
+              "id:8": "ftbquests:lootcrate",
               "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "iron_iii_chloride"
+                "type:8": "mvage"
               }
+            },
+            "1:10": {
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_item_1"
             }
           }
         }
@@ -15061,28 +15065,6 @@
         "0:10": {
           "index:3": 0,
           "taskID:8": "bq_standard:checkbox"
-        },
-        "1:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 1,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "forge:bucketfilled",
-              "tag:10": {
-                "Amount:3": 1000,
-                "FluidName:8": "iron_iii_chloride"
-              }
-            }
-          },
-          "taskID:8": "bq_standard:optional_retrieval"
         }
       }
     },
@@ -15219,7 +15201,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "照例，上来先做一下这些。都是老朋友了，只是换了材料，以后的这些部件也一样。\n\n你可能已经做过了其中的几个，所以只要你做其中一种，就算你完成了。好在现在有了部件组装机，你不需要记清工作台配方了。\n\n§6提前告知你，你在MV阶段有五个重要的多方块需要制作，没有它们，你根本没有办法做出下一阶段需要的线圈、主要材料和能源仓。这是你在MV阶段的主要任务。",
+          "desc:8": "照例，上来先做一下这些。都是老朋友了，只是换了材料，以后的这些部件也一样。\n\n你可能已经做过了其中的几个，所以只要你做其中一种，就算你完成了。好在现在有了部件组装机，你不需要记清工作台配方了。\n\n§6提前告知你，你在MV阶段有很多个重要的多方块需要制作，没有它们，你根本没有办法做出下一阶段需要的线圈、主要材料和能源仓。这是你在MV阶段的主要任务。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -15228,7 +15210,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "中压时代的零部件",
@@ -15357,7 +15339,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "唐氏GT员工又用软锤敲了变压器",
@@ -15484,7 +15466,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "有点菜了",
@@ -15839,7 +15821,7 @@
     },
     "210:10": {
       "preRequisites:11": [
-        203
+        461
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -15853,7 +15835,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "分子级拆解工程",
@@ -15977,7 +15959,7 @@
     },
     "212:10": {
       "preRequisites:11": [
-        203
+        461
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -15991,7 +15973,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "又在搅什么了？",
@@ -16060,7 +16042,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "中压线圈",
@@ -16135,7 +16117,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "不那么贵的一集",
@@ -16196,7 +16178,7 @@
     },
     "215:10": {
       "preRequisites:11": [
-        203
+        461
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -16210,7 +16192,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "更快，更高，更强",
@@ -16290,8 +16272,7 @@
     "216:10": {
       "preRequisites:11": [
         212,
-        239,
-        240
+        239
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -16305,7 +16286,7 @@
             "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "钢铁颂歌，dlc",
@@ -16384,7 +16365,6 @@
     },
     "217:10": {
       "preRequisites:11": [
-        216,
         214
       ],
       "properties:10": {
@@ -16480,7 +16460,7 @@
             "id:8": "gregtech:meta_dust"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "埃及法老或公主焊接",
@@ -16731,7 +16711,7 @@
     },
     "221:10": {
       "preRequisites:11": [
-        218
+        200
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -16745,7 +16725,7 @@
             "id:8": "gtqtcore:adv_glass"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "玻璃心的新玻璃",
@@ -16899,7 +16879,7 @@
     },
     "223:10": {
       "preRequisites:11": [
-        215
+        200
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -16917,7 +16897,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "mc人你要自信",
@@ -16992,7 +16972,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "盐酸溢出",
@@ -17048,7 +17028,7 @@
     },
     "225:10": {
       "preRequisites:11": [
-        218
+        200
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17062,7 +17042,7 @@
             "id:8": "gregtech:optical_pipe_normal"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "颜值即正义",
@@ -17123,7 +17103,7 @@
     },
     "226:10": {
       "preRequisites:11": [
-        215
+        200
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17141,7 +17121,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "化学复活赛",
@@ -17233,7 +17213,7 @@
             "id:8": "gtqtcore:gtqt_meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "时代眼泪",
@@ -17308,7 +17288,7 @@
             "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "含氢量0%",
@@ -17373,8 +17353,8 @@
     },
     "229:10": {
       "preRequisites:11": [
-        227,
-        228
+        228,
+        231
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17388,7 +17368,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "算无遗策",
@@ -17479,8 +17459,8 @@
     },
     "230:10": {
       "preRequisites:11": [
-        232,
-        221
+        249,
+        229
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17494,7 +17474,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "最先进的切割方式",
@@ -17579,7 +17559,9 @@
     },
     "231:10": {
       "preRequisites:11": [
-        229
+        272,
+        266,
+        241
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17593,7 +17575,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "导出你的算力",
@@ -17654,7 +17636,7 @@
     },
     "232:10": {
       "preRequisites:11": [
-        215
+        200
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17668,7 +17650,7 @@
             "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "塑料袋的组分",
@@ -17738,7 +17720,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "你可以升级你的大矿机的钻头了捏\n\n记得拆了主方块再装可以复原钻头的耐久！",
+          "desc:8": "你可以升级你的大矿机的钻头了捏",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -17897,7 +17879,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "只有一个配方的屑",
@@ -17958,8 +17940,8 @@
     },
     "236:10": {
       "preRequisites:11": [
-        232,
-        221
+        250,
+        229
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -17973,7 +17955,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "不再卡脖子",
@@ -18084,7 +18066,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "并不是俄罗斯人的炉子",
@@ -18159,7 +18141,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "mv高级元件",
@@ -18240,7 +18222,7 @@
             "id:8": "gregtech:meta_dust"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "五彩斑斓",
@@ -18300,23 +18282,25 @@
       }
     },
     "240:10": {
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        260
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "至少在GT里面它很平凡，因为实在是太容易获得了。只需要离心钒磁铁矿就可以了。",
+          "desc:8": "终于可以把家里乱七八糟的退火铜线圈换成这个了，你还需要它来做mv力场发生器，它有很多用途。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 118,
+            "Damage:2": 425,
             "OreDict:8": "",
-            "id:8": "gregtech:meta_dust"
+            "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
           "ismain:1": 0,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "平钒之路",
+          "name:8": "MV超导",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -18363,9 +18347,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 118,
+              "Damage:2": 425,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
+              "id:8": "gregtech:meta_ingot"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -18373,23 +18357,25 @@
       }
     },
     "241:10": {
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        227
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "挖取一些软萌矿，不对，是软锰矿。用它来产出一些锰粉。",
+          "desc:8": "我只能说能用，但是不是很能用。\n\n你现在需要做两个。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 61,
+            "Damage:2": 1,
             "OreDict:8": "",
-            "id:8": "gregtech:meta_dust"
+            "id:8": "opencomputers:card"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "锰男",
+          "name:8": "可能比核显强点",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -18436,9 +18422,9 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 61,
+              "Damage:2": 1,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
+              "id:8": "opencomputers:card"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -18447,9 +18433,7 @@
     },
     "242:10": {
       "preRequisites:11": [
-        241,
-        239,
-        212
+        239
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -18463,7 +18447,7 @@
             "id:8": "gregtech:meta_dust"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "高攀不起",
@@ -18519,7 +18503,7 @@
     },
     "243:10": {
       "preRequisites:11": [
-        215
+        200
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -18537,7 +18521,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "硅处理线路",
@@ -18611,7 +18595,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "硅处理-第二步",
@@ -18759,7 +18743,7 @@
             "id:8": "gregtech:meta_dust"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "硅处理-第三步",
@@ -18825,7 +18809,7 @@
             "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "硅处理-第四步",
@@ -18918,7 +18902,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "更好的切割机",
@@ -18995,7 +18979,7 @@
             "id:8": "gtqtcore:gtqt_meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "光掩模制作",
@@ -19056,9 +19040,7 @@
     },
     "250:10": {
       "preRequisites:11": [
-        249,
-        230,
-        229
+        264
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -19072,7 +19054,7 @@
             "id:8": "gtqtcore:gtqt_meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "蚀刻！",
@@ -19145,7 +19127,7 @@
     },
     "251:10": {
       "preRequisites:11": [
-        215
+        200
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -19163,7 +19145,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "我知道你很急，但你先别急",
@@ -19294,10 +19276,8 @@
     },
     "253:10": {
       "preRequisites:11": [
-        250,
         257,
         236,
-        229,
         516
       ],
       "properties:10": {
@@ -19312,7 +19292,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "光刻时间！",
@@ -19433,7 +19413,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "光刻胶-第二步",
@@ -19507,7 +19487,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "光刻胶-第三步",
@@ -19581,7 +19561,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "光刻胶-第四步",
@@ -19655,7 +19635,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "光刻胶-最后一步",
@@ -19711,7 +19691,8 @@
     },
     "258:10": {
       "preRequisites:11": [
-        253
+        253,
+        213
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -19725,7 +19706,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "终于...能源仓...",
@@ -19792,8 +19773,7 @@
     },
     "259:10": {
       "preRequisites:11": [
-        239,
-        212
+        239
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -19807,7 +19787,7 @@
             "id:8": "gregtech:meta_dust"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "专利费没交",
@@ -19868,8 +19848,8 @@
     },
     "260:10": {
       "preRequisites:11": [
-        259,
-        258
+        258,
+        415
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -19883,7 +19863,7 @@
             "id:8": "gregtech:wire_coil"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "线圈升级",
@@ -20019,7 +19999,6 @@
     },
     "262:10": {
       "preRequisites:11": [
-        258,
         533
       ],
       "properties:10": {
@@ -20034,7 +20013,7 @@
             "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "高压阶段的核心材料",
@@ -20095,9 +20074,7 @@
     },
     "263:10": {
       "preRequisites:11": [
-        262,
-        494,
-        284
+        262
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -20111,7 +20088,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "（章节毕业线）迈入广阔宇宙的第一步",
@@ -20186,7 +20163,7 @@
             "id:8": "gregtech:meta_lens"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "小登福利",
@@ -20273,7 +20250,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "优质集成电路",
@@ -20334,25 +20311,24 @@
     },
     "266:10": {
       "preRequisites:11": [
-        258,
-        260
+        227
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "你需要到高压才能自己做出来ae用。大概。不过你应该已经在里程碑里面领取了一套了。\n\n硅锭现在可以用你的崭新线圈烧出来，怎么样！记得在冷冻机里面冷冻。",
+          "desc:8": "给你原始的算力支持。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 99,
+            "Damage:2": 0,
             "OreDict:8": "",
-            "id:8": "gregtech:meta_ingot"
+            "id:8": "opencomputers:component"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "烧制成锭...我们还没有ae呢醒醒",
+          "name:8": "i1-0000",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -20401,7 +20377,7 @@
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": "",
-              "id:8": "minecraft:stone"
+              "id:8": "opencomputers:component"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -20410,7 +20386,7 @@
     },
     "267:10": {
       "preRequisites:11": [
-        461
+        276
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -20678,7 +20654,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "检查一下它的配方，你会发现多了一些白嫖的选择，这难道不好吗。",
+          "desc:8": "检查一下它的配方，你会发现多了一些白嫖的选择，这难道不好吗。\n\n为什么不看看边上那个多方块呢。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20748,12 +20724,12 @@
     },
     "271:10": {
       "preRequisites:11": [
-        461
+        203
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "听说这台机器可以让你足不出户收集空气（kq）。我也不知道是不是真的，但我觉得不如收集刻晴（kq）。\n\n（好像不能在虚空世界使用）\n\n需要mv的泵。",
+          "desc:8": "听说这台机器可以让你足不出户收集空气（kq）。我也不知道是不是真的，但我觉得不如收集刻晴（kq）。\n\n（如像，反正我私人维度的家是能用的）\n\n需要mv的泵。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -20823,24 +20799,24 @@
     },
     "272:10": {
       "preRequisites:11": [
-        266
+        227
       ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "1947年12月16日，威廉·肖克利（William Shockley）、约翰·巴顿（John Bardeen）和沃特·布拉顿（Walter Brattain）成功地在贝尔实验室制造出第一个晶体管。从此以后，人类就踏上了一条不归路。",
+          "desc:8": "简单的数据存储器。\n\n你现在需要做两个。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 518,
+            "Damage:2": 13,
             "OreDict:8": "",
-            "id:8": "gregtech:meta_item_1"
+            "id:8": "opencomputers:component"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "电路革命",
+          "name:8": "可能比软盘大",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -20887,9 +20863,10 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 518,
+              "Damage:2": 13,
               "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
+              "id:8": "opencomputers:component",
+              "tag:10": {}
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -20898,8 +20875,7 @@
     },
     "273:10": {
       "preRequisites:11": [
-        265,
-        272
+        265
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -20913,7 +20889,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "集成电路的巅峰之作",
@@ -21133,7 +21109,6 @@
     },
     "276:10": {
       "preRequisites:11": [
-        267,
         274
       ],
       "properties:10": {
@@ -21302,7 +21277,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "苯酚，再次见面了",
@@ -21376,7 +21351,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "新面孔",
@@ -21450,7 +21425,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "环氧氯丙烷",
@@ -21557,7 +21532,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "小化反地狱",
@@ -21687,7 +21662,9 @@
       }
     },
     "283:10": {
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        253
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -21700,7 +21677,7 @@
             "id:8": "gregtech:meta_singularity"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "环氧树脂线",
@@ -21740,7 +21717,7 @@
             "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "难以置信，不需要中压机器",
@@ -21805,7 +21782,7 @@
     },
     "285:10": {
       "preRequisites:11": [
-        212
+        284
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -21934,8 +21911,7 @@
     },
     "286:10": {
       "preRequisites:11": [
-        285,
-        284
+        285
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -22240,7 +22216,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "超微型电力存储",
@@ -22301,8 +22277,7 @@
     },
     "291:10": {
       "preRequisites:11": [
-        239,
-        493
+        239
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -22316,7 +22291,7 @@
             "id:8": "gregtech:meta_dust"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "铬钴磷酸盐合金",
@@ -30411,8 +30386,7 @@
     },
     "404:10": {
       "preRequisites:11": [
-        403,
-        425
+        403
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -30789,30 +30763,6 @@
               "Damage:2": 3,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
-            },
-            "2:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:drive"
-            },
-            "3:10": {
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:interface"
-            },
-            "4:10": {
-              "Count:3": 2,
-              "Damage:2": 360,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
-            },
-            "5:10": {
-              "Count:3": 64,
-              "Damage:2": 16,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
             }
           }
         }
@@ -31983,7 +31933,9 @@
       }
     },
     "425:10": {
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        404
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -32289,79 +32241,6 @@
       }
     },
     "429:10": {
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "说三氧化二砷你可能不知道，那我告诉你，它的另一个名字是砒霜，不要把它放进嘴里。\n\n你目前可以用它来制造砷，不过我建议你离心雄黄。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 373,
-            "OreDict:8": "",
-            "id:8": "gregtech:meta_dust"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "三氧化二砷",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 429,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 2,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ftbquests:lootcrate",
-              "tag:10": {
-                "type:8": "lvage"
-              }
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 373,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "430:10": {
       "preRequisites:11": [
         432
       ],
@@ -32444,7 +32323,7 @@
         }
       }
     },
-    "431:10": {
+    "430:10": {
       "preRequisites:11": [
         115
       ],
@@ -32519,7 +32398,7 @@
         }
       }
     },
-    "432:10": {
+    "431:10": {
       "preRequisites:11": [
         397
       ],
@@ -32600,9 +32479,8 @@
         }
       }
     },
-    "433:10": {
+    "432:10": {
       "preRequisites:11": [
-        429,
         197
       ],
       "properties:10": {
@@ -32667,6 +32545,42 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": "",
+              "id:8": "gregtech:ore_realgar_0"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 365,
+              "OreDict:8": "",
+              "id:8": "gregtech:meta_dust"
+            }
+          },
+          "taskID:8": "bq_standard:optional_retrieval"
+        },
+        "2:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 2,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
               "Damage:2": 6,
               "OreDict:8": "",
               "id:8": "gregtech:meta_dust"
@@ -32676,7 +32590,7 @@
         }
       }
     },
-    "434:10": {
+    "433:10": {
       "preRequisites:11": [
         197
       ],
@@ -32751,7 +32665,7 @@
         }
       }
     },
-    "435:10": {
+    "434:10": {
       "preRequisites:11": [
         434,
         433,
@@ -32828,7 +32742,7 @@
         }
       }
     },
-    "436:10": {
+    "435:10": {
       "preRequisites:11": [
         399
       ],
@@ -32903,7 +32817,7 @@
         }
       }
     },
-    "437:10": {
+    "436:10": {
       "preRequisites:11": [
         436
       ],
@@ -32978,7 +32892,7 @@
         }
       }
     },
-    "438:10": {
+    "437:10": {
       "preRequisites:11": [
         435
       ],
@@ -33053,7 +32967,7 @@
         }
       }
     },
-    "439:10": {
+    "438:10": {
       "preRequisites:11": [
         197
       ],
@@ -33136,7 +33050,7 @@
         }
       }
     },
-    "440:10": {
+    "439:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -33209,7 +33123,7 @@
         }
       }
     },
-    "441:10": {
+    "440:10": {
       "preRequisites:11": [
         397
       ],
@@ -33284,7 +33198,7 @@
         }
       }
     },
-    "442:10": {
+    "441:10": {
       "preRequisites:11": [
         441
       ],
@@ -33367,7 +33281,7 @@
         }
       }
     },
-    "443:10": {
+    "442:10": {
       "preRequisites:11": [
         300
       ],
@@ -33446,7 +33360,7 @@
         }
       }
     },
-    "444:10": {
+    "443:10": {
       "preRequisites:11": [
         443
       ],
@@ -33521,7 +33435,7 @@
         }
       }
     },
-    "445:10": {
+    "444:10": {
       "preRequisites:11": [
         444
       ],
@@ -33571,12 +33485,6 @@
               "Damage:2": 2,
               "OreDict:8": "",
               "id:8": "gregtech:meta_item_1"
-            },
-            "2:10": {
-              "Count:3": 2,
-              "Damage:2": 520,
-              "OreDict:8": "",
-              "id:8": "appliedenergistics2:part"
             }
           }
         }
@@ -33602,7 +33510,7 @@
         }
       }
     },
-    "446:10": {
+    "445:10": {
       "preRequisites:11": [
         445,
         401
@@ -33610,11 +33518,11 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "铝粉的电解产物，用来在电力高炉里炼铝。",
+          "desc:8": "你需要从几个你应该已经有了的机器里做出这个玩意，原材料你都能做。\n\n试着自己查一查jei吧。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
-            "Damage:2": 20075,
+            "Damage:2": 3629,
             "OreDict:8": "",
             "id:8": "gregtech:meta_dust"
           },
@@ -33622,7 +33530,7 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "软铝粉",
+          "name:8": "三氧化二铝",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
@@ -33669,7 +33577,7 @@
           "requiredItems:9": {
             "0:10": {
               "Count:3": 1,
-              "Damage:2": 20075,
+              "Damage:2": 3629,
               "OreDict:8": "",
               "id:8": "gregtech:meta_dust"
             }
@@ -33678,7 +33586,7 @@
         }
       }
     },
-    "447:10": {
+    "446:10": {
       "preRequisites:11": [
         446,
         408
@@ -33754,7 +33662,7 @@
         }
       }
     },
-    "448:10": {
+    "447:10": {
       "preRequisites:11": [
         432
       ],
@@ -33837,7 +33745,7 @@
         }
       }
     },
-    "449:10": {
+    "448:10": {
       "preRequisites:11": [
         439
       ],
@@ -33912,7 +33820,7 @@
         }
       }
     },
-    "450:10": {
+    "449:10": {
       "preRequisites:11": [
         407
       ],
@@ -33987,7 +33895,7 @@
         }
       }
     },
-    "451:10": {
+    "450:10": {
       "preRequisites:11": [
         444
       ],
@@ -34062,7 +33970,7 @@
         }
       }
     },
-    "452:10": {
+    "451:10": {
       "preRequisites:11": [
         449,
         454
@@ -34138,7 +34046,7 @@
         }
       }
     },
-    "453:10": {
+    "452:10": {
       "preRequisites:11": [
         304
       ],
@@ -34212,7 +34120,7 @@
         }
       }
     },
-    "454:10": {
+    "453:10": {
       "preRequisites:11": [
         396,
         453
@@ -34328,7 +34236,7 @@
         }
       }
     },
-    "455:10": {
+    "454:10": {
       "preRequisites:11": [
         452,
         460
@@ -34404,7 +34312,7 @@
         }
       }
     },
-    "456:10": {
+    "455:10": {
       "preRequisites:11": [
         455,
         438
@@ -34486,7 +34394,7 @@
         }
       }
     },
-    "457:10": {
+    "456:10": {
       "preRequisites:11": [
         396
       ],
@@ -34569,7 +34477,7 @@
         }
       }
     },
-    "458:10": {
+    "457:10": {
       "preRequisites:11": [
         457
       ],
@@ -34644,7 +34552,7 @@
         }
       }
     },
-    "459:10": {
+    "458:10": {
       "preRequisites:11": [
         447
       ],
@@ -34737,7 +34645,7 @@
         }
       }
     },
-    "460:10": {
+    "459:10": {
       "preRequisites:11": [
         458,
         431
@@ -34745,7 +34653,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "用来往基板上贴东西。\n\n过硫酸钠是一种无机化合物，也被称为高硫酸钠或过二硫酸钠，其化学式为Na₂S₂O₈。它是一种白色结晶性粉末，具有强氧化性，能溶于水，但不溶于乙醇。过硫酸钠在多个领域都有广泛的应用。\n\n首先，过硫酸钠可以用作漂白剂、氧化剂和乳液聚合促进剂。这些特性使其在纺织、造纸和化工等行业中具有重要作用。\n\n其次，过硫酸钠还可用作单体聚合引发剂，特别是在乳胶或丙烯酸单体聚合液、醋酸乙烯、氯乙烯等产品的聚合过程中。此外，它也可以作为苯乙烯、丙烯腈、丁二烯等胶体发生共聚作用的引发剂。\n\n值得注意的是，过硫酸钠是一种非易燃品，但由于能释放氧而有助燃作用。因此，在储存和使用过程中需要特别注意安全。过硫酸钠应存放在干燥、密闭的容器中，并避免阳光直射、热源和潮湿等不利因素。一些杂质如脏物、铁锈、少量金属以及还原剂可能引起过硫酸钠的分解，因此在存放和使用过程中也需要注意。\n\n此外，过硫酸钠对皮肤、眼睛和上呼吸道具有刺激性。某些敏感个体接触后可能会发生皮疹和/或哮喘。因此，在使用过程中应采取适当的安全措施，如佩戴防护眼镜、手套和防护服等。\n\n总的来说，过硫酸钠是一种重要的无机化合物，具有广泛的应用领域。但在使用过程中需要注意安全和环保，遵循相关的操作规程和安全要求。",
+          "desc:8": "用来往基板上贴东西。\n\n过硫酸钠是一种无机化合物，也被称为高硫酸钠或过二硫酸钠，其化学式为Na₂S₂O₈。它是一种白色结晶性粉末，具有强氧化性，能溶于水，但不溶于乙醇。过硫酸钠在多个领域都有广泛的应用。\n\n氯化铁也是一个选择。而且它更加高效。\n\n你自己选吧\n",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -34761,14 +34669,14 @@
           "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
-          "name:8": "过硫酸钠",
+          "name:8": "过硫酸钠和氯化铁",
           "questlogic:8": "AND",
           "repeat_relative:1": 1,
           "repeattime:3": -1,
           "simultaneous:1": 0,
           "snd_complete:8": "minecraft:entity.player.levelup",
           "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
+          "tasklogic:8": "OR",
           "visibility:8": "NORMAL"
         }
       },
@@ -34803,6 +34711,28 @@
           "entryLogic:8": "AND",
           "groupDetect:1": 0,
           "ignoreNBT:1": 0,
+          "index:3": 0,
+          "partialMatch:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "",
+              "id:8": "forge:bucketfilled",
+              "tag:10": {
+                "Amount:3": 1000,
+                "FluidName:8": "iron_iii_chloride"
+              }
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "autoConsume:1": 0,
+          "consume:1": 0,
+          "entryLogic:8": "AND",
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
           "index:3": 2,
           "partialMatch:1": 1,
           "requiredItems:9": {
@@ -34821,7 +34751,7 @@
         }
       }
     },
-    "461:10": {
+    "460:10": {
       "preRequisites:11": [
         459,
         456,
@@ -34934,7 +34864,7 @@
         }
       }
     },
-    "462:10": {
+    "461:10": {
       "preRequisites:11": [
         424
       ],
@@ -35009,7 +34939,7 @@
         }
       }
     },
-    "463:10": {
+    "462:10": {
       "preRequisites:11": [
         456
       ],
@@ -35084,10 +35014,10 @@
         }
       }
     },
-    "464:10": {
+    "463:10": {
       "preRequisites:11": [
         463,
-        250
+        253
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -35101,7 +35031,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "集成逻辑电路",
@@ -35160,7 +35090,7 @@
         }
       }
     },
-    "465:10": {
+    "464:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -35233,7 +35163,7 @@
         }
       }
     },
-    "466:10": {
+    "465:10": {
       "preRequisites:11": [
         399
       ],
@@ -35308,7 +35238,7 @@
         }
       }
     },
-    "467:10": {
+    "466:10": {
       "preRequisites:11": [
         466
       ],
@@ -35383,7 +35313,7 @@
         }
       }
     },
-    "468:10": {
+    "467:10": {
       "preRequisites:11": [
         479
       ],
@@ -35506,7 +35436,7 @@
         }
       }
     },
-    "469:10": {
+    "468:10": {
       "preRequisites:11": [
         468
       ],
@@ -35587,7 +35517,7 @@
         }
       }
     },
-    "470:10": {
+    "469:10": {
       "preRequisites:11": [
         468
       ],
@@ -35668,7 +35598,7 @@
         }
       }
     },
-    "471:10": {
+    "470:10": {
       "preRequisites:11": [
         468
       ],
@@ -35749,7 +35679,7 @@
         }
       }
     },
-    "472:10": {
+    "471:10": {
       "preRequisites:11": [
         407
       ],
@@ -35824,7 +35754,7 @@
         }
       }
     },
-    "473:10": {
+    "472:10": {
       "preRequisites:11": [
         407
       ],
@@ -35899,7 +35829,7 @@
         }
       }
     },
-    "474:10": {
+    "473:10": {
       "preRequisites:11": [
         451
       ],
@@ -35974,7 +35904,7 @@
         }
       }
     },
-    "475:10": {
+    "474:10": {
       "preRequisites:11": [
         399
       ],
@@ -36049,7 +35979,7 @@
         }
       }
     },
-    "476:10": {
+    "475:10": {
       "preRequisites:11": [
         417,
         415
@@ -36057,7 +35987,7 @@
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
-          "desc:8": "一台结构简单，只要一点点钢就能做出来的发很多电的超赞发电机，适合在海上建家的宝宝。\n\n具体机制在主方块上有写。",
+          "desc:8": "一台结构简单，只要一点点钢就能做出来的发很多电的超赞发电机，适合在海上建家的宝宝。\n\n目前最最最推荐的发电方式，能减少你很多的烦恼。\n\n具体机制在主方块上有写。",
           "globalshare:1": 0,
           "icon:10": {
             "Count:3": 1,
@@ -36125,7 +36055,7 @@
         }
       }
     },
-    "477:10": {
+    "476:10": {
       "preRequisites:11": [
         391
       ],
@@ -36200,7 +36130,7 @@
         }
       }
     },
-    "478:10": {
+    "477:10": {
       "preRequisites:11": [
         391
       ],
@@ -36275,7 +36205,7 @@
         }
       }
     },
-    "479:10": {
+    "478:10": {
       "preRequisites:11": [
         467
       ],
@@ -36350,7 +36280,7 @@
         }
       }
     },
-    "480:10": {
+    "479:10": {
       "preRequisites:11": [
         397
       ],
@@ -36425,7 +36355,7 @@
         }
       }
     },
-    "481:10": {
+    "480:10": {
       "preRequisites:11": [
         391
       ],
@@ -36500,7 +36430,7 @@
         }
       }
     },
-    "482:10": {
+    "481:10": {
       "preRequisites:11": [
         391
       ],
@@ -36575,7 +36505,7 @@
         }
       }
     },
-    "483:10": {
+    "482:10": {
       "preRequisites:11": [
         391
       ],
@@ -36650,7 +36580,7 @@
         }
       }
     },
-    "484:10": {
+    "483:10": {
       "preRequisites:11": [
         472,
         473
@@ -36726,7 +36656,7 @@
         }
       }
     },
-    "485:10": {
+    "484:10": {
       "preRequisites:11": [
         58
       ],
@@ -36779,7 +36709,7 @@
         }
       }
     },
-    "486:10": {
+    "485:10": {
       "preRequisites:11": [
         473
       ],
@@ -36854,7 +36784,7 @@
         }
       }
     },
-    "487:10": {
+    "486:10": {
       "preRequisites:11": [
         391
       ],
@@ -36929,7 +36859,7 @@
         }
       }
     },
-    "488:10": {
+    "487:10": {
       "preRequisites:11": [
         115
       ],
@@ -37004,7 +36934,7 @@
         }
       }
     },
-    "489:10": {
+    "488:10": {
       "preRequisites:11": [
         391
       ],
@@ -37079,7 +37009,7 @@
         }
       }
     },
-    "490:10": {
+    "489:10": {
       "preRequisites:11": [
         397
       ],
@@ -37154,7 +37084,7 @@
         }
       }
     },
-    "491:10": {
+    "490:10": {
       "preRequisites:11": [
         397
       ],
@@ -37229,7 +37159,7 @@
         }
       }
     },
-    "492:10": {
+    "491:10": {
       "preRequisites:11": [
         397
       ],
@@ -37304,82 +37234,9 @@
         }
       }
     },
-    "493:10": {
-      "preRequisites:11": [],
-      "properties:10": {
-        "betterquesting:10": {
-          "autoclaim:1": 0,
-          "desc:8": "居然只要烧矿就能直接获取单质，泪目。\n\n同样是合金的重要组分。\n\n根据世界各国钼消费统计，钼在钢铁工业中的应用仍然占据着最主要的位置。钼作为钢的合金化元素，可以提高钢的强度，特别是高温强度和韧性；提高钢在酸碱溶液和液态金属中的抗蚀性；提高钢的耐磨性和改善淬透性、焊接性和耐热性。钼是一种良好的形成碳化物的元素，在炼钢的过程中不氧化，可单独使用也可与其他合金元素共同使用。特殊钢的耗钼量在有规律地增长，每吨特殊钢的钼消耗量已达到0.201公斤的水平。\n\n钼与铬、镍、锰和硅等可制造不同类型的不锈钢、工具钢、高速钢和合金钢等。所制成的不锈钢有良好的耐腐蚀性能，可用于石油开采的耐腐蚀钢管，一种加钼约6%的不锈钢还可取代钛用于海水淡化装置。",
-          "globalshare:1": 0,
-          "icon:10": {
-            "Count:3": 1,
-            "Damage:2": 64,
-            "OreDict:8": "",
-            "id:8": "gregtech:meta_dust"
-          },
-          "ignoresview:1": 0,
-          "ismain:1": 0,
-          "issilent:1": 0,
-          "lockedprogress:1": 0,
-          "name:8": "泪钼",
-          "questlogic:8": "AND",
-          "repeat_relative:1": 1,
-          "repeattime:3": -1,
-          "simultaneous:1": 0,
-          "snd_complete:8": "minecraft:entity.player.levelup",
-          "snd_update:8": "minecraft:entity.player.levelup",
-          "tasklogic:8": "AND",
-          "visibility:8": "NORMAL"
-        }
-      },
-      "questID:3": 493,
-      "rewards:9": {
-        "0:10": {
-          "index:3": 0,
-          "rewardID:8": "bq_standard:item",
-          "rewards:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": "",
-              "id:8": "ftbquests:lootcrate",
-              "tag:10": {
-                "type:8": "mvage"
-              }
-            },
-            "1:10": {
-              "Count:3": 1,
-              "Damage:2": 2,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_item_1"
-            }
-          }
-        }
-      },
-      "tasks:9": {
-        "0:10": {
-          "autoConsume:1": 0,
-          "consume:1": 0,
-          "entryLogic:8": "AND",
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "partialMatch:1": 1,
-          "requiredItems:9": {
-            "0:10": {
-              "Count:3": 1,
-              "Damage:2": 64,
-              "OreDict:8": "",
-              "id:8": "gregtech:meta_dust"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      }
-    },
-    "494:10": {
+    "492:10": {
       "preRequisites:11": [
-        291
+        260
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -37393,7 +37250,7 @@
             "id:8": "gregtech:meta_ingot"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "铬钴磷酸盐合金锭",
@@ -37452,9 +37309,9 @@
         }
       }
     },
-    "495:10": {
+    "493:10": {
       "preRequisites:11": [
-        276
+        267
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -37535,7 +37392,7 @@
         }
       }
     },
-    "496:10": {
+    "494:10": {
       "preRequisites:11": [
         495
       ],
@@ -37618,7 +37475,7 @@
         }
       }
     },
-    "497:10": {
+    "495:10": {
       "preRequisites:11": [
         495
       ],
@@ -37701,7 +37558,7 @@
         }
       }
     },
-    "498:10": {
+    "496:10": {
       "preRequisites:11": [
         495
       ],
@@ -37784,7 +37641,7 @@
         }
       }
     },
-    "499:10": {
+    "497:10": {
       "preRequisites:11": [
         495
       ],
@@ -37867,9 +37724,9 @@
         }
       }
     },
-    "500:10": {
+    "498:10": {
       "preRequisites:11": [
-        276
+        267
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -37942,7 +37799,7 @@
         }
       }
     },
-    "501:10": {
+    "499:10": {
       "preRequisites:11": [
         212
       ],
@@ -38016,7 +37873,7 @@
         }
       }
     },
-    "502:10": {
+    "500:10": {
       "preRequisites:11": [
         501
       ],
@@ -38090,7 +37947,7 @@
         }
       }
     },
-    "503:10": {
+    "501:10": {
       "preRequisites:11": [
         502
       ],
@@ -38173,7 +38030,7 @@
         }
       }
     },
-    "504:10": {
+    "502:10": {
       "preRequisites:11": [
         503
       ],
@@ -38247,7 +38104,7 @@
         }
       }
     },
-    "505:10": {
+    "503:10": {
       "preRequisites:11": [
         504
       ],
@@ -38321,7 +38178,7 @@
         }
       }
     },
-    "506:10": {
+    "504:10": {
       "preRequisites:11": [
         505
       ],
@@ -38404,7 +38261,7 @@
         }
       }
     },
-    "507:10": {
+    "505:10": {
       "preRequisites:11": [
         506
       ],
@@ -38478,10 +38335,9 @@
         }
       }
     },
-    "508:10": {
+    "506:10": {
       "preRequisites:11": [
-        507,
-        496
+        507
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -38562,7 +38418,7 @@
         }
       }
     },
-    "509:10": {
+    "507:10": {
       "preRequisites:11": [
         506
       ],
@@ -38645,7 +38501,7 @@
         }
       }
     },
-    "510:10": {
+    "508:10": {
       "preRequisites:11": [
         276
       ],
@@ -38750,7 +38606,7 @@
         }
       }
     },
-    "511:10": {
+    "509:10": {
       "preRequisites:11": [
         260
       ],
@@ -38802,7 +38658,7 @@
         }
       }
     },
-    "512:10": {
+    "510:10": {
       "preRequisites:11": [
         511
       ],
@@ -38898,7 +38754,7 @@
         }
       }
     },
-    "513:10": {
+    "511:10": {
       "preRequisites:11": [
         511
       ],
@@ -38976,9 +38832,9 @@
         }
       }
     },
-    "514:10": {
+    "512:10": {
       "preRequisites:11": [
-        461
+        240
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -39051,7 +38907,7 @@
         }
       }
     },
-    "515:10": {
+    "513:10": {
       "preRequisites:11": [
         511
       ],
@@ -39132,7 +38988,7 @@
         }
       }
     },
-    "516:10": {
+    "514:10": {
       "preRequisites:11": [
         237
       ],
@@ -39148,7 +39004,7 @@
             "id:8": "gregtech:meta_item_1"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "晶晶又圆圆",
@@ -39225,7 +39081,7 @@
         }
       }
     },
-    "517:10": {
+    "515:10": {
       "preRequisites:11": [
         356
       ],
@@ -39304,7 +39160,7 @@
         }
       }
     },
-    "518:10": {
+    "516:10": {
       "preRequisites:11": [
         520
       ],
@@ -39320,7 +39176,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "我将如闪电般归来",
@@ -39379,7 +39235,7 @@
         }
       }
     },
-    "519:10": {
+    "517:10": {
       "preRequisites:11": [
         520
       ],
@@ -39399,7 +39255,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "选什么原料？",
@@ -39477,8 +39333,10 @@
         }
       }
     },
-    "520:10": {
-      "preRequisites:11": [],
+    "518:10": {
+      "preRequisites:11": [
+        253
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -39495,7 +39353,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "溴制取路线",
@@ -39518,8 +39376,10 @@
         }
       }
     },
-    "521:10": {
-      "preRequisites:11": [],
+    "519:10": {
+      "preRequisites:11": [
+        519
+      ],
       "properties:10": {
         "betterquesting:10": {
           "autoclaim:1": 0,
@@ -39591,7 +39451,7 @@
         }
       }
     },
-    "522:10": {
+    "520:10": {
       "preRequisites:11": [
         520
       ],
@@ -39666,7 +39526,7 @@
         }
       }
     },
-    "523:10": {
+    "521:10": {
       "preRequisites:11": [
         519
       ],
@@ -39686,7 +39546,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "卤水处理-第1步",
@@ -39740,7 +39600,7 @@
         }
       }
     },
-    "524:10": {
+    "522:10": {
       "preRequisites:11": [
         523
       ],
@@ -39760,7 +39620,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "卤水处理-第2步",
@@ -39814,7 +39674,7 @@
         }
       }
     },
-    "525:10": {
+    "523:10": {
       "preRequisites:11": [
         524
       ],
@@ -39834,7 +39694,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "卤水处理-第3步",
@@ -39888,7 +39748,7 @@
         }
       }
     },
-    "526:10": {
+    "524:10": {
       "preRequisites:11": [
         525,
         518
@@ -39909,7 +39769,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "卤水处理-第4步",
@@ -39963,7 +39823,7 @@
         }
       }
     },
-    "527:10": {
+    "525:10": {
       "preRequisites:11": [
         526
       ],
@@ -39983,7 +39843,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "这是一个有味道的任务",
@@ -40046,7 +39906,7 @@
         }
       }
     },
-    "528:10": {
+    "526:10": {
       "preRequisites:11": [
         527,
         284,
@@ -40064,7 +39924,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "你有点工业化了",
@@ -40123,9 +39983,8 @@
         }
       }
     },
-    "529:10": {
+    "527:10": {
       "preRequisites:11": [
-        528,
         530
       ],
       "properties:10": {
@@ -40144,7 +40003,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "路人女主的养成方法",
@@ -40198,7 +40057,7 @@
         }
       }
     },
-    "530:10": {
+    "528:10": {
       "preRequisites:11": [
         528
       ],
@@ -40218,7 +40077,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "一些复杂的化工流程",
@@ -40294,7 +40153,7 @@
         }
       }
     },
-    "531:10": {
+    "529:10": {
       "preRequisites:11": [
         529
       ],
@@ -40314,7 +40173,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "一蹴而就？别想了",
@@ -40368,7 +40227,7 @@
         }
       }
     },
-    "532:10": {
+    "530:10": {
       "preRequisites:11": [
         531
       ],
@@ -40388,7 +40247,7 @@
             }
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "紫老太婆",
@@ -40442,10 +40301,10 @@
         }
       }
     },
-    "533:10": {
+    "531:10": {
       "preRequisites:11": [
         532,
-        273
+        494
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -40459,7 +40318,7 @@
             "id:8": "gregtech:machine"
           },
           "ignoresview:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "issilent:1": 0,
           "lockedprogress:1": 0,
           "name:8": "最后的难关，我保证这是最后的了",
@@ -40518,7 +40377,7 @@
         }
       }
     },
-    "534:10": {
+    "532:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -40591,7 +40450,7 @@
         }
       }
     },
-    "535:10": {
+    "533:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -40688,7 +40547,7 @@
         }
       }
     },
-    "536:10": {
+    "534:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -40761,7 +40620,7 @@
         }
       }
     },
-    "537:10": {
+    "535:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -40834,7 +40693,7 @@
         }
       }
     },
-    "538:10": {
+    "536:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -40913,7 +40772,7 @@
         }
       }
     },
-    "539:10": {
+    "537:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -40983,7 +40842,7 @@
         }
       }
     },
-    "540:10": {
+    "538:10": {
       "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
@@ -41047,7 +40906,7 @@
         }
       }
     },
-    "541:10": {
+    "539:10": {
       "preRequisites:11": [
         56
       ],
@@ -42679,696 +42538,682 @@
           "id:3": 199,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -198,
-          "y:3": 216
+          "x:3": -192,
+          "y:3": 234
         },
         "5:10": {
-          "id:3": 200,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 270,
-          "y:3": 222
-        },
-        "6:10": {
           "id:3": 252,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -198,
-          "y:3": 120
+          "x:3": -96,
+          "y:3": 132
         },
-        "7:10": {
+        "6:10": {
           "id:3": 282,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -324,
           "y:3": -186
         },
-        "8:10": {
+        "7:10": {
           "id:3": 295,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -114,
           "y:3": -300
         },
-        "9:10": {
+        "8:10": {
           "id:3": 297,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -114,
           "y:3": -330
         },
-        "10:10": {
+        "9:10": {
           "id:3": 300,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -60,
           "y:3": 60
         },
-        "11:10": {
+        "10:10": {
           "id:3": 391,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -138,
           "y:3": -18
         },
-        "12:10": {
+        "11:10": {
           "id:3": 392,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -276,
           "y:3": 60
         },
-        "13:10": {
+        "12:10": {
           "id:3": 393,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -276,
           "y:3": -90
         },
-        "14:10": {
+        "13:10": {
           "id:3": 394,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -132,
           "y:3": -48
         },
-        "15:10": {
+        "14:10": {
           "id:3": 395,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -138,
           "y:3": -90
         },
-        "16:10": {
+        "15:10": {
           "id:3": 396,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -138,
-          "y:3": 216
+          "y:3": 234
         },
-        "17:10": {
+        "16:10": {
           "id:3": 397,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -276,
           "y:3": -234
         },
-        "18:10": {
+        "17:10": {
           "id:3": 398,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 0,
           "y:3": 6
         },
-        "19:10": {
+        "18:10": {
           "id:3": 399,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 108,
           "y:3": 114
         },
-        "20:10": {
+        "19:10": {
           "id:3": 400,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 0,
           "y:3": 60
         },
-        "21:10": {
+        "20:10": {
           "id:3": 401,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 54,
           "y:3": 60
         },
-        "22:10": {
+        "21:10": {
           "id:3": 402,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 162,
           "y:3": 204
         },
-        "23:10": {
+        "22:10": {
           "id:3": 403,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 162,
           "y:3": 168
         },
-        "24:10": {
+        "23:10": {
           "id:3": 404,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 198,
           "y:3": 168
         },
-        "25:10": {
+        "24:10": {
           "id:3": 405,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -78,
-          "y:3": 120
+          "x:3": -216,
+          "y:3": 6
         },
-        "26:10": {
+        "25:10": {
           "id:3": 406,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 6,
           "y:3": -36
         },
-        "27:10": {
+        "26:10": {
           "id:3": 407,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -138,
           "y:3": -162
         },
-        "28:10": {
+        "27:10": {
           "id:3": 408,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 48,
           "y:3": -240
         },
-        "29:10": {
+        "28:10": {
           "id:3": 415,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -138,
           "y:3": -234
         },
-        "30:10": {
+        "29:10": {
           "id:3": 416,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -54,
           "y:3": -156
         },
-        "31:10": {
+        "30:10": {
           "id:3": 417,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 0,
           "y:3": -162
         },
-        "32:10": {
+        "31:10": {
           "id:3": 418,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -150,
           "y:3": -300
         },
-        "33:10": {
+        "32:10": {
           "id:3": 419,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -150,
           "y:3": -270
         },
-        "34:10": {
+        "33:10": {
           "id:3": 420,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -114,
           "y:3": -270
         },
-        "35:10": {
+        "34:10": {
           "id:3": 421,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -210,
           "y:3": -234
         },
-        "36:10": {
+        "35:10": {
           "id:3": 422,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -150,
-          "y:3": 126
+          "x:3": -174,
+          "y:3": 156
         },
-        "37:10": {
+        "36:10": {
           "id:3": 423,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -96,
           "y:3": 24
         },
-        "38:10": {
+        "37:10": {
           "id:3": 424,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -96,
           "y:3": -48
         },
-        "39:10": {
+        "38:10": {
           "id:3": 425,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 234,
           "y:3": 168
         },
-        "40:10": {
+        "39:10": {
           "id:3": 426,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -54,
-          "y:3": 168
+          "x:3": -246,
+          "y:3": -6
         },
-        "41:10": {
+        "40:10": {
           "id:3": 427,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -90,
-          "y:3": 168
+          "x:3": -246,
+          "y:3": 30
         },
-        "42:10": {
+        "41:10": {
           "id:3": 428,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -54,
           "y:3": -270
         },
-        "43:10": {
-          "id:3": 429,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 114,
-          "y:3": 210
-        },
-        "44:10": {
+        "42:10": {
           "id:3": 430,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -372,
           "y:3": -258
         },
-        "45:10": {
+        "43:10": {
           "id:3": 431,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 0,
-          "y:3": 114
+          "y:3": 168
         },
-        "46:10": {
+        "44:10": {
           "id:3": 432,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -318,
           "y:3": -228
         },
-        "47:10": {
+        "45:10": {
           "id:3": 433,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 108,
           "y:3": 168
         },
-        "48:10": {
+        "46:10": {
           "id:3": 434,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 108,
           "y:3": 60
         },
-        "49:10": {
+        "47:10": {
           "id:3": 435,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 162,
           "y:3": 114
         },
-        "50:10": {
+        "48:10": {
           "id:3": 436,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 162,
           "y:3": 72
         },
-        "51:10": {
+        "49:10": {
           "id:3": 437,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 198,
           "y:3": 66
         },
-        "52:10": {
+        "50:10": {
           "id:3": 438,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 222,
           "y:3": 120
         },
-        "53:10": {
+        "51:10": {
           "id:3": 439,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 60,
           "y:3": 174
         },
-        "54:10": {
+        "52:10": {
           "id:3": 441,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -270,
           "y:3": -270
         },
-        "55:10": {
+        "53:10": {
           "id:3": 442,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -270,
           "y:3": -306
         },
-        "56:10": {
+        "54:10": {
           "id:3": 443,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -60,
           "y:3": -18
         },
-        "57:10": {
+        "55:10": {
           "id:3": 444,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -54,
           "y:3": -84
         },
-        "58:10": {
+        "56:10": {
           "id:3": 445,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 0,
           "y:3": -90
         },
-        "59:10": {
+        "57:10": {
           "id:3": 446,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 60,
           "y:3": -84
         },
-        "60:10": {
+        "58:10": {
           "id:3": 447,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 114,
           "y:3": -156
         },
-        "61:10": {
+        "59:10": {
           "id:3": 448,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -372,
           "y:3": -210
         },
-        "62:10": {
+        "60:10": {
           "id:3": 449,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 6,
-          "y:3": 174
+          "x:3": 60,
+          "y:3": 282
         },
-        "63:10": {
+        "61:10": {
           "id:3": 450,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -96,
           "y:3": -192
         },
-        "64:10": {
+        "62:10": {
           "id:3": 451,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -90,
           "y:3": -84
         },
-        "65:10": {
+        "63:10": {
           "id:3": 452,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 6,
-          "y:3": 222
+          "x:3": 162,
+          "y:3": 282
         },
-        "66:10": {
+        "64:10": {
           "id:3": 453,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -30,
-          "y:3": 192
+          "x:3": -168,
+          "y:3": 282
         },
-        "67:10": {
+        "65:10": {
           "id:3": 454,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -30,
-          "y:3": 222
+          "x:3": -132,
+          "y:3": 282
         },
-        "68:10": {
+        "66:10": {
           "id:3": 455,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 228,
-          "y:3": 222
+          "x:3": 282,
+          "y:3": 240
         },
-        "69:10": {
+        "67:10": {
           "id:3": 456,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": 270,
           "y:3": 108
         },
-        "70:10": {
+        "68:10": {
           "id:3": 457,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -138,
-          "y:3": 276
+          "x:3": -84,
+          "y:3": 234
         },
-        "71:10": {
+        "69:10": {
           "id:3": 458,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 42,
-          "y:3": 282
+          "x:3": -30,
+          "y:3": 240
         },
-        "72:10": {
+        "70:10": {
           "id:3": 459,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 198,
           "y:3": -156
         },
-        "73:10": {
+        "71:10": {
           "id:3": 460,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 228,
-          "y:3": 282
+          "x:3": 6,
+          "y:3": 240
         },
-        "74:10": {
+        "72:10": {
           "id:3": 461,
           "sizeX:3": 72,
           "sizeY:3": 72,
           "x:3": 258,
           "y:3": -174
         },
-        "75:10": {
+        "73:10": {
           "id:3": 462,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -90
         },
-        "76:10": {
+        "74:10": {
           "id:3": 463,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 336,
           "y:3": 114
         },
-        "77:10": {
+        "75:10": {
           "id:3": 464,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 390,
           "y:3": 114
         },
-        "78:10": {
+        "76:10": {
           "id:3": 466,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 162,
           "y:3": 36
         },
-        "79:10": {
+        "77:10": {
           "id:3": 467,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": 36
         },
-        "80:10": {
+        "78:10": {
           "id:3": 468,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": 198,
           "y:3": -18
         },
-        "81:10": {
+        "79:10": {
           "id:3": 469,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 162,
           "y:3": -54
         },
-        "82:10": {
+        "80:10": {
           "id:3": 470,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 204,
           "y:3": -54
         },
-        "83:10": {
+        "81:10": {
           "id:3": 471,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 246,
           "y:3": -54
         },
-        "84:10": {
+        "82:10": {
           "id:3": 472,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -168,
           "y:3": -120
         },
-        "85:10": {
+        "83:10": {
           "id:3": 473,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -168,
           "y:3": -192
         },
-        "86:10": {
+        "84:10": {
           "id:3": 474,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -90,
           "y:3": -114
         },
-        "87:10": {
+        "85:10": {
           "id:3": 475,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 162,
           "y:3": 0
         },
-        "88:10": {
+        "86:10": {
           "id:3": 476,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": 0,
-          "y:3": -276
+          "x:3": -60,
+          "y:3": -204
         },
-        "89:10": {
+        "87:10": {
           "id:3": 477,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -246,
-          "y:3": -48
+          "x:3": -204,
+          "y:3": -66
         },
-        "90:10": {
+        "88:10": {
           "id:3": 478,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -246,
-          "y:3": 24
+          "x:3": -204,
+          "y:3": 48
         },
-        "91:10": {
+        "89:10": {
           "id:3": 479,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 246,
           "y:3": 36
         },
-        "92:10": {
+        "90:10": {
           "id:3": 480,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -306,
           "y:3": -270
         },
-        "93:10": {
+        "91:10": {
           "id:3": 481,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -174,
-          "y:3": 24
+          "y:3": 18
         },
-        "94:10": {
+        "92:10": {
           "id:3": 482,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -174,
-          "y:3": -48
+          "y:3": -66
         },
-        "95:10": {
+        "93:10": {
           "id:3": 483,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -210,
-          "y:3": 24
+          "x:3": -174,
+          "y:3": 48
         },
-        "96:10": {
+        "94:10": {
           "id:3": 484,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -204,
           "y:3": -156
         },
-        "97:10": {
+        "95:10": {
           "id:3": 486,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -204,
           "y:3": -192
         },
-        "98:10": {
+        "96:10": {
           "id:3": 487,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -210,
-          "y:3": -48
+          "x:3": -174,
+          "y:3": -36
         },
-        "99:10": {
+        "97:10": {
           "id:3": 488,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -114,
-          "y:3": 126
+          "x:3": -174,
+          "y:3": 120
         },
-        "100:10": {
+        "98:10": {
           "id:3": 489,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -216,
-          "y:3": -18
+          "y:3": -36
         },
-        "101:10": {
+        "99:10": {
           "id:3": 490,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -234,
           "y:3": -270
         },
-        "102:10": {
+        "100:10": {
           "id:3": 491,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -234,
           "y:3": -306
         },
-        "103:10": {
+        "101:10": {
           "id:3": 492,
           "sizeX:3": 24,
           "sizeY:3": 24,
@@ -43397,893 +43242,893 @@
       },
       "quests:9": {
         "0:10": {
-          "id:3": 203,
+          "id:3": 200,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 168,
-          "y:3": 216
+          "x:3": -234,
+          "y:3": -18
         },
         "1:10": {
-          "id:3": 204,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 228,
-          "y:3": 372
+          "id:3": 203,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -396,
+          "y:3": -126
         },
         "2:10": {
+          "id:3": 204,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -456,
+          "y:3": -42
+        },
+        "3:10": {
           "id:3": 205,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 120,
-          "y:3": 252
+          "x:3": -414,
+          "y:3": -78
         },
-        "3:10": {
+        "4:10": {
           "id:3": 206,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 144,
-          "y:3": 288
+          "x:3": -342,
+          "y:3": -120
         },
-        "4:10": {
+        "5:10": {
           "id:3": 207,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": 144
+          "x:3": -390,
+          "y:3": -240
         },
-        "5:10": {
+        "6:10": {
           "id:3": 208,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 120,
-          "y:3": 144
+          "x:3": -348,
+          "y:3": -198
         },
-        "6:10": {
+        "7:10": {
           "id:3": 209,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": 192
-        },
-        "7:10": {
-          "id:3": 210,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 228,
-          "y:3": 180
+          "x:3": -432,
+          "y:3": -198
         },
         "8:10": {
-          "id:3": 211,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 108,
-          "y:3": 180
+          "id:3": 210,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -300,
+          "y:3": 48
         },
         "9:10": {
-          "id:3": 212,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 420,
-          "y:3": 216
+          "id:3": 211,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -396,
+          "y:3": -204
         },
         "10:10": {
-          "id:3": 213,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 264,
-          "y:3": 432
+          "id:3": 212,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -396,
+          "y:3": 48
         },
         "11:10": {
-          "id:3": 214,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 264,
-          "y:3": 312
+          "id:3": 213,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 162,
+          "y:3": -162
         },
         "12:10": {
-          "id:3": 215,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 168,
-          "y:3": 72
+          "id:3": 214,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -348,
+          "y:3": -162
         },
         "13:10": {
+          "id:3": 215,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -300,
+          "y:3": -12
+        },
+        "14:10": {
           "id:3": 216,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 492,
-          "y:3": 324
-        },
-        "14:10": {
-          "id:3": 217,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 420,
-          "y:3": 312
+          "x:3": -342,
+          "y:3": 96
         },
         "15:10": {
+          "id:3": 217,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -300,
+          "y:3": -174
+        },
+        "16:10": {
           "id:3": 218,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 240,
-          "y:3": 144
+          "x:3": -252,
+          "y:3": 96
         },
-        "16:10": {
+        "17:10": {
           "id:3": 219,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 240,
-          "y:3": 252
+          "x:3": -450,
+          "y:3": -162
         },
-        "17:10": {
+        "18:10": {
           "id:3": 221,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 240,
-          "y:3": -72
+          "x:3": -186,
+          "y:3": 96
         },
-        "18:10": {
+        "19:10": {
           "id:3": 222,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 216,
-          "y:3": 288
+          "x:3": -414,
+          "y:3": -162
         },
-        "19:10": {
+        "20:10": {
           "id:3": 223,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 240,
-          "y:3": 84
+          "x:3": -162,
+          "y:3": 12
         },
-        "20:10": {
+        "21:10": {
           "id:3": 224,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 300,
-          "y:3": 84
+          "x:3": -114,
+          "y:3": -6
         },
-        "21:10": {
+        "22:10": {
           "id:3": 225,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 360,
-          "y:3": 144
+          "x:3": -186,
+          "y:3": -60
         },
-        "22:10": {
+        "23:10": {
           "id:3": 226,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 240,
-          "y:3": 36
+          "x:3": -162,
+          "y:3": -24
         },
-        "23:10": {
+        "24:10": {
           "id:3": 227,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 360,
-          "y:3": 36
-        },
-        "24:10": {
-          "id:3": 228,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 288,
-          "y:3": 12
+          "x:3": -144,
+          "y:3": -60
         },
         "25:10": {
-          "id:3": 229,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 288,
-          "y:3": -84
+          "id:3": 228,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -72,
+          "y:3": -12
         },
         "26:10": {
-          "id:3": 230,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 48,
-          "y:3": -84
+          "id:3": 229,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -18,
+          "y:3": -12
         },
         "27:10": {
+          "id:3": 230,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -18,
+          "y:3": 90
+        },
+        "28:10": {
           "id:3": 231,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 360,
-          "y:3": -72
-        },
-        "28:10": {
-          "id:3": 232,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 48,
-          "y:3": 12
+          "x:3": -12,
+          "y:3": -60
         },
         "29:10": {
+          "id:3": 232,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -162,
+          "y:3": 48
+        },
+        "30:10": {
           "id:3": 233,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 108,
-          "y:3": 60
+          "x:3": -126,
+          "y:3": 30
         },
-        "30:10": {
+        "31:10": {
           "id:3": 234,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 12,
-          "y:3": 60
-        },
-        "31:10": {
-          "id:3": 235,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": -132,
-          "y:3": 12
+          "x:3": -126,
+          "y:3": 66
         },
         "32:10": {
-          "id:3": 236,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 168,
-          "y:3": -84
+          "id:3": 235,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -90,
+          "y:3": 48
         },
         "33:10": {
-          "id:3": 237,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": -192,
-          "y:3": -84
+          "id:3": 236,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 36,
+          "y:3": -12
         },
         "34:10": {
+          "id:3": 237,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 96,
+          "y:3": 132
+        },
+        "35:10": {
           "id:3": 238,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 72,
-          "y:3": 228
+          "x:3": -342,
+          "y:3": -84
         },
-        "35:10": {
+        "36:10": {
           "id:3": 239,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 540,
-          "y:3": 228
-        },
-        "36:10": {
-          "id:3": 240,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 540,
-          "y:3": 324
+          "x:3": -294,
+          "y:3": 96
         },
         "37:10": {
+          "id:3": 240,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 270,
+          "y:3": -132
+        },
+        "38:10": {
           "id:3": 241,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 540,
-          "y:3": 276
+          "x:3": -108,
+          "y:3": -36
         },
-        "38:10": {
+        "39:10": {
           "id:3": 242,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 492,
-          "y:3": 228
+          "x:3": -294,
+          "y:3": 132
         },
-        "39:10": {
+        "40:10": {
           "id:3": 243,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -180,
-          "y:3": 84
+          "x:3": -222,
+          "y:3": 138
         },
-        "40:10": {
+        "41:10": {
           "id:3": 244,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -180,
-          "y:3": 24
+          "x:3": -90,
+          "y:3": 138
         },
-        "41:10": {
+        "42:10": {
           "id:3": 246,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -228,
-          "y:3": 24
+          "x:3": -30,
+          "y:3": 138
         },
-        "42:10": {
+        "43:10": {
           "id:3": 247,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -228,
-          "y:3": -24
-        },
-        "43:10": {
-          "id:3": 248,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 480,
-          "y:3": 372
+          "x:3": 30,
+          "y:3": 138
         },
         "44:10": {
-          "id:3": 249,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": -72,
-          "y:3": -84
+          "id:3": 248,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -342,
+          "y:3": 54
         },
         "45:10": {
-          "id:3": 250,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 48,
-          "y:3": -180
+          "id:3": 249,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -96,
+          "y:3": 90
         },
         "46:10": {
+          "id:3": 250,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 42,
+          "y:3": 48
+        },
+        "47:10": {
           "id:3": 251,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": 84
+          "x:3": -222,
+          "y:3": -126
         },
-        "47:10": {
+        "48:10": {
           "id:3": 253,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 288,
-          "y:3": -180
+          "x:3": 90,
+          "y:3": -18
         },
-        "48:10": {
+        "49:10": {
           "id:3": 254,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": 24
+          "x:3": -132,
+          "y:3": -126
         },
-        "49:10": {
+        "50:10": {
           "id:3": 255,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": 24
+          "x:3": -42,
+          "y:3": -126
         },
-        "50:10": {
+        "51:10": {
           "id:3": 256,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -12,
-          "y:3": -24
+          "x:3": 48,
+          "y:3": -126
         },
-        "51:10": {
+        "52:10": {
           "id:3": 257,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": -60,
-          "y:3": -24
-        },
-        "52:10": {
-          "id:3": 258,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 360,
-          "y:3": -276
+          "x:3": 102,
+          "y:3": -72
         },
         "53:10": {
+          "id:3": 258,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 156,
+          "y:3": -96
+        },
+        "54:10": {
           "id:3": 259,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 492,
-          "y:3": 276
-        },
-        "54:10": {
-          "id:3": 260,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 480,
-          "y:3": -276
+          "x:3": -330,
+          "y:3": 132
         },
         "55:10": {
+          "id:3": 260,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 300,
+          "y:3": -90
+        },
+        "56:10": {
           "id:3": 261,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 228,
-          "y:3": 444
-        },
-        "56:10": {
-          "id:3": 262,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 588,
-          "y:3": -192
+          "x:3": 216,
+          "y:3": -162
         },
         "57:10": {
+          "id:3": 262,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 456,
+          "y:3": -12
+        },
+        "58:10": {
           "id:3": 263,
           "sizeX:3": 72,
           "sizeY:3": 72,
-          "x:3": 576,
-          "y:3": -300
+          "x:3": 516,
+          "y:3": -30
         },
-        "58:10": {
+        "59:10": {
           "id:3": 264,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 108,
-          "y:3": -120
-        },
-        "59:10": {
-          "id:3": 265,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 420,
-          "y:3": -156
+          "x:3": 42,
+          "y:3": 96
         },
         "60:10": {
+          "id:3": 265,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": 24
+        },
+        "61:10": {
           "id:3": 266,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 432,
-          "y:3": -240
-        },
-        "61:10": {
-          "id:3": 267,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 72,
-          "y:3": 432
+          "x:3": -78,
+          "y:3": -60
         },
         "62:10": {
-          "id:3": 268,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 72,
-          "y:3": 312
+          "id:3": 267,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 270,
+          "y:3": -288
         },
         "63:10": {
+          "id:3": 268,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -510,
+          "y:3": -12
+        },
+        "64:10": {
           "id:3": 269,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 36,
-          "y:3": 324
+          "x:3": -504,
+          "y:3": -120
         },
-        "64:10": {
+        "65:10": {
           "id:3": 270,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": 276
-        },
-        "65:10": {
-          "id:3": 271,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 84,
-          "y:3": 372
+          "x:3": -450,
+          "y:3": -78
         },
         "66:10": {
+          "id:3": 271,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -456,
+          "y:3": -126
+        },
+        "67:10": {
           "id:3": 272,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 432,
-          "y:3": -204
-        },
-        "67:10": {
-          "id:3": 273,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 480,
-          "y:3": -132
+          "x:3": -48,
+          "y:3": -84
         },
         "68:10": {
-          "id:3": 274,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 168,
-          "y:3": 432
+          "id:3": 273,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": 60
         },
         "69:10": {
+          "id:3": 274,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 270,
+          "y:3": -204
+        },
+        "70:10": {
           "id:3": 275,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 0,
-          "y:3": 324
-        },
-        "70:10": {
-          "id:3": 276,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 168,
-          "y:3": 528
+          "x:3": -534,
+          "y:3": -120
         },
         "71:10": {
-          "id:3": 277,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 132,
-          "y:3": 444
-        },
-        "72:10": {
-          "id:3": 278,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 552,
-          "y:3": 72
-        },
-        "73:10": {
-          "id:3": 279,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 600,
-          "y:3": 72
-        },
-        "74:10": {
-          "id:3": 280,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 648,
-          "y:3": 24
-        },
-        "75:10": {
-          "id:3": 281,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 552,
-          "y:3": 24
-        },
-        "76:10": {
-          "id:3": 283,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 588,
-          "y:3": 120
-        },
-        "77:10": {
-          "id:3": 284,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 588,
-          "y:3": -72
-        },
-        "78:10": {
-          "id:3": 285,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 708,
-          "y:3": 228
-        },
-        "79:10": {
-          "id:3": 286,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 708,
-          "y:3": 132
-        },
-        "80:10": {
-          "id:3": 287,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 708,
-          "y:3": 72
-        },
-        "81:10": {
-          "id:3": 288,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 696,
-          "y:3": 0
-        },
-        "82:10": {
-          "id:3": 289,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 432,
-          "y:3": -72
-        },
-        "83:10": {
-          "id:3": 290,
+          "id:3": 276,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 276,
-          "y:3": 276
+          "y:3": -240
+        },
+        "72:10": {
+          "id:3": 277,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 318,
+          "y:3": -198
+        },
+        "73:10": {
+          "id:3": 278,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": -66
+        },
+        "74:10": {
+          "id:3": 279,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": -36
+        },
+        "75:10": {
+          "id:3": 280,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": -6
+        },
+        "76:10": {
+          "id:3": 281,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 252,
+          "y:3": -66
+        },
+        "77:10": {
+          "id:3": 283,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 156,
+          "y:3": -42
+        },
+        "78:10": {
+          "id:3": 284,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 246,
+          "y:3": -12
+        },
+        "79:10": {
+          "id:3": 285,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 294,
+          "y:3": -42
+        },
+        "80:10": {
+          "id:3": 286,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 294,
+          "y:3": -6
+        },
+        "81:10": {
+          "id:3": 287,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 294,
+          "y:3": 30
+        },
+        "82:10": {
+          "id:3": 288,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 330,
+          "y:3": -12
+        },
+        "83:10": {
+          "id:3": 289,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 204,
+          "y:3": 90
         },
         "84:10": {
+          "id:3": 290,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -300,
+          "y:3": -138
+        },
+        "85:10": {
           "id:3": 291,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 492,
-          "y:3": 180
+          "x:3": -258,
+          "y:3": 132
         },
-        "85:10": {
+        "86:10": {
           "id:3": 461,
           "sizeX:3": 48,
           "sizeY:3": 48,
-          "x:3": 168,
-          "y:3": 360
-        },
-        "86:10": {
-          "id:3": 464,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 360,
-          "y:3": -180
+          "x:3": -402,
+          "y:3": -18
         },
         "87:10": {
-          "id:3": 493,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 540,
-          "y:3": 180
+          "id:3": 464,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 156,
+          "y:3": 18
         },
         "88:10": {
           "id:3": 494,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 492,
-          "y:3": -204
+          "x:3": 402,
+          "y:3": -90
         },
         "89:10": {
           "id:3": 495,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 312,
-          "y:3": 528
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 270,
+          "y:3": -342
         },
         "90:10": {
           "id:3": 496,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 384,
-          "y:3": 576
+          "x:3": 318,
+          "y:3": -300
         },
         "91:10": {
           "id:3": 497,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 384,
-          "y:3": 540
+          "x:3": 318,
+          "y:3": -336
         },
         "92:10": {
           "id:3": 498,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 384,
-          "y:3": 504
+          "x:3": 318,
+          "y:3": -372
         },
         "93:10": {
           "id:3": 499,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 264,
-          "y:3": 540
+          "x:3": 234,
+          "y:3": -336
         },
         "94:10": {
           "id:3": 500,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 228,
-          "y:3": 492
+          "x:3": 234,
+          "y:3": -282
         },
         "95:10": {
           "id:3": 501,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 432,
-          "y:3": 456
+          "x:3": -390,
+          "y:3": 138
         },
         "96:10": {
           "id:3": 502,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 432,
-          "y:3": 492
+          "x:3": -420,
+          "y:3": 138
         },
         "97:10": {
           "id:3": 503,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 480,
-          "y:3": 456
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -468,
+          "y:3": 132
         },
         "98:10": {
           "id:3": 504,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 552,
-          "y:3": 492
+          "x:3": -444,
+          "y:3": 96
         },
         "99:10": {
           "id:3": 505,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 552,
-          "y:3": 456
+          "x:3": -462,
+          "y:3": 60
         },
         "100:10": {
           "id:3": 506,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 588,
-          "y:3": 444
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -516,
+          "y:3": 54
         },
         "101:10": {
           "id:3": 507,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 600,
-          "y:3": 504
+          "x:3": -534,
+          "y:3": 96
         },
         "102:10": {
           "id:3": 508,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 588,
-          "y:3": 564
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -516,
+          "y:3": 132
         },
         "103:10": {
           "id:3": 509,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 648,
-          "y:3": 456
+          "x:3": -552,
+          "y:3": 60
         },
         "104:10": {
           "id:3": 510,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 132,
-          "y:3": 540
+          "x:3": 234,
+          "y:3": -240
         },
         "105:10": {
           "id:3": 511,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 168,
-          "y:3": -276
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 318,
+          "y:3": -132
         },
         "106:10": {
           "id:3": 512,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 108,
-          "y:3": -276
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 366,
+          "y:3": -180
         },
         "107:10": {
           "id:3": 513,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 120,
-          "y:3": -312
+          "x:3": 366,
+          "y:3": -126
         },
         "108:10": {
           "id:3": 514,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 228,
-          "y:3": 408
+          "x:3": 276,
+          "y:3": -162
         },
         "109:10": {
           "id:3": 515,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 120,
-          "y:3": -216
+          "x:3": 324,
+          "y:3": -168
         },
         "110:10": {
           "id:3": 516,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": -132,
-          "y:3": -180
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 96,
+          "y:3": 72
         },
         "111:10": {
           "id:3": 518,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 852,
-          "y:3": 36
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 198,
+          "y:3": 132
         },
         "112:10": {
           "id:3": 519,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 816,
-          "y:3": 72
+          "x:3": 162,
+          "y:3": 204
         },
         "113:10": {
           "id:3": 520,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 804,
-          "y:3": 120
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 156,
+          "y:3": 72
         },
         "114:10": {
           "id:3": 521,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 864,
-          "y:3": 132
+          "x:3": 132,
+          "y:3": 204
         },
         "115:10": {
           "id:3": 522,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 768,
-          "y:3": 132
+          "x:3": 132,
+          "y:3": 108
         },
         "116:10": {
           "id:3": 523,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 768,
-          "y:3": 72
+          "x:3": 204,
+          "y:3": 222
         },
         "117:10": {
           "id:3": 524,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 768,
-          "y:3": 24
+          "x:3": 246,
+          "y:3": 204
         },
         "118:10": {
           "id:3": 525,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 816,
-          "y:3": 24
+          "x:3": 204,
+          "y:3": 186
         },
         "119:10": {
           "id:3": 526,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 816,
-          "y:3": -12
+          "x:3": 252,
+          "y:3": 138
         },
         "120:10": {
           "id:3": 527,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 804,
-          "y:3": -72
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 252,
+          "y:3": 102
         },
         "121:10": {
           "id:3": 528,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 696,
-          "y:3": -72
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 246,
+          "y:3": 54
         },
         "122:10": {
           "id:3": 529,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 708,
-          "y:3": -120
+          "x:3": 330,
+          "y:3": 60
         },
         "123:10": {
           "id:3": 530,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 744,
-          "y:3": -120
+          "x:3": 294,
+          "y:3": 60
         },
         "124:10": {
           "id:3": 531,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 672,
-          "y:3": -120
+          "x:3": 366,
+          "y:3": 60
         },
         "125:10": {
           "id:3": 532,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 636,
-          "y:3": -120
+          "x:3": 402,
+          "y:3": 60
         },
         "126:10": {
           "id:3": 533,
-          "sizeX:3": 48,
-          "sizeY:3": 48,
-          "x:3": 696,
-          "y:3": -192
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": 396,
+          "y:3": -12
         }
       }
     },
@@ -44418,188 +44263,265 @@
           "y:3": 18
         },
         "13:10": {
+          "id:3": 229,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -90,
+          "y:3": 96
+        },
+        "14:10": {
+          "id:3": 230,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -66,
+          "y:3": 144
+        },
+        "15:10": {
+          "id:3": 235,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -30,
+          "y:3": 102
+        },
+        "16:10": {
+          "id:3": 236,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -102,
+          "y:3": 144
+        },
+        "17:10": {
+          "id:3": 237,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -138,
+          "y:3": 102
+        },
+        "18:10": {
           "id:3": 245,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -234,
           "y:3": -96
         },
-        "14:10": {
+        "19:10": {
+          "id:3": 260,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 18,
+          "y:3": 102
+        },
+        "20:10": {
+          "id:3": 267,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 66,
+          "y:3": 102
+        },
+        "21:10": {
           "id:3": 268,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 174,
-          "y:3": 54
+          "x:3": 102,
+          "y:3": 60
         },
-        "15:10": {
+        "22:10": {
+          "id:3": 274,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": 102,
+          "y:3": 102
+        },
+        "23:10": {
           "id:3": 299,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 210,
           "y:3": -90
         },
-        "16:10": {
+        "24:10": {
           "id:3": 304,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 102,
-          "y:3": 54
+          "x:3": -138,
+          "y:3": 60
         },
-        "17:10": {
+        "25:10": {
           "id:3": 332,
-          "sizeX:3": 24,
-          "sizeY:3": 24,
-          "x:3": 138,
-          "y:3": 54
-        },
-        "18:10": {
-          "id:3": 345,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 174,
           "y:3": 18
         },
-        "19:10": {
+        "26:10": {
+          "id:3": 345,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -102,
+          "y:3": 60
+        },
+        "27:10": {
           "id:3": 363,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 282,
-          "y:3": 18
+          "x:3": 138,
+          "y:3": 60
         },
-        "20:10": {
+        "28:10": {
           "id:3": 385,
           "sizeX:3": 36,
           "sizeY:3": 36,
           "x:3": -90,
           "y:3": -180
         },
-        "21:10": {
+        "29:10": {
           "id:3": 387,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 246,
           "y:3": -90
         },
-        "22:10": {
+        "30:10": {
           "id:3": 388,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 282,
           "y:3": -90
         },
-        "23:10": {
+        "31:10": {
           "id:3": 389,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -102,
           "y:3": -90
         },
-        "24:10": {
+        "32:10": {
           "id:3": 390,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -90
         },
-        "25:10": {
+        "33:10": {
           "id:3": 408,
           "sizeX:3": 48,
           "sizeY:3": 48,
           "x:3": -96,
           "y:3": 6
         },
-        "26:10": {
+        "34:10": {
           "id:3": 409,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -258,
           "y:3": -144
         },
-        "27:10": {
+        "35:10": {
           "id:3": 410,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -66,
           "y:3": -24
         },
-        "28:10": {
+        "36:10": {
           "id:3": 411,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -84,
           "y:3": -54
         },
-        "29:10": {
+        "37:10": {
           "id:3": 412,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -30,
           "y:3": -24
         },
-        "30:10": {
+        "38:10": {
           "id:3": 413,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -138,
           "y:3": -24
         },
-        "31:10": {
+        "39:10": {
           "id:3": 414,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": -102,
           "y:3": -24
         },
-        "32:10": {
+        "40:10": {
           "id:3": 415,
           "sizeX:3": 36,
           "sizeY:3": 36,
-          "x:3": -30,
+          "x:3": 12,
           "y:3": 12
         },
-        "33:10": {
+        "41:10": {
           "id:3": 443,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 210,
-          "y:3": 18
+          "x:3": -30,
+          "y:3": 60
         },
-        "34:10": {
+        "42:10": {
           "id:3": 445,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 246,
-          "y:3": 18
+          "x:3": -66,
+          "y:3": 60
         },
-        "35:10": {
+        "43:10": {
           "id:3": 465,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 102,
           "y:3": -90
         },
-        "36:10": {
+        "44:10": {
           "id:3": 476,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 24,
-          "y:3": 18
+          "x:3": 66,
+          "y:3": 60
         },
-        "37:10": {
+        "45:10": {
+          "id:3": 518,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -24,
+          "y:3": 144
+        },
+        "46:10": {
           "id:3": 521,
           "sizeX:3": 24,
           "sizeY:3": 24,
-          "x:3": 66,
-          "y:3": 54
+          "x:3": 174,
+          "y:3": 60
         },
-        "38:10": {
+        "47:10": {
+          "id:3": 528,
+          "sizeX:3": 24,
+          "sizeY:3": 24,
+          "x:3": -138,
+          "y:3": 144
+        },
+        "48:10": {
+          "id:3": 533,
+          "sizeX:3": 36,
+          "sizeY:3": 36,
+          "x:3": -90,
+          "y:3": 180
+        },
+        "49:10": {
           "id:3": 539,
           "sizeX:3": 24,
           "sizeY:3": 24,
           "x:3": 102,
           "y:3": 18
         },
-        "39:10": {
+        "50:10": {
           "id:3": 540,
           "sizeX:3": 24,
           "sizeY:3": 24,
