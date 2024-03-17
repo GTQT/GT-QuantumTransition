@@ -1,0 +1,46 @@
+{
+	title: "HV时代快乐五连抽",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "hvage"
+		}
+	},
+	x: -1.0d,
+	y: 7.0d,
+	tasks: [{
+		uid: "5736e89e",
+		type: "ftbmoney:money",
+		value: 1600L
+	},
+	{
+		uid: "877deac2",
+		type: "gamestage",
+		stage: "HV"
+	}],
+	rewards: [{
+		uid: "00b3e966",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "34d20ac4",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "62e49eab",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "d01b8ece",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "91f77be2",
+		type: "random",
+		table: 6
+	}]
+}

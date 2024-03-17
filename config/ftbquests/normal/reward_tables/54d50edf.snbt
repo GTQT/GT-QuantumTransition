@@ -1,0 +1,248 @@
+{
+	title: "HvAge",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:meta_item_1 1 129",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 144",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 159",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 174",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 189",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 128",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 143",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 158",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 173",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 188",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 127",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 142",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 157",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 172",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 187",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 518",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 519",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 520",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 521",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 522",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 523",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 524",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 525",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 527",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 526",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 621",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 622",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 623",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 501",
+		count: 4
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 461s,
+			tag: {
+				Configuration: 0
+			}
+		},
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 361"
+	},
+	{
+		item: "gregtech:meta_item_1 1 371",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 401",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 402",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 403",
+		count: 16
+	},
+	{
+		item: "gtqtcore:gtqt_meta_item_1 1 2000",
+		count: 2
+	},
+	{
+		item: "enderio:item_item_conduit",
+		count: 64
+	},
+	{
+		item: "enderio:item_liquid_conduit",
+		count: 64
+	},
+	{
+		item: "enderio:item_liquid_conduit 1 1",
+		count: 32
+	},
+	{
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 16
+	},
+	{
+		item: "gregtech:machine 1 1575",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1576",
+		count: 2
+	},
+	{
+		item: "gregtech:machine 1 1577"
+	},
+	{
+		item: "gregtech:machine 1 1560",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1561",
+		count: 2
+	},
+	{
+		item: "gregtech:machine 1 1562"
+	},
+	{
+		item: "gregtech:machine 1 52"
+	},
+	{
+		item: "gregtech:machine 1 67"
+	},
+	{
+		item: "gregtech:machine 1 82"
+	},
+	{
+		item: "gregtech:machine 1 97"
+	},
+	{
+		item: "gregtech:machine 1 112"
+	},
+	{
+		item: "gregtech:machine 1 142"
+	},
+	{
+		item: "gregtech:machine 1 157"
+	},
+	{
+		item: "gregtech:machine 1 172"
+	},
+	{
+		item: "gregtech:machine 1 187"
+	},
+	{
+		item: "gregtech:machine 1 202"
+	},
+	{
+		item: "gregtech:machine 1 232"
+	},
+	{
+		item: "gregtech:machine 1 247"
+	},
+	{
+		item: "gregtech:machine 1 277"
+	},
+	{
+		item: "gregtech:machine 1 292"
+	},
+	{
+		item: "gregtech:machine 1 1001"
+	},
+	{
+		item: "gregtech:machine 1 1006"
+	}],
+	loot_crate: {
+		string_id: "hvage",
+		color: 16777215,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}
