@@ -1,9 +1,10 @@
 {
   "name": "gregtech.veins.ore.copper_tin",
   "weight": 50,
-  "density": 0.2,
+  "density": 0.4,
   "max_height": 160,
   "min_height": 40,
+  "generation_predicate": "any",
   "vein_populator": {
     "type": "surface_rock",
     "material": "realgar"
@@ -22,13 +23,13 @@
         "primary": "ore:chalcopyrite"
       },
       {
-        "secondary": "ore:zeolite"
+        "secondary": "ore:chalcopyrite"
       },
       {
-        "between": "ore:cassiterite"
+        "between": "ore:chalcopyrite"
       },
       {
-        "sporadic": "ore:realgar"
+        "sporadic": "ore:tin"
       }
     ]
   }

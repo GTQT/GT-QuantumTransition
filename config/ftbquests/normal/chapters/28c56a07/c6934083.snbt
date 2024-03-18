@@ -26,6 +26,11 @@
 		uid: "2946bf3c",
 		type: "item",
 		item: "enderio:item_item_conduit",
-		count: 8
+		count: 16
+	},
+	{
+		uid: "ada69960",
+		type: "item",
+		item: "enderio:item_conduit_probe"
 	}]
 }

@@ -1,0 +1,57 @@
+{
+	title: "导管礼包",
+	icon: "enderio:item_item_conduit",
+	x: 6.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "032cacc4",
+		type: "ftbmoney:money",
+		value: 20L
+	},
+	{
+		uid: "d872c1b5",
+		type: "gamestage",
+		stage: "EASY"
+	}],
+	rewards: [{
+		uid: "bd42477f",
+		type: "item",
+		item: "enderio:item_item_conduit",
+		count: 64
+	},
+	{
+		uid: "c8387c1d",
+		type: "item",
+		item: "enderio:item_item_conduit",
+		count: 64
+	},
+	{
+		uid: "098fb3d0",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 64
+	},
+	{
+		uid: "9eb27de9",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 64
+	},
+	{
+		uid: "8ec12f3e",
+		type: "item",
+		item: "enderio:item_conduit_probe"
+	},
+	{
+		uid: "0ed9213d",
+		type: "item",
+		item: "enderio:item_extract_speed_upgrade",
+		count: 60
+	},
+	{
+		uid: "f8806c80",
+		type: "item",
+		item: "enderio:item_basic_item_filter",
+		count: 12
+	}]
+}

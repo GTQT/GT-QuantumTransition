@@ -20,13 +20,13 @@
 		uid: "2a569f8e",
 		type: "item",
 		item: "enderio:item_liquid_conduit 1 1",
-		count: 8
+		count: 16
 	},
 	{
 		uid: "22ffcf85",
 		type: "item",
 		item: "enderio:item_item_conduit",
-		count: 8
+		count: 16
 	},
 	{
 		uid: "12593d68",

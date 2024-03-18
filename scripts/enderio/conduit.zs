@@ -152,31 +152,45 @@ assembler.recipeBuilder()
 	
 //Item Conduit
 assembler.recipeBuilder()
-    .inputs([<ore:pipeSmallItemElectrum>, <ore:platePulsatingIron>,<enderio:item_material:4>*2])
+    .inputs([<ore:pipeSmallItemElectrum>, <ore:platePulsatingIron>,<gregtech:meta_item_1:501>*2])
     .fluidInputs(<liquid:plastic> * 288)
 	.outputs(<enderio:item_item_conduit>)
 	.duration(100).EUt(120).buildAndRegister();
 	
 //Item Conduit
 assembler.recipeBuilder()
-    .inputs([<ore:pipeSmallItemElectrum>, <ore:platePulsatingIron>,<enderio:item_material:4>*2])
-    .fluidInputs(<liquid:polytetrafluoroethylene> * 144)
-	.outputs(<enderio:item_item_conduit>)
-	.duration(100).EUt(120).buildAndRegister();
-	
-//Item Conduit
-assembler.recipeBuilder()
-    .inputs(<ore:pipeSmallItemElectrum>,<ore:platePulsatingIron>,<gregtech:meta_item_1:501>*4)
-    .fluidInputs(<liquid:plastic> * 288)
-	.outputs(<enderio:item_item_conduit>)
-	.duration(100).EUt(120).buildAndRegister();
-	
-//Item Conduit
-assembler.recipeBuilder()
-    .inputs(<ore:pipeSmallItemElectrum>,<ore:platePulsatingIron>,<gregtech:meta_item_1:501>*4)
+    .inputs(<ore:pipeSmallItemElectrum>,<ore:platePulsatingIron>,<gregtech:meta_item_1:501>*2)
     .fluidInputs(<liquid:polybenzimidazole> * 144)
-	.outputs(<enderio:item_item_conduit>)
+	.outputs(<enderio:item_item_conduit>*4)
 	.duration(100).EUt(256).buildAndRegister();
+	
+//Item Conduit
+assembler.recipeBuilder()
+    .inputs([<ore:pipeSmallItemElectrum>, <ore:platePulsatingIron>,<gregtech:meta_item_1:501>*2])
+    .fluidInputs(<liquid:polytetrafluoroethylene> * 72)
+	.outputs(<enderio:item_item_conduit>*8)
+	.duration(100).EUt(120).buildAndRegister();
+	
+//Item Conduit
+assembler.recipeBuilder()
+    .inputs([<ore:pipeSmallItemElectrum>, <ore:platePulsatingIron>,<enderio:item_material:4>])
+    .fluidInputs(<liquid:plastic> * 288)
+	.outputs(<enderio:item_item_conduit>)
+	.duration(100).EUt(120).buildAndRegister();
+	
+//Item Conduit
+assembler.recipeBuilder()
+    .inputs(<ore:pipeSmallItemElectrum>,<ore:platePulsatingIron>,<enderio:item_material:4>)
+    .fluidInputs(<liquid:polybenzimidazole> * 144)
+	.outputs(<enderio:item_item_conduit>*4)
+	.duration(100).EUt(256).buildAndRegister();
+	
+//Item Conduit
+assembler.recipeBuilder()
+    .inputs([<ore:pipeSmallItemElectrum>, <ore:platePulsatingIron>,<enderio:item_material:4>])
+    .fluidInputs(<liquid:polytetrafluoroethylene> * 72)
+	.outputs(<enderio:item_item_conduit>*8)
+	.duration(100).EUt(120).buildAndRegister();
 
 //Fluid Conduit
 assembler.recipeBuilder()

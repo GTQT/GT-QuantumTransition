@@ -58,7 +58,7 @@ mods.gregtech.assembler.recipeBuilder()
     .EUt(8)
     .buildAndRegister()
 
-//Essentia Filter源质滤管
+/*Essentia Filter源质滤管
 mods.thaumcraft.arcane_workbench.removeByOutput(item('thaumcraft:filter') * 2)
 mods.thaumcraft.arcane_workbench.shapedBuilder()
     .researchKey('BASEALCHEMY')
@@ -73,8 +73,9 @@ mods.thaumcraft.arcane_workbench.shapedBuilder()
     .aspect('aqua')
     .vis(10)
     .register()
+*/
 
-//Morphic Resonator形态谐振器
+/*Morphic Resonator形态谐振器
 mods.thaumcraft.arcane_workbench.removeByOutput(item('thaumcraft:morphic_resonator'))
 mods.thaumcraft.arcane_workbench.shapedBuilder()
     .researchKey('BASEALCHEMY')
@@ -90,8 +91,9 @@ mods.thaumcraft.arcane_workbench.shapedBuilder()
     .aspect('ordo')
     .vis(20)
     .register()
+*/
 
-//Essentia Tube源质管道
+/*Essentia Tube源质管道
 mods.thaumcraft.arcane_workbench.removeByOutput(item('thaumcraft:tube') * 8)
 mods.thaumcraft.arcane_workbench.shapedBuilder()
     .researchKey('TUBES')
@@ -107,6 +109,7 @@ mods.thaumcraft.arcane_workbench.shapedBuilder()
     .aspect('aqua')
     .vis(10)
     .register()
+*/
 
 //Essentia Buffer源质缓存器
 mods.thaumcraft.arcane_workbench.removeByOutput(item('thaumcraft:tube_buffer'))
