@@ -444,7 +444,7 @@ Alloy.removeRecipe(<liquid:vibrant_alloy>);
 mixer.recipeBuilder()
     .inputs(<ore:dustEnderEye>)
     .inputs(<ore:dustEnergeticAlloy>)
-	.inputs(<ore:dustChromite>)
+	.inputs(<ore:dustChrome>)
 	.circuit(2)
     .outputs(<ore:dustVibrantAlloy>.firstItem * 3)
     .EUt(7)
