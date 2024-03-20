@@ -28,7 +28,7 @@ mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:morphic_resonator>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("morphic_resonator", "BASEALCHEMY", 20,
     [<aspect:ordo>], <thaumcraft:morphic_resonator>, [
     [<ore:paneGlass>, <ore:plateBrass>, <ore:paneGlass>],
-    [<ore:toolHammer>, <ore:gemAmethyst>, <toolWrench>],
+    [<ore:toolHammer>, <ore:gemAmethyst>, <ore:toolWrench>],
     [<ore:paneGlass>, <ore:plateGold>, <ore:paneGlass>]]);
 
 /*

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //AE2 物品全面TC化
 
 //石英纤维
@@ -8,6 +7,7 @@ mods.gregtech.assembler.recipeBuilder()
     .inputs(metaitem('dustNetherQuartz') * 3)
     .outputs(item('appliedenergistics2:part', 140) * 4)
     .duration(100)
+	.circuitMeta(2)
     .EUt(16)
     .buildAndRegister()
 
@@ -16,6 +16,7 @@ mods.gregtech.assembler.recipeBuilder()
     .inputs(metaitem('dustCertusQuartz') * 3)
     .outputs(item('appliedenergistics2:part', 140) * 8)
     .duration(100)
+	.circuitMeta(2)
     .EUt(16)
     .buildAndRegister()
 
