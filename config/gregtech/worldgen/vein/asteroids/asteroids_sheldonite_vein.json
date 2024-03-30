@@ -4,7 +4,7 @@
     "density": 1,
     "max_height": 250,
     "min_height": 0,
-    "generation_predicate": "any",
+    "generation_predicate":["block:galacticraftplanets:asteroids_block", "block:galacticraftplanets:asteroids_block:1", "block:galacticraftplanets:asteroids_block:2"],
     "dimension_filter": [
       "dimension_id:-30"
 	],

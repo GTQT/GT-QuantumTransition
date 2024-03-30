@@ -1,7 +1,7 @@
 {
   "name": "End Iron",
   "weight": 120,
-  "density": 0.2,
+ "density": 0.4,
   "max_height": 200,
   "min_height": 0,
   "vein_populator": {

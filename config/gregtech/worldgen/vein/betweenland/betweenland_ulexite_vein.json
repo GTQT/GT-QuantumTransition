@@ -1,10 +1,10 @@
 {
     "name": "Betweenland Ulexite",
     "weight": 80,
-    "density": 0.2,
+   "density": 0.4,
     "max_height": 100,
     "min_height": 20,
-    "generation_predicate": "any",
+     "generation_predicate":["block:thebetweenlands:betweenstone","block:thebetweenlands:limestone ", "block:thebetweenlands:pitstone","block:thebetweenlands:cragrock","block:thebetweenlands:cragrock:1","block:thebetweenlands:cragrock:2"],
     "dimension_filter": [
       "dimension_id:20"
 	],
