@@ -32,7 +32,7 @@ mods.jei.JEI.removeAndHide(<enderio:block_enhanced_sag_mill>);
 mods.jei.JEI.removeAndHide(<enderio:block_alloy_smelter>);
 mods.jei.JEI.removeAndHide(<enderio:block_simple_alloy_smelter>);
 mods.jei.JEI.removeAndHide(<enderio:block_enhanced_alloy_smelter>);
-
+recipes.addShaped(<enderio:item_basic_item_filter>, [[<enderio:item_basic_item_filter>]]);
 //Soul Binder
 recipes.addShaped(<enderio:block_soul_binder>, [[<ore:plateSoularium>, <ore:skullEnderResonator>, <ore:plateSoularium>],[<ore:circuitHv>, <enderio:item_material:53>, <ore:circuitHv>], [<gregtech:meta_item_1:129>, <ore:skullZombieController>, <gregtech:meta_item_1:129>]]);
 

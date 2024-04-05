@@ -1,3 +1,5 @@
+//凝胶
+furnace.addRecipe(<minecraft:slime_ball>, <thebetweenlands:sap_ball>);
 //红石
 furnace.remove(<minecraft:redstone>);
 furnace.addRecipe(<minecraft:redstone>, <ore:oreRedstone>);
@@ -41,3 +43,5 @@ furnace.setFuel(<contenttweaker:tangjiao>, 4800);
 furnace.setFuel(<contenttweaker:tangtan>, 2400);
 
 furnace.setFuel(<contenttweaker:zhutan>, 4800);
+
+furnace.remove(<minecraft:glass>);

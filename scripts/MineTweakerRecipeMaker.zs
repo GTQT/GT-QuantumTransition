@@ -18,8 +18,6 @@ recipes.remove(<buildinggadgets:copypastetool>);
 recipes.remove(<buildinggadgets:exchangertool>);
 recipes.remove(<buildinggadgets:buildingtool>);
 recipes.remove(<appliedenergistics2:energy_cell>);
-recipes.remove(<gregtech:meta_item_1:402>);
-recipes.remove(<gregtech:meta_item_1:14>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS

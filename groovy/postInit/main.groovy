@@ -114,6 +114,8 @@ mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('dustIridiumChl
 mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustRichGoldSulphide') * 8], null)
 // 金粉 * 1
 mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustLeanGoldSulphide') * 7], null)
+// 纯净镍矿石 * 1
+mods.gregtech.chemical_bath.removeByInput(30, [metaitem('crushedNickel')], [fluid('mercury') * 100])
 
 mods.jei.removeAndHide(item('gregtech:machine', 1005))
 mods.jei.removeAndHide(item('gregtech:machine', 1004))
@@ -133,21 +135,21 @@ mods.jei.removeAndHide(item('gregtech:machine', 269))
 mods.jei.removeAndHide(item('gregtech:machine', 270))
 mods.jei.removeAndHide(item('gregtech:machine', 271))
 mods.jei.removeAndHide(item('gregtech:machine', 272))
-/*
-mods.jei.removeAndHide(item('gregtech:machine', 335))
-mods.jei.removeAndHide(item('gregtech:machine', 336))
-mods.jei.removeAndHide(item('gregtech:machine', 337))
-mods.jei.removeAndHide(item('gregtech:machine', 338))
-mods.jei.removeAndHide(item('gregtech:machine', 339))
-mods.jei.removeAndHide(item('gregtech:machine', 340))
-mods.jei.removeAndHide(item('gregtech:machine', 341))
-mods.jei.removeAndHide(item('gregtech:machine', 342))
-mods.jei.removeAndHide(item('gregtech:machine', 343))
-mods.jei.removeAndHide(item('gregtech:machine', 344))
-mods.jei.removeAndHide(item('gregtech:machine', 345))
-mods.jei.removeAndHide(item('gregtech:machine', 346))
-mods.jei.removeAndHide(item('gregtech:machine', 347))
-*/
+
+mods.jei.removeAndHide(item('gregtech:machine', 665))
+mods.jei.removeAndHide(item('gregtech:machine', 666))
+mods.jei.removeAndHide(item('gregtech:machine', 667))
+mods.jei.removeAndHide(item('gregtech:machine', 668))
+mods.jei.removeAndHide(item('gregtech:machine', 669))
+mods.jei.removeAndHide(item('gregtech:machine', 670))
+mods.jei.removeAndHide(item('gregtech:machine', 671))
+mods.jei.removeAndHide(item('gregtech:machine', 672))
+mods.jei.removeAndHide(item('gregtech:machine', 673))
+mods.jei.removeAndHide(item('gregtech:machine', 674))
+mods.jei.removeAndHide(item('gregtech:machine', 675))
+mods.jei.removeAndHide(item('gregtech:machine', 676))
+mods.jei.removeAndHide(item('gregtech:machine', 677))
+
 
 // §7LV§r机械臂 * 1
 mods.gregtech.assembler.removeByInput(30, [metaitem('cableGtSingleTin') * 3, metaitem('stickSteel') * 2, metaitem('electric.motor.lv') * 2, metaitem('electric.piston.lv'), metaitem('circuit.electronic')], null)

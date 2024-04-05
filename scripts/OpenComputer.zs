@@ -744,7 +744,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:soldering_alloy> *144])
 	.circuit(1)
 	.outputs(<opencomputers:component:15>)
-	.duration(400).EUt(1024).buildAndRegister();
+	.duration(400).EUt(480).buildAndRegister();
 
 // Terminal Server
 recipes.remove(<opencomputers:component:19>);

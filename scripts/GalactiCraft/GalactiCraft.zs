@@ -46,7 +46,7 @@ mods.jei.JEI.removeAndHide(<galacticraftplanets:venus:12>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_item>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_item:1>);
 mods.jei.JEI.removeAndHide(<galacticraftcore:basic_item:2>);
-
+recipes.remove(<galacticraftcore:aluminum_wire>);
 val plateCopper = <ore:plateCopper>;
 plateCopper.remove(<galacticraftcore:basic_item:6>);
 

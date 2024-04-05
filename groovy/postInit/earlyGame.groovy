@@ -5,6 +5,48 @@ mods.gregtech.forming_press.removeByInput(16, [metaitem('shape.mold.credit'), me
 // 狗狗币 * 4
 mods.gregtech.forming_press.removeByInput(16, [metaitem('shape.mold.credit'), metaitem('plateBrass')], null)
 	
+//凝胶
+mods.gregtech.pr_mix.recipeBuilder()
+    .inputs(item('thebetweenlands:sap_ball')*5,ore('dustSalt')*10)
+	.fluidInputs(fluid('water') * 2000)
+	.fluidOutputs(fluid('latex') * 1000)
+    .duration(600) 
+    .buildAndRegister()
+	
+mods.gregtech.pr_mix.recipeBuilder()
+    .inputs(item('gregtech:rubber_log')*8,ore('dustSalt')*10)
+	.fluidInputs(fluid('water') * 1600)
+	.fluidOutputs(fluid('latex') * 800)
+    .duration(600) 
+    .buildAndRegister()
+	
+mods.gregtech.pr_mix.recipeBuilder()
+    .inputs(item('gregtech:rubber_sapling')*8,ore('dustSalt')*10)
+	.fluidInputs(fluid('water') * 800)
+	.fluidOutputs(fluid('latex') * 400)
+    .duration(600) 
+    .buildAndRegister()
+	
+mods.gregtech.pr_mix.recipeBuilder()
+    .inputs(item('thebetweenlands:sap_ball')*5,ore('dustRockSalt')*10)
+	.fluidInputs(fluid('water') * 2000)
+	.fluidOutputs(fluid('latex') * 1000)
+    .duration(600) 
+    .buildAndRegister()
+	
+mods.gregtech.pr_mix.recipeBuilder()
+    .inputs(item('gregtech:rubber_log')*8,ore('dustRockSalt')*10)
+	.fluidInputs(fluid('water') * 1600)
+	.fluidOutputs(fluid('latex') * 800)
+    .duration(600) 
+    .buildAndRegister()
+	
+mods.gregtech.pr_mix.recipeBuilder()
+    .inputs(item('gregtech:rubber_sapling')*8,ore('dustRockSalt')*10)
+	.fluidInputs(fluid('water') * 800)
+	.fluidOutputs(fluid('latex') * 400)
+    .duration(600) 
+    .buildAndRegister()
 //仙人掌
 mods.gregtech.coke_oven.recipeBuilder()
     .inputs(ore('blockCactus')*4)

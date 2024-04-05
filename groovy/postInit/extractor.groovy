@@ -1,3 +1,9 @@
+mods.gregtech.extractor.recipeBuilder()
+    .inputs(item('biomesoplenty:honey_block'))
+    .outputs(item('minecraft:slime_ball')*4)
+	.EUt(30)
+    .duration(200) 
+    .buildAndRegister()
 // 史莱姆->胶水
 mods.gregtech.extractor.recipeBuilder()
     .inputs(ore('blockSlime'))

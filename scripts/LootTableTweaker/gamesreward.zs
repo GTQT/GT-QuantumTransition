@@ -4,10 +4,6 @@ import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 
-<lootgames:ms_activator>.addTooltip(format.red("请在主世界使用本小游戏，在空旷的地方右键放置"));
-<lootgames:gol_master>.addTooltip(format.red("请在主世界使用本小游戏，在空旷的地方右键放置"));
-<lootgames:puzzle_master>.addTooltip(format.red("请在主世界使用本小游戏，在空旷的地方右键放置"));
-
 // Create the loot pool for our loot table
 LootTweaker.newTable("chest1"); 
 val chest1 = LootTweaker.getTable("chest1");

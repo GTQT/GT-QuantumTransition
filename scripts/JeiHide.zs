@@ -4,6 +4,8 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 var items as IItemStack[] = [
+<harvestcraft:freshwateritem>,
+<tconstruct:throwball:1>,
 <morefurnaces:furnaceblock:4>,
 <morefurnaces:furnaceblock:5>,
 <morefurnaces:furnaceblock:6>,
