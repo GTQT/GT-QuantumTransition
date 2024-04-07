@@ -195,6 +195,7 @@ assembler.recipeBuilder()
     .inputs(<ore:circuitLv>)
     .outputs(<appliedenergistics2:material:35>)
     .duration(200)
+	.circuit(1)
     .EUt(30)
     .buildAndRegister();
 
@@ -205,6 +206,7 @@ assembler.recipeBuilder()
     .fluidInputs([<liquid:red_alloy> * 288])
     .outputs(<appliedenergistics2:material:35>)
     .duration(200)
+	.circuit(1)
     .EUt(30)
     .buildAndRegister();
 
@@ -217,6 +219,7 @@ assembler.recipeBuilder()
     .inputs(<ore:circuitMv>)
     .outputs(<appliedenergistics2:material:36>)
     .duration(200)
+	.circuit(1)
     .EUt(30)
     .buildAndRegister();
 
@@ -229,6 +232,7 @@ assembler.recipeBuilder()
     .inputs(<appliedenergistics2:material:23> * 4)
     .outputs(<appliedenergistics2:material:37>)
     .duration(200)
+	.circuit(1)
     .EUt(120)
     .buildAndRegister();
 
@@ -241,6 +245,7 @@ assembler.recipeBuilder()
     .inputs(<appliedenergistics2:material:24> * 4)
     .outputs(<appliedenergistics2:material:38>)
     .duration(200)
+	.circuit(1)
     .EUt(480)
     .buildAndRegister();
 
@@ -253,6 +258,7 @@ assembler.recipeBuilder()
     .inputs(<metaitem:fluid.regulator.lv>)
     .outputs(<appliedenergistics2:material:54>)
     .duration(200)
+	.circuit(1)
     .EUt(480)
     .buildAndRegister();
 
@@ -266,6 +272,7 @@ assembler.recipeBuilder()
     .inputs(<appliedenergistics2:material:22> * 4)
     .outputs(<appliedenergistics2:material:55>)
     .duration(200)
+	.circuit(1)
     .EUt(480)
     .buildAndRegister();
 
@@ -279,6 +286,7 @@ assembler.recipeBuilder()
     .inputs(<appliedenergistics2:material:23> * 4)
     .outputs(<appliedenergistics2:material:56>)
     .duration(200)
+	.circuit(1)
     .EUt(1920)
     .buildAndRegister();
 
@@ -292,6 +300,7 @@ assembler.recipeBuilder()
     .inputs(<appliedenergistics2:material:24> * 4)
     .outputs(<appliedenergistics2:material:57>)
     .duration(200)
+	.circuit(1)
     .EUt(7680)
     .buildAndRegister();
 
