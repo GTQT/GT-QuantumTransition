@@ -1,0 +1,60 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	dependencies: [
+		"c8d089bc",
+		"4054a73d"
+	],
+	tasks: [{
+		uid: "b31ab7f8",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1023"
+		}]
+	}],
+	rewards: [{
+		uid: "2ab578c0",
+		type: "item",
+		item: "gregtech:meta_item_1 1 4"
+	},
+	{
+		uid: "7b346464",
+		type: "item",
+		item: "appliedenergistics2:material 1 30",
+		count: 8
+	},
+	{
+		uid: "fe1b8ce9",
+		type: "item",
+		item: "appliedenergistics2:fluid_interface",
+		count: 8
+	},
+	{
+		uid: "4a1ab32f",
+		type: "item",
+		item: "appliedenergistics2:part 1 76",
+		count: 64
+	},
+	{
+		uid: "d1142959",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		uid: "67b7a48e",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		uid: "c4987cc3",
+		type: "item",
+		item: "appliedenergistics2:part 1 240",
+		count: 16
+	}]
+}

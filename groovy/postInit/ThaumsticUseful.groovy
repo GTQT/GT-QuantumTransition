@@ -47,21 +47,6 @@ mods.thaumcraft.infusion_crafting.recipeBuilder()
     .instability(8)
     .register()
 
-//不毁手杖
-mods.thaumcraft.infusion_crafting.recipeBuilder()
-    .mainInput(item('betterbuilderswands:wanddiamond'))
-    .output(item('betterbuilderswands:wandunbreakable', 12))
-    .aspect('instrumentum', 128)
-    .aspect('ordo', 64)
-    .aspect('spatio', 32)
-    .input(ore('ingotVoidMetal'))
-    .input(ore('ingotVoidMetal'))
-    .input(ore('stickLongThaumium'))
-    .input(ore('screwThaumium'))
-    .input(item('thaumcraft:vis_resonator'))
-    .input(item('thaumcraft:morphic_resonator'))
-    .instability(2)
-    .register()
 
 //末影蓄水槽、末影箱子
 crafting.removeByOutput(item('enderstorage:ender_storage'))

@@ -32,8 +32,6 @@ recipes.addShaped(<gregtech:machine:1599>, [[<gregtech:meta_spring:324>, <gregte
 
 //水泥
 recipes.addShaped(<tconstruct:soil> * 4, [[<ore:sand>, <ore:sand>, <ore:sand>], [<ore:dustClay>, <ore:listAllwater>, <ore:dustClay>], [<ore:gravel>, <ore:gravel>, <ore:gravel>]]);
-//未烧制的焦炉砖
-recipes.addShaped(<contenttweaker:weishaozhidejiaoluzhuan> * 8, [[<tconstruct:soil>, <tconstruct:soil>, <tconstruct:soil>], [<tconstruct:soil>, <gregtech:meta_item_1:348>.reuse(), <tconstruct:soil>], [<tconstruct:soil>, <tconstruct:soil>, <tconstruct:soil>]]);
 //土高炉
 recipes.addShaped(<gregtech:machine:1000>, [[<gregtech:metal_casing:1>, <morefurnaces:furnaceblock>, <gregtech:metal_casing:1>], [<morefurnaces:furnaceblock>, <ore:toolHammer>, <morefurnaces:furnaceblock>], [<gregtech:metal_casing:1>, <morefurnaces:furnaceblock>, <gregtech:metal_casing:1>]]);
 

@@ -2,6 +2,9 @@
 	x: -3.5d,
 	y: 4.5d,
 	description: "感谢各位一如既往的支持！！！",
+	text: [
+		"额外附赠2023-4-1----------2024-4-4周年庆礼包！"
+	],
 	size: 2.0d,
 	tasks: [{
 		uid: "e1a2e621",
@@ -170,5 +173,20 @@
 				Charge: 1000000000L
 			}
 		}
+	},
+	{
+		uid: "e4271c67",
+		type: "item",
+		item: {
+			id: "gtqtcore:gtqt_meta_item_1",
+			Damage: 519s,
+			tag: {
+				display: {
+					Name: "纠缠之缘"
+				},
+				RepairCost: 0
+			}
+		},
+		count: 3
 	}]
 }

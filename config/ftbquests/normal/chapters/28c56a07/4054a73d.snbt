@@ -1,0 +1,12 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	dependencies: [
+		"0982773b"
+	],
+	tasks: [{
+		uid: "7aeaf9ee",
+		type: "gamestage",
+		stage: "HV"
+	}]
+}

@@ -53,5 +53,10 @@
 		type: "item",
 		item: "enderio:item_basic_item_filter",
 		count: 12
+	},
+	{
+		uid: "833a9260",
+		type: "item",
+		item: "enderio:item_yeta_wrench"
 	}]
 }

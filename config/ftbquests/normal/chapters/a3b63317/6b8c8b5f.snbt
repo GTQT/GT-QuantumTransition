@@ -1,0 +1,20 @@
+{
+	x: 5.0d,
+	y: 2.0d,
+	dependencies: [
+		"c8d089bc"
+	],
+	tasks: [{
+		uid: "ae2d0397",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3166"
+		}]
+	}],
+	rewards: [{
+		uid: "d5dfa0be",
+		type: "command",
+		auto: "enabled",
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"gregtech:machine\",Count:1,Damage:3166s},  TrophyName:\"神奇海藻!\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

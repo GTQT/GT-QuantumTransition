@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"c8d089bc"
+	],
+	tasks: [{
+		uid: "3c7e8d17",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 1023"
+		}]
+	}],
+	rewards: [{
+		uid: "46b6a9e2",
+		type: "command",
+		auto: "enabled",
+		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"gregtech:machine\",Count:1,Damage:1023s},  TrophyName:\"印度恒河\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
+	}]
+}

@@ -26,22 +26,11 @@ furnace.addRecipe(<gregtech:meta_gem:214>, <ore:oreCertusQuartz>);
 furnace.addRecipe(<gregtech:meta_gem:214>, <ore:oreNetherrackCertusQuartz>);
 furnace.addRecipe(<gregtech:meta_gem:214>, <ore:oreEndstoneCertusQuartz>);
 
-//焦炉砖
-furnace.remove(<tconstruct:materials>);
-furnace.addRecipe(<tconstruct:materials>, <contenttweaker:weishaozhidejiaoluzhuan>);
 
 furnace.remove(<minecraft:coal:1>);
 furnace.remove(<projectred-core:resource_item:103>);
 //钻石做燃料
 furnace.setFuel(<minecraft:diamond>, 102400);
 furnace.setFuel(<minecraft:diamond_block>, 1024000);
-
-furnace.setFuel(<contenttweaker:jiaoxianrenzhang>, 9600);
-furnace.setFuel(<contenttweaker:nongsuoxianrenzhang>, 4800);
-
-furnace.setFuel(<contenttweaker:tangjiao>, 4800);
-furnace.setFuel(<contenttweaker:tangtan>, 2400);
-
-furnace.setFuel(<contenttweaker:zhutan>, 4800);
 
 furnace.remove(<minecraft:glass>);

@@ -1,0 +1,23 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "d1d2da65",
+		type: "item",
+		items: [{
+			item: "minecraft:stone"
+		}]
+	}],
+	rewards: [{
+		uid: "e32e8494",
+		type: "item",
+		item: {
+			id: "tiab:timeinabottle",
+			tag: {
+				timeData: {
+					storedTime: 11800000
+				}
+			}
+		}
+	}]
+}

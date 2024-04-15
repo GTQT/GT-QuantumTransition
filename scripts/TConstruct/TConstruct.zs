@@ -82,7 +82,7 @@ mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:4>);
 mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000,<tconstruct:clear_glass>);
 //铸模
 //铝
-mods.tconstruct.Melting.addRecipe(<liquid:aluminium> * 72,<contenttweaker:lvkuangkuangsha>);
+mods.tconstruct.Melting.addRecipe(<liquid:aluminium> * 72,<gtqtcore:road>);
 mods.tconstruct.Melting.addRecipe(<liquid:aluminium> * 144,<ore:ingotAluminium>);
 //耐酸铝
 mods.tconstruct.Alloy.addRecipe(<liquid:alumite> * 32,[<liquid:aluminium> * 80,<liquid:steel> * 32, <liquid:obsidian> * 32]);

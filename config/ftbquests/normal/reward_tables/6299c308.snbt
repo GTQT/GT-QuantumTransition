@@ -246,7 +246,7 @@
 		item: "gregtech:machine 1 1211"
 	},
 	{
-		item: "gregtech:machine 1 1227"
+		item: "gregtech:machine 1 1212"
 	}],
 	loot_crate: {
 		string_id: "mvage",
