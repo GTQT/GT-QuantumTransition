@@ -8,6 +8,7 @@ import loottweaker.vanilla.loot.Functions;
 LootTweaker.newTable("chest1"); 
 val chest1 = LootTweaker.getTable("chest1");
 val pool1 = chest1.addPool("pool1", 5, 10, 0, 0);
+pool1.addItemEntry(<gtqtcore:road>, 15, 1, [{"count": {"min": 2.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
 pool1.addItemEntry(<gregtech:fluid_pipe_large:25>, 15, 1, [{"count": {"min": 2.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
 pool1.addItemEntry(<gregtech:fluid_pipe_huge:25>, 10, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
 pool1.addItemEntry(<gregtech:meta_block_compressed_1:9>, 10, 1, [{"count": {"min": 4.0, "max": 8.0}, "function": "minecraft:set_count"}], []);
@@ -58,6 +59,7 @@ pool1.addItemEntry(<gregtech:machine:1612>, 20, 1, [{"count": {"min": 2.0, "max"
 LootTweaker.newTable("chest2"); 
 val chest2 = LootTweaker.getTable("chest2");
 val pool2 = chest2.addPool("pool2", 5, 10, 0, 0);
+pool2.addItemEntry(<gtqtcore:road>, 10, 1, [{"count": {"min": 4.0, "max": 8.0}, "function": "minecraft:set_count"}], []);
 pool2.addItemEntry(<gregtech:meta_item_1:127>, 10, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
 pool2.addItemEntry(<gregtech:meta_item_1:142>, 10, 1, [{"count": {"min": 1.0, "max": 1.0}, "function": "minecraft:set_count"}], []);
 pool2.addItemEntry(<gregtech:meta_item_1:157>, 10, 1, [{"count": {"min": 1.0, "max": 1.0}, "function": "minecraft:set_count"}], []);
@@ -123,6 +125,7 @@ pool2.addItemEntry(<forestry:ffarm:5>.withTag({FarmBlock: 1}), 20, 1, [{"count":
 LootTweaker.newTable("chest3"); 
 val chest3 = LootTweaker.getTable("chest3");
 val pool3 = chest3.addPool("pool3", 4, 8, 0, 0);
+pool3.addItemEntry(<gtqtcore:road>, 10, 1, [{"count": {"min": 8.0, "max": 12.0}, "function": "minecraft:set_count"}], []);
 pool3.addItemEntry(<gregtech:machine_casing:2>, 10, 1, [{"count": {"min": 1.0, "max": 1.0}, "function": "minecraft:set_count"}], []);
 pool3.addItemEntry(<gregtech:meta_item_1:518>, 15, 1, [{"count": {"min": 4.0, "max": 8.0}, "function": "minecraft:set_count"}], []);
 pool3.addItemEntry(<gregtech:meta_item_1:521>, 10, 1, [{"count": {"min": 4.0, "max": 8.0}, "function": "minecraft:set_count"}], []);

@@ -104,9 +104,6 @@
             <str>MB</str>
         </line>
         <line>
-            <icon>
-                <str>minecraft:daylight_detector</str>
-            </icon>
             <op>
                 <str>eq</str>
                 <var>sereneseasonscurrentseasonord</var>
@@ -133,9 +130,6 @@
             </if>
         </line>
         <line>
-            <icon>
-                <str>minecraft:grass</str>
-            </icon>
             <str> 维度: {gold}{dimension} ({dimensionid})</str>
             <if>
                 <var>snowing</var>
@@ -151,10 +145,6 @@
             </if>
         </line>
         <line>
-            <icon>
-                <str>minecraft:sapling</str>
-                <num>4</num>
-            </icon>
             <str> 群系: $3{biome}$f </str>
             <str> {gold}{temperature}{white}°F {gold}</str>
             <round>
@@ -185,9 +175,6 @@
             <str> {gold}{humidity}{white}% 湿度</str>
         </line>
 		<line>
-            <icon>
-                <str>bloodmagic:blood_shard</str>
-            </icon>
             <str> 血魔法：</str>
             <str>当前LP：$6</str>
             <if>
@@ -985,9 +972,6 @@
             <str>$f </str>
         </line>
 		<line>
-            <icon>
-                <str>thaumcraft:crystal_aer</str>
-            </icon>
             <str> 神秘时代： </str>
             <str>§b灵气§r§0：§b</str>
             <round>
@@ -1053,9 +1037,6 @@
                     </or>
                 </and>
                 <concat>
-                    <icon>
-                        <str>minecraft:diamond_pickaxe</str>
-                    </icon>
                     <str> 当前处于$2{underline}矿脉$f区块</str>
                 </concat>
             </if>
@@ -1097,9 +1078,6 @@
                     </or>
                 </and>
                 <concat>
-                    <icon>
-                        <str>gravisuite:advanceddrill</str>
-                    </icon>
                     <str> 当前处于$2{underline}矿脉$f 中心</str>
                 </concat>
             </if>

@@ -4,7 +4,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("essentia_filter", "BASEALC
     [<aspect:aqua>], <thaumcraft:filter> * 2, [
     [null, <ore:toolHammer>, null],
     [<ore:pipeNormalFluidGold>, <thaumcraft:slab_silverwood>, <ore:pipeNormalFluidGold>],
-    [null, <ore:plateGold>, null]]);
+    [null, <ore:toolWrench>, null]]);
 
 /*
 mods.thaumcraft.arcane_workbench.removeByOutput(item('thaumcraft:filter') * 2)
@@ -25,7 +25,7 @@ mods.thaumcraft.arcane_workbench.shapedBuilder()
 
 //Morphic Resonator形态谐振器
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:morphic_resonator>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("morphic_resonator", "BASEALCHEMY", 20,
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("morphic_resonator", "FIRSTSTEPS@2", 20,
     [<aspect:ordo>], <thaumcraft:morphic_resonator>, [
     [<ore:paneGlass>, <ore:plateBrass>, <ore:paneGlass>],
     [<ore:toolHammer>, <ore:gemAmethyst>, <ore:toolWrench>],
@@ -50,8 +50,8 @@ mods.thaumcraft.arcane_workbench.shapedBuilder()
 */
 
 //Essentia Tube源质管道
-mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:morphic_resonator>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("morphic_resonator", "BASEALCHEMY", 20,
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:tube>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tube", "BASEALCHEMY", 20,
     [<aspect:aqua>], <thaumcraft:tube> * 8, [
     [<ore:plateBrass>, <thaumcraft:quicksilver>, <ore:plateBrass>],
     [<ore:paneGlass>, <ore:pipeNormalFluidGold>, <ore:paneGlass>],

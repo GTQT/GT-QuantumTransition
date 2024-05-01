@@ -7,19 +7,18 @@
 	],
 	size: 2.0d,
 	tasks: [{
-		uid: "e1a2e621",
+		uid: "eac9cb23",
 		type: "item",
 		items: [{
 			id: "gtqtcore:gtqt_meta_item_1",
 			Damage: 1010s,
 			tag: {
 				display: {
-					Name: "内测福利"
+					Name: "�ڲ⸣��"
 				},
 				RepairCost: 0
 			}
-		}],
-		consume_items: true
+		}]
 	}],
 	rewards: [{
 		uid: "74a32206",
