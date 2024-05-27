@@ -77,3 +77,6 @@ mods.thaumcraft.arcane_workbench.shapedBuilder()
     .aspect('aer', 2).aspect('perditio', 2)
     .vis(150)
     .register()
+
+//干掉铋
+mods.thaumcraft.crucible.removeByOutput(item('planarartifice:bismuth_ingot'))
