@@ -80,3 +80,11 @@ mods.thaumcraft.arcane_workbench.shapedBuilder()
 
 //干掉铋
 mods.thaumcraft.crucible.removeByOutput(item('planarartifice:bismuth_ingot'))
+
+//魔力钢修复
+mods.gregtech.macerator.recipeBuilder()
+    .inputs(item('botania:manaresource'))
+	.outputs(ore('dustManasteel'))
+    .duration(20) 
+	.EUt(8)
+    .buildAndRegister()
