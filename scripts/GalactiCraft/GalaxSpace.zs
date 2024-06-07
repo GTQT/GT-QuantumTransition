@@ -2,13 +2,6 @@ import mods.gregtech.recipe.RecipeMap;
 import crafttweaker.item.IItemStack;
 val implosion_compressor = mods.gregtech.recipe.RecipeMap.getByName("implosion_compressor");
 val assembler = mods.gregtech.recipe.RecipeMap.getByName("assembler");
-//这里是其他配方
-assembler.recipeBuilder() 
-    .inputs(<galacticraftcore:basic_item:9>,<galacticraftcore:basic_item:8>,<galacticraftcore:basic_item:10>)
-    .outputs(<gtqtcore:gtqt_meta_item_1:342>)
-    .duration(20)
-    .EUt(120)
-    .buildAndRegister();
 	
 //这里魔改的是星系的致密板 致密-》致密+4TNT即可
 //产物
@@ -53,8 +46,8 @@ var planks as IItemStack[] = [
 <gtqtspace:gtqt_space_meta_item_1:23>,
 <gtqtspace:gtqt_space_meta_item_1:24>,
 <gtqtspace:gtqt_space_meta_item_1:25>,
-<gregtech:meta_plate_dense:20056>,
-<gregtech:meta_plate_dense:20057>
+<gregtech:meta_plate_dense:18500>,
+<gregtech:meta_plate_dense:18501>
 ]; //两个数组要一一对应
 for i, log in logs {   
 //一个for循环，准确的说是foreach循环，遍历数组，i为一个变量，表示循环了几次（程序员数数是从0开始数的，第一次循环i=0，第二次为1....）

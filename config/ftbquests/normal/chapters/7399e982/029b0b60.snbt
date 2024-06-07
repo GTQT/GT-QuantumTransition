@@ -1,0 +1,72 @@
+{
+	title: "EV时代快乐五连抽",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "evage"
+		}
+	},
+	x: -1.0d,
+	y: 8.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "5b21670a",
+		type: "ftbmoney:money",
+		value: 6400L
+	},
+	{
+		uid: "985c1547",
+		type: "gamestage",
+		stage: "EV"
+	}],
+	rewards: [{
+		uid: "8a6aa054",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "evage"
+			}
+		}
+	},
+	{
+		uid: "202fbb84",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "evage"
+			}
+		}
+	},
+	{
+		uid: "a68ea81b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "evage"
+			}
+		}
+	},
+	{
+		uid: "db6f6127",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "evage"
+			}
+		}
+	},
+	{
+		uid: "30af4110",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "evage"
+			}
+		}
+	}]
+}

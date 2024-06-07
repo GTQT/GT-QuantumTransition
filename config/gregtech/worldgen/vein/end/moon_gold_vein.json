@@ -1,0 +1,38 @@
+{
+    "name": "End Gold",
+    "weight": 40,
+   "density": 0.4,
+    "max_height": 40,
+    "min_height": 0,
+  "dimension_filter": [
+    "name:the_end"
+  ],
+	"vein_populator": {
+		"type": "surface_rock",
+		"material": "lean_gold_sulphide"
+	},
+    "generator": {
+      "type": "layered",
+      "radius": [
+        8,
+        16
+      ]
+    },
+    "filler": {
+      "type": "layered",
+      "values": [
+        {
+        "primary": "ore:magnetite"
+      },
+      {
+        "secondary": "ore:magnetite"
+      },
+      {
+        "between": "ore:gold"
+      },
+      {
+        "sporadic": "ore:gold"
+      }
+      ]
+    }
+}

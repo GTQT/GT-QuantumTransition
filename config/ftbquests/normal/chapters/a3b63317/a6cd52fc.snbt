@@ -13,11 +13,5 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "STEAM"
-	},
-	{
-		uid: "fa8dcba2",
-		type: "command",
-		auto: "enabled",
-		command: "/give @p simple_trophies:trophy 1 0 {  TrophyItem:{id:\"gregtech:machine\",Count:1,Damage:1s},  TrophyName:\"第一桶蒸汽！\",  TrophyColorRed:179,  TrophyColorGreen:49,  TrophyColorBlue:44,  TrophyVariant:\"classic\"}"
 	}]
 }

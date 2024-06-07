@@ -16,5 +16,10 @@
 		uid: "7e58337f",
 		type: "choice",
 		table: 5
+	},
+	{
+		uid: "63d7657c",
+		type: "item",
+		item: "theoneprobe:probenote"
 	}]
 }

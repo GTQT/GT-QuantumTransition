@@ -4,6 +4,7 @@
 	dependencies: [
 		"28d9f48e"
 	],
+	hide: true,
 	tasks: [{
 		uid: "599e7878",
 		type: "gamestage",

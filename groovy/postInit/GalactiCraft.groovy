@@ -12,7 +12,7 @@ mods.gregtech.assembly_line.recipeBuilder()
     .inputs(item('gtqtspace:gtqt_space_meta_item_1', 2),item('galaxyspace:rocket_modules', 1),item('galacticraftcore:nose_cone'),item('galacticraftcore:engine', 1)*2,item('galacticraftcore:rocket_fins')*8,item('galacticraftcore:engine')*8,item('galacticraftplanets:item_basic_mars', 3))
     .outputs(item('galacticraftplanets:rocket_t2', 3))
     .duration(2000) // 10 seconds
-    .EUt(1960) // HV recipe
+    .EUt(1920) // HV recipe
 	.scannerResearch(b -> b.researchStack(item('galacticraftcore:schematic', 1)).duration(1200).EUt(480))
     .buildAndRegister()
 	

@@ -1,0 +1,56 @@
+{
+	x: 5.0d,
+	y: 4.0d,
+	dependencies: [
+		"4bfc5790"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2be18ae4",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3159"
+		}]
+	}],
+	rewards: [{
+		uid: "32cdf26e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 5"
+	},
+	{
+		uid: "bb2e328a",
+		type: "item",
+		item: "gregtech:machine 1 1748",
+		count: 4
+	},
+	{
+		uid: "a0117dd4",
+		type: "item",
+		item: "gregtech:machine 1 1747",
+		count: 4
+	},
+	{
+		uid: "b5d8a01e",
+		type: "item",
+		item: "appliedenergistics2:molecular_assembler",
+		count: 32
+	},
+	{
+		uid: "28f7d664",
+		type: "item",
+		item: "appliedenergistics2:part 1 220",
+		count: 32
+	},
+	{
+		uid: "907f7c38",
+		type: "item",
+		item: "appliedenergistics2:part 1 222",
+		count: 8
+	},
+	{
+		uid: "38a0be68",
+		type: "item",
+		item: "appliedenergistics2:part 1 221",
+		count: 8
+	}]
+}

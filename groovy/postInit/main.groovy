@@ -117,40 +117,6 @@ mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustLeanGoldSulphide') *
 // 纯净镍矿石 * 1
 mods.gregtech.chemical_bath.removeByInput(30, [metaitem('crushedNickel')], [fluid('mercury') * 100])
 
-mods.jei.removeAndHide(item('gregtech:machine', 1005))
-mods.jei.removeAndHide(item('gregtech:machine', 1004))
-mods.jei.removeAndHide(item('gregtech:machine', 1002))
-mods.jei.removeAndHide(item('gregtech:machine', 1009))
-
-mods.jei.removeAndHide(item('gregtech:machine', 260))
-mods.jei.removeAndHide(item('gregtech:machine', 261))
-mods.jei.removeAndHide(item('gregtech:machine', 262))
-mods.jei.removeAndHide(item('gregtech:machine', 263))
-mods.jei.removeAndHide(item('gregtech:machine', 264))
-mods.jei.removeAndHide(item('gregtech:machine', 265))
-mods.jei.removeAndHide(item('gregtech:machine', 266))
-mods.jei.removeAndHide(item('gregtech:machine', 267))
-mods.jei.removeAndHide(item('gregtech:machine', 268))
-mods.jei.removeAndHide(item('gregtech:machine', 269))
-mods.jei.removeAndHide(item('gregtech:machine', 270))
-mods.jei.removeAndHide(item('gregtech:machine', 271))
-mods.jei.removeAndHide(item('gregtech:machine', 272))
-
-mods.jei.removeAndHide(item('gregtech:machine', 665))
-mods.jei.removeAndHide(item('gregtech:machine', 666))
-mods.jei.removeAndHide(item('gregtech:machine', 667))
-mods.jei.removeAndHide(item('gregtech:machine', 668))
-mods.jei.removeAndHide(item('gregtech:machine', 669))
-mods.jei.removeAndHide(item('gregtech:machine', 670))
-mods.jei.removeAndHide(item('gregtech:machine', 671))
-mods.jei.removeAndHide(item('gregtech:machine', 672))
-mods.jei.removeAndHide(item('gregtech:machine', 673))
-mods.jei.removeAndHide(item('gregtech:machine', 674))
-mods.jei.removeAndHide(item('gregtech:machine', 675))
-mods.jei.removeAndHide(item('gregtech:machine', 676))
-mods.jei.removeAndHide(item('gregtech:machine', 677))
-
-
 // §7LV§r机械臂 * 1
 mods.gregtech.assembler.removeByInput(30, [metaitem('cableGtSingleTin') * 3, metaitem('stickSteel') * 2, metaitem('electric.motor.lv') * 2, metaitem('electric.piston.lv'), metaitem('circuit.electronic')], null)
 // §bMV§r机械臂 * 1
@@ -344,3 +310,29 @@ mods.gregtech.laser_engraver.removeByInput(7680, [metaitem('wafer.neutronium'), 
 mods.gregtech.circuit_assembler.removeByInput(1200, [metaitem('circuit_board.advanced'), metaitem('circuit.advanced_integrated') * 2, metaitem('plate.random_access_memory') * 4, metaitem('plate.nor_memory_chip') * 16, metaitem('plate.nand_memory_chip') * 32, metaitem('wireFinePlatinum') * 32], [fluid('soldering_alloy') * 144])
 // 闪存 * 1
 mods.gregtech.circuit_assembler.removeByInput(1200, [metaitem('circuit_board.advanced'), metaitem('circuit.advanced_integrated') * 2, metaitem('plate.random_access_memory') * 4, metaitem('plate.nor_memory_chip') * 16, metaitem('plate.nand_memory_chip') * 32, metaitem('wireFinePlatinum') * 32], [fluid('tin') * 288])
+// 纳米CPU晶圆 * 1
+mods.gregtech.chemical_reactor.removeByInput(1920, [metaitem('wafer.central_processing_unit'), metaitem('carbon.fibers') * 16], [fluid('glowstone') * 576])
+// 纳米CPU晶圆 * 1
+mods.gregtech.large_chemical_reactor.removeByInput(1920, [metaitem('wafer.central_processing_unit'), metaitem('carbon.fibers') * 16], [fluid('glowstone') * 576])
+// 量子位CPU晶圆 * 1
+mods.gregtech.chemical_reactor.removeByInput(1920, [metaitem('wafer.nano_central_processing_unit'), metaitem('quantumeye') * 2], [fluid('gallium_arsenide') * 288])
+// 量子位CPU晶圆 * 1
+mods.gregtech.chemical_reactor.removeByInput(1920, [metaitem('wafer.nano_central_processing_unit'), metaitem('dustIndiumGalliumPhosphide')], [fluid('radon') * 50])
+// 量子位CPU晶圆 * 1
+mods.gregtech.large_chemical_reactor.removeByInput(1920, [metaitem('wafer.nano_central_processing_unit'), metaitem('quantumeye') * 2], [fluid('gallium_arsenide') * 288])
+// 量子位CPU晶圆 * 1
+mods.gregtech.large_chemical_reactor.removeByInput(1920, [metaitem('wafer.nano_central_processing_unit'), metaitem('dustIndiumGalliumPhosphide')], [fluid('radon') * 50])
+// 环氧树脂电路板 * 1
+mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('plateEpoxy'), metaitem('foilGold') * 8], [fluid('sulfuric_acid') * 500])
+// 纤维强化电路基板 * 1
+mods.gregtech.chemical_reactor.removeByInput(10, [metaitem('plateReinforcedEpoxyResin'), metaitem('foilAnnealedCopper') * 8], [fluid('sulfuric_acid') * 125])
+// 环氧树脂电路板 * 1
+mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('plateEpoxy'), metaitem('foilGold') * 8], [fluid('sulfuric_acid') * 500])
+// 纤维强化电路基板 * 1
+mods.gregtech.large_chemical_reactor.removeByInput(10, [metaitem('plateReinforcedEpoxyResin'), metaitem('foilAnnealedCopper') * 8], [fluid('sulfuric_acid') * 125])
+// 气态氮 * 35000
+mods.gregtech.low_pressure_cryogenic_distillation.removeByInput(960, null, [fluid('liquid_air') * 50000])
+// 气态氮 * 35000
+mods.gregtech.high_pressure_cryogenic_distillation.removeByInput(960, null, [fluid('liquid_air') * 50000])
+// 纳米CPU晶圆 * 1
+mods.gregtech.fluidized_bed.removeByInput(3840, [metaitem('wafer.central_processing_unit'), metaitem('carbon.fibers') * 16], [fluid('glowstone') * 576])

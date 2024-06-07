@@ -1,0 +1,303 @@
+{
+	title: "EvAge",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:meta_item_1 1 566",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 567",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 568",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 577",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 578",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1745"
+	},
+	{
+		item: "gregtech:machine 1 1746"
+	},
+	{
+		item: "gregtech:machine 1 1747"
+	},
+	{
+		item: "gregtech:machine 1 1748"
+	},
+	{
+		item: "gregtech:meta_item_1 1 129",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 130"
+	},
+	{
+		item: "gregtech:meta_item_1 1 144",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 145"
+	},
+	{
+		item: "gregtech:meta_item_1 1 159",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 160"
+	},
+	{
+		item: "gregtech:meta_item_1 1 174",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 175"
+	},
+	{
+		item: "gregtech:meta_item_1 1 189",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 190"
+	},
+	{
+		item: "gregtech:meta_item_1 1 219",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 204",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 234",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 261"
+	},
+	{
+		item: "gregtech:meta_item_1 1 403",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 404",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 405",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 361",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 362",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 523",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 524",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 525",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 526",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 527",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 628",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 629",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 630",
+		count: 8
+	},
+	{
+		item: "gregtech:machine 1 3006"
+	},
+	{
+		item: "gregtech:machine 1 3009"
+	},
+	{
+		item: "gregtech:machine 1 3011"
+	},
+	{
+		item: "gregtech:machine 1 3013"
+	},
+	{
+		item: "gregtech:machine 1 3018"
+	},
+	{
+		item: "gregtech:machine 1 3020"
+	},
+	{
+		item: "gregtech:machine 1 1154"
+	},
+	{
+		item: "gregtech:machine 1 1169"
+	},
+	{
+		item: "gregtech:machine 1 1184"
+	},
+	{
+		item: "gregtech:machine 1 1199"
+	},
+	{
+		item: "gregtech:machine 1 1229"
+	},
+	{
+		item: "gregtech:machine 1 1562",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1563"
+	},
+	{
+		item: "gregtech:machine 1 1577",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1578"
+	},
+	{
+		item: "enderio:item_item_conduit",
+		count: 64
+	},
+	{
+		item: "enderio:item_liquid_conduit",
+		count: 64
+	},
+	{
+		item: "enderio:item_liquid_conduit 1 1",
+		count: 64
+	},
+	{
+		item: "enderio:item_liquid_conduit 1 2",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 82",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 83",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 99",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 100",
+		count: 8
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 449s,
+			tag: {
+				Charge: 6400000L
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 448s,
+			tag: {
+				Charge: 1600000L
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 462s,
+			tag: {
+				Fluid: {
+					FluidName: "construction_foam",
+					Amount: 10000
+				}
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 463s,
+			tag: {
+				Charge: 4000000L
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 461s,
+			tag: {
+				Configuration: 0
+			}
+		},
+		count: 64
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 467s,
+			tag: {
+				Charge: 1600000L
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 472s,
+			tag: {
+				Charge: 1600000L
+			}
+		}
+	},
+	{
+		item: "gregtech:meta_item_1 1 502",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 504"
+	},
+	{
+		item: "gregtech:meta_item_1 1 503"
+	}],
+	loot_crate: {
+		string_id: "evage",
+		color: 16777215,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	x: 3.0d,
+	y: 4.0d,
+	dependencies: [
+		"4bfc5790"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d53b3b0a",
+		type: "item",
+		items: [{
+			item: "gregtech:machine 1 3063"
+		}]
+	}],
+	rewards: [{
+		uid: "5e04f69e",
+		type: "item",
+		item: "gregtech:meta_item_1 1 5"
+	},
+	{
+		uid: "27a00845",
+		type: "item",
+		item: "gregtech:machine 1 1169",
+		count: 16
+	},
+	{
+		uid: "aa642076",
+		type: "item",
+		item: "gregtech:machine 1 1199",
+		count: 16
+	},
+	{
+		uid: "b7e54803",
+		type: "item",
+		item: "appliedenergistics2:crafting_accelerator",
+		count: 16
+	},
+	{
+		uid: "72d28f46",
+		type: "item",
+		item: "appliedenergistics2:part 1 240",
+		count: 32
+	},
+	{
+		uid: "874f1c8b",
+		type: "item",
+		item: "appliedenergistics2:part 1 241",
+		count: 32
+	}]
+}

@@ -101,7 +101,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 	
 assembler.recipeBuilder() 
-    .inputs(<gregtech:meta_block_frame_125:13> * 4,<gtqtcore:gtqt_meta_item_1:86>,<ore:circuitHv> * 1)
+    .inputs(<gregtech:meta_block_frame_125:13> * 4,<gregtech:meta_gem:20058>,<ore:plateStainlessSteel>*4,<ore:circuitHv> * 1)
 	.fluidInputs(<liquid:polybenzimidazole> * 576)
     .outputs(<appliedenergistics2:controller>*2)
     .duration(120)
@@ -184,7 +184,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 	
 assembler.recipeBuilder() 
-    .inputs(<gregtech:meta_block_frame_125:13> * 4,<gtqtcore:gtqt_meta_item_1:86>,<ore:circuitHv> * 1)
+    .inputs(<gregtech:meta_block_frame_125:13> * 4,<gregtech:meta_gem:20058>,<ore:plateStainlessSteel>*4,<ore:circuitHv> * 1)
 	.fluidInputs(<liquid:polytetrafluoroethylene> * 2880)
     .outputs(<appliedenergistics2:controller>*2)
     .duration(120)

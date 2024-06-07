@@ -1,6 +1,10 @@
 {
   "inventory": {
-    "0:0": "betterquesting:quest_book",
-    "0:1": "gtqtcore:gtqt_meta_item_1,1,1010,{display:{Name:\"ÄÚ²â¸£Àû\"},RepairCost:0}"
+    "0:5": "betterquesting:quest_book",
+    "0:4": "gregtech:axe,1,0,{DisallowContainerItem:0b,GT.Tool:{Material:\"gregtech:iron\",MaxDurability:255,Durability:0,ToolSpeed:4.0f,HarvestLevel:2,AttackDamage:7.0f,AttackSpeed:-3.2f},HideFlags:2,GT.Behaviours:{DisableShields:1b,TreeFelling:1b}}",
+    "0:2": "gregtech:pickaxe,1,0,{DisallowContainerItem:0b,GT.Tool:{Material:\"gregtech:iron\",MaxDurability:255,Durability:0,ToolSpeed:6.0f,HarvestLevel:2,AttackDamage:3.0f,AttackSpeed:-2.8f},HideFlags:2,GT.Behaviours:{TorchPlacing:1b}}",
+    "0:3": "gregtech:shovel,1,0,{DisallowContainerItem:0b,GT.Tool:{Material:\"gregtech:iron\",MaxDurability:255,Durability:0,ToolSpeed:6.0f,HarvestLevel:2,AttackDamage:3.5f,AttackSpeed:-3.0f},HideFlags:2,GT.Behaviours:{}}",
+    "0:0": "minecraft:apple,16",
+    "0:1": "gregtech:sword,1,0,{DisallowContainerItem:0b,GT.Tool:{Material:\"gregtech:iron\",MaxDurability:255,Durability:0,AttackDamage:5.0f,AttackSpeed:-2.4f,HarvestLevel:2},HideFlags:2,GT.Behaviours:{}}"
   }
 }
