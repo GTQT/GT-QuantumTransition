@@ -1,12 +1,12 @@
 {
 	title: "抽屉礼包",
 	icon: "storagedrawers:controller",
-	x: 5.0d,
+	x: 2.0d,
 	y: 2.0d,
 	tasks: [{
 		uid: "b6976a97",
 		type: "ftbmoney:money",
-		value: 20L
+		value: 100L
 	},
 	{
 		uid: "d02a2621",

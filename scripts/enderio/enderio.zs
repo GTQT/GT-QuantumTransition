@@ -210,12 +210,6 @@ assembler.recipeBuilder()
 	.outputs(<enderio:item_basic_capacitor:2>)
 	.duration(200).EUt(480).buildAndRegister();
 
-//CBP
-macerator.recipeBuilder()
-	.inputs(<buildinggadgets:constructionpaste>)
-	.outputs(<enderio:item_material:22> * 2)
-	.duration(40).EUt(2).buildAndRegister();
-
 //Conduit Binder
 furnace.remove(<enderio:item_material:4>);
 chemical_bath.recipeBuilder()
@@ -1233,3 +1227,9 @@ mixer.recipeBuilder()
     .EUt(32)
     .buildAndRegister();
 	
+//硅	
+mixer.recipeBuilder()
+    .inputs(<ore:dustSilicon>*3)
+	.inputs(<ore:dustGold>*1)
+	.outputs(<enderio:item_material:5>)
+	.duration(200).EUt(120).buildAndRegister();

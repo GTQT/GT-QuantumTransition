@@ -4,6 +4,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 var items as IItemStack[] = [
+<gendustry:mutagen_producer>,
 <harvestcraft:freshwateritem>,
 <tconstruct:throwball:1>,
 <morefurnaces:furnaceblock:4>,
@@ -277,8 +278,15 @@ var items as IItemStack[] = [
 <gregtech:machine:674>,
 <gregtech:machine:675>,
 <gregtech:machine:676>,
-<gregtech:machine:677>
-
+<gregtech:machine:677>,
+<gregtech:machine:1657>,
+<gregtech:machine:1658>,
+<gregtech:machine:1659>,
+<gregtech:machine:1660>,
+<gregtech:machine:1661>,
+<gregtech:machine:1662>,
+<gregtech:machine:1663>,
+<gregtech:machine:1664>
 ];
 
 //循环移除

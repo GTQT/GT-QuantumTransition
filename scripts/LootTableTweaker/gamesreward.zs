@@ -161,10 +161,6 @@ pool3.addItemEntry(<gregtech:fluid_pipe_small:323>, 20, 1, [{"count": {"min": 2.
 pool3.addItemEntry(<gregtech:fluid_pipe_normal:323>, 15, 1, [{"count": {"min": 2.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
 pool3.addItemEntry(<gregtech:fluid_pipe_large:323>, 10, 1, [{"count": {"min": 2.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
 pool3.addItemEntry(<gregtech:machine:1575>, 5, 1, [{"count": {"min": 1.0, "max": 1.0}, "function": "minecraft:set_count"}], []);
-pool3.addItemEntry(<gregtech:meta_plate:32013>, 25, 1, [{"count": {"min": 4.0, "max": 8.0}, "function": "minecraft:set_count"}], []);
-pool3.addItemEntry(<gregtech:meta_plate:32015>, 25, 1, [{"count": {"min": 4.0, "max": 8.0}, "function": "minecraft:set_count"}], []);
-pool3.addItemEntry(<gregtech:meta_plate:32010>, 25, 1, [{"count": {"min": 4.0, "max": 8.0}, "function": "minecraft:set_count"}], []);
-pool3.addItemEntry(<gregtech:meta_plate:32017>, 25, 1, [{"count": {"min": 4.0, "max": 8.0}, "function": "minecraft:set_count"}], []);
 pool3.addItemEntry(<gregtech:meta_item_1:501>, 25, 1, [{"count": {"min": 4.0, "max": 8.0}, "function": "minecraft:set_count"}], []);
 pool3.addItemEntry(<gregtech:meta_item_1:741>, 5, 1, [{"count": {"min": 1.0, "max": 1.0}, "function": "minecraft:set_count"}], []);
 pool3.addItemEntry(<minecraft:enchanting_table>, 5, 1, [{"count": {"min": 1.0, "max": 1.0}, "function": "minecraft:set_count"}], []);

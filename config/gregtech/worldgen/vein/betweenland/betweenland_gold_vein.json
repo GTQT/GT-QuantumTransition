@@ -23,16 +23,16 @@
       "type": "layered",
       "values": [
         {
-        "primary": "ore:magnetite"
+        "primary": "ore:rich_gold_sulphide"
       },
       {
-        "secondary": "ore:magnetite"
+        "secondary": "ore:rich_gold_sulphide"
       },
       {
         "between": "ore:lean_gold_sulphide"
       },
       {
-        "sporadic": "ore:lean_gold_sulphide"
+        "sporadic": "ore:gold"
       }
       ]
     }

@@ -29,7 +29,7 @@
         "between": "ore:vanadium_magnetite"
       },
       {
-        "sporadic": "ore:gold"
+        "sporadic": "ore:lean_gold_sulphide"
       }
     ]
   }

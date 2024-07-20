@@ -76,5 +76,13 @@ for i, log in logs {
 		.duration(20)
 		.EUt(120)
 		.buildAndRegister();
-
+		
+	implosion_compressor.recipeBuilder()
+		.inputs(plank)
+		.property("explosives", <gregtech:itnt>)
+		.outputs(log,<gregtech:meta_dust_small:275>)
+		.duration(20)
+		.EUt(120)
+		.buildAndRegister();
+		
 }

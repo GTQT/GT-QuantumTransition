@@ -1,0 +1,239 @@
+{
+	title: "AE",
+	loot_size: 1,
+	rewards: [{
+		item: "appliedenergistics2:part 1 16",
+		count: 64
+	},
+	{
+		item: "appliedenergistics2:part 1 56",
+		count: 64
+	},
+	{
+		item: "appliedenergistics2:part 1 76",
+		count: 64
+	},
+	{
+		item: "appliedenergistics2:material 1 22",
+		count: 16
+	},
+	{
+		item: "appliedenergistics2:material 1 23",
+		count: 16
+	},
+	{
+		item: "appliedenergistics2:material 1 24",
+		count: 16
+	},
+	{
+		item: "appliedenergistics2:interface",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:fluid_interface",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:controller",
+		count: 2
+	},
+	{
+		item: "appliedenergistics2:drive"
+	},
+	{
+		item: "appliedenergistics2:crafting_unit"
+	},
+	{
+		item: "appliedenergistics2:crafting_accelerator"
+	},
+	{
+		item: "appliedenergistics2:crafting_storage_1k"
+	},
+	{
+		item: "appliedenergistics2:crafting_storage_4k"
+	},
+	{
+		item: "appliedenergistics2:crafting_storage_16k"
+	},
+	{
+		item: "appliedenergistics2:crafting_storage_64k"
+	},
+	{
+		item: "appliedenergistics2:molecular_assembler"
+	},
+	{
+		item: {
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "appliedenergistics2:fluid_storage_cell_1k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "appliedenergistics2:fluid_storage_cell_4k",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			id: "appliedenergistics2:fluid_storage_cell_16k",
+			tag: {}
+		}
+	},
+	{
+		item: "appliedenergistics2:material 1 26",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:material 1 27",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:material 1 29",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:material 1 31",
+		count: 4
+	},
+	{
+		item: "ae2fc:dual_interface",
+		count: 4
+	},
+	{
+		item: "ae2fc:fluid_discretizer"
+	},
+	{
+		item: "nae2:upgrade",
+		count: 4
+	},
+	{
+		item: "nae2:upgrade 1 1",
+		count: 4
+	},
+	{
+		item: "nae2:upgrade 1 2",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:material 1 44",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:material 1 43",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:part 1 80",
+		count: 2
+	},
+	{
+		item: "appliedenergistics2:part 1 261",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:part 1 260",
+		count: 4
+	},
+	{
+		item: "appliedenergistics2:part 1 220"
+	},
+	{
+		item: "appliedenergistics2:part 1 221"
+	},
+	{
+		item: "appliedenergistics2:part 1 222"
+	},
+	{
+		item: "appliedenergistics2:part 1 240"
+	},
+	{
+		item: "appliedenergistics2:part 1 241"
+	},
+	{
+		item: "appliedenergistics2:part 1 440"
+	},
+	{
+		item: "appliedenergistics2:part 1 441"
+	},
+	{
+		item: "gregtech:machine 1 1745"
+	},
+	{
+		item: "gregtech:machine 1 1746"
+	},
+	{
+		item: "gregtech:machine 1 1747"
+	},
+	{
+		item: "gregtech:machine 1 1748"
+	},
+	{
+		item: "gregtech:machine 1 1752"
+	},
+	{
+		item: "gregtech:machine 1 1753"
+	},
+	{
+		item: "ae2fc:part_fluid_pattern_terminal"
+	},
+	{
+		item: "ae2fc:part_fluid_pattern_ex_terminal"
+	},
+	{
+		item: "appliedenergistics2:part 1 340"
+	},
+	{
+		item: "appliedenergistics2:part 1 341"
+	},
+	{
+		item: "appliedenergistics2:part 1 360"
+	},
+	{
+		item: "appliedenergistics2:part 1 380"
+	},
+	{
+		item: "appliedenergistics2:part 1 480"
+	},
+	{
+		item: "appliedenergistics2:part 1 521"
+	},
+	{
+		item: "appliedenergistics2:part 1 520"
+	},
+	{
+		item: "appliedenergistics2:part 1 522"
+	}],
+	loot_crate: {
+		string_id: "ae",
+		color: 16777215,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

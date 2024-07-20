@@ -20,53 +20,28 @@
 		stage: "EV"
 	}],
 	rewards: [{
-		uid: "8a6aa054",
-		type: "item",
-		item: {
-			id: "ftbquests:lootcrate",
-			tag: {
-				type: "evage"
-			}
-		}
+		uid: "a3f4ecf1",
+		type: "random",
+		table: 7
 	},
 	{
-		uid: "202fbb84",
-		type: "item",
-		item: {
-			id: "ftbquests:lootcrate",
-			tag: {
-				type: "evage"
-			}
-		}
+		uid: "f9ec6f1f",
+		type: "random",
+		table: 7
 	},
 	{
-		uid: "a68ea81b",
-		type: "item",
-		item: {
-			id: "ftbquests:lootcrate",
-			tag: {
-				type: "evage"
-			}
-		}
+		uid: "52da360d",
+		type: "random",
+		table: 7
 	},
 	{
-		uid: "db6f6127",
-		type: "item",
-		item: {
-			id: "ftbquests:lootcrate",
-			tag: {
-				type: "evage"
-			}
-		}
+		uid: "77736d90",
+		type: "random",
+		table: 7
 	},
 	{
-		uid: "30af4110",
-		type: "item",
-		item: {
-			id: "ftbquests:lootcrate",
-			tag: {
-				type: "evage"
-			}
-		}
+		uid: "cad5d4ac",
+		type: "random",
+		table: 7
 	}]
 }

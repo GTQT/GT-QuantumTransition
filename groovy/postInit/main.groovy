@@ -94,7 +94,8 @@ mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('circuit.integrated')
 mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(["Configuration": 2])], [fluid('refinery_gas') * 500, fluid('hydrogen') * 3000])
 // 重度蒸汽裂化炼油气 * 500
 mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(["Configuration": 3])], [fluid('refinery_gas') * 1000, fluid('steam') * 1000])
-
+// 生橡胶末 * 3
+mods.gregtech.extractor.removeByInput(2, [metaitem('rubber_drop')], null)
 //铂系
 // 铂粉 * 1
 mods.gregtech.electrolyzer.removeByInput(60, null, [fluid('chloroplatinicacid') * 1000])
@@ -336,3 +337,9 @@ mods.gregtech.low_pressure_cryogenic_distillation.removeByInput(960, null, [flui
 mods.gregtech.high_pressure_cryogenic_distillation.removeByInput(960, null, [fluid('liquid_air') * 50000])
 // 纳米CPU晶圆 * 1
 mods.gregtech.fluidized_bed.removeByInput(3840, [metaitem('wafer.central_processing_unit'), metaitem('carbon.fibers') * 16], [fluid('glowstone') * 576])
+// 太阳能级多晶硅粉 * 1
+mods.gregtech.electrolyzer.removeByInput(30, null, [fluid('silicon_tetrachloride') * 1000])
+// 多层纤维强化电路基板 * 1
+mods.gregtech.chemical_reactor.removeByInput(480, [metaitem('board.fiber_reinforced') * 2, metaitem('foilPalladium') * 8], [fluid('sulfuric_acid') * 500])
+// 多层纤维强化电路基板 * 1
+mods.gregtech.large_chemical_reactor.removeByInput(480, [metaitem('board.fiber_reinforced') * 2, metaitem('foilPalladium') * 8], [fluid('sulfuric_acid') * 500])

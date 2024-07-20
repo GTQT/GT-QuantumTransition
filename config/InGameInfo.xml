@@ -104,33 +104,57 @@
             <str>MB</str>
         </line>
         <line>
-            <op>
-                <str>eq</str>
-                <var>sereneseasonscurrentseasonord</var>
-                <num>0</num>
-                <num>1</num>
-                <num>2</num>
-                <num>3</num>
-                <str> Spring</str>
-                <str> Summer</str>
-                <str> Autumn</str>
-                <str> Winter</str>
-                <str> Error</str>
-            </op>
-            <str>, Day </str>
+            <str> 日期：第{darkaqua} </str>
             <add>
-                <var>sereneseasonsdayofseason</var>
+                <round>
+                    <div>
+                        <sub>
+                            <var>day</var>
+                            <modi>
+                                <var>day</var>
+                                <num>365</num>
+                            </modi>
+                        </sub>
+                        <num>365</num>
+                    </div>
+                    <num>0</num>
+                </round>
                 <num>1</num>
             </add>
-            <str>, {mctime} </str>
+            <str> {white}年； 第{darkaqua} </str>
+            <modi>
+                <var>day</var>
+                <num>365</num>
+            </modi>
+            <str> {white}天； 时间：{gold}{mctime12} </str>
             <if>
                 <var>daytime</var>
-                <str>($e白天$f)</str>
-                <str>($8夜晚$f)</str>
+                <str>{yellow}(白天)</str>
+                <str>{gray}(黑夜)</str>
             </if>
         </line>
         <line>
-            <str> 维度: {gold}{dimension} ({dimensionid})</str>
+            <str> 维度: {gold}{dimension} ({dimensionid})；</str>
+			<operation>
+				<str>EQ</str>
+				<var>moonphase</var>
+				<num>0</num>
+				<num>1</num>
+				<num>2</num>
+				<num>3</num>
+				<num>4</num>
+				<num>5</num>
+				<num>6</num>
+				<num>7</num>
+				<str>$b月相:$a满月</str>
+				<str>$b月相:$c亏凸月</str>
+				<str>$b月相:$d下弦月</str>
+				<str>$b月相:$e残月</str>
+				<str>$b月相:$6新月</str>
+				<str>$b月相:$9娥眉月</str>
+				<str>$b月相:$3上弦月</str>
+				<str>$b月相:$b盈凸月</str>
+			</operation>
             <if>
                 <var>snowing</var>
                 <str> 正在 {darkgreen}{underline}下雪{reset}</str>

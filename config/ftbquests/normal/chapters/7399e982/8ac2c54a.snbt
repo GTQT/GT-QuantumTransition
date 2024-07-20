@@ -1,12 +1,12 @@
 {
 	title: "导管礼包",
 	icon: "enderio:item_item_conduit",
-	x: 6.0d,
+	x: 3.0d,
 	y: 2.0d,
 	tasks: [{
 		uid: "032cacc4",
 		type: "ftbmoney:money",
-		value: 20L
+		value: 200L
 	},
 	{
 		uid: "d872c1b5",
