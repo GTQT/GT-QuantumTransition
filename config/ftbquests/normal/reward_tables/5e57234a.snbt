@@ -1,0 +1,295 @@
+{
+	title: "IvAge",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:meta_item_1 1 130",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 145",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 175",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 190",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 160",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 131"
+	},
+	{
+		item: "gregtech:meta_item_1 1 146"
+	},
+	{
+		item: "gregtech:meta_item_1 1 176"
+	},
+	{
+		item: "gregtech:meta_item_1 1 191"
+	},
+	{
+		item: "gregtech:meta_item_1 1 221"
+	},
+	{
+		item: "gregtech:meta_item_1 1 206"
+	},
+	{
+		item: "gregtech:meta_item_1 1 161"
+	},
+	{
+		item: "gregtech:meta_item_1 1 236"
+	},
+	{
+		item: {
+			id: "gregtech:gt_armor",
+			Damage: 20s,
+			tag: {
+				Charge: 6400000L
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:gt_armor",
+			Damage: 21s,
+			tag: {
+				Charge: 6400000L
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:gt_armor",
+			Damage: 22s,
+			tag: {
+				Charge: 6400000L
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:gt_armor",
+			Damage: 23s,
+			tag: {
+				Charge: 6400000L
+			}
+		}
+	},
+	{
+		item: "gregtech:meta_item_1 1 402",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 403",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 404",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 405",
+		count: 4
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 449s,
+			tag: {
+				Charge: 6400000L
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 448s,
+			tag: {
+				Charge: 1600000L
+			}
+		}
+	},
+	{
+		item: "gregtech:meta_item_1 1 526",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 527",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 523",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 525",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 524",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 531",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 528",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 530",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 532",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 529",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 604",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 597",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 595",
+		count: 4
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 742s,
+			tag: {
+				Charge: 25000000L
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 741s,
+			tag: {
+				Charge: 6400000L
+			}
+		}
+	},
+	{
+		item: "gregtech:meta_item_1 1 83",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 84"
+	},
+	{
+		item: "gregtech:machine 1 1320"
+	},
+	{
+		item: "gregtech:machine 1 1215"
+	},
+	{
+		item: "gregtech:machine 1 1155"
+	},
+	{
+		item: "gregtech:machine 1 1170"
+	},
+	{
+		item: "gregtech:machine 1 1185"
+	},
+	{
+		item: "gregtech:machine 1 1200"
+	},
+	{
+		item: "gregtech:machine 1 1230"
+	},
+	{
+		item: "gregtech:machine 1 1564",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1579",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1563",
+		count: 8
+	},
+	{
+		item: "gregtech:machine 1 1578",
+		count: 8
+	},
+	{
+		item: "gregtech:machine 1 1418"
+	},
+	{
+		item: "gregtech:machine 1 1745"
+	},
+	{
+		item: "gregtech:machine 1 1746"
+	},
+	{
+		item: "gregtech:machine 1 1747"
+	},
+	{
+		item: "gregtech:machine 1 1748"
+	},
+	{
+		item: "gregtech:machine 1 1656"
+	},
+	{
+		item: "gregtech:machine 1 3000"
+	},
+	{
+		item: "gregtech:machine 1 3003"
+	},
+	{
+		item: "gregtech:machine 1 3006"
+	},
+	{
+		item: "gregtech:machine 1 3007"
+	},
+	{
+		item: "gregtech:machine 1 3009"
+	},
+	{
+		item: "gregtech:machine 1 3010"
+	},
+	{
+		item: "gregtech:machine 1 3011"
+	},
+	{
+		item: "gregtech:machine 1 3012"
+	},
+	{
+		item: "gregtech:machine 1 3013"
+	},
+	{
+		item: "gregtech:machine 1 3014"
+	},
+	{
+		item: "gregtech:machine 1 3018"
+	},
+	{
+		item: "gregtech:machine 1 3019"
+	}],
+	loot_crate: {
+		string_id: "ivage",
+		color: 16777215,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

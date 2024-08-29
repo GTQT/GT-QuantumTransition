@@ -1,0 +1,100 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "gregtech",
+      "path": "machine"
+    },
+    "meta": 219
+  },
+  "components": [
+    {
+      "weight": 135,
+      "oreName": "oreBauxite"
+    },
+    {
+      "weight": 105,
+      "oreName": "oreIlmenite"
+    },
+    {
+      "weight": 55,
+      "oreName": "oreAluminium"
+    },
+    {
+      "weight": 35,
+      "oreName": "oreChromite"
+    },
+    {
+      "weight": 85,
+      "oreName": "oreBastnasite"
+    },
+    {
+      "weight": 75,
+      "oreName": "oreNeodymium"
+    },
+    {
+      "weight": 65,
+      "oreName": "oreMonazite"
+    },
+    {
+      "weight": 85,
+      "oreName": "oreBasaltGalena"
+    },
+    {
+      "weight": 45,
+      "oreName": "oreBasaltSphalerite"
+    },
+    {
+      "weight": 35,
+      "oreName": "oreBasaltSilver"
+    },
+    {
+      "weight": 45,
+      "oreName": "oreBasaltCinnabar"
+    },
+    {
+      "weight": 35,
+      "oreName": "oreLead"
+    },
+    {
+      "weight": 35,
+      "oreName": "oreCobaltite"
+    },
+    {
+      "weight": 35,
+      "oreName": "oreRealgar"
+    },
+    {
+      "weight": 45,
+      "oreName": "oreNickel"
+    },
+    {
+      "weight": 75,
+      "oreName": "oreBarite"
+    },
+    {
+      "weight": 35,
+      "oreName": "oreDesh"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreTungstate"
+    },
+    {
+      "weight": 75,
+      "oreName": "oreScheelite"
+    },
+    {
+      "weight": 75,
+      "oreName": "oreUraninite"
+    },
+    {
+      "weight": 75,
+      "oreName": "orePitchblende"
+    }
+  ],
+  "explosionStrength": 10.0,
+  "radius": 24,
+  "maxWeight": 1040,
+  "version": 4,
+  "cost": 6000000
+}

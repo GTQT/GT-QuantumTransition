@@ -1,0 +1,9 @@
+{
+	title: "我是礼包升级",
+	x: -2.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "5e6dc55b",
+		type: "checkmark"
+	}]
+}

@@ -29,55 +29,55 @@ crafting.addShapeless("xnet_redstone_proxy_2", item('xnet:redstone_proxy_upd'), 
 
 crafting.addShaped("xnet_cable", item('xnet:netcable:0') * 24, [
         [ore('cableGtSingleTin'), ore('cableGtSingleTin'), ore('cableGtSingleTin')],
-        [ore('plateSteel'), ore('plateSteel'), ore('plateSteel')],
+        [ore('pipeTinyFluidAluminium'), ore('pipeTinyFluidAluminium'), ore('pipeTinyFluidAluminium')],
         [metaitem('pipeTinyFluidSteel'), metaitem('pipeTinyFluidSteel'), metaitem('pipeTinyFluidSteel')]
 ]);
 
 crafting.addShaped("xnet_cable_routing", item('xnet:netcable:4') * 48, [
         [ore('cableGtQuadrupleTin'), ore('cableGtQuadrupleTin'), ore('cableGtQuadrupleTin')],
-        [ore('plateSteel'), ore('plateSteel'), ore('plateSteel')],
+        [ore('pipeTinyFluidAluminium'), ore('pipeTinyFluidAluminium'), ore('pipeTinyFluidAluminium')],
         [metaitem('pipeNormalFluidSteel'), metaitem('pipeNormalFluidSteel'), metaitem('pipeNormalFluidSteel')]
 ]);
 
 crafting.addShaped("xnet_connector", item('xnet:connector:0') * 4, [
-        [null, ore('circuitLv'), null],
-        [metaitem('robot.arm.lv'), metaitem('hull.lv'), metaitem('electric.pump.lv')],
+        [null, ore('circuitHv'), null],
+        [metaitem('robot.arm.hv'), metaitem('hull.hv'), metaitem('electric.pump.hv')],
         [null, ore('wireGtSingleTin'), null]
 ]);
 
 crafting.addShaped("xnet_connector_advanced", item('xnet:advanced_connector:0') * 4, [
-        [null, ore('circuitMv'), null],
-        [metaitem('robot.arm.mv'), metaitem('hull.mv'), metaitem('electric.pump.mv')],
+        [null, ore('circuitEv'), null],
+        [metaitem('robot.arm.ev'), metaitem('hull.ev'), metaitem('electric.pump.ev')],
         [null, ore('wireGtSingleAnnealedCopper'), null]
 ]);
 
 crafting.addShaped("xnet_controller", item('xnet:controller'), [
         [item('xnet:netcable:0'), item('xnet:netcable:0'), item('xnet:netcable:0')],
-        [ore('wireFineRedAlloy'), metaitem('hull.lv'), ore('wireFineRedAlloy')],
-        [ore('plateSteel'), ore('circuitLv'), ore('plateSteel')]
+        [ore('cableGtSingleCopper'), metaitem('hull.hv'), ore('cableGtSingleCopper')],
+        [ore('pipeTinyFluidAluminium'), ore('circuitHv'), ore('pipeTinyFluidAluminium')]
 ]);
 
 crafting.addShaped("xnet_router", item('xnet:router'), [
         [item('xnet:netcable:0'), item('xnet:connector:0'), item('xnet:netcable:0')],
-        [ore('wireFineRedAlloy'), metaitem('hull.lv'), ore('wireFineRedAlloy')],
-        [ore('plateSteel'), ore('circuitLv'), ore('plateSteel')]
+        [ore('cableGtSingleCopper'), metaitem('hull.hv'), ore('cableGtSingleCopper')],
+        [ore('pipeTinyFluidAluminium'), ore('circuitHv'), ore('pipeTinyFluidAluminium')]
 ]);
 
 crafting.addShaped("xnet_redstone_proxy", item('xnet:redstone_proxy'), [
-        [ore('wireFineRedAlloy'), ore('blockRedstone'), ore('wireFineRedAlloy')],
-        [ore('wireFineRedAlloy'), metaitem('hull.lv'), ore('wireFineRedAlloy')],
-        [ore('wireFineRedAlloy'), ore('wireFineRedAlloy'), ore('wireFineRedAlloy')]
+        [ore('cableGtSingleCopper'), ore('blockRedstone'), ore('cableGtSingleCopper')],
+        [ore('cableGtSingleCopper'), metaitem('hull.hv'), ore('cableGtSingleCopper')],
+        [ore('cableGtSingleCopper'), ore('cableGtSingleCopper'), ore('cableGtSingleCopper')]
 ]);
 
 crafting.addShaped("xnet_routing_connector", item('xnet:connector:4'), [
-        [ore('wireFineRedAlloy'), ore('wireFineRedAlloy'), ore('wireFineRedAlloy')],
+        [ore('cableGtSingleCopper'), ore('cableGtSingleCopper'), ore('cableGtSingleCopper')],
         [ore('plateGold'), item('xnet:connector:0'), ore('plateGold')],
-        [ore('wireFineRedAlloy'), ore('wireFineRedAlloy'), ore('wireFineRedAlloy')]
+        [ore('cableGtSingleCopper'), ore('cableGtSingleCopper'), ore('cableGtSingleCopper')]
 ]);
 
 crafting.addShaped("xnet_connector_upgrade", item('xnet:connector_upgrade'), [
         [ore('plateAluminium'), ore('plateAluminium'), ore('plateAluminium')],
-        [metaitem('robot.arm.mv'), ore('circuitMv'), metaitem('electric.pump.mv')],
+        [metaitem('robot.arm.ev'), ore('circuitEv'), metaitem('electric.pump.ev')],
         [ore('plateAluminium'), ore('plateAluminium'), ore('plateAluminium')]
 ]);
 

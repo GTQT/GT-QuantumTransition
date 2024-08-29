@@ -23,13 +23,13 @@
     "type": "layered",
     "values": [
       {
-        "primary": "ore:naquadah"
+        "primary": "ore:yanghuaguiyan"
       },
       {
-        "secondary": "ore:naquadah"
+        "secondary": "ore:yanghuaguiyan"
       },
       {
-        "between": "ore:naquadah"
+        "between": "ore:yanghuaguiyan"
       },
       {
         "sporadic": "ore:plutonium"

@@ -175,7 +175,7 @@ mods.gregtech.primitive_blast_furnace.recipeBuilder()
     .buildAndRegister()
 	
 mods.gregtech.primitive_blast_furnace.recipeBuilder()
-    .inputs(item('gregtech:meta_block_compressed_20', 15),metaitem('blockLignite')*16)
+    .inputs(item('gregtech:meta_block_compressed_20', 15),metaitem('gemLignite')*16)
     .outputs(item('gregtech:meta_block_compressed_20', 4),item('gregtech:meta_dust_tiny', 254)*16)
     .duration(14400) 
     .buildAndRegister()

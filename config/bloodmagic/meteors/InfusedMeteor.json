@@ -1,0 +1,40 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "gregtech",
+      "path": "machine"
+    },
+    "meta": 85
+  },
+  "components": [
+    {
+      "weight": 50,
+      "oreName": "oreInfusedAir"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreInfusedFire"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreInfusedWater"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreInfusedEarth"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreInfusedEntropy"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreInfusedOrder"
+    }
+  ],
+  "explosionStrength": 10.0,
+  "radius": 12,
+  "maxWeight": 1040,
+  "version": 4,
+  "cost": 400000
+}

@@ -384,6 +384,13 @@ assembler.recipeBuilder()
     .EUt(32)
     .buildAndRegister();
 
+assembler.recipeBuilder()
+    .inputs(<gregtech:meta_plate:260>)
+    .inputs(<ore:plateCoal>)
+    .outputs(<galaxyspace:compressed_plates:4>)
+    .duration(200)
+    .EUt(120)
+    .buildAndRegister();
 
 //rocket fuel
 var lightfuellist as ILiquidStack[] = [
@@ -592,8 +599,7 @@ recipes.addShaped(<galacticraftcore:buggymat>, [[<ore:compressedSteel>, <ore:pla
 
 //canvas
 recipes.remove(<galacticraftcore:canvas>);
-recipes.addShaped(<galacticraftcore:canvas>, [[null, <ore:wool>, <ore:stickPlastic>],[<ore:wool>, <ore:stickPlastic>, <ore:wool>], [<ore:stickPlastic>, <ore:wool>, null]]);
-
+recipes.addShaped(<galacticraftcore:canvas>, [[null, <ore:wool>, null],[<ore:wool>, null, <ore:wool>], [null, <ore:wool>, null]]);
 //rocket fins
 recipes.remove(<galacticraftcore:rocket_fins>);
 recipes.addShaped(<galacticraftcore:rocket_fins>, [[null, <ore:compressedSteel>,null],[<galacticraftcore:heavy_plating>, <ore:compressedSteel>, <galacticraftcore:heavy_plating>], [<galacticraftcore:heavy_plating>, null, <galacticraftcore:heavy_plating>]]);

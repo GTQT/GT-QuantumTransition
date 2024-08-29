@@ -1,0 +1,108 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "gregtech",
+      "path": "machine"
+    },
+    "meta": 115
+  },
+  "components": [
+    {
+      "weight": 100,
+      "oreName": "oreOilsands"
+    },
+    {
+      "weight": 80,
+      "oreName": "oreMica"
+    },
+    {
+      "weight": 60,
+      "oreName": "oreAsbestos"
+    },
+    {
+      "weight": 80,
+      "oreName": "oreCalcite"
+    },
+    {
+      "weight": 85,
+      "oreName": "oreLepidolite"
+    },
+    {
+      "weight": 75,
+      "oreName": "oreVanadiumMagnetite"
+    },
+    {
+      "weight": 65,
+      "oreName": "oreSalt"
+    },
+    {
+      "weight": 85,
+      "oreName": "oreRockSalt"
+    },
+    {
+      "weight": 80,
+      "oreName": "oreSphalerite"
+    },
+    {
+      "weight": 35,
+      "oreName": "orePollucite"
+    },
+    {
+      "weight": 80,
+      "oreName": "oreNickel"
+    },
+    {
+      "weight": 100,
+      "oreName": "oreCopper"
+    },
+    {
+      "weight": 100,
+      "oreName": "oreRedstone"
+    },
+    {
+      "weight": 80,
+      "oreName": "oreCinnabar"
+    },
+    {
+      "weight": 45,
+      "oreName": "oreGarnetSand"
+    },
+    {
+      "weight": 40,
+      "oreName": "oreGypsum"
+    },
+    {
+      "weight": 100,
+      "oreName": "oreLapis"
+    },
+    {
+      "weight": 60,
+      "oreName": "oreLazurite"
+    },
+    {
+      "weight": 60,
+      "oreName": "oreSodalite"
+    },
+    {
+      "weight": 80,
+      "oreName": "oreCassiterite"
+    },
+    {
+      "weight": 80,
+      "oreName": "oreApatite"
+    },
+    {
+      "weight": 80,
+      "oreName": "oreRuby"
+    },
+    {
+      "weight": 80,
+      "oreName": "oreSilver"
+    }
+  ],
+  "explosionStrength": 10.0,
+  "radius": 20,
+  "maxWeight": 1040,
+  "version": 4,
+  "cost": 6000000
+}

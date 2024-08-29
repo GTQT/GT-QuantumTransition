@@ -1,0 +1,80 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "gregtech",
+      "path": "machine"
+    },
+    "meta": 264
+  },
+  "components": [
+    {
+      "weight": 10,
+      "oreName": "oreMeteoricIron"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreChromite"
+    },
+    {
+      "weight": 100,
+      "oreName": "oreBastnasite"
+    },
+    {
+      "weight": 30,
+      "oreName": "oreMonazite"
+    },
+    {
+      "weight": 70,
+      "oreName": "oreMolybdenum"
+    },
+    {
+      "weight": 50,
+      "oreName": "orePyrochlore"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreNeodymium"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreBarite"
+    },
+    {
+      "weight": 25,
+      "oreName": "oreCertusQuartz"
+    },
+    {
+      "weight": 25,
+      "oreName": "oreDesh"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreThorium"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreUraninite"
+    },
+    {
+      "weight": 30,
+      "oreName": "orePitchblende"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreElectrotine"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreSilver"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreGold"
+    }
+  ],
+  "explosionStrength": 10.0,
+  "radius": 13,
+  "maxWeight": 1040,
+  "version": 4,
+  "cost": 500000
+}

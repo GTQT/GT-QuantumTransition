@@ -313,10 +313,6 @@
 		item: "gregtech:fluid_pipe_quadruple 1 25"
 	},
 	{
-		item: "blockcraftery:editable_block",
-		count: 4
-	},
-	{
 		item: "gregtech:meta_item_1 1 11",
 		count: 2
 	}],

@@ -61,38 +61,38 @@ for (item in name_removals) {
 }
 
 crafting.addShaped("rftools_crafter_1", item('rftools:crafter1')*2, [
-        [metaitem('robot.arm.lv'), ore('circuitLv'), metaitem('robot.arm.lv')],
-        [ore('workbench'), metaitem('hull.lv'), ore('workbench')],
-        [metaitem('robot.arm.lv'), ore('circuitLv'), metaitem('robot.arm.lv')]
+        [metaitem('robot.arm.hv'), ore('circuitHv'), metaitem('robot.arm.hv')],
+        [ore('workbench'), metaitem('hull.hv'), ore('workbench')],
+        [metaitem('robot.arm.hv'), ore('circuitHv'), metaitem('robot.arm.hv')]
 ])
 
 crafting.addShaped("rftools_crafter_2", item('rftools:crafter2')*2, [
-        [metaitem('robot.arm.lv'), ore('plateSteel'), metaitem('robot.arm.lv')],
-        [item('rftools:crafter1'), metaitem('hull.lv'), item('rftools:crafter1')],
-        [metaitem('robot.arm.lv'), ore('plateSteel'), metaitem('robot.arm.lv')]
+        [metaitem('robot.arm.hv'), ore('pipeTinyFluidAluminium'), metaitem('robot.arm.hv')],
+        [item('rftools:crafter1'), metaitem('hull.hv'), item('rftools:crafter1')],
+        [metaitem('robot.arm.hv'), ore('pipeTinyFluidAluminium'), metaitem('robot.arm.hv')]
 ])
 
 crafting.addShaped("rftools_crafter_3", item('rftools:crafter3')*2, [
-        [metaitem('robot.arm.lv'), ore('plateSteel'), metaitem('robot.arm.lv')],
-        [item('rftools:crafter2'), metaitem('hull.lv'), item('rftools:crafter2')],
-        [metaitem('robot.arm.lv'), ore('plateSteel'), metaitem('robot.arm.lv')]
+        [metaitem('robot.arm.hv'), ore('pipeTinyFluidAluminium'), metaitem('robot.arm.hv')],
+        [item('rftools:crafter2'), metaitem('hull.hv'), item('rftools:crafter2')],
+        [metaitem('robot.arm.hv'), ore('pipeTinyFluidAluminium'), metaitem('robot.arm.hv')]
 ])
 
 crafting.addShaped("rftools_modular_storage", item('rftools:modular_storage'), [
-        [metaitem('robot.arm.lv'), ore('circuitLv'), metaitem('robot.arm.lv')],
-        [metaitem('crate.steel'), metaitem('hull.lv'), metaitem('crate.steel')],
-        [metaitem('robot.arm.lv'), ore('circuitLv'), metaitem('robot.arm.lv')]
+        [metaitem('robot.arm.hv'), ore('circuitHv'), metaitem('robot.arm.hv')],
+        [metaitem('crate.steel'), metaitem('hull.hv'), metaitem('crate.steel')],
+        [metaitem('robot.arm.hv'), ore('circuitHv'), metaitem('robot.arm.hv')]
 ])
 
 crafting.replaceShaped('rftools:smartwrench', item('rftools:smartwrench'), [
-        [ore('plateSteel'), ore('circuitLv'), ore('plateSteel')],
-        [ore('plateSteel'), ore('stickSteel'), ore('plateSteel')],
+        [ore('pipeTinyFluidAluminium'), ore('circuitHv'), ore('pipeTinyFluidAluminium')],
+        [ore('pipeTinyFluidAluminium'), ore('stickSteel'), ore('pipeTinyFluidAluminium')],
         [ore('dyeBlue'), ore('stickSteel'), ore('dyeBlue')]
 ])
 
 crafting.replaceShaped('rftools:storage_module_0', item('rftools:storage_module'), [
         [null, metaitem('frameSteel'), null],
-        [metaitem('crate.steel'), metaitem('plateSteel'), metaitem('crate.steel')],
+        [metaitem('crate.steel'), metaitem('pipeTinyFluidAluminium'), metaitem('crate.steel')],
         [null, metaitem('frameSteel'), null]
 ])
 
@@ -104,92 +104,92 @@ crafting.replaceShaped('rftools:storage_module_1', item('rftools:storage_module'
 
 crafting.replaceShaped('rftools:storage_module_2', item('rftools:storage_module', 2), [
         [null, metaitem('frameStainlessSteel'), null],
-        [metaitem('crate.stainless_steel'), metaitem('plateStainlessSteel'), metaitem('crate.stainless_steel')],
+        [metaitem('crate.stainless_steel'), metaitem('pipeTinyFluidAluminium'), metaitem('crate.stainless_steel')],
         [null, metaitem('frameStainlessSteel'), null]
 ])
 
 crafting.replaceShaped('rftools:redstone_transmitter_block', item('rftools:redstone_transmitter_block'), [
         [null, null, null],
-        [metaitem('wireFineRedAlloy'), metaitem('circuit.electronic'), metaitem('emitter.lv')],
+        [metaitem('cableGtSingleCopper'), ore('circuitHv'), metaitem('emitter.hv')],
         [null, metaitem('plateStone'), null]
 ])
 
 crafting.replaceShaped('rftools:redstone_receiver_block', item('rftools:redstone_receiver_block'), [
         [null, null, null],
-        [metaitem('sensor.lv'), metaitem('circuit.electronic'), metaitem('wireFineRedAlloy')],
+        [metaitem('sensor.hv'), ore('circuitHv'), metaitem('cableGtSingleCopper')],
         [null, metaitem('plateStone'), null]
 ])
 
 crafting.replaceShaped('rftools:sequencer_block', item('rftools:sequencer_block'), [
         [null, item('minecraft:redstone_torch'), null],
-        [metaitem('wireFineRedAlloy'), metaitem('circuit.electronic'), metaitem('wireFineRedAlloy')],
+        [metaitem('cableGtSingleCopper'), ore('circuitHv'), metaitem('cableGtSingleCopper')],
         [null, metaitem('plateStone'), null]
 ])
 
 crafting.replaceShaped('rftools:counter_block', item('rftools:counter_block'), [
         [null, item('minecraft:comparator'), null],
-        [metaitem('wireFineRedAlloy'), metaitem('circuit.electronic'), metaitem('wireFineRedAlloy')],
+        [metaitem('cableGtSingleCopper'), ore('circuitHv'), metaitem('cableGtSingleCopper')],
         [null, metaitem('plateStone'), null]
 ])
 
 crafting.replaceShaped('rftools:logic_block', item('rftools:logic_block'), [
-        [metaitem('wireFineRedAlloy'), metaitem('circuit.electronic'), metaitem('wireFineRedAlloy')],
+        [metaitem('cableGtSingleCopper'), ore('circuitHv'), metaitem('cableGtSingleCopper')],
         [item('minecraft:comparator'), metaitem('plateStone'), item('minecraft:comparator')],
-        [metaitem('wireFineRedAlloy'), item('minecraft:comparator'), metaitem('wireFineRedAlloy')]
+        [metaitem('cableGtSingleCopper'), item('minecraft:comparator'), metaitem('cableGtSingleCopper')]
 ])
 
 crafting.replaceShaped('rftools:invchecker_block', item('rftools:invchecker_block'), [
         [null, null, null],
-        [item('minecraft:comparator'), metaitem('circuit.electronic'), metaitem('sensor.mv')],
+        [item('minecraft:comparator'), ore('circuitHv'), metaitem('sensor.ev')],
         [null, metaitem('plateStone'), null]
 ])
 
 crafting.replaceShaped('rftools:sensor_block', item('rftools:sensor_block'), [
         [null, null, null],
-        [item('minecraft:comparator'), metaitem('circuit.electronic'), metaitem('camera')],
+        [item('minecraft:comparator'), ore('circuitHv'), metaitem('camera')],
         [null, metaitem('plateStone'), null]
 ])
 
 crafting.replaceShaped('rftools:analog_block', item('rftools:analog_block'), [
-        [null, metaitem('wireFineRedAlloy'), null],
-        [metaitem('wireFineRedAlloy'), metaitem('circuit.electronic'), metaitem('wireFineRedAlloy')],
+        [null, metaitem('cableGtSingleCopper'), null],
+        [metaitem('cableGtSingleCopper'), ore('circuitHv'), metaitem('cableGtSingleCopper')],
         [null, metaitem('plateStone'), null]
 ])
 
 crafting.replaceShaped('rftools:digit_block', item('rftools:digit_block'), [
         [null, ore('paneGlass'), null],
-        [metaitem('wireFineRedAlloy'), metaitem('circuit.electronic'), metaitem('wireFineRedAlloy')],
+        [metaitem('cableGtSingleCopper'), ore('circuitHv'), metaitem('cableGtSingleCopper')],
         [null, metaitem('plateStone'), null]
 ])
 
 crafting.replaceShaped('rftools:wire_block', item('rftools:wire_block'), [
         [null, null, null],
-        [null, metaitem('wireFineRedAlloy'), null],
+        [null, metaitem('cableGtSingleCopper'), null],
         [null, metaitem('plateStone'), null]
 ])
 
 crafting.replaceShaped('rftools:timer_block', item('rftools:timer_block'), [
         [null, item('minecraft:comparator'), null],
-        [metaitem('wireFineRedAlloy'), item('minecraft:clock'), metaitem('wireFineRedAlloy')],
+        [metaitem('cableGtSingleCopper'), item('minecraft:clock'), metaitem('cableGtSingleCopper')],
         [null, metaitem('plateStone'), null]
 ])
 
 crafting.replaceShaped('rftools:relay', item('rftools:relay'), [
         [null, metaitem('component.resistor'), null],
-        [metaitem('cableGtSingleCopper'), metaitem('hull.lv'), metaitem('cableGtSingleCopper')],
+        [metaitem('cableGtSingleCopper'), metaitem('hull.hv'), metaitem('cableGtSingleCopper')],
         [null, metaitem('component.resistor'), null]
 ])
 
 crafting.replaceShaped('rftools:rf_monitor', item('rftools:rf_monitor'), [
         [null, item('minecraft:comparator'), null],
-        [metaitem('cableGtSingleCopper'), metaitem('hull.lv'), metaitem('cableGtSingleCopper')],
-        [null, ore('circuitLv'), null]
+        [metaitem('cableGtSingleCopper'), metaitem('hull.hv'), metaitem('cableGtSingleCopper')],
+        [null, ore('circuitHv'), null]
 ])
 
 crafting.replaceShaped('rftools:liquid_monitor', item('rftools:liquid_monitor'), [
         [null, item('minecraft:comparator'), null],
-        [metaitem('plateSteel'), metaitem('hull.lv'), metaitem('electric.pump.lv')],
-        [null, ore('circuitLv'), null]
+        [metaitem('pipeTinyFluidAluminium'), metaitem('hull.hv'), metaitem('electric.pump.hv')],
+        [null, ore('circuitHv'), null]
 ])
 
 crafting.replaceShaped('rftools:shield_block1', item('rftools:shield_block1'), [
@@ -229,9 +229,9 @@ crafting.replaceShaped('rftools:shield_template_block', item('rftools:shield_tem
 ])
 
 crafting.replaceShaped('rftools:item_filter', item('rftools:item_filter'), [
-        [metaitem('circuit.electronic'), metaitem('pipeSmallItemTin'), metaitem('item_filter')],
-        [metaitem('pipeSmallItemTin'), metaitem('hull.lv'), metaitem('pipeSmallItemTin')],
-        [metaitem('item_filter'), metaitem('pipeSmallItemTin'), metaitem('circuit.electronic')]
+        [ore('circuitHv'), metaitem('pipeSmallItemTin'), metaitem('item_filter')],
+        [metaitem('pipeSmallItemTin'), metaitem('hull.hv'), metaitem('pipeSmallItemTin')],
+        [metaitem('item_filter'), metaitem('pipeSmallItemTin'), ore('circuitHv')]
 ])
 
 crafting.replaceShaped('rftools:filter_module', item('rftools:filter_module'), [
@@ -253,7 +253,7 @@ crafting.replaceShaped('rftools:oredict_module', item('rftools:oredict_module'),
 ])
 
 crafting.replaceShaped('rftools:storage_scanner', item('rftools:storage_scanner'), [
-        [ore('plateSteel'), metaitem('sensor.lv'), ore('plateSteel')],
-        [ore('chest'), metaitem('hull.lv'), ore('chest')],
-        [ore('plateSteel'), ore('circuitLv'), ore('plateSteel')]
+        [ore('pipeTinyFluidAluminium'), metaitem('sensor.hv'), ore('pipeTinyFluidAluminium')],
+        [ore('chest'), metaitem('hull.hv'), ore('chest')],
+        [ore('pipeTinyFluidAluminium'), ore('circuitHv'), ore('pipeTinyFluidAluminium')]
 ])

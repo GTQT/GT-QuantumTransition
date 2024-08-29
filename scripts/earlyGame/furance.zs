@@ -1,5 +1,12 @@
 //凝胶
 furnace.addRecipe(<minecraft:slime_ball>, <thebetweenlands:sap_ball>);
+
+furnace.addRecipe(<biomesoplenty:seaweed>,<gregtech:meta_dust:20076>);
+//天然碱
+furnace.remove(<gregtech:meta_dust:2031>);
+furnace.addRecipe(<gregtech:meta_dust:2031>, <ore:oreTrona>);
+furnace.addRecipe(<gregtech:meta_dust:2031>, <ore:oreNetherrackTrona>);
+furnace.addRecipe(<gregtech:meta_dust:2031>, <ore:oreEndstoneTrona>);
 //红石
 furnace.remove(<minecraft:redstone>);
 furnace.addRecipe(<minecraft:redstone>, <ore:oreRedstone>);

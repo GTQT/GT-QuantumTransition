@@ -1,0 +1,30 @@
+{
+	x: -2.0d,
+	y: 11.0d,
+	tasks: [{
+		uid: "09a3fdee",
+		type: "item",
+		items: [{
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ivage"
+			}
+		}],
+		count: 4L
+	},
+	{
+		uid: "28d29987",
+		type: "gamestage",
+		stage: "LuV"
+	}],
+	rewards: [{
+		uid: "df983550",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "luv_"
+			}
+		}
+	}]
+}

@@ -23,13 +23,13 @@
       "type": "layered",
       "values": [
         {
-        "primary": "ore:rich_gold_sulphide"
+        "primary": "ore:manganese"
       },
       {
-        "secondary": "ore:rich_gold_sulphide"
+        "secondary": "ore:manganese"
       },
       {
-        "between": "ore:lean_gold_sulphide"
+        "between": "ore:gold"
       },
       {
         "sporadic": "ore:gold"

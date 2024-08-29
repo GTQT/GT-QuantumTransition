@@ -1,0 +1,194 @@
+{
+	title: "LuVAge",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:meta_item_1 1 406",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 405",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 362",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 363"
+	},
+	{
+		item: "gregtech:meta_item_1 1 528",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 529",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 530",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 532",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 531",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 161"
+	},
+	{
+		item: "gregtech:meta_item_1 1 131"
+	},
+	{
+		item: "gregtech:meta_item_1 1 176"
+	},
+	{
+		item: "gregtech:meta_item_1 1 146"
+	},
+	{
+		item: "gregtech:meta_item_1 1 221"
+	},
+	{
+		item: "gregtech:meta_item_1 1 206"
+	},
+	{
+		item: "gregtech:meta_item_1 1 251"
+	},
+	{
+		item: "gregtech:meta_item_1 1 191"
+	},
+	{
+		item: "gregtech:meta_item_1 1 236"
+	},
+	{
+		item: "gregtech:meta_item_1 1 162"
+	},
+	{
+		item: "gregtech:meta_item_1 1 132"
+	},
+	{
+		item: "gregtech:meta_item_1 1 177"
+	},
+	{
+		item: "gregtech:meta_item_1 1 147"
+	},
+	{
+		item: "gregtech:meta_item_1 1 222"
+	},
+	{
+		item: "gregtech:meta_item_1 1 207"
+	},
+	{
+		item: "gregtech:meta_item_1 1 252"
+	},
+	{
+		item: "gregtech:meta_item_1 1 192"
+	},
+	{
+		item: "gregtech:meta_item_1 1 237"
+	},
+	{
+		item: "gtqtcore:gtqt_meta_item_1 1 571",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 85"
+	},
+	{
+		item: "gregtech:machine 1 100"
+	},
+	{
+		item: "gregtech:machine 1 115"
+	},
+	{
+		item: "gregtech:machine 1 130"
+	},
+	{
+		item: "gregtech:machine 1 145"
+	},
+	{
+		item: "gregtech:machine 1 160"
+	},
+	{
+		item: "gregtech:machine 1 55"
+	},
+	{
+		item: "gregtech:machine 1 70"
+	},
+	{
+		item: "gregtech:machine 1 1563",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1564",
+		count: 2
+	},
+	{
+		item: "gregtech:machine 1 1578",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1579",
+		count: 2
+	},
+	{
+		item: "gregtech:machine 1 1570"
+	},
+	{
+		item: "gregtech:machine 1 1585"
+	},
+	{
+		item: "gregtech:machine 1 1155",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1156"
+	},
+	{
+		item: "gregtech:machine 1 1171",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1171"
+	},
+	{
+		item: "gregtech:machine 1 1185",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1186"
+	},
+	{
+		item: "gregtech:machine 1 1200",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1201"
+	},
+	{
+		item: "gregtech:machine 1 1215",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1216"
+	},
+	{
+		item: "gregtech:machine 1 1230",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1231"
+	}],
+	loot_crate: {
+		string_id: "luv_",
+		color: 16777215,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

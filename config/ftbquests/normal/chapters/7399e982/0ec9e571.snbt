@@ -7,12 +7,12 @@
 		}
 	},
 	x: -1.0d,
-	y: 7.0d,
+	y: 8.0d,
 	can_repeat: true,
 	tasks: [{
 		uid: "5736e89e",
 		type: "ftbmoney:money",
-		value: 1600L
+		value: 400L
 	},
 	{
 		uid: "877deac2",

@@ -13,7 +13,7 @@
       "enable": true
     },
     "hive": {
-      "maxRadius": 8,
+      "maxRadius": 9,
       "bottomExtra": 4,
       "amountPerChunk": 0.2,
       "enable": true,

@@ -4,6 +4,9 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 var items as IItemStack[] = [
+<enderio:block_vat>,
+<enderio:block_combustion_generator>,
+<enderio:block_enhanced_combustion_generator>,
 <gendustry:mutagen_producer>,
 <harvestcraft:freshwateritem>,
 <tconstruct:throwball:1>,
@@ -249,10 +252,6 @@ var items as IItemStack[] = [
 <ironchest:iron_shulker_box_gray:5>,
 <ironchest:iron_shulker_box_silver:5>,
 <galacticraftplanets:item_basic_asteroids:9>,
-<gregtech:machine:1005>,
-<gregtech:machine:1004>,
-<gregtech:machine:1002>,
-<gregtech:machine:1009>,
 <gregtech:machine:260>,
 <gregtech:machine:261>,
 <gregtech:machine:262>,

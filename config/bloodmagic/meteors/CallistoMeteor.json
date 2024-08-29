@@ -1,0 +1,100 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "gregtech",
+      "path": "machine"
+    },
+    "meta": 132
+  },
+  "components": [
+    {
+      "weight": 50,
+      "oreName": "oreTopaz"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreBlueTopaz"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreChromite"
+    },
+    {
+      "weight": 125,
+      "oreName": "oreTungstate"
+    },
+    {
+      "weight": 45,
+      "oreName": "oreScheelite"
+    },
+    {
+      "weight": 45,
+      "oreName": "oreLithium"
+    },
+    {
+      "weight": 50,
+      "oreName": "orePalladium"
+    },
+    {
+      "weight": 65,
+      "oreName": "oreChrome"
+    },
+    {
+      "weight": 100,
+      "oreName": "orePlatinum"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreNickel"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreIridium"
+    },
+    {
+      "weight": 1,
+      "oreName": "orePlutonium"
+    },
+    {
+      "weight": 75,
+      "oreName": "oreVanadiumMagnetite"
+    },
+    {
+      "weight": 75,
+      "oreName": "oreGold"
+    },
+    {
+      "weight": 65,
+      "oreName": "oreChalcopyrite"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreIron"
+    },
+    {
+      "weight": 45,
+      "oreName": "orePyrite"
+    },
+    {
+      "weight": 45,
+      "oreName": "oreCopper"
+    },
+    {
+      "weight": 40,
+      "oreName": "oreTetrahedrite"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreStibnite"
+    },
+    {
+      "weight": 65,
+      "oreName": "oreGrossular"
+    }
+  ],
+  "explosionStrength": 15.0,
+  "radius": 20,
+  "maxWeight": 1080,
+  "version": 3,
+  "cost": 1000000
+}

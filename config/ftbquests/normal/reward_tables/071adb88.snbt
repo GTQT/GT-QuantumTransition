@@ -51,10 +51,6 @@
 		count: 32
 	},
 	{
-		item: "blockcraftery:editable_block",
-		count: 8
-	},
-	{
 		item: "minecraft:chest",
 		count: 2
 	},

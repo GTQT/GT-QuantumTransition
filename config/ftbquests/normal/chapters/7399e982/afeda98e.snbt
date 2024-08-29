@@ -1,0 +1,72 @@
+{
+	title: "LuV时代快乐五连抽",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "luv_"
+		}
+	},
+	x: -1.0d,
+	y: 11.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "5a9b63a5",
+		type: "ftbmoney:money",
+		value: 3200L
+	},
+	{
+		uid: "efc8d23d",
+		type: "gamestage",
+		stage: "LuV"
+	}],
+	rewards: [{
+		uid: "aef1c174",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "luv_"
+			}
+		}
+	},
+	{
+		uid: "1a5dada7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "luv_"
+			}
+		}
+	},
+	{
+		uid: "5d3d0b8d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "luv_"
+			}
+		}
+	},
+	{
+		uid: "16eb680b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "luv_"
+			}
+		}
+	},
+	{
+		uid: "f79db543",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "luv_"
+			}
+		}
+	}]
+}

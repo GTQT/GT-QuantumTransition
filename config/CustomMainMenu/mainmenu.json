@@ -1,7 +1,7 @@
 {
 	"images": {
 		"title": {
-			"image": "supersymmetry:mainmenu/banner.png",
+			"image": "gtqtcore:mainmenu/banner.png",
 			"posX": -980,
 			"posY": -5,
 			"width": 1960,
@@ -9,7 +9,7 @@
 			"alignment": "top_center"
 		},
 		"frame": {
-			"image": "supersymmetry:mainmenu/frame.png",
+			"image": "gtqtcore:mainmenu/frame.png",
 			"posX": -152,
 			"posY": -27,
 			"width": 304,
@@ -19,8 +19,8 @@
 	},
 	"buttons": {
 		"singleplayer": {
-			"text": "\u5355\u4eba\u6e38\u620f",
-			"hoverText": "\u5b64\u72ec\u4e0e\u60c6\u6005",
+			"text": "Singleplayer Game",
+			"hoverText": "Loneliness and Melancholy",
 			"alignment": "center",
 			"posX": -150,
 			"posY": -25,
@@ -30,15 +30,15 @@
 			"imageHeight": 20,
 			"hoverTextColor": 65484,
 			"clickSound": "block.lever.click",
-			"texture": "supersymmetry:mainmenu/button.png",
+			"texture": "gtqtcore:mainmenu/button.png",
 			"action": {
 				"type": "openGui",
 				"gui": "singleplayer"
 			}
 		},
 		"multiplayer": {
-			"text": "\u591a\u4eba\u6e38\u620f",
-			"hoverText": "\u841d\u8389\u5c9b",
+			"text": "Multiplayer Game",
+			"hoverText": "Loli Island",
 			"alignment": "center",
 			"posX": -150,
 			"posY": -5,
@@ -46,7 +46,7 @@
 			"height": 20,
 			"imageWidth": 200,
 			"imageHeight": 20,
-			"texture": "supersymmetry:mainmenu/button.png",
+			"texture": "gtqtcore:mainmenu/button.png",
 			"hoverTextColor": 65484,
 			"clickSound": "block.lever.click",
 			"action": {
@@ -55,8 +55,8 @@
 			}
 		},
 		"mods": {
-			"text": "\u6a21\u7ec4\u5217\u8868",
-			"hoverText": "\u91d1\u5c4b\u85cf\u5a07",
+			"text": "Mods",
+			"hoverText": "Let me see see",
 			"alignment": "center",
 			"posX": -150,
 			"posY": 15,
@@ -64,7 +64,7 @@
 			"height": 20,
 			"imageWidth": 200,
 			"imageHeight": 20,
-			"texture": "supersymmetry:mainmenu/button.png",
+			"texture": "gtqtcore:mainmenu/button.png",
 			"hoverTextColor": 65484,
 			"clickSound": "block.lever.click",
 			"action": {
@@ -73,8 +73,8 @@
 			}
 		},
 		"options": {
-			"text": "\u9009\u9879\u8bbe\u7f6e",
-			"hoverText": "\u638c\u63a7\u81ea\u7136",
+			"text": "Options",
+			"hoverText": "Control everythings",
 			"alignment": "center",
 			"posX": -150,
 			"posY": 35,
@@ -82,7 +82,7 @@
 			"height": 20,
 			"imageWidth": 200,
 			"imageHeight": 20,
-			"texture": "supersymmetry:mainmenu/button.png",
+			"texture": "gtqtcore:mainmenu/button.png",
 			"hoverTextColor": 65484,
 			"clickSound": "block.lever.click",
 			"action": {
@@ -91,8 +91,8 @@
 			}
 		},
 		"quit": {
-			"text": "\u9000\u51fa\u6e38\u620f",
-			"hoverText": "\u4f60\u9003\u8131\u4e0d\u4e86\u683c\u96f7\u79d1\u6280",
+			"text": "Quit",
+			"hoverText": "You can never escape from GregTech",
 			"alignment": "center",
 			"posX": -150,
 			"posY": 55,
@@ -100,7 +100,7 @@
 			"height": 20,
 			"imageWidth": 200,
 			"imageHeight": 20,
-			"texture": "supersymmetry:mainmenu/button.png",
+			"texture": "gtqtcore:mainmenu/button.png",
 			"hoverTextColor": 11141120,
 			"clickSound": "block.lever.click",
 			"action": {
@@ -108,7 +108,7 @@
 			}
 		},
 		"qq": {
-			"text": "\u4ea4\u6d41\u7fa4\u7ec4",
+			"text": "Association",
 			"alignment": "center",
 			"posX": 0,
 			"posY": -25,
@@ -116,7 +116,7 @@
 			"height": 20,
 			"imageWidth": 200,
 			"imageHeight": 20,
-			"texture": "supersymmetry:mainmenu/button.png",
+			"texture": "gtqtcore:mainmenu/button.png",
 			"hoverTextColor": 65484,
 			"clickSound": "block.lever.click",
 			"action": {
@@ -125,7 +125,7 @@
 			}
 		},
 		"github": {
-			"text": "\u95ee\u9898\u53cd\u9988",
+			"text": "Github",
 			"alignment": "center",
 			"posX": 0,
 			"posY": -5,
@@ -133,7 +133,7 @@
 			"height": 20,
 			"imageWidth": 200,
 			"imageHeight": 20,
-			"texture": "supersymmetry:mainmenu/button.png",
+			"texture": "gtqtcore:mainmenu/button.png",
 			"hoverTextColor": 65484,
 			"clickSound": "block.lever.click",
 			"action": {
@@ -142,7 +142,7 @@
 			}
 		},
 		"open_folder": {
-			"text": "\u6253\u5f00\u8def\u5f84",
+			"text": "Folder",
 			"alignment": "center",
 			"posX": 0,
 			"posY": 15,
@@ -150,7 +150,7 @@
 			"height": 20,
 			"imageWidth": 200,
 			"imageHeight": 20,
-			"texture": "supersymmetry:mainmenu/button.png",
+			"texture": "gtqtcore:mainmenu/button.png",
 			"hoverTextColor": 65484,
 			"action": {
 				"type": "openFolder",
@@ -158,7 +158,7 @@
 			}
 		},
 		"refresh": {
-			"text": "\u5237\u65b0\u83dc\u5355",
+			"text": "Refresh",
 			"alignment": "center",
 			"posX": 0,
 			"posY": 35,
@@ -166,7 +166,7 @@
 			"height": 20,
 			"imageWidth": 200,
 			"imageHeight": 20,
-			"texture": "supersymmetry:mainmenu/button.png",
+			"texture": "gtqtcore:mainmenu/button.png",
 			"hoverTextColor": 65484,
 			"clickSound": "block.lever.click",
 			"action": {
@@ -211,19 +211,19 @@
 			"posY": 105,
 			"color": -256,
 			"alignment": "top_center",
-			"texts": "file:supersymmetry:mainmenu/splashes.txt"
+			"texts": "file:gtqtcore:mainmenu/splashes.txt"
 		},
 		"background": {
 			"image": "",
 			"mode": "fill",
 			"slideshow": {
 				"images": [
-					"customloadingscreen:image/supersymmetry/bg/1.png",
-					"customloadingscreen:image/supersymmetry/bg/2.png",
-					"customloadingscreen:image/supersymmetry/bg/3.png",
-					"customloadingscreen:image/supersymmetry/bg/4.png",
-					"customloadingscreen:image/supersymmetry/bg/5.png",
-					"customloadingscreen:image/supersymmetry/bg/6.png"
+					"customloadingscreen:image/gtqtcore/bg/1.png",
+					"customloadingscreen:image/gtqtcore/bg/2.png",
+					"customloadingscreen:image/gtqtcore/bg/3.png",
+					"customloadingscreen:image/gtqtcore/bg/4.png",
+					"customloadingscreen:image/gtqtcore/bg/5.png",
+					"customloadingscreen:image/gtqtcore/bg/6.png"
 				],
 				"shuffle": true,
 				"displayDuration": 100,

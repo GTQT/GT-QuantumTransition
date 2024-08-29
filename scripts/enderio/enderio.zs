@@ -72,9 +72,6 @@ recipes.addShaped(<enderio:block_farm_station>, [[<gregtech:meta_item_1:189>, <o
 //Powered Monitor
 recipes.addShaped(<enderio:block_power_monitor>, [[<ore:plateElectricalSteel>, <gregtech:meta_item_1:465>, <ore:plateElectricalSteel>],[<ore:circuitLv>, <enderio:item_material:1>, <ore:circuitLv>], [<enderio:item_power_conduit>, <enderio:item_conduit_probe>, <enderio:item_power_conduit>]]);
 
-//The Vat
-recipes.addShaped(<enderio:block_vat>, [[<ore:plateSteel>, <minecraft:cauldron>, <ore:plateSteel>],[<enderio:block_tank>, <enderio:item_material:1>, <enderio:block_tank>], [<gregtech:meta_item_1:127>, <gregtech:machine:50>, <gregtech:meta_item_1:127>]]);
-
 //Crafter
 recipes.addShaped(<enderio:block_crafter>, [[<ore:plateSteel>, <gregtech:machine:1647>, <ore:plateSteel>],[<ore:circuitLv>, <enderio:item_material:1>, <ore:circuitLv>], [<ore:plateSteel>, <ore:skullZombieController>, <gregtech:meta_plate:324>]]);
 
@@ -107,9 +104,6 @@ recipes.addShaped(<enderio:block_franken_zombie_generator>, [[<ore:plateDarkStee
 
 //Zombie Generator
 recipes.addShaped(<enderio:block_zombie_generator>, [[<ore:plateSteel>, <ore:circuitMv>, <ore:plateSteel>],[<appliedenergistics2:quartz_glass>, <enderio:item_material:1>, <appliedenergistics2:quartz_glass>], [<gregtech:meta_item_1:128>, <ore:skullZombieElectrode>, <gregtech:meta_item_1:128>]]);
-
-//Combustion Generator
-recipes.addShaped(<enderio:block_combustion_generator>, [[<ore:plateSteel>, <ore:circuitMv>, <ore:plateSteel>],[<ore:rotorSteel>, <enderio:item_material:1>, <ore:rotorSteel>], [<gregtech:meta_item_1:128>, <enderio:block_tank>, <gregtech:meta_item_1:128>]]);
 
 //Stirling Generator
 recipes.addShaped(<enderio:block_stirling_generator>, [[<ore:plateIron>, <ore:circuitLv>, <ore:plateIron>],[<ore:rotorIron>, <enderio:item_material:1>, <ore:rotorIron>], [<gregtech:meta_item_1:127>, <gregtech:machine:50>, <gregtech:meta_item_1:127>]]);

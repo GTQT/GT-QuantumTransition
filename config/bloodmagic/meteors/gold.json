@@ -1,10 +1,10 @@
 {
   "catalystStack": {
     "registryName": {
-      "domain": "minecraft",
-      "path": "gold_block"
+      "domain": "gregtech",
+      "path": "machine"
     },
-    "meta": 0
+    "meta": 96
   },
   "components": [
     {

@@ -74,7 +74,7 @@
             <var>white</var>
             <str> | </str>
             <var>yellow</var>
-            <str>系统时间</str>
+            <str>System time</str>
             <var>white</var>
             <str>:</str>
             <var>aqua</var>
@@ -82,7 +82,7 @@
             <var>white</var>
             <str> | </str>
             <var>yellow</var>
-            <str>内存占用</str>
+            <str>Memory</str>
             <var>white</var>
             <str>:</str>
             <round>
@@ -104,7 +104,7 @@
             <str>MB</str>
         </line>
         <line>
-            <str> 日期：第{darkaqua} </str>
+            <str> Data{darkaqua} </str>
             <add>
                 <round>
                     <div>
@@ -121,55 +121,35 @@
                 </round>
                 <num>1</num>
             </add>
-            <str> {white}年； 第{darkaqua} </str>
+            <str> {white}Year；{darkaqua} </str>
             <modi>
                 <var>day</var>
                 <num>365</num>
             </modi>
-            <str> {white}天； 时间：{gold}{mctime12} </str>
+            <str> {white}； Time：{gold}{mctime12} </str>
             <if>
                 <var>daytime</var>
-                <str>{yellow}(白天)</str>
-                <str>{gray}(黑夜)</str>
+                <str>{yellow}(Day)</str>
+                <str>{gray}(Night)</str>
             </if>
         </line>
         <line>
-            <str> 维度: {gold}{dimension} ({dimensionid})；</str>
-			<operation>
-				<str>EQ</str>
-				<var>moonphase</var>
-				<num>0</num>
-				<num>1</num>
-				<num>2</num>
-				<num>3</num>
-				<num>4</num>
-				<num>5</num>
-				<num>6</num>
-				<num>7</num>
-				<str>$b月相:$a满月</str>
-				<str>$b月相:$c亏凸月</str>
-				<str>$b月相:$d下弦月</str>
-				<str>$b月相:$e残月</str>
-				<str>$b月相:$6新月</str>
-				<str>$b月相:$9娥眉月</str>
-				<str>$b月相:$3上弦月</str>
-				<str>$b月相:$b盈凸月</str>
-			</operation>
+            <str> Dim: {gold}{dimension} ({dimensionid})；</str>
             <if>
                 <var>snowing</var>
-                <str> 正在 {darkgreen}{underline}下雪{reset}</str>
+                <str> Weather: {darkgreen}{underline}Snow{reset}</str>
             </if>
             <if>
                 <var>raining</var>
-                <str> 正在 {darkgreen}{underline}下雨{reset}</str>
+                <str> Weather: {darkgreen}{underline}Rain{reset}</str>
             </if>
             <if>
                 <var>thundering</var>
-                <str> 并且是 {darkgreen}{u}暴风雨{reset}.</str>
+                <str> Weather: {darkgreen}{u}Storm{reset}.</str>
             </if>
         </line>
         <line>
-            <str> 群系: $3{biome}$f </str>
+            <str> Formation: $3{biome}$f </str>
             <str> {gold}{temperature}{white}°F {gold}</str>
             <round>
                 <div>
@@ -196,11 +176,11 @@
                 <num>0</num>
             </round>
             <str>{white}K</str>
-            <str> {gold}{humidity}{white}% 湿度</str>
+            <str> {gold}{humidity}{white}% Humidity</str>
         </line>
 		<line>
-            <str> 血魔法：</str>
-            <str>当前LP：$6</str>
+            <str> Blood Magic：</str>
+            <str>Current LP：$6</str>
             <if>
                 <greater>
                     <round>
@@ -597,7 +577,7 @@
             </concat>
             <str>$f</str>
 
-            <str> 最大LP： $6</str>
+            <str> Max LP： $6</str>
             <if>
                 <greater>
                     <round>
@@ -996,29 +976,29 @@
             <str>$f </str>
         </line>
 		<line>
-            <str> 神秘时代： </str>
-            <str>§b灵气§r§0：§b</str>
+            <str> Thaumastic： </str>
+            <str>§bAura§r§0：§b</str>
             <round>
                 <num>{thaumaura}</num>
                 <num>0</num>
             </round>
             <str> §6|§r </str>
-            <str>§5腐化§r§0：§d</str>
+            <str>§5Flux§r§0：§d</str>
             <round>
                 <num>{thaumflux}</num>
                 <num>0</num>
             </round>
-            <str>§5正常扭曲§r§0：§d</str>
+            <str>§5Normal §r§0：§d</str>
             <round>
                 <num>{thaumwarpnormal}</num>
                 <num>0</num>
             </round>
-            <str>§5永久扭曲§r§0：§d</str>
+            <str>§5Permanent §r§0：§d</str>
             <round>
                 <num>{thaumwarpperm}</num>
                 <num>0</num>
             </round>
-            <str>§5临时扭曲§r§0：§d</str>
+            <str>§5Temporary §r§0：§d</str>
             <round>
                 <num>{thaumwarptemp}</num>
                 <num>0</num>
@@ -1061,7 +1041,7 @@
                     </or>
                 </and>
                 <concat>
-                    <str> 当前处于$2{underline}矿脉$f区块</str>
+                    <str> Currently located in the $2 {underline} ore vein $f block</str>
                 </concat>
             </if>
         </line>
@@ -1102,7 +1082,7 @@
                     </or>
                 </and>
                 <concat>
-                    <str> 当前处于$2{underline}矿脉$f 中心</str>
+                    <str> Currently located at the center of $2 {offline} vein $f</str>
                 </concat>
             </if>
             <if>
@@ -1154,7 +1134,7 @@
                         </and>
                         <str></str>
                     </if>
-                    <str>当前处于$4{underline}区块$f中心</str>
+                    <str>Currently in the $4 {underline} block $f center</str>
                 </concat>
             </if>
         </line>

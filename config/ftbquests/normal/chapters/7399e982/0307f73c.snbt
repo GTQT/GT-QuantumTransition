@@ -1,0 +1,31 @@
+{
+	x: -2.0d,
+	y: 10.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "3e856291",
+		type: "item",
+		items: [{
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "evage"
+			}
+		}],
+		count: 4L
+	},
+	{
+		uid: "c8758af5",
+		type: "gamestage",
+		stage: "IV"
+	}],
+	rewards: [{
+		uid: "5ecf00aa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ivage"
+			}
+		}
+	}]
+}

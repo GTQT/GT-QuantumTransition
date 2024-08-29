@@ -1,0 +1,48 @@
+{
+	title: "IV时代快乐五连抽",
+	icon: {
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "hvage"
+		}
+	},
+	x: -1.0d,
+	y: 10.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "1e856945",
+		type: "ftbmoney:money",
+		value: 1600L
+	},
+	{
+		uid: "2a2bb2d6",
+		type: "gamestage",
+		title: "IV时代快乐五连抽",
+		stage: "IV"
+	}],
+	rewards: [{
+		uid: "24c1ec47",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "513c0e6e",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "07e556af",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "4767c359",
+		type: "random",
+		table: 9
+	},
+	{
+		uid: "23e942e8",
+		type: "random",
+		table: 9
+	}]
+}

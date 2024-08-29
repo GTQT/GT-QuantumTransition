@@ -7,10 +7,10 @@
 	],
 	hide: true,
 	tasks: [{
-		uid: "a4aa50fe",
+		uid: "ec78f740",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 17059"
+			item: "gregtech:machine 1 3194"
 		}]
 	}],
 	rewards: [{

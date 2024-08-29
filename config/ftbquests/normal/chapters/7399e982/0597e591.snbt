@@ -26,7 +26,7 @@
 			Charge: 39912100L
 		}
 	},
-	x: 4.0d,
+	x: 1.0d,
 	y: 2.0d,
 	tasks: [{
 		uid: "b1e6c79e",
@@ -161,25 +161,6 @@
 		}
 	},
 	{
-		uid: "9d528710",
-		type: "item",
-		item: {
-			id: "gregtech:mortar",
-			tag: {
-				DisallowContainerItem: 0b,
-				GT.Tool: {
-					Material: "gregtech:cobalt_brass",
-					MaxDurability: 1023,
-					Durability: 0,
-					AttackDamage: 0.0f,
-					AttackSpeed: -2.6000001f
-				},
-				HideFlags: 2,
-				GT.Behaviours: {}
-			}
-		}
-	},
-	{
 		uid: "347e2ac9",
 		type: "item",
 		item: {
@@ -192,6 +173,25 @@
 					Durability: 0,
 					AttackDamage: 0.0f,
 					AttackSpeed: -2.7f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		uid: "2b7e7290",
+		type: "item",
+		item: {
+			id: "gregtech:mortar",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:cobalt_brass",
+					MaxDurability: 1023,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -2.6000001f
 				},
 				HideFlags: 2,
 				GT.Behaviours: {}

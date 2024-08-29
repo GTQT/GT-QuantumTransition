@@ -1,0 +1,40 @@
+{
+  "catalystStack": {
+    "registryName": {
+      "domain": "gregtech",
+      "path": "machine"
+    },
+    "meta": 3007
+  },
+  "components": [
+    {
+      "weight": 75,
+      "oreName": "orePlatinum"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreIridium"
+    },
+    {
+      "weight": 15,
+      "oreName": "orePalladium"
+    },
+    {
+      "weight": 75,
+      "oreName": "oreOsmium"
+    },
+    {
+      "weight": 50,
+      "oreName": "oreRhodium"
+    },
+    {
+      "weight": 15,
+      "oreName": "oreRuthenium"
+    }
+  ],
+  "explosionStrength": 15.0,
+  "radius": 14,
+  "maxWeight": 1080,
+  "version": 3,
+  "cost": 12500000
+}

@@ -1,7 +1,7 @@
 {
 	title: "抽屉礼包",
 	icon: "storagedrawers:controller",
-	x: 2.0d,
+	x: 3.0d,
 	y: 2.0d,
 	tasks: [{
 		uid: "b6976a97",

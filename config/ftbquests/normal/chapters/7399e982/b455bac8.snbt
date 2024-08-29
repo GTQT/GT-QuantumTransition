@@ -1,0 +1,9 @@
+{
+	title: "我是抽奖",
+	x: -1.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "880cdaeb",
+		type: "checkmark"
+	}]
+}
