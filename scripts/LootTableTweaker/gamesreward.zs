@@ -4,6 +4,7 @@ import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Conditions;
 import loottweaker.vanilla.loot.Functions;
 
+
 // Create the loot pool for our loot table
 LootTweaker.newTable("chest1"); 
 val chest1 = LootTweaker.getTable("chest1");
@@ -55,6 +56,12 @@ pool1.addItemEntry(<gregtech:machine:2>, 15, 1, [{"count": {"min": 4.0, "max": 8
 pool1.addItemEntry(<gregtech:machine:5>, 10, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
 pool1.addItemEntry(<gregtech:machine:6>, 10, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
 pool1.addItemEntry(<gregtech:machine:1612>, 20, 1, [{"count": {"min": 2.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
+pool1.addItemEntry(<gtqtcore:gtqt_meta_item_1:200>, 15, 1, [{"count": {"min": 2.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
+pool1.addItemEntry(<gtqtcore:gtqt_meta_item_1:201>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool1.addItemEntry(<gtqtcore:gtqt_meta_item_1:202>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool1.addItemEntry(<gtqtcore:gtqt_meta_item_1:203>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool1.addItemEntry(<gtqtcore:gtqt_meta_item_1:204>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool1.addItemEntry(<gtqtcore:gtqt_meta_item_1:205>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
 
 LootTweaker.newTable("chest2"); 
 val chest2 = LootTweaker.getTable("chest2");
@@ -121,6 +128,12 @@ pool2.addItemEntry(<forestry:ffarm:2>.withTag({FarmBlock: 1}), 20, 1, [{"count":
 pool2.addItemEntry(<forestry:ffarm:3>.withTag({FarmBlock: 1}), 20, 1, [{"count": {"min": 4.0, "max": 8.0}, "function": "minecraft:set_count"}], []);
 pool2.addItemEntry(<forestry:ffarm:4>.withTag({FarmBlock: 1}), 20, 1, [{"count": {"min": 4.0, "max": 8.0}, "function": "minecraft:set_count"}], []);
 pool2.addItemEntry(<forestry:ffarm:5>.withTag({FarmBlock: 1}), 20, 1, [{"count": {"min": 4.0, "max": 8.0}, "function": "minecraft:set_count"}], []);
+pool2.addItemEntry(<gtqtcore:gtqt_meta_item_1:200>, 15, 1, [{"count": {"min": 2.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
+pool2.addItemEntry(<gtqtcore:gtqt_meta_item_1:201>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool2.addItemEntry(<gtqtcore:gtqt_meta_item_1:202>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool2.addItemEntry(<gtqtcore:gtqt_meta_item_1:203>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool2.addItemEntry(<gtqtcore:gtqt_meta_item_1:204>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool2.addItemEntry(<gtqtcore:gtqt_meta_item_1:205>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
 
 LootTweaker.newTable("chest3"); 
 val chest3 = LootTweaker.getTable("chest3");
@@ -170,6 +183,12 @@ pool3.addItemEntry(<forestry:chipsets:0>, 10, 1, [{"count": {"min": 1.0, "max": 
 pool3.addItemEntry(<forestry:chipsets:1>, 10, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
 pool3.addItemEntry(<forestry:chipsets:2>, 10, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
 pool3.addItemEntry(<forestry:chipsets:3>, 10, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool3.addItemEntry(<gtqtcore:gtqt_meta_item_1:200>, 15, 1, [{"count": {"min": 2.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
+pool3.addItemEntry(<gtqtcore:gtqt_meta_item_1:201>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool3.addItemEntry(<gtqtcore:gtqt_meta_item_1:202>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool3.addItemEntry(<gtqtcore:gtqt_meta_item_1:203>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool3.addItemEntry(<gtqtcore:gtqt_meta_item_1:204>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool3.addItemEntry(<gtqtcore:gtqt_meta_item_1:205>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
 
 LootTweaker.newTable("chest4"); 
 val chest4 = LootTweaker.getTable("chest4");
@@ -205,6 +224,12 @@ pool4.addItemEntry(<gregtech:meta_item_1:174>, 15, 1, [{"count": {"min": 1.0, "m
 pool4.addItemEntry(<gregtech:meta_item_1:189>, 15, 1, [{"count": {"min": 1.0, "max":2.0}, "function": "minecraft:set_count"}], []);
 pool4.addItemEntry(<gregtech:meta_item_1:219>, 15, 1, [{"count": {"min": 1.0, "max":2.0}, "function": "minecraft:set_count"}], []);
 pool4.addItemEntry(<gregtech:meta_item_1:234>, 15, 1, [{"count": {"min": 1.0, "max":2.0}, "function": "minecraft:set_count"}], []);
+pool4.addItemEntry(<gtqtcore:gtqt_meta_item_1:200>, 15, 1, [{"count": {"min": 2.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
+pool4.addItemEntry(<gtqtcore:gtqt_meta_item_1:201>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool4.addItemEntry(<gtqtcore:gtqt_meta_item_1:202>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool4.addItemEntry(<gtqtcore:gtqt_meta_item_1:203>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool4.addItemEntry(<gtqtcore:gtqt_meta_item_1:204>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+pool4.addItemEntry(<gtqtcore:gtqt_meta_item_1:205>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
 
 val loottable as string[]= [
 "minecraft:chests/abandoned_mineshaft",
@@ -274,5 +299,11 @@ gt.addItemEntry(<gregtech:machine:2>, 4, 1, [{"count": {"min": 1.0, "max": 1.0},
 gt.addItemEntry(<gregtech:machine:5>, 3, 1, [{"count": {"min": 1.0, "max": 1.0}, "function": "minecraft:set_count"}], []);
 gt.addItemEntry(<gregtech:machine:6>, 2, 1, [{"count": {"min": 1.0, "max": 1.0}, "function": "minecraft:set_count"}], []);
 gt.addItemEntry(<gregtech:machine:1612>, 5, 1, [{"count": {"min": 2.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
+gt.addItemEntry(<gtqtcore:gtqt_meta_item_1:200>, 15, 1, [{"count": {"min": 2.0, "max": 4.0}, "function": "minecraft:set_count"}], []);
+gt.addItemEntry(<gtqtcore:gtqt_meta_item_1:201>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+gt.addItemEntry(<gtqtcore:gtqt_meta_item_1:202>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+gt.addItemEntry(<gtqtcore:gtqt_meta_item_1:203>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+gt.addItemEntry(<gtqtcore:gtqt_meta_item_1:204>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
+gt.addItemEntry(<gtqtcore:gtqt_meta_item_1:205>, 15, 1, [{"count": {"min": 1.0, "max": 2.0}, "function": "minecraft:set_count"}], []);
 }
 

@@ -6,7 +6,7 @@
 			type: "evage"
 		}
 	},
-	x: -1.0d,
+	x: -3.0d,
 	y: 9.0d,
 	can_repeat: true,
 	tasks: [{

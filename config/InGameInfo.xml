@@ -104,7 +104,7 @@
             <str>MB</str>
         </line>
         <line>
-            <str> Data{darkaqua} </str>
+            <str> Year{darkaqua} </str>
             <add>
                 <round>
                     <div>
@@ -121,7 +121,7 @@
                 </round>
                 <num>1</num>
             </add>
-            <str> {white}Year；{darkaqua} </str>
+            <str> {white}Data；{darkaqua} </str>
             <modi>
                 <var>day</var>
                 <num>365</num>

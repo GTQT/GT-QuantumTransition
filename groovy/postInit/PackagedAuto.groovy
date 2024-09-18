@@ -1,7 +1,7 @@
 crafting.replaceShaped('packagedauto:packager', item('packagedauto:packager'), [
     [ore('plateSteel'), item('packagedauto:me_package_component'), ore('plateSteel')],
     [ore('wireFineRedAlloy'), metaitem('robot.arm.mv'), ore('wireFineRedAlloy')],
-    [ore('plateSteel'), ore('piston'), ore('plateSteel')]
+    [ore('plateSteel'), ore('plateSteel'), ore('plateSteel')]
 ])
 
 crafting.replaceShaped('packagedauto:encoder', item('packagedauto:encoder'), [
@@ -19,7 +19,7 @@ crafting.replaceShaped('packagedauto:unpackager', item('packagedauto:unpackager'
 crafting.replaceShaped('packagedauto:packager_extension', item('packagedauto:packager_extension'), [
     [ore('plateSteel'), item('packagedauto:me_package_component'), ore('plateSteel')],
     [ore('wireFineRedAlloy'), metaitem('crate.wood'), ore('wireFineRedAlloy')],
-    [ore('plateSteel'), ore('piston'), ore('plateSteel')]
+    [ore('plateSteel'), ore('plateSteel'), ore('plateSteel')]
 ])
 
 crafting.replaceShaped('packagedauto:recipe_holder', item('packagedauto:recipe_holder') * 2, [

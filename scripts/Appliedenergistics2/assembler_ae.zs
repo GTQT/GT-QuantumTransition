@@ -191,6 +191,8 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 	
+recipes.addShaped(<appliedenergistics2:interface>, [[<appliedenergistics2:interface>]]);
+recipes.addShaped(<appliedenergistics2:fluid_interface>, [[<appliedenergistics2:fluid_interface>]]);
 assembler.recipeBuilder() 
     .inputs(<appliedenergistics2:part:16> * 4,<gregtech:meta_plate:113> * 8,<appliedenergistics2:material:23>,<appliedenergistics2:material:43>,<appliedenergistics2:material:44>)
 	.fluidInputs(<liquid:polytetrafluoroethylene> * 2880)

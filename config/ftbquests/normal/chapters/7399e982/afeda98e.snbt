@@ -6,7 +6,7 @@
 			type: "luv_"
 		}
 	},
-	x: -1.0d,
+	x: -3.0d,
 	y: 11.0d,
 	can_repeat: true,
 	tasks: [{

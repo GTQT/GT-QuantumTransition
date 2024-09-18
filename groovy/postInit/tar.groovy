@@ -1,6 +1,0 @@
-mods.gregtech.centrifuge.recipeBuilder()
-	.fluidInputs(fluid('tar')*2000)
-    .fluidOutputs(fluid('pure_tar')*1000)
-    .duration(200) 
-    .EUt(120) 
-    .buildAndRegister()

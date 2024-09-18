@@ -1,0 +1,228 @@
+#Materials
+gregtech.material.meteoric_iron=Meteoric Iron
+gregtech.material.desh=Desh
+
+#Items
+metaitem.computerTier1.name=Navigation Computer (Tier 1)
+metaitem.computerTier2.name=Navigation Computer (Tier 2)
+metaitem.computerTier3.name=Navigation Computer (Tier 3)
+metaitem.computerTier4.name=Navigation Computer (Tier 4)
+metaitem.computerTier5.name=Navigation Computer (Tier 5)
+metaitem.computerTier6.name=Navigation Computer (Tier 6)
+metaitem.computerMiner.name=Flight Control Computer (Mining)
+metaitem.computerCargo.name=Flight Control Computer (Unknown)
+metaitem.computerBuggy.name=Flight Control Computer (Unknown)
+
+metaitem.heavy_alloy_plate.name=Heavy Alloy Plate
+metaitem.heavy_alloy_platea.name=Heavy Alloy Plate A
+metaitem.heavy_alloy_plateb.name=Heavy Alloy Plate B
+metaitem.heavy_alloy_platec.name=Heavy Alloy Plate C
+metaitem.heavy_alloy_plated.name=Heavy Alloy Plate D
+metaitem.heavy_alloy_platee.name=Heavy Alloy Plate E
+
+metaitem.mining_drone.lv.name=Ore Collector (§7LV§r)
+metaitem.mining_drone.mv.name=Ore Collector (§bMV§r)
+metaitem.mining_drone.hv.name=Ore Collector (§6HV§r)
+metaitem.mining_drone.ev.name=Ore Collector (§5EV§r)
+metaitem.mining_drone.iv.name=Ore Collector (§1IV§r)
+metaitem.mining_drone.luv.name=Ore Collector (§dLuV§r)
+metaitem.mining_drone.zpm.name=Ore Collector (§cZPM§r)
+metaitem.mining_drone.uv.name=Ore Collector (§3UV§r)
+metaitem.mining_drone.uhv.name=Ore Collector (§4UHV§r)
+metaitem.mining_drone.uev.name=Ore Collector (§aUEV§r)
+metaitem.mining_drone.uiv.name=Ore Collector (§2UIV§r)
+metaitem.mining_drone.uxv.name=Ore Collector (§eUXV§r)
+metaitem.mining_drone.opv.name=Ore Collector (§9OpV§r)
+metaitem.mining_drone.max.name=Ore Collector (§c§lMAX§r)
+
+#Tooltips and Names
+
+metaitem.mining_drone.lv.tooltip=§7Interstellar Scrapper I
+metaitem.mining_drone.mv.tooltip=§bInterstellar Scrapper II
+metaitem.mining_drone.hv.tooltip=§6Interstellar Scrapper III
+metaitem.mining_drone.ev.tooltip=§5Asteroid Hunter I
+metaitem.mining_drone.iv.tooltip=§1Asteroid Hunter II
+metaitem.mining_drone.luv.tooltip=§dAsteroid Hunter III
+metaitem.mining_drone.zpm.tooltip=§cPlanet Breaker I
+metaitem.mining_drone.uv.tooltip=§3Planet Breaker II
+metaitem.mining_drone.uhv.tooltip=§4Planet Breaker III
+metaitem.mining_drone.uev.tooltip=§aPortable Cosmic Resonator I
+metaitem.mining_drone.uiv.tooltip=§2Portable Cosmic Resonator II
+metaitem.mining_drone.uxv.tooltip=§ePortable Cosmic Resonator III
+metaitem.mining_drone.opv.tooltip=§9-Create a universe, then destroy it-
+metaitem.mining_drone.max.tooltip=§c=《༺=☆Yours is mine, mine is still mine☆=༻》=
+
+metaitem.pos_binding_card.name=Data Card
+metaitem.telescope.name=Telescope
+metaitem.satellite_rocket.name=Satellite Launch Rocket
+metaitem.basic_satellite.name=Basic Satellite
+
+metaitem.planetidchip.name=Planet ID Chip
+metaitem.satelliteidchip.name=Satellite ID Chip
+metaitem.stationidchip.name=Station ID Chip
+metaitem.trackingcircuit.name=Probe ID Circuit
+metaitem.asteroididchip.name=Asteroid ID Chip
+metaitem.elevatorchip.name=Space Elevator ID Chip
+
+metaitem.combustionengine.name=Basic Chemical Propulsion Engine
+metaitem.advcombustionengine.name=Advanced Chemical Propulsion Engine
+
+metaitem.satelliteprimaryfunction1.name=Ore Vein Sensor
+metaitem.satelliteprimaryfunction2.name=Atmosphere Sensor
+metaitem.satelliteprimaryfunction3.name=Orbital Data Collector
+metaitem.satelliteprimaryfunction4.name=Deep Space Data Collector
+metaitem.satelliteprimaryfunction5.name=Cosmic Particle Collector
+
+metaitem.solar_plate_i.name=Basic Satellite Solar Panel
+metaitem.solar_plate_ii.name=Intermediate Satellite Solar Panel
+metaitem.solar_plate_iii.name=Advanced Satellite Solar Panel
+metaitem.solar_plate_iv.name=Elite Satellite Solar Panel
+metaitem.solar_plate_v.name=Ultimate Satellite Solar Panel
+
+item.pos_binding_card.name=Position Binding Card
+#Blocks
+
+tile.space_elevator_casing.basic_casing.name=Cable Anchor Base Material
+tile.space_elevator_casing.internal_structure.name=Primary Structural Support
+tile.space_elevator_casing.support_structure.name=Constraint Support
+tile.space_elevator_casing.floor.name=Reinforced Foundation
+tile.space_elevator_casing.cable_casing.name=Cable Bundle Anchor
+
+tile.space_elevator_casing.motor_casing_mk1.name=Magnetic Rail Accelerator Mk I
+tile.space_elevator_casing.motor_casing_mk1.tooltip=Boundless Frontier
+tile.space_elevator_casing.motor_casing_mk2.name=Magnetic Rail Accelerator Mk II
+tile.space_elevator_casing.motor_casing_mk2.tooltip=Stellar Radiance
+tile.space_elevator_casing.motor_casing_mk3.name=Magnetic Rail Accelerator Mk III
+tile.space_elevator_casing.motor_casing_mk3.tooltip=Endless Night Sky
+tile.space_elevator_casing.motor_casing_mk4.name=Magnetic Rail Accelerator Mk IV
+tile.space_elevator_casing.motor_casing_mk4.tooltip=Dancing Stars
+tile.space_elevator_casing.motor_casing_mk5.name=Magnetic Rail Accelerator Mk V
+tile.space_elevator_casing.motor_casing_mk5.tooltip=Galactic Projection
+
+tile.space_elevator_casing.update_casing_mk1.name=Fractal Calculator Mk I
+tile.space_elevator_casing.update_casing_mk1.tooltip=Specialized Computations
+tile.space_elevator_casing.update_casing_mk2.name=Fractal Calculator Mk II
+tile.space_elevator_casing.update_casing_mk2.tooltip=High-Float Pressure
+tile.space_elevator_casing.update_casing_mk3.name=Fractal Calculator Mk III
+tile.space_elevator_casing.update_casing_mk3.tooltip=Quantum Cluster
+
+#Machines
+gtqtspace.machine.space_elevator.tooltip.13=I Am the Elevator King
+recipemap.space_elevator_mining_module.name=Space Ore Deposit Extraction
+recipemap.space_elevator_drilling_module.name=Space Geyser Extraction
+gtqtspace.multiblock.se.motor=Orbital Accelerator: %s Star Domain: %s Miner: %s
+gtqtspace.multiblock.se.abcdn=Module Project: Miner, Overclock, Power Consumption, Parallelism
+gtqtspace.multiblock.se.abcd=Module Levels: %s %s %s %s
+gtqtspace.multiblock.se.threshold_decrement=Reduce Star Domain
+gtqtspace.multiblock.se.threshold_increment=Expand Star Domain
+#Additional Machine and Block Names & Tooltips
+
+recipemap.star_survey.name=Star System Research
+gtqtspace.machine.cosmic_ray_detector.name=Cosmic Ray Detector
+gtqtspace.machine.cosmic_ray_detector.tooltip.1=Collects information and particles from the cosmos
+gtqtspace.machine.cosmic_ray_detector.tooltip_shift.1=Height determined by the topmost sensor block
+gtqtspace.machine.cosmic_ray_detector.tooltip_shift.2=No non-transparent blocks can be above the sensor
+gtqtspace.machine.cosmic_ray_detector.altitude=Current Altitude: %s
+gtqtspace.machine.cosmic_ray_detector.can_see_sky.false=§cSensor cannot see the sky
+gtqtspace.machine.cosmic_ray_detector.can_see_sky.true=Sensor is functioning normally
+recipemap.cosmic_ray_detector_recipes.name=Ray Detection Recipes
+gtqtspace.machine.satellite_station.name=Large Orbital Telescope Monitoring Station
+gtqtspace.machine.satellite_survey.name=Satellite Data Monitoring Station
+gtqtspace.machine.satellite_assembler.name=Satellite Assembly Machine
+gtqtspace.machine.sentry_array.name=Central Control Hub
+gtqtspace.machine.transport.name=Space Station Teleporter
+tile.gui.contained_part=Contained Components
+tile.gui.solar_tier=Solar Panel Tier
+tile.gui.will_update=Estimated Component Upgrade
+
+item.info.pos_binding.no_data=No Data Available QAQ
+item.info.pos_binding.stored_pos=Stored Coordinates:
+
+gtqtspace.machine.space_elevator.name=§dSpace Elevator
+gtqtspace.machine.view_space_elevator.name=§dSpace Elevator Expansion Mode Preview
+gtqtspace.machine.space_elevator.max_modules=Maximum Modules Installed: %s
+gtqtspace.machine.space_elevator.total_modules=Total Modules Installed: %s
+gtqtspace.machine.space_elevator.modules.none=No Modules Installed!
+gtqtspace.machine.space_elevator.modules=Installed Modules:
+gtqtspace.machine.space_elevator.motor_tier=Magnetic Rail Accelerator Tier: %s
+gtqtspace.gui.multiblock.space_elevator_extended=Toggle Expansion
+gtqtspace.gui.multiblock.space_elevator_teleport=Teleport
+gtqtspace.gui.multiblock.space_elevator.enable_all_modules=Enable All Modules
+gtqtspace.gui.multiblock.space_elevator.disable_all_modules=Disable All Modules
+
+gtqtspace.multiblock.pump_module.planet=Planet:
+gtqtspace.multiblock.pump_module.fluid=Fluid:
+space_pump.name=Space Fluid Extractor
+
+gtqtspace.machine.pump_module_1.name=Space Fluid Extractor MK-I
+gtqtspace.machine.pump_module_2.name=Space Fluid Extractor MK-II
+gtqtspace.machine.pump_module_3.name=Space Fluid Extractor MK-III
+
+gtqtspace.jei.space_pump_planet_name=Planet: %s
+gtqtspace.jei.space_pump_planet_number=Planet ID: %s
+gtqtspace.jei.space_pump_fluid_number=Fluid ID: %s
+gtqtspace.jei.space_pump_fluid_amount=Amount: %s
+
+gtqtspace.machine.pump_module_1.display_count=Space Fluid Extractor MK-I x%s
+gtqtspace.machine.pump_module_2.display_count=Space Fluid Extractor MK-II x%s
+gtqtspace.machine.pump_module_3.display_count=Space Fluid Extractor MK-III x%s
+
+gtqtspace.machine.mining_module_1.name=Space Mining Module MK-I
+gtqtspace.machine.mining_module_2.name=Space Mining Pod MK-II
+gtqtspace.machine.mining_module_3.name=Space Mining Pod MK-III
+
+space_mining.name=Space Mining
+gtqtspace.jei.space_miner.total_eu=Total: %s EU
+gtqtspace.jei.space_miner.eut=Energy Consumption: %s EU/t (%s)
+gtqtspace.jei.space_miner.duration=Duration: %s seconds
+gtqtspace.jei.space_miner.tier=Requires MK-%s Module
+gtqtspace.jei.space_miner.distance=Distance: %s-%s
+gtqtspace.jei.space_miner.size=Size: %s-%s
+gtqtspace.jei.space_miner.cwut=Minimum CWU/t: %s
+gtqtspace.jei.space_miner.weight=Weight: %s
+
+gtqtspace.gui.mining_module.distance=Distance:
+gtqtspace.gui.mining_module.range=Range:
+gtqtspace.gui.mining_module.step=Step:
+gtqtspace.gui.mining_module.cycle=Calculate each operation based on set steps
+gtqtspace.gui.mining_module.parallel=Parallel:
+gtqtspace.gui.mining_module.blank_name=<Material to Add>
+gtqtspace.gui.mining_module.blank_name_remove=<Material to Remove>
+gtqtspace.gui.mining_module.whitelist=Whitelist:
+gtqtspace.gui.mining_module.blacklist=Blacklist:
+gtqtspace.gui.mining_module.remove=Remove:
+gtqtspace.gui.mining_module.whitelist_empty=Whitelist is empty!
+gtqtspace.gui.mining_module.blacklist_empty=Blacklist is empty!
+gtqtspace.gui.mining_module.whitelist_cleared=Whitelist cleared!
+gtqtspace.gui.mining_module.blacklist_cleared=Blacklist cleared!
+gtqtspace.gui.mining_module.print_whitelist_or_clear=Show current whitelist/blacklist, hold Shift and click to clear list
+gtqtspace.gui.mining_module.change_whitelist_mode=Toggle between whitelist and blacklist mode
+
+gtqtspace.gui.mining_module.min_distance=Minimum Distance: %s
+gtqtspace.gui.mining_module.max_distance=Maximum Distance: %s
+
+gtqtspace.machine.mining_module_1.display_count=Space Mining Module MK-I x%s
+gtqtspace.machine.mining_module_2.display_count=Space Mining Module MK-II x%s
+gtqtspace.machine.mining_module_3.display_count=Space Mining Module MK-III x%s
+
+gtqtspace.machine.assembler_module_1.name=Space Assembler Module MK-I
+gtqtspace.machine.assembler_module_2.name=Space Assembler Module MK-II
+gtqtspace.machine.assembler_module_3.name=Space Assembler Module MK-III
+
+gtqtspace.machine.assembler_module_1.display_count=Space Assembler Module MK-I x%s
+gtqtspace.machine.assembler_module_2.display_count=Space Assembler Module MK-II x%s
+gtqtspace.machine.assembler_module_3.display_count=Space Assembler Module MK-III x%s
+
+tile.gtqtspace_elevator_casing.concrete_strong.name=Ultra-Strong Concrete Floor Panel
+tile.gtqtspace_elevator_casing.elevator_base.name=Space Elevator Base Shell
+tile.gtqtspace_elevator_casing.elevator_internal.name=Space Elevator Internal Structure
+tile.gtqtspace_elevator_casing.elevator_support.name=Space Elevator Support Structure
+tile.gtqtspace_elevator_casing.elevator_cable.name=Space Elevator Cable
+
+tile.gtqtspace_elevator_casing_tiered.elevator_motor_1.name=Space Elevator Motor MK-I
+tile.gtqtspace_elevator_casing_tiered.elevator_motor_2.name=Space Elevator Motor MK-II
+tile.gtqtspace_elevator_casing_tiered.elevator_motor_3.name=Space Elevator Motor MK-III
+tile.gtqtspace_elevator_casing_tiered.elevator_motor_4.name=Space Elevator Motor MK-IV
+tile.gtqtspace_elevator_casing_tiered.elevator_motor_5.name=Space Elevator Motor MK-V
+
+itemGroup.gtqtspace_core=GTQT| Aerospace

@@ -6,7 +6,7 @@
 			type: "hvage"
 		}
 	},
-	x: -1.0d,
+	x: -3.0d,
 	y: 8.0d,
 	can_repeat: true,
 	tasks: [{

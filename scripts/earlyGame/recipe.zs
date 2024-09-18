@@ -48,11 +48,4 @@ recipes.addShaped(<gregtech:machine:1>, [[<ore:plateBronze>, <ore:plateBronze>, 
 //铁粒
 recipes.addShapeless(<minecraft:iron_nugget> * 9, [<ore:ingotIron>]);
 
-//无中生有
-recipes.addShaped(<gregtech:meta_dust_tiny:41>, [[<gtqtcore:gtqt_meta_item_1:205>], [<ore:toolMortar>]]);
-recipes.addShaped(<gregtech:meta_dust_tiny:271>, [[<gtqtcore:gtqt_meta_item_1:204>], [<ore:toolMortar>]]);
-recipes.addShaped(<gregtech:meta_dust_tiny:260>, [[<gtqtcore:gtqt_meta_item_1:203>], [<ore:toolMortar>]]);
-recipes.addShaped(<gregtech:meta_dust_tiny:112>, [[<gtqtcore:gtqt_meta_item_1:202>], [<ore:toolMortar>]]);
-recipes.addShaped(<gregtech:meta_dust_tiny:51>, [[<gtqtcore:gtqt_meta_item_1:201>], [<ore:toolMortar>]]);
-recipes.addShaped(<gregtech:meta_dust_tiny:25>, [[<gtqtcore:gtqt_meta_item_1:200>], [<ore:toolMortar>]]);
 

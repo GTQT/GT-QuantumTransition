@@ -452,6 +452,7 @@ mods.botania.elven_trade.recipeBuilder()
         .output(item('pollution:pollution_meta_item_1', 55))
         .register()
 
+/*
 mods.botania.elven_trade.recipeBuilder()
         .input(ore('circuitLuv'),ore('circuitLuv'))
         .output(item('pollution:pollution_meta_item_1', 56))
@@ -496,6 +497,7 @@ mods.botania.elven_trade.recipeBuilder()
         .input(ore('circuitMax'),ore('circuitMax'))
         .output(item('pollution:pollution_meta_item_1', 64))
         .register()
+*/
 
 
 

@@ -1,0 +1,477 @@
+#Material Registration
+gregtech.material.infused_order=Order
+gregtech.material.infused_entropy=Entropy
+gregtech.material.infused_earth=Earth
+gregtech.material.infused_water=Flow
+gregtech.material.infused_fire=Blaze
+gregtech.material.infused_air=Air
+
+gregtech.material.infused_crystal=Crystal
+gregtech.material.infused_life=Life
+gregtech.material.infused_death=Death
+gregtech.material.infused_soul=Soul
+gregtech.material.infused_weapon=Weapon
+gregtech.material.infused_metal=Metal
+gregtech.material.infused_energy=Energy
+gregtech.material.infused_instrument=Instrument
+gregtech.material.infused_exchange=Exchange
+gregtech.material.infused_magic=Magic
+gregtech.material.infused_alchemy=Alchemy
+gregtech.material.infused_cold=Cold
+gregtech.material.infused_light=Light
+
+gregtech.material.thaumium=Thaumium
+gregtech.material.syrmorite=Syrmorite
+gregtech.material.octine=Octine
+gregtech.material.scabyst=Scabyst
+gregtech.material.valonite=Valonite
+gregtech.material.thaummix=Thaummix
+gregtech.material.roughdraft=Rough Draft Catalyst
+gregtech.material.substrate=Substrate Catalyst Base
+gregtech.material.aertitanium=Aertitanium
+gregtech.material.ignissteel=Ignissteel
+gregtech.material.aquasilver=Aquasilver
+gregtech.material.terracopper=Terracopper
+gregtech.material.ordolead=Ordolead
+gregtech.material.perditioaluminium=Perditioaluminium
+gregtech.material.mana=Mana
+gregtech.material.impuremana=Impure Mana
+gregtech.material.manasteel=Manasteel
+gregtech.material.salismundus=Salismundus
+gregtech.material.mansussteel=Mansussteel
+gregtech.material.terrasteel=Terrasteel
+gregtech.material.keqinggold=Keqinggold
+
+gregtech.material.lotus_dust=Lotus Dust
+gregtech.material.ethyl_silicate=Ethyl Silicate
+gregtech.material.rough_llp=LLP@SiO2 Rough Draft
+gregtech.material.llp=Superhydrophobic LLP@SiO2
+gregtech.material.oil_with_llp=LLP-Oil Suspension
+gregtech.material.super_sticky_tar=Super Sticky Tar
+gregtech.material.magic_nitrobenzene=Magic Explosion-Resistant Coking Nitrobenzene
+gregtech.material.pure_tar=Pure Tar
+
+gregtech.material.kobemetal=Kobemetal
+metaitem.ingotKobemetal.tooltip=Kobemetal, Miss You
+
+gregtech.material.rich_aura=Rich Aura Fluid
+gregtech.material.erich_aura=Enriched Aura Fluid
+gregtech.material.whitemansus=White Mansus
+gregtech.material.blackmansus=Black Mansus
+gregtech.material.sunnarium=Sunnarium Compound
+
+#Item Tooltips
+metaitem.ingotAertitanium.tooltip=Rhythm of the Breeze
+metaitem.ingotIgnissteel.tooltip=Ember of the Dying Sun
+metaitem.ingotAquasilver.tooltip=Flowing Water of Twisted Flowers
+metaitem.ingotTerracopper.tooltip=Solidification of the Earthly Kun
+metaitem.ingotOrdolead.tooltip=Order of the Celestial Hours
+metaitem.ingotPerditioaluminium.tooltip=Chaos of the Infinite Void
+metaitem.ingotMansussteel.tooltip="§7The Forest grows beyond the walls of Mansus, but every scholar of history knows that Mansus has no walls§r"
+metaitem.plateMansussteel.tooltip="§7Gathering the dreams of Mansus, pressed into plates§r"
+item.material.oreprefix.frameGtMansussteel.tooltip="§7Harvesting the scattered souls of Mansus, forging the framework (This line is not functional yet, unsure how to change it)§r"
+metaitem.ingotTerrasteel.tooltip=Named in Honor of the Earth
+
+#Items
+metaitem.blank_catalyst_core.name="§8Blank Catalyst Core§r"
+metaitem.cold_catalyst_core.name="§bIcy Catalyst Core§r"
+metaitem.hot_catalyst_core.name="§cFlaming Catalyst Core§r"
+metaitem.integration_catalyst_core.name="§6Integration Catalyst Core§r"
+metaitem.segregation_catalyst_core.name="§aSegregation Catalyst Core§r"
+metaitem.coking_catalyst_core.name="§8§lCoking Catalyst Core§r"
+
+metaitem.blank_catalyst_core.tooltip="§8Limitless Possibilities§r"
+metaitem.cold_catalyst_core.tooltip="§bExtreme Cold§r"
+metaitem.hot_catalyst_core.tooltip="§cRaging Flames§r"
+metaitem.integration_catalyst_core.tooltip="§6The Rivers Converge§r"
+metaitem.segregation_catalyst_core.tooltip="§aThe Wind Rises§r"
+metaitem.coking_catalyst_core.tooltip="§8§lThe Tar Marches§r"
+
+metaitem.vis_checker.name=Vis Checker
+
+#Equipment
+metaitem.wing_nano.name=Magical Nano-Flight Soul Conductor
+metaitem.wing_quantum.name=Magical Quantum-Flight Soul Conductor
+metaitem.nano_goggles.name=Magical Nano-Revealing Goggles
+metaitem.quantum_goggles.name=Magical Quantum-Revealing Goggles
+#Blocks
+tile.magic_block.void_prism.name=Enchanted Void Prismatic Refraction Shell
+tile.magic_block.spell_prism.name=Enchanted Prismatic Refraction Shell
+tile.magic_block.spell_prism_cold.name=Enchanted Icy Prismatic Refraction Shell
+tile.magic_block.spell_prism_hot.name=Enchanted Flaming Prismatic Refraction Shell
+tile.magic_block.spell_prism_water.name=Enchanted Flowing Prismatic Refraction Shell
+tile.magic_block.spell_prism_order.name=Enchanted Order Prismatic Refraction Shell
+tile.magic_block.spell_prism_air.name=Enchanted Air Prismatic Refraction Shell
+tile.magic_block.spell_prism_earth.name=Enchanted Earth Prismatic Refraction Shell
+tile.magic_block.spell_prism_void.name=Enchanted Void Prismatic Refraction Shell
+tile.magic_block.magic_battery.name=Enchanted Guidance Vis Energized Field Shell
+tile.magic_block.alloy_blast_casing.name=Enchanted Alloy Furnace Diffusion Element Condensation Shell
+
+tile.beam_core.beam_core_0.name=Thaumaturgic Intense Magnetic Array Core
+tile.beam_core.beam_core_1.name=Thaumaturgic Implosion Array Core
+tile.beam_core.beam_core_2.name=Thaumaturgic Pressure Conduction Array Core
+tile.beam_core.beam_core_3.name=Thaumaturgic Beam Confinement Array Core
+tile.beam_core.beam_core_4.name=Thaumaturgic Energy Accumulation Array Core
+
+tile.beam_core.filter_1.name=Tier 1 Thaumaturgic Beam Energy Aggregation Rune Core
+tile.beam_core.filter_2.name=Tier 2 Thaumaturgic Beam Energy Aggregation Rune Core
+tile.beam_core.filter_3.name=Tier 3 Thaumaturgic Beam Energy Aggregation Rune Core
+tile.beam_core.filter_4.name=Tier 4 Thaumaturgic Beam Energy Aggregation Rune Core
+tile.beam_core.filter_5.name=Tier 5 Thaumaturgic Beam Energy Aggregation Rune Core
+
+tile.turbine.bronze_gearbox.name=Alchemy Bronze Mechanism Box
+tile.turbine.steel_gearbox.name=Alchemy Steel Mechanism Box
+tile.turbine.stainless_steel_gearbox.name=Alchemy Stainless Steel Mechanism Box
+tile.turbine.titanium_gearbox.name=Alchemy Titanium Mechanism Box
+tile.turbine.tungstensteel_gearbox.name=Alchemy Tungsten Steel Mechanism Box
+
+tile.turbine.bronze_pipe.name=Alchemy Bronze Vis Conduit Component
+tile.turbine.steel_pipe.name=Alchemy Steel Vis Conduit Component
+tile.turbine.titanium_pipe.name=Alchemy Titanium Vis Conduit Component
+tile.turbine.tungstensteel_pipe.name=Alchemy Tungsten Steel Vis Conduit Component
+tile.turbine.polytetrafluoroethylene_pipe.name=Alchemy PTFE Vis Conduit Component
+
+tile.glass.laminated_glass.name=Enchanted Lambdaton Thaumaturgy Glass
+tile.glass.aaminated_glass.name=Enchanted Asmodeus Thaumaturgy Glass
+tile.glass.baminated_glass.name=Enchanted Brighton Thaumaturgy Glass
+tile.glass.caminated_glass.name=Enchanted Kant Thaumaturgy Glass
+tile.glass.daminated_glass.name=Enchanted Deconvia Thaumaturgy Glass
+
+tile.fusion_reactor.frame_i.name=Rudimentary Enchanted Containment Unit
+tile.fusion_reactor.frame_ii.name=Tier I Enchanted Containment Framework
+tile.fusion_reactor.frame_iii.name=Tier II Enchanted Containment Framework
+tile.fusion_reactor.frame_iv.name=Tier III Enchanted Containment Framework
+tile.fusion_reactor.frame_v.name=Tier IV Enchanted Containment Framework
+
+tile.fusion_reactor.compose_i.name=First-Order Soul Conductor Core
+tile.fusion_reactor.compose_ii.name=Second-Order Soul Conductor Core
+tile.fusion_reactor.compose_iii.name=Third-Order Soul Conductor Core
+tile.fusion_reactor.compose_iv.name=Fourth-Order Soul Conductor Core
+
+#misc casing
+tile.bot_block.terra_watertight_casing.name=Terra Watertight Mechanical Block
+
+#Coils
+tile.wire_coil.machine_coil_cupronickel.name=Tier 1 Blazing Flame Condensation Enrichment Rune
+tile.wire_coil.machine_coil_kanthal.name=Tier 2 Blazing Flame Condensation Enrichment Rune
+tile.wire_coil.machine_coil_nichrome.name=Tier 3 Blazing Flame Condensation Enrichment Rune
+tile.wire_coil.machine_coil_rtm_alloy.name=Tier 4 Blazing Flame Condensation Enrichment Rune
+tile.wire_coil.machine_coil_hssg.name=Tier 5 Blazing Flame Condensation Enrichment Rune
+tile.wire_coil.machine_coil_naquadah.name=Tier 6 Blazing Flame Condensation Enrichment Rune
+tile.wire_coil.machine_coil_trinium.name=Tier 7 Blazing Flame Condensation Enrichment Rune
+tile.wire_coil.machine_coil_tritanium.name=Tier 8 Blazing Flame Condensation Enrichment Rune
+
+#Circuit Boards
+metaitem.magic_circuit.ulv.name=Enchanted Circuit Board (§8ULV§r)
+metaitem.magic_circuit.lv.name=Enchanted Circuit Board (§7LV§r)
+metaitem.magic_circuit.mv.name=Enchanted Circuit Board (§bMV§r)
+metaitem.magic_circuit.hv.name=Enchanted Circuit Board (§6HV§r)
+metaitem.magic_circuit.ev.name=Enchanted Circuit Board (§5EV§r)
+metaitem.magic_circuit.iv.name=Enchanted Circuit Board (§1IV§r)
+metaitem.magic_circuit.luv.name=Enchanted Circuit Board (§dLuV§r)
+metaitem.magic_circuit.zpm.name=Enchanted Circuit Board (§cZPM§r)
+metaitem.magic_circuit.uv.name=Enchanted Circuit Board (§3UV§r)
+metaitem.magic_circuit.uhv.name=Enchanted Circuit Board (§4UHV§r)
+metaitem.magic_circuit.uev.name=Enchanted Circuit Board (§aUEV§r)
+metaitem.magic_circuit.uiv.name=Enchanted Circuit Board (§2UIV§r)
+metaitem.magic_circuit.uxv.name=Enchanted Circuit Board (§eUXV§r)
+metaitem.magic_circuit.opv.name=Enchanted Circuit Board (§9OpV§r)
+metaitem.magic_circuit.max.name=Enchanted Circuit Board (§c§lMAX§r)
+
+metaitem.magic_circuit.ulv.tooltip=Radiant with Magic！
+metaitem.magic_circuit.lv.tooltip=§7Radiant with Magic！§r
+metaitem.magic_circuit.mv.tooltip=§bRadiant with Magic！§r
+metaitem.magic_circuit.hv.tooltip=§6Radiant with Magic！§r
+metaitem.magic_circuit.ev.tooltip=§5Radiant with Magic！§r
+metaitem.magic_circuit.iv.tooltip=§1Radiant with Magic！§r
+metaitem.magic_circuit.luv.tooltip=§dRadiant with Magic！§r
+metaitem.magic_circuit.zpm.tooltip=§cRadiant with Magic！§r
+metaitem.magic_circuit.uv.tooltip=§3Radiant with Magic！§r
+metaitem.magic_circuit.uhv.tooltip=§4Radiant with Magic！§r
+metaitem.magic_circuit.uev.tooltip=§aRadiant with Magic！§r
+metaitem.magic_circuit.uiv.tooltip=§2Radiant with Magic！§r
+metaitem.magic_circuit.uxv.tooltip=§eRadiant with Magic！§r
+metaitem.magic_circuit.opv.tooltip=§9Radiant with Magic！§r
+metaitem.magic_circuit.max.tooltip=§c§lRadiant with Magic！§r
+#Slimes
+metaitem.tar_slime.name=Tar Slime
+metaitem.sugar_slime.name=Candy Slime
+metaitem.glycerol_slime.name=Glycerin Slime
+metaitem.glue_slime.name=Glue Slime
+metaitem.rubber_slime.name=Rubber Slime
+metaitem.tar_slime.tooltip=An endless supply of oil
+metaitem.sugar_slime.tooltip=An endless supply of candy
+metaitem.glycerol_slime.tooltip=An endless supply of glycerin
+metaitem.glue_slime.tooltip=An endless supply of glue
+metaitem.rubber_slime.tooltip=An endless supply of erasers
+
+metaitem.packaged_aura_node.name=Encapsulated Aura Node
+
+#Machines
+pollution.machine.mana_gen_lv.name=Basic Mana Generator
+pollution.machine.mana_gen_mv.name=Advanced Mana Generator
+pollution.machine.mana_gen_hv.name=Turbo Mana Generator
+pollution.machine.mana_gen_ev.name=Pulse Mana Generator
+pollution.machine.mana_gen_iv.name=Blast Mana Generator
+
+pollution.machine.vis.lv.name=Basic Vis Generator (§7LV§r)
+pollution.machine.vis.mv.name=Advanced Vis Generator (§bMV§r)
+pollution.machine.vis.hv.name=Turbo Vis Generator (§6HV§r)
+pollution.machine.vis.ev.name=Detonating Vis Generator (§5EV§r)
+pollution.machine.vis.iv.name=Blast Vis Generator (§1IV§r)
+gregtech.universal.tooltip.consume=§6Vis Conversion: Pollution (1:0.1) Ratio: %s Vis Produced per EU: %s EU
+
+pollution.muffler.pollution_tooltip1=§6Generates pollution once per tick based on pollution rate (base pollution is 0.001)
+pollution.muffler.pollution_tooltip2=§6Pollution Rate: %s (Actual pollution is base pollution * pollution rate)
+pollution.machine.pollution_muffler_hatch.lv.name=Basic Muffler Hatch (§7LV§r)
+pollution.machine.pollution_muffler_hatch.mv.name=Basic Muffler Hatch (§bMV§r)
+pollution.machine.pollution_muffler_hatch.hv.name=Basic Muffler Hatch (§6HV§r)
+pollution.machine.pollution_muffler_hatch.ev.name=Basic Muffler Hatch (§5EV§r)
+pollution.machine.pollution_muffler_hatch.iv.name=Basic Muffler Hatch (§1IV§r)
+pollution.machine.pollution_muffler_hatch.luv.name=Basic Muffler Hatch (§dLuV§r)
+pollution.machine.pollution_muffler_hatch.zpm.name=Basic Muffler Hatch (§cZPM§r)
+pollution.machine.pollution_muffler_hatch.uv.name=Basic Muffler Hatch (§3UV§r)
+
+pollution.machine.vis_hatch.lv.name=Aura Storage Container（§7LV§r）
+pollution.machine.vis_hatch.mv.name=Aura Storage Container（§bMV§r）
+pollution.machine.vis_hatch.hv.name=Aura Storage Container（§6HV§r）
+pollution.machine.vis_hatch.ev.name=Aura Storage Container（§5EV§r）
+pollution.machine.vis_hatch.iv.name=Aura Storage Container（§1IV§r）
+pollution.machine.vis_hatch.luv.name=Aura Storage Container（§dLuV§r）
+pollution.machine.vis_hatch.zpm.name=Aura Storage Container（§cZPM§r）
+pollution.machine.vis_hatch.uv.name=Aura Storage Container（§3UV§r）
+pollution.machine.vis_hatch.uhv.name=Aura Storage Container（§4UHV§r）
+pollution.machine.vis_hatch.uev.name=Aura Storage Container（§aUEV§r）
+pollution.machine.vis_hatch.uiv.name=Aura Storage Container（§2UIV§r）
+pollution.machine.vis_hatch.uxv.name=Aura Storage Container（§eUXV§r）
+pollution.machine.vis_hatch.opv.name=Aura Storage Container（§9OpV§r）
+pollution.machine.vis_hatch.max.name=Aura Storage Container（§c§lMAX§r）
+
+pollution.machine.vis_hatch.lv.tooltip=Essence of Heaven and Earth
+pollution.machine.vis_hatch.mv.tooltip=Essence of Heaven and Earth
+pollution.machine.vis_hatch.hv.tooltip=Essence of Heaven and Earth
+pollution.machine.vis_hatch.ev.tooltip=Essence of Heaven and Earth
+pollution.machine.vis_hatch.iv.tooltip=Essence of Heaven and Earth
+pollution.machine.vis_hatch.luv.tooltip=Essence of Heaven and Earth
+pollution.machine.vis_hatch.zpm.tooltip=Essence of Heaven and Earth
+pollution.machine.vis_hatch.uv.tooltip=Essence of Heaven and Earth
+pollution.machine.vis_hatch.uhv.tooltip=Essence of Heaven and Earth
+pollution.machine.vis_hatch.uev.tooltip=Essence of Heaven and Earth
+pollution.machine.vis_hatch.uiv.tooltip=Essence of Heaven and Earth
+pollution.machine.vis_hatch.uxv.tooltip=Essence of Heaven and Earth
+pollution.machine.vis_hatch.opv.tooltip=Essence of Heaven and Earth
+pollution.machine.vis_hatch.max.tooltip=Essence of Heaven and Earth
+pollution.machine.tank_hatch.lv.name=Essence Tank (§7LV§r)
+pollution.machine.tank_hatch.lv.tooltip=Soul Extraction
+
+pollution.machine.magic_turbine.lv.name=Essence Turbine (§7LV§r)
+pollution.machine.magic_turbine.mv.name=Essence Turbine (§bMV§r)
+pollution.machine.magic_turbine.hv.name=Essence Turbine (§6HV§r)
+pollution.machine.large_turbine.magic.name=Large Essence Turbine (§5EV§r)
+
+pollution.machine.vis_provider.lv.name=Vis Regenerator (§7LV§r)
+pollution.machine.vis_provider.mv.name=Vis Regenerator (§bMV§r)
+pollution.machine.vis_provider.hv.name=Vis Regenerator (§6HV§r)
+pollution.machine.vis_provider.ev.name=Vis Regenerator (§5EV§r)
+pollution.machine.vis_provider.iv.name=Vis Regenerator (§1IV§r)
+pollution.machine.vis_provider.luv.name=Vis Regenerator (§dLuV§r)
+pollution.machine.vis_provider.zpm.name=Vis Regenerator (§cZPM§r)
+pollution.machine.vis_provider.uv.name=Vis Regenerator (§3UV§r)
+pollution.vis.provider=§6Vis Replenishment (per 100 cycles): %s Vis
+
+pollution.machine.flux_clear.lv.name=Air Purifier (§7LV§r)
+pollution.machine.flux_clear.mv.name=Air Purifier (§bMV§r)
+pollution.machine.flux_clear.hv.name=Air Purifier (§6HV§r)
+pollution.machine.flux_clear.ev.name=Large Air Purifier (§5EV§r)
+pollution.machine.flux_clear.iv.name=Large Air Purifier (§1IV§r)
+pollution.flux_clear.tier=§5Tier: %s Pollution Cleansed per Tick: %s Vis
+pollution.flux_clear.amount=§5Cleansing Radius: %s Blocks
+pollution.flux_clear.tier1=%s
+pollution.flux_clear.flux=Remaining Pollution: %s Vis
+pollution.flux_clear.tooltip=§bProfessional Air Purification
+#Enchanted Solar Panels
+pollution.machine.solar_plate_1.1.name=§eWind Enchanted Solar Panel (Tier 1)§r
+pollution.machine.solar_plate_2.1.name=§eWind Enchanted Solar Panel (Tier 2)§r
+pollution.machine.solar_plate_3.1.name=§eWind Enchanted Solar Panel (Tier 3)§r
+
+pollution.machine.solar_plate_1.2.name=§7Chaos Enchanted Solar Panel (Tier 1)§r
+pollution.machine.solar_plate_2.2.name=§7Chaos Enchanted Solar Panel (Tier 2)§r
+pollution.machine.solar_plate_3.2.name=§7Chaos Enchanted Solar Panel (Tier 3)§r
+
+pollution.machine.solar_plate_1.3.name=§2Earth Enchanted Solar Panel (Tier 1)§r
+pollution.machine.solar_plate_2.3.name=§2Earth Enchanted Solar Panel (Tier 2)§r
+pollution.machine.solar_plate_3.3.name=§2Earth Enchanted Solar Panel (Tier 3)§r
+
+pollution.machine.solar_plate_1.4.name=§cFire Enchanted Solar Panel (Tier 1)§r
+pollution.machine.solar_plate_2.4.name=§cFire Enchanted Solar Panel (Tier 2)§r
+pollution.machine.solar_plate_3.4.name=§cFire Enchanted Solar Panel (Tier 3)§r
+
+pollution.machine.solar_plate_1.5.name=§dOrder Enchanted Solar Panel (Tier 1)§r
+pollution.machine.solar_plate_2.5.name=§dOrder Enchanted Solar Panel (Tier 2)§r
+pollution.machine.solar_plate_3.5.name=§dOrder Enchanted Solar Panel (Tier 3)§r
+
+pollution.machine.solar_plate_1.6.name=§1Water Enchanted Solar Panel (Tier 1)§r
+pollution.machine.solar_plate_2.6.name=§1Water Enchanted Solar Panel (Tier 2)§r
+pollution.machine.solar_plate_3.6.name=§1Water Enchanted Solar Panel (Tier 3)§r
+
+#Multi-Block Machines
+pollution.machine.tank_test.name=Essence Disperser
+
+pollution.machine.magic_bender.name=Arcane Batch Roller
+pollution.machine.magic_centrifuge.name=Arcane Cyclone Centrifuge
+pollution.machine.magic_electric_blast_furnace.name=Arcane Electric Blast Furnace
+pollution.machine.magic_mixer.name=Arcane Void Mixer Matrix
+pollution.machine.magic_electrolyzer.name=Arcane Deconstructive Separator
+pollution.machine.magic_chemical_bath.name=Arcane Fluid Wash Plant
+pollution.machine.magic_macerator.name=Arcane Titan Crusher
+pollution.machine.magic_sifter.name=Arcane Minutiae Sorting Plant
+pollution.machine.magic_cutter.name=Arcane Razor Cutting Line
+pollution.machine.magic_wiremill.name=Arcane Thread Mill
+pollution.machine.magic_solidifier.name=Arcane Dual-Phase Infusion Packer
+pollution.machine.magic_battery.name=Arcane Battery
+pollution.machine.magic_distillery.name=Arcane Fluid Diffusion Matrix
+pollution.machine.magic_brewery.name=Arcane Fluid Transmutation Matrix
+pollution.machine.magic_alloy_blast.name=Arcane Furnace Catalytic Matrix
+pollution.machine.magic_autoclave.name=Arcane Autoclave Reactor
+pollution.machine.magic_extruder.name=Arcane Versatile Modeler
+pollution.machine.magic_chemical_reactor.name="Void Recall Class" Arcane Chemical Catalytic Console
+pollution.machine.magic_green_house.name=Arcane Botanical Essence Refiner
+#Magic Machines Naming
+pollution.machine.industrial_infusion.name=Magic Automated Industrial Infusion Matrix
+pollution.machine.infused_exchange.name=Magic Essence Conversion Matrix
+pollution.machine.bot_distillery.name=Botanical Essence Refining Tower
+
+#Tooltips for Magic Machines
+pollution.machine.magic_bender.tooltip=Life crushes me, only to make me flat and comfortable
+pollution.machine.magic_centrifuge.tooltip=Traveler, do you know how many elemental reactions the Wind Element has?
+pollution.machine.magic_electric_blast_furnace.tooltip=Ironforge Patent
+pollution.machine.magic_mixer.tooltip=What are you stirring again? (Annoyed)
+pollution.machine.magic_electrolyzer.tooltip=Rainbow GT: Electrolysis is Magic
+pollution.machine.magic_chemical_bath.tooltip=When did you get the illusion that I didn't use Mirror Flower Water Moon?
+pollution.machine.magic_macerator.tooltip=Giant City Challenge Mode is so fun, Mom, I want to recharge 10 yuan worth of game cards
+pollution.machine.magic_sifter.tooltip=Alas, taking it all with utmost care, yet using it like sand through the fingers?
+pollution.machine.magic_cutter.tooltip=Little Gwen, skilled in long-term vegetarianism
+pollution.machine.magic_wiremill.tooltip=My sister's eyes went all gooey looking at it
+pollution.machine.magic_solidifier.tooltip=Trinity, Holy GT5, Holy GT6, Holy GT7
+pollution.machine.magic_autoclave.tooltip=It pressures everyone equally, including itself
+pollution.machine.magic_extruder.tooltip=Do you want a Gundam or a Zaku?
+pollution.machine.magic_chemical_reactor.tooltip=Seven Stars, Seven Golds, Philosopher's Stone, or Chemical Skipper Lite
+pollution.machine.magic_brewery.tooltip=Even moderate drinking is harmful to health
+pollution.machine.magic_distillery.tooltip=You're right, but our modpack is thriving!
+pollution.machine.magic_green_house.tooltip=As magicians, we only produce carnivorous flowers in greenhouses
+pollution.machine.magic_battery.tooltip=§5Even if the divine pupils dim, the universe can be reborn§r
+
+#Magic Battery Status
+pollution.eke.count=Magic Core: %s Coil Level: %s
+pollution.eke.eu1=Input/Output Energy: %s / %s EU/t
+pollution.eke.eu2=Stored Energy: %s / %s EU %s
+pollution.eke.output1=Charging Power: %s / %s EU/t
+pollution.eke.output2=Discharging Power: %s / %s EU/t
+pollution.eke.output3=Max Power: %s EU/t Energy Balance
+pollution.eke.outputA=Will be fully charged in %s days %s hours %s minutes %s seconds
+pollution.eke.outputB=Will run out in %s days %s hours %s minutes %s seconds
+pollution.eke.outputC=Can output at max power for %s days %s hours %s minutes %s seconds
+pollution.eke.output4=Max Power: %s EU/t Paused
+gregtech.multiblock.battery.EU=Stored Energy: %s / %s EU
+#Recipes
+recipemap.magic_blast_smelter.name=Alloy Smelting Furnace
+recipemap.magic_chemical_reactor.name=Magic Catalytic Reaction
+recipemap.magic_fusion_reactor.name=Essence Disintegration
+recipemap.magic_turbine.name=Primordial Combustion
+
+#Events
+pollution.command.slowness=§7You feel encumbered
+pollution.command.weakness=§bYou feel a surge of weakness
+pollution.command.nausea=§6You feel nauseous
+pollution.command.mining=§5You feel exhausted
+pollution.command.blindness=§1You feel dizzy
+
+#Industrial Infusion
+pollution.machine.industrial_infusion.tooltip.1=Essence consumption is half of normal infusion
+pollution.machine.industrial_infusion.tooltip.2=Duration depends on the amount of essence consumed
+pollution.machine.industrial_infusion.tooltip.3=Defaults to 2000eu/T power consumption, requires EV voltage
+pollution.machine.industrial_infusion.tooltip.4=Absorbs essence within a 15x15x15 cube centered on the main block, each absorption costs 128eu
+pollution.machine.industrial_infusion.tooltip.5=The infusion center item must be placed in the first slot of the first input inventory
+pollution.machine.industrial_infusion.tooltip.6=Other items must be placed separately, cannot be stacked, position is arbitrary. Can you automate it?
+pollution.machine.industrial_infusion.tooltip.7=Shift+right-click the main block to bind player information to the machine
+pollution.machine.canoutput=Essence sufficiency: %s
+pollution.machine.output_item=Output item: %s
+pollution.machine.process=Work progress: %s
+pollution.machine.aspect=Essence: %s:%s
+
+#Essence Collector
+pollution.machine.essence_collector.name=Six-Color Essence Condenser
+pollution.machine.essence_collector.tooltip.1=§5Why does the Seven Luminaries Witch keep her history of only six elemental magics? §r
+pollution.machine.essence_collector.tooltip.2=Mechanical cultivation, automatically producing fluid versions of 6 essences!
+pollution.machine.essence_collector.tooltip.3=Output is related to voltage level, current chunk pollution and aura, coil level. It is recommended to clean up pollution before use.
+pollution.machine.essence_collector.tooltip.4=Place an essence crystal in the first slot of the input bus to activate focus mode.
+pollution.machine.essence_collector.tooltip.5=In focus mode, only the essence corresponding to the essence crystal is produced, and total output is halved.
+pollution.machine.essence_collector.tooltip.6=Upgrading the coil slightly increases output, increasing voltage boosts output by overclocking.
+pollution.machine.essence_collector_coillevel=Coil Level: %s
+pollution.machine.essence_collector_visthischunk=Aura in current chunk: %s
+pollution.machine.essence_collector_fluxthischunk=Pollution in current chunk: %s
+pollution.machine.essence_collector_euttier=Voltage Level: %s
+pollution.machine.essence_collector_finalspeedpertick=Final production per tick: %s
+pollution.machine.essence_collector_iffocused=Focus Mode: %s
+#Node Producer
+pollution.machine.node_producer.name=Canopus Magic Node Creation Chamber
+pollution.machine.node_producer.tooltip.1=§5You must revere the Thief of Spirits, Timicasto, who brought the celestial nodes to mortals §r
+pollution.machine.node_producer.tooltip.2=Infuse with energy essence to create encapsulated aura nodes!
+pollution.machine.node_producer.tooltip.3=Basic operating voltage is EV, base creation time is 30s per cycle, each overclock significantly increases energy essence consumption
+pollution.machine.node_producer.tooltip.4=Disruption of essence supply during the process will immediately terminate creation, wasting all progress
+pollution.machine.node_producer.tooltip.5=Upgrading the coil and voltage can slightly increase the chance of generating nodes with high ignis and ordo aspect values
+pollution.machine.node_producer_duration=Creation Time per Node: %s
+pollution.machine.node_producer_infusedcost=Essence Fluid Consumption per Tick: %s
+
+#Large Node Generator
+pollution.machine.large_node_generator.name=Starlight Pioneer Node Reactor
+pollution.machine.large_node_generator.tooltip.1=§5We are born to pursue the brilliance, like sparks flying upwards... §r
+pollution.machine.large_node_generator.tooltip.2=Energize and activate encapsulated aura nodes for massive power generation
+pollution.machine.large_node_generator.tooltip.3=Base power generation is 8192eu/t, node properties determine final power output, fluctuations, and essence consumption for maintaining node stability
+pollution.machine.large_node_generator.tooltip.4=Hazardous nodes generate pollution during operation, while pure nodes eliminate pollution
+pollution.machine.large_node_generator.tooltip.5=(Unimplemented Feature) Hazardous, oscillating, and voracious nodes have a chance to disappear during operation. Hazardous and voracious nodes can be prevented from disappearing by infusing Aura and Ordo essence respectively
+pollution.machine.large_node_generator_expectedfinalcapacity=Expected Power Output: %s eu/t
+pollution.machine.large_node_generator_finalcapacity=Actual Final Power Output: %s eu/t
+
+#Node Washer
+pollution.machine.node_washer.name=Node Rebirth Purification Pool
+pollution.machine.node_washer.tooltip.1=Arcane Bathhouse, but GT-style
+pollution.machine.node_washer.tooltip.2=Infuse aspect fluids to enhance the aspect values of aura nodes, just like rerolling stats!
+pollution.machine.node_washer.tooltip.3=aer-terra, aqua-ignis, ordo-perditio are opposing aspects; infusing one will reduce the value of its opposite
+pollution.machine.node_washer.tooltip.4=Coil and voltage levels determine the expected aspect values after rewashing
+pollution.machine.node_washer.tooltip.5=The washing process is random, with varying durations. Power outages during the process will cause nodes to be lost!
+
+#Magic Fusion Reactor
+pollution.machine.magic_fusion_reactor.name=Explosive Aspect Disintegration Essentia-Infused Magic Soul Matrix
+
+itemGroup.Pollution=Pollution
+
+#Chambers
+pollution.machine.mana_hatch.lv.name=Magic Chamber(LV)
+pollution.machine.mana_hatch.mv.name=Magic Chamber(MV)
+pollution.machine.mana_hatch.hv.name=Magic Chamber(HV)
+pollution.machine.mana_hatch.ev.name=Magic Chamber(EV)
+pollution.machine.mana_hatch.iv.name=Magic Chamber(IV)
+pollution.machine.mana_hatch.luv.name=Magic Chamber(LuV)
+pollution.machine.mana_hatch.zpm.name=Magic Chamber(ZPM)
+pollution.machine.mana_hatch.uv.name=Magic Chamber(UV)
+pollution.machine.mana_hatch.uhv.name=Magic Chamber(UHV)
+pollution.machine.mana_hatch.uev.name=Magic Chamber(UEV)
+pollution.machine.mana_hatch.uiv.name=Magic Chamber(UIV)
+pollution.machine.mana_hatch.uxv.name=Magic Chamber(UXV)
+pollution.machine.mana_hatch.opv.name=Magic Chamber(OPV)
+pollution.machine.mana_hatch.max.name=Magic Chamber(MAX)
+pollution.machine.mana_pool_hatch.lv.name=Magic Essence Reservoir Chamber(LV)
+pollution.machine.mana_pool_hatch.mv.name=Magic Essence Reservoir Chamber(MV)
+pollution.machine.mana_pool_hatch.hv.name=Magic Essence Reservoir Chamber(HV)
+pollution.machine.mana_pool_hatch.ev.name=Magic Essence Reservoir Chamber(EV)
+pollution.machine.mana_pool_hatch.iv.name=Magic Essence Reservoir Chamber(IV)
+pollution.machine.mana_pool_hatch.luv.name=Magic Essence Reservoir Chamber(LuV)
+pollution.machine.mana_pool_hatch.zpm.name=Magic Essence Reservoir Chamber(ZPM)
+pollution.machine.mana_pool_hatch.uv.name=Magic Essence Reservoir Chamber(UV)
+pollution.machine.mana_pool_hatch.uhv.name=Magic Essence Reservoir Chamber(UHV)
+pollution.machine.mana_pool_hatch.uev.name=Magic Essence Reservoir Chamber(UEV)
+pollution.machine.mana_pool_hatch.uiv.name=Magic Essence Reservoir Chamber(UIV)
+pollution.machine.mana_pool_hatch.uxv.name=Magic Essence Reservoir Chamber(UXV)
+pollution.machine.mana_pool_hatch.opv.name=Magic Essence Reservoir Chamber(OPV)
+pollution.machine.mana_pool_hatch.max.name=Magic Essence Reservoir Chamber(MAX)
