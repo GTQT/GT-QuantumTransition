@@ -1,9 +1,9 @@
 {
     "name": "Betweenland Thaumastic One",
-    "weight": 10,
+    "weight": 20,
    "density": 0.5,
     "max_height": 60,
-    "min_height": 0,
+    "min_height": 10,
      "generation_predicate":["block:thebetweenlands:betweenstone","block:thebetweenlands:limestone", "block:thebetweenlands:pitstone","block:thebetweenlands:cragrock","block:thebetweenlands:cragrock:1","block:thebetweenlands:cragrock:2"],
     "dimension_filter": [
       "dimension_id:20"
