@@ -86,8 +86,6 @@ mods.gregtech.assembler.removeByInput(30, [metaitem('cableGtSingleCopper') * 3, 
 mods.gregtech.assembler.removeByInput(30, [metaitem('cableGtSingleGold') * 3, metaitem('stickStainlessSteel') * 2, metaitem('electric.motor.hv') * 2, metaitem('electric.piston.hv'), metaitem('circuit.advanced_integrated')], null)
 // §5EV§r机械臂 * 1
 mods.gregtech.assembler.removeByInput(30, [metaitem('cableGtSingleAluminium') * 3, metaitem('stickTitanium') * 2, metaitem('electric.motor.ev') * 2, metaitem('electric.piston.ev'), metaitem('circuit.workstation')], null)
-// 硅烷 * 1000
-mods.gregtech.chemical_reactor.removeByInput(120, [metaitem('dustRutheniumChloride')], [fluid('trichlorosilane') * 4000])
 // 中子素掺杂的单晶硅 * 1
 mods.gregtech.electric_blast_furnace.removeByInput(7680, [metaitem('blockSilicon') * 32, metaitem('ingotNeutronium') * 4, metaitem('dustGalliumArsenide') * 2], [fluid('xenon') * 8000])
 // 生橡胶末 * 1
@@ -100,28 +98,6 @@ mods.gregtech.extractor.removeByInput(2, [item('gregtech:rubber_sapling')], null
 mods.gregtech.extractor.removeByInput(2, [item('minecraft:slime_ball')], null)
 // 生橡胶末 * 3
 mods.gregtech.centrifuge.removeByInput(5, [metaitem('rubber_drop')], null)
-// §8ULV§r机器外壳 * 1
-mods.gregtech.assembler.removeByInput(16, [item('gregtech:machine_casing'), metaitem('cableGtSingleRedAlloy') * 2], [fluid('plastic') * 288])
-// §7LV§r机器外壳 * 1
-mods.gregtech.assembler.removeByInput(16, [item('gregtech:machine_casing', 1), metaitem('cableGtSingleTin') * 2], [fluid('plastic') * 288])
-// §bMV§r机器外壳 * 1
-mods.gregtech.assembler.removeByInput(16, [item('gregtech:machine_casing', 2), metaitem('cableGtSingleCopper') * 2], [fluid('plastic') * 288])
-// §bMV§r机器外壳 * 1
-mods.gregtech.assembler.removeByInput(16, [item('gregtech:machine_casing', 2), metaitem('cableGtSingleAnnealedCopper') * 2], [fluid('plastic') * 288])
-// §6HV§r机器外壳 * 1
-mods.gregtech.assembler.removeByInput(16, [item('gregtech:machine_casing', 3), metaitem('cableGtSingleGold') * 2], [fluid('plastic') * 288])
-// §5EV§r机器外壳 * 1
-mods.gregtech.assembler.removeByInput(16, [item('gregtech:machine_casing', 4), metaitem('cableGtSingleAluminium') * 2], [fluid('plastic') * 288])
-// §1IV§r机器外壳 * 1
-mods.gregtech.assembler.removeByInput(16, [item('gregtech:machine_casing', 5), metaitem('cableGtSinglePlatinum') * 2], [fluid('polytetrafluoroethylene') * 288])
-// §dLuV§r机器外壳 * 1
-mods.gregtech.assembler.removeByInput(16, [item('gregtech:machine_casing', 6), metaitem('cableGtSingleNiobiumTitanium') * 2], [fluid('polytetrafluoroethylene') * 288])
-// §cZPM§r机器外壳 * 1
-mods.gregtech.assembler.removeByInput(16, [item('gregtech:machine_casing', 7), metaitem('cableGtSingleVanadiumGallium') * 2], [fluid('polybenzimidazole') * 288])
-// §3UV§r机器外壳 * 1
-mods.gregtech.assembler.removeByInput(16, [item('gregtech:machine_casing', 8), metaitem('cableGtSingleYttriumBariumCuprate') * 2], [fluid('polybenzimidazole') * 288])
-// §4UHV§r机器外壳 * 1
-mods.gregtech.assembler.removeByInput(16, [item('gregtech:machine_casing', 9), metaitem('cableGtSingleEuropium') * 2], [fluid('polybenzimidazole') * 288])
 // 萘 * 400
 mods.gregtech.distillation_tower.removeByInput(120, null, [fluid('coal_tar') * 1000])
 // 含硫重燃油 * 15
@@ -158,9 +134,3 @@ mods.gregtech.assembler.removeByInput(7680, [metaitem('wireFineBorosilicateGlass
 mods.gregtech.circuit_assembler.removeByInput(1200, [metaitem('circuit_board.advanced'), metaitem('circuit.advanced_integrated') * 2, metaitem('plate.random_access_memory') * 4, metaitem('plate.nor_memory_chip') * 16, metaitem('plate.nand_memory_chip') * 32, metaitem('wireFinePlatinum') * 32], [fluid('soldering_alloy') * 144])
 // 闪存 * 1
 mods.gregtech.circuit_assembler.removeByInput(1200, [metaitem('circuit_board.advanced'), metaitem('circuit.advanced_integrated') * 2, metaitem('plate.random_access_memory') * 4, metaitem('plate.nor_memory_chip') * 16, metaitem('plate.nand_memory_chip') * 32, metaitem('wireFinePlatinum') * 32], [fluid('tin') * 288])
-// 气态氮 * 35000
-mods.gregtech.low_pressure_cryogenic_distillation.removeByInput(960, null, [fluid('liquid_air') * 50000])
-// 气态氮 * 35000
-mods.gregtech.high_pressure_cryogenic_distillation.removeByInput(960, null, [fluid('liquid_air') * 50000])
-// 太阳能级多晶硅粉 * 1
-mods.gregtech.electrolyzer.removeByInput(30, null, [fluid('silicon_tetrachloride') * 1000])

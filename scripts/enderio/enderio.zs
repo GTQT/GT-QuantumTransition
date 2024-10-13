@@ -151,10 +151,10 @@ recipes.addShaped(<enderio:item_conduit_probe>, [[<ore:plateSilicon>, <enderio:i
 recipes.addShaped(<enderio:item_coord_selector>, [[<ore:plateElectricalSteel>, <ore:gemEnderEye>, <ore:plateElectricalSteel>],[<ore:platePulsatingIron>, <minecraft:compass>, <ore:platePulsatingIron>], [<ore:plateElectricalSteel>, <ore:gemEnderEye>, <ore:plateElectricalSteel>]]);
 
 //Travel Staff
-recipes.addShaped(<enderio:item_travel_staff>, [[<ore:toolScrewdriver>, <ore:circuitHv>, <ore:itemEnderCrystal>],[<ore:screwVibrantAlloy>, <ore:stickDarkSteel>, <ore:circuitHv>], [<ore:stickDarkSteel>, <ore:screwVibrantAlloy>, <ore:gtceWrenches>]]);
+recipes.addShaped(<enderio:item_travel_staff>, [[<ore:toolScrewdriver>, <ore:circuitHv>, <ore:itemEnderCrystal>],[<ore:screwVibrantAlloy>, <ore:stickDarkSteel>, <ore:circuitHv>], [<ore:stickDarkSteel>, <ore:screwVibrantAlloy>, <ore:toolWrenches>]]);
 
 //Xp Transfermer
-recipes.addShaped(<enderio:item_xp_transfer>, [[<ore:toolScrewdriver>, <ore:circuitHv>, <ore:itemPulsatingCrystal>],[<ore:screwEnergeticAlloy>, <ore:stickSoularium>, <ore:circuitHv>], [<ore:stickSoularium>, <ore:screwEnergeticAlloy>, <ore:gtceWrenches>]]);
+recipes.addShaped(<enderio:item_xp_transfer>, [[<ore:toolScrewdriver>, <ore:circuitHv>, <ore:itemPulsatingCrystal>],[<ore:screwEnergeticAlloy>, <ore:stickSoularium>, <ore:circuitHv>], [<ore:stickSoularium>, <ore:screwEnergeticAlloy>, <ore:toolWrenches>]]);
 
 //Yeta Wrench
 recipes.addShaped(<enderio:item_yeta_wrench>, [[<ore:ingotElectricalSteel>, <ore:toolHammer>, <ore:ingotElectricalSteel>],[<ore:ingotElectricalSteel>, <ore:gearElectricalSteel>, <ore:ingotElectricalSteel>], [null, <ore:ingotElectricalSteel>, null]]);
@@ -173,7 +173,7 @@ assembler.recipeBuilder()
 	.duration(200).EUt(64).buildAndRegister();
     
 //Gilder Wings
-recipes.addShaped(<enderio:item_material:7>, [[<ore:screwDarkSteel>, <ore:stickDarkSteel>, <ore:screwDarkSteel>],[<ore:itemGliderWing>, <ore:plateSilicon>, <ore:itemGliderWing>], [<ore:gtceWrenches>, <ore:stickDarkSteel>, <ore:toolScrewdriver>]]);
+recipes.addShaped(<enderio:item_material:7>, [[<ore:screwDarkSteel>, <ore:stickDarkSteel>, <ore:screwDarkSteel>],[<ore:itemGliderWing>, <ore:plateSilicon>, <ore:itemGliderWing>], [<ore:toolWrenches>, <ore:stickDarkSteel>, <ore:toolScrewdriver>]]);
 
 //Gilder Wing
 recipes.addShaped(<enderio:item_material:6>, [[<ore:toolHammer>, <ore:stickDarkSteel>, <ore:leather>],[<ore:stickDarkSteel>, <ore:leather>, <ore:leather>], [<ore:leather>, <ore:leather>, <ore:leather>]]);
@@ -182,7 +182,7 @@ recipes.addShaped(<enderio:item_material:6>, [[<ore:toolHammer>, <ore:stickDarkS
 recipes.addShaped(<enderio:item_material:64>, [[<ore:plateSilicon>, <ore:itemConduitBinder>, <ore:plateSilicon>],[<ore:circuitHv>, <ore:gemEnderEye>, <ore:circuitHv>], [<ore:plateSilicon>, <ore:plateElectricalSteel>, <ore:plateSilicon>]]);
 
 //Levity Staff
-recipes.addShaped(<enderio:item_staff_of_levity>, [[<ore:toolScrewdriver>, <ore:circuitHv>, <ore:itemPrecientCrystal>], [<ore:screwSoularium>, <ore:stickEndSteel>, <ore:circuitHv>], [<ore:stickEndSteel>, <ore:screwSoularium>, <ore:gtceWrenches>]]);
+recipes.addShaped(<enderio:item_staff_of_levity>, [[<ore:toolScrewdriver>, <ore:circuitHv>, <ore:itemPrecientCrystal>], [<ore:screwSoularium>, <ore:stickEndSteel>, <ore:circuitHv>], [<ore:stickEndSteel>, <ore:screwSoularium>, <ore:toolWrenches>]]);
 
 //Soul Vial
 assembler.recipeBuilder()

@@ -1,5 +1,7 @@
 //凝胶
 furnace.addRecipe(<minecraft:slime_ball>, <thebetweenlands:sap_ball>);
+//红砖
+furnace.addRecipe(<minecraft:brick>, <thebetweenlands:items_misc:10>);
 
 furnace.addRecipe(<biomesoplenty:seaweed>,<gregtech:meta_dust:20076>);
 //天然碱

@@ -850,15 +850,3 @@ assembler.recipeBuilder()
 	.inputs(<ore:plateGalvanizedSteel>*8,<ore:circuitLv>)
 	.outputs(<forestry:sturdy_machine>)
 	.duration(2000).EUt(30).buildAndRegister();
-	
-recipes.remove(<genetics:misc>);
-assembler.recipeBuilder()
-	.inputs(<ore:plateSuperAusteniticStainlessSteel904L>*8,<ore:circuitEv>)
-	.outputs(<genetics:misc>)
-	.duration(2000).EUt(7680).buildAndRegister();
-	
-recipes.remove(<genetics:misc:8>);
-assembler.recipeBuilder()
-	.inputs(<gregtech:meta_item_1:407>,<ore:circuitEv>,<ore:foilPolybenzimidazole>*8,<ore:wireFineYttriumBariumCuprate>*8)
-	.outputs(<genetics:misc>)
-	.duration(2000).EUt(7680).buildAndRegister();

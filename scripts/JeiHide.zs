@@ -4,14 +4,16 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 var items as IItemStack[] = [
+<threng:machine>,
+<threng:machine:1>,
+<threng:machine:2>,
+<threng:machine:5>,
 <enderio:block_vat>,
 <enderio:block_combustion_generator>,
 <enderio:block_enhanced_combustion_generator>,
 <gendustry:mutagen_producer>,
 <harvestcraft:freshwateritem>,
 <tconstruct:throwball:1>,
-<appliedenergistics2:inscriber>,
-<ae2stuff:inscriber>,
 <morefurnaces:furnaceblock:4>,
 <morefurnaces:furnaceblock:5>,
 <morefurnaces:furnaceblock:6>,

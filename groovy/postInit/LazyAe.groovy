@@ -1,10 +1,4 @@
 //Lazy AE的魔改
-//ban
-crafting.removeByOutput(item('threng:machine'))
-crafting.removeByOutput(item('threng:machine',1))
-crafting.removeByOutput(item('threng:machine',2))
-crafting.removeByOutput(item('threng:machine',5))
-
 //含碳复合物
 crafting.removeByOutput(item('threng:material', 1))
 mods.gregtech.mixer.recipeBuilder()
