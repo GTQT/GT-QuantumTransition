@@ -13,14 +13,14 @@ if (!isNull(AppliedEnergistics2)) {
     for item in itemAppliedEnergistics2 {
         if (item.displayName has "线缆伪装板") {
             if (item.displayName has "湿海绵") {
-                item.addTooltip("看我看我，我是覆盖版");
+                item.addTooltip("别玩了，这包就是答辩，快跑");
             } else {
                 mods.jei.JEI.hide(item);
             }
         }
 		if (item.displayName has "Cable Facade") {
             if (item.displayName has "Sponge") {
-                item.addTooltip("看我看我，我是覆盖版");
+                item.addTooltip("别玩了，这包就是答辩，快跑");
             } else {
                 mods.jei.JEI.hide(item);
             }
@@ -66,7 +66,7 @@ if (!isNull(GregTechCEu)) {
     for item in itemGregTechCEu {
         if (item.displayName has "伪装板") {
             if (item.displayName has "草方块") {
-                item.addTooltip("看我看我，我是覆盖版");
+                item.addTooltip("别玩了，这包就是答辩，快跑");
             } else {
                 mods.jei.JEI.hide(item);
             }
