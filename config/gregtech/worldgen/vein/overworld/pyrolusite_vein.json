@@ -1,0 +1,36 @@
+{
+    "name": "Pyrolusite Vein",
+    "weight": 20,
+   "density": 0.5,
+    "max_height": 60,
+    "min_height": 0,
+
+	"vein_populator": {
+		"type": "surface_rock",
+		"material": "pyrolusite"
+	},
+    "generator": {
+      "type": "layered",
+      "radius": [
+        14,
+        18
+      ]
+    },
+    "filler": {
+      "type": "layered",
+      "values": [
+        {
+        "primary": "ore:pyrolusite"
+      },
+      {
+        "secondary": "ore:grossular"
+      },
+      {
+        "between": "ore:spessartine"
+      },
+      {
+        "sporadic": "ore:iron"
+      }
+      ]
+    }
+}

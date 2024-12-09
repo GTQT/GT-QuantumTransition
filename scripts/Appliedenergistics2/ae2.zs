@@ -13,6 +13,7 @@ val mixer = mods.gregtech.recipe.RecipeMap.getByName("mixer");
 mixer.recipeBuilder() 
     .inputs(<ore:dustNetherQuartz>* 4,<gregtech:meta_dust:277> * 1,<ore:dustCertusQuartz> * 3)
     .outputs(<gregtech:meta_dust:20058> * 8)
+	.circuit(8)
     .duration(100)
     .EUt(32)
     .buildAndRegister();

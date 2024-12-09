@@ -1,0 +1,172 @@
+{
+	title: "私人工具",
+	x: 5.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "6ca1bf5c",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "806e9e42",
+		type: "item",
+		item: {
+			id: "gregtech:spade",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:inconel_625",
+					MaxDurability: 107999,
+					Durability: 0,
+					ToolSpeed: 6.8f,
+					HarvestLevel: 5,
+					AttackDamage: 7.5f,
+					AttackSpeed: -3.1000001f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					MaxAoEColumn: 1,
+					MaxAoERow: 1,
+					MaxAoELayer: 0,
+					AoEColumn: 1,
+					AoERow: 1,
+					AoELayer: 0
+				}
+			}
+		}
+	},
+	{
+		uid: "7dc749aa",
+		type: "item",
+		item: {
+			id: "gregtech:axe",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:inconel_625",
+					MaxDurability: 35999,
+					Durability: 0,
+					ToolSpeed: 9.0f,
+					HarvestLevel: 5,
+					AttackDamage: 11.0f,
+					AttackSpeed: -3.1000001f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					DisableShields: 1b,
+					TreeFelling: 1b
+				}
+			}
+		}
+	},
+	{
+		uid: "2e813a63",
+		type: "item",
+		item: {
+			id: "gregtech:hoe",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:inconel_625",
+					MaxDurability: 35999,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -0.9f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		uid: "0011398a",
+		type: "item",
+		item: {
+			id: "gregtech:pickaxe",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:inconel_625",
+					MaxDurability: 35999,
+					Durability: 0,
+					ToolSpeed: 11.0f,
+					HarvestLevel: 5,
+					AttackDamage: 7.0f,
+					AttackSpeed: -2.7f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					TorchPlacing: 1b
+				}
+			}
+		}
+	},
+	{
+		uid: "baf0401e",
+		type: "item",
+		item: {
+			id: "gregtech:scythe",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:inconel_625",
+					MaxDurability: 107999,
+					Durability: 0,
+					AttackDamage: 11.0f,
+					AttackSpeed: -2.9f,
+					ToolSpeed: 11.0f,
+					HarvestLevel: 5
+				},
+				HideFlags: 2,
+				GT.Behaviours: {
+					MaxAoEColumn: 2,
+					MaxAoERow: 2,
+					MaxAoELayer: 2,
+					AoEColumn: 2,
+					AoERow: 2,
+					AoELayer: 2
+				}
+			}
+		}
+	},
+	{
+		uid: "44c56767",
+		type: "item",
+		item: {
+			id: "gregtech:shovel",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:inconel_625",
+					MaxDurability: 35999,
+					Durability: 0,
+					ToolSpeed: 11.0f,
+					HarvestLevel: 5,
+					AttackDamage: 7.5f,
+					AttackSpeed: -2.9f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		uid: "ad6d23d7",
+		type: "item",
+		item: {
+			id: "gregtech:sword",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:inconel_625",
+					MaxDurability: 35999,
+					Durability: 0,
+					AttackDamage: 9.0f,
+					AttackSpeed: -2.3000002f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	}]
+}

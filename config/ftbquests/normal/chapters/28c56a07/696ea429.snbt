@@ -1,9 +1,6 @@
 {
 	x: 2.0d,
 	y: 1.0d,
-	dependencies: [
-		"89e028aa"
-	],
 	tasks: [{
 		uid: "95a5b455",
 		type: "item",
@@ -45,5 +42,13 @@
 		type: "item",
 		item: "enderio:item_liquid_conduit 1 2",
 		count: 8
+	},
+	{
+		uid: "f7789e96",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:fluid_storage_cell_16k",
+			tag: {}
+		}
 	}]
 }

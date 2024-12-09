@@ -93,17 +93,17 @@ assembler.recipeBuilder()
     .buildAndRegister();
 	
 assembler.recipeBuilder() 
-    .inputs(<gregtech:machine:114>,<appliedenergistics2:material:44> * 4,<appliedenergistics2:material:43> * 4,<gregtech:meta_plate:113> * 16)
+    .inputs(<gregtech:machine:113>,<appliedenergistics2:material:44> * 4,<appliedenergistics2:material:43> * 4,<gregtech:meta_plate:113> * 16)
 	.fluidInputs(<liquid:polybenzimidazole> * 576)
-    .outputs(<appliedenergistics2:molecular_assembler> * 4)
+    .outputs(<appliedenergistics2:molecular_assembler> * 1)
     .duration(120)
     .EUt(480)
     .buildAndRegister();
 	
 assembler.recipeBuilder() 
-    .inputs(<gregtech:meta_block_frame_125:13> * 4,<gregtech:meta_gem:20058>,<ore:plateStainlessSteel>*4,<ore:circuitHv> * 1)
+    .inputs(<gtqtcore:gtqt_meta_item_1:86>,<ore:plateStainlessSteel>*4,<ore:circuitHv> * 1)
 	.fluidInputs(<liquid:polybenzimidazole> * 576)
-    .outputs(<appliedenergistics2:controller>*2)
+    .outputs(<appliedenergistics2:controller>)
     .duration(120)
     .EUt(480)
     .buildAndRegister();
@@ -184,7 +184,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 	
 assembler.recipeBuilder() 
-    .inputs(<gregtech:meta_block_frame_125:13> * 4,<gregtech:meta_gem:20058>,<ore:plateStainlessSteel>*4,<ore:circuitHv> * 1)
+    .inputs(<gtqtcore:gtqt_meta_item_1:86>,<ore:plateStainlessSteel>*4,<ore:circuitHv> * 1)
 	.fluidInputs(<liquid:polytetrafluoroethylene> * 2880)
     .outputs(<appliedenergistics2:controller>*2)
     .duration(120)
@@ -194,7 +194,7 @@ assembler.recipeBuilder()
 recipes.addShaped(<appliedenergistics2:interface>, [[<appliedenergistics2:interface>]]);
 recipes.addShaped(<appliedenergistics2:fluid_interface>, [[<appliedenergistics2:fluid_interface>]]);
 assembler.recipeBuilder() 
-    .inputs(<appliedenergistics2:part:16> * 4,<gregtech:meta_plate:113> * 8,<appliedenergistics2:material:23>,<appliedenergistics2:material:43>,<appliedenergistics2:material:44>)
+    .inputs(<gtqtcore:gtqt_meta_item_1:87>,<gregtech:meta_plate:113> * 8,<appliedenergistics2:material:23>,<appliedenergistics2:material:43>,<appliedenergistics2:material:44>)
 	.fluidInputs(<liquid:polytetrafluoroethylene> * 2880)
     .outputs(<appliedenergistics2:interface>)
     .duration(120)
@@ -203,7 +203,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 	
 assembler.recipeBuilder() 
-    .inputs(<appliedenergistics2:part:16> * 4,<gregtech:meta_plate:113> * 8,<appliedenergistics2:material:23>,<appliedenergistics2:material:43>,<appliedenergistics2:material:44>)
+    .inputs(<gtqtcore:gtqt_meta_item_1:87>,<gregtech:meta_plate:113> * 8,<appliedenergistics2:material:23>,<appliedenergistics2:material:43>,<appliedenergistics2:material:44>)
 	.fluidInputs(<liquid:polybenzimidazole> * 576)
     .outputs(<appliedenergistics2:interface> * 2)
     .duration(120)
@@ -212,7 +212,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 	
 assembler.recipeBuilder() 
-    .inputs(<appliedenergistics2:part:16> * 4,<gregtech:meta_plate:113> * 8,<appliedenergistics2:material:22>,<appliedenergistics2:material:43>,<appliedenergistics2:material:44>)
+    .inputs(<gtqtcore:gtqt_meta_item_1:87>,<gregtech:meta_plate:113> * 8,<appliedenergistics2:material:22>,<appliedenergistics2:material:43>,<appliedenergistics2:material:44>)
 	.fluidInputs(<liquid:polytetrafluoroethylene> * 2880)
     .outputs(<appliedenergistics2:fluid_interface>)
     .duration(120)
@@ -221,7 +221,7 @@ assembler.recipeBuilder()
     .buildAndRegister();
 	
 assembler.recipeBuilder() 
-    .inputs(<appliedenergistics2:part:16> * 4,<gregtech:meta_plate:113> * 8,<appliedenergistics2:material:22>,<appliedenergistics2:material:43>,<appliedenergistics2:material:44>)
+    .inputs(<gtqtcore:gtqt_meta_item_1:87>,<gregtech:meta_plate:113> * 8,<appliedenergistics2:material:22>,<appliedenergistics2:material:43>,<appliedenergistics2:material:44>)
 	.fluidInputs(<liquid:polybenzimidazole> * 576)
     .outputs(<appliedenergistics2:fluid_interface> * 2)
     .duration(120)
@@ -229,3 +229,20 @@ assembler.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 	
+assembler.recipeBuilder() 
+    .inputs(<gtqtcore:gtqt_meta_item_1:87>,<gregtech:meta_plate:113> * 8,<appliedenergistics2:material:24>*2,<appliedenergistics2:material:22>,<appliedenergistics2:material:43>,<appliedenergistics2:material:44>)
+	.fluidInputs(<liquid:polytetrafluoroethylene> * 2880)
+    .outputs(<appliedenergistics2:crafting_unit>)
+    .duration(120)
+	.circuit(20)
+    .EUt(480)
+    .buildAndRegister();
+	
+assembler.recipeBuilder() 
+    .inputs(<gtqtcore:gtqt_meta_item_1:87>,<gregtech:meta_plate:113> * 8,<appliedenergistics2:material:24>*2,<appliedenergistics2:material:22>,<appliedenergistics2:material:43>,<appliedenergistics2:material:44>)
+	.fluidInputs(<liquid:polybenzimidazole> * 576)
+    .outputs(<appliedenergistics2:crafting_unit>*2)
+    .duration(120)
+	.circuit(20)
+    .EUt(480)
+    .buildAndRegister();

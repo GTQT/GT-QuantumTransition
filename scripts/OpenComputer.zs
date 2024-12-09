@@ -142,7 +142,7 @@ compressor.recipeBuilder()
 // Charger
 recipes.remove(<opencomputers:charger>);
 assembler.recipeBuilder()
-	.inputs([machineCasingHv *2, <gregtech:machine:683> *2, circuitBoardAdvanced, microchipEv, <ore:cableGtSingleCopper> *2])
+	.inputs([machineCasingHv *2, <gregtech:machine:1301> *2, circuitBoardAdvanced, microchipEv, <ore:cableGtSingleCopper> *2])
     .fluidInputs([<liquid:plastic> *72])
 	.outputs(<opencomputers:charger>)
 	.circuit(1)
@@ -209,7 +209,7 @@ assembler.recipeBuilder()
 // Power Converter
 recipes.remove(<opencomputers:powerconverter>);
 assembler.recipeBuilder()
-	.inputs([<gregtech:machine:601>, circuitBoardPlastic *2, microchipMv *2, <ore:plateAluminium> *2, <ore:cableGtSingleCopper> *2])
+	.inputs([<gregtech:machine:1301>, circuitBoardPlastic *2, microchipMv *2, <ore:plateAluminium> *2, <ore:cableGtSingleCopper> *2])
     .fluidInputs([<liquid:plastic> *72])
 	.circuit(1)
 	.outputs(<opencomputers:powerconverter>)
@@ -218,7 +218,7 @@ assembler.recipeBuilder()
 // Power Distributor
 recipes.remove(<opencomputers:powerdistributor>);
 assembler.recipeBuilder()
-	.inputs([machineCasingMv, <gregtech:machine:618>, circuitBoardPlastic, <ore:plateAluminium> *2, <ore:cableGtSingleCopper> *2, <ore:circuitZpm> *2])
+	.inputs([machineCasingMv, <gregtech:machine:1301>, circuitBoardPlastic, <ore:plateAluminium> *2, <ore:cableGtSingleCopper> *2, <ore:circuitZpm> *2])
     .fluidInputs([<liquid:plastic> *72])
 	.outputs(<opencomputers:powerdistributor>)
 	.duration(200).EUt(120).buildAndRegister();

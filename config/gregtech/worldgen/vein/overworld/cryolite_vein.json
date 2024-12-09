@@ -1,0 +1,35 @@
+{
+    "name": "Cryolite Vein",
+    "weight": 40,
+   "density": 0.5,
+    "max_height": 60,
+    "min_height": 0,
+	"vein_populator": {
+		"type": "surface_rock",
+		"material": "cryolite"
+	},
+    "generator": {
+      "type": "layered",
+      "radius": [
+        8,
+        20
+      ]
+    },
+    "filler": {
+      "type": "layered",
+      "values": [
+        {
+        "primary": "ore:cryolite"
+		},
+		{
+        "secondary": "ore:cryolite"
+		},
+		{
+        "between": "ore:bauxite"
+		},
+		{
+        "sporadic": "ore:bauxite"
+		}
+      ]
+    }
+}

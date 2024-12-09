@@ -9,16 +9,13 @@
 	x: -3.0d,
 	y: 10.0d,
 	can_repeat: true,
+	dependencies: [
+		"eb5ae9fc"
+	],
 	tasks: [{
 		uid: "1e856945",
 		type: "ftbmoney:money",
 		value: 1600L
-	},
-	{
-		uid: "2a2bb2d6",
-		type: "gamestage",
-		title: "IV时代快乐五连抽",
-		stage: "IV"
 	}],
 	rewards: [{
 		uid: "24c1ec47",

@@ -1,10 +1,3 @@
-// 模具（硬币） * 1
-mods.gregtech.forming_press.removeByInput(22, [metaitem('shape.mold.credit'), metaitem('shape.empty')], null)
-// 白铜币 * 4
-mods.gregtech.forming_press.removeByInput(16, [metaitem('shape.mold.credit'), metaitem('plateCupronickel')], null)
-// 狗狗币 * 4
-mods.gregtech.forming_press.removeByInput(16, [metaitem('shape.mold.credit'), metaitem('plateBrass')], null)
-	
 //凝胶
 mods.gregtech.pr_mix.recipeBuilder()
     .inputs(item('thebetweenlands:sap_ball')*5,ore('dustSalt')*10)
@@ -67,12 +60,18 @@ mods.gregtech.coke_oven.recipeBuilder()
     .outputs(item('gtqtcore:gtqt_meta_item_1', 23) * 1)
 		.fluidOutputs(fluid('creosote') * 50)
     .duration(600) 
+	
+mods.gregtech.coke_oven.recipeBuilder()
+    .inputs(item('thebetweenlands:swamp_reed_item')*4)
+    .outputs(item('gtqtcore:gtqt_meta_item_1', 23) * 1)
+	.fluidOutputs(fluid('creosote') * 50)
+    .duration(600) 
     .buildAndRegister()
 	
 mods.gregtech.coke_oven.recipeBuilder()
     .inputs(item('gtqtcore:gtqt_meta_item_1', 23) * 1)
     .outputs(item('gtqtcore:gtqt_meta_item_1', 22) * 1)
-		.fluidOutputs(fluid('creosote') * 50)
+	.fluidOutputs(fluid('creosote') * 50)
     .duration(400) 
     .buildAndRegister()
 //竹炭

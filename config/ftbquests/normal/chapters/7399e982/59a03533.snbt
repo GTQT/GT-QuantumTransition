@@ -2,6 +2,9 @@
 	x: -2.0d,
 	y: 7.0d,
 	can_repeat: true,
+	dependencies: [
+		"3f299b70"
+	],
 	tasks: [{
 		uid: "3363f2d5",
 		type: "item",
@@ -12,11 +15,6 @@
 			}
 		}],
 		count: 4L
-	},
-	{
-		uid: "db7eda51",
-		type: "gamestage",
-		stage: "MV"
 	}],
 	rewards: [{
 		uid: "56f8965f",

@@ -2,109 +2,95 @@
 <config>
     <lines at="topleft">
         <line>
-            <str>
-
-            </str>
-        </line>
-        <line>
-            <str>
-
-            </str>
-        </line>
-		<line>
-            <str>
-
-            </str>
-        </line>
-		<line>
-            <str>
-
-            </str>
-        </line>
-        <line>
             <operation>
                 <str>GT</str>
                 <var>tps</var>
-                <num>20</num>
-                <num>19</num>
-                <num>17</num>
-                <num>15</num>
-                <num>10</num>
-                <num>0</num>
-                <str>$bTPS: $a{tps}</str>
-                <str>$bTPS: $2{tps}</str>
-                <str>$bTPS: $e{tps}</str>
-                <str>$bTPS: $6{tps}</str>
-                <str>$bTPS: $c{tps}</str>
-                <str>$bTPS: $4{tps}</str>
+                    <num>20</num>
+                    <num>19</num>
+                    <num>17</num>
+                    <num>15</num>
+                    <num>10</num>
+                    <num>0</num>
+                        <str>$bTPS: $a{tps}</str>
+                        <str>$bTPS: $2{tps}</str>
+                        <str>$bTPS: $e{tps}</str>
+                        <str>$bTPS: $6{tps}</str>
+                        <str>$bTPS: $c{tps}</str>
+                        <str>$bTPS: $4{tps}</str>
             </operation>
             <str>$7丨</str>
             <operation>
                 <str>GT</str>
                 <var>mspt</var>
-                <num>75</num>
-                <num>50</num>
-                <num>25</num>
-                <num>15</num>
-                <num>10</num>
-                <num>0</num>
-                <str>$bMSPT: $4{mspt}</str>
-                <str>$bMSPT: $c{mspt}</str>
-                <str>$bMSPT: $6{mspt}</str>
-                <str>$bMSPT: $e{mspt}</str>
-                <str>$bMSPT: $2{mspt}</str>
-                <str>$bMSPT: $a{mspt}</str>
+                    <num>75</num>
+                    <num>50</num>
+                    <num>25</num>
+                    <num>15</num>
+                    <num>10</num>
+                    <num>0</num>
+                        <str>$bMSPT: $4{mspt}</str>
+                        <str>$bMSPT: $c{mspt}</str>
+                        <str>$bMSPT: $6{mspt}</str>
+                        <str>$bMSPT: $e{mspt}</str>
+                        <str>$bMSPT: $2{mspt}</str>
+                        <str>$bMSPT: $a{mspt}</str>
             </operation>
-        </line>
-        <line>
-            <var>yellow</var>
-            <str>FPS</str>
-            <var>white</var>
-            <str>:</str>
-            <operation>
-                <str>GE</str>
-                <var>fps</var>
-                <num>90</num>
-                <num>30</num>
-                <num>0</num>
-                <str>§a{fps}</str>
-                <str>§b{fps}</str>
-                <str>§c{fps}</str>
-            </operation>
-            <var>white</var>
-            <str> | </str>
-            <var>yellow</var>
-            <str>System time</str>
-            <var>white</var>
-            <str>:</str>
-            <var>aqua</var>
-            <var>rltime24</var>
-            <var>white</var>
-            <str> | </str>
-            <var>yellow</var>
-            <str>Memory</str>
-            <var>white</var>
-            <str>:</str>
+                
+            <str>$7丨$bRAM: {white}</str>
             <round>
                 <div>
                     <var>memused</var>
                     <num>1048576</num>
                 </div>
-                <num>0</num>
+                <num>2</num>
             </round>
-            <str>MB</str>
-            <str>/</str>
-            <round>
-                <div>
-                    <var>memmax</var>
-                    <num>1048576</num>
-                </div>
-                <num>0</num>
-            </round>
-            <str>MB</str>
+            <str>MB </str>
+        </line>
+		        <line>
+            <str>
+
+            </str>
         </line>
         <line>
-            <str> Data{darkaqua} </str>
+            <str>
+
+            </str>
+        </line>
+		<line>
+            <str>
+
+            </str>
+        </line>
+		<line>
+            <str>{pingicon}{gold}{username} {white}FPS: </str>
+            <op>
+                <str>gt</str>
+                <var>fps</var>
+                <num>60</num>
+                <num>45</num>
+                <num>30</num>
+                <num>15</num>
+                <num>0</num>
+                <str>{green}</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+                <str/>
+            </op>
+            <var>fps</var>
+            <str> </str>
+            <icon>
+                <str>minecraft:daylight_detector</str>
+            </icon>
+            <str> $f系统时间：$r</str>
+            <str>$6{rltime24} $r</str>
+        </line>
+		<line>
+            <icon>
+                <str>minecraft:clock</str>
+            </icon>
+            <str> MC日期:  第{darkaqua} </str>
             <add>
                 <round>
                     <div>
@@ -121,40 +107,47 @@
                 </round>
                 <num>1</num>
             </add>
-            <str> {white}Year；{darkaqua} </str>
+            <str> {white}年; 第{darkaqua} </str>
             <modi>
                 <var>day</var>
                 <num>365</num>
             </modi>
-            <str> {white}； Time：{gold}{mctime12} </str>
+            <str> {white}天; 时间: {gold}{mctime12} </str>
             <if>
                 <var>daytime</var>
-                <str>{yellow}(Day)</str>
-                <str>{gray}(Night)</str>
+                <str>{yellow}(白天)</str>
+                <str>{gray}(黑夜)</str>
             </if>
         </line>
         <line>
-            <str> Dim: {gold}{dimension} ({dimensionid})；</str>
-            <if>
-                <var>snowing</var>
-                <str> Weather: {darkgreen}{underline}Snow{reset}</str>
-            </if>
-            <if>
-                <var>raining</var>
-                <str> Weather: {darkgreen}{underline}Rain{reset}</str>
-            </if>
-            <if>
-                <var>thundering</var>
-                <str> Weather: {darkgreen}{u}Storm{reset}.</str>
+			<icon>
+                <str>minecraft:leaves</str>
+            </icon>
+            <str> 维度: {gold}{dimension} ({dimensionid})</str>
+			<if>
+                <var>slimechunk</var>
+                <str>$c$l是史莱姆区块!</str>
+                <str></str>
             </if>
         </line>
+		<line>
+            <icon>
+                <str>minecraft:skull</str>
+                <num>4</num>
+            </icon>
+            <str> 实体:  {gold}{entitiesrendered}{white} 已显现 / {gold}{entitiestotal}{white} 已加载  </str>
+        </line>
         <line>
-            <str> Formation: $3{biome}$f </str>
-            <str> {gold}{temperature}{white}°F {gold}</str>
+			<icon>
+                <str>minecraft:sapling</str>
+                <num>4</num>
+            </icon>
+            <str> 生物群系: $3{biome}$f</str>
+            <str> {gold}{localtemperature}{white}°F {gold}</str>
             <round>
                 <div>
                     <sub>
-                        <var>temperature</var>
+                        <var>localtemperature</var>
                         <num>32</num>
                     </sub>
                     <num>1.8</num>
@@ -166,7 +159,7 @@
                 <add>
                     <div>
                         <sub>
-                            <var>temperature</var>
+                            <var>localtemperature</var>
                             <num>32</num>
                         </sub>
                         <num>1.8</num>
@@ -176,19 +169,91 @@
                 <num>0</num>
             </round>
             <str>{white}K</str>
-            <str> {gold}{humidity}{white}% Humidity</str>
+            <str> 湿度 {gold}{humidity}{white}%</str>
         </line>
 		<line>
-            <str> Blood Magic：</str>
-            <str>Current LP：$6</str>
+            <icon>
+                <str>minecraft:compass</str>
+                <num>0</num>
+            </icon>
+            <str> 区块坐标:  X:{gold} {chunkx} {white}Z:{gold} {chunkz}{white} Y: {gold}{yi}{white}</str>
+            <str> Off:  {gold}{chunkoffsetx} {white}:{gold} {chunkoffsetz} {white} 面向 {gold}</str>
+            <op>
+                <str>eq</str>
+                <var>finedirection</var>
+                <str>North</str>
+                <str>North East</str>
+                <str>East</str>
+                <str>South East</str>
+                <str>South</str>
+                <str>South West</str>
+                <str>West</str>
+                <str>North West</str>
+                <str>北方</str>
+                <str>东北</str>
+                <str>东方</str>
+                <str>东南</str>
+                <str>南方</str>
+                <str>西南</str>
+                <str>西方</str>
+                <str>西北</str>
+            </op>
+            <str>$f</str>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:torch</str>
+            </icon>
+            <str> 光照等级:  </str>
+            <max>
+                <var>light</var>
+                <num>7.5</num>
+                <str>{yellow}</str>
+                <str>{red}</str>
+            </max>
+            <var>light</var>
+            <str>{white} (入眼: </str>
+            <max>
+                <var>lighteye</var>
+                <num>7.5</num>
+                <str>{yellow}</str>
+                <str>{red}</str>
+            </max>
+            <var>lighteye</var>
+            <str>{white})</str>
+        </line>
+		<line>
+            <icon>
+                <str>thaumcraft:goggles</str>
+                <num>4</num>
+            </icon>
+			<str> 神秘时代: </str>
+            <str> 灵气:  $4</str>
+            <round>
+                <var>thaumaura</var>
+                <num>2</num>
+            </round>
+            <str> $f</str>
+            <str> 咒波： $4{thaumflux}$f</str>
+            <str> 永久： $4{thaumwarpperm}$f</str>
+            <str> 一般： $4{thaumwarpnormal}$f</str>
+            <str> 临时： $4{thaumwarptemp}$f </str>
+        </line>
+		<line>
+            <icon>
+                <str>bloodmagic:component</str>
+                <num>4</num>
+            </icon>
+            <str> 血魔法2: </str>
+            <str> 当前LP: $6</str>
+
             <if>
                 <greater>
                     <round>
                         <sub>
                             <var>bmcurrentlp</var>
                             <div>
-                                <num>1000000000</num>
-                                <num>2</num>
+                                <num>1000000000</num><num>2</num>
                             </div>
                         </sub>
                         <num>-9</num>
@@ -202,8 +267,7 @@
                                 <sub>
                                     <var>bmcurrentlp</var>
                                     <div>
-                                        <num>1000000000</num>
-                                        <num>2</num>
+                                        <num>1000000000</num><num>2</num>
                                     </div>
                                 </sub>
                                 <num>-9</num>
@@ -221,8 +285,7 @@
                         <sub>
                             <var>bmcurrentlp</var>
                             <div>
-                                <num>1000000000</num>
-                                <num>2</num>
+                                <num>1000000000</num><num>2</num>
                             </div>
                         </sub>
                         <num>-9</num>
@@ -236,26 +299,24 @@
                                 <sub>
                                     <div>
                                         <sub>
-                                            <round>
-                                                <sub>
-                                                    <var>bmcurrentlp</var>
-                                                    <div>
-                                                        <num>1000000</num>
-                                                        <num>2</num>
-                                                    </div>
-                                                </sub>
-                                                <num>-6</num>
-                                            </round>
-                                            <round>
-                                                <sub>
-                                                    <var>bmcurrentlp</var>
-                                                    <div>
-                                                        <num>1000000000</num>
-                                                        <num>2</num>
-                                                    </div>
-                                                </sub>
-                                                <num>-9</num>
-                                            </round>
+                                                <round>
+                                                    <sub>
+                                                        <var>bmcurrentlp</var>
+                                                        <div>
+                                                            <num>1000000</num><num>2</num>
+                                                        </div>
+                                                    </sub>
+                                                    <num>-6</num>
+                                                </round>
+                                                <round>
+                                                    <sub>
+                                                        <var>bmcurrentlp</var>
+                                                        <div>
+                                                            <num>1000000000</num><num>2</num>
+                                                        </div>
+                                                    </sub>
+                                                    <num>-9</num>
+                                                </round>
                                         </sub>
                                         <num>1000000</num>
                                     </div>
@@ -276,23 +337,19 @@
                                         <sub>
                                             <div>
                                                 <sub>
-                                                    <round>
+                                                        <round>
+                                                            <sub>
+                                                                <var>bmcurrentlp</var>
+                                                                <div>
+                                                                    <num>1000000</num><num>2</num>
+                                                                </div>
+                                                            </sub>
+                                                            <num>-6</num>
+                                                        </round>
                                                         <sub>
                                                             <var>bmcurrentlp</var>
-                                                            <div>
-                                                                <num>1000000</num>
-                                                                <num>2</num>
-                                                            </div>
+                                                            <modi><var>bmcurrentlp</var><num>1000000000</num></modi>
                                                         </sub>
-                                                        <num>-6</num>
-                                                    </round>
-                                                    <sub>
-                                                        <var>bmcurrentlp</var>
-                                                        <modi>
-                                                            <var>bmcurrentlp</var>
-                                                            <num>1000000000</num>
-                                                        </modi>
-                                                    </sub>
                                                 </sub>
                                                 <num>1000000</num>
                                             </div>
@@ -313,26 +370,24 @@
                 <round>
                     <div>
                         <sub>
-                            <round>
-                                <sub>
-                                    <var>bmcurrentlp</var>
-                                    <div>
-                                        <num>1000000</num>
-                                        <num>2</num>
-                                    </div>
-                                </sub>
-                                <num>-6</num>
-                            </round>
-                            <round>
-                                <sub>
-                                    <var>bmcurrentlp</var>
-                                    <div>
-                                        <num>1000000000</num>
-                                        <num>2</num>
-                                    </div>
-                                </sub>
-                                <num>-9</num>
-                            </round>
+                                <round>
+                                    <sub>
+                                        <var>bmcurrentlp</var>
+                                        <div>
+                                            <num>1000000</num><num>2</num>
+                                        </div>
+                                    </sub>
+                                    <num>-6</num>
+                                </round>
+                                <round>
+                                    <sub>
+                                        <var>bmcurrentlp</var>
+                                        <div>
+                                            <num>1000000000</num><num>2</num>
+                                        </div>
+                                    </sub>
+                                    <num>-9</num>
+                                </round>
                         </sub>
                         <num>1000000</num>
                     </div>
@@ -346,8 +401,7 @@
                         <sub>
                             <var>bmcurrentlp</var>
                             <div>
-                                <num>1000000</num>
-                                <num>2</num>
+                                <num>1000000</num><num>2</num>
                             </div>
                         </sub>
                         <num>-6</num>
@@ -361,26 +415,24 @@
                                 <sub>
                                     <div>
                                         <sub>
-                                            <round>
-                                                <sub>
-                                                    <var>bmcurrentlp</var>
-                                                    <div>
-                                                        <num>1000</num>
-                                                        <num>2</num>
-                                                    </div>
-                                                </sub>
-                                                <num>-3</num>
-                                            </round>
-                                            <round>
-                                                <sub>
-                                                    <var>bmcurrentlp</var>
-                                                    <div>
-                                                        <num>1000000</num>
-                                                        <num>2</num>
-                                                    </div>
-                                                </sub>
-                                                <num>-6</num>
-                                            </round>
+                                                <round>
+                                                    <sub>
+                                                        <var>bmcurrentlp</var>
+                                                        <div>
+                                                            <num>1000</num><num>2</num>
+                                                        </div>
+                                                    </sub>
+                                                    <num>-3</num>
+                                                </round>
+                                                <round>
+                                                    <sub>
+                                                        <var>bmcurrentlp</var>
+                                                        <div>
+                                                            <num>1000000</num><num>2</num>
+                                                        </div>
+                                                    </sub>
+                                                    <num>-6</num>
+                                                </round>
                                         </sub>
                                         <num>1000</num>
                                     </div>
@@ -401,23 +453,19 @@
                                         <sub>
                                             <div>
                                                 <sub>
-                                                    <round>
+                                                        <round>
+                                                            <sub>
+                                                                <var>bmcurrentlp</var>
+                                                                <div>
+                                                                    <num>1000</num><num>2</num>
+                                                                </div>
+                                                            </sub>
+                                                            <num>-3</num>
+                                                        </round>
                                                         <sub>
                                                             <var>bmcurrentlp</var>
-                                                            <div>
-                                                                <num>1000</num>
-                                                                <num>2</num>
-                                                            </div>
+                                                            <modi><var>bmcurrentlp</var><num>1000000</num></modi>
                                                         </sub>
-                                                        <num>-3</num>
-                                                    </round>
-                                                    <sub>
-                                                        <var>bmcurrentlp</var>
-                                                        <modi>
-                                                            <var>bmcurrentlp</var>
-                                                            <num>1000000</num>
-                                                        </modi>
-                                                    </sub>
                                                 </sub>
                                                 <num>1000</num>
                                             </div>
@@ -438,26 +486,24 @@
                 <round>
                     <div>
                         <sub>
-                            <round>
-                                <sub>
-                                    <var>bmcurrentlp</var>
-                                    <div>
-                                        <num>1000</num>
-                                        <num>2</num>
-                                    </div>
-                                </sub>
-                                <num>-3</num>
-                            </round>
-                            <round>
-                                <sub>
-                                    <var>bmcurrentlp</var>
-                                    <div>
-                                        <num>1000000</num>
-                                        <num>2</num>
-                                    </div>
-                                </sub>
-                                <num>-6</num>
-                            </round>
+                                <round>
+                                    <sub>
+                                        <var>bmcurrentlp</var>
+                                        <div>
+                                            <num>1000</num><num>2</num>
+                                        </div>
+                                    </sub>
+                                    <num>-3</num>
+                                </round>
+                                <round>
+                                    <sub>
+                                        <var>bmcurrentlp</var>
+                                        <div>
+                                            <num>1000000</num><num>2</num>
+                                        </div>
+                                    </sub>
+                                    <num>-6</num>
+                                </round>
                         </sub>
                         <num>1000</num>
                     </div>
@@ -471,8 +517,7 @@
                         <sub>
                             <var>bmcurrentlp</var>
                             <div>
-                                <num>1000</num>
-                                <num>2</num>
+                                <num>1000</num><num>2</num>
                             </div>
                         </sub>
                         <num>-3</num>
@@ -486,17 +531,16 @@
                                 <sub>
                                     <div>
                                         <sub>
-                                            <var>bmcurrentlp</var>
-                                            <round>
-                                                <sub>
-                                                    <var>bmcurrentlp</var>
-                                                    <div>
-                                                        <num>1000</num>
-                                                        <num>2</num>
-                                                    </div>
-                                                </sub>
-                                                <num>-3</num>
-                                            </round>
+                                                <var>bmcurrentlp</var>
+                                                <round>
+                                                    <sub>
+                                                        <var>bmcurrentlp</var>
+                                                        <div>
+                                                            <num>1000</num><num>2</num>
+                                                        </div>
+                                                    </sub>
+                                                    <num>-3</num>
+                                                </round>
                                         </sub>
                                         <num>1</num>
                                     </div>
@@ -517,17 +561,16 @@
                                         <sub>
                                             <div>
                                                 <sub>
-                                                    <var>bmcurrentlp</var>
-                                                    <round>
-                                                        <sub>
-                                                            <var>bmcurrentlp</var>
-                                                            <div>
-                                                                <num>1000</num>
-                                                                <num>2</num>
-                                                            </div>
-                                                        </sub>
-                                                        <num>-3</num>
-                                                    </round>
+                                                        <var>bmcurrentlp</var>
+                                                        <round>
+                                                            <sub>
+                                                                <var>bmcurrentlp</var>
+                                                                <div>
+                                                                    <num>1000</num><num>2</num>
+                                                                </div>
+                                                            </sub>
+                                                            <num>-3</num>
+                                                        </round>
                                                 </sub>
                                                 <num>1</num>
                                             </div>
@@ -548,26 +591,24 @@
                 <round>
                     <div>
                         <sub>
-                            <round>
-                                <sub>
-                                    <var>bmcurrentlp</var>
-                                    <div>
-                                        <num>1</num>
-                                        <num>2</num>
-                                    </div>
-                                </sub>
-                                <num>0</num>
-                            </round>
-                            <round>
-                                <sub>
-                                    <var>bmcurrentlp</var>
-                                    <div>
-                                        <num>1000</num>
-                                        <num>2</num>
-                                    </div>
-                                </sub>
-                                <num>-3</num>
-                            </round>
+                                <round>
+                                    <sub>
+                                        <var>bmcurrentlp</var>
+                                        <div>
+                                            <num>1</num><num>2</num>
+                                        </div>
+                                    </sub>
+                                    <num>0</num>
+                                </round>
+                                <round>
+                                    <sub>
+                                        <var>bmcurrentlp</var>
+                                        <div>
+                                            <num>1000</num><num>2</num>
+                                        </div>
+                                    </sub>
+                                    <num>-3</num>
+                                </round>
                         </sub>
                         <num>1</num>
                     </div>
@@ -577,15 +618,14 @@
             </concat>
             <str>$f</str>
 
-            <str> Max LP： $6</str>
+            <str> 最大LP: $6</str>
             <if>
                 <greater>
                     <round>
                         <sub>
                             <var>bmmaxlp</var>
                             <div>
-                                <num>1000000000</num>
-                                <num>2</num>
+                                <num>1000000000</num><num>2</num>
                             </div>
                         </sub>
                         <num>-9</num>
@@ -599,8 +639,7 @@
                                 <sub>
                                     <var>bmmaxlp</var>
                                     <div>
-                                        <num>1000000000</num>
-                                        <num>2</num>
+                                        <num>1000000000</num><num>2</num>
                                     </div>
                                 </sub>
                                 <num>-9</num>
@@ -618,8 +657,7 @@
                         <sub>
                             <var>bmmaxlp</var>
                             <div>
-                                <num>1000000000</num>
-                                <num>2</num>
+                                <num>1000000000</num><num>2</num>
                             </div>
                         </sub>
                         <num>-9</num>
@@ -633,26 +671,24 @@
                                 <sub>
                                     <div>
                                         <sub>
-                                            <round>
-                                                <sub>
-                                                    <var>bmmaxlp</var>
-                                                    <div>
-                                                        <num>1000000</num>
-                                                        <num>2</num>
-                                                    </div>
-                                                </sub>
-                                                <num>-6</num>
-                                            </round>
-                                            <round>
-                                                <sub>
-                                                    <var>bmmaxlp</var>
-                                                    <div>
-                                                        <num>1000000000</num>
-                                                        <num>2</num>
-                                                    </div>
-                                                </sub>
-                                                <num>-9</num>
-                                            </round>
+                                                <round>
+                                                    <sub>
+                                                        <var>bmmaxlp</var>
+                                                        <div>
+                                                            <num>1000000</num><num>2</num>
+                                                        </div>
+                                                    </sub>
+                                                    <num>-6</num>
+                                                </round>
+                                                <round>
+                                                    <sub>
+                                                        <var>bmmaxlp</var>
+                                                        <div>
+                                                            <num>1000000000</num><num>2</num>
+                                                        </div>
+                                                    </sub>
+                                                    <num>-9</num>
+                                                </round>
                                         </sub>
                                         <num>1000000</num>
                                     </div>
@@ -673,23 +709,19 @@
                                         <sub>
                                             <div>
                                                 <sub>
-                                                    <round>
+                                                        <round>
+                                                            <sub>
+                                                                <var>bmmaxlp</var>
+                                                                <div>
+                                                                    <num>1000000</num><num>2</num>
+                                                                </div>
+                                                            </sub>
+                                                            <num>-6</num>
+                                                        </round>
                                                         <sub>
                                                             <var>bmmaxlp</var>
-                                                            <div>
-                                                                <num>1000000</num>
-                                                                <num>2</num>
-                                                            </div>
+                                                            <modi><var>bmmaxlp</var><num>1000000000</num></modi>
                                                         </sub>
-                                                        <num>-6</num>
-                                                    </round>
-                                                    <sub>
-                                                        <var>bmmaxlp</var>
-                                                        <modi>
-                                                            <var>bmmaxlp</var>
-                                                            <num>1000000000</num>
-                                                        </modi>
-                                                    </sub>
                                                 </sub>
                                                 <num>1000000</num>
                                             </div>
@@ -710,26 +742,24 @@
                 <round>
                     <div>
                         <sub>
-                            <round>
-                                <sub>
-                                    <var>bmmaxlp</var>
-                                    <div>
-                                        <num>1000000</num>
-                                        <num>2</num>
-                                    </div>
-                                </sub>
-                                <num>-6</num>
-                            </round>
-                            <round>
-                                <sub>
-                                    <var>bmmaxlp</var>
-                                    <div>
-                                        <num>1000000000</num>
-                                        <num>2</num>
-                                    </div>
-                                </sub>
-                                <num>-9</num>
-                            </round>
+                                <round>
+                                    <sub>
+                                        <var>bmmaxlp</var>
+                                        <div>
+                                            <num>1000000</num><num>2</num>
+                                        </div>
+                                    </sub>
+                                    <num>-6</num>
+                                </round>
+                                <round>
+                                    <sub>
+                                        <var>bmmaxlp</var>
+                                        <div>
+                                            <num>1000000000</num><num>2</num>
+                                        </div>
+                                    </sub>
+                                    <num>-9</num>
+                                </round>
                         </sub>
                         <num>1000000</num>
                     </div>
@@ -743,8 +773,7 @@
                         <sub>
                             <var>bmmaxlp</var>
                             <div>
-                                <num>1000000</num>
-                                <num>2</num>
+                                <num>1000000</num><num>2</num>
                             </div>
                         </sub>
                         <num>-6</num>
@@ -758,26 +787,24 @@
                                 <sub>
                                     <div>
                                         <sub>
-                                            <round>
-                                                <sub>
-                                                    <var>bmmaxlp</var>
-                                                    <div>
-                                                        <num>1000</num>
-                                                        <num>2</num>
-                                                    </div>
-                                                </sub>
-                                                <num>-3</num>
-                                            </round>
-                                            <round>
-                                                <sub>
-                                                    <var>bmmaxlp</var>
-                                                    <div>
-                                                        <num>1000000</num>
-                                                        <num>2</num>
-                                                    </div>
-                                                </sub>
-                                                <num>-6</num>
-                                            </round>
+                                                <round>
+                                                    <sub>
+                                                        <var>bmmaxlp</var>
+                                                        <div>
+                                                            <num>1000</num><num>2</num>
+                                                        </div>
+                                                    </sub>
+                                                    <num>-3</num>
+                                                </round>
+                                                <round>
+                                                    <sub>
+                                                        <var>bmmaxlp</var>
+                                                        <div>
+                                                            <num>1000000</num><num>2</num>
+                                                        </div>
+                                                    </sub>
+                                                    <num>-6</num>
+                                                </round>
                                         </sub>
                                         <num>1000</num>
                                     </div>
@@ -798,23 +825,19 @@
                                         <sub>
                                             <div>
                                                 <sub>
-                                                    <round>
+                                                        <round>
+                                                            <sub>
+                                                                <var>bmmaxlp</var>
+                                                                <div>
+                                                                    <num>1000</num><num>2</num>
+                                                                </div>
+                                                            </sub>
+                                                            <num>-3</num>
+                                                        </round>
                                                         <sub>
                                                             <var>bmmaxlp</var>
-                                                            <div>
-                                                                <num>1000</num>
-                                                                <num>2</num>
-                                                            </div>
+                                                            <modi><var>bmmaxlp</var><num>1000000</num></modi>
                                                         </sub>
-                                                        <num>-3</num>
-                                                    </round>
-                                                    <sub>
-                                                        <var>bmmaxlp</var>
-                                                        <modi>
-                                                            <var>bmmaxlp</var>
-                                                            <num>1000000</num>
-                                                        </modi>
-                                                    </sub>
                                                 </sub>
                                                 <num>1000</num>
                                             </div>
@@ -835,26 +858,24 @@
                 <round>
                     <div>
                         <sub>
-                            <round>
-                                <sub>
-                                    <var>bmmaxlp</var>
-                                    <div>
-                                        <num>1000</num>
-                                        <num>2</num>
-                                    </div>
-                                </sub>
-                                <num>-3</num>
-                            </round>
-                            <round>
-                                <sub>
-                                    <var>bmmaxlp</var>
-                                    <div>
-                                        <num>1000000</num>
-                                        <num>2</num>
-                                    </div>
-                                </sub>
-                                <num>-6</num>
-                            </round>
+                                <round>
+                                    <sub>
+                                        <var>bmmaxlp</var>
+                                        <div>
+                                            <num>1000</num><num>2</num>
+                                        </div>
+                                    </sub>
+                                    <num>-3</num>
+                                </round>
+                                <round>
+                                    <sub>
+                                        <var>bmmaxlp</var>
+                                        <div>
+                                            <num>1000000</num><num>2</num>
+                                        </div>
+                                    </sub>
+                                    <num>-6</num>
+                                </round>
                         </sub>
                         <num>1000</num>
                     </div>
@@ -868,8 +889,7 @@
                         <sub>
                             <var>bmmaxlp</var>
                             <div>
-                                <num>1000</num>
-                                <num>2</num>
+                                <num>1000</num><num>2</num>
                             </div>
                         </sub>
                         <num>-3</num>
@@ -883,17 +903,16 @@
                                 <sub>
                                     <div>
                                         <sub>
-                                            <var>bmmaxlp</var>
-                                            <round>
-                                                <sub>
-                                                    <var>bmmaxlp</var>
-                                                    <div>
-                                                        <num>1000</num>
-                                                        <num>2</num>
-                                                    </div>
-                                                </sub>
-                                                <num>-3</num>
-                                            </round>
+                                                <var>bmmaxlp</var>
+                                                <round>
+                                                    <sub>
+                                                        <var>bmmaxlp</var>
+                                                        <div>
+                                                            <num>1000</num><num>2</num>
+                                                        </div>
+                                                    </sub>
+                                                    <num>-3</num>
+                                                </round>
                                         </sub>
                                         <num>1</num>
                                     </div>
@@ -914,17 +933,16 @@
                                         <sub>
                                             <div>
                                                 <sub>
-                                                    <var>bmmaxlp</var>
-                                                    <round>
-                                                        <sub>
-                                                            <var>bmmaxlp</var>
-                                                            <div>
-                                                                <num>1000</num>
-                                                                <num>2</num>
-                                                            </div>
-                                                        </sub>
-                                                        <num>-3</num>
-                                                    </round>
+                                                        <var>bmmaxlp</var>
+                                                        <round>
+                                                            <sub>
+                                                                <var>bmmaxlp</var>
+                                                                <div>
+                                                                    <num>1000</num><num>2</num>
+                                                                </div>
+                                                            </sub>
+                                                            <num>-3</num>
+                                                        </round>
                                                 </sub>
                                                 <num>1</num>
                                             </div>
@@ -945,26 +963,24 @@
                 <round>
                     <div>
                         <sub>
-                            <round>
-                                <sub>
-                                    <var>bmmaxlp</var>
-                                    <div>
-                                        <num>1</num>
-                                        <num>2</num>
-                                    </div>
-                                </sub>
-                                <num>0</num>
-                            </round>
-                            <round>
-                                <sub>
-                                    <var>bmmaxlp</var>
-                                    <div>
-                                        <num>1000</num>
-                                        <num>2</num>
-                                    </div>
-                                </sub>
-                                <num>-3</num>
-                            </round>
+                                <round>
+                                    <sub>
+                                        <var>bmmaxlp</var>
+                                        <div>
+                                            <num>1</num><num>2</num>
+                                        </div>
+                                    </sub>
+                                    <num>0</num>
+                                </round>
+                                <round>
+                                    <sub>
+                                        <var>bmmaxlp</var>
+                                        <div>
+                                            <num>1000</num><num>2</num>
+                                        </div>
+                                    </sub>
+                                    <num>-3</num>
+                                </round>
                         </sub>
                         <num>1</num>
                     </div>
@@ -974,117 +990,31 @@
             </concat>
             <str>$f</str>
             <str>$f </str>
+            <str> (宝珠等级: </str>
+            <var>bmorbtier</var>
+            <str>)</str>
         </line>
 		<line>
-            <str> Thaumastic： </str>
-            <str>§bAura§r§0：§b</str>
-            <round>
-                <num>{thaumaura}</num>
-                <num>0</num>
-            </round>
-            <str> §6|§r </str>
-            <str>§5Flux§r§0：§d</str>
-            <round>
-                <num>{thaumflux}</num>
-                <num>0</num>
-            </round>
-            <str>§5Normal §r§0：§d</str>
-            <round>
-                <num>{thaumwarpnormal}</num>
-                <num>0</num>
-            </round>
-            <str>§5Permanent §r§0：§d</str>
-            <round>
-                <num>{thaumwarpperm}</num>
-                <num>0</num>
-            </round>
-            <str>§5Temporary §r§0：§d</str>
-            <round>
-                <num>{thaumwarptemp}</num>
-                <num>0</num>
-            </round>
+            <str>{black}</str>
         </line>
         <line>
             <if>
-                <and>
-                    <or>
-                        <equal>
-                            <modi>
-                                <var>chunkx</var>
-                                <num>3</num>
-                            </modi>
-                            <num>-2</num>
-                        </equal>
-                        <equal>
-                            <modi>
-                                <var>chunkx</var>
-                                <num>3</num>
-                            </modi>
-                            <num>1</num>
-                        </equal>
-                    </or>
-                    <or>
-                        <equal>
-                            <modi>
-                                <var>chunkz</var>
-                                <num>3</num>
-                            </modi>
-                            <num>-2</num>
-                        </equal>
-                        <equal>
-                            <modi>
-                                <var>chunkz</var>
-                                <num>3</num>
-                            </modi>
-                            <num>1</num>
-                        </equal>
-                    </or>
-                </and>
-                <concat>
-                    <str> Currently located in the $2 {underline} ore vein $f block</str>
-                </concat>
+                <var>snowing</var>
+                <str>  正在 {darkgreen}{underline}下雪{reset}</str>
+            </if>
+            <if>
+                <var>raining</var>
+                <str>  正在 {darkgreen}{underline}下雨{reset}</str>
+            </if>
+            <if>
+                <var>thundering</var>
+                <str> 并且是 {darkgreen}{u}暴风雨{reset}.</str>
             </if>
         </line>
         <line>
-            <if>
-                <and>
-                    <or>
-                        <equal>
-                            <modi>
-                                <var>chunkx</var>
-                                <num>2</num>
-                            </modi>
-                            <num>-2</num>
-                        </equal>
-                        <equal>
-                            <modi>
-                                <var>chunkx</var>
-                                <num>2</num>
-                            </modi>
-                            <num>2</num>
-                        </equal>
-                    </or>
-                    <or>
-                        <equal>
-                            <modi>
-                                <var>chunkz</var>
-                                <num>2</num>
-                            </modi>
-                            <num>-2</num>
-                        </equal>
-                        <equal>
-                            <modi>
-                                <var>chunkz</var>
-                                <num>2</num>
-                            </modi>
-                            <num>2</num>
-                        </equal>
-                    </or>
-                </and>
-                <concat>
-                    <str> Currently located at the center of $2 {offline} vein $f</str>
-                </concat>
-            </if>
+            <str>{black}</str>
+        </line>
+        <line>
             <if>
                 <and>
                     <equal>
@@ -1132,11 +1062,263 @@
                                 </equal>
                             </or>
                         </and>
-                        <str></str>
+                        <str>      </str>
                     </if>
-                    <str>Currently in the $4 {underline} block $f center</str>
+                    <str>  你正在区块 {darkred}中心{white} .</str>
                 </concat>
             </if>
         </line>
+        <line>
+            <str>{black}</str>
+        </line>
+        <line>
+            <if>
+                <str>  最近玩家：</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  1) {gold}{nearbyplayername0}{white}({nearbyplayerdistance0}m)</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  2) {gold}{nearbyplayername1}{white}({nearbyplayerdistance1}m)</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  2) {gold}{nearbyplayername2}{white}({nearbyplayerdistance2}m)</str>
+            </if>
+        </line>
 	</lines>
+	<lines at="middleleft">
+        <line>
+            <var>mainhandicon</var>
+            <str> </str>
+            <operation>
+                <str>ge</str>
+                <pct>
+                    <var>mainhanddamageleft</var>
+                    <var>mainhandmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str/>
+            </operation>
+            <max>
+                <var>mainhanddamageleft</var>
+                <num>0.5</num>
+                <str>{mainhanddamageleft}$f / $e{mainhandmaxdamage}</str>
+                <var>mainhandname</var>
+            </max>
+        </line>
+        <line>
+            <var>offhandicon</var>
+            <str> </str>
+            <operation>
+                <str>ge</str>
+                <pct>
+                    <var>offhanddamageleft</var>
+                    <var>offhandmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str/>
+            </operation>
+            <max>
+                <var>offhanddamageleft</var>
+                <num>0.5</num>
+                <str>{offhanddamageleft}$f / $e{offhandmaxdamage}</str>
+                <var>offhandname</var>
+            </max>
+        </line>
+        <line>
+            <str> </str>
+        </line>
+        <line>
+            <var>helmeticon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>helmetdamageleft</var>
+                    <var>helmetmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+            </op>
+            <max>
+                <var>helmetdamageleft</var>
+                <num>0.5</num>
+                <str>{helmetdamageleft} {white}/ {yellow}{helmetmaxdamage}</str>
+                <str/>
+            </max>
+            <str> </str>
+        </line>
+        <line>
+            <var>chestplateicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>chestplatedamageleft</var>
+                    <var>chestplatemaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+            </op>
+            <max>
+                <var>chestplatedamageleft</var>
+                <num>0.5</num>
+                <str>{chestplatedamageleft} {white}/ {yellow}{chestplatemaxdamage}</str>
+                <str/>
+            </max>
+            <str> </str>
+        </line>
+        <line>
+            <var>leggingsicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>leggingsdamageleft</var>
+                    <var>leggingsmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+            </op>
+            <max>
+                <var>leggingsdamageleft</var>
+                <num>0.5</num>
+                <str>{leggingsdamageleft} {white}/ {yellow}{leggingsmaxdamage}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <var>bootsicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>bootsdamageleft</var>
+                    <var>bootsmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+            </op>
+            <max>
+                <var>bootsdamageleft</var>
+                <num>0.5</num>
+                <str>{bootsdamageleft} {white}/ {yellow}{bootsmaxdamage}</str>
+                <str/>
+            </max>
+        </line>
+    </lines>
+    <lines at="bottomright">
+        <line>
+            <max>
+                <var>potiondurationticks0</var>
+                <num>0.5</num>
+                <str>{potionduration0} {potionicon0}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks1</var>
+                <num>0.5</num>
+                <str>{potionduration1} {potionicon1}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks2</var>
+                <num>0.5</num>
+                <str>{potionduration2} {potionicon2}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks3</var>
+                <num>0.5</num>
+                <str>{potionduration3} {potionicon3}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks4</var>
+                <num>0.5</num>
+                <str>{potionduration4} {potionicon4}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks5</var>
+                <num>0.5</num>
+                <str>{potionduration5} {potionicon5}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks6</var>
+                <num>0.5</num>
+                <str>{potionduration6} {potionicon6}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks7</var>
+                <num>0.5</num>
+                <str>{potionduration7} {potionicon7}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks8</var>
+                <num>0.5</num>
+                <str>{potionduration8} {potionicon8}</str>
+                <str/>
+            </max>
+        </line>
+    </lines>
 </config>

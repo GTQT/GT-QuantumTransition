@@ -13,11 +13,6 @@
 		uid: "efd25812",
 		type: "ftbmoney:money",
 		value: 10L
-	},
-	{
-		uid: "d877c0b6",
-		type: "gamestage",
-		stage: "easy"
 	}],
 	rewards: [{
 		uid: "d9c5e865",

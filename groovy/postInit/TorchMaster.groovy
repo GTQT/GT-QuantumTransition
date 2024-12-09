@@ -1,6 +1,6 @@
 crafting.replaceShaped('torchmaster:feral_flare_lantern', item('torchmaster:feral_flare_lantern'), [
         [metaitem('plateSteel'), ore('craftingLensGlass'), metaitem('plateSteel')],
-        [ore('craftingLensGlass'), ore('gtLight'), ore('craftingLensGlass')],
+        [ore('craftingLensGlass'), metaitem('screwSteel'), ore('craftingLensGlass')],
         [metaitem('plateSteel'), ore('craftingLensGlass'), metaitem('plateSteel')]
 ])
 

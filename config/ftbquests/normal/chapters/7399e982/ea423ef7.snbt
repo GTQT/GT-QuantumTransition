@@ -1,6 +1,9 @@
 {
 	x: -2.0d,
 	y: 11.0d,
+	dependencies: [
+		"8b3f45f3"
+	],
 	tasks: [{
 		uid: "09a3fdee",
 		type: "item",
@@ -11,11 +14,6 @@
 			}
 		}],
 		count: 4L
-	},
-	{
-		uid: "28d29987",
-		type: "gamestage",
-		stage: "LuV"
 	}],
 	rewards: [{
 		uid: "df983550",

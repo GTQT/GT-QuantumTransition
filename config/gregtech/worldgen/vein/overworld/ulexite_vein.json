@@ -1,0 +1,36 @@
+{
+    "name": "Ulexite Vein",
+    "weight": 80,
+   "density": 0.4,
+    "max_height": 60,
+    "min_height": 0,
+
+	"vein_populator": {
+		"type": "surface_rock",
+		"material": "ulexite"
+	},
+    "generator": {
+      "type": "layered",
+      "radius": [
+        17,
+        24
+      ]
+    },
+    "filler": {
+      "type": "layered",
+      "values": [
+        {
+        "primary": "ore:ulexite"
+      },
+      {
+        "secondary": "ore:ulexite"
+      },
+      {
+        "between": "ore:ulexite"
+      },
+      {
+        "sporadic": "ore:salt"
+      }
+      ]
+    }
+}

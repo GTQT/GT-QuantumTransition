@@ -5,6 +5,15 @@ mods.botania.mana_infusion.recipeBuilder()
         .output(item('gregtech:meta_ingot', 16113))
         .mana(5000)
         .register()
+		
+	
+mods.botania.mana_infusion.removeByOutput(item('botania:storage'))
+mods.botania.mana_infusion.recipeBuilder()
+        .input(ore('blockSteel'))
+        .output(item('gregtech:meta_block_compressed_1007', 1))
+        .mana(5000)
+        .register()
+		
 //魔力丝线
 mods.botania.mana_infusion.removeByOutput(item('botania:manaresource', 16))
 mods.botania.mana_infusion.recipeBuilder()

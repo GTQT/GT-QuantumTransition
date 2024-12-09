@@ -1,0 +1,171 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "XB_Asuna",
+      "uniqueId": "27a7323a-1fbb-4c30-8ba0-c5879feb7fce"
+    },
+    "time": 1729169234461,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "E:\\GTQT 1.4.0\\.minecraft\\versions\\GTQT\\config\\heap-2024-10-17_20.46.50.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "XB_Asuna",
+      "uniqueId": "27a7323a-1fbb-4c30-8ba0-c5879feb7fce"
+    },
+    "time": 1729158574980,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/5MF1PImMra"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "XB_Asuna",
+      "uniqueId": "27a7323a-1fbb-4c30-8ba0-c5879feb7fce"
+    },
+    "time": 1729158541965,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/qzv0hosYss"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "XB_Asuna",
+      "uniqueId": "27a7323a-1fbb-4c30-8ba0-c5879feb7fce"
+    },
+    "time": 1729158434362,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Hfb2kOAMt5"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "XB_Asuna",
+      "uniqueId": "27a7323a-1fbb-4c30-8ba0-c5879feb7fce"
+    },
+    "time": 1729158372256,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/U1f2xdBugs"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "XB_Asuna",
+      "uniqueId": "27a7323a-1fbb-4c30-8ba0-c5879feb7fce"
+    },
+    "time": 1729158195780,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/L91JSr9OmW"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "XB_Asuna",
+      "uniqueId": "27a7323a-1fbb-4c30-8ba0-c5879feb7fce"
+    },
+    "time": 1729158192951,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ZNqWQsMyRJ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "XB_Asuna",
+      "uniqueId": "27a7323a-1fbb-4c30-8ba0-c5879feb7fce"
+    },
+    "time": 1729158169188,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/jtudJZi2ly"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "XB_Asuna",
+      "uniqueId": "27a7323a-1fbb-4c30-8ba0-c5879feb7fce"
+    },
+    "time": 1729158109566,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ujL0QJvTvy"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "XB_Asuna",
+      "uniqueId": "27a7323a-1fbb-4c30-8ba0-c5879feb7fce"
+    },
+    "time": 1729158030583,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/D7jtjhpnTG"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "XB_Asuna",
+      "uniqueId": "27a7323a-1fbb-4c30-8ba0-c5879feb7fce"
+    },
+    "time": 1729157980710,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/d1f5AkPouB"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "XB_Asuna",
+      "uniqueId": "27a7323a-1fbb-4c30-8ba0-c5879feb7fce"
+    },
+    "time": 1729157842961,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/CMSyon315J"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "XB_Asuna",
+      "uniqueId": "27a7323a-1fbb-4c30-8ba0-c5879feb7fce"
+    },
+    "time": 1729157827018,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/jeMjWy79mA"
+    }
+  }
+]

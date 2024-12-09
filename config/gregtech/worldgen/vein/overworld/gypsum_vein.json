@@ -1,0 +1,36 @@
+{
+    "name": "Gypsum Vein",
+    "weight": 25,
+   "density": 0.5,
+    "max_height": 60,
+    "min_height": 0,
+
+	"vein_populator": {
+		"type": "surface_rock",
+		"material": "gypsum"
+	},
+    "generator": {
+      "type": "layered",
+      "radius": [
+        14,
+        16
+      ]
+    },
+    "filler": {
+      "type": "layered",
+      "values": [
+{
+        "primary": "ore:basaltic_mineral_sand"
+      },
+      {
+        "secondary": "ore:granitic_mineral_sand"
+      },
+      {
+        "between": "ore:fullers_earth"
+      },
+      {
+        "sporadic": "ore:gypsum"
+      }
+      ]
+    }
+}

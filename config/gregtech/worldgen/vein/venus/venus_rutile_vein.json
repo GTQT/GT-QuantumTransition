@@ -8,7 +8,7 @@
     "type": "surface_rock",
     "material": "rutile"
   },
-  "generation_predicate": "block:galacticraftplanets:venus",
+  "generation_predicate":["block:galacticraftplanets:venus:1"],
   "dimension_filter": [
     "name:planet.venus"
   ],

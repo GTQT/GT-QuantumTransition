@@ -9,15 +9,13 @@
 	x: -3.0d,
 	y: 9.0d,
 	can_repeat: true,
+	dependencies: [
+		"17dc825a"
+	],
 	tasks: [{
 		uid: "5b21670a",
 		type: "ftbmoney:money",
 		value: 800L
-	},
-	{
-		uid: "985c1547",
-		type: "gamestage",
-		stage: "EV"
 	}],
 	rewards: [{
 		uid: "a3f4ecf1",

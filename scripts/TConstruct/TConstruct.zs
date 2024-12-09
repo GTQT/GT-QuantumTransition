@@ -6,36 +6,12 @@ import mods.tconstruct.Alloy;
 import mods.tconstruct.Fuel;
 
 //
-mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<gregtech:meta_dust_tiny:2>);
+
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<galacticraftcore:ic2compat>);
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<galaxyspace:marsores:5>);
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<galaxyspace:haumeablocks:3>);
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<galaxyspace:europablocks:5>);
 mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<galaxyspace:barnarda_c_ores:9>);
-mods.tconstruct.Melting.removeRecipe(<liquid:molten_bismuth>,<gregtech:meta_dust:11>);
-mods.tconstruct.Melting.removeRecipe(<liquid:cobalt>,<gregtech:meta_dust:23>);
-mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<gregtech:meta_dust:50>);
-mods.tconstruct.Melting.removeRecipe(<liquid:platinum>,<gregtech:meta_dust:80>);
-mods.tconstruct.Melting.removeRecipe(<liquid:osmium>,<gregtech:meta_dust:75>);
-mods.tconstruct.Melting.removeRecipe(<liquid:ultimet>,<gregtech:meta_dust:331>);
-mods.tconstruct.Melting.removeRecipe(<liquid:osmiridium>,<gregtech:meta_dust:344>);
-mods.tconstruct.Melting.removeRecipe(<liquid:tungsten_steel>,<gregtech:meta_dust:2013>);
-mods.tconstruct.Melting.removeRecipe(<liquid:manganese_phosphide>,<gregtech:meta_dust:424>);
-mods.tconstruct.Melting.removeRecipe(<liquid:uranium_triplatinum>,<gregtech:meta_dust:427>);
-
-mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<gregtech:meta_dust_small:2>);
-mods.tconstruct.Melting.removeRecipe(<liquid:molten_bismuth>,<gregtech:meta_dust_small:11>);
-mods.tconstruct.Melting.removeRecipe(<liquid:cobalt>,<gregtech:meta_dust_small:23>);
-mods.tconstruct.Melting.removeRecipe(<liquid:iridium>,<gregtech:meta_dust_small:50>);
-mods.tconstruct.Melting.removeRecipe(<liquid:platinum>,<gregtech:meta_dust_small:80>);
-mods.tconstruct.Melting.removeRecipe(<liquid:osmium>,<gregtech:meta_dust_small:75>);
-mods.tconstruct.Melting.removeRecipe(<liquid:ultimet>,<gregtech:meta_dust_small:331>);
-mods.tconstruct.Melting.removeRecipe(<liquid:osmiridium>,<gregtech:meta_dust_small:344>);
-mods.tconstruct.Melting.removeRecipe(<liquid:tungsten_steel>,<gregtech:meta_dust_small:2013>);
-mods.tconstruct.Melting.removeRecipe(<liquid:manganese_phosphide>,<gregtech:meta_dust_small:424>);
-mods.tconstruct.Melting.removeRecipe(<liquid:uranium_triplatinum>,<gregtech:meta_dust_small:427>);
-
-
 
 recipes.remove(<tconstruct:casting:1>);
 recipes.remove(<tconstruct:casting>);

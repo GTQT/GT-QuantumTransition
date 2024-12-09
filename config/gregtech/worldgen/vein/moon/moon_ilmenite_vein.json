@@ -8,7 +8,9 @@
     "type": "surface_rock",
     "material": "ilmenite"
   },
-  "generation_predicate": "block:galacticraftcore:basic_block_moon",
+	"generation_predicate": [
+    "ore_dict:cobblestone"
+	],
   "dimension_filter": [
     "name:moon.moon"
   ],

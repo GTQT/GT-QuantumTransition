@@ -1,14 +1,5 @@
 {
 	title: "难度选择",
 	loot_size: 1,
-	rewards: [{
-		auto: "no_toast",
-		stage: "hard",
-		type: "gamestage"
-	},
-	{
-		auto: "no_toast",
-		stage: "easy",
-		type: "gamestage"
-	}]
+	rewards: []
 }

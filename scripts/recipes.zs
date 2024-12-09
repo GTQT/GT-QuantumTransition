@@ -14,8 +14,6 @@ recipes.remove(<betterbuilderswands:wanddiamond>);
 recipes.remove(<galaxyspace:assembly_machine>);
 //Don't touch me!
 //#Add
-recipes.addShaped(<minecraft:string>, [[null, null, null],[<thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>, <thebetweenlands:items_misc:7>], [null, null, null]]);
-recipes.addShaped(<minecraft:flint>, [[<thebetweenlands:items_misc:50>, <thebetweenlands:items_misc:50>, null],[<thebetweenlands:items_misc:50>, <thebetweenlands:items_misc:50>, null], [null, null, null]]);
 recipes.addShaped(<appliedenergistics2:network_tool>, [[<appliedenergistics2:part:200>, <minecraft:trapped_chest>, null],[<gregtech:meta_tool_head_wrench:51>, <appliedenergistics2:material:23>, null], [null, null, null]]);
 recipes.addShaped(<galaxyspace:assembly_machine>, [[<gregtech:machine:113>, <gregtech:meta_item_1:205>, <gregtech:machine:113>],[<gregtech:machine:113>, <gregtech:meta_item_1:205>, <gregtech:machine:113>], [<gregtech:machine:113>, <gregtech:meta_item_1:205>, <gregtech:machine:113>]]);
 recipes.addShaped(<galaxyspace:space_suit_feet:200>, [[null, null, null],[<gregtech:meta_plate:18501>, null, <gregtech:meta_plate:18501>], [<galaxyspace:compressed_plates:4>, null, <galaxyspace:compressed_plates:4>]]);

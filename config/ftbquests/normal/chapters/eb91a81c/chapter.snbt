@@ -1,7 +1,0 @@
-{
-	title: "主页",
-	icon: "minecraft:sapling",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: "rsquare"
-}
