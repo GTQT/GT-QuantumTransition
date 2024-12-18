@@ -234,15 +234,6 @@
     "weight": 100
   },
   {
-    "content": "minecraft:potion",
-    "amount": {
-      "min": 1,
-      "max": 3
-    },
-    "unitWorth": 20,
-    "weight": 100
-  },
-  {
     "content": "gregtech:meta_item_1:621",
     "amount": {
       "min": 5,
