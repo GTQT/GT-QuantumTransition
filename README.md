@@ -2,7 +2,7 @@
 
 ### 这是什么？
 
-<整合包 __[GTQT](https://www.mcmod.cn/modpack/590.html)__ 。
+整合包 __[GTQT](https://www.mcmod.cn/modpack/590.html)__ 。
 
 ### 开发前言
 
