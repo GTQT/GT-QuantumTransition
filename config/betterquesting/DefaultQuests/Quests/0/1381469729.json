@@ -1,0 +1,74 @@
+{
+  "preRequisites:11": [
+    252998902,
+    1439450448
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.1381469729.desc",
+      "icon:10": {
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "forge:bucketfilled",
+          "orig_meta:3": 0,
+          "orig_tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "uranium_hexafluoride"
+          }
+        }
+      },
+      "name:8": "gtqt.quest.db.1381469729.title",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 1381469729,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "forge:bucketfilled",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "enriched_uranium_hexafluoride"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "forge:bucketfilled",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "high_enriched_uranium_hexafluoride"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "forge:bucketfilled",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "depleted_uranium_hexafluoride"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

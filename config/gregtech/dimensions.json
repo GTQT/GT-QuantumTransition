@@ -17,28 +17,32 @@
       "dimName": "The Betweenlands \u4ea4\u9519\u6b21\u5143"
     },
 	{
-      "dimID": -28,
+      "dimID": 41,
+      "dimName": "The Betweenlands Nether \u5730\u4e0b\u6cbc\u6cfd"
+    },
+	{
+      "dimID": 51,
       "dimName": "Moon \u6708\u7403"
     },
 	{
-      "dimID": -29,
+      "dimID": 52,
       "dimName": "Mars \u706b\u661f"
     },
 	{
-      "dimID": -1012,
-      "dimName": "Phobos \u706b\u536b\u4e00"
-    },
-	{
-      "dimID": -30,
-      "dimName": "Asteroids \u5c0f\u884c\u661f\u5e26"
-    },
-	{
-      "dimID": -31,
+      "dimID": 53,
       "dimName": "Venus \u91d1\u661f"
+    },
+	{
+      "dimID": 54,
+      "dimName": "Asteroids \u5c0f\u884c\u661f\u5e26"
     },
 	{
       "dimID": 19,
       "dimName": "BedRock World \u57fa\u5ca9\u4e16\u754c"
+    },
+	{
+      "dimID": 10,
+      "dimName": "The Beneath \u6df1\u6e0a\u4e16\u754c"
     }
   ]
 }

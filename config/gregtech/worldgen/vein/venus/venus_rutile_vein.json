@@ -1,39 +1,34 @@
 {
-   "name": "Venus Rutile",
-  "weight": 8,
-  "density": 0.2,
-  "min_height": 5,
-  "max_height": 20,
-  "vein_populator": {
-    "type": "surface_rock",
-    "material": "rutile"
-  },
-  "generation_predicate":["block:galacticraftplanets:venus:1"],
-  "dimension_filter": [
-    "name:planet.venus"
-  ],
-  "generator": {
-    "type": "layered",
-    "radius": [
-      17,
-      24
-    ]
-  },
-  "filler": {
-    "type": "layered",
-    "values": [
-      {
-        "primary": "ore:rutile"
-      },
-      {
-        "secondary": "ore:titanium"
-      },
-      {
-        "between": "ore:bauxite"
-      },
-      {
-        "sporadic": "ore:meteoric_iron"
-      }
-    ]
-  }
+   "density" : 0.20,
+   "dimension_filter" : [ "dimension_id:53" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:rutile"
+         },
+         {
+            "secondary" : "ore:titanium"
+         },
+         {
+            "between" : "ore:bauxite"
+         },
+         {
+            "sporadic" : "ore:meteoric_iron"
+         }
+      ]
+   },
+   "generation_predicate" : [ "ore_dict:stone" ],
+   "generator" : {
+      "radius" : [ 17, 24 ],
+      "type" : "layered"
+   },
+   "max_height" : 20,
+   "min_height" : 5,
+   "name" : "Venus Rutile",
+   "vein_populator" : {
+      "material" : "rutile",
+      "type" : "surface_rock"
+   },
+   "weight" : 8
 }

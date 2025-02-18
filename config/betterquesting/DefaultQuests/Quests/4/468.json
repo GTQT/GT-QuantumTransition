@@ -1,0 +1,109 @@
+{
+  "preRequisites:11": [
+    479
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.468.desc",
+      "icon:10": {
+        "Damage:2": 735,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:meta_item_1",
+          "orig_meta:3": 735,
+          "orig_tag:10": {
+            "Charge:4": 120000
+          }
+        }
+      },
+      "name:8": "gtqt.quest.db.468.title",
+      "tasklogic:8": "OR"
+    }
+  },
+  "questID:3": 468,
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "ftbquests:lootcrate",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "type:8": "lvage"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_item_1",
+            "orig_meta:3": 2
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "ignoreNBT:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 735,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_item_1",
+            "orig_meta:3": 735,
+            "orig_tag:10": {
+              "Charge:4": 120000
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 738,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_item_1",
+            "orig_meta:3": 738,
+            "orig_tag:10": {
+              "Charge:4": 100000
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "2:10": {
+      "ignoreNBT:1": 1,
+      "index:3": 2,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 732,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_item_1",
+            "orig_meta:3": 732,
+            "orig_tag:10": {
+              "Charge:4": 80000
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

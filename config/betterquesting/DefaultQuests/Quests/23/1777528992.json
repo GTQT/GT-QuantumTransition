@@ -1,0 +1,63 @@
+{
+  "preRequisites:11": [
+    1983633633
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.1777528992.desc",
+      "icon:10": {
+        "Damage:2": 250,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gtqtcore:gtqt_meta_item_1",
+          "orig_meta:3": 250
+        }
+      },
+      "name:8": "gtqt.quest.db.1777528992.title"
+    }
+  },
+  "questID:3": 1777528992,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 250,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtqtcore:gtqt_meta_item_1",
+            "orig_meta:3": 250
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 251,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtqtcore:gtqt_meta_item_1",
+            "orig_meta:3": 251
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 252,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtqtcore:gtqt_meta_item_1",
+            "orig_meta:3": 252
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 253,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtqtcore:gtqt_meta_item_1",
+            "orig_meta:3": 253
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

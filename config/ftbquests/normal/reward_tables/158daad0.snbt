@@ -48,13 +48,13 @@
 				GT.Behaviours: {},
 				HideFlags: 2,
 				GT.Tool: {
-					MaxDurability: 255,
-					ToolSpeed: 6.0f,
 					AttackDamage: 3.0f,
-					Durability: 0,
-					Material: "gregtech:iron",
+					ToolSpeed: 6.0f,
 					HarvestLevel: 2,
-					AttackSpeed: -2.8f
+					MaxDurability: 255,
+					AttackSpeed: -2.8f,
+					Material: "gregtech:iron",
+					Durability: 0
 				}
 			}
 		}
@@ -198,13 +198,13 @@
 				GT.Behaviours: {},
 				HideFlags: 2,
 				GT.Tool: {
-					MaxDurability: 255,
-					ToolSpeed: 6.0f,
 					AttackDamage: 3.0f,
-					Durability: 0,
-					Material: "gregtech:iron",
+					ToolSpeed: 6.0f,
 					HarvestLevel: 2,
-					AttackSpeed: -2.8f
+					MaxDurability: 255,
+					AttackSpeed: -2.8f,
+					Material: "gregtech:iron",
+					Durability: 0
 				}
 			}
 		}
@@ -234,13 +234,13 @@
 				GT.Behaviours: {},
 				HideFlags: 2,
 				GT.Tool: {
-					MaxDurability: 255,
-					ToolSpeed: 6.0f,
 					AttackDamage: 1.0f,
-					Durability: 0,
-					Material: "gregtech:iron",
+					ToolSpeed: 6.0f,
 					HarvestLevel: 2,
-					AttackSpeed: -2.4f
+					MaxDurability: 255,
+					AttackSpeed: -2.4f,
+					Material: "gregtech:iron",
+					Durability: 0
 				}
 			}
 		}
@@ -270,13 +270,13 @@
 				GT.Behaviours: {},
 				HideFlags: 2,
 				GT.Tool: {
-					MaxDurability: 255,
-					ToolSpeed: 6.0f,
 					AttackDamage: 3.0f,
-					Durability: 0,
-					Material: "gregtech:iron",
+					ToolSpeed: 6.0f,
 					HarvestLevel: 2,
-					AttackSpeed: -2.8f
+					MaxDurability: 255,
+					AttackSpeed: -2.8f,
+					Material: "gregtech:iron",
+					Durability: 0
 				}
 			}
 		}
@@ -289,13 +289,13 @@
 				GT.Behaviours: {},
 				HideFlags: 2,
 				GT.Tool: {
-					MaxDurability: 255,
-					ToolSpeed: 6.0f,
 					AttackDamage: 3.0f,
-					Durability: 0,
-					Material: "gregtech:iron",
+					ToolSpeed: 6.0f,
 					HarvestLevel: 2,
-					AttackSpeed: -2.8f
+					MaxDurability: 255,
+					AttackSpeed: -2.8f,
+					Material: "gregtech:iron",
+					Durability: 0
 				}
 			}
 		}

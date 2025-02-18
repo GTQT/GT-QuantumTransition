@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [
+    1128
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.1129.desc",
+      "icon:10": {
+        "Damage:2": 4,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:machine",
+          "orig_meta:3": 4
+        }
+      },
+      "name:8": "gtqt.quest.db.1129.title"
+    }
+  },
+  "questID:3": 1129,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:machine",
+            "orig_meta:3": 4
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

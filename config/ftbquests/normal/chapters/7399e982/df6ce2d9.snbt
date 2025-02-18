@@ -1,0 +1,34 @@
+{
+	x: -3.0d,
+	y: 4.0d,
+	description: "你是一个可爱的宝宝 QAQ",
+	tasks: [{
+		uid: "f52bce20",
+		type: "item",
+		items: [{
+			id: "gtqtcore:gtqt_meta_item_1",
+			Damage: 325s,
+			tag: {
+				display: {
+					Name: "休闲模式"
+				}
+			}
+		}],
+		consume_items: 1b
+	}],
+	rewards: [{
+		uid: "dce44b7d",
+		type: "item",
+		item: "extrabotany:candy"
+	},
+	{
+		uid: "f8d9ca3a",
+		type: "item",
+		item: "extrabotany:candy 1 1"
+	},
+	{
+		uid: "fcf6056e",
+		type: "item",
+		item: "extrabotany:candy 1 2"
+	}]
+}

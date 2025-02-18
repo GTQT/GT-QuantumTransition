@@ -1,0 +1,34 @@
+{
+   "density" : 0.50,
+   "dimension_filter" : [ "dimension_id:41" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:infused_air"
+         },
+         {
+            "secondary" : "ore:infused_fire"
+         },
+         {
+            "between" : "ore:amber"
+         },
+         {
+            "sporadic" : "ore:cinnabar"
+         }
+      ]
+   },
+   "generation_predicate" : [ "ore_dict:cobblestone" ],
+   "generator" : {
+      "radius" : [ 8, 20 ],
+      "type" : "layered"
+   },
+   "max_height" : 125,
+   "min_height" : 0,
+   "name" : "Betweenland Nether Thaumastic One",
+   "vein_populator" : {
+      "material" : "infused_air",
+      "type" : "surface_rock"
+   },
+   "weight" : 20
+}

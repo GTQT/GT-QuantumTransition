@@ -1,0 +1,13 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.1089512735.desc",
+      "icon:10": {
+        "id:8": "minecraft:nether_star"
+      },
+      "name:8": "gtqt.quest.db.1089512735.title"
+    }
+  },
+  "questID:3": 1089512735,
+  "tasks:9": {}
+}

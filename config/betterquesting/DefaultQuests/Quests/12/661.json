@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    656
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.661.desc",
+      "frame:8": "GATE",
+      "icon:10": {
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "touhou_little_maid:garage_kit",
+          "orig_meta:3": 0,
+          "orig_tag:10": {
+            "EntityId:8": "touhou_little_maid:entity.passive.maid",
+            "ModelId:8": "touhou_little_maid:hieda_no_akyuu"
+          }
+        }
+      },
+      "ismain:1": 1,
+      "name:8": "gtqt.quest.db.661.title"
+    }
+  },
+  "questID:3": 661,
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "touhou_little_maid:garage_kit",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "EntityId:8": "touhou_little_maid:entity.passive.maid",
+              "ModelId:8": "touhou_little_maid:hieda_no_akyuu"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

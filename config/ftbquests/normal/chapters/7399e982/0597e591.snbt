@@ -1,29 +1,20 @@
 {
 	title: "总是最好的",
 	icon: {
-		id: "gtqtcore:vajra",
+		id: "gregtech:wrench",
 		tag: {
 			DisallowContainerItem: 0b,
 			GT.Tool: {
-				Material: "gregtech:rhugnor",
-				MaxDurability: 2559999,
-				Durability: 3660,
-				ToolSpeed: 404.0f,
-				HarvestLevel: 8,
-				AttackDamage: 30.0f,
-				AttackSpeed: 5.7f
+				AttackDamage: 3.0f,
+				ToolSpeed: 6.0f,
+				HarvestLevel: 2,
+				MaxDurability: 255,
+				AttackSpeed: -2.8f,
+				Material: "gregtech:iron",
+				Durability: 0
 			},
 			HideFlags: 2,
-			ench: [{
-				id: 33,
-				lvl: 1s
-			}],
-			GT.Behaviours: {
-				TreeFelling: 1b,
-				TorchPlacing: 1b
-			},
-			MaxCharge: 40960000L,
-			Charge: 39912100L
+			GT.Behaviours: {}
 		}
 	},
 	x: 1.0d,
@@ -32,6 +23,19 @@
 		uid: "b1e6c79e",
 		type: "ftbmoney:money",
 		value: 200L
+	},
+	{
+		uid: "2fa7d055",
+		type: "item",
+		items: [{
+			id: "gtqtcore:gtqt_meta_item_1",
+			Damage: 325s,
+			tag: {
+				display: {
+					Name: "休闲模式"
+				}
+			}
+		}]
 	}],
 	rewards: [{
 		uid: "a1e3139d",
@@ -41,13 +45,13 @@
 			tag: {
 				DisallowContainerItem: 0b,
 				GT.Tool: {
-					Material: "gregtech:inconel_690",
-					MaxDurability: 59999,
-					Durability: 0,
+					AttackDamage: 7.0f,
 					ToolSpeed: 11.0f,
 					HarvestLevel: 6,
-					AttackDamage: 7.0f,
-					AttackSpeed: -2.7f
+					MaxDurability: 59999,
+					AttackSpeed: -2.7f,
+					Material: "gregtech:inconel_690",
+					Durability: 0
 				},
 				HideFlags: 2,
 				GT.Behaviours: {}
@@ -100,13 +104,13 @@
 			tag: {
 				DisallowContainerItem: 0b,
 				GT.Tool: {
-					Material: "gregtech:inconel_690",
-					MaxDurability: 59999,
-					Durability: 0,
+					AttackDamage: 7.0f,
 					ToolSpeed: 11.0f,
 					HarvestLevel: 6,
-					AttackDamage: 7.0f,
-					AttackSpeed: -2.7f
+					MaxDurability: 59999,
+					AttackSpeed: -2.7f,
+					Material: "gregtech:inconel_690",
+					Durability: 0
 				},
 				HideFlags: 2,
 				GT.Behaviours: {}
@@ -142,13 +146,13 @@
 			tag: {
 				DisallowContainerItem: 0b,
 				GT.Tool: {
-					Material: "gregtech:inconel_690",
-					MaxDurability: 59999,
-					Durability: 0,
+					AttackDamage: 5.0f,
 					ToolSpeed: 11.0f,
 					HarvestLevel: 6,
-					AttackDamage: 5.0f,
-					AttackSpeed: -2.3000002f
+					MaxDurability: 59999,
+					AttackSpeed: -2.3000002f,
+					Material: "gregtech:inconel_690",
+					Durability: 0
 				},
 				HideFlags: 2,
 				GT.Behaviours: {}
@@ -175,18 +179,39 @@
 		}
 	},
 	{
-		uid: "2b7e7290",
+		uid: "ac3bfab5",
+		type: "item",
+		item: {
+			id: "gtqtcore:small_bending_cylinder",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					AttackDamage: 0.0f,
+					AttackSpeed: -1.6999999f,
+					Material: "gregtech:inconel_690",
+					HarvestLevel: 6,
+					MaxDurability: 59999,
+					Durability: 0
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		uid: "9ad416c0",
 		type: "item",
 		item: {
 			id: "gregtech:mortar",
 			tag: {
 				DisallowContainerItem: 0b,
 				GT.Tool: {
-					Material: "gregtech:cobalt_brass",
-					MaxDurability: 1023,
-					Durability: 0,
 					AttackDamage: 0.0f,
-					AttackSpeed: -2.6000001f
+					AttackSpeed: -2.3000002f,
+					Material: "gregtech:hg_1223",
+					HarvestLevel: 5,
+					MaxDurability: 59999,
+					Durability: 0
 				},
 				HideFlags: 2,
 				GT.Behaviours: {}

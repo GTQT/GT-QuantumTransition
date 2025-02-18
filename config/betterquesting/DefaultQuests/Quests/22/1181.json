@@ -1,0 +1,105 @@
+{
+  "preRequisites:11": [
+    1179
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.1181.desc",
+      "icon:10": {
+        "Damage:2": 40,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:gt_armor",
+          "orig_meta:3": 40,
+          "orig_tag:10": {
+            "Charge:4": 100000000
+          }
+        }
+      },
+      "name:8": "gtqt.quest.db.1181.title"
+    }
+  },
+  "questID:3": 1181,
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "ftbquests:lootcrate",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "type:8": "ivage"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 3,
+          "Damage:2": 3,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_item_1",
+            "orig_meta:3": 3
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 40,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:gt_armor",
+            "orig_meta:3": 40,
+            "orig_tag:10": {
+              "Charge:4": 100000000
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 41,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:gt_armor",
+            "orig_meta:3": 41,
+            "orig_tag:10": {
+              "Charge:4": 100000000
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 42,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:gt_armor",
+            "orig_meta:3": 42,
+            "orig_tag:10": {
+              "Charge:4": 100000000
+            }
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 43,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:gt_armor",
+            "orig_meta:3": 43,
+            "orig_tag:10": {
+              "Charge:4": 100000000
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

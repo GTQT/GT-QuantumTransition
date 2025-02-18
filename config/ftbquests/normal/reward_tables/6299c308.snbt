@@ -130,12 +130,6 @@
 		item: "gregtech:machine 1 200"
 	},
 	{
-		item: "gregtech:machine 1 3520"
-	},
-	{
-		item: "gregtech:machine 1 3521"
-	},
-	{
 		item: "gregtech:meta_item_1 1 80",
 		count: 16
 	},

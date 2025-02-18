@@ -1,0 +1,28 @@
+{
+	x: -2.0d,
+	y: 12.0d,
+	dependencies: [
+		"6ef1bfd0"
+	],
+	tasks: [{
+		uid: "e2de4225",
+		type: "item",
+		items: [{
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "luv_"
+			}
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b6d52453",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "zpm"
+			}
+		}
+	}]
+}

@@ -8,7 +8,7 @@
 	},
 	x: -3.0d,
 	y: 7.0d,
-	can_repeat: true,
+	can_repeat: 1b,
 	dependencies: [
 		"3f299b70"
 	],

@@ -1,6 +1,4 @@
-
 recipes.remove(<appliedenergistics2:inscriber>);
-recipes.remove(<appliedenergistics2:grindstone>);
 recipes.remove(<appliedenergistics2:material:2>);
 recipes.remove(<appliedenergistics2:material>);
 recipes.remove(<appliedenergistics2:part:180>);

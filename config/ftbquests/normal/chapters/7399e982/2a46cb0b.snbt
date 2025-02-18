@@ -1,7 +1,7 @@
 {
 	x: -2.0d,
 	y: 5.0d,
-	can_repeat: true,
+	can_repeat: 1b,
 	dependencies: [
 		"2790cd60"
 	],

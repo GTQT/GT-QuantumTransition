@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    118
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.153.desc",
+      "icon:10": {
+        "Damage:2": 338,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:cable_hex",
+          "orig_meta:3": 338
+        }
+      },
+      "name:8": "gtqt.quest.db.153.title"
+    }
+  },
+  "questID:3": 153,
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

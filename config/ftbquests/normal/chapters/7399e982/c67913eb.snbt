@@ -2,7 +2,7 @@
 	title: "金币刷新",
 	x: -0.5d,
 	y: 1.5d,
-	can_repeat: true,
+	can_repeat: 1b,
 	size: 2.0d,
 	tasks: [{
 		uid: "3d0f607b",

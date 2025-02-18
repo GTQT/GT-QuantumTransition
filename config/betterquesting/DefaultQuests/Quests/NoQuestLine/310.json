@@ -1,0 +1,23 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.310.desc",
+      "icon:10": {
+        "id:8": "minecraft:gunpowder"
+      },
+      "name:8": "gtqt.quest.db.310.title"
+    }
+  },
+  "questID:3": 310,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "id:8": "minecraft:gunpowder"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

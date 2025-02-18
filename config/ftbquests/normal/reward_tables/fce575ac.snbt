@@ -1,0 +1,223 @@
+{
+	title: "UVAge",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:meta_item_1 1 605",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 606",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 598",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 599",
+		count: 32
+	},
+	{
+		item: "gregtech:machine 1 2050"
+	},
+	{
+		item: "gregtech:machine 1 2051"
+	},
+	{
+		item: "gregtech:machine 1 2052"
+	},
+	{
+		item: "gregtech:machine 1 2053"
+	},
+	{
+		item: "gregtech:machine 1 1401",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 134",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 149",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 164",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 179",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 194",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 209",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 224",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 239",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 254",
+		count: 4
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 751s,
+			tag: {
+				Charge: 20000000000L
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 747s,
+			tag: {
+				Charge: 2621440000L
+			}
+		}
+	},
+	{
+		item: "gregtech:meta_item_1 1 262",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 263",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 373",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 374",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 701",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 704",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 705",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 708",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 709",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 502",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 528",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 529",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 530",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 531",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 532",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 407",
+		count: 32
+	},
+	{
+		item: "gregtech:machine 1 1158",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1173",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1188",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1203",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1218",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1233",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1243",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1248",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1253",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1258",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1397"
+	},
+	{
+		item: "gregtech:machine 1 1645"
+	},
+	{
+		item: "gregtech:machine 1 1783",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1788"
+	},
+	{
+		item: "gregtech:machine 1 1793",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1798"
+	}],
+	loot_crate: {
+		string_id: "uvage",
+		color: 16777215,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

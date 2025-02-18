@@ -1,41 +1,34 @@
 {
-    "name": "Betweenland Crocoite",
-    "weight": 80,
-   "density": 0.4,
-    "max_height": 60,
-    "min_height": 0,
-     "generation_predicate": [
-    "ore_dict:cobblestone"
-	],
-    "dimension_filter": [
-      "dimension_id:20"
-	],
-	"vein_populator": {
-		"type": "surface_rock",
-		"material": "crocoite"
-	},
-    "generator": {
-      "type": "layered",
-      "radius": [
-        12,
-        16
+   "density" : 0.40,
+   "dimension_filter" : [ "dimension_id:20" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:crocoite"
+         },
+         {
+            "secondary" : "ore:crocoite"
+         },
+         {
+            "between" : "ore:zincantimonygalvanite"
+         },
+         {
+            "sporadic" : "ore:lead"
+         }
       ]
-    },
-    "filler": {
-      "type": "layered",
-      "values": [
-       {
-        "primary": "ore:crocoite"
-		},
-		{
-        "secondary": "ore:crocoite"
-		},
-		{
-        "between": "ore:zincantimonygalvanite"
-		},
-		{
-        "sporadic": "ore:lead"
-		}
-      ]
-    }
+   },
+   "generation_predicate" : [ "ore_dict:cobblestone" ],
+   "generator" : {
+      "radius" : [ 12, 16 ],
+      "type" : "layered"
+   },
+   "max_height" : 100,
+   "min_height" : 40,
+   "name" : "Betweenland Crocoite",
+   "vein_populator" : {
+      "material" : "crocoite",
+      "type" : "surface_rock"
+   },
+   "weight" : 80
 }

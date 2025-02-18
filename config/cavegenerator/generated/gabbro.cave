@@ -7,7 +7,7 @@
     stretch: 0
   }
   caveBlocks: [ {
-      states: gtqtcore:susy_stone_smooth
+      states: gtqtcore:gtqt_stone_smooth
       height: [ 0, 255 ]
     } ]
   dimensions: [ 0 ]

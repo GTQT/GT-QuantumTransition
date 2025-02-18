@@ -1,41 +1,33 @@
 {
-    "name": "Mars Sulfur",
-    "weight": 60,
-   "density": 0.4,
-    "max_height": 80,
-    "min_height": 0,
-  	"generation_predicate": [
-    "ore_dict:cobblestone"
-	],
-    "dimension_filter": [
-      "dimension_id:-29"
-	],
-	"vein_populator": {
-		"type": "surface_rock",
-		"material": "banded_iron"
-	},
-    "generator": {
-      "type": "layered",
-      "radius": [
-        17,
-        24
+   "density" : 0.40,
+   "dimension_filter" : [ "dimension_id:52" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:sulfur"
+         },
+         {
+            "secondary" : "ore:sulfur"
+         },
+         {
+            "between" : "ore:pyrite"
+         },
+         {
+            "sporadic" : "ore:sphalerite"
+         }
       ]
-    },
-  "filler": {
-    "type": "layered",
-    "values": [
-      {
-        "primary": "ore:sulfur"
-      },
-      {
-        "secondary": "ore:sulfur"
-      },
-      {
-        "between": "ore:pyrite"
-      },
-      {
-        "sporadic": "ore:sphalerite"
-      }
-    ]
-  }
+   },
+   "generator" : {
+      "radius" : [ 17, 24 ],
+      "type" : "layered"
+   },
+   "max_height" : 80,
+   "min_height" : 0,
+   "name" : "Mars Sulfur",
+   "vein_populator" : {
+      "material" : "banded_iron",
+      "type" : "surface_rock"
+   },
+   "weight" : 60
 }

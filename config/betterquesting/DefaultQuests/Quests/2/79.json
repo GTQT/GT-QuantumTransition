@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    48
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.79.desc",
+      "icon:10": {
+        "id:8": "minecraft:sapling"
+      },
+      "name:8": "gtqt.quest.db.79.title"
+    }
+  },
+  "questID:3": 79,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "thebetweenlands:sapling_weedwood",
+            "orig_meta:3": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 64,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "thebetweenlands:log_weedwood",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

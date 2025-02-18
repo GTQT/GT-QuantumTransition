@@ -1,0 +1,65 @@
+{
+  "preRequisites:11": [
+    555
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.561.desc",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Damage:2": 112,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:machine",
+          "orig_meta:3": 112
+        }
+      },
+      "ismain:1": 1,
+      "name:8": "gtqt.quest.db.561.title"
+    }
+  },
+  "questID:3": 561,
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 4,
+          "Damage:2": 2,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_item_1",
+            "orig_meta:3": 2
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "ftbquests:lootcrate",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "type:8": "hvage"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 112,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:machine",
+            "orig_meta:3": 112
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

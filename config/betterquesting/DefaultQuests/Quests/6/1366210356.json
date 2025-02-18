@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    621
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.1366210356.desc",
+      "icon:10": {
+        "Damage:2": 15,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "drtech:meta_items_mymod",
+          "orig_meta:3": 15,
+          "orig_tag:10": {
+            "Charge:4": 25600000
+          }
+        }
+      },
+      "name:8": "gtqt.quest.db.1366210356.title"
+    }
+  },
+  "questID:3": 1366210356,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 15,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "drtech:meta_items_mymod",
+            "orig_meta:3": 15
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

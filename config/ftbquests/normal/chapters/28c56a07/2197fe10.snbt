@@ -1,12 +1,15 @@
 {
 	x: 3.0d,
 	y: 4.0d,
-	hide: true,
+	dependencies: [
+		"aea4b12e"
+	],
+	hide: 1b,
 	tasks: [{
-		uid: "d53b3b0a",
+		uid: "3c7a1bd5",
 		type: "item",
 		items: [{
-			item: "gregtech:machine 1 3063"
+			item: "gregtech:machine 1 1041"
 		}]
 	}],
 	rewards: [{

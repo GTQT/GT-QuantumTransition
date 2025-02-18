@@ -1,37 +1,34 @@
 {
-  "name": "gregtech.veins.ore.raw_oil_sphere",
-  "weight": 50,
-  "density": 1.0,
-  "max_height": 60,
-  "min_height": 0,
-  "priority": -100,
-  "count_as_vein": false,
-
-  "vein_populator": {
-    "type": "fluid_spring",
-    "chance": 0.40
-  },
-  "biome_modifier": {
-    "type": "biome_dictionary",
-    "sandy": 5
-  },
-  "generator": {
-    "type": "sphere",
-    "radius": [
-      9,
-      13
-    ]
-  },
-  "filler": {
-    "type": "ignore_bedrock",
-    "value": {
-      "type": "weight_random",
-      "values": [
-        {
-          "weight": 100,
-          "value": "fluid:oil_medium"
-        }
-      ]
-    }
-  }
+   "biome_modifier" : {
+      "sandy" : 5,
+      "type" : "biome_dictionary"
+   },
+   "count_as_vein" : false,
+   "density" : 1.0,
+   "dimension_filter" : [ "dimension_id:0" ],
+   "filler" : {
+      "type" : "ignore_bedrock",
+      "value" : {
+         "type" : "weight_random",
+         "values" : [
+            {
+               "value" : "fluid:oil_medium",
+               "weight" : 100
+            }
+         ]
+      }
+   },
+   "generator" : {
+      "radius" : [ 9, 13 ],
+      "type" : "sphere"
+   },
+   "max_height" : 60,
+   "min_height" : 0,
+   "name" : "gregtech.veins.ore.raw_oil_sphere",
+   "priority" : -100,
+   "vein_populator" : {
+      "chance" : 0.40,
+      "type" : "fluid_spring"
+   },
+   "weight" : 50
 }

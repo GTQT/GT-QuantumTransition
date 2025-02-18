@@ -1,0 +1,30 @@
+{
+	x: -2.0d,
+	y: 4.0d,
+	description: "你是真正的MAN！",
+	text: [
+		"真男儿身铁骨铮，胸怀壮志气如虹。",
+		"披荆斩棘无所惧，勇往直前路未穷。",
+		"风雨兼程心不改，艰难困苦志更雄。",
+		"世间万物皆过客，唯有豪情贯长空。"
+	],
+	tasks: [{
+		uid: "a8d788f3",
+		type: "item",
+		items: [{
+			id: "gtqtcore:gtqt_meta_item_1",
+			Damage: 325s,
+			tag: {
+				display: {
+					Name: "专家模式"
+				}
+			}
+		}],
+		consume_items: 1b
+	}],
+	rewards: [{
+		uid: "556d651f",
+		type: "item",
+		item: "gregtech:meta_gear 1 16141"
+	}]
+}

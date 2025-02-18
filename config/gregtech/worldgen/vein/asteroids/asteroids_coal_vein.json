@@ -1,41 +1,34 @@
 {
-    "name": "Asteroids Coal",
-    "weight": 100,
-    "density": 1,
-    "max_height": 250,
-    "min_height": 0,
-    "generation_predicate": [
-    "ore_dict:cobblestone"
-	],
-    "dimension_filter": [
-      "dimension_id:-30"
-	],
-	"vein_populator": {
-		"type": "surface_rock",
-		"material": "coal"
-	},
-    "generator": {
-      "type": "layered",
-      "radius": [
-        20,
-        32
+   "density" : 1,
+   "dimension_filter" : [ "dimension_id:54" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:coal"
+         },
+         {
+            "secondary" : "ore:coal"
+         },
+         {
+            "between" : "ore:coal"
+         },
+         {
+            "sporadic" : "ore:lignite"
+         }
       ]
-    },
-    "filler": {
-      "type": "layered",
-      "values": [
-        {
-        "primary": "ore:coal"
-      },
-      {
-        "secondary": "ore:coal"
-      },
-      {
-        "between": "ore:coal"
-      },
-      {
-        "sporadic": "ore:lignite"
-      }
-      ]
-    }
+   },
+   "generation_predicate" : [ "ore_dict:stone" ],
+   "generator" : {
+      "radius" : [ 20, 32 ],
+      "type" : "layered"
+   },
+   "max_height" : 250,
+   "min_height" : 0,
+   "name" : "Asteroids Coal",
+   "vein_populator" : {
+      "material" : "coal",
+      "type" : "surface_rock"
+   },
+   "weight" : 100
 }

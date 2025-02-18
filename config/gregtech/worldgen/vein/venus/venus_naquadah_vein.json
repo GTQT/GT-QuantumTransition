@@ -1,39 +1,34 @@
 {
-    "name": "Venus Naquadah",
-    "weight": 60,
-   "density": 0.4,
-    "max_height": 40,
-    "min_height": 0,
-  "generation_predicate":["block:galacticraftplanets:venus:1"],
-    "dimension_filter": [
-      "dimension_id:-31"
-	],
-	"vein_populator": {
-		"type": "surface_rock",
-		"material": "naquadah"
-	},
-    "generator": {
-      "type": "layered",
-      "radius": [
-        6,
-        12
+   "density" : 0.40,
+   "dimension_filter" : [ "dimension_id:53" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:naquadah_oxide"
+         },
+         {
+            "secondary" : "ore:naquadah_oxide"
+         },
+         {
+            "between" : "ore:naquadah_oxide"
+         },
+         {
+            "sporadic" : "ore:plutonium"
+         }
       ]
-    },
-  "filler": {
-    "type": "layered",
-    "values": [
-      {
-        "primary": "ore:yanghuaguiyan"
-      },
-      {
-        "secondary": "ore:yanghuaguiyan"
-      },
-      {
-        "between": "ore:yanghuaguiyan"
-      },
-      {
-        "sporadic": "ore:plutonium"
-      }
-    ]
-  }
+   },
+   "generation_predicate" : [ "ore_dict:stone" ],
+   "generator" : {
+      "radius" : [ 6, 12 ],
+      "type" : "layered"
+   },
+   "max_height" : 40,
+   "min_height" : 0,
+   "name" : "Venus Naquadah",
+   "vein_populator" : {
+      "material" : "naquadah",
+      "type" : "surface_rock"
+   },
+   "weight" : 60
 }

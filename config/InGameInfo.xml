@@ -62,7 +62,7 @@
             </str>
         </line>
 		<line>
-            <str>{pingicon}{gold}{username} {white}FPS: </str>
+            <str>{gold}{username} {white}FPS: </str>
             <op>
                 <str>gt</str>
                 <var>fps</var>
@@ -80,16 +80,10 @@
             </op>
             <var>fps</var>
             <str> </str>
-            <icon>
-                <str>minecraft:daylight_detector</str>
-            </icon>
             <str> $f系统时间：$r</str>
             <str>$6{rltime24} $r</str>
         </line>
 		<line>
-            <icon>
-                <str>minecraft:clock</str>
-            </icon>
             <str> MC日期:  第{darkaqua} </str>
             <add>
                 <round>
@@ -120,9 +114,6 @@
             </if>
         </line>
         <line>
-			<icon>
-                <str>minecraft:leaves</str>
-            </icon>
             <str> 维度: {gold}{dimension} ({dimensionid})</str>
 			<if>
                 <var>slimechunk</var>
@@ -131,17 +122,9 @@
             </if>
         </line>
 		<line>
-            <icon>
-                <str>minecraft:skull</str>
-                <num>4</num>
-            </icon>
             <str> 实体:  {gold}{entitiesrendered}{white} 已显现 / {gold}{entitiestotal}{white} 已加载  </str>
         </line>
         <line>
-			<icon>
-                <str>minecraft:sapling</str>
-                <num>4</num>
-            </icon>
             <str> 生物群系: $3{biome}$f</str>
             <str> {gold}{localtemperature}{white}°F {gold}</str>
             <round>
@@ -172,10 +155,6 @@
             <str> 湿度 {gold}{humidity}{white}%</str>
         </line>
 		<line>
-            <icon>
-                <str>minecraft:compass</str>
-                <num>0</num>
-            </icon>
             <str> 区块坐标:  X:{gold} {chunkx} {white}Z:{gold} {chunkz}{white} Y: {gold}{yi}{white}</str>
             <str> Off:  {gold}{chunkoffsetx} {white}:{gold} {chunkoffsetz} {white} 面向 {gold}</str>
             <op>
@@ -201,9 +180,6 @@
             <str>$f</str>
         </line>
         <line>
-            <icon>
-                <str>minecraft:torch</str>
-            </icon>
             <str> 光照等级:  </str>
             <max>
                 <var>light</var>
@@ -223,10 +199,6 @@
             <str>{white})</str>
         </line>
 		<line>
-            <icon>
-                <str>thaumcraft:goggles</str>
-                <num>4</num>
-            </icon>
 			<str> 神秘时代: </str>
             <str> 灵气:  $4</str>
             <round>
@@ -240,10 +212,6 @@
             <str> 临时： $4{thaumwarptemp}$f </str>
         </line>
 		<line>
-            <icon>
-                <str>bloodmagic:component</str>
-                <num>4</num>
-            </icon>
             <str> 血魔法2: </str>
             <str> 当前LP: $6</str>
 
@@ -1094,7 +1062,6 @@
 	</lines>
 	<lines at="middleleft">
         <line>
-            <var>mainhandicon</var>
             <str> </str>
             <operation>
                 <str>ge</str>
@@ -1120,7 +1087,6 @@
             </max>
         </line>
         <line>
-            <var>offhandicon</var>
             <str> </str>
             <operation>
                 <str>ge</str>
@@ -1149,7 +1115,6 @@
             <str> </str>
         </line>
         <line>
-            <var>helmeticon</var>
             <str> </str>
             <op>
                 <str>ge</str>
@@ -1174,7 +1139,6 @@
             <str> </str>
         </line>
         <line>
-            <var>chestplateicon</var>
             <str> </str>
             <op>
                 <str>ge</str>
@@ -1199,7 +1163,6 @@
             <str> </str>
         </line>
         <line>
-            <var>leggingsicon</var>
             <str> </str>
             <op>
                 <str>ge</str>
@@ -1223,7 +1186,6 @@
             </max>
         </line>
         <line>
-            <var>bootsicon</var>
             <str> </str>
             <op>
                 <str>ge</str>
@@ -1252,7 +1214,6 @@
             <max>
                 <var>potiondurationticks0</var>
                 <num>0.5</num>
-                <str>{potionduration0} {potionicon0}</str>
                 <str/>
             </max>
         </line>
@@ -1260,7 +1221,6 @@
             <max>
                 <var>potiondurationticks1</var>
                 <num>0.5</num>
-                <str>{potionduration1} {potionicon1}</str>
                 <str/>
             </max>
         </line>
@@ -1268,7 +1228,6 @@
             <max>
                 <var>potiondurationticks2</var>
                 <num>0.5</num>
-                <str>{potionduration2} {potionicon2}</str>
                 <str/>
             </max>
         </line>
@@ -1276,7 +1235,6 @@
             <max>
                 <var>potiondurationticks3</var>
                 <num>0.5</num>
-                <str>{potionduration3} {potionicon3}</str>
                 <str/>
             </max>
         </line>
@@ -1284,7 +1242,6 @@
             <max>
                 <var>potiondurationticks4</var>
                 <num>0.5</num>
-                <str>{potionduration4} {potionicon4}</str>
                 <str/>
             </max>
         </line>
@@ -1292,7 +1249,6 @@
             <max>
                 <var>potiondurationticks5</var>
                 <num>0.5</num>
-                <str>{potionduration5} {potionicon5}</str>
                 <str/>
             </max>
         </line>
@@ -1300,7 +1256,6 @@
             <max>
                 <var>potiondurationticks6</var>
                 <num>0.5</num>
-                <str>{potionduration6} {potionicon6}</str>
                 <str/>
             </max>
         </line>
@@ -1308,7 +1263,6 @@
             <max>
                 <var>potiondurationticks7</var>
                 <num>0.5</num>
-                <str>{potionduration7} {potionicon7}</str>
                 <str/>
             </max>
         </line>
@@ -1316,7 +1270,6 @@
             <max>
                 <var>potiondurationticks8</var>
                 <num>0.5</num>
-                <str>{potionduration8} {potionicon8}</str>
                 <str/>
             </max>
         </line>

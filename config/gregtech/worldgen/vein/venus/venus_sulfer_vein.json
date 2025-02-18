@@ -1,39 +1,34 @@
 {
-    "name": "Venus Sulfur",
-    "weight": 60,
-   "density": 0.4,
-    "max_height": 40,
-    "min_height": 0,
-  "generation_predicate":["block:galacticraftplanets:venus:1"],
-    "dimension_filter": [
-      "dimension_id:-31"
-	],
-	"vein_populator": {
-		"type": "surface_rock",
-		"material": "sulfur"
-	},
-    "generator": {
-      "type": "layered",
-      "radius": [
-        17,
-        24
+   "density" : 0.40,
+   "dimension_filter" : [ "dimension_id:53" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:sulfur"
+         },
+         {
+            "secondary" : "ore:sulfur"
+         },
+         {
+            "between" : "ore:pyrite"
+         },
+         {
+            "sporadic" : "ore:sphalerite"
+         }
       ]
-    },
-  "filler": {
-    "type": "layered",
-    "values": [
-      {
-        "primary": "ore:sulfur"
-      },
-      {
-        "secondary": "ore:sulfur"
-      },
-      {
-        "between": "ore:pyrite"
-      },
-      {
-        "sporadic": "ore:sphalerite"
-      }
-    ]
-  }
+   },
+   "generation_predicate" : [ "ore_dict:stone" ],
+   "generator" : {
+      "radius" : [ 17, 24 ],
+      "type" : "layered"
+   },
+   "max_height" : 40,
+   "min_height" : 0,
+   "name" : "Venus Sulfur",
+   "vein_populator" : {
+      "material" : "sulfur",
+      "type" : "surface_rock"
+   },
+   "weight" : 60
 }

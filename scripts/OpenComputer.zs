@@ -960,93 +960,93 @@ assembler.recipeBuilder()
 //计算机配方
 canner.recipeBuilder()
 	.inputs(<gtqtcore:computer_competent>,<opencomputers:component:13>)
-	.outputs(<gtqtcore:computer_competent:1>)
+	.outputs(<gregtech:machine:15510>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 canner.recipeBuilder()
 	.inputs(<gtqtcore:computer_competent>,<opencomputers:component:14>)
-	.outputs(<gtqtcore:computer_competent:2>)
+	.outputs(<gregtech:machine:15511>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 canner.recipeBuilder()
 	.inputs(<gtqtcore:computer_competent>,<opencomputers:component:15>)
-	.outputs(<gtqtcore:computer_competent:3>)
+	.outputs(<gregtech:machine:15512>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 canner.recipeBuilder()
 	.inputs(<gtqtcore:computer_competent>,<opencomputers:component:0>)
-	.outputs(<gtqtcore:computer_competent:4>)
+	.outputs(<gregtech:machine:15513>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 canner.recipeBuilder()
 	.inputs(<gtqtcore:computer_competent>,<opencomputers:component:1>)
-	.outputs(<gtqtcore:computer_competent:5>)
+	.outputs(<gregtech:machine:15514>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 canner.recipeBuilder()
 	.inputs(<gtqtcore:computer_competent>,<opencomputers:component:2>)
-	.outputs(<gtqtcore:computer_competent:6>)
+	.outputs(<gregtech:machine:15515>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 canner.recipeBuilder()
 	.inputs(<gtqtcore:computer_competent>,<opencomputers:card:1>)
-	.outputs(<gtqtcore:computer_competent:7>)
+	.outputs(<gregtech:machine:15516>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 canner.recipeBuilder()
 	.inputs(<gtqtcore:computer_competent>,<opencomputers:card:2>)
-	.outputs(<gtqtcore:computer_competent:8>)
+	.outputs(<gregtech:machine:15517>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 canner.recipeBuilder()
 	.inputs(<gtqtcore:computer_competent>,<opencomputers:card:3>)
-	.outputs(<gtqtcore:computer_competent:9>)
+	.outputs(<gregtech:machine:15518>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 //计算机配方
 packer.recipeBuilder()
 	.outputs(<gtqtcore:computer_competent>,<opencomputers:component:13>)
-	.inputs(<gtqtcore:computer_competent:1>)
+	.inputs(<gregtech:machine:15510>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 packer.recipeBuilder()
 	.outputs(<gtqtcore:computer_competent>,<opencomputers:component:14>)
-	.inputs(<gtqtcore:computer_competent:2>)
+	.inputs(<gregtech:machine:15511>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 packer.recipeBuilder()
 	.outputs(<gtqtcore:computer_competent>,<opencomputers:component:15>)
-	.inputs(<gtqtcore:computer_competent:3>)
+	.inputs(<gregtech:machine:15512>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 packer.recipeBuilder()
 	.outputs(<gtqtcore:computer_competent>,<opencomputers:component:0>)
-	.inputs(<gtqtcore:computer_competent:4>)
+	.inputs(<gregtech:machine:15513>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 packer.recipeBuilder()
 	.outputs(<gtqtcore:computer_competent>,<opencomputers:component:1>)
-	.inputs(<gtqtcore:computer_competent:5>)
+	.inputs(<gregtech:machine:15514>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 packer.recipeBuilder()
 	.outputs(<gtqtcore:computer_competent>,<opencomputers:component:2>)
-	.inputs(<gtqtcore:computer_competent:6>)
+	.inputs(<gregtech:machine:15515>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 packer.recipeBuilder()
 	.outputs(<gtqtcore:computer_competent>,<opencomputers:card:1>)
-	.inputs(<gtqtcore:computer_competent:7>)
+	.inputs(<gregtech:machine:15516>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 packer.recipeBuilder()
 	.outputs(<gtqtcore:computer_competent>,<opencomputers:card:2>)
-	.inputs(<gtqtcore:computer_competent:8>)
+	.inputs(<gregtech:machine:15517>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 packer.recipeBuilder()
 	.outputs(<gtqtcore:computer_competent>,<opencomputers:card:3>)
-	.inputs(<gtqtcore:computer_competent:9>)
+	.inputs(<gregtech:machine:15518>)
 	.duration(200).EUt(120).buildAndRegister();
 	
 	

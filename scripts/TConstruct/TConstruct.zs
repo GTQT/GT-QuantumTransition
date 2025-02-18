@@ -5,14 +5,6 @@ import mods.tconstruct.Casting;
 import mods.tconstruct.Alloy;
 import mods.tconstruct.Fuel;
 
-//
-
-mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<galacticraftcore:ic2compat>);
-mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<galaxyspace:marsores:5>);
-mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<galaxyspace:haumeablocks:3>);
-mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<galaxyspace:europablocks:5>);
-mods.tconstruct.Melting.removeRecipe(<liquid:aluminum>,<galaxyspace:barnarda_c_ores:9>);
-
 recipes.remove(<tconstruct:casting:1>);
 recipes.remove(<tconstruct:casting>);
 recipes.remove(<tconstruct:smeltery_io>);
@@ -72,7 +64,7 @@ mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:4>);
 mods.tconstruct.Melting.addRecipe(<liquid:glass> * 1000,<tconstruct:clear_glass>);
 //铸模
 //铝
-mods.tconstruct.Melting.addRecipe(<liquid:aluminium> * 72,<gtqtcore:road>);
+mods.tconstruct.Melting.addRecipe(<liquid:aluminium> * 72,<gtqtcore:misc>);
 mods.tconstruct.Melting.addRecipe(<liquid:aluminium> * 144,<ore:ingotAluminium>);
 //耐酸铝
 mods.tconstruct.Alloy.addRecipe(<liquid:alumite> * 32,[<liquid:aluminium> * 80,<liquid:steel> * 32, <liquid:obsidian> * 32]);
@@ -88,15 +80,15 @@ mods.tconstruct.Melting.removeRecipe(<liquid:iron>,<minecraft:activator_rail>);
 mods.tconstruct.Melting.removeRecipe(<liquid:iron>,<minecraft:rail>);
 
 //燃料注册
-mods.tconstruct.Fuel.registerFuel(<liquid:plasma.argon> * 2, 900);
-mods.tconstruct.Fuel.registerFuel(<liquid:plasma.helium> * 2, 300);
-mods.tconstruct.Fuel.registerFuel(<liquid:neutronium> * 2, 300);
-mods.tconstruct.Fuel.registerFuel(<liquid:plasma.vibranium> * 2, 300);
-mods.tconstruct.Fuel.registerFuel(<liquid:plasma.oxygen> * 2, 300);
-mods.tconstruct.Fuel.registerFuel(<liquid:plasma.nitrogen> * 2, 300);
-mods.tconstruct.Fuel.registerFuel(<liquid:plasma.nickel> * 2, 300);
-mods.tconstruct.Fuel.registerFuel(<liquid:plasma.iron> * 2, 300);
-
+mods.tconstruct.Fuel.registerFuel(<liquid:plasma.argon> * 2, 9000);
+mods.tconstruct.Fuel.registerFuel(<liquid:plasma.helium> * 2, 3000);
+mods.tconstruct.Fuel.registerFuel(<liquid:neutronium> * 2, 3000);
+mods.tconstruct.Fuel.registerFuel(<liquid:plasma.vibranium> * 2, 3000);
+mods.tconstruct.Fuel.registerFuel(<liquid:plasma.oxygen> * 2, 3000);
+mods.tconstruct.Fuel.registerFuel(<liquid:plasma.nitrogen> * 2, 3000);
+mods.tconstruct.Fuel.registerFuel(<liquid:plasma.nickel> * 2, 3000);
+mods.tconstruct.Fuel.registerFuel(<liquid:plasma.iron> * 2, 3000);
+mods.tconstruct.Fuel.registerFuel(<liquid:steam> * 20, 30);
 
 //铜
 mods.tconstruct.Melting.addRecipe(<liquid:copper>*288,<gregtech:ore_copper_0:1>);

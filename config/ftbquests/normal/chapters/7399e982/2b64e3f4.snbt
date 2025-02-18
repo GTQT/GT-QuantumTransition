@@ -1,11 +1,25 @@
 {
 	title: "私人工具",
+	icon: "minecraft:iron_pickaxe",
 	x: 5.0d,
 	y: 2.0d,
 	tasks: [{
 		uid: "6ca1bf5c",
 		type: "ftbmoney:money",
 		value: 100L
+	},
+	{
+		uid: "0f6695b0",
+		type: "item",
+		items: [{
+			id: "gtqtcore:gtqt_meta_item_1",
+			Damage: 325s,
+			tag: {
+				display: {
+					Name: "休闲模式"
+				}
+			}
+		}]
 	}],
 	rewards: [{
 		uid: "806e9e42",
@@ -15,22 +29,22 @@
 			tag: {
 				DisallowContainerItem: 0b,
 				GT.Tool: {
-					Material: "gregtech:inconel_625",
-					MaxDurability: 107999,
-					Durability: 0,
+					AttackDamage: 7.5f,
 					ToolSpeed: 6.8f,
 					HarvestLevel: 5,
-					AttackDamage: 7.5f,
-					AttackSpeed: -3.1000001f
+					MaxDurability: 107999,
+					AttackSpeed: -3.1000001f,
+					Material: "gregtech:inconel_625",
+					Durability: 0
 				},
 				HideFlags: 2,
 				GT.Behaviours: {
-					MaxAoEColumn: 1,
-					MaxAoERow: 1,
 					MaxAoELayer: 0,
-					AoEColumn: 1,
 					AoERow: 1,
-					AoELayer: 0
+					MaxAoEColumn: 1,
+					AoELayer: 0,
+					AoEColumn: 1,
+					MaxAoERow: 1
 				}
 			}
 		}
@@ -43,13 +57,13 @@
 			tag: {
 				DisallowContainerItem: 0b,
 				GT.Tool: {
-					Material: "gregtech:inconel_625",
-					MaxDurability: 35999,
-					Durability: 0,
+					AttackDamage: 11.0f,
 					ToolSpeed: 9.0f,
 					HarvestLevel: 5,
-					AttackDamage: 11.0f,
-					AttackSpeed: -3.1000001f
+					MaxDurability: 35999,
+					AttackSpeed: -3.1000001f,
+					Material: "gregtech:inconel_625",
+					Durability: 0
 				},
 				HideFlags: 2,
 				GT.Behaviours: {
@@ -86,13 +100,13 @@
 			tag: {
 				DisallowContainerItem: 0b,
 				GT.Tool: {
-					Material: "gregtech:inconel_625",
-					MaxDurability: 35999,
-					Durability: 0,
+					AttackDamage: 7.0f,
 					ToolSpeed: 11.0f,
 					HarvestLevel: 5,
-					AttackDamage: 7.0f,
-					AttackSpeed: -2.7f
+					MaxDurability: 35999,
+					AttackSpeed: -2.7f,
+					Material: "gregtech:inconel_625",
+					Durability: 0
 				},
 				HideFlags: 2,
 				GT.Behaviours: {
@@ -109,22 +123,22 @@
 			tag: {
 				DisallowContainerItem: 0b,
 				GT.Tool: {
-					Material: "gregtech:inconel_625",
-					MaxDurability: 107999,
-					Durability: 0,
 					AttackDamage: 11.0f,
-					AttackSpeed: -2.9f,
 					ToolSpeed: 11.0f,
-					HarvestLevel: 5
+					HarvestLevel: 5,
+					MaxDurability: 107999,
+					AttackSpeed: -2.9f,
+					Material: "gregtech:inconel_625",
+					Durability: 0
 				},
 				HideFlags: 2,
 				GT.Behaviours: {
-					MaxAoEColumn: 2,
-					MaxAoERow: 2,
 					MaxAoELayer: 2,
-					AoEColumn: 2,
 					AoERow: 2,
-					AoELayer: 2
+					MaxAoEColumn: 2,
+					AoELayer: 2,
+					AoEColumn: 2,
+					MaxAoERow: 2
 				}
 			}
 		}
@@ -137,13 +151,13 @@
 			tag: {
 				DisallowContainerItem: 0b,
 				GT.Tool: {
-					Material: "gregtech:inconel_625",
-					MaxDurability: 35999,
-					Durability: 0,
+					AttackDamage: 7.5f,
 					ToolSpeed: 11.0f,
 					HarvestLevel: 5,
-					AttackDamage: 7.5f,
-					AttackSpeed: -2.9f
+					MaxDurability: 35999,
+					AttackSpeed: -2.9f,
+					Material: "gregtech:inconel_625",
+					Durability: 0
 				},
 				HideFlags: 2,
 				GT.Behaviours: {}

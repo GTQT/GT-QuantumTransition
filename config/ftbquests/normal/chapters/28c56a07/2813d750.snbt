@@ -1,6 +1,9 @@
 {
 	x: 6.0d,
 	y: 1.0d,
+	dependencies: [
+		"aea4b12e"
+	],
 	tasks: [{
 		uid: "f048d3de",
 		type: "item",
@@ -31,15 +34,20 @@
 		item: "appliedenergistics2:part 1 340"
 	},
 	{
-		uid: "5cc6d9e1",
-		type: "item",
-		item: "appliedenergistics2:material 1 52",
-		count: 16
-	},
-	{
 		uid: "ef9cb0e4",
 		type: "item",
 		item: "appliedenergistics2:part 1 16",
 		count: 64
+	},
+	{
+		uid: "f820f106",
+		type: "item",
+		item: "appliedenergistics2:material 1 52",
+		count: 8
+	},
+	{
+		uid: "395931ff",
+		type: "item",
+		item: "appliedenergistics2:crafting_storage_1k"
 	}]
 }

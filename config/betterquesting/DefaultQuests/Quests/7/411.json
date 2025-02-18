@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    385
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.411.desc",
+      "icon:10": {
+        "Damage:2": 1001,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:machine",
+          "orig_meta:3": 1001
+        }
+      },
+      "name:8": "gtqt.quest.db.411.title"
+    }
+  },
+  "questID:3": 411,
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

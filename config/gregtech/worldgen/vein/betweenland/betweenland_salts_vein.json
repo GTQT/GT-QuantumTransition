@@ -1,41 +1,34 @@
 {
-    "name": "Betweenland Salt",
-    "weight": 50,
-   "density": 0.4,
-    "max_height": 60,
-    "min_height": 0,
-     "generation_predicate": [
-    "ore_dict:cobblestone"
-	],
-    "dimension_filter": [
-      "dimension_id:20"
-	],
-	"vein_populator": {
-		"type": "surface_rock",
-		"material": "salt"
-	},
-    "generator": {
-      "type": "layered",
-      "radius": [
-        17,
-        24
+   "density" : 0.40,
+   "dimension_filter" : [ "dimension_id:20" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:rock_salt"
+         },
+         {
+            "secondary" : "ore:salt"
+         },
+         {
+            "between" : "ore:lepidolite"
+         },
+         {
+            "sporadic" : "ore:spodumene"
+         }
       ]
-    },
-    "filler": {
-      "type": "layered",
-      "values": [
-        {
-        "primary": "ore:rock_salt"
-      },
-      {
-        "secondary": "ore:salt"
-      },
-      {
-        "between": "ore:lepidolite"
-      },
-      {
-        "sporadic": "ore:spodumene"
-      }
-      ]
-    }
+   },
+   "generation_predicate" : [ "ore_dict:cobblestone" ],
+   "generator" : {
+      "radius" : [ 17, 24 ],
+      "type" : "layered"
+   },
+   "max_height" : 100,
+   "min_height" : 40,
+   "name" : "Betweenland Salt",
+   "vein_populator" : {
+      "material" : "salt",
+      "type" : "surface_rock"
+   },
+   "weight" : 50
 }

@@ -12,19 +12,19 @@
     ]
   }
   layers: [ {
-      state: gtqtcore:susy_stone_smooth:1
+      state: gtqtcore:gtqt_stone_smooth:1
       height: [ 200, 255 ]
     }, {
-      state: gtqtcore:susy_stone_smooth:3
+      state: gtqtcore:gtqt_stone_smooth:3
       height: [ 150, 200 ]
     }, {
-      state: gtqtcore:susy_stone_smooth:4
+      state: gtqtcore:gtqt_stone_smooth:4
       height: [ 100, 150 ]
     }, {
-      state: gtqtcore:susy_stone_smooth:6
+      state: gtqtcore:gtqt_stone_smooth:6
       height: [ 50, 100 ]
     }, {
-      state: gtqtcore:susy_stone_smooth:7
+      state: gtqtcore:gtqt_stone_smooth:7
       height: [ 0, 49 ]
     } ]
   tunnels: [

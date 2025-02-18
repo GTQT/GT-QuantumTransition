@@ -1,38 +1,33 @@
 {
-  "name": "Nether Realgar",
-  "weight": 100,
-  "density": 0.4,
-  "min_height": 10,
-  "max_height": 30,
-  "vein_populator": {
-    "type": "surface_rock",
-    "material": "realgar"
-  },
-  "dimension_filter": [
-    "is_nether"
-  ],
-  "generator": {
-    "type": "layered",
-    "radius": [
-      17,
-      24
-    ]
-  },
-  "filler": {
-    "type": "layered",
-    "values": [
-      {
-        "primary": "ore:sulfur"
-      },
-      {
-        "secondary": "ore:sulfur"
-      },
-      {
-        "between": "ore:realgar"
-      },
-      {
-        "sporadic": "ore:realgar"
-      }
-    ]
-  }
+   "density" : 0.40,
+   "dimension_filter" : [ "is_nether" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:sulfur"
+         },
+         {
+            "secondary" : "ore:sulfur"
+         },
+         {
+            "between" : "ore:realgar"
+         },
+         {
+            "sporadic" : "ore:realgar"
+         }
+      ]
+   },
+   "generator" : {
+      "radius" : [ 17, 24 ],
+      "type" : "layered"
+   },
+   "max_height" : 30,
+   "min_height" : 10,
+   "name" : "Nether Realgar",
+   "vein_populator" : {
+      "material" : "realgar",
+      "type" : "surface_rock"
+   },
+   "weight" : 100
 }

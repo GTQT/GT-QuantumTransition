@@ -1,5 +1,5 @@
 {
-	title: "抽屉礼包",
+	title: "存储礼包",
 	icon: "storagedrawers:controller",
 	x: 3.0d,
 	y: 2.0d,
@@ -7,6 +7,19 @@
 		uid: "b6976a97",
 		type: "ftbmoney:money",
 		value: 100L
+	},
+	{
+		uid: "a239ca7e",
+		type: "item",
+		items: [{
+			id: "gtqtcore:gtqt_meta_item_1",
+			Damage: 325s,
+			tag: {
+				display: {
+					Name: "休闲模式"
+				}
+			}
+		}]
 	}],
 	rewards: [{
 		uid: "315bb524",
@@ -17,11 +30,17 @@
 				material: "oak"
 			}
 		},
-		count: 64
+		count: 32
 	},
 	{
 		uid: "e563ae46",
 		type: "item",
 		item: "storagedrawers:controller"
+	},
+	{
+		uid: "58b6f89b",
+		type: "item",
+		item: "ironchest:iron_chest 1 2",
+		count: 8
 	}]
 }

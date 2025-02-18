@@ -1,0 +1,111 @@
+{
+  "preRequisites:11": [
+    661
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.548.desc",
+      "icon:10": {
+        "Damage:2": 7,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "appliedenergistics2:material",
+          "orig_meta:3": 7
+        }
+      },
+      "name:8": "gtqt.quest.db.548.title"
+    }
+  },
+  "questID:3": 548,
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_item_1",
+            "orig_meta:3": 2
+          }
+        },
+        "1:10": {
+          "Count:3": 8,
+          "Damage:2": 140,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "appliedenergistics2:part",
+            "orig_meta:3": 140
+          }
+        },
+        "2:10": {
+          "Count:3": 16,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "appliedenergistics2:material",
+            "orig_meta:3": 0
+          }
+        },
+        "3:10": {
+          "Count:3": 16,
+          "Damage:2": 8,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "appliedenergistics2:material",
+            "orig_meta:3": 8
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 214,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_dust",
+            "orig_meta:3": 214
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 277,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_dust",
+            "orig_meta:3": 277
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 339,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_dust",
+            "orig_meta:3": 339
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 20058,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_dust",
+            "orig_meta:3": 20058
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

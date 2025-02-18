@@ -1,0 +1,33 @@
+{
+   "density" : 0.40,
+   "dimension_filter" : [ "dimension_id:10" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:pitchblende"
+         },
+         {
+            "secondary" : "ore:pitchblende"
+         },
+         {
+            "between" : "ore:uraninite"
+         },
+         {
+            "sporadic" : "ore:uraninite"
+         }
+      ]
+   },
+   "generator" : {
+      "radius" : [ 8, 16 ],
+      "type" : "layered"
+   },
+   "max_height" : 40,
+   "min_height" : 0,
+   "name" : "The Beneath Pitchblende",
+   "vein_populator" : {
+      "material" : "pitchblende",
+      "type" : "surface_rock"
+   },
+   "weight" : 60
+}

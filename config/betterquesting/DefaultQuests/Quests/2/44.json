@@ -1,0 +1,141 @@
+{
+  "preRequisites:11": [
+    45
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.44.desc",
+      "frame:8": "GATE",
+      "icon:10": {
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "tconstruct:tooltables",
+          "orig_meta:3": 0
+        }
+      },
+      "ismain:1": 1,
+      "name:8": "gtqt.quest.db.44.title"
+    }
+  },
+  "questID:3": 44,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "tconstruct:tooltables",
+            "orig_meta:3": 4
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "tconstruct:tooltables",
+            "orig_meta:3": 5
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_item_1",
+            "orig_meta:3": 1
+          }
+        }
+      },
+      "rewardID:8": "bq_standard:choice"
+    },
+    "1:10": {
+      "index:3": 1,
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "tconstruct:book",
+            "orig_meta:3": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "ftbquests:lootcrate",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "type:8": "_"
+            }
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "tconstruct:tooltables",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "tconstruct:tooltables",
+            "orig_meta:3": 1,
+            "orig_tag:10": {
+              "textureBlock:10": {
+                "Count:3": 1,
+                "Damage:2": 10,
+                "id:8": "chisel:planks-oak"
+              }
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "tconstruct:tooltables",
+            "orig_meta:3": 2,
+            "orig_tag:10": {
+              "textureBlock:10": {
+                "Count:3": 1,
+                "id:8": "minecraft:log"
+              }
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "tconstruct:tooltables",
+            "orig_meta:3": 3
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

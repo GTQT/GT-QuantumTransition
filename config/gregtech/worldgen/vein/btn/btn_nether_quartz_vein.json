@@ -1,0 +1,34 @@
+{
+   "density" : 0.40,
+   "dimension_filter" : [ "dimension_id:41" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:nether_quartz"
+         },
+         {
+            "secondary" : "ore:nether_quartz"
+         },
+         {
+            "between" : "ore:nether_quartz"
+         },
+         {
+            "sporadic" : "ore:quartzite"
+         }
+      ]
+   },
+   "generation_predicate" : [ "ore_dict:cobblestone" ],
+   "generator" : {
+      "radius" : [ 17, 24 ],
+      "type" : "layered"
+   },
+   "max_height" : 125,
+   "min_height" : 0,
+   "name" : "The Betweenlands Nether Nether_quartz",
+   "vein_populator" : {
+      "material" : "quartzite",
+      "type" : "surface_rock"
+   },
+   "weight" : 80
+}

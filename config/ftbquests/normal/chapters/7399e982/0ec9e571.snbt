@@ -8,7 +8,7 @@
 	},
 	x: -3.0d,
 	y: 8.0d,
-	can_repeat: true,
+	can_repeat: 1b,
 	dependencies: [
 		"2f597db3"
 	],
@@ -20,26 +20,26 @@
 	rewards: [{
 		uid: "00b3e966",
 		type: "random",
-		table: 6
+		table: 5
 	},
 	{
 		uid: "34d20ac4",
 		type: "random",
-		table: 6
+		table: 5
 	},
 	{
 		uid: "62e49eab",
 		type: "random",
-		table: 6
+		table: 5
 	},
 	{
 		uid: "d01b8ece",
 		type: "random",
-		table: 6
+		table: 5
 	},
 	{
 		uid: "91f77be2",
 		type: "random",
-		table: 6
+		table: 5
 	}]
 }

@@ -1,36 +1,33 @@
 {
-  "name": "gregtech.veins.ore.mica",
-  "weight": 20,
-  "density": 0.5,
-  "max_height": 60,
-  "min_height": 0,
-
-  "vein_populator": {
-    "type": "surface_rock",
-    "material": "mica"
-  },
-  "generator": {
-    "type": "layered",
-    "radius": [
-      14,
-      16
-    ]
-  },
-  "filler": {
-    "type": "layered",
-    "values": [
-      {
-        "primary": "ore:kyanite"
-      },
-      {
-        "secondary": "ore:mica"
-      },
-      {
-        "between": "ore:bauxite"
-      },
-      {
-        "sporadic": "ore:pollucite"
-      }
-    ]
-  }
+   "density" : 0.50,
+   "dimension_filter" : [ "dimension_id:0" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:kyanite"
+         },
+         {
+            "secondary" : "ore:mica"
+         },
+         {
+            "between" : "ore:bauxite"
+         },
+         {
+            "sporadic" : "ore:pollucite"
+         }
+      ]
+   },
+   "generator" : {
+      "radius" : [ 14, 16 ],
+      "type" : "layered"
+   },
+   "max_height" : 60,
+   "min_height" : 0,
+   "name" : "gregtech.veins.ore.mica",
+   "vein_populator" : {
+      "material" : "mica",
+      "type" : "surface_rock"
+   },
+   "weight" : 20
 }

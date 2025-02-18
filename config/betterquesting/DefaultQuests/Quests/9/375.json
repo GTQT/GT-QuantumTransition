@@ -1,0 +1,24 @@
+{
+  "preRequisites:11": [
+    374
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.375.desc",
+      "icon:10": {
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "galacticraftcore:rocket_t1",
+          "orig_meta:3": 0
+        }
+      },
+      "name:8": "gtqt.quest.db.375.title"
+    }
+  },
+  "questID:3": 375,
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

@@ -1,6 +1,9 @@
 {
-	x: 6.0d,
-	y: 5.0d,
+	x: 2.0d,
+	y: 8.0d,
+	dependencies: [
+		"aea4b12e"
+	],
 	tasks: [{
 		uid: "5aa20ea9",
 		type: "item",
@@ -9,8 +12,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "9f04b485",
+		uid: "bc95d10f",
 		type: "item",
-		item: "gregtech:meta_item_1 1 5"
+		item: "gregtech:meta_item_1 1 7"
 	}]
 }

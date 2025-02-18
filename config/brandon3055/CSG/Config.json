@@ -1,6 +1,6 @@
 {
   "inventory": {
-    "0:0": "betterquesting:quest_book",
-    "0:1": "minecraft:apple,16"
+    "0:1": "gtqtcore:gtqt_meta_item_1,1,325,{display:{Name:\"新春礼包（在FTB兑换）\"}}",
+    "0:0": "gtqtcore:gtqt_meta_item_1,1,323,{display:{Name:\"新手礼包（在FTB兑换）\"}}"
   }
 }

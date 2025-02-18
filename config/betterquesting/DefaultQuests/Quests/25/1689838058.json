@@ -1,0 +1,65 @@
+{
+  "preRequisites:11": [
+    1573123323,
+    964046174,
+    1074706503
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.1689838058.desc",
+      "icon:10": {
+        "Damage:2": 15050,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:meta_dust",
+          "orig_meta:3": 15050
+        }
+      },
+      "name:8": "gtqt.quest.db.1689838058.title"
+    }
+  },
+  "questID:3": 1689838058,
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "ftbquests:lootcrate",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "type:8": "luv_"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_item_1",
+            "orig_meta:3": 4
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 15050,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_dust",
+            "orig_meta:3": 15050
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

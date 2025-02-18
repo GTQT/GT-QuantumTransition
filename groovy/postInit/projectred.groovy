@@ -147,7 +147,7 @@ for (int i = 0; i < ProjectRed.illuminars.size(); i++) {
                     item('projectred-core:resource_item:1'),
                     metaitem('stickSteel') * 6,
                     metaitem('plateIron') * 2,
-                    item('galacticraftcore:grating') * 6,
+                    item('minecraft:glass_pane') * 6,
                     ProjectRed.illuminars[i] * 2)
             .outputs(ProjectRed.deFalloutLamps[i])
             .duration(180).EUt(32).buildAndRegister()
@@ -215,7 +215,7 @@ for (int i = 0; i < ProjectRed.deCageLamps.size(); i++) {
             .inputs(
                     item('projectred-core:resource_item:1'),
                     metaitem('stickSteel') * 2,
-                    item('galacticraftcore:grating') * 4,
+                    item('minecraft:glass_pane') * 4,
                     ProjectRed.illuminars[i])
             .outputs(ProjectRed.deCageLamps[i])
             .duration(180).EUt(32).buildAndRegister()

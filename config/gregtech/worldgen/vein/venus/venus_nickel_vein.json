@@ -1,39 +1,34 @@
 {
-    "name": "Venus Nickel",
-  "weight": 40,
-  "density": 0.25,
-  "max_height": 40,
-  "min_height": 10,
-  "vein_populator": {
-    "type": "surface_rock",
-    "material": "nickel"
-  },
-  "generation_predicate":["block:galacticraftplanets:venus:1"],
-  "dimension_filter": [
-    "name:planet.venus"
-  ],
-  "generator": {
-    "type": "layered",
-    "radius": [
-      14,
-      16
-    ]
-  },
-  "filler": {
-    "type": "layered",
-    "values": [
-      {
-        "primary": "ore:garnierite"
-      },
-      {
-        "secondary": "ore:nickel"
-      },
-      {
-        "between": "ore:cobaltite"
-      },
-      {
-        "sporadic": "ore:pentlandite"
-      }
-    ]
-  }
+   "density" : 0.250,
+   "dimension_filter" : [ "dimension_id:53" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:garnierite"
+         },
+         {
+            "secondary" : "ore:nickel"
+         },
+         {
+            "between" : "ore:cobaltite"
+         },
+         {
+            "sporadic" : "ore:pentlandite"
+         }
+      ]
+   },
+   "generation_predicate" : [ "ore_dict:stone" ],
+   "generator" : {
+      "radius" : [ 14, 16 ],
+      "type" : "layered"
+   },
+   "max_height" : 40,
+   "min_height" : 10,
+   "name" : "Venus Nickel",
+   "vein_populator" : {
+      "material" : "nickel",
+      "type" : "surface_rock"
+   },
+   "weight" : 40
 }

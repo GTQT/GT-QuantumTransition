@@ -1,36 +1,33 @@
 {
-  "name": "gregtech.veins.ore.olivine",
-  "weight": 20,
-  "density": 0.5,
-  "max_height": 60,
-  "min_height": 0,
-
-  "vein_populator": {
-    "type": "surface_rock",
-    "material": "olivine"
-  },
-  "generator": {
-    "type": "layered",
-    "radius": [
-      14,
-      16
-    ]
-  },
-  "filler": {
-    "type": "layered",
-    "values": [
-      {
-        "primary": "ore:bentonite"
-      },
-      {
-        "secondary": "ore:magnesite"
-      },
-      {
-        "between": "ore:olivine"
-      },
-      {
-        "sporadic": "ore:glauconite_sand"
-      }
-    ]
-  }
+   "density" : 0.50,
+   "dimension_filter" : [ "dimension_id:0" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:bentonite"
+         },
+         {
+            "secondary" : "ore:magnesite"
+         },
+         {
+            "between" : "ore:olivine"
+         },
+         {
+            "sporadic" : "ore:glauconite_sand"
+         }
+      ]
+   },
+   "generator" : {
+      "radius" : [ 14, 16 ],
+      "type" : "layered"
+   },
+   "max_height" : 60,
+   "min_height" : 0,
+   "name" : "gregtech.veins.ore.olivine",
+   "vein_populator" : {
+      "material" : "olivine",
+      "type" : "surface_rock"
+   },
+   "weight" : 20
 }

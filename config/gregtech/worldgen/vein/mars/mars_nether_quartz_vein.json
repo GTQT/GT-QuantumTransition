@@ -1,41 +1,33 @@
 {
-    "name": "Mars Nether Quartz",
-    "weight": 60,
-   "density": 0.4,
-    "max_height": 70,
-    "min_height": 0,
-  	"generation_predicate": [
-    "ore_dict:cobblestone"
-	],
-    "dimension_filter": [
-      "dimension_id:-29"
-	],
-	"vein_populator": {
-		"type": "surface_rock",
-		"material": "nether_quartz"
-	},
-    "generator": {
-      "type": "layered",
-      "radius": [
-        8,
-        16
+   "density" : 0.40,
+   "dimension_filter" : [ "dimension_id:52" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:nether_quartz"
+         },
+         {
+            "secondary" : "ore:nether_quartz"
+         },
+         {
+            "between" : "ore:nether_quartz"
+         },
+         {
+            "sporadic" : "ore:quartzite"
+         }
       ]
-    },
-  "filler": {
-    "type": "layered",
-    "values": [
-      {
-        "primary": "ore:nether_quartz"
-      },
-      {
-        "secondary": "ore:nether_quartz"
-      },
-      {
-        "between": "ore:nether_quartz"
-      },
-      {
-        "sporadic": "ore:quartzite"
-      }
-    ]
-  }
+   },
+   "generator" : {
+      "radius" : [ 8, 16 ],
+      "type" : "layered"
+   },
+   "max_height" : 70,
+   "min_height" : 0,
+   "name" : "Mars Nether Quartz",
+   "vein_populator" : {
+      "material" : "nether_quartz",
+      "type" : "surface_rock"
+   },
+   "weight" : 60
 }

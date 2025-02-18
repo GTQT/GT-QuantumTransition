@@ -1,0 +1,50 @@
+{
+  "preRequisites:11": [
+    39452116
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.1577957897.desc",
+      "frame:8": "GATE",
+      "icon:10": {
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "thebetweenlands:moss_bed_item",
+          "orig_meta:3": 0
+        }
+      },
+      "ismain:1": 1,
+      "name:8": "gtqt.quest.db.1577957897.title"
+    }
+  },
+  "questID:3": 1577957897,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "thebetweenlands:moss_bed_item",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "thebetweenlands:swamp_talisman",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

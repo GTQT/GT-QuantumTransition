@@ -1,0 +1,19 @@
+{
+  "lineID:3": 27,
+  "order:3": 12,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.ql.27.desc",
+      "icon:10": {
+        "Damage:2": 994,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:machine",
+          "orig_meta:3": 994
+        }
+      },
+      "name:8": "gtqt.quest.ql.27.title"
+    }
+  },
+  "quests:9": {}
+}

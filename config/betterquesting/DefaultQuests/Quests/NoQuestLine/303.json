@@ -1,0 +1,38 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.303.desc",
+      "icon:10": {
+        "id:8": "minecraft:potato"
+      },
+      "name:8": "gtqt.quest.db.303.title"
+    }
+  },
+  "questID:3": 303,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 5,
+          "id:8": "minecraft:potato"
+        },
+        "1:10": {
+          "Count:3": 5,
+          "id:8": "minecraft:carrot"
+        }
+      },
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "minecraft:carrot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

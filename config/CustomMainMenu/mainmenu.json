@@ -38,7 +38,7 @@
 		},
 		"multiplayer": {
 			"text": "Multiplayer Game",
-			"hoverText": "Loli Island",
+			"hoverText": "Multiplayer Sports",
 			"alignment": "center",
 			"posX": -150,
 			"posY": -5,
@@ -74,7 +74,7 @@
 		},
 		"options": {
 			"text": "Options",
-			"hoverText": "Control everythings",
+			"hoverText": "Control Everythings",
 			"alignment": "center",
 			"posX": -150,
 			"posY": 35,
@@ -121,7 +121,7 @@
 			"clickSound": "block.lever.click",
 			"action": {
 				"type": "openLink",
-				"link": "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Kdo7NTt_NL1LTD2AKitjKRf95dpJq971&authKey=l1gQHFPTQUZr4sjw4Cj8adYqEPMKK4B2ZBq%2FCG8ZMAav0qyqgukb2Rj9G2GZBw1m&noverify=0&group_code=494136307"
+				"link": "https://qm.qq.com/q/2EoZI27N4I"
 			}
 		},
 		"github": {

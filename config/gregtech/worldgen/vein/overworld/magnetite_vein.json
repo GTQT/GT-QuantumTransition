@@ -1,36 +1,33 @@
 {
-  "name": "gregtech.veins.ore.magnetite",
-  "weight": 80,
-  "density": 0.15,
-  "max_height": 60,
-  "min_height": 0,
-
-  "vein_populator": {
-    "type": "surface_rock",
-    "material": "magnetite"
-  },
-  "generator": {
-    "type": "layered",
-    "radius": [
-      20,
-      32
-    ]
-  },
-  "filler": {
-    "type": "layered",
-    "values": [
-      {
-        "primary": "ore:magnetite"
-      },
-      {
-        "secondary": "ore:magnetite"
-      },
-      {
-        "between": "ore:vanadium_magnetite"
-      },
-      {
-        "sporadic": "ore:lean_gold_sulphide"
-      }
-    ]
-  }
+   "density" : 0.150,
+   "dimension_filter" : [ "dimension_id:0" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:magnetite"
+         },
+         {
+            "secondary" : "ore:magnetite"
+         },
+         {
+            "between" : "ore:vanadium_magnetite"
+         },
+         {
+            "sporadic" : "ore:lean_gold_sulphide"
+         }
+      ]
+   },
+   "generator" : {
+      "radius" : [ 20, 32 ],
+      "type" : "layered"
+   },
+   "max_height" : 60,
+   "min_height" : 0,
+   "name" : "gregtech.veins.ore.magnetite",
+   "vein_populator" : {
+      "material" : "magnetite",
+      "type" : "surface_rock"
+   },
+   "weight" : 80
 }

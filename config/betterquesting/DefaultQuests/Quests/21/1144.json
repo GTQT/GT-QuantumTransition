@@ -1,0 +1,52 @@
+{
+  "preRequisites:11": [
+    9
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.1144.desc",
+      "frame:8": "GATE",
+      "icon:10": {
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "thebetweenlands:log_sap",
+          "orig_meta:3": 0
+        }
+      },
+      "ismain:1": 1,
+      "name:8": "gtqt.quest.db.1144.title"
+    }
+  },
+  "questID:3": 1144,
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "thebetweenlands:sapling_sap",
+            "orig_meta:3": 0
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "thebetweenlands:sap_ball",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

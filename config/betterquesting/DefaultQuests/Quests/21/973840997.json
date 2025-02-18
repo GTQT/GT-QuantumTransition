@@ -1,0 +1,20 @@
+{
+  "preRequisites:11": [
+    298
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.973840997.desc",
+      "icon:10": {
+        "id:8": "minecraft:flint"
+      },
+      "name:8": "gtqt.quest.db.973840997.title"
+    }
+  },
+  "questID:3": 973840997,
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

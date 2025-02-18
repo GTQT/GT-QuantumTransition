@@ -1,41 +1,33 @@
 {
-    "name": "Mars Pitchblende",
-    "weight": 60,
-   "density": 0.4,
-    "max_height": 40,
-    "min_height": 0,
-  	"generation_predicate": [
-    "ore_dict:cobblestone"
-	],
-    "dimension_filter": [
-      "dimension_id:-29"
-	],
-	"vein_populator": {
-		"type": "surface_rock",
-		"material": "pitchblende"
-	},
-    "generator": {
-      "type": "layered",
-      "radius": [
-        8,
-        16
+   "density" : 0.40,
+   "dimension_filter" : [ "dimension_id:52" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:pitchblende"
+         },
+         {
+            "secondary" : "ore:pitchblende"
+         },
+         {
+            "between" : "ore:uraninite"
+         },
+         {
+            "sporadic" : "ore:uraninite"
+         }
       ]
-    },
-  "filler": {
-    "type": "layered",
-    "values": [
-      {
-        "primary": "ore:pitchblende"
-      },
-      {
-        "secondary": "ore:pitchblende"
-      },
-      {
-        "between": "ore:uraninite"
-      },
-      {
-        "sporadic": "ore:uraninite"
-      }
-    ]
-  }
+   },
+   "generator" : {
+      "radius" : [ 8, 16 ],
+      "type" : "layered"
+   },
+   "max_height" : 40,
+   "min_height" : 0,
+   "name" : "Mars Pitchblende",
+   "vein_populator" : {
+      "material" : "pitchblende",
+      "type" : "surface_rock"
+   },
+   "weight" : 60
 }

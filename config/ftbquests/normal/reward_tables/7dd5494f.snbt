@@ -1,0 +1,291 @@
+{
+	title: "ZPMAge",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 746s,
+			tag: {
+				Charge: 655360000L
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 750s,
+			tag: {
+				Charge: 4000000000L
+			}
+		}
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 752s,
+			tag: {
+				Charge: 2000000000000L
+			}
+		}
+	},
+	{
+		item: "gregtech:wire_single 1 124",
+		count: 12
+	},
+	{
+		item: "gtqtcore:gtqt_meta_item_1 1 572",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 262",
+		count: 4
+	},
+	{
+		item: {
+			id: "gregtech:meta_item_1",
+			Damage: 468s,
+			tag: {
+				Charge: 1000000000L
+			}
+		}
+	},
+	{
+		item: "gregtech:meta_item_1 1 502",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 710",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 133",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 148",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 163",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 178",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 193",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 208",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 223",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 238",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 253",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 407",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 406",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 405",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 372",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 373",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 604",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 605",
+		count: 32
+	},
+	{
+		item: "gregtech:meta_item_1 1 606",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 598",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 704",
+		count: 16
+	},
+	{
+		item: "gregtech:meta_item_1 1 705",
+		count: 8
+	},
+	{
+		item: "gregtech:meta_item_1 1 708",
+		count: 4
+	},
+	{
+		item: "gregtech:meta_item_1 1 709",
+		count: 2
+	},
+	{
+		item: "gregtech:meta_item_1 1 528",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 529",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 530",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 531",
+		count: 64
+	},
+	{
+		item: "gregtech:meta_item_1 1 532",
+		count: 64
+	},
+	{
+		item: "gregtech:machine 1 1242"
+	},
+	{
+		item: "gregtech:machine 1 1247"
+	},
+	{
+		item: "gregtech:machine 1 1252"
+	},
+	{
+		item: "gregtech:machine 1 1257"
+	},
+	{
+		item: "gregtech:machine 1 1322"
+	},
+	{
+		item: "gregtech:machine 1 1336"
+	},
+	{
+		item: "gregtech:machine 1 1350"
+	},
+	{
+		item: "gregtech:machine 1 1382"
+	},
+	{
+		item: "gregtech:machine 1 1396"
+	},
+	{
+		item: "gregtech:machine 1 56"
+	},
+	{
+		item: "gregtech:machine 1 71"
+	},
+	{
+		item: "gregtech:machine 1 86"
+	},
+	{
+		item: "gregtech:machine 1 101"
+	},
+	{
+		item: "gregtech:machine 1 131"
+	},
+	{
+		item: "gregtech:machine 1 146"
+	},
+	{
+		item: "gregtech:machine 1 161"
+	},
+	{
+		item: "gregtech:machine 1 176"
+	},
+	{
+		item: "gregtech:machine 1 191"
+	},
+	{
+		item: "gregtech:machine 1 206"
+	},
+	{
+		item: "gregtech:machine 1 221"
+	},
+	{
+		item: "gregtech:machine 1 236"
+	},
+	{
+		item: "gregtech:machine 1 251"
+	},
+	{
+		item: "gregtech:machine 1 266"
+	},
+	{
+		item: "gregtech:machine 1 281"
+	},
+	{
+		item: "gregtech:machine 1 296"
+	},
+	{
+		item: "gregtech:machine 1 311"
+	},
+	{
+		item: "gregtech:machine 1 326"
+	},
+	{
+		item: "gregtech:machine 1 341"
+	},
+	{
+		item: "gregtech:machine 1 386"
+	},
+	{
+		item: "gregtech:machine 1 401"
+	},
+	{
+		item: "gregtech:machine 1 1157",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1172",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1187",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1202",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1217",
+		count: 4
+	},
+	{
+		item: "gregtech:machine 1 1232",
+		count: 4
+	}],
+	loot_crate: {
+		string_id: "zpm",
+		color: 16777215,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

@@ -1,0 +1,91 @@
+{
+  "preRequisites:11": [
+    804370146,
+    278908631
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.1853977738.desc",
+      "icon:10": {
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "forge:bucketfilled",
+          "orig_meta:3": 0,
+          "orig_tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "enzymesa"
+          }
+        }
+      },
+      "name:8": "gtqt.quest.db.1853977738.title"
+    }
+  },
+  "questID:3": 1853977738,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "forge:bucketfilled",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "enzymesa"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "forge:bucketfilled",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "enzymesb"
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "forge:bucketfilled",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "enzymesc"
+            }
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "forge:bucketfilled",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "enzymesd"
+            }
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "forge:bucketfilled",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "enzymese"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

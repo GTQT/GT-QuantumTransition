@@ -1,0 +1,34 @@
+{
+   "density" : 0.50,
+   "dimension_filter" : [ "dimension_id:41" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:blue_topaz"
+         },
+         {
+            "secondary" : "ore:topaz"
+         },
+         {
+            "between" : "ore:chalcocite"
+         },
+         {
+            "sporadic" : "ore:bornite"
+         }
+      ]
+   },
+   "generation_predicate" : [ "ore_dict:cobblestone" ],
+   "generator" : {
+      "radius" : [ 14, 16 ],
+      "type" : "layered"
+   },
+   "max_height" : 125,
+   "min_height" : 0,
+   "name" : "The Betweenlands Nether Topaz",
+   "vein_populator" : {
+      "material" : "chalcocite",
+      "type" : "surface_rock"
+   },
+   "weight" : 40
+}

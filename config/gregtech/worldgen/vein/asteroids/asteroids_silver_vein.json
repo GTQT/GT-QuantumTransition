@@ -1,41 +1,34 @@
 {
-    "name": "Asteroids Silver",
-    "weight": 100,
-    "density": 1,
-    "max_height": 250,
-    "min_height": 0,
-    "generation_predicate": [
-    "ore_dict:cobblestone"
-	],
-    "dimension_filter": [
-      "dimension_id:-30"
-	],
-	"vein_populator": {
-		"type": "surface_rock",
-		"material": "silver"
-	},
-    "generator": {
-      "type": "layered",
-      "radius": [
-        12,
-        16
+   "density" : 1,
+   "dimension_filter" : [ "dimension_id:54" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:galena"
+         },
+         {
+            "secondary" : "ore:silver"
+         },
+         {
+            "between" : "ore:silver"
+         },
+         {
+            "sporadic" : "ore:silver"
+         }
       ]
-    },
-    "filler": {
-      "type": "layered",
-      "values": [
-        {
-        "primary": "ore:galena"
-      },
-      {
-        "secondary": "ore:silver"
-      },
-      {
-        "between": "ore:silver"
-      },
-      {
-        "sporadic": "ore:silver"
-      }
-      ]
-    }
+   },
+   "generation_predicate" : [ "ore_dict:stone" ],
+   "generator" : {
+      "radius" : [ 12, 16 ],
+      "type" : "layered"
+   },
+   "max_height" : 250,
+   "min_height" : 0,
+   "name" : "Asteroids Silver",
+   "vein_populator" : {
+      "material" : "silver",
+      "type" : "surface_rock"
+   },
+   "weight" : 100
 }

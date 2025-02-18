@@ -1,0 +1,113 @@
+{
+  "preRequisites:11": [
+    220
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.308.desc",
+      "icon:10": {
+        "id:8": "minecraft:sapling"
+      },
+      "name:8": "gtqt.quest.db.308.title"
+    }
+  },
+  "questID:3": 308,
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "harvestcraft:cashew_sapling",
+            "orig_meta:3": 0
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "harvestcraft:passionfruit_sapling",
+            "orig_meta:3": 0
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "harvestcraft:dragonfruit_sapling",
+            "orig_meta:3": 0
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "harvestcraft:fig_sapling",
+            "orig_meta:3": 0
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:sapling"
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 1,
+          "id:8": "minecraft:sapling"
+        },
+        "6:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "minecraft:sapling"
+        },
+        "7:10": {
+          "Count:3": 1,
+          "Damage:2": 3,
+          "id:8": "minecraft:sapling"
+        },
+        "8:10": {
+          "Count:3": 1,
+          "Damage:2": 4,
+          "id:8": "minecraft:sapling"
+        },
+        "9:10": {
+          "Count:3": 1,
+          "Damage:2": 5,
+          "id:8": "minecraft:sapling"
+        }
+      },
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 4,
+          "OreDict:8": "treeSapling",
+          "id:8": "minecraft:sapling"
+        },
+        "1:10": {
+          "Count:3": 3,
+          "id:8": "minecraft:apple"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "harvestcraft:apple_sapling",
+            "orig_meta:3": 0
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

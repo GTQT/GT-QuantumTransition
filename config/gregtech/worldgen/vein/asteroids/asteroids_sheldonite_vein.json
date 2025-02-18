@@ -1,41 +1,34 @@
 {
-    "name": "Asteroids Platinum",
-    "weight": 100,
-    "density": 1,
-    "max_height": 250,
-    "min_height": 0,
-    "generation_predicate": [
-    "ore_dict:cobblestone"
-	],
-    "dimension_filter": [
-      "dimension_id:-30"
-	],
-	"vein_populator": {
-		"type": "surface_rock",
-		"material": "platinum"
-	},
-    "generator": {
-      "type": "layered",
-      "radius": [
-        8,
-        12
+   "density" : 1,
+   "dimension_filter" : [ "dimension_id:54" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:bornite"
+         },
+         {
+            "secondary" : "ore:cooperite"
+         },
+         {
+            "between" : "ore:platinum"
+         },
+         {
+            "sporadic" : "ore:palladium"
+         }
       ]
-    },
-  "filler": {
-    "type": "layered",
-    "values": [
-      {
-        "primary": "ore:bornite"
-      },
-      {
-        "secondary": "ore:cooperite"
-      },
-      {
-        "between": "ore:platinum"
-      },
-      {
-        "sporadic": "ore:palladium"
-      }
-    ]
-  }
+   },
+   "generation_predicate" : [ "ore_dict:stone" ],
+   "generator" : {
+      "radius" : [ 8, 12 ],
+      "type" : "layered"
+   },
+   "max_height" : 250,
+   "min_height" : 0,
+   "name" : "Asteroids Platinum",
+   "vein_populator" : {
+      "material" : "platinum",
+      "type" : "surface_rock"
+   },
+   "weight" : 100
 }

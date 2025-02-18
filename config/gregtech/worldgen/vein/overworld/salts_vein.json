@@ -1,36 +1,33 @@
 {
-  "name": "gregtech.veins.ore.salts",
-  "weight": 50,
-  "density": 0.4,
-  "max_height": 60,
-  "min_height": 0,
-
-  "vein_populator": {
-    "type": "surface_rock",
-    "material": "salt"
-  },
-  "generator": {
-    "type": "layered",
-    "radius": [
-      17,
-      24
-    ]
-  },
-  "filler": {
-    "type": "layered",
-    "values": [
-      {
-        "primary": "ore:rock_salt"
-      },
-      {
-        "secondary": "ore:salt"
-      },
-      {
-        "between": "ore:lepidolite"
-      },
-      {
-        "sporadic": "ore:spodumene"
-      }
-    ]
-  }
+   "density" : 0.40,
+   "dimension_filter" : [ "dimension_id:0" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:rock_salt"
+         },
+         {
+            "secondary" : "ore:salt"
+         },
+         {
+            "between" : "ore:lepidolite"
+         },
+         {
+            "sporadic" : "ore:spodumene"
+         }
+      ]
+   },
+   "generator" : {
+      "radius" : [ 17, 24 ],
+      "type" : "layered"
+   },
+   "max_height" : 60,
+   "min_height" : 0,
+   "name" : "gregtech.veins.ore.salts",
+   "vein_populator" : {
+      "material" : "salt",
+      "type" : "surface_rock"
+   },
+   "weight" : 50
 }

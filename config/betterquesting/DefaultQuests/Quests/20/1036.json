@@ -1,0 +1,22 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.1036.desc",
+      "icon:10": {
+        "Damage:2": 4,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "openmodularturrets:ammo_meta",
+          "orig_meta:3": 4
+        }
+      },
+      "name:8": "gtqt.quest.db.1036.title"
+    }
+  },
+  "questID:3": 1036,
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

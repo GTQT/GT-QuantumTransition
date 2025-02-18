@@ -235,6 +235,9 @@
 	},
 	{
 		item: "gregtech:machine 1 1006"
+	},
+	{
+		item: "gregtech:meta_item_1 1 502"
 	}],
 	loot_crate: {
 		string_id: "hvage",

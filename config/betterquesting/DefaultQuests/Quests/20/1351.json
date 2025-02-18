@@ -1,0 +1,25 @@
+{
+  "preRequisites:11": [
+    1350,
+    1349
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.1351.desc",
+      "icon:10": {
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "thaumcraft:infusion_matrix",
+          "orig_meta:3": 0
+        }
+      },
+      "name:8": "gtqt.quest.db.1351.title"
+    }
+  },
+  "questID:3": 1351,
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

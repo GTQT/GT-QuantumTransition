@@ -1,0 +1,18 @@
+{
+  "lineID:3": 13,
+  "order:3": 23,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.ql.13.desc",
+      "icon:10": {
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "forestry:sturdy_machine",
+          "orig_meta:3": 0
+        }
+      },
+      "name:8": "gtqt.quest.ql.13.title"
+    }
+  },
+  "quests:9": {}
+}

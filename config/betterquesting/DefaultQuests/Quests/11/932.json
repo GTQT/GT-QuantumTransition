@@ -1,0 +1,33 @@
+{
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.932.desc",
+      "icon:10": {
+        "Damage:2": 2,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:meta_ingot",
+          "orig_meta:3": 2
+        }
+      },
+      "name:8": "gtqt.quest.db.932.title"
+    }
+  },
+  "questID:3": 932,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 2,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gregtech:meta_ingot",
+            "orig_meta:3": 2
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

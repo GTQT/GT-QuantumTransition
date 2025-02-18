@@ -7,6 +7,19 @@
 		uid: "032cacc4",
 		type: "ftbmoney:money",
 		value: 200L
+	},
+	{
+		uid: "56a76f59",
+		type: "item",
+		items: [{
+			id: "gtqtcore:gtqt_meta_item_1",
+			Damage: 325s,
+			tag: {
+				display: {
+					Name: "休闲模式"
+				}
+			}
+		}]
 	}],
 	rewards: [{
 		uid: "bd42477f",

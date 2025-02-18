@@ -1,0 +1,46 @@
+{
+  "preRequisites:11": [
+    106
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.166.desc",
+      "icon:10": {
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "tconstruct:toolforge",
+          "orig_meta:3": 0,
+          "orig_tag:10": {
+            "textureBlock:10": {
+              "Count:1": 1,
+              "id:8": "minecraft:iron_block"
+            }
+          }
+        }
+      },
+      "name:8": "gtqt.quest.db.166.title"
+    }
+  },
+  "questID:3": 166,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "tconstruct:toolforge",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "textureBlock:10": {
+                "Count:1": 1,
+                "id:8": "minecraft:iron_block"
+              }
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

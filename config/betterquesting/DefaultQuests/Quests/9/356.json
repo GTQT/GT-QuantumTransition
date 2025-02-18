@@ -1,0 +1,118 @@
+{
+  "preRequisites:11": [
+    353
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.356.desc",
+      "icon:10": {
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "forge:bucketfilled",
+          "orig_meta:3": 0,
+          "orig_tag:10": {
+            "Amount:3": 1000,
+            "FluidName:8": "vacuum_residue"
+          }
+        }
+      },
+      "name:8": "gtqt.quest.db.356.title"
+    }
+  },
+  "questID:3": 356,
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
+      "index:3": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "forge:bucketfilled",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "sulfuric_naphtha"
+            }
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "forge:bucketfilled",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "sulfuric_light_fuel"
+            }
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "forge:bucketfilled",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "sulfuric_heavy_fuel"
+            }
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "forge:bucketfilled",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "lubricant"
+            }
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "forge:bucketfilled",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "wax_oil"
+            }
+          }
+        },
+        "5:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "forge:bucketfilled",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "vacuum_residue"
+            }
+          }
+        },
+        "6:10": {
+          "Count:3": 1,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "forge:bucketfilled",
+            "orig_meta:3": 0,
+            "orig_tag:10": {
+              "Amount:3": 1000,
+              "FluidName:8": "gas_oil"
+            }
+          }
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    }
+  }
+}

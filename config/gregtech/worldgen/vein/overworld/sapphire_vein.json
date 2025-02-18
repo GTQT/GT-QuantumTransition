@@ -1,36 +1,33 @@
 {
-  "name": "gregtech.veins.ore.sapphire",
-  "weight": 60,
-  "density": 0.5,
-  "max_height": 60,
-  "min_height": 10,
-
-  "vein_populator": {
-    "type": "surface_rock",
-    "material": "sapphire"
-  },
-  "generator": {
-    "type": "layered",
-    "radius": [
-      14,
-      16
-    ]
-  },
-  "filler": {
-    "type": "layered",
-    "values": [
-      {
-        "primary": "ore:almandine"
-      },
-      {
-        "secondary": "ore:pyrope"
-      },
-      {
-        "between": "ore:sapphire"
-      },
-      {
-        "sporadic": "ore:green_sapphire"
-      }
-    ]
-  }
+   "density" : 0.50,
+   "dimension_filter" : [ "dimension_id:0" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:almandine"
+         },
+         {
+            "secondary" : "ore:pyrope"
+         },
+         {
+            "between" : "ore:sapphire"
+         },
+         {
+            "sporadic" : "ore:green_sapphire"
+         }
+      ]
+   },
+   "generator" : {
+      "radius" : [ 14, 16 ],
+      "type" : "layered"
+   },
+   "max_height" : 60,
+   "min_height" : 10,
+   "name" : "gregtech.veins.ore.sapphire",
+   "vein_populator" : {
+      "material" : "sapphire",
+      "type" : "surface_rock"
+   },
+   "weight" : 60
 }

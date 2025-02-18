@@ -1,41 +1,34 @@
 {
-    "name": "Asteroids Pitchblende",
-    "weight": 100,
-    "density": 1,
-    "max_height": 250,
-    "min_height": 0,
-    "generation_predicate": [
-    "ore_dict:cobblestone"
-	],
-    "dimension_filter": [
-      "dimension_id:-30"
-	],
-	"vein_populator": {
-		"type": "surface_rock",
-		"material": "pitchblende"
-	},
-    "generator": {
-      "type": "layered",
-      "radius": [
-        8,
-        12
+   "density" : 1,
+   "dimension_filter" : [ "dimension_id:54" ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:pitchblende"
+         },
+         {
+            "secondary" : "ore:pitchblende"
+         },
+         {
+            "between" : "ore:uraninite"
+         },
+         {
+            "sporadic" : "ore:uraninite"
+         }
       ]
-    },
-  "filler": {
-    "type": "layered",
-    "values": [
-      {
-        "primary": "ore:pitchblende"
-      },
-      {
-        "secondary": "ore:pitchblende"
-      },
-      {
-        "between": "ore:uraninite"
-      },
-      {
-        "sporadic": "ore:uraninite"
-      }
-    ]
-  }
+   },
+   "generation_predicate" : [ "ore_dict:stone" ],
+   "generator" : {
+      "radius" : [ 8, 12 ],
+      "type" : "layered"
+   },
+   "max_height" : 250,
+   "min_height" : 0,
+   "name" : "Asteroids Pitchblende",
+   "vein_populator" : {
+      "material" : "pitchblende",
+      "type" : "surface_rock"
+   },
+   "weight" : 100
 }

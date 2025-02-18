@@ -1,0 +1,27 @@
+{
+  "preRequisites:11": [
+    253
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.283.desc",
+      "frame:8": "GATE",
+      "icon:10": {
+        "Damage:2": 1013,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:meta_singularity",
+          "orig_meta:3": 1013
+        }
+      },
+      "ismain:1": 1,
+      "name:8": "gtqt.quest.db.283.title"
+    }
+  },
+  "questID:3": 283,
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

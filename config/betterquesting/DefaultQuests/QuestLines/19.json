@@ -1,0 +1,14 @@
+{
+  "lineID:3": 19,
+  "order:3": 28,
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.ql.19.desc",
+      "icon:10": {
+        "id:8": "minecraft:wheat"
+      },
+      "name:8": "gtqt.quest.ql.19.title"
+    }
+  },
+  "quests:9": {}
+}

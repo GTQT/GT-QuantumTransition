@@ -1,0 +1,21 @@
+{
+  "preRequisites:11": [
+    361
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.360.desc",
+      "icon:10": {
+        "Damage:2": 1008,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gregtech:machine",
+          "orig_meta:3": 1008
+        }
+      },
+      "name:8": "gtqt.quest.db.360.title"
+    }
+  },
+  "questID:3": 360,
+  "tasks:9": {}
+}

@@ -1,0 +1,39 @@
+{
+  "preRequisites:11": [
+    9
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.2054145575.desc",
+      "icon:10": {
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "thebetweenlands:middle_fruit",
+          "orig_meta:3": 0
+        }
+      },
+      "name:8": "gtqt.quest.db.2054145575.title"
+    }
+  },
+  "questID:3": 2054145575,
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "rewards:9": {
+        "0:10": {
+          "Count:3": 16,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "thebetweenlands:middle_fruit",
+            "orig_meta:3": 0
+          }
+        }
+      }
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

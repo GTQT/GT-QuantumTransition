@@ -1,0 +1,26 @@
+{
+  "preRequisites:11": [
+    147
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.148.desc",
+      "icon:10": {
+        "id:8": "minecraft:bookshelf"
+      },
+      "name:8": "gtqt.quest.db.148.title"
+    }
+  },
+  "questID:3": 148,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "id:8": "minecraft:bookshelf"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

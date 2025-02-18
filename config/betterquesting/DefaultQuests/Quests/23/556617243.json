@@ -1,0 +1,81 @@
+{
+  "preRequisites:11": [
+    931980765
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "desc:8": "gtqt.quest.db.556617243.desc",
+      "icon:10": {
+        "Damage:2": 282,
+        "id:8": "betterquesting:placeholder",
+        "tag:10": {
+          "orig_id:8": "gtqtcore:gtqt_meta_item_1",
+          "orig_meta:3": 282
+        }
+      },
+      "name:8": "gtqt.quest.db.556617243.title"
+    }
+  },
+  "questID:3": 556617243,
+  "tasks:9": {
+    "0:10": {
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 282,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtqtcore:gtqt_meta_item_1",
+            "orig_meta:3": 282
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 284,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtqtcore:gtqt_meta_item_1",
+            "orig_meta:3": 284
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 283,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtqtcore:gtqt_meta_item_1",
+            "orig_meta:3": 283
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 280,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtqtcore:gtqt_meta_item_1",
+            "orig_meta:3": 280
+          }
+        },
+        "4:10": {
+          "Count:3": 1,
+          "Damage:2": 285,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtqtcore:gtqt_meta_item_1",
+            "orig_meta:3": 285
+          }
+        },
+        "5:10": {
+          "Count:3": 1,
+          "Damage:2": 281,
+          "id:8": "betterquesting:placeholder",
+          "tag:10": {
+            "orig_id:8": "gtqtcore:gtqt_meta_item_1",
+            "orig_meta:3": 281
+          }
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}
