@@ -1,0 +1,35 @@
+{
+   "name" : "gtqtcore.veins.ore.lignite",
+   "generator" : {
+      "radius" : [ 20, 32 ],
+      "type" : "layered"
+   },
+   "max_height" : 60,
+   "min_height" : 0,
+   "vein_populator" : {
+      "material" : "gtqtcore:lignite",
+      "type" : "surface_rock"
+   },
+   "weight" : 80,
+   "density" : 0.50,
+   "dimension_filter": [
+      "dimension_id:0"
+   ],
+   "filler" : {
+      "type" : "layered",
+      "values" : [
+         {
+            "primary" : "ore:gtqtcore:lignite"
+         },
+         {
+            "secondary" : "ore:gtqtcore:lignite"
+         },
+         {
+            "between" : "ore:gtqtcore:lignite"
+         },
+         {
+            "sporadic" : "ore:coal"
+         }
+      ]
+   }
+}

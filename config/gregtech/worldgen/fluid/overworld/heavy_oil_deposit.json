@@ -15,5 +15,8 @@
     "type": "biome_dictionary",
     "ocean": 5,
     "sandy": 10
-  }
+  },
+  "dimension_filter": [
+    "dimension_id:0"
+  ]
 }

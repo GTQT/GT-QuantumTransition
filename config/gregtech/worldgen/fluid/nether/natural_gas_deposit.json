@@ -12,6 +12,6 @@
   },
   "fluid": "natural_gas",
   "dimension_filter": [
-    "name:the_nether"
+    "dimension_id:-1"
   ]
 }

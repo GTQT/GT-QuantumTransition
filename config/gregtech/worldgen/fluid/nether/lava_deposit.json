@@ -12,6 +12,6 @@
   },
   "fluid": "lava",
   "dimension_filter": [
-    "name:the_nether"
+    "dimension_id:-1"
   ]
 }

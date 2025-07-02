@@ -10,5 +10,8 @@
     "chance": 100,
     "depleted_yield": 20
   },
-  "fluid": "natural_gas"
+  "fluid": "natural_gas",
+  "dimension_filter": [
+    "dimension_id:0"
+  ]
 }

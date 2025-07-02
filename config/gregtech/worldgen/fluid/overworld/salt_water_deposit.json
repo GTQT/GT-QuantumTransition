@@ -16,5 +16,8 @@
     "ocean": 150,
     "frozen_ocean": 150,
     "deep_ocean": 200
-  }
+  },
+  "dimension_filter": [
+    "dimension_id:0"
+  ]
 }

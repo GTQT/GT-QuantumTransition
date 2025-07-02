@@ -1,33 +1,38 @@
 {
-   "name" : "pollution.veins.ore.pyrargyrite",
-   "generator" : {
-      "radius" : [ 8, 12 ],
-      "type" : "layered"
-   },
-   "max_height" : 120,
-   "min_height" : 0,
-   "vein_populator" : {
-      "material" : "pollution:pyrargyrite",
-      "type" : "surface_rock"
-   },
-   "weight" : 20,
-   "density" : 0.25,
-   "dimension_filter" : [ "dimension_id:41" ],
-   "filler" : {
-      "type" : "layered",
-      "values" : [
-         {
-            "primary" : "ore:pollution:authority_lead"
-         },
-         {
-            "secondary" : "ore:pollution:authority_lead"
-         },
-         {
-            "between" : "ore:pollution:pyrargyrite"
-         },
-         {
-            "sporadic" : "ore:pollution:pyrargyrite"
-         }
-      ]
-   }
+  "name": "pollution.veins.ore.pyrargyrite",
+  "generator": {
+    "radius": [
+      12,
+      16
+    ],
+    "type": "layered"
+  },
+  "max_height": 120,
+  "min_height": 0,
+  "vein_populator": {
+    "material": "pollution:pyrargyrite",
+    "type": "surface_rock"
+  },
+  "weight": 20,
+  "density": 0.25,
+  "dimension_filter": [
+    "dimension_id:41"
+  ],
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:pollution:authority_lead"
+      },
+      {
+        "secondary": "ore:pollution:authority_lead"
+      },
+      {
+        "between": "ore:pollution:pyrargyrite"
+      },
+      {
+        "sporadic": "ore:pollution:pyrargyrite"
+      }
+    ]
+  }
 }
