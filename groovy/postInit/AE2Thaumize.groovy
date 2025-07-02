@@ -1,5 +1,5 @@
 //AE2 物品全面TC化
-
+/*
 //石英纤维
 crafting.removeByOutput(item('appliedenergistics2:part', 140))
 mods.gregtech.assembler.recipeBuilder()
@@ -347,7 +347,7 @@ mods.thaumcraft.infusion_crafting.recipeBuilder()
     .input(ore('plateThaumium'))
     .input(ore('plateThaumium'))
     .input(ore('circuitHv'))
-    .input(item('gregtech:machine', 1561)) //超级箱II
+    .input(item('gregtech:machine', 2031)) //超级箱II
     .input(ore('frameGtPolytetrafluoroethylene'))
     .instability(6)
     .register()
@@ -363,7 +363,7 @@ mods.thaumcraft.infusion_crafting.recipeBuilder()
     .input(item('appliedenergistics2:quartz_vibrant_glass'))
     .input(item('appliedenergistics2:quartz_vibrant_glass'))
     .input(item('appliedenergistics2:quartz_vibrant_glass'))
-    .input(item('gregtech:machine', 111)) //mv组装机
+    .input(item('gregtech:machine', 1221)) //mv组装机
     .input(ore('circuitHv'))
     .input(item('appliedenergistics2:material', 43))
     .input(item('appliedenergistics2:material', 44))
@@ -534,3 +534,4 @@ mods.thaumcraft.arcane_workbench.shapedBuilder()
     .aspect('aer', 6).aspect('ignis', 6).aspect('aqua', 6).aspect('terra', 6).aspect('ordo', 6).aspect('perditio', 6)
     .vis(150)
     .register()
+*/

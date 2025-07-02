@@ -1,10 +1,7 @@
 {
 	x: -2.0d,
-	y: 8.0d,
+	y: 7.0d,
 	can_repeat: 1b,
-	dependencies: [
-		"2f597db3"
-	],
 	tasks: [{
 		uid: "cf3c5571",
 		type: "item",

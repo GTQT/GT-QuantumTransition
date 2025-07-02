@@ -15,11 +15,3 @@
 <ironchest:iron_shulker_box_pink:5>.addTooltip(format.red("水晶箱子可能含有不确定因素BUG，请不要使用！"));
 <ironchest:iron_shulker_box_gray:5>.addTooltip(format.red("水晶箱子可能含有不确定因素BUG，请不要使用！"));
 <ironchest:iron_shulker_box_silver:5>.addTooltip(format.red("水晶箱子可能含有不确定因素BUG，请不要使用！"));
-<gregtech:machine:1657>.addTooltip(format.red("本设备已被废弃，请搜索并制造简易消声仓"));
-<gregtech:machine:1658>.addTooltip(format.red("本设备已被废弃，请搜索并制造简易消声仓"));
-<gregtech:machine:1659>.addTooltip(format.red("本设备已被废弃，请搜索并制造简易消声仓"));
-<gregtech:machine:1660>.addTooltip(format.red("本设备已被废弃，请搜索并制造简易消声仓"));
-<gregtech:machine:1661>.addTooltip(format.red("本设备已被废弃，请搜索并制造简易消声仓"));
-<gregtech:machine:1662>.addTooltip(format.red("本设备已被废弃，请搜索并制造简易消声仓"));
-<gregtech:machine:1663>.addTooltip(format.red("本设备已被废弃，请搜索并制造简易消声仓"));
-<gregtech:machine:1664>.addTooltip(format.red("本设备已被废弃，请搜索并制造简易消声仓"));

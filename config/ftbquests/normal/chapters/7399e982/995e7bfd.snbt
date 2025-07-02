@@ -7,11 +7,8 @@
 		}
 	},
 	x: -3.0d,
-	y: 7.0d,
+	y: 6.0d,
 	can_repeat: 1b,
-	dependencies: [
-		"3f299b70"
-	],
 	tasks: [{
 		uid: "0b70665e",
 		type: "ftbmoney:money",

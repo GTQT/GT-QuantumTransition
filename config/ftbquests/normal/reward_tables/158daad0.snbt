@@ -278,7 +278,8 @@
 					Material: "gregtech:iron",
 					Durability: 0
 				}
-			}
+			},
+			Count: 1b
 		}
 	},
 	{
@@ -297,7 +298,8 @@
 					Material: "gregtech:iron",
 					Durability: 0
 				}
-			}
+			},
+			Count: 1b
 		}
 	},
 	{

@@ -135,42 +135,6 @@
     "weight": 100
   },
   {
-    "content": "gregtech:machine:1626",
-    "amount": {
-      "min": 1,
-      "max": 4
-    },
-    "unitWorth": 100,
-    "weight": 100
-  },
-  {
-    "content": "gregtech:machine:1627",
-    "amount": {
-      "min": 1,
-      "max": 4
-    },
-    "unitWorth": 100,
-    "weight": 100
-  },
-  {
-    "content": "gregtech:machine:1628",
-    "amount": {
-      "min": 1,
-      "max": 4
-    },
-    "unitWorth": 100,
-    "weight": 100
-  },
-  {
-    "content": "gregtech:machine:1629",
-    "amount": {
-      "min": 1,
-      "max": 4
-    },
-    "unitWorth": 100,
-    "weight": 100
-  },
-  {
     "content": "gregtech:wire_single:25",
     "amount": {
       "min": 8,
@@ -193,42 +157,6 @@
     "amount": {
       "min": 4,
       "max": 8
-    },
-    "unitWorth": 100,
-    "weight": 100
-  },
-  {
-    "content": "gregtech:machine:4",
-    "amount": {
-      "min": 1,
-      "max": 2
-    },
-    "unitWorth": 200,
-    "weight": 100
-  },
- {
-    "content": "gregtech:machine:3",
-    "amount": {
-      "min": 1,
-      "max": 2
-    },
-    "unitWorth": 100,
-    "weight": 100
-  },
-  {
-    "content": "gregtech:machine:2",
-    "amount": {
-      "min": 1,
-      "max": 2
-    },
-    "unitWorth": 200,
-    "weight": 100
-  },
-  {
-    "content": "gregtech:machine:1",
-    "amount": {
-      "min": 1,
-      "max": 2
     },
     "unitWorth": 100,
     "weight": 100

@@ -69,9 +69,9 @@ mods.tconstruct.Melting.addRecipe(<liquid:aluminium> * 144,<ore:ingotAluminium>)
 //耐酸铝
 mods.tconstruct.Alloy.addRecipe(<liquid:alumite> * 32,[<liquid:aluminium> * 80,<liquid:steel> * 32, <liquid:obsidian> * 32]);
 //铝黄铜
-mods.tconstruct.Alloy.addRecipe(<liquid:alubrass> * 48,[<liquid:aluminium> * 48,<liquid:copper> * 16]);
+mods.tconstruct.Alloy.addRecipe(<liquid:alumite> * 48,[<liquid:aluminium> * 48,<liquid:copper> * 16]);
 //铝黄铜->铸模
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast>,null,<liquid:alubrass>, 288);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast>,null,<liquid:alumite>, 288);
 //偷鸡配方
 mods.tconstruct.Melting.removeRecipe(<liquid:bronze>,<minecraft:minecart>);
 mods.tconstruct.Melting.removeRecipe(<liquid:gold>,<minecraft:golden_rail>);

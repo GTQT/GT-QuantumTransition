@@ -249,7 +249,7 @@ mods.gregtech.compressor.recipeBuilder().inputs(ore('ballMud') * 4).outputs(item
 mods.gregtech.chemical_bath.recipeBuilder().inputs(ore('dirt')).fluidInputs(fluid('water') * 1000).outputs(item('biomesoplenty:mud')).duration(300).EUt(2).buildAndRegister()
 mods.gregtech.extractor.recipeBuilder().inputs(item('biomesoplenty:mud')).outputs(item('biomesoplenty:mudball') * 4).duration(300).EUt(2).buildAndRegister()
 
-mods.gregtech.mixer.removeByInput(30, [item('minecraft:dirt:0'), metaitem('dustWood') * 2, item('minecraft:sand:0') * 4], [fluid('water') * 1000])
+//mods.gregtech.mixer.removeByInput(30, [item('minecraft:dirt:0'), metaitem('dustWood') * 2, item('minecraft:sand:0') * 4], [fluid('water') * 1000])
 mods.gregtech.mixer.recipeBuilder().inputs(ore('dirt'), metaitem('dustWood') * 2, ore('sand') * 4).fluidInputs(fluid('water') * 1000).outputs(metaitem('fertilizer')).duration(100).EUt(30).buildAndRegister()
 mods.gregtech.mixer.recipeBuilder().inputs(ore('ballMud') * 4, metaitem('dustWood') * 2, ore('sand') * 4).outputs(metaitem('fertilizer')).duration(100).EUt(30).buildAndRegister()
 mods.gregtech.mixer.recipeBuilder().inputs(ore('blockMud'), metaitem('dustWood') * 2, ore('sand') * 4).outputs(metaitem('fertilizer')).duration(100).EUt(30).buildAndRegister()

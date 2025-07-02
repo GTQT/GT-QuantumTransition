@@ -1,27 +1,30 @@
 {
-   "count_as_vein" : false,
-   "density" : 1.0,
-   "filler" : {
-      "type" : "ignore_bedrock",
-      "value" : {
-         "type" : "weight_random",
-         "values" : [
-            {
-               "value" : {
-                  "block" : "gregtech:stone_smooth",
-                  "variant" : "red_granite"
-               },
-               "weight" : 100
-            }
-         ]
-      }
-   },
-   "generator" : {
-      "radius" : [ 10, 20 ],
-      "type" : "sphere"
-   },
-   "min_height" : 10,
-   "name" : "gregtech.veins.ore.red_granite_sphere",
-   "priority" : 100,
-   "weight" : 90
+  "name": "gregtech.veins.ore.red_granite_sphere",
+  "weight": 90,
+  "priority": 100,
+  "density": 1.0,
+  "min_height": 10,
+  "count_as_vein": false,
+  "generator": {
+    "type": "sphere",
+    "radius": [
+      10,
+      20
+    ]
+  },
+  "filler": {
+    "type": "ignore_bedrock",
+    "value": {
+      "type": "weight_random",
+      "values": [
+        {
+          "weight": 100,
+          "value": {
+            "block": "gregtech:stone_smooth",
+            "variant": "red_granite"
+          }
+        }
+      ]
+    }
+  }
 }

@@ -567,8 +567,8 @@ tooltip.charm.type.satiety=饱和
 tooltip.charm.type.shielding=庇护
 tooltip.charm.type.decay=凋亡
 tooltip.charm.type.decrepit=虚弱
-tooltip.charm.type.dirt_fill=污垢脱落
-tooltip.charm.type.dirt_walk=污垢
+tooltip.charm.type.dirt_fill=污垢阻塞
+tooltip.charm.type.dirt_walk=泥泞足迹
 tooltip.charm.type.ruin=侵蚀
 
 tooltip.charm.level=%s %s
@@ -624,7 +624,7 @@ tooltip.runestone.lore.equip_mana_rune=以随机护甲/装备（两倍于魔力�
 tooltip.runestone.lore.angels_rune=给予所有治疗和庇护类魔咒两倍魔力\n给予饰品无限耐久
 tooltip.runestone.lore.persistence_rune=移除饰品的消失诅咒
 tooltip.runestone.lore.sockets_rune=给予饰品额外的魔咒插槽
-tooltip.runestone.lore.double_charge_rune=（充能时）给予魔咒额外一倍的充能量
+tooltip.runestone.lore.double_charge_rune=（基于饰品上魔咒现有可充能次数）给予魔咒额外一倍的充能次数
 
 tooltip.ember_key.specials=会毁坏木锁！
 tooltip.ember_lock.specials=会无视是否可被损坏，直接摧毁所有非烬火钥匙和闪雷钥匙的钥匙
