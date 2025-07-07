@@ -1,1 +1,0 @@
-不写"dimension_filter" : [ "dimension_id:xxx" ]默认所有世界，注意筛选

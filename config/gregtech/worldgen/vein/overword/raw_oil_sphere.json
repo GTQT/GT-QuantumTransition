@@ -11,6 +11,9 @@
     "type": "fluid_spring",
     "chance": 0.40
   },
+  "dimension_filter": [
+    "dimension_id:0"
+  ],
   "biome_modifier": {
     "type": "biome_dictionary",
     "sandy": 5

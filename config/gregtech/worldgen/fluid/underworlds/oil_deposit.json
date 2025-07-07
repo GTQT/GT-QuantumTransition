@@ -11,12 +11,7 @@
     "depleted_yield": 25
   },
   "fluid": "oil",
-  "biome_modifier": {
-    "type": "biome_dictionary",
-    "ocean": 5,
-    "sandy": 5
-  },
   "dimension_filter": [
-    "dimension_id:0"
+    "dimension_id:41"
   ]
 }

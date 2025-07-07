@@ -1,25 +1,24 @@
 {
-  "name": "gregtech.veins.ore.natural_gas_sphere",
+  "name": "gregtech.veins.ore.lava_sphere",
   "weight": 50,
   "density": 1.0,
-  "max_height": 40,
-  "min_height": 10,
+  "max_height": 20,
+  "min_height": 0,
   "priority": -100,
   "count_as_vein": false,
   "generation_predicate": "any",
   "vein_populator": {
-    "type": "fluid_ball",
+    "type": "fluid_spring",
     "chance": 0.40
   },
-  "biome_modifier": {
-    "type": "biome_dictionary",
-    "sandy": 5
-  },
+  "dimension_filter": [
+    "dimension_id:-1,41"
+  ],
   "generator": {
     "type": "sphere",
     "radius": [
-      9,
-      13
+      4,
+      6
     ]
   },
   "filler": {
@@ -29,7 +28,7 @@
       "values": [
         {
           "weight": 100,
-          "value": "fluid:natural_gas"
+          "value": "fluid:lava"
         }
       ]
     }

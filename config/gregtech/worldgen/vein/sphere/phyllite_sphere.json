@@ -12,6 +12,9 @@
       20
     ]
   },
+  "dimension_filter": [
+    "dimension_id:0,41"
+  ],
   "filler": {
     "type": "ignore_bedrock",
     "value": {
