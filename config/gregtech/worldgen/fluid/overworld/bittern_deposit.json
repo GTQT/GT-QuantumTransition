@@ -1,0 +1,22 @@
+{
+  "name": "gtqtcore.veins.fluid.bittern",
+  "weight": 15,
+  "yield": {
+    "min": 50,
+    "max": 100
+  },
+  "depletion": {
+    "amount": 1,
+    "chance": 100,
+    "depleted_yield": 15
+  },
+  "fluid": "bittern",
+  "biome_modifier": {
+    "type": "biome_map",
+    "desert": 150,
+    "hell": 200
+  },
+  "dimension_filter": [
+    "dimension_id:0"
+  ]
+}
