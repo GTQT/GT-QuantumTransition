@@ -1,37 +1,37 @@
 {
-  "name": "gregtech.veins.ore.naquadah",
-  "weight": 30,
-  "density": 0.15,
+  "name": "gtqtspace.veins.ore.rutile",
+  "weight": 25,
+  "density": 0.25,
   "min_height": 10,
-  "max_height": 90,
+  "max_height": 80,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "naquadah"
+    "material": "rutile"
   },
   "dimension_filter": [
-    "dimension_id:???"
+    "dimension_id:53"
   ],
   "generator": {
     "type": "layered",
     "radius": [
-      20,
-      32
+      16,
+      20
     ]
   },
   "filler": {
     "type": "layered",
     "values": [
       {
-        "primary": "ore:naquadah"
+        "primary": "ore:rutile"
       },
       {
-        "secondary": "ore:naquadah"
+        "secondary": "ore:rutile"
       },
       {
-        "between": "ore:naquadah"
+        "between": "ore:bauxite"
       },
       {
-        "sporadic": "ore:zircon"
+        "sporadic": "ore:titanium"
       }
     ]
   }

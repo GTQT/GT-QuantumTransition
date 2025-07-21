@@ -1,21 +1,21 @@
 {
-  "name": "gregtech.veins.ore.magnetite",
-  "weight": 30,
-  "density": 0.8,
-  "min_height": 20,
-  "max_height": 120,
+  "name": "gtqtspace.veins.ore.meteoric_iron",
+  "weight": 40,
+  "density": 0.25,
+  "min_height": 10,
+  "max_height": 80,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "chromite"
+    "material": "gtqtspace:meteoric_iron"
   },
   "dimension_filter": [
-    "dimension_id:1"
+    "dimension_id:52"
   ],
   "generator": {
     "type": "layered",
     "radius": [
-      20,
-      32
+      12,
+      16
     ]
   },
   "filler": {
@@ -28,10 +28,10 @@
         "secondary": "ore:vanadium_magnetite"
       },
       {
-        "between": "ore:chromite"
+        "between": "ore:gtqtspace:meteoric_iron"
       },
       {
-        "sporadic": "ore:gold"
+        "sporadic": "ore:gtqtspace:meteoric_iron"
       }
     ]
   }

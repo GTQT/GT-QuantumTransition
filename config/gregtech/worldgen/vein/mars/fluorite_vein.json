@@ -1,37 +1,37 @@
 {
-  "name": "gregtech.veins.ore.bauxite",
-  "weight": 40,
-  "density": 0.25,
+  "name": "gtqtspace.veins.ore.fluorite",
+  "weight": 20,
+  "density": 0.8,
   "min_height": 10,
   "max_height": 80,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "aluminium"
+    "material": "gtqtcore:fluorite"
   },
   "dimension_filter": [
-    "dimension_id:51"
+    "dimension_id:52"
   ],
   "generator": {
     "type": "layered",
     "radius": [
       16,
-      20
+      18
     ]
   },
   "filler": {
     "type": "layered",
     "values": [
       {
-        "primary": "ore:bauxite"
+        "primary": "ore:salt"
       },
       {
-        "secondary": "ore:ilmenite"
+        "secondary": "ore:salt"
       },
       {
-        "between": "ore:aluminium"
+        "between": "ore:gtqtcore:fluorite"
       },
       {
-        "sporadic": "ore:ilmenite"
+        "sporadic": "ore:gtqtcore:fluorite"
       }
     ]
   }

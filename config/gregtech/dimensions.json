@@ -15,6 +15,18 @@
 	{
       "dimID": 41,
       "dimName": "Underworlds \u5730\u4e0b\u4e16\u754c"
+    },
+    {
+      "dimID": 51,
+      "dimName": "Moon \u6708\u7403"
+    },
+    {
+      "dimID": 52,
+      "dimName": "Mars \u706b\u661f"
+    },
+    {
+      "dimID": 53,
+      "dimName": "Venus \u91d1\u661f"
     }
   ]
 }

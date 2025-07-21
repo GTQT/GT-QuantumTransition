@@ -1,9 +1,9 @@
 {
-  "name": "gregtech.veins.ore.pitchblende",
-  "weight": 15,
-  "density": 0.4,
-  "min_height": 30,
-  "max_height": 60,
+  "name": "gtqtspace.veins.ore.radioactive",
+  "weight": 20,
+  "density": 0.5,
+  "min_height": 10,
+  "max_height": 40,
   "vein_populator": {
     "type": "surface_rock",
     "material": "uraninite"
@@ -14,24 +14,24 @@
   "generator": {
     "type": "layered",
     "radius": [
-      12,
-      16
+      10,
+      14
     ]
   },
   "filler": {
     "type": "layered",
     "values": [
       {
-        "primary": "ore:pitchblende"
+        "primary": "ore:uranium"
       },
       {
-        "secondary": "ore:pitchblende"
+        "secondary": "ore:uranium"
       },
       {
-        "between": "ore:uraninite"
+        "between": "ore:plutonium"
       },
       {
-        "sporadic": "ore:uraninite"
+        "sporadic": "ore:neptunium"
       }
     ]
   }

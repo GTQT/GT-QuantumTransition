@@ -1,0 +1,17 @@
+{
+  "name": "gtqtspace.veins.fluid.helium_3",
+  "weight": 5,
+  "yield": {
+    "min": 50,
+    "max": 100
+  },
+  "depletion": {
+    "amount": 1,
+    "chance": 100,
+    "depleted_yield": 25
+  },
+  "fluid": "helium_3",
+  "dimension_filter": [
+    "dimension_id:51"
+  ]
+}
