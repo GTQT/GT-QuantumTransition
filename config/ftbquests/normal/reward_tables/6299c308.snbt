@@ -94,42 +94,6 @@
 		count: 4
 	},
 	{
-		item: "gregtech:machine 1 51"
-	},
-	{
-		item: "gregtech:machine 1 50"
-	},
-	{
-		item: "gregtech:machine 1 66"
-	},
-	{
-		item: "gregtech:machine 1 65"
-	},
-	{
-		item: "gregtech:machine 1 81"
-	},
-	{
-		item: "gregtech:machine 1 80"
-	},
-	{
-		item: "gregtech:machine 1 141"
-	},
-	{
-		item: "gregtech:machine 1 140"
-	},
-	{
-		item: "gregtech:machine 1 186"
-	},
-	{
-		item: "gregtech:machine 1 185"
-	},
-	{
-		item: "gregtech:machine 1 201"
-	},
-	{
-		item: "gregtech:machine 1 200"
-	},
-	{
 		item: "gregtech:meta_item_1 1 80",
 		count: 16
 	},
@@ -158,18 +122,6 @@
 		count: 16
 	},
 	{
-		item: "gregtech:machine 1 1575"
-	},
-	{
-		item: "gregtech:machine 1 1576"
-	},
-	{
-		item: "gregtech:machine 1 1560"
-	},
-	{
-		item: "gregtech:machine 1 1561"
-	},
-	{
 		item: {
 			id: "storagedrawers:basicdrawers",
 			tag: {
@@ -193,54 +145,6 @@
 	{
 		item: "enderio:item_liquid_conduit 1 1",
 		count: 32
-	},
-	{
-		item: "gregtech:machine 1 1150"
-	},
-	{
-		item: "gregtech:machine 1 1151"
-	},
-	{
-		item: "gregtech:machine 1 1152"
-	},
-	{
-		item: "gregtech:machine 1 1165"
-	},
-	{
-		item: "gregtech:machine 1 1166"
-	},
-	{
-		item: "gregtech:machine 1 1167"
-	},
-	{
-		item: "gregtech:machine 1 1180"
-	},
-	{
-		item: "gregtech:machine 1 1181"
-	},
-	{
-		item: "gregtech:machine 1 1182"
-	},
-	{
-		item: "gregtech:machine 1 1195"
-	},
-	{
-		item: "gregtech:machine 1 1196"
-	},
-	{
-		item: "gregtech:machine 1 1197"
-	},
-	{
-		item: "gregtech:machine 1 1210"
-	},
-	{
-		item: "gregtech:machine 1 1210"
-	},
-	{
-		item: "gregtech:machine 1 1211"
-	},
-	{
-		item: "gregtech:machine 1 1212"
 	}],
 	loot_crate: {
 		string_id: "mvage",

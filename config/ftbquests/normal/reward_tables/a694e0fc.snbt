@@ -22,18 +22,6 @@
 		count: 4
 	},
 	{
-		item: "gregtech:machine 1 1745"
-	},
-	{
-		item: "gregtech:machine 1 1746"
-	},
-	{
-		item: "gregtech:machine 1 1747"
-	},
-	{
-		item: "gregtech:machine 1 1748"
-	},
-	{
 		item: "gregtech:meta_item_1 1 129",
 		count: 4
 	},
@@ -136,53 +124,6 @@
 		count: 8
 	},
 	{
-		item: "gregtech:machine 1 3006"
-	},
-	{
-		item: "gregtech:machine 1 3009"
-	},
-	{
-		item: "gregtech:machine 1 3011"
-	},
-	{
-		item: "gregtech:machine 1 3013"
-	},
-	{
-		item: "gregtech:machine 1 3018"
-	},
-	{
-		item: "gregtech:machine 1 3020"
-	},
-	{
-		item: "gregtech:machine 1 1154"
-	},
-	{
-		item: "gregtech:machine 1 1169"
-	},
-	{
-		item: "gregtech:machine 1 1184"
-	},
-	{
-		item: "gregtech:machine 1 1199"
-	},
-	{
-		item: "gregtech:machine 1 1229"
-	},
-	{
-		item: "gregtech:machine 1 1562",
-		count: 4
-	},
-	{
-		item: "gregtech:machine 1 1563"
-	},
-	{
-		item: "gregtech:machine 1 1577",
-		count: 4
-	},
-	{
-		item: "gregtech:machine 1 1578"
-	},
-	{
 		item: "enderio:item_item_conduit",
 		count: 64
 	},
@@ -262,15 +203,6 @@
 			}
 		},
 		count: 64
-	},
-	{
-		item: {
-			id: "gregtech:meta_item_1",
-			Damage: 467s,
-			tag: {
-				Charge: 1600000L
-			}
-		}
 	},
 	{
 		item: {

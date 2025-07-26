@@ -10,7 +10,7 @@ mods.botania.mana_infusion.recipeBuilder()
 mods.botania.mana_infusion.removeByOutput(item('botania:storage'))
 mods.botania.mana_infusion.recipeBuilder()
         .input(ore('blockSteel'))
-        .output(item('gregtech:meta_block_compressed_1007', 1))
+        .output(block('pollution:meta_block_compressed_13'))
         .mana(5000)
         .register()
 		
@@ -143,7 +143,7 @@ mods.thaumcraft.infusion_crafting.recipeBuilder()
 //花药台
 crafting.removeByOutput(item('botania:altar'))
 mods.thaumcraft.infusion_crafting.recipeBuilder()
-        .mainInput(item('gregtech:machine', 1563))
+        .mainInput(item('gregtech:mte', 987))
         .output(item('botania:altar'))
         .aspect('machina', 48)
         .aspect('alkimia', 48)
@@ -160,7 +160,7 @@ mods.thaumcraft.infusion_crafting.recipeBuilder()
 //魔力池
 crafting.removeByOutput(item('botania:pool'))
 mods.thaumcraft.infusion_crafting.recipeBuilder()
-        .mainInput(item('gregtech:machine', 1578)) //mv机身
+        .mainInput(item('gregtech:mte', 987)) //mv机身
         .output(item('botania:pool'))
         .aspect('potentia', 48)
         .aspect('victus', 48)
@@ -177,7 +177,7 @@ mods.thaumcraft.infusion_crafting.recipeBuilder()
 //稀释魔力池
 crafting.removeByOutput(item('botania:pool', 2))
 mods.thaumcraft.infusion_crafting.recipeBuilder()
-        .mainInput(item('gregtech:machine', 1577)) //mv机身
+        .mainInput(item('gregtech:mte', 986)) //mv机身
         .output(item('botania:pool', 2))
         .aspect('potentia', 36)
         .aspect('victus', 36)
@@ -195,7 +195,7 @@ mods.thaumcraft.infusion_crafting.recipeBuilder()
 //神话魔力池
 crafting.removeByOutput(item('botania:pool', 3))
 mods.thaumcraft.infusion_crafting.recipeBuilder()
-        .mainInput(item('gregtech:machine', 1579)) //mv机身
+        .mainInput(item('gregtech:mte', 988)) //mv机身
         .output(item('botania:pool', 3))
         .aspect('potentia', 64)
         .aspect('victus', 64)
@@ -213,7 +213,7 @@ mods.thaumcraft.infusion_crafting.recipeBuilder()
 //符文祭坛
 crafting.removeByOutput(item('botania:runealtar'))
 mods.thaumcraft.infusion_crafting.recipeBuilder()
-        .mainInput(item('gregtech:machine', 1578)) //mv机身
+        .mainInput(item('gregtech:mte', 987)) //mv机身
         .output(item('botania:runealtar'))
         .aspect('auram', 48)
         .aspect('lux', 48)
@@ -231,7 +231,7 @@ mods.thaumcraft.infusion_crafting.recipeBuilder()
 //魔力发射器
 crafting.removeByOutput(item('botania:spreader'))
 mods.thaumcraft.infusion_crafting.recipeBuilder()
-        .mainInput(item('minecraft:dispenser')) //mv机身
+        .mainInput(item('gregtech:mte', 987)) //mv机身
         .output(item('botania:spreader'))
         .aspect('praecantatio', 48)
         .aspect('vitium', 48)
@@ -249,7 +249,7 @@ mods.thaumcraft.infusion_crafting.recipeBuilder()
 //盖亚魔力发射器
 crafting.removeByOutput(item('botania:spreader', 2))
 mods.thaumcraft.infusion_crafting.recipeBuilder()
-        .mainInput(item('minecraft:dispenser')) //mv机身
+        .mainInput(item('gregtech:mte', 988)) //mv机身
         .output(item('botania:spreader', 2))
         .aspect('praecantatio', 64)
         .aspect('vitium', 64)

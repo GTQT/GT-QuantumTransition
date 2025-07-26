@@ -263,46 +263,6 @@
 		}
 	},
 	{
-		item: {
-			id: "gtqtcore:jinitaimei",
-			tag: {
-				DisallowContainerItem: 0b,
-				GT.Behaviours: {},
-				HideFlags: 2,
-				GT.Tool: {
-					AttackDamage: 3.0f,
-					ToolSpeed: 6.0f,
-					HarvestLevel: 2,
-					MaxDurability: 255,
-					AttackSpeed: -2.8f,
-					Material: "gregtech:iron",
-					Durability: 0
-				}
-			},
-			Count: 1b
-		}
-	},
-	{
-		item: {
-			id: "gtqtcore:choocher",
-			tag: {
-				DisallowContainerItem: 0b,
-				GT.Behaviours: {},
-				HideFlags: 2,
-				GT.Tool: {
-					AttackDamage: 3.0f,
-					ToolSpeed: 6.0f,
-					HarvestLevel: 2,
-					MaxDurability: 255,
-					AttackSpeed: -2.8f,
-					Material: "gregtech:iron",
-					Durability: 0
-				}
-			},
-			Count: 1b
-		}
-	},
-	{
 		item: "gregtech:fluid_pipe_nonuple 1 25"
 	},
 	{

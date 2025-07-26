@@ -4,6 +4,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 var items as IItemStack[] = [
+<thaumcraft:nugget>,
 <threng:machine>,
 <threng:machine:1>,
 <threng:machine:2>,

@@ -1,35 +1,318 @@
 import classes.array.Minecraft
-import classes.array.ProjectRed
 
+def illuminars = [
+	item('projectred-core:resource_item:500'),
+	item('projectred-core:resource_item:501'),
+	item('projectred-core:resource_item:502'),
+	item('projectred-core:resource_item:503'),
+	item('projectred-core:resource_item:504'),
+	item('projectred-core:resource_item:505'),
+	item('projectred-core:resource_item:506'),
+	item('projectred-core:resource_item:507'),
+	item('projectred-core:resource_item:508'),
+	item('projectred-core:resource_item:509'),
+	item('projectred-core:resource_item:510'),
+	item('projectred-core:resource_item:511'),
+	item('projectred-core:resource_item:512'),
+	item('projectred-core:resource_item:513'),
+	item('projectred-core:resource_item:514'),
+	item('projectred-core:resource_item:515')
+]
+
+def deLamps = [
+	item('projectred-illumination:lamp'),
+	item('projectred-illumination:lamp:1'),
+	item('projectred-illumination:lamp:2'),
+	item('projectred-illumination:lamp:3'),
+	item('projectred-illumination:lamp:4'),
+	item('projectred-illumination:lamp:5'),
+	item('projectred-illumination:lamp:6'),
+	item('projectred-illumination:lamp:7'),
+	item('projectred-illumination:lamp:8'),
+	item('projectred-illumination:lamp:9'),
+	item('projectred-illumination:lamp:10'),
+	item('projectred-illumination:lamp:11'),
+	item('projectred-illumination:lamp:12'),
+	item('projectred-illumination:lamp:13'),
+	item('projectred-illumination:lamp:14'),
+	item('projectred-illumination:lamp:15')
+]
+
+def aLamps = [
+	item('projectred-illumination:lamp:16'),
+	item('projectred-illumination:lamp:17'),
+	item('projectred-illumination:lamp:18'),
+	item('projectred-illumination:lamp:19'),
+	item('projectred-illumination:lamp:20'),
+	item('projectred-illumination:lamp:21'),
+	item('projectred-illumination:lamp:22'),
+	item('projectred-illumination:lamp:23'),
+	item('projectred-illumination:lamp:24'),
+	item('projectred-illumination:lamp:25'),
+	item('projectred-illumination:lamp:26'),
+	item('projectred-illumination:lamp:27'),
+	item('projectred-illumination:lamp:28'),
+	item('projectred-illumination:lamp:29'),
+	item('projectred-illumination:lamp:30'),
+	item('projectred-illumination:lamp:31')
+]
+
+def buttonLamps = [
+	item('projectred-illumination:light_button'),
+	item('projectred-illumination:light_button:1'),
+	item('projectred-illumination:light_button:2'),
+	item('projectred-illumination:light_button:3'),
+	item('projectred-illumination:light_button:4'),
+	item('projectred-illumination:light_button:5'),
+	item('projectred-illumination:light_button:6'),
+	item('projectred-illumination:light_button:7'),
+	item('projectred-illumination:light_button:8'),
+	item('projectred-illumination:light_button:9'),
+	item('projectred-illumination:light_button:10'),
+	item('projectred-illumination:light_button:11'),
+	item('projectred-illumination:light_button:12'),
+	item('projectred-illumination:light_button:13'),
+	item('projectred-illumination:light_button:14'),
+	item('projectred-illumination:light_button:15')
+]
+
+def feedbackLamps = [
+	item('projectred-illumination:feedback_light_button'),
+	item('projectred-illumination:feedback_light_button:1'),
+	item('projectred-illumination:feedback_light_button:2'),
+	item('projectred-illumination:feedback_light_button:3'),
+	item('projectred-illumination:feedback_light_button:4'),
+	item('projectred-illumination:feedback_light_button:5'),
+	item('projectred-illumination:feedback_light_button:6'),
+	item('projectred-illumination:feedback_light_button:7'),
+	item('projectred-illumination:feedback_light_button:8'),
+	item('projectred-illumination:feedback_light_button:9'),
+	item('projectred-illumination:feedback_light_button:10'),
+	item('projectred-illumination:feedback_light_button:11'),
+	item('projectred-illumination:feedback_light_button:12'),
+	item('projectred-illumination:feedback_light_button:13'),
+	item('projectred-illumination:feedback_light_button:14'),
+	item('projectred-illumination:feedback_light_button:15')
+]
+
+def deLanternLamps = [
+	item('projectred-illumination:lantern'),
+	item('projectred-illumination:lantern:1'),
+	item('projectred-illumination:lantern:2'),
+	item('projectred-illumination:lantern:3'),
+	item('projectred-illumination:lantern:4'),
+	item('projectred-illumination:lantern:5'),
+	item('projectred-illumination:lantern:6'),
+	item('projectred-illumination:lantern:7'),
+	item('projectred-illumination:lantern:8'),
+	item('projectred-illumination:lantern:9'),
+	item('projectred-illumination:lantern:10'),
+	item('projectred-illumination:lantern:11'),
+	item('projectred-illumination:lantern:12'),
+	item('projectred-illumination:lantern:13'),
+	item('projectred-illumination:lantern:14'),
+	item('projectred-illumination:lantern:15')
+]
+
+def aLanternLamps = [
+	item('projectred-illumination:inverted_lantern'),
+	item('projectred-illumination:inverted_lantern:1'),
+	item('projectred-illumination:inverted_lantern:2'),
+	item('projectred-illumination:inverted_lantern:3'),
+	item('projectred-illumination:inverted_lantern:4'),
+	item('projectred-illumination:inverted_lantern:5'),
+	item('projectred-illumination:inverted_lantern:6'),
+	item('projectred-illumination:inverted_lantern:7'),
+	item('projectred-illumination:inverted_lantern:8'),
+	item('projectred-illumination:inverted_lantern:9'),
+	item('projectred-illumination:inverted_lantern:10'),
+	item('projectred-illumination:inverted_lantern:11'),
+	item('projectred-illumination:inverted_lantern:12'),
+	item('projectred-illumination:inverted_lantern:13'),
+	item('projectred-illumination:inverted_lantern:14'),
+	item('projectred-illumination:inverted_lantern:15')
+]
+
+def deFixtureLamps = [
+	item('projectred-illumination:fixture_light'),
+	item('projectred-illumination:fixture_light:1'),
+	item('projectred-illumination:fixture_light:2'),
+	item('projectred-illumination:fixture_light:3'),
+	item('projectred-illumination:fixture_light:4'),
+	item('projectred-illumination:fixture_light:5'),
+	item('projectred-illumination:fixture_light:6'),
+	item('projectred-illumination:fixture_light:7'),
+	item('projectred-illumination:fixture_light:8'),
+	item('projectred-illumination:fixture_light:9'),
+	item('projectred-illumination:fixture_light:10'),
+	item('projectred-illumination:fixture_light:11'),
+	item('projectred-illumination:fixture_light:12'),
+	item('projectred-illumination:fixture_light:13'),
+	item('projectred-illumination:fixture_light:14'),
+	item('projectred-illumination:fixture_light:15')
+]
+
+def aFixtureLamps = [
+	item('projectred-illumination:inverted_fixture_light'),
+	item('projectred-illumination:inverted_fixture_light:1'),
+	item('projectred-illumination:inverted_fixture_light:2'),
+	item('projectred-illumination:inverted_fixture_light:3'),
+	item('projectred-illumination:inverted_fixture_light:4'),
+	item('projectred-illumination:inverted_fixture_light:5'),
+	item('projectred-illumination:inverted_fixture_light:6'),
+	item('projectred-illumination:inverted_fixture_light:7'),
+	item('projectred-illumination:inverted_fixture_light:8'),
+	item('projectred-illumination:inverted_fixture_light:9'),
+	item('projectred-illumination:inverted_fixture_light:10'),
+	item('projectred-illumination:inverted_fixture_light:11'),
+	item('projectred-illumination:inverted_fixture_light:12'),
+	item('projectred-illumination:inverted_fixture_light:13'),
+	item('projectred-illumination:inverted_fixture_light:14'),
+	item('projectred-illumination:inverted_fixture_light:15')
+]
+
+def deFalloutLamps = [
+	item('projectred-illumination:fallout_lamp'),
+	item('projectred-illumination:fallout_lamp:1'),
+	item('projectred-illumination:fallout_lamp:2'),
+	item('projectred-illumination:fallout_lamp:3'),
+	item('projectred-illumination:fallout_lamp:4'),
+	item('projectred-illumination:fallout_lamp:5'),
+	item('projectred-illumination:fallout_lamp:6'),
+	item('projectred-illumination:fallout_lamp:7'),
+	item('projectred-illumination:fallout_lamp:8'),
+	item('projectred-illumination:fallout_lamp:9'),
+	item('projectred-illumination:fallout_lamp:10'),
+	item('projectred-illumination:fallout_lamp:11'),
+	item('projectred-illumination:fallout_lamp:12'),
+	item('projectred-illumination:fallout_lamp:13'),
+	item('projectred-illumination:fallout_lamp:14'),
+	item('projectred-illumination:fallout_lamp:15')
+]
+
+def aFalloutLamps = [
+	item('projectred-illumination:inverted_fallout_lamp'),
+	item('projectred-illumination:inverted_fallout_lamp:1'),
+	item('projectred-illumination:inverted_fallout_lamp:2'),
+	item('projectred-illumination:inverted_fallout_lamp:3'),
+	item('projectred-illumination:inverted_fallout_lamp:4'),
+	item('projectred-illumination:inverted_fallout_lamp:5'),
+	item('projectred-illumination:inverted_fallout_lamp:6'),
+	item('projectred-illumination:inverted_fallout_lamp:7'),
+	item('projectred-illumination:inverted_fallout_lamp:8'),
+	item('projectred-illumination:inverted_fallout_lamp:9'),
+	item('projectred-illumination:inverted_fallout_lamp:10'),
+	item('projectred-illumination:inverted_fallout_lamp:11'),
+	item('projectred-illumination:inverted_fallout_lamp:12'),
+	item('projectred-illumination:inverted_fallout_lamp:13'),
+	item('projectred-illumination:inverted_fallout_lamp:14'),
+	item('projectred-illumination:inverted_fallout_lamp:15')
+]
+
+def deCageLamps = [
+	item('projectred-illumination:cage_lamp'),
+	item('projectred-illumination:cage_lamp:1'),
+	item('projectred-illumination:cage_lamp:2'),
+	item('projectred-illumination:cage_lamp:3'),
+	item('projectred-illumination:cage_lamp:4'),
+	item('projectred-illumination:cage_lamp:5'),
+	item('projectred-illumination:cage_lamp:6'),
+	item('projectred-illumination:cage_lamp:7'),
+	item('projectred-illumination:cage_lamp:8'),
+	item('projectred-illumination:cage_lamp:9'),
+	item('projectred-illumination:cage_lamp:10'),
+	item('projectred-illumination:cage_lamp:11'),
+	item('projectred-illumination:cage_lamp:12'),
+	item('projectred-illumination:cage_lamp:13'),
+	item('projectred-illumination:cage_lamp:14'),
+	item('projectred-illumination:cage_lamp:15')
+]
+
+def aCageLamps = [
+	item('projectred-illumination:inverted_cage_lamp'),
+	item('projectred-illumination:inverted_cage_lamp', 1),
+	item('projectred-illumination:inverted_cage_lamp', 2),
+	item('projectred-illumination:inverted_cage_lamp', 3),
+	item('projectred-illumination:inverted_cage_lamp', 4),
+	item('projectred-illumination:inverted_cage_lamp', 5),
+	item('projectred-illumination:inverted_cage_lamp', 6),
+	item('projectred-illumination:inverted_cage_lamp', 7),
+	item('projectred-illumination:inverted_cage_lamp', 8),
+	item('projectred-illumination:inverted_cage_lamp', 9),
+	item('projectred-illumination:inverted_cage_lamp', 10),
+	item('projectred-illumination:inverted_cage_lamp', 11),
+	item('projectred-illumination:inverted_cage_lamp', 12),
+	item('projectred-illumination:inverted_cage_lamp', 13),
+	item('projectred-illumination:inverted_cage_lamp', 14),
+	item('projectred-illumination:inverted_cage_lamp', 15)
+]
+
+def transmissionWires = [
+	item('projectred-transmission:wire', 1),
+	item('projectred-transmission:wire', 2),
+	item('projectred-transmission:wire', 3),
+	item('projectred-transmission:wire', 4),
+	item('projectred-transmission:wire', 5),
+	item('projectred-transmission:wire', 6),
+	item('projectred-transmission:wire', 7),
+	item('projectred-transmission:wire', 8),
+	item('projectred-transmission:wire', 9),
+	item('projectred-transmission:wire', 10),
+	item('projectred-transmission:wire', 11),
+	item('projectred-transmission:wire', 12),
+	item('projectred-transmission:wire', 13),
+	item('projectred-transmission:wire', 14),
+	item('projectred-transmission:wire', 15),
+	item('projectred-transmission:wire', 16)
+]
+
+def bundledCable = [
+	item('projectred-transmission:wire', 18),
+	item('projectred-transmission:wire', 19),
+	item('projectred-transmission:wire', 20),
+	item('projectred-transmission:wire', 21),
+	item('projectred-transmission:wire', 22),
+	item('projectred-transmission:wire', 23),
+	item('projectred-transmission:wire', 24),
+	item('projectred-transmission:wire', 25),
+	item('projectred-transmission:wire', 26),
+	item('projectred-transmission:wire', 27),
+	item('projectred-transmission:wire', 28),
+	item('projectred-transmission:wire', 29),
+	item('projectred-transmission:wire', 30),
+	item('projectred-transmission:wire', 31),
+	item('projectred-transmission:wire', 32),
+	item('projectred-transmission:wire', 33),
+]
 
 def removeAndHide = [
-        item('projectred-core:resource_item', 100),
-        item('projectred-core:resource_item', 101),
-        item('projectred-core:resource_item', 102),
-        item('projectred-core:resource_item', 103),
-        item('projectred-core:resource_item', 104),
-        item('projectred-core:resource_item', 105),
-        item('projectred-core:resource_item', 200),
-        item('projectred-core:resource_item', 201),
-        item('projectred-core:resource_item', 202),
-        item('projectred-core:resource_item', 250),
-        item('projectred-core:resource_item', 251),
-        item('projectred-core:resource_item', 252),
-        item('projectred-core:resource_item', 300),
-        item('projectred-core:resource_item', 301),
-        item('projectred-core:resource_item', 310),
-        item('projectred-core:resource_item', 311),
-        item('projectred-core:resource_item', 312),
-        item('projectred-core:resource_item', 320),
-        item('projectred-core:resource_item', 341),
-        item('projectred-core:resource_item', 342),
-        item('projectred-core:resource_item', 400),
-        item('projectred-core:resource_item', 401),
-        item('projectred-core:resource_item', 402),
-        item('projectred-core:resource_item', 410),
-        item('projectred-core:drawplate'),
-        item('projectred-core:screwdriver'),
-        item('projectred-fabrication:ic_chip', 1)
+	item('projectred-core:resource_item', 100),
+	item('projectred-core:resource_item', 101),
+	item('projectred-core:resource_item', 102),
+	item('projectred-core:resource_item', 103),
+	item('projectred-core:resource_item', 104),
+	item('projectred-core:resource_item', 105),
+	item('projectred-core:resource_item', 200),
+	item('projectred-core:resource_item', 201),
+	item('projectred-core:resource_item', 202),
+	item('projectred-core:resource_item', 250),
+	item('projectred-core:resource_item', 251),
+	item('projectred-core:resource_item', 252),
+	item('projectred-core:resource_item', 300),
+	item('projectred-core:resource_item', 301),
+	item('projectred-core:resource_item', 310),
+	item('projectred-core:resource_item', 311),
+	item('projectred-core:resource_item', 312),
+	item('projectred-core:resource_item', 320),
+	item('projectred-core:resource_item', 341),
+	item('projectred-core:resource_item', 342),
+	item('projectred-core:resource_item', 400),
+	item('projectred-core:resource_item', 401),
+	item('projectred-core:resource_item', 402),
+	item('projectred-core:resource_item', 410),
+	item('projectred-core:drawplate'),
+	item('projectred-core:screwdriver'),
+	item('projectred-fabrication:ic_chip', 1)
 ]
 
 def removeRecipe = [
@@ -92,13 +375,13 @@ for (item in removeRecipeFurnace) {
 
 // Circuit Plate
 furnace.add(ore('stone'), item('projectred-core:resource_item') * 2)
-for (int i = 0; i < ProjectRed.illuminars.size(); i++) {
+for (int i = 0; i < illuminars.size(); i++) {
     // Illuminar dusts
     mods.gregtech.mixer.recipeBuilder()
             .circuitMeta(24)
             .inputs(item('minecraft:glowstone_dust'))
             .fluidInputs(Minecraft.colorLiquid[i] * 18)
-            .outputs(ProjectRed.illuminars[i])
+            .outputs(illuminars[i])
             .duration(20).EUt(7).buildAndRegister()
     // Deactivated Lamps
     mods.gregtech.assembler.recipeBuilder()
@@ -107,16 +390,16 @@ for (int i = 0; i < ProjectRed.illuminars.size(); i++) {
                     metaitem('wireGtSingleRedAlloy'),
                     ore('paneGlass') * 6,
                     metaitem('stickSteel') * 12,
-                    ProjectRed.illuminars[i] * 2)
-            .outputs(ProjectRed.deLamps[i])
+                    illuminars[i] * 2)
+            .outputs(deLamps[i])
             .duration(180).EUt(32).buildAndRegister()
     // Button Lamps
     mods.gregtech.assembler.recipeBuilder()
             .circuitMeta(14)
             .inputs(
                     item('minecraft:stone_button'),
-                    ProjectRed.illuminars[i] * 2)
-            .outputs(ProjectRed.buttonLamps[i])
+                    illuminars[i] * 2)
+            .outputs(buttonLamps[i])
             .duration(180).EUt(32).buildAndRegister()
     // All Deactivated Lantern Lamps
     mods.gregtech.assembler.recipeBuilder()
@@ -126,8 +409,8 @@ for (int i = 0; i < ProjectRed.illuminars.size(); i++) {
                     ore('paneGlass') * 2,
                     metaitem('stickSteel') * 3,
                     metaitem('plateIron') * 4,
-                    ProjectRed.illuminars[i])
-            .outputs(ProjectRed.deLanternLamps[i])
+                    illuminars[i])
+            .outputs(deLanternLamps[i])
             .duration(180).EUt(32).buildAndRegister()
     // Deactivated Fixture Lamps
     mods.gregtech.assembler.recipeBuilder()
@@ -137,8 +420,8 @@ for (int i = 0; i < ProjectRed.illuminars.size(); i++) {
                     metaitem('stickSteel') * 6,
                     metaitem('plateIron') * 4,
                     ore('paneGlass') * 5,
-                    ProjectRed.illuminars[i] * 2)
-            .outputs(ProjectRed.deFixtureLamps[i])
+                    illuminars[i] * 2)
+            .outputs(deFixtureLamps[i])
             .duration(180).EUt(32).buildAndRegister()
     // Deactivated Fallout Lamps
     mods.gregtech.assembler.recipeBuilder()
@@ -148,87 +431,87 @@ for (int i = 0; i < ProjectRed.illuminars.size(); i++) {
                     metaitem('stickSteel') * 6,
                     metaitem('plateIron') * 2,
                     item('minecraft:glass_pane') * 6,
-                    ProjectRed.illuminars[i] * 2)
-            .outputs(ProjectRed.deFalloutLamps[i])
+                    illuminars[i] * 2)
+            .outputs(deFalloutLamps[i])
             .duration(180).EUt(32).buildAndRegister()
 }
 
 // Activated Lamps
-for (int i = 0; i < ProjectRed.aLamps.size(); i++) {
+for (int i = 0; i < aLamps.size(); i++) {
     mods.gregtech.assembler.recipeBuilder()
             .circuitMeta(13)
             .inputs(
-                    ProjectRed.deLamps[i],
+                    deLamps[i],
                     item('minecraft:redstone_torch'))
-            .outputs(ProjectRed.aLamps[i])
+            .outputs(aLamps[i])
             .duration(16).EUt(2).buildAndRegister()
 }
 
 // Feedback Lamps
-for (int i = 0; i < ProjectRed.feedbackLamps.size(); i++) {
+for (int i = 0; i < feedbackLamps.size(); i++) {
     mods.gregtech.assembler.recipeBuilder()
             .circuitMeta(15)
             .inputs(
                     item('minecraft:redstone_torch'),
-                    ProjectRed.buttonLamps[i] * 2)
-            .outputs(ProjectRed.feedbackLamps[i])
+                    buttonLamps[i] * 2)
+            .outputs(feedbackLamps[i])
             .duration(180).EUt(32).buildAndRegister()
 }
 
 // Activated Lantern Lamps
-for (int i = 0; i < ProjectRed.aLanternLamps.size(); i++) {
+for (int i = 0; i < aLanternLamps.size(); i++) {
     mods.gregtech.assembler.recipeBuilder()
             .circuitMeta(17)
             .inputs(
-                    ProjectRed.deLanternLamps[i],
+                    deLanternLamps[i],
                     item('minecraft:redstone_torch'))
-            .outputs(ProjectRed.aLanternLamps[i])
+            .outputs(aLanternLamps[i])
             .duration(16).EUt(2).buildAndRegister()
 }
 
 // Activated Fixture Lamps
-for (int i = 0; i < ProjectRed.aFixtureLamps.size(); i++) {
+for (int i = 0; i < aFixtureLamps.size(); i++) {
     mods.gregtech.assembler.recipeBuilder()
             .circuitMeta(19)
             .inputs(
-                    ProjectRed.deFixtureLamps[i],
+                    deFixtureLamps[i],
                     item('minecraft:redstone_torch'))
-            .outputs(ProjectRed.aFixtureLamps[i])
+            .outputs(aFixtureLamps[i])
             .duration(16).EUt(2).buildAndRegister()
 }
 
 // Activated Fallout Lamps
-for (int i = 0; i < ProjectRed.aFalloutLamps.size(); i++) {
+for (int i = 0; i < aFalloutLamps.size(); i++) {
     mods.gregtech.assembler.recipeBuilder()
             .circuitMeta(21)
             .inputs(
-                    ProjectRed.deFalloutLamps[i],
+                    deFalloutLamps[i],
                     item('minecraft:redstone_torch'))
-            .outputs(ProjectRed.aFalloutLamps[i])
+            .outputs(aFalloutLamps[i])
             .duration(16).EUt(2).buildAndRegister()
 }
 
 // Deactivated Cage Lamps
-for (int i = 0; i < ProjectRed.deCageLamps.size(); i++) {
+for (int i = 0; i < deCageLamps.size(); i++) {
     mods.gregtech.assembler.recipeBuilder()
             .circuitMeta(22)
             .inputs(
                     item('projectred-core:resource_item:1'),
                     metaitem('stickSteel') * 2,
                     item('minecraft:glass_pane') * 4,
-                    ProjectRed.illuminars[i])
-            .outputs(ProjectRed.deCageLamps[i])
+                    illuminars[i])
+            .outputs(deCageLamps[i])
             .duration(180).EUt(32).buildAndRegister()
 }
 
 // Activated Cage Lamps
-for (int i = 0; i < ProjectRed.aCageLamps.size(); i++) {
+for (int i = 0; i < aCageLamps.size(); i++) {
     mods.gregtech.assembler.recipeBuilder()
             .circuitMeta(23)
             .inputs(
-                    ProjectRed.deCageLamps[i],
+                    deCageLamps[i],
                     item('minecraft:redstone_torch'))
-            .outputs(ProjectRed.aCageLamps[i])
+            .outputs(aCageLamps[i])
             .duration(16).EUt(2).buildAndRegister()
 }
 
@@ -254,11 +537,11 @@ mods.gregtech.assembler.recipeBuilder()
         .fluidInputs(fluid('redstone') * 144)
         .outputs(item('projectred-transmission:wire') * 12)
         .duration(180).EUt(32).buildAndRegister()
-for (int i = 0; i < ProjectRed.transmissionWires.size(); i++) {
+for (int i = 0; i < transmissionWires.size(); i++) {
     mods.gregtech.chemical_bath.recipeBuilder()
             .inputs(item('projectred-transmission:wire'))
             .fluidInputs(Minecraft.colorLiquid[i] * 18)
-            .outputs(ProjectRed.transmissionWires[i])
+            .outputs(transmissionWires[i])
             .duration(100).EUt(16).buildAndRegister()
 }
 
@@ -269,11 +552,11 @@ mods.gregtech.assembler.recipeBuilder()
         .inputs(ore('string') * 4)
         .outputs(item('projectred-transmission:wire', 17) * 12)
         .duration(180).EUt(32).buildAndRegister()
-for (int i = 0; i < ProjectRed.bundledCable.size(); i++) {
+for (int i = 0; i < bundledCable.size(); i++) {
     mods.gregtech.chemical_bath.recipeBuilder()
             .inputs(item('projectred-transmission:wire', 17))
             .fluidInputs(Minecraft.colorLiquid[i] * 18)
-            .outputs(ProjectRed.bundledCable[i])
+            .outputs(bundledCable[i])
             .duration(100).EUt(16).buildAndRegister()
 }
 

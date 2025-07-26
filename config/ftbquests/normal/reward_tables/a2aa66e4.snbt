@@ -59,36 +59,6 @@
 		item: "gregtech:fluid_pipe_quadruple 1 324"
 	},
 	{
-		item: "gregtech:machine 1 1"
-	},
-	{
-		item: "gregtech:machine 1 2"
-	},
-	{
-		item: "gregtech:machine 1 3"
-	},
-	{
-		item: "gregtech:machine 1 4"
-	},
-	{
-		item: "gregtech:machine 1 5"
-	},
-	{
-		item: "gregtech:machine 1 6"
-	},
-	{
-		item: "gregtech:machine 1 50"
-	},
-	{
-		item: "gregtech:machine 1 80"
-	},
-	{
-		item: "gregtech:machine 1 125"
-	},
-	{
-		item: "gregtech:machine 1 155"
-	},
-	{
 		item: "gregtech:wire_single 1 252",
 		count: 4
 	},
@@ -126,12 +96,6 @@
 	},
 	{
 		item: "gregtech:meta_item_1 1 202"
-	},
-	{
-		item: "gregtech:machine 1 1210"
-	},
-	{
-		item: "gregtech:machine 1 1211"
 	},
 	{
 		item: "gregtech:meta_item_1 1 621",
@@ -200,33 +164,6 @@
 	{
 		item: "gregtech:meta_ingot 1 2517",
 		count: 64
-	},
-	{
-		item: "gregtech:machine 1 1000"
-	},
-	{
-		item: "gregtech:machine 1 1036"
-	},
-	{
-		item: "gregtech:machine 1 1150"
-	},
-	{
-		item: "gregtech:machine 1 1151"
-	},
-	{
-		item: "gregtech:machine 1 1165"
-	},
-	{
-		item: "gregtech:machine 1 1166"
-	},
-	{
-		item: "gregtech:machine 1 1180"
-	},
-	{
-		item: "gregtech:machine 1 1181"
-	},
-	{
-		item: "gregtech:machine 1 1196"
 	}],
 	loot_crate: {
 		string_id: "lvage",
