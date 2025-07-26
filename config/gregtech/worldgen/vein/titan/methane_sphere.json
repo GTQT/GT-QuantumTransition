@@ -1,8 +1,8 @@
 {
-  "name": "gtqtspace.veins.ore.sulfuric_acid_sphere",
+  "name": "gtqtspace.veins.ore.methane_sphere",
   "weight": 50,
   "density": 1.0,
-  "max_height": 20,
+  "max_height": 50,
   "min_height": 0,
   "priority": -100,
   "count_as_vein": false,
@@ -12,7 +12,7 @@
     "chance": 0.40
   },
   "dimension_filter": [
-    "dimension_id:53"
+    "dimension_id:59"
   ],
   "generator": {
     "type": "sphere",
@@ -28,7 +28,7 @@
       "values": [
         {
           "weight": 100,
-          "value": "fluid:sulfuric_acid"
+          "value": "fluid:methane"
         }
       ]
     }

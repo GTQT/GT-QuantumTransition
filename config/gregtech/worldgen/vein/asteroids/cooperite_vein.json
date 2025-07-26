@@ -1,0 +1,38 @@
+{
+  "name": "gtqtspace.veins.ore.cooperite",
+  "weight": 20,
+  "density": 0.6,
+  "min_height": 0,
+  "max_height": 255,
+  "vein_populator": {
+    "type": "surface_rock",
+    "material": "platinum"
+  },
+  "dimension_filter": [
+    "dimension_id:54"
+  ],
+  "generator": {
+    "type": "layered",
+    "radius": [
+      12,
+      16
+    ]
+  },
+  "filler": {
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:cooperite"
+      },
+      {
+        "secondary": "ore:cooperite"
+      },
+      {
+        "between": "ore:cooperite"
+      },
+      {
+        "sporadic": "ore:cooperite"
+      }
+    ]
+  }
+}

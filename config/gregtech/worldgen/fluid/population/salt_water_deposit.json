@@ -12,6 +12,6 @@
   },
   "fluid": "water",
   "dimension_filter": [
-    "dimension_id:41"
+    "dimension_id:0,41"
   ]
 }

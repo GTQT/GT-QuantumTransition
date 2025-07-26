@@ -12,7 +12,7 @@
     "chance": 0.40
   },
   "dimension_filter": [
-    "dimension_id:-1,41,53"
+    "dimension_id:-1,41,53,56"
   ],
   "generator": {
     "type": "sphere",

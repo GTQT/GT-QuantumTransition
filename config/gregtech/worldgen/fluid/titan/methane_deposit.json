@@ -1,0 +1,17 @@
+{
+  "name": "gtqtspace.veins.fluid.methane",
+  "weight": 95,
+  "yield": {
+    "min": 400,
+    "max": 600
+  },
+  "depletion": {
+    "amount": 1,
+    "chance": 100,
+    "depleted_yield": 25
+  },
+  "fluid": "methane",
+  "dimension_filter": [
+    "dimension_id:59"
+  ]
+}

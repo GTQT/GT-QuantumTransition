@@ -27,6 +27,26 @@
     {
       "dimID": 53,
       "dimName": "Venus \u91d1\u661f"
+    },
+    {
+      "dimID": 54,
+      "dimName": "Asteroid \u5c0f\u884c\u661f\u5e26"
+    },
+    {
+      "dimID": 56,
+      "dimName": "Io \u6728\u536b\u4e00"
+    },
+    {
+      "dimID": 57,
+      "dimName": "Europa \u6728\u536b\u4e8c"
+    },
+    {
+      "dimID": 59,
+      "dimName": "Titan \u571f\u536b\u516d"
+    },
+    {
+      "dimID": 60,
+      "dimName": "Enceladus \u571f\u536b\u4e8c"
     }
   ]
 }

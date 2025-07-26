@@ -1,0 +1,17 @@
+{
+  "name": "gtqtspace.veins.fluid.oxygen",
+  "weight": 95,
+  "yield": {
+    "min": 200,
+    "max": 300
+  },
+  "depletion": {
+    "amount": 1,
+    "chance": 100,
+    "depleted_yield": 25
+  },
+  "fluid": "oxygen",
+  "dimension_filter": [
+    "dimension_id:57"
+  ]
+}

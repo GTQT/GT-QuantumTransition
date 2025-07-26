@@ -1,5 +1,5 @@
 {
-  "name": "gregtech.veins.fluid.water",
+  "name": "gtqtspace.veins.fluid.water",
   "weight": 20,
   "yield": {
     "min": 50,
