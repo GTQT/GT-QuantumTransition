@@ -1,0 +1,365 @@
+{
+  "entries": [
+    {
+      "block": "minecraft:sand",
+      "item": "minecraft:gold_nugget",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:rotten_flesh",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 40
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:bone",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 20
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:spider_eye",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:gunpowder",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:slime_ball",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:sand",
+      "item": "minecraft:glass_bottle",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:sand",
+      "item": "minecraft:clock",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 5
+    },
+    {
+      "block": "minecraft:sand",
+      "item": "minecraft:compass",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 5
+    },
+    {
+      "block": "minecraft:sand",
+      "item": "minecraft:clay_ball",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 20
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:bowl",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 6
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:potato",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:carrot",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:apple",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:leaves",
+      "item": "minecraft:apple",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:leaves2",
+      "item": "minecraft:apple",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:red_mushroom",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:brown_mushroom",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:red_flower",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:yellow_flower",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:stick",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 100
+    },
+    {
+      "block": "minecraft:tallgrass",
+      "item": "minecraft:pumpkin_seeds",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 30
+    },
+    {
+      "block": "minecraft:tallgrass",
+      "item": "minecraft:melon_seeds",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 1,
+      "chance": 30
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:beef",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 2,
+      "chance": 50
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:porkchop",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 2,
+      "chance": 50
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:chicken",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 2,
+      "chance": 50
+    },
+    {
+      "block": "minecraft:sand",
+      "item": "minecraft:iron_ingot",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 2,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:sand",
+      "item": "minecraft:gold_ingot",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 2,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:leather",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 2,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:feather",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 2,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:wool",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 2,
+      "chance": 10
+    },
+    {
+      "block": "minecraft:sand",
+      "item": "minecraft:redstone",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 2,
+      "chance": 50
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:bucket",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 3,
+      "chance": 20
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:record_11",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 3,
+      "chance": 2
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:record_13",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 3,
+      "chance": 2
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:record_blocks",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 3,
+      "chance": 2
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:record_cat",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 3,
+      "chance": 2
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:record_chirp",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 3,
+      "chance": 2
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:record_far",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 3,
+      "chance": 2
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:record_mall",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 3,
+      "chance": 2
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:record_mellohi",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 3,
+      "chance": 2
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:record_stal",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 3,
+      "chance": 2
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:record_strad",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 3,
+      "chance": 2
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:record_wait",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 3,
+      "chance": 2
+    },
+    {
+      "block": "minecraft:dirt",
+      "item": "minecraft:record_ward",
+      "blockMetadata": 0,
+      "itemMetadata": 0,
+      "minimumLevel": 3,
+      "chance": 2
+    }
+  ],
+  "bonusMultiplier": 1.0
+}

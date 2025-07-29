@@ -1,0 +1,7 @@
+{
+  "damageSources": [
+    "explosion",
+    "explosion.player"
+  ],
+  "bonusMultiplier": 1.0
+}

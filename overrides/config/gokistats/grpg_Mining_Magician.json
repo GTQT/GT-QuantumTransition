@@ -1,0 +1,71 @@
+{
+  "blockEntries": [
+    {
+      "id": "minecraft:coal_ore",
+      "metadata": 0
+    },
+    {
+      "id": "minecraft:diamond_ore",
+      "metadata": 0
+    },
+    {
+      "id": "minecraft:emerald_ore",
+      "metadata": 0
+    },
+    {
+      "id": "minecraft:gold_ore",
+      "metadata": 0
+    },
+    {
+      "id": "minecraft:iron_ore",
+      "metadata": 0
+    },
+    {
+      "id": "minecraft:lapis_ore",
+      "metadata": 0
+    },
+    {
+      "id": "minecraft:quartz_ore",
+      "metadata": 0
+    },
+    {
+      "id": "minecraft:redstone_ore",
+      "metadata": 0
+    }
+  ],
+  "itemEntries": [
+    {
+      "id": "minecraft:coal",
+      "metadata": 0
+    },
+    {
+      "id": "minecraft:diamond",
+      "metadata": 0
+    },
+    {
+      "id": "minecraft:emerald",
+      "metadata": 0
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "metadata": 0
+    },
+    {
+      "id": "minecraft:iron_ingot",
+      "metadata": 0
+    },
+    {
+      "id": "minecraft:dye",
+      "metadata": 4
+    },
+    {
+      "id": "minecraft:quartz",
+      "metadata": 0
+    },
+    {
+      "id": "minecraft:redstone",
+      "metadata": 0
+    }
+  ],
+  "bonusMultiplier": 1.0
+}
