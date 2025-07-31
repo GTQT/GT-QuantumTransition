@@ -25,9 +25,9 @@
 		item: "storagedrawers:controller"
 	},
 	{
-		uid: "58b6f89b",
+		uid: "b1a73cd1",
 		type: "item",
-		item: "ironchest:iron_chest 1 2",
+		item: "fluiddrawers:tank",
 		count: 8
 	}]
 }

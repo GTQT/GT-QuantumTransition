@@ -1,0 +1,16 @@
+{
+	title: "不再饥饿",
+	icon: "unstabletools:unstable_axe",
+	x: 8.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "20e7698e",
+		type: "ftbmoney:money",
+		value: 2000L
+	}],
+	rewards: [{
+		uid: "d4cf3b16",
+		type: "item",
+		item: "unstabletools:unstable_axe"
+	}]
+}

@@ -69,9 +69,9 @@ mods.tconstruct.Melting.addRecipe(<liquid:aluminium> * 144,<ore:ingotAluminium>)
 //耐酸铝
 mods.tconstruct.Alloy.addRecipe(<liquid:alumite> * 32,[<liquid:aluminium> * 80,<liquid:steel> * 32, <liquid:obsidian> * 32]);
 //铝黄铜
-mods.tconstruct.Alloy.addRecipe(<liquid:alumite> * 48,[<liquid:aluminium> * 48,<liquid:copper> * 16]);
+mods.tconstruct.Alloy.addRecipe(<liquid:alubrass> * 48,[<liquid:aluminium> * 48,<liquid:copper> * 16]);
 //铝黄铜->铸模
-mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast>,null,<liquid:alumite>, 288);
+mods.tconstruct.Casting.addTableRecipe(<tconstruct:cast>,null,<liquid:alubrass>, 288);
 //偷鸡配方
 mods.tconstruct.Melting.removeRecipe(<liquid:bronze>,<minecraft:minecart>);
 mods.tconstruct.Melting.removeRecipe(<liquid:gold>,<minecraft:golden_rail>);
@@ -91,94 +91,51 @@ mods.tconstruct.Fuel.registerFuel(<liquid:plasma.iron> * 2, 3000);
 mods.tconstruct.Fuel.registerFuel(<liquid:steam> * 20, 30);
 
 //铜
-mods.tconstruct.Melting.addRecipe(<liquid:copper>*288,<gregtech:ore_copper_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:copper>*288,<gregtech:ore_copper_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:copper>*288,<gregtech:ore_chalcopyrite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:copper>*288,<gregtech:ore_chalcopyrite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:copper>*288,<gregtech:ore_chalcopyrite_0>);
-mods.tconstruct.Melting.addRecipe(<liquid:copper>*288,<gregtech:ore_tetrahedrite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:copper>*288,<gregtech:ore_tetrahedrite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:copper>*288,<gregtech:ore_tetrahedrite_0>);
-mods.tconstruct.Melting.addRecipe(<liquid:copper>*288,<gregtech:ore_bornite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:copper>*288,<gregtech:ore_bornite_0>);
-mods.tconstruct.Melting.addRecipe(<liquid:copper>*288,<gregtech:ore_bornite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:copper>*288,<gregtech:ore_chalcocite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:copper>*288,<gregtech:ore_chalcocite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:copper>*288,<gregtech:ore_chalcocite_0>);
+mods.tconstruct.Melting.addRecipe(<liquid:copper>*144,<ore:rawOreCopper>);
+mods.tconstruct.Melting.addRecipe(<liquid:copper>*144,<ore:rawOreChalcopyrite>);
+mods.tconstruct.Melting.addRecipe(<liquid:copper>*144,<ore:rawOreTetrahedrite>);
+mods.tconstruct.Melting.addRecipe(<liquid:copper>*144,<ore:rawOreBornite>);
+mods.tconstruct.Melting.addRecipe(<liquid:copper>*144,<ore:rawOreChalcocite>);
 
 //锡
-mods.tconstruct.Melting.addRecipe(<liquid:tin>*288,<gregtech:ore_tin_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:tin>*288,<gregtech:ore_tin_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:tin>*288,<gregtech:ore_cassiterite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:tin>*288,<gregtech:ore_cassiterite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:tin>*288,<gregtech:ore_cassiterite_0>);
-mods.tconstruct.Melting.addRecipe(<liquid:tin>*288,<gregtech:ore_cassiterite_sand_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:tin>*288,<gregtech:ore_cassiterite_sand_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:tin>*288,<gregtech:ore_cassiterite_sand_0>);
+mods.tconstruct.Melting.addRecipe(<liquid:tin>*144,<ore:rawOreTin>);
+mods.tconstruct.Melting.addRecipe(<liquid:tin>*144,<ore:rawOreCassiterite>);
+mods.tconstruct.Melting.addRecipe(<liquid:tin>*144,<ore:rawOreCassiteriteSand>);
+mods.tconstruct.Melting.addRecipe(<liquid:tin>*144,<ore:rawOreDumbTin>);
 
 //铁
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_iron_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_iron_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_brown_limonite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_brown_limonite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_brown_limonite_0>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_chromite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_chromite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_chromite_0>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_magnetite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_magnetite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_magnetite_0>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_yellow_limonite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_yellow_limonite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_yellow_limonite_0>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_pyrite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_pyrite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_pyrite_0>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_hematite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_hematite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_hematite_0>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_vanadium_magnetite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_vanadium_magnetite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:iron>*288,<gregtech:ore_vanadium_magnetite_0>);
+mods.tconstruct.Melting.addRecipe(<liquid:iron>*144,<ore:rawOreIron>);
+mods.tconstruct.Melting.addRecipe(<liquid:iron>*144,<ore:rawOreBrownLimonite>);
+mods.tconstruct.Melting.addRecipe(<liquid:iron>*144,<ore:rawOreChromite>);
+mods.tconstruct.Melting.addRecipe(<liquid:iron>*144,<ore:rawOreMagnetite>);
+mods.tconstruct.Melting.addRecipe(<liquid:iron>*144,<ore:rawOreYellowLimonite>);
+mods.tconstruct.Melting.addRecipe(<liquid:iron>*144,<ore:rawOrePyrite>);
+mods.tconstruct.Melting.addRecipe(<liquid:iron>*144,<ore:rawOreHematite>);
+mods.tconstruct.Melting.addRecipe(<liquid:iron>*144,<ore:rawOreVanadiumMagnetite>);
 
 //镍
-mods.tconstruct.Melting.addRecipe(<liquid:nickel>*288,<gregtech:ore_nickel_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:nickel>*288,<gregtech:ore_nickel_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:nickel>*288,<gregtech:ore_garnierite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:nickel>*288,<gregtech:ore_garnierite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:nickel>*288,<gregtech:ore_garnierite_0>);
-mods.tconstruct.Melting.addRecipe(<liquid:nickel>*288,<gregtech:ore_pentlandite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:nickel>*288,<gregtech:ore_pentlandite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:nickel>*288,<gregtech:ore_pentlandite_0>);
+mods.tconstruct.Melting.addRecipe(<liquid:nickel>*144,<ore:rawOreNickel>);
+mods.tconstruct.Melting.addRecipe(<liquid:nickel>*144,<ore:rawOreGarnierite>);
+mods.tconstruct.Melting.addRecipe(<liquid:nickel>*144,<ore:rawOrePentlandite>);
 
 //铅
-mods.tconstruct.Melting.addRecipe(<liquid:lead>*288,<gregtech:ore_lead_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:lead>*288,<gregtech:ore_lead_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:lead>*288,<gregtech:ore_galena_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:lead>*288,<gregtech:ore_galena_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:lead>*288,<gregtech:ore_galena_0>);
-mods.tconstruct.Melting.addRecipe(<liquid:lead>*288,<gregtech:ore_wulfenite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:lead>*288,<gregtech:ore_wulfenite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:lead>*288,<gregtech:ore_wulfenite_0>);
-mods.tconstruct.Melting.addRecipe(<liquid:lead>*288,<gregtech:ore_crocoite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:lead>*288,<gregtech:ore_crocoite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:lead>*288,<gregtech:ore_crocoite_0>);
-
-//金
-mods.tconstruct.Melting.addRecipe(<liquid:gold>*288,<gregtech:ore_lean_gold_sulphide_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:gold>*288,<gregtech:ore_lean_gold_sulphide_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:gold>*288,<gregtech:ore_lean_gold_sulphide_0>);
+mods.tconstruct.Melting.addRecipe(<liquid:lead>*144,<ore:rawOreLead>);
+mods.tconstruct.Melting.addRecipe(<liquid:lead>*144,<ore:rawOregGlena>);
+mods.tconstruct.Melting.addRecipe(<liquid:lead>*144,<ore:rawOreWulfenite>);
+mods.tconstruct.Melting.addRecipe(<liquid:lead>*144,<ore:rawOreCrocoite>);
+mods.tconstruct.Melting.addRecipe(<liquid:lead>*144,<ore:rawOreAuthorityLead>);
 
 //银
-mods.tconstruct.Melting.addRecipe(<liquid:silver>*288,<gregtech:ore_silver_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:silver>*288,<gregtech:ore_silver_0:2>);
+mods.tconstruct.Melting.addRecipe(<liquid:silver>*144,<ore:rawOreSilver>);
+mods.tconstruct.Melting.addRecipe(<liquid:silver>*144,<ore:rawOrePyrargyrite>);
 
 //钴
-mods.tconstruct.Melting.addRecipe(<liquid:cobalt>*288,<gregtech:ore_cobaltite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:cobalt>*288,<gregtech:ore_cobaltite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:cobalt>*288,<gregtech:ore_cobaltite_0>);
+mods.tconstruct.Melting.addRecipe(<liquid:cobalt>*144,<ore:rawOreCobaltite>);
 
-//钴
-mods.tconstruct.Melting.addRecipe(<liquid:zinc>*288,<gregtech:ore_sphalerite_0:1>);
-mods.tconstruct.Melting.addRecipe(<liquid:zinc>*288,<gregtech:ore_sphalerite_0:2>);
-mods.tconstruct.Melting.addRecipe(<liquid:zinc>*288,<gregtech:ore_sphalerite_0>);
+//锌
+mods.tconstruct.Melting.addRecipe(<liquid:zinc>*144,<ore:rawOreSphalerite>);
+mods.tconstruct.Melting.addRecipe(<liquid:zinc>*144,<ore:rawOrePlutoZinc>);
+
+//金
+mods.tconstruct.Melting.addRecipe(<liquid:gold>*144,<ore:rawOreGold>);
+mods.tconstruct.Melting.addRecipe(<liquid:gold>*144,<ore:rawOreMeltGold>);

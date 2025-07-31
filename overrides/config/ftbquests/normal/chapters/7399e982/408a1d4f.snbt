@@ -1,0 +1,31 @@
+{
+	title: "绝对防御",
+	icon: "minecraft:diamond_helmet",
+	x: 6.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "50a79c7b",
+		type: "ftbmoney:money",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "f1ac1ec5",
+		type: "item",
+		item: "minecraft:diamond_helmet"
+	},
+	{
+		uid: "862d8243",
+		type: "item",
+		item: "minecraft:diamond_chestplate"
+	},
+	{
+		uid: "eebab324",
+		type: "item",
+		item: "minecraft:diamond_leggings"
+	},
+	{
+		uid: "5dcad72b",
+		type: "item",
+		item: "minecraft:diamond_boots"
+	}]
+}

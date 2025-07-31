@@ -1,0 +1,17 @@
+{
+	title: "奥利奥利奥",
+	icon: "gregtechfoodoption:gtfo_meta_item 1 193",
+	x: 7.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "d11a3d41",
+		type: "ftbmoney:money",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "4ab6a6c9",
+		type: "item",
+		item: "gregtechfoodoption:gtfo_meta_item 1 193",
+		count: 64
+	}]
+}
