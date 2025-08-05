@@ -186,3 +186,6 @@ mods.thaumcraft.arcane_workbench.shapedBuilder()
     .aspect('terra').aspect('ordo')
     .vis(50)
     .register()
+
+//干掉铋
+mods.thaumcraft.crucible.removeByOutput(item('planarartifice:bismuth_ingot'))

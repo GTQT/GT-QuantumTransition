@@ -4,6 +4,8 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 var items as IItemStack[] = [
+<appliedenergistics2:material:4>,
+<enderio:item_material:21>,
 <thaumcraft:nugget>,
 <threng:machine>,
 <threng:machine:1>,

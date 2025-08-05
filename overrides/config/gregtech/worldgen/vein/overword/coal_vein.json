@@ -11,7 +11,7 @@
       "type" : "surface_rock"
    },
    "weight" : 80,
-   "density" : 0.50,
+   "density" : 0.6,
    "dimension_filter": [
       "dimension_id:0"
    ],
