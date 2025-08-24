@@ -10,7 +10,7 @@ assembler.recipeBuilder()
     .inputs(<ore:plateIron> * 3)
     .outputs(<ironchest:iron_chest>)
     .duration(150)
-    .circuit(5)
+    .circuit(15)
     .EUt(16)
     .buildAndRegister();
 
@@ -21,7 +21,7 @@ assembler.recipeBuilder()
     .inputs(<ore:plateDoubleGold> * 3)
     .outputs(<ironchest:iron_chest:1>)
     .duration(250)
-    .circuit(5)
+    .circuit(15)
     .EUt(64)
     .buildAndRegister();
 
@@ -32,7 +32,7 @@ assembler.recipeBuilder()
     .inputs(<ore:plateDiamond> * 3)
     .outputs(<ironchest:iron_chest:2>)
     .duration(300)
-    .circuit(5)
+    .circuit(15)
     .EUt(120)
     .buildAndRegister();
 
@@ -43,7 +43,7 @@ assembler.recipeBuilder()
     .inputs(<ore:plateDoubleCopper> * 3)
     .outputs(<ironchest:iron_chest:3>)
     .duration(100)
-    .circuit(5)
+    .circuit(15)
     .EUt(7)
     .buildAndRegister();
 
@@ -54,7 +54,7 @@ assembler.recipeBuilder()
     .inputs(<ore:plateDoubleSilver> * 3)
     .outputs(<ironchest:iron_chest:4>)
     .duration(200)
-    .circuit(5)
+    .circuit(15)
     .EUt(30)
     .buildAndRegister();
 
@@ -65,7 +65,7 @@ assembler.recipeBuilder()
     .inputs(<ore:plateGlass> * 4)
     .outputs(<ironchest:iron_chest:5>)
     .duration(350)
-    .circuit(5)
+    .circuit(15)
     .EUt(256)
     .buildAndRegister();
 
@@ -74,7 +74,7 @@ recipes.addShaped(<ironchest:iron_chest:6>, [[<ore:screwDiamond>, <ore:plateObsi
 assembler.recipeBuilder()
     .inputs(<ironchest:iron_chest:2>)
     .inputs(<ore:plateObsidian> * 3)
-    .circuit(5)
+    .circuit(15)
     .outputs(<ironchest:iron_chest:6>)
     .duration(400)
     .EUt(256)

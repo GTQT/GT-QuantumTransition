@@ -1,19 +1,23 @@
 {
 	title: "总是最好的",
 	icon: {
-		id: "gregtech:wrench",
+		id: "gregtech:hammer",
 		tag: {
 			DisallowContainerItem: 0b,
 			GT.Tool: {
-				AttackDamage: 3.0f,
-				ToolSpeed: 6.0f,
-				HarvestLevel: 2,
-				MaxDurability: 255,
-				AttackSpeed: -2.8f,
-				Material: "gregtech:iron",
+				AttackDamage: 5.0f,
+				ToolSpeed: 10.0f,
+				HarvestLevel: 3,
+				MaxDurability: 1023,
+				AttackSpeed: -2.5f,
+				Material: "gregtech:damascus_steel",
 				Durability: 0
 			},
 			HideFlags: 2,
+			ench: [{
+				id: 35,
+				lvl: 3s
+			}],
 			GT.Behaviours: {}
 		}
 	},
@@ -22,42 +26,71 @@
 	tasks: [{
 		uid: "b1e6c79e",
 		type: "ftbmoney:money",
-		value: 200L
+		value: 50L
 	}],
 	rewards: [{
-		uid: "a1e3139d",
+		uid: "4f7512d9",
 		type: "item",
 		item: {
 			id: "gregtech:wrench",
 			tag: {
 				DisallowContainerItem: 0b,
 				GT.Tool: {
-					AttackDamage: 7.0f,
-					ToolSpeed: 11.0f,
-					HarvestLevel: 6,
-					MaxDurability: 59999,
-					AttackSpeed: -2.7f,
-					Material: "gregtech:inconel_690",
+					AttackDamage: 5.0f,
+					ToolSpeed: 10.0f,
+					HarvestLevel: 3,
+					MaxDurability: 1023,
+					AttackSpeed: -2.5f,
+					Material: "gregtech:damascus_steel",
 					Durability: 0
 				},
 				HideFlags: 2,
+				ench: [{
+					id: 35,
+					lvl: 3s
+				}],
 				GT.Behaviours: {}
 			}
 		}
 	},
 	{
-		uid: "fecad854",
+		uid: "59a974ab",
+		type: "item",
+		item: {
+			id: "gregtech:wire_cutter",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					AttackDamage: 3.0f,
+					ToolSpeed: 10.0f,
+					HarvestLevel: 3,
+					MaxDurability: 1023,
+					AttackSpeed: -2.1000001f,
+					Material: "gregtech:damascus_steel",
+					Durability: 0
+				},
+				HideFlags: 2,
+				ench: [{
+					id: 35,
+					lvl: 3s
+				}],
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		uid: "d7e99e03",
 		type: "item",
 		item: {
 			id: "gregtech:file",
 			tag: {
 				DisallowContainerItem: 0b,
 				GT.Tool: {
-					Material: "gregtech:inconel_690",
-					MaxDurability: 59999,
+					Material: "gregtech:damascus_steel",
+					MaxDurability: 1023,
 					Durability: 0,
 					AttackDamage: 0.0f,
-					AttackSpeed: -2.3000002f
+					AttackSpeed: -2.1000001f
 				},
 				HideFlags: 2,
 				GT.Behaviours: {}
@@ -65,18 +98,18 @@
 		}
 	},
 	{
-		uid: "672c492e",
+		uid: "841b69f5",
 		type: "item",
 		item: {
 			id: "gregtech:screwdriver",
 			tag: {
 				DisallowContainerItem: 0b,
 				GT.Tool: {
-					Material: "gregtech:inconel_690",
-					MaxDurability: 59999,
+					Material: "gregtech:damascus_steel",
+					MaxDurability: 1023,
 					Durability: 0,
-					AttackDamage: 5.0f,
-					AttackSpeed: 3.1f
+					AttackDamage: 3.0f,
+					AttackSpeed: 3.3f
 				},
 				HideFlags: 2,
 				GT.Behaviours: {}
@@ -84,39 +117,18 @@
 		}
 	},
 	{
-		uid: "4ba8fb70",
-		type: "item",
-		item: {
-			id: "gregtech:hammer",
-			tag: {
-				DisallowContainerItem: 0b,
-				GT.Tool: {
-					AttackDamage: 7.0f,
-					ToolSpeed: 11.0f,
-					HarvestLevel: 6,
-					MaxDurability: 59999,
-					AttackSpeed: -2.7f,
-					Material: "gregtech:inconel_690",
-					Durability: 0
-				},
-				HideFlags: 2,
-				GT.Behaviours: {}
-			}
-		}
-	},
-	{
-		uid: "ddfdc2e3",
+		uid: "6a109b0a",
 		type: "item",
 		item: {
 			id: "gregtech:saw",
 			tag: {
 				DisallowContainerItem: 0b,
 				GT.Tool: {
-					Material: "gregtech:inconel_690",
-					MaxDurability: 59999,
+					Material: "gregtech:damascus_steel",
+					MaxDurability: 1023,
 					Durability: 0,
-					AttackDamage: 5.0f,
-					AttackSpeed: -2.5f
+					AttackDamage: 3.0f,
+					AttackSpeed: -2.3f
 				},
 				HideFlags: 2,
 				GT.Behaviours: {
@@ -126,81 +138,83 @@
 		}
 	},
 	{
-		uid: "9b6d8b42",
-		type: "item",
-		item: {
-			id: "gregtech:wire_cutter",
-			tag: {
-				DisallowContainerItem: 0b,
-				GT.Tool: {
-					AttackDamage: 5.0f,
-					ToolSpeed: 11.0f,
-					HarvestLevel: 6,
-					MaxDurability: 59999,
-					AttackSpeed: -2.3000002f,
-					Material: "gregtech:inconel_690",
-					Durability: 0
-				},
-				HideFlags: 2,
-				GT.Behaviours: {}
-			}
-		}
-	},
-	{
-		uid: "347e2ac9",
-		type: "item",
-		item: {
-			id: "gtqtcore:bending_cylinder",
-			tag: {
-				DisallowContainerItem: 0b,
-				GT.Tool: {
-					Material: "gregtech:inconel_690",
-					MaxDurability: 59999,
-					Durability: 0,
-					AttackDamage: 0.0f,
-					AttackSpeed: -2.7f
-				},
-				HideFlags: 2,
-				GT.Behaviours: {}
-			}
-		}
-	},
-	{
-		uid: "ac3bfab5",
-		type: "item",
-		item: {
-			id: "gtqtcore:small_bending_cylinder",
-			tag: {
-				DisallowContainerItem: 0b,
-				GT.Tool: {
-					AttackDamage: 0.0f,
-					AttackSpeed: -1.6999999f,
-					Material: "gregtech:inconel_690",
-					HarvestLevel: 6,
-					MaxDurability: 59999,
-					Durability: 0
-				},
-				HideFlags: 2,
-				GT.Behaviours: {}
-			}
-		}
-	},
-	{
-		uid: "9ad416c0",
+		uid: "c8583930",
 		type: "item",
 		item: {
 			id: "gregtech:mortar",
 			tag: {
 				DisallowContainerItem: 0b,
 				GT.Tool: {
+					Material: "gregtech:damascus_steel",
+					MaxDurability: 1023,
+					Durability: 0,
 					AttackDamage: 0.0f,
-					AttackSpeed: -2.3000002f,
-					Material: "gregtech:hg_1223",
-					HarvestLevel: 5,
-					MaxDurability: 59999,
+					AttackSpeed: -2.1000001f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		uid: "5cf4d117",
+		type: "item",
+		item: {
+			id: "gtqtcore:bending_cylinder",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:damascus_steel",
+					MaxDurability: 1023,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -2.5f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		uid: "53c35e77",
+		type: "item",
+		item: {
+			id: "gtqtcore:small_bending_cylinder",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:damascus_steel",
+					MaxDurability: 1023,
+					Durability: 0,
+					AttackDamage: 0.0f,
+					AttackSpeed: -1.5f
+				},
+				HideFlags: 2,
+				GT.Behaviours: {}
+			}
+		}
+	},
+	{
+		uid: "5d2d4718",
+		type: "item",
+		item: {
+			id: "gregtech:hammer",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					AttackDamage: 5.0f,
+					ToolSpeed: 10.0f,
+					HarvestLevel: 3,
+					MaxDurability: 1023,
+					AttackSpeed: -2.5f,
+					Material: "gregtech:damascus_steel",
 					Durability: 0
 				},
 				HideFlags: 2,
+				ench: [{
+					id: 35,
+					lvl: 3s
+				}],
 				GT.Behaviours: {}
 			}
 		}

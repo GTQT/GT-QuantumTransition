@@ -1,16 +1,21 @@
 {
-	title: "不再饥饿",
-	icon: "unstabletools:unstable_axe",
+	title: "比肩电脑",
+	icon: "jecalculation:item_calculator",
 	x: 8.0d,
 	y: 2.0d,
 	tasks: [{
 		uid: "20e7698e",
 		type: "ftbmoney:money",
-		value: 2000L
+		value: 20L
 	}],
 	rewards: [{
-		uid: "d4cf3b16",
+		uid: "a25ebc38",
 		type: "item",
-		item: "unstabletools:unstable_axe"
+		item: "jecalculation:item_calculator"
+	},
+	{
+		uid: "09957773",
+		type: "item",
+		item: "jecalculation:item_calculator 1 1"
 	}]
 }

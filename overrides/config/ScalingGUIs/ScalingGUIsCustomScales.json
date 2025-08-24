@@ -6,7 +6,6 @@
   "customGroupGuiScales": {},
   "loggedGuiClassNames": [
     "net.minecraft.client.gui.GuiScreenOptionsSounds",
-    "net.minecraft.client.gui.GuiMainMenu",
     "net.minecraft.client.gui.GuiDownloadTerrain",
     "net.minecraft.client.gui.GuiShareToLan",
     "net.optifine.gui.GuiQualitySettingsOF",
@@ -32,7 +31,6 @@
     "net.minecraft.client.gui.GuiYesNo",
     "com.ezrol.terry.minecraft.defaultworldgenerator.gui.DefaultWorldSelectionList",
     "com.ezrol.terry.minecraft.defaultworldgenerator.gui.GuiCreateCustomWorld",
-    "net.optifine.gui.GuiAnimationSettingsOF",
     "net.minecraft.client.gui.GuiMultiplayer",
     "lumien.custommainmenu.gui.GuiCustom",
     "net.minecraft.client.gui.GuiWorldSelection",
@@ -44,10 +42,13 @@
     "com.github.lunatrius.ingameinfo.client.gui.config.GuiFactory$GuiModConfig",
     "net.minecraftforge.fml.client.GuiModList",
     "net.minecraft.client.gui.GuiIngameMenu",
-    "net.minecraft.client.gui.GuiOptions",
-    "net.minecraft.client.gui.GuiVideoSettings",
     "spazley.scalingguis.gui.guiconfig.GuiConfigSG$GuiNewScale",
     "net.minecraftforge.fml.client.config.GuiConfig",
+    "net.minecraft.client.gui.GuiMainMenu",
+    "net.minecraft.client.gui.GuiOptions",
+    "net.optifine.gui.GuiAnimationSettingsOF",
+    "net.optifine.gui.GuiOtherSettingsOF",
+    "net.minecraft.client.gui.GuiVideoSettings",
     "spazley.scalingguis.gui.guiconfig.GuiConfigSG"
   ],
   "blacklistGuiClassNames": [

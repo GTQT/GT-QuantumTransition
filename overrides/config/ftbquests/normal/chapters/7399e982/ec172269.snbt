@@ -1,7 +1,7 @@
 {
 	title: "奥利奥利奥",
 	icon: "gregtechfoodoption:gtfo_meta_item 1 193",
-	x: 7.0d,
+	x: 6.0d,
 	y: 2.0d,
 	tasks: [{
 		uid: "d11a3d41",

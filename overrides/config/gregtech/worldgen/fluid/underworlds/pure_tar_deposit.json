@@ -1,0 +1,17 @@
+{
+  "name": "gregtech.veins.fluid.pure_tar",
+  "weight": 20,
+  "yield": {
+    "min": 175,
+    "max": 300
+  },
+  "depletion": {
+    "amount": 1,
+    "chance": 100,
+    "depleted_yield": 25
+  },
+  "fluid": "pure_tar",
+  "dimension_filter": [
+    "dimension_id:41"
+  ]
+}

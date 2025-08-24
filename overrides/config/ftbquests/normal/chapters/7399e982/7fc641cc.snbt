@@ -6,7 +6,7 @@
 	tasks: [{
 		uid: "b6976a97",
 		type: "ftbmoney:money",
-		value: 100L
+		value: 50L
 	}],
 	rewards: [{
 		uid: "315bb524",
@@ -29,5 +29,22 @@
 		type: "item",
 		item: "fluiddrawers:tank",
 		count: 8
+	},
+	{
+		uid: "bfc23809",
+		type: "item",
+		item: "storagedrawers:upgrade_storage",
+		count: 16
+	},
+	{
+		uid: "7a731e94",
+		type: "item",
+		item: "ironchest:iron_chest 1 2",
+		count: 4
+	},
+	{
+		uid: "7949a1c9",
+		type: "item",
+		item: "enderutilities:dolly"
 	}]
 }

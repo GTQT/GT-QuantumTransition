@@ -1,56 +1,56 @@
 [
   {
     "content": "gregtech:meta_item_1:1",
-    "unitWorth": 10,
+    "unitWorth": 1,
     "weight": 40,
     "amount": {
       "min": 1,
-      "max": 6
+      "max": 7
     }
   },
   {
     "content": "gregtech:meta_item_1:2",
-    "unitWorth": 80,
+    "unitWorth": 8,
     "weight": 20,
     "amount": {
       "min": 1,
-      "max": 6
+      "max": 7
     }
   },
   {
     "content": "gregtech:meta_item_1:3",
-    "unitWorth": 640,
+    "unitWorth": 64,
     "weight": 10,
     "amount": {
       "min": 1,
-      "max": 6
+      "max": 7
     }
   },
   {
     "content": "gregtech:meta_item_1:4",
-    "unitWorth": 5120,
-    "weight": 5,
+    "unitWorth": 512,
+    "weight": 10,
     "amount": {
       "min": 1,
-      "max": 6
+      "max": 7
     }
   },
   {
     "content": "gregtech:meta_item_1:5",
-    "unitWorth": 40960,
-    "weight": 2,
+    "unitWorth": 4096,
+    "weight": 10,
     "amount": {
       "min": 1,
-      "max": 6
+      "max": 7
     }
   },
    {
     "content": "gregtech:meta_item_1:6",
-    "unitWorth": 327680,
-    "weight": 1,
+    "unitWorth": 32768,
+    "weight": 10,
     "amount": {
       "min": 1,
-      "max": 6
+      "max": 7
     }
   }
 ]

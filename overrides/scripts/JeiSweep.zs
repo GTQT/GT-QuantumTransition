@@ -42,20 +42,16 @@ if(!isNull(enderio)) {
     val enderioItems as IItemStack[] = enderio.items;
 
     for item in enderioItems {
-        if(item.displayName has "Spawner")
-               mods.jei.JEI.hide(item); 
-        if(item.displayName has "Soul Vial")
-               mods.jei.JEI.hide(item);
-		if (item.displayName has "Glass")
+	    val name = item.displayName.toLowerCase();
+		   
+		if (name.contains("灵魂瓶") || 
+			name.contains("刷怪箱") || 
+            name.contains("玻璃") || 
+            name.contains("Soul Vial") || 
+            name.contains("Glass") || 
+            name.contains("Spawner")) {
             mods.jei.JEI.hide(item);
-        if (item.displayName has "Fused Quartz") 
-            mods.jei.JEI.hide(item);
-        if (item.displayName has "decoration block") 
-            mods.jei.JEI.hide(item);
-        if(item.displayName has "灵魂瓶")
-               mods.jei.JEI.hide(item); 
-        if(item.displayName has "破损的刷怪箱")
-               mods.jei.JEI.hide(item); 	   
+        }  
     }
 }
 
@@ -70,6 +66,40 @@ if (!isNull(GregTechCEu)) {
             } else {
                 mods.jei.JEI.hide(item);
             }
+        }
+    }
+}
+
+val forestry as IMod = loadedMods["forestry"];
+if (!isNull(forestry)) {
+    val forestryItems as IItemStack[] = forestry.items;
+    
+    for item in forestryItems {
+        val name = item.displayName.toLowerCase();
+        
+        // 隐藏所有胶囊、罐和耐火胶囊类物品
+        if (name.contains("胶囊") || 
+			name.contains("Capsule") || 
+            name.contains("罐") || 
+            name.contains("Can")) {
+            mods.jei.JEI.hide(item);
+        }
+    }
+}
+
+
+val gendustry as IMod = loadedMods["gendustry"];
+if (!isNull(gendustry)) {
+    val gendustryItems as IItemStack[] = gendustry.items;
+    
+    for item in gendustryItems {
+        val name = item.displayName.toLowerCase();
+        
+        // 隐藏所有基因模板、基因样本和Genetic相关物品
+        if (name.contains("genetic") || 
+            name.contains("基因模板") || 
+            name.contains("基因样本")) {
+            mods.jei.JEI.hide(item);
         }
     }
 }

@@ -7,7 +7,7 @@
 			Charge: 1000000L
 		}
 	},
-	x: 4.0d,
+	x: 5.0d,
 	y: 2.0d,
 	tasks: [{
 		uid: "efd25812",

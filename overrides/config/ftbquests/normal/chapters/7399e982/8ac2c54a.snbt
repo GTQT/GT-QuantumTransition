@@ -1,7 +1,7 @@
 {
 	title: "导管礼包",
 	icon: "enderio:item_item_conduit",
-	x: 2.0d,
+	x: 4.0d,
 	y: 2.0d,
 	tasks: [{
 		uid: "032cacc4",

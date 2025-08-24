@@ -1,31 +1,22 @@
 {
-	title: "绝对防御",
-	icon: "minecraft:diamond_helmet",
-	x: 6.0d,
+	title: "时尚单品",
+	icon: "enderutilities:handybag",
+	x: 7.0d,
 	y: 2.0d,
 	tasks: [{
 		uid: "50a79c7b",
 		type: "ftbmoney:money",
-		value: 25L
+		value: 75L
 	}],
 	rewards: [{
-		uid: "f1ac1ec5",
+		uid: "4af7fca8",
 		type: "item",
-		item: "minecraft:diamond_helmet"
+		item: "enderutilities:enderpart 1 51",
+		count: 4
 	},
 	{
-		uid: "862d8243",
+		uid: "48902e63",
 		type: "item",
-		item: "minecraft:diamond_chestplate"
-	},
-	{
-		uid: "eebab324",
-		type: "item",
-		item: "minecraft:diamond_leggings"
-	},
-	{
-		uid: "5dcad72b",
-		type: "item",
-		item: "minecraft:diamond_boots"
+		item: "enderutilities:handybag"
 	}]
 }
