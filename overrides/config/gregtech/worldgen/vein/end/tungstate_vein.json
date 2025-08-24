@@ -3,7 +3,7 @@
   "weight": 30,
   "density": 0.8,
   "min_height": 0,
-  "max_height": 250
+  "max_height": 250,
   "vein_populator": {
     "type": "surface_rock",
     "material": "tungstate"
