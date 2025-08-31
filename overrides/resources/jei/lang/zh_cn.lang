@@ -1,0 +1,199 @@
+# 工具提示
+jei.tooltip.config=HEI 配置
+jei.tooltip.show.recipes=显示配方
+jei.tooltip.show.all.recipes=显示所有配方
+jei.tooltip.delete.item=点击删除
+jei.tooltip.liquid.amount.with.capacity=%,d / %,d mB
+jei.tooltip.liquid.amount=%,d mB
+jei.tooltip.transfer=移动物品
+jei.tooltip.recipe.ore.dict=接受任意：%s
+jei.tooltip.item.colors=颜色：%s
+jei.tooltip.shapeless.recipe=无序配方
+jei.tooltip.cheat.mode.button.enabled=作弊模式已启用
+jei.tooltip.cheat.mode.how.to.disable.hotkey=按 %s 切换。
+jei.tooltip.cheat.mode.how.to.disable.no.hotkey=按 %s 点击此处切换。
+jei.tooltip.recipe.by=配方提供者：%s
+jei.tooltip.recipe.id=配方 ID：%s
+jei.tooltip.not.enough.space=此处空间不足，无法显示 HEI。
+jei.tooltip.ingredient.list.disabled=HEI 覆盖层已禁用。
+jei.tooltip.ingredient.list.disabled.how.to.fix=按 %s 启用。
+jei.tooltip.bookmarks=HEI 书签
+jei.tooltip.bookmarks.usage.nokey=请在控制设置中为 HEI 书签添加按键绑定。
+jei.tooltip.bookmarks.usage.key=将鼠标悬停在材料上并按 "%s" 可将其添加为书签。
+jei.tooltip.bookmarks.not.enough.space=此处空间不足，无法显示书签。
+
+# 错误工具提示
+jei.tooltip.error.recipe.transfer.missing=缺少物品
+jei.tooltip.error.recipe.transfer.inventory.full=库存已满
+jei.tooltip.error.recipe.transfer.unknown=未知错误，请查看日志
+jei.tooltip.error.recipe.transfer.no.server=服务器必须安装 HEI
+jei.tooltip.error.recipe.transfer.too.large.player.inventory=配方过大，无法在 2x2 玩家合成网格中合成。
+jei.tooltip.error.crash=工具提示错误，请查看日志
+
+# 错误消息
+jei.chat.error.command.too.long=服务器必须安装 HEI 才能处理此聊天命令，该命令过长，Minecraft 无法发送。
+jei.chat.error.no.cheat.permission.1=您没有权限使用 HEI 的作弊模式。
+jei.chat.error.no.cheat.permission.2=拥有 /give 物品权限或处于创造模式的玩家可获得权限。
+
+# 按键绑定
+key.jei.toggleOverlay=显示/隐藏 HEI
+key.jei.focusSearch=选中搜索栏
+key.jei.showRecipe=显示配方
+key.jei.showUses=显示用途
+key.jei.recipeBack=显示上一个查看的配方
+key.jei.toggleCheatMode=切换作弊模式
+key.jei.toggleEditMode=切换隐藏/编辑模式
+key.jei.previousPage=显示上一页
+key.jei.nextPage=显示下一页
+key.jei.bookmark=添加/移除材料书签
+key.hei.recipeBookmark=添加/移除配方书签
+key.jei.toggleBookmarkOverlay=显示/隐藏材料书签
+key.hei.crafting=自动合成选中的书签配方
+
+# 配置
+config.jei.default=默认
+config.jei.valid=有效
+
+config.jei.title=%MODNAME 配置
+
+config.jei.mode=模式
+config.jei.mode.comment=更改 HEI 的运行模式。
+config.jei.mode.cheatItemsEnabled=作弊模式
+config.jei.mode.cheatItemsEnabled.comment=直接给予物品而非显示配方。
+config.jei.mode.editEnabled=隐藏材料模式
+config.jei.mode.editEnabled.comment=通过在列表中点击材料来隐藏或取消隐藏。
+
+config.jei.interface=界面
+config.jei.interface.comment=与用户界面相关的选项。
+config.jei.interface.overlayEnabled=显示材料列表
+config.jei.interface.overlayEnabled.comment=在打开的 GUI 旁边显示材料列表。
+config.jei.interface.bookmarkOverlayEnabled=显示书签
+config.jei.interface.bookmarkOverlayEnabled.comment=在打开的 GUI 旁边显示书签列表。
+config.jei.interface.recipeBookmarksEnabled=启用配方书签
+config.jei.interface.recipeBookmarksEnabled.comment=添加和移除配方书签组。
+config.jei.interface.autocraftingEnabled=启用自动合成
+config.jei.interface.autocraftingEnabled.comment=当且仅当启用配方书签时，允许使用它们进行自动合成。
+
+config.jei.search=搜索选项
+config.jei.search.comment=与搜索栏相关的选项。
+config.jei.search.modNameSearchMode=@模组名称
+config.jei.search.modNameSearchMode.comment=模组名称搜索模式（前缀: @）
+config.jei.search.tooltipSearchMode=#工具提示
+config.jei.search.tooltipSearchMode.comment=工具提示搜索模式（前缀: #）
+config.jei.search.oreDictSearchMode=$矿石词典
+config.jei.search.oreDictSearchMode.comment=矿石词典名称搜索模式（前缀: $）
+config.jei.search.creativeTabSearchMode=%%创造模式标签页
+config.jei.search.creativeTabSearchMode.comment=创造模式标签页名称搜索模式（前缀: %）
+config.jei.search.colorSearchMode=^颜色
+config.jei.search.colorSearchMode.comment=颜色搜索模式（前缀: ^）
+config.jei.search.resourceIdSearchMode=&资源ID
+config.jei.search.resourceIdSearchMode.comment=资源ID搜索模式（前缀: &）
+
+config.jei.advanced=高级
+config.jei.advanced.comment=高级配置选项，用于更改 HEI 的工作方式。
+config.jei.advanced.itemBlacklist=材料黑名单
+config.jei.advanced.itemBlacklist.comment=不应显示在列表中的材料列表。格式：modId[:名称[:元数据]]。隐藏材料模式将自动在此处添加或删除条目。
+config.jei.advanced.colorSearchEnabled=启用颜色搜索
+config.jei.advanced.colorSearchEnabled.comment=按颜色搜索材料，并在列表的工具提示中显示颜色。
+config.jei.advanced.debugModeEnabled=调试模式
+config.jei.advanced.debugModeEnabled.comment=仅对 HEI 开发人员有用，添加测试材料和一些调试配方。
+config.jei.advanced.centerSearchBarEnabled=居中搜索栏
+config.jei.advanced.centerSearchBarEnabled.comment=将 HEI 搜索栏移动到屏幕底部中央。
+config.jei.advanced.modNameFormat=模组名称格式
+config.jei.advanced.modNameFormat.comment=在 HEI GUI 的工具提示中，模组名称的格式。留空以禁用。
+config.jei.advanced.maxColumns=覆盖层最大宽度
+config.jei.advanced.maxColumns.comment=材料列表的最大宽度。
+config.jei.advanced.maxRecipeGuiHeight=配方 GUI 最大高度
+config.jei.advanced.maxRecipeGuiHeight.comment=配方 GUI 的最大高度。
+config.jei.advanced.giveMode=给予模式
+config.jei.advanced.giveMode.comment=选择 HEI 应将材料直接给予库存（inventory）还是用鼠标拾取（mouse_pickup）。
+config.jei.advanced.optimizeMemoryUsage=优化内存使用
+config.jei.advanced.optimizeMemoryUsage.comment=启用 HEI 内存使用优化。
+config.jei.advanced.ultraLowMemoryUsage=超低内存使用模式
+config.jei.advanced.ultraLowMemoryUsage.comment=启用超低内存使用模式，但可能会大大减慢搜索速度。
+config.jei.advanced.recipeBookmarkGroupColor=配方书签组颜色
+config.jei.advanced.recipeBookmarkGroupColor.comment=配方书签组的颜色（RGBA 格式）。
+
+# 隐藏材料模式
+gui.jei.editMode.description=HEI 隐藏材料模式：
+gui.jei.editMode.description.hide=%CTRL-点击以隐藏
+gui.jei.editMode.description.hide.wild=%CTRL-右键点击以通配符隐藏
+
+# PC/Linux 控制键
+key.jei.ctrl=CTRL
+# Mac 命令键
+key.jei.ctrl.mac=CMD
+
+# 配方类别
+gui.jei.category.craftingTable=合成
+gui.jei.category.smelting=熔炼
+gui.jei.category.smelting.experience=%s XP
+gui.jei.category.fuel=燃料
+gui.jei.category.fuel.smeltCount.single=可熔炼 1 个物品
+gui.jei.category.fuel.smeltCount=可熔炼 %s 个物品
+gui.jei.category.brewing=酿造
+gui.jei.category.brewing.steps=步骤：%s
+gui.jei.category.itemInformation=信息
+
+# DEBUG（用于调试模式，无需翻译）
+description.jei.wooden.door.1=木门可以阻止怪物进入你的建筑。\n测试句子。
+description.jei.wooden.door.2=点击门可以切换其开关状态。
+description.jei.wooden.door.3=木门可以通过红石电路打开/关闭。
+
+# 新的 HEI 语言键
+config.jei.rendering=渲染
+config.jei.rendering.comment=渲染配置选项
+config.jei.misc=杂项
+config.jei.misc.comment=杂项配置选项
+
+config.jei.search.searchAdvancedTooltips=搜索高级工具提示
+config.jei.search.searchAdvancedTooltips.comment=在搜索树中包含高级工具提示 [将重新加载搜索树]
+
+config.jei.search.searchStrippedDiacritics=搜索去除变音符号
+config.jei.search.searchStrippedDiacritics.comment=在搜索树中包含字符串的去除变音符号版本 [将重新加载搜索树]
+
+config.jei.advanced.asyncSearchTreeBuilding=异步搜索树构建
+config.jei.advanced.asyncSearchTreeBuilding.comment=在多个线程上并发构建搜索树，如果在加载 HEI 时 CPU 负载极高，请关闭此选项
+
+config.jei.advanced.addBookmarksToFront=将新书签添加至前列
+config.jei.advanced.addBookmarksToFront.comment=启用后，将新书签添加到书签列表的前面
+
+config.jei.misc.mouseClickToSeeRecipes=鼠标点击查看配方/用途
+config.jei.misc.mouseClickToSeeRecipes.comment=禁用后，将不允许在悬停在材料上时通过鼠标点击查看配方和用途
+
+config.jei.misc.tooltipShowRecipeBy=在工具提示中显示“配方提供者”
+config.jei.misc.tooltipShowRecipeBy.comment=通过将其添加到物品的工具提示中来显示配方是否已被更改
+
+config.jei.misc.showHiddenIngredientsInCreative=在创造模式中显示隐藏材料
+config.jei.misc.showHiddenIngredientsInCreative.comment=当玩家处于创造模式时，显示用户隐藏的材料
+
+config.jei.misc.skipShowingProgressBar=跳过显示进度条
+config.jei.misc.skipShowingProgressBar.comment=跳过显示 HEI 加载时的进度条，最多可节省几秒的加载时间
+
+config.jei.rendering.bufferIngredientRenders=缓冲材料渲染
+config.jei.rendering.bufferIngredientRenders.comment=通过使用渲染缓冲区来停止极其频繁的材料绘制调用，将菜单中的 FPS 提高多达 2-3 倍。但动画和闪烁效果将无法正确应用。
+
+config.jei.interface.defaultFluidContainerItem=默认流体容器物品
+config.jei.interface.defaultFluidContainerItem.comment=在菜单中点击流体材料时用于填充流体的默认物品（格式：物品名称@元数据）
+
+config.jei.misc.hideBottomRightCornerConfigButton=隐藏右下角配置按钮
+config.jei.misc.hideBottomRightCornerConfigButton.comment=是否隐藏右下角的配置按钮
+
+config.jei.category.categoryUidOrder=类别 UID 顺序
+config.jei.category.categoryUidOrder.comment=确定配方类别在 HEI 中的显示顺序。列出的类别会优先出现在 HEI 界面中。
+
+hei.generic.ticks=%d 游戏刻
+
+hei.command.load_bookmarks.failure=未找到书签列表，出了严重错误。
+hei.command.load_bookmarks.success=已加载 %d 个书签。
+
+hei.tooltip.unfavorite=取消收藏配方
+hei.tooltip.favorite=收藏配方
+hei.tooltip.favorite_scroll=滚动以更改收藏的物品
+hei.tooltip.recipe_bookmark=书签配方
+
+hei.tooltip.press_alt=按 §fALT§r 查看工具提示
+hei.tooltip.organizer.1=§f上§r 或 §f下§r：向上或向下移动组
+hei.tooltip.organizer.2=§fCTRL + 滚动§r：更改最终输出
+hei.tooltip.organizer.3=§f%s§r：自动合成（默认）
+hei.tooltip.missing_ingredients=§c缺少的材料：

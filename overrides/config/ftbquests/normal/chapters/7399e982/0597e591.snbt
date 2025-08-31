@@ -218,5 +218,28 @@
 				GT.Behaviours: {}
 			}
 		}
+	},
+	{
+		uid: "a1f4393c",
+		type: "item",
+		item: {
+			id: "gregtech:knife",
+			tag: {
+				DisallowContainerItem: 0b,
+				GT.Tool: {
+					Material: "gregtech:damascus_steel",
+					MaxDurability: 1023,
+					Durability: 0,
+					AttackDamage: 4.0f,
+					AttackSpeed: 3.3f
+				},
+				HideFlags: 2,
+				ench: [{
+					id: 21,
+					lvl: 3s
+				}],
+				GT.Behaviours: {}
+			}
+		}
 	}]
 }
