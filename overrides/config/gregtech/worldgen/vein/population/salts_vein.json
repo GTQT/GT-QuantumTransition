@@ -22,7 +22,7 @@
     "type": "layered",
     "values": [
       {
-        "primary": "ore:rock_salt"
+        "primary": "ore:salt"
       },
       {
         "secondary": "ore:salt"

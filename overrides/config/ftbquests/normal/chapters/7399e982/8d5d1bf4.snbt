@@ -1,0 +1,33 @@
+{
+	title: "晶金座矿机兑换",
+	disable_toast: 1b,
+	x: -0.5d,
+	y: 3.5d,
+	text: [
+		"现在晶金座矿机只会把石头转换为远古残骸了",
+		"使用远古残骸来转换gt矿物（包含主世界、下界、末地、地下世界、星辉魔法矿物）",
+		"各矿物权重等同于jei矿脉显示（星辉魔法矿物除外）",
+		"(ps1：gt琥珀矿石被我改成神秘的了，也就是说你现在可以通过晶金座矿机获取珍品了）",
+		"(ps2：铁矿石也是mc原版铁矿石，应对部分星辉需求）"
+	],
+	can_repeat: 1b,
+	tasks: [{
+		uid: "bbd0e34b",
+		type: "item",
+		disable_toast: 1b,
+		items: [{
+			item: "futuremc:ancient_debris"
+		}],
+		consume_items: 1b
+	}],
+	rewards: [{
+		uid: "11c725c6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "gt_"
+			}
+		}
+	}]
+}

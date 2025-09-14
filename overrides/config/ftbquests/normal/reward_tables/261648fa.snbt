@@ -1,0 +1,493 @@
+{
+	title: "晶金座矿物兑换",
+	loot_size: 1,
+	rewards: [{
+		item: "gregtech:ore_brown_limonite_0",
+		weight: 1560
+	},
+	{
+		item: "gregtech:ore_chalcopyrite_0",
+		weight: 1560
+	},
+	{
+		item: "gregtech:ore_magnetite_0",
+		weight: 1240
+	},
+	{
+		item: "gregtech:ore_yellow_limonite_0",
+		weight: 1170
+	},
+	{
+		item: "gregtech:ore_rock_salt_0",
+		weight: 1100
+	},
+	{
+		item: "gregtech:ore_tetrahedrite_0",
+		weight: 980
+	},
+	{
+		item: "gregtech:ore_coal_0",
+		weight: 840
+	},
+	{
+		item: "gregtech:ore_sulfur_0",
+		weight: 840
+	},
+	{
+		item: "gregtech:ore_redstone_0",
+		weight: 840
+	},
+	{
+		item: "gregtech:ore_lignite_0",
+		weight: 800
+	},
+	{
+		item: "gregtech:ore_banded_iron_0",
+		weight: 780
+	},
+	{
+		item: "gregtech:ore_nether_quartz_0",
+		weight: 720
+	},
+	{
+		item: "minecraft:iron_ore",
+		weight: 720
+	},
+	{
+		item: "gregtech:ore_pyrite_0",
+		weight: 680
+	},
+	{
+		item: "gregtech:ore_cassiterite_sand_0",
+		weight: 640
+	},
+	{
+		item: "gregtech:ore_tin_0",
+		weight: 640
+	},
+	{
+		item: "gregtech:ore_apatite_0",
+		weight: 560
+	},
+	{
+		item: "gregtech:ore_flame_coal_0",
+		weight: 540
+	},
+	{
+		item: "gregtech:ore_octine_0",
+		weight: 540
+	},
+	{
+		item: "gregtech:ore_syrmorite_0",
+		weight: 540
+	},
+	{
+		item: "gregtech:ore_copper_0",
+		weight: 520
+	},
+	{
+		item: "thaumcraft:ore_amber",
+		weight: 480
+	},
+	{
+		item: "gregtech:ore_garnet_sand_0",
+		weight: 480
+	},
+	{
+		item: "gregtech:ore_almandine_0",
+		weight: 480
+	},
+	{
+		item: "gregtech:ore_cassiterite_0",
+		weight: 460
+	},
+	{
+		item: "gregtech:ore_zeolite_0",
+		weight: 450
+	},
+	{
+		item: "gregtech:ore_beryllium_0",
+		weight: 420
+	},
+	{
+		item: "gregtech:ore_vanadium_magnetite_0",
+		weight: 410
+	},
+	{
+		item: "gregtech:ore_oilsands_0",
+		weight: 400
+	},
+	{
+		item: "gregtech:ore_cryolite_0",
+		weight: 360
+	},
+	{
+		item: "gregtech:ore_malachite_0",
+		weight: 360
+	},
+	{
+		item: "gregtech:ore_cinnabar_0",
+		weight: 360
+	},
+	{
+		item: "gregtech:ore_pyrope_0",
+		weight: 360
+	},
+	{
+		item: "gregtech:ore_basaltic_mineral_sand_0",
+		weight: 320
+	},
+	{
+		item: "gregtech:ore_soapstone_0",
+		weight: 320
+	},
+	{
+		item: "gregtech:ore_asbestos_0",
+		weight: 320
+	},
+	{
+		item: "gregtech:ore_garnet_red_0",
+		weight: 320
+	},
+	{
+		item: "gregtech:ore_lazurite_0",
+		weight: 320
+	},
+	{
+		item: "gregtech:ore_trona_0",
+		weight: 300
+	},
+	{
+		item: "gregtech:ore_salt_0",
+		weight: 300
+	},
+	{
+		item: "gregtech:ore_infused_earth_0",
+		weight: 280
+	},
+	{
+		item: "gregtech:ore_infused_order_0",
+		weight: 280
+	},
+	{
+		item: "gregtech:ore_galena_0",
+		weight: 280
+	},
+	{
+		item: "gregtech:ore_infused_air_0",
+		weight: 280
+	},
+	{
+		item: "gregtech:ore_infused_water_0",
+		weight: 280
+	},
+	{
+		item: "gregtech:ore_infused_fire_0",
+		weight: 280
+	},
+	{
+		item: "gregtech:ore_infused_entropy_0",
+		weight: 280
+	},
+	{
+		item: "gregtech:ore_graphite_0",
+		weight: 280
+	},
+	{
+		item: "gregtech:ore_diatomite_0",
+		weight: 280
+	},
+	{
+		item: "gregtech:ore_authority_lead_0",
+		weight: 280
+	},
+	{
+		item: "gregtech:ore_sodalite_0",
+		weight: 240
+	},
+	{
+		item: "gregtech:ore_talc_0",
+		weight: 240
+	},
+	{
+		item: "gregtech:ore_quartzite_0",
+		weight: 240
+	},
+	{
+		item: "gregtech:ore_ruby_0",
+		weight: 240
+	},
+	{
+		item: "gregtech:ore_granitic_mineral_sand_0",
+		weight: 240
+	},
+	{
+		item: "gregtech:ore_sapphire_0",
+		weight: 240
+	},
+	{
+		item: "gregtech:ore_grossular_0",
+		weight: 240
+	},
+	{
+		item: "gregtech:ore_garnet_yellow_0",
+		weight: 240
+	},
+	{
+		item: "gregtech:ore_gold_0",
+		weight: 220
+	},
+	{
+		item: "gregtech:ore_certus_quartz_0",
+		weight: 200
+	},
+	{
+		item: "gregtech:ore_lepidolite_0",
+		weight: 200
+	},
+	{
+		item: "gregtech:ore_glauconite_sand_0",
+		weight: 180
+	},
+	{
+		item: "gregtech:ore_fullers_earth_0",
+		weight: 160
+	},
+	{
+		item: "gregtech:ore_garnierite_0",
+		weight: 160
+	},
+	{
+		item: "gregtech:ore_saltpeter_0",
+		weight: 160
+	},
+	{
+		item: "gregtech:ore_tricalcium_phosphate_0",
+		weight: 160
+	},
+	{
+		item: "gregtech:ore_amethyst_0",
+		weight: 160
+	},
+	{
+		item: "gregtech:ore_blue_topaz_0",
+		weight: 160
+	},
+	{
+		item: "gregtech:ore_lapis_0",
+		weight: 160
+	},
+	{
+		item: "gregtech:ore_realgar_0",
+		weight: 150
+	},
+	{
+		item: "gregtech:ore_dumb_tin_0",
+		weight: 140
+	},
+	{
+		item: "gregtech:ore_pyrolusite_0",
+		weight: 140
+	},
+	{
+		item: "gregtech:ore_stibnite_0",
+		weight: 140
+	},
+	{
+		item: "minecraft:diamond_ore",
+		weight: 140
+	},
+	{
+		item: "gregtech:ore_pyrochlore_0",
+		weight: 120
+	},
+	{
+		item: "gregtech:ore_scheelite_0",
+		weight: 120
+	},
+	{
+		item: "gregtech:ore_emerald_0",
+		weight: 120
+	},
+	{
+		item: "gregtech:ore_green_sapphire_0",
+		weight: 120
+	},
+	{
+		item: "gregtech:ore_melt_gold_0",
+		weight: 120
+	},
+	{
+		item: "gregtech:ore_spessartine_0",
+		weight: 120
+	},
+	{
+		item: "gregtech:ore_nickel_0",
+		weight: 120
+	},
+	{
+		item: "gregtech:ore_pentlandite_0",
+		weight: 120
+	},
+	{
+		item: "gregtech:ore_topaz_0",
+		weight: 120
+	},
+	{
+		item: "gregtech:ore_spodumene_0",
+		weight: 100
+	},
+	{
+		item: "gregtech:ore_sphalerite_0",
+		weight: 100
+	},
+	{
+		item: "gregtech:ore_tungstate_0",
+		weight: 90
+	},
+	{
+		item: "gregtech:ore_calcite_0",
+		weight: 80
+	},
+	{
+		item: "gregtech:ore_opal_0",
+		weight: 80
+	},
+	{
+		item: "gregtech:ore_gypsum_0",
+		weight: 80
+	},
+	{
+		item: "gregtech:ore_bentonite_0",
+		weight: 80
+	},
+	{
+		item: "gregtech:ore_kyanite_0",
+		weight: 80
+	},
+	{
+		item: "gregtech:ore_electrotine_0",
+		weight: 80
+	},
+	{
+		item: "gregtech:ore_cobaltite_0",
+		weight: 80
+	},
+	{
+		item: "gregtech:ore_chalcocite_0",
+		weight: 80
+	},
+	{
+		item: "gregtech:ore_bauxite_0",
+		weight: 80
+	},
+	{
+		item: "gregtech:ore_silver_0",
+		weight: 80
+	},
+	{
+		item: "gregtech:ore_mica_0",
+		weight: 60
+	},
+	{
+		item: "gregtech:ore_pluto_zinc_0",
+		weight: 60
+	},
+	{
+		item: "gregtech:ore_valonite_0",
+		weight: 60
+	},
+	{
+		item: "gregtech:ore_pyrargyrite_0",
+		weight: 60
+	},
+	{
+		item: "gregtech:ore_scabyst_0",
+		weight: 60
+	},
+	{
+		item: "gregtech:ore_magnesite_0",
+		weight: 60
+	},
+	{
+		item: "gregtech:ore_thorium_0",
+		weight: 60
+	},
+	{
+		item: "gregtech:ore_tantalite_0",
+		weight: 60
+	},
+	{
+		item: "gregtech:ore_chromite_0",
+		weight: 60
+	},
+	{
+		item: "gregtech:ore_lithium_0",
+		weight: 60
+	},
+	{
+		item: "gregtech:ore_gashydrate_0",
+		weight: 50
+	},
+	{
+		item: "gregtech:ore_bornite_0",
+		weight: 40
+	},
+	{
+		item: "gregtech:ore_alunite_0",
+		weight: 40
+	},
+	{
+		item: "gregtech:ore_olivine_0",
+		weight: 40
+	},
+	{
+		item: "gregtech:ore_barite_0",
+		weight: 40
+	},
+	{
+		item: "gregtech:ore_wulfenite_0",
+		weight: 40
+	},
+	{
+		item: "gregtech:ore_lead_0",
+		weight: 40
+	},
+	{
+		item: "gregtech:ore_tellurium_0",
+		weight: 30
+	},
+	{
+		item: "gregtech:ore_molybdenite_0",
+		weight: 30
+	},
+	{
+		item: "gregtech:ore_molybdenum_0",
+		weight: 20
+	},
+	{
+		item: "gregtech:ore_pollucite_0",
+		weight: 20
+	},
+	{
+		item: "gregtech:ore_powellite_0",
+		weight: 10
+	},
+	{
+		item: "astralsorcery:blockcustomsandore",
+		weight: 160
+	},
+	{
+		item: "astralsorcery:blockcustomore",
+		weight: 80
+	}],
+	loot_crate: {
+		string_id: "gt_",
+		color: 16777215,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}
