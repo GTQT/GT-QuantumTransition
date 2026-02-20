@@ -1,4 +1,3 @@
-远程测试公告，从https://github.com/GTQT/GT-QuantumTransition/new/main
 # 关于2025年度下半年 GTQT 项目全面重构的公告
 为进一步提升项目质量、优化整体架构与玩家体验，我们决定自 今年10月起，正式启动对 GTQT 项目的系统性重构工程。在此期间，我们将暂停内容更新，全力以赴推进技术升级与内容重制。-
 本次重构预计将持续 约四-八个月，目标于 2026年5月中旬 前发布全新的 GTQT 1.9.0 版本。此次升级不仅是技术层面的彻底优化，更是一次内容与体验的全面革新。
@@ -10,3 +9,16 @@
 版本更新提示：
 当前 1.8.0 大版本 的最后一个稳定版本为 1.8.7。我们强烈建议，如无特殊需求，请勿随意更新至非稳定版本，以免影响使用体验。
 本次重构并非破坏性更新，你的存档能够延续之前进度！
+
+# 社群服务地址
+github：https://github.com/GTQT
+discord：https://discord.gg/FsWAa8Y29R
+Curseforge：https://www.curseforge.com/minecraft/modpacks/gregtech-quantum-transition
+夸克网盘：https://pan.quark.cn/s/bbdad8b57e9e
+----------------------------------------
+问题反馈，服务器登记等综合服务：
+wiki：https://docs.qq.com/aio/DRFhDRXZ5dnV0ZEtu
+----------------------------------------
+官方交流群：
+一群：1073091808
+二群：494136307
