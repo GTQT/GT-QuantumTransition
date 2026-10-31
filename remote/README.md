@@ -1,35 +1,43 @@
 # 远程内容目录
 
 所有会被模组远程拉取的内容都收在这里，避免散落在仓库根目录。
-**不再有 index.json**：目录里的文件本身就是全部内容，模组通过 GitHub Contents API 列出目录。
+每个目录有一个 `index.json` 列出文件名；模组先读索引，再按索引里的相对路径拉取。
 
 ## 目录结构
 
 ```
 remote/
   version/
-    1.8.0.json                一个版本一个 JSON
-    1.9.0.json
+    index.json                版本索引
+    1.9.0.json                一个版本一个 JSON
+    2.0.0.json
   announcement/
+    index.json                公告索引
     <announcement>.json       一条公告一个 JSON
   mail/
+    index.json                邮件索引
     <mail>.json               一封邮件一个 JSON（正文 + 奖励）
   community.txt               社群服务（纯文本）
 ```
 
-## 目录 API
+## 索引格式
 
-模组使用 GitHub Contents API 列举目录，再按文件里的 `download_url` 拉取原始内容：
+`version/index.json`、`announcement/index.json`、`mail/index.json` 都是同一套结构：
 
-| 内容 | 目录 API |
-| --- | --- |
-| 版本更新公告 | `https://api.github.com/repos/GTQT/GT-QuantumTransition/contents/remote/version?ref=main` |
-| 公告 | `https://api.github.com/repos/GTQT/GT-QuantumTransition/contents/remote/announcement?ref=main` |
-| 邮件 | `https://api.github.com/repos/GTQT/GT-QuantumTransition/contents/remote/mail?ref=main` |
+```jsonc
+{
+  "version": 1,
+  "files": [
+    "1.9.0.json",
+    "2.0.0.json"
+  ]
+}
+```
 
-- 未认证的 GitHub API 有频率限制；模组只在启动预取和手动 `/quantumhue refresh` 时调用；
-- 目录内的 `README.md` 等非 `.json` 文件会被忽略；
-- 新增/删除内容只需增删文件，不需要改索引。
+- `files` 里的文件名相对于索引所在目录；
+- 也兼容 `mails` 键（与 `files` 合并）；
+- 索引里的文件建议只写 `.json`；`README.md` 不要写进去；
+- 新增/删除内容时同步改索引。
 
 ## 版本更新公告
 
@@ -37,19 +45,17 @@ remote/
 
 ```jsonc
 {
-  "version": "1.9.0",
+  "version": "2.0.0",
   "date": "2026-10-31",
-  "title": "1.9.0 重构完成更新公告",
+  "title": "2.0.0 更新公告",
   "body": [
-    "&6&lGTQT 1.9.0",
-    "&7- 重构完成。",
-    "&8----------------------------------------",
-    "&7- 具体更新内容。"
+    "&6&lGTQT 2.0.0",
+    "&7- 更新内容。"
   ]
 }
 ```
 
-- 模组会先比较文件名里的版本号，只下载比本地新的文件；
+- 模组会先比较文件名里的版本号，只下载不低于本地版本的文件；
 - 文件名不是版本号时才会下载，并以 JSON 里的 `version` 字段为准；
 - 版本号按点分数字比较，忽略 `-pre` 等后缀；
 - 比本地旧的版本不会被展示。
@@ -99,7 +105,7 @@ remote/
 
 ## 规则
 
-- 更新公告、公告、社群服务在**加载阶段**由后台线程预取，最多尝试 3 次；进入游戏后只读内存，
+- 更新公告、公告、社群服务在**加载阶段**由后台线程预取；进入游戏后只读内存，
   除非执行 `/quantumhue refresh`，否则不会主动联网。
 - 邮件同样在加载阶段预取到内存；世界加载时使用，运行期不自动拉取。
 - 所有远程内容都不写本地缓存文件，进程重启后重新拉取。
