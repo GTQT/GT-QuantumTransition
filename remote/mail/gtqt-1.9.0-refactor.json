@@ -1,0 +1,24 @@
+{
+  "id": "gtqt-1.9.0-refactor",
+  "title": "1.9.0 重构纪念礼包",
+  "sender": "GTQT 运营组",
+  "date": "2026-10-31",
+  "startsAt": 0,
+  "expiresAt": 0,
+  "money": 0,
+  "body": [
+    "&6&lGTQT 1.9.0 重构纪念",
+    "&7感谢你一直等待并支持 GTQT。",
+    "&7这是一份小小的补给，请收下。",
+    "&8----------------------------------------",
+    "&7领取后奖励会直接进入背包；",
+    "&7背包已满时会掉落在脚下。"
+  ],
+  "rewards": [
+    { "item": "minecraft:diamond", "meta": 0, "count": 8 },
+    { "item": "minecraft:iron_ingot", "meta": 0, "count": 32 },
+    { "item": "minecraft:gold_ingot", "meta": 0, "count": 16 },
+    { "item": "minecraft:torch", "meta": 0, "count": 64 },
+    { "item": "minecraft:bread", "meta": 0, "count": 16 }
+  ]
+}
