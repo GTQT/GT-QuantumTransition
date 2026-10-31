@@ -1,58 +1,58 @@
 # 远程内容目录
 
 所有会被模组远程拉取的内容都收在这里，避免散落在仓库根目录。
+**不再有 index.json**：目录里的文件本身就是全部内容，模组通过 GitHub Contents API 列出目录。
 
 ## 目录结构
 
 ```
 remote/
   version/
-    latest.txt                远程最新版本号（只写版本号本身）
-    <version>.txt             对应版本的更新日志（纯文本）
+    1.8.0.json                一个版本一个 JSON
+    1.9.0.json
   announcement/
-    index.json                公告索引：列出本目录下所有公告文件
-    <announcement>.json       一条公告对应一个 JSON
+    <announcement>.json       一条公告一个 JSON
   mail/
-    index.json                邮件索引：列出本目录下所有邮件文件
-    <mail>.json               一封邮件对应一个 JSON（正文 + 奖励）
+    <mail>.json               一封邮件一个 JSON（正文 + 奖励）
+  community.txt               社群服务（纯文本）
 ```
 
-对应 GitHub Raw 地址（`main` 分支）：
+## 目录 API
 
-| 内容 | 地址 |
+模组使用 GitHub Contents API 列举目录，再按文件里的 `download_url` 拉取原始内容：
+
+| 内容 | 目录 API |
 | --- | --- |
-| 最新版本 | `https://raw.githubusercontent.com/GTQT/GT-QuantumTransition/main/remote/version/latest.txt` |
-| 更新日志 | `https://raw.githubusercontent.com/GTQT/GT-QuantumTransition/main/remote/version/<version>.txt` |
-| 公告索引 | `https://raw.githubusercontent.com/GTQT/GT-QuantumTransition/main/remote/announcement/index.json` |
-| 公告文件 | `https://raw.githubusercontent.com/GTQT/GT-QuantumTransition/main/remote/announcement/<file>.json` |
-| 邮件索引 | `https://raw.githubusercontent.com/GTQT/GT-QuantumTransition/main/remote/mail/index.json` |
-| 邮件文件 | `https://raw.githubusercontent.com/GTQT/GT-QuantumTransition/main/remote/mail/<file>.json` |
+| 版本更新公告 | `https://api.github.com/repos/GTQT/GT-QuantumTransition/contents/remote/version?ref=main` |
+| 公告 | `https://api.github.com/repos/GTQT/GT-QuantumTransition/contents/remote/announcement?ref=main` |
+| 邮件 | `https://api.github.com/repos/GTQT/GT-QuantumTransition/contents/remote/mail?ref=main` |
 
-## 文本格式（版本号 / 更新日志）
+- 未认证的 GitHub API 有频率限制；模组只在启动预取和手动 `/quantumhue refresh` 时调用；
+- 目录内的 `README.md` 等非 `.json` 文件会被忽略；
+- 新增/删除内容只需增删文件，不需要改索引。
 
-- 编码：UTF-8，无 BOM。
-- 支持 `&` 颜色码（运行时转成 `§`）。
-- 以 `#` 开头的行视为注释，不显示。
-- 更新日志一行一条。
+## 版本更新公告
 
-## 索引格式
-
-`announcement/index.json` 与 `mail/index.json` 结构相同：
+`version/<version>.json`，建议文件名直接使用版本号，方便模组在下载前就跳过旧版本：
 
 ```jsonc
 {
-  "version": 1,
-  "files": [
-    "2025-refactor.json",
-    "2026-mail-system.json"
+  "version": "1.9.0",
+  "date": "2026-10-31",
+  "title": "1.9.0 重构完成更新公告",
+  "body": [
+    "&6&lGTQT 1.9.0",
+    "&7- 重构完成。",
+    "&8----------------------------------------",
+    "&7- 具体更新内容。"
   ]
 }
 ```
 
-- `files` 只放本目录下的文件名，不支持子目录、绝对路径或 `..`；
-- 新增内容：先加 JSON 文件，再把文件名加进 `files`；
-- 删除内容：从 `files` 移除即可（已领取的邮件记录不受影响）；
-- 顺序不重要；公告会按 `pinned` + `date` 排序，邮件按索引顺序展示。
+- 模组会先比较文件名里的版本号，只下载比本地新的文件；
+- 文件名不是版本号时才会下载，并以 JSON 里的 `version` 字段为准；
+- 版本号按点分数字比较，忽略 `-pre` 等后缀；
+- 比本地旧的版本不会被展示。
 
 ## 公告文件
 
@@ -60,17 +60,16 @@ remote/
 
 ```jsonc
 {
-  "id": "2025-refactor",                 // 稳定 id
+  "id": "2025-refactor",
   "title": "关于项目重构的公告",
-  "date": "2025-10-01",                  // 展示用；同时用于排序
-  "author": "GTQT 运营组",                // 可选
-  "pinned": true,                        // 可选，置顶排在最前
-  "body": [                              // 正文，一行一条，支持 & 颜色码
-    "&6标题行",
-    "&7正文第一行"
-  ]
+  "date": "2025-10-01",
+  "author": "GTQT 运营组",
+  "pinned": true,
+  "body": ["&6标题行", "&7正文第一行"]
 }
 ```
+
+公告页按 `pinned` + `date` 排序。
 
 ## 邮件文件
 
@@ -81,27 +80,28 @@ remote/
   "id": "gtqt-1.9.0-refactor",   // 稳定 id；领取记录按它记，改 id 等于发新邮件
   "title": "1.9.0 重构纪念礼包",
   "sender": "GTQT 运营组",
-  "date": "2026-10-31",          // 展示用日期
+  "date": "2026-10-31",
   "startsAt": 0,                 // 开始生效时间（epoch 毫秒），0 = 立即
   "expiresAt": 0,                // 过期时间（epoch 毫秒），0 = 永不过期
   "money": 0,                    // 可选，FTB Money 货币
-  "body": [                      // 正文，一行一条，支持 & 颜色码
-    "&6&l标题行",
-    "&7正文第一行"
-  ],
-  "rewards": [                   // 奖励物品，最多 36 条
+  "body": ["&6&l标题行", "&7正文第一行"],
+  "rewards": [
     { "item": "minecraft:diamond", "meta": 0, "count": 8 }
   ]
 }
 ```
 
-### 规则
+邮件由服务端在加载阶段预取到内存，世界加载时直接使用；运行期不自动拉取，领取记录写入存档。
 
-- **邮件与公告内容只来自远程**：本地 `config/quantumhue/*.json` 只有远程地址与刷新参数，不保存任何公告/邮件。
-- 公告由客户端拉取用于展示；邮件由**服务端**拉取、校验并通过数据包发给客户端。
-- 客户端领取邮件时只发送 `mailId`，奖励由服务端根据远程邮件内容发放。
-- 每名玩家每封邮件只能领取一次，领取记录写在对应存档的 `quantumhue_mail_data` 里。
-- `startsAt` / `expiresAt` 使用 **epoch 毫秒**（不是秒）。
+## 社群服务
+
+`community.txt` 是纯文本，按行显示，支持 `&` 颜色码与 `#` 注释。
+
+## 规则
+
+- 更新公告、公告、社群服务在**加载阶段**由后台线程预取，最多尝试 3 次；进入游戏后只读内存，
+  除非执行 `/quantumhue refresh`，否则不会主动联网。
+- 邮件同样在加载阶段预取到内存；世界加载时使用，运行期不自动拉取。
+- 所有远程内容都不写本地缓存文件，进程重启后重新拉取。
 - `rewards[].item` 使用物品注册名；`meta` 可省略；`count` 会被限制在合理范围内。
-- 奖励会直接进入背包，背包满时掉落在地上。
-- 修改远程文件后，服务器下一次刷新（默认 10 分钟）或执行 `/quantumhue refresh` 后生效。
+- `startsAt` / `expiresAt` 使用 **epoch 毫秒**（不是秒）。
