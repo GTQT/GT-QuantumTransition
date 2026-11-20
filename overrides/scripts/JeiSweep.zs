@@ -116,12 +116,13 @@ mods.jei.JEI.removeAndHide(<bq_standard:loot_chest:103>.withTag({loottable: "min
 mods.jei.JEI.removeAndHide(<bq_standard:loot_chest:103>.withTag({loottable: "minecraft:chests/simple_dungeon", hideLootInfo: 1 as byte}));
 mods.jei.JEI.removeAndHide(<bq_standard:loot_chest:104>.withTag({hideLootInfo: 1 as byte, fixedLootList: [{id: "minecraft:stone", Count: 1, Damage: 0 as short, OreDict: ""}], fixedLootName: "Item Set"}));
 
-//  Remove and hide top items.
-mods.jei.JEI.removeAndHide(<theoneprobe:probe>);
-mods.jei.JEI.removeAndHide(<theoneprobe:probenote>);
-mods.jei.JEI.removeAndHide(<theoneprobe:creativeprobe>);
-mods.jei.JEI.removeAndHide(<theoneprobe:iron_helmet_probe>.withTag({theoneprobe: 1}));
-mods.jei.JEI.removeAndHide(<theoneprobe:gold_helmet_probe>.withTag({theoneprobe: 1}));
-mods.jei.JEI.removeAndHide(<theoneprobe:diamond_helmet_probe>.withTag({theoneprobe: 1}));
+// Hide TOP items in JEI. Do not remove their recipes: JEI is client-only while
+// the recipe registry is synchronized with the dedicated server.
+mods.jei.JEI.hide(<theoneprobe:probe>);
+mods.jei.JEI.hide(<theoneprobe:probenote>);
+mods.jei.JEI.hide(<theoneprobe:creativeprobe>);
+mods.jei.JEI.hide(<theoneprobe:iron_helmet_probe>.withTag({theoneprobe: 1}));
+mods.jei.JEI.hide(<theoneprobe:gold_helmet_probe>.withTag({theoneprobe: 1}));
+mods.jei.JEI.hide(<theoneprobe:diamond_helmet_probe>.withTag({theoneprobe: 1}));
 
 
